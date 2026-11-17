@@ -141,7 +141,13 @@ export function load(): Data {
   if (labelFiles.length) {
     const labels: Record<string, Record<string, number>> = {};
     for (const f of labelFiles) for (const [k, v] of Object.entries(tryYaml(join(figDir, f), errors) ?? {})) labels[k] = { ...(labels[k] ?? {}), ...(v as Record<string, number>) };
-    const index = readYaml(join(figDir, "index.yaml")) as { page: number; file: string }[];
+    // index.yaml: dense regions (photos). index-drawings.yaml: framed line
+    // drawings that the first pass misses (scripts/extract_drawings.py).
+    const drawingsIndex = join(figDir, "index-drawings.yaml");
+    const index = [
+      ...(readYaml(join(figDir, "index.yaml")) as { page: number; file: string }[]),
+      ...(existsSync(drawingsIndex) ? (readYaml(drawingsIndex) as { page: number; file: string }[]) : []),
+    ];
     const byStem = new Map(index.map((e) => [e.file.split("/").pop()!.replace(/\.jpg$/, ""), e]));
     for (const [chapterKey, map] of Object.entries(labels)) {
       const chapter = Number(chapterKey.replace("chapter-", ""));

@@ -27,6 +27,6 @@ review:   # drawing-only and disputed readings; resolved items keep their result
   - "DONE ch4 fig 25: camshaft cap bolt sequence read from p99, recreated as diagram c04-camshaft-cap-sequence"
   - "DONE ch4 fig 49: cylinder head sequence read from p107, recreated as diagram c04-head-torque-sequence"
   - "DONE ch4 figs 22-24: timing marks; the steps give the text rules (arrows forward, marks parallel to the head top edge)"
-  - "DONE ch5: rear balancer shaft snap ring, Clymer contradicts itself (p133 in, p136 out); shown as conflict plus gap"
+  - "DONE ch5: rear balancer shaft snap rings. Not a contradiction: p136 (out) is the left-end ring at the sprocket, p133 (in) is the right-end ring (p132 removal order, p141 assembly). Conflict and gap removed 2026-11-17."
   - "DONE ch7 p178: second gear recesses face in = toward the middle of the shaft, away from the splined end; gap removed"
   - "DONE ch1 p25: torque adapter formula TW = TA x L / (L + A) matches the text layer, the variable definitions and the worked example"

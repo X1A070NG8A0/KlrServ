@@ -74,11 +74,11 @@ The KLR600 OCR also needs Tesseract.
 | `scripts/ocr_klr600.py` | OCR of the scanned KLR600 manual |
 | `scripts/build_book.py` | Book sections from the Clymer text, `doc/book/clymer.json` |
 | `scripts/extract_figures.py` | Photo crops in `doc/figures/clymer/` |
+| `scripts/extract_drawings.py` | Crops of framed line drawings that the first pass misses, `index-drawings.yaml` |
 | `scripts/figure_contact_sheet.py` | Contact sheet to read figure numbers into `labels-chNN.yaml` |
 | `scripts/save_forum_threads.py` | Saved threads in `doc/community/` |
 
 ## Known limits
 
-- About 240 figures have no cropped photo, because the detector did not find them. These are mostly line drawings. The step names the figure.
-- Clymer contradicts itself on the direction of the snap ring on the rear balancer shaft (PDF p133 and p136). The procedure shows both and marks a gap.
-- For 2006, the Clymer serial number table gives the model code (KL650-A20) but no serial number range.
+- 37 figures that a step cites have no crop. For these, no region was found, or the region does not show its circled number. The step names the figure. `labels-corners.yaml` holds the numbers that were read by eye from widened corners. Each of those labels matches a step on the same page or the next page that cites that figure.
+- No source in `doc/` gives the first 2006 frame number. Clymer Table 1 gives the model code (KL650-A20). The frame number table in the Kawasaki supplement stops at 2002 (KL650-A16).

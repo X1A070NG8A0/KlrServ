@@ -1,0 +1,666 @@
+- page: 16
+  figure: null
+  bbox_pt:
+  - 253.9
+  - 209.3
+  - 368.2
+  - 348.5
+  density: 0.833
+  file: doc/figures/clymer/p016-d0.jpg
+- page: 70
+  figure: null
+  bbox_pt:
+  - 252.0
+  - 51.4
+  - 458.9
+  - 235.7
+  density: 0.108
+  file: doc/figures/clymer/p070-d0.jpg
+- page: 72
+  figure: null
+  bbox_pt:
+  - 252.0
+  - 49.9
+  - 459.8
+  - 211.2
+  density: 0.098
+  file: doc/figures/clymer/p072-d0.jpg
+- page: 72
+  figure: null
+  bbox_pt:
+  - 31.2
+  - 54.7
+  - 235.2
+  - 214.6
+  density: 0.125
+  file: doc/figures/clymer/p072-d1.jpg
+- page: 72
+  figure: null
+  bbox_pt:
+  - 32.6
+  - 226.1
+  - 461.8
+  - 471.4
+  density: 0.052
+  file: doc/figures/clymer/p072-d2.jpg
+- page: 74
+  figure: null
+  bbox_pt:
+  - 32.6
+  - 56.2
+  - 237.1
+  - 179.5
+  density: 0.215
+  file: doc/figures/clymer/p074-d0.jpg
+- page: 85
+  figure: null
+  bbox_pt:
+  - 5.8
+  - 46.6
+  - 213.6
+  - 220.3
+  density: 0.208
+  file: doc/figures/clymer/p085-d0.jpg
+- page: 85
+  figure: null
+  bbox_pt:
+  - 230.4
+  - 51.8
+  - 468.0
+  - 222.7
+  density: 0.112
+  file: doc/figures/clymer/p085-d1.jpg
+- page: 98
+  figure: null
+  bbox_pt:
+  - 32.2
+  - 46.1
+  - 460.3
+  - 280.3
+  density: 0.062
+  file: doc/figures/clymer/p098-d0.jpg
+- page: 102
+  figure: null
+  bbox_pt:
+  - 32.2
+  - 47.5
+  - 236.6
+  - 230.4
+  density: 0.075
+  file: doc/figures/clymer/p102-d0.jpg
+- page: 105
+  figure: null
+  bbox_pt:
+  - 15.4
+  - 529.4
+  - 203.5
+  - 645.6
+  density: 0.251
+  file: doc/figures/clymer/p105-d0.jpg
+- page: 107
+  figure: null
+  bbox_pt:
+  - 10.1
+  - 49.0
+  - 218.9
+  - 353.3
+  density: 0.072
+  file: doc/figures/clymer/p107-d0.jpg
+- page: 108
+  figure: null
+  bbox_pt:
+  - 253.4
+  - 46.6
+  - 463.2
+  - 484.3
+  density: 0.064
+  file: doc/figures/clymer/p108-d0.jpg
+- page: 108
+  figure: null
+  bbox_pt:
+  - 31.7
+  - 50.9
+  - 236.6
+  - 257.8
+  density: 0.119
+  file: doc/figures/clymer/p108-d1.jpg
+- page: 109
+  figure: null
+  bbox_pt:
+  - 12.5
+  - 363.4
+  - 219.8
+  - 540.5
+  density: 0.073
+  file: doc/figures/clymer/p109-d0.jpg
+- page: 110
+  figure: null
+  bbox_pt:
+  - 30.7
+  - 50.9
+  - 236.2
+  - 281.8
+  density: 0.045
+  file: doc/figures/clymer/p110-d0.jpg
+- page: 110
+  figure: null
+  bbox_pt:
+  - 253.4
+  - 205.0
+  - 462.7
+  - 478.1
+  density: 0.068
+  file: doc/figures/clymer/p110-d1.jpg
+- page: 111
+  figure: null
+  bbox_pt:
+  - 234.7
+  - 53.3
+  - 438.2
+  - 251.5
+  density: 0.065
+  file: doc/figures/clymer/p111-d0.jpg
+- page: 111
+  figure: null
+  bbox_pt:
+  - 73.4
+  - 228.5
+  - 183.8
+  - 325.4
+  density: 0.313
+  file: doc/figures/clymer/p111-d1.jpg
+- page: 112
+  figure: null
+  bbox_pt:
+  - 255.8
+  - 48.0
+  - 463.7
+  - 244.3
+  density: 0.09
+  file: doc/figures/clymer/p112-d0.jpg
+- page: 112
+  figure: null
+  bbox_pt:
+  - 255.8
+  - 260.6
+  - 463.7
+  - 473.3
+  density: 0.103
+  file: doc/figures/clymer/p112-d1.jpg
+- page: 115
+  figure: null
+  bbox_pt:
+  - 14.4
+  - 362.4
+  - 222.7
+  - 660.5
+  density: 0.063
+  file: doc/figures/clymer/p115-d0.jpg
+- page: 115
+  figure: null
+  bbox_pt:
+  - 38.9
+  - 433.0
+  - 200.6
+  - 642.2
+  density: 0.076
+  file: doc/figures/clymer/p115-d1.jpg
+- page: 117
+  figure: null
+  bbox_pt:
+  - 10.6
+  - 47.0
+  - 219.4
+  - 537.1
+  density: 0.052
+  file: doc/figures/clymer/p117-d0.jpg
+- page: 117
+  figure: null
+  bbox_pt:
+  - 236.2
+  - 54.2
+  - 439.7
+  - 235.7
+  density: 0.084
+  file: doc/figures/clymer/p117-d1.jpg
+- page: 118
+  figure: null
+  bbox_pt:
+  - 255.8
+  - 206.9
+  - 463.7
+  - 365.8
+  density: 0.065
+  file: doc/figures/clymer/p118-d0.jpg
+- page: 119
+  figure: null
+  bbox_pt:
+  - 12.0
+  - 49.4
+  - 220.3
+  - 233.8
+  density: 0.102
+  file: doc/figures/clymer/p119-d0.jpg
+- page: 120
+  figure: null
+  bbox_pt:
+  - 254.9
+  - 364.8
+  - 462.7
+  - 505.4
+  density: 0.112
+  file: doc/figures/clymer/p120-d0.jpg
+- page: 121
+  figure: null
+  bbox_pt:
+  - 238.6
+  - 52.8
+  - 468.0
+  - 222.2
+  density: 0.06
+  file: doc/figures/clymer/p121-d0.jpg
+- page: 122
+  figure: null
+  bbox_pt:
+  - 254.4
+  - 49.9
+  - 462.2
+  - 174.2
+  density: 0.1
+  file: doc/figures/clymer/p122-d0.jpg
+- page: 130
+  figure: null
+  bbox_pt:
+  - 33.6
+  - 45.1
+  - 465.1
+  - 659.0
+  density: 0.051
+  file: doc/figures/clymer/p130-d0.jpg
+- page: 133
+  figure: null
+  bbox_pt:
+  - 13.9
+  - 364.8
+  - 171.8
+  - 453.6
+  density: 0.388
+  file: doc/figures/clymer/p133-d0.jpg
+- page: 134
+  figure: null
+  bbox_pt:
+  - 36.0
+  - 58.1
+  - 143.5
+  - 184.8
+  density: 0.41
+  file: doc/figures/clymer/p134-d0.jpg
+- page: 135
+  figure: null
+  bbox_pt:
+  - 7.2
+  - 49.0
+  - 468.0
+  - 492.5
+  density: 0.048
+  file: doc/figures/clymer/p135-d0.jpg
+- page: 153
+  figure: null
+  bbox_pt:
+  - 6.7
+  - 48.5
+  - 438.7
+  - 504.0
+  density: 0.057
+  file: doc/figures/clymer/p153-d0.jpg
+- page: 153
+  figure: null
+  bbox_pt:
+  - 236.2
+  - 518.4
+  - 334.1
+  - 657.6
+  density: 0.409
+  file: doc/figures/clymer/p153-d1.jpg
+- page: 158
+  figure: null
+  bbox_pt:
+  - 256.8
+  - 359.5
+  - 391.7
+  - 498.7
+  density: 0.406
+  file: doc/figures/clymer/p158-d0.jpg
+- page: 169
+  figure: null
+  bbox_pt:
+  - 11.5
+  - 362.9
+  - 219.8
+  - 522.2
+  density: 0.065
+  file: doc/figures/clymer/p169-d0.jpg
+- page: 191
+  figure: null
+  bbox_pt:
+  - 239.5
+  - 69.1
+  - 338.4
+  - 201.1
+  density: 0.574
+  file: doc/figures/clymer/p191-d0.jpg
+- page: 208
+  figure: null
+  bbox_pt:
+  - 32.2
+  - 50.4
+  - 463.7
+  - 664.3
+  density: 0.037
+  file: doc/figures/clymer/p208-d0.jpg
+- page: 211
+  figure: null
+  bbox_pt:
+  - 15.8
+  - 367.2
+  - 225.1
+  - 589.0
+  density: 0.16
+  file: doc/figures/clymer/p211-d0.jpg
+- page: 212
+  figure: null
+  bbox_pt:
+  - 261.1
+  - 373.9
+  - 386.9
+  - 506.9
+  density: 0.431
+  file: doc/figures/clymer/p212-d0.jpg
+- page: 212
+  figure: null
+  bbox_pt:
+  - 366.7
+  - 387.4
+  - 463.2
+  - 506.9
+  density: 0.503
+  file: doc/figures/clymer/p212-d1.jpg
+- page: 214
+  figure: null
+  bbox_pt:
+  - 31.7
+  - 50.4
+  - 462.7
+  - 362.9
+  density: 0.039
+  file: doc/figures/clymer/p214-d0.jpg
+- page: 217
+  figure: null
+  bbox_pt:
+  - 13.4
+  - 54.7
+  - 465.6
+  - 529.4
+  density: 0.075
+  file: doc/figures/clymer/p217-d0.jpg
+- page: 220
+  figure: null
+  bbox_pt:
+  - 36.0
+  - 49.9
+  - 467.0
+  - 433.9
+  density: 0.075
+  file: doc/figures/clymer/p220-d0.jpg
+- page: 224
+  figure: null
+  bbox_pt:
+  - 258.2
+  - 53.8
+  - 466.1
+  - 328.3
+  density: 0.128
+  file: doc/figures/clymer/p224-d0.jpg
+- page: 225
+  figure: null
+  bbox_pt:
+  - 4.3
+  - 53.8
+  - 215.5
+  - 327.4
+  density: 0.069
+  file: doc/figures/clymer/p225-d0.jpg
+- page: 226
+  figure: null
+  bbox_pt:
+  - 260.2
+  - 50.9
+  - 468.0
+  - 211.2
+  density: 0.083
+  file: doc/figures/clymer/p226-d0.jpg
+- page: 228
+  figure: null
+  bbox_pt:
+  - 259.2
+  - 209.3
+  - 467.0
+  - 391.7
+  density: 0.106
+  file: doc/figures/clymer/p228-d0.jpg
+- page: 229
+  figure: null
+  bbox_pt:
+  - 4.3
+  - 53.8
+  - 465.6
+  - 363.8
+  density: 0.048
+  file: doc/figures/clymer/p229-d0.jpg
+- page: 232
+  figure: null
+  bbox_pt:
+  - 36.0
+  - 48.5
+  - 466.6
+  - 504.5
+  density: 0.036
+  file: doc/figures/clymer/p232-d0.jpg
+- page: 238
+  figure: null
+  bbox_pt:
+  - 24.5
+  - 44.2
+  - 229.0
+  - 227.0
+  density: 0.14
+  file: doc/figures/clymer/p238-d0.jpg
+- page: 238
+  figure: null
+  bbox_pt:
+  - 123.4
+  - 599.0
+  - 230.9
+  - 641.8
+  density: 0.047
+  file: doc/figures/clymer/p238-d1.jpg
+- page: 244
+  figure: null
+  bbox_pt:
+  - 252.0
+  - 43.7
+  - 461.3
+  - 409.0
+  density: 0.063
+  file: doc/figures/clymer/p244-d0.jpg
+- page: 247
+  figure: null
+  bbox_pt:
+  - 49.9
+  - 527.5
+  - 206.4
+  - 658.1
+  density: 0.26
+  file: doc/figures/clymer/p247-d0.jpg
+- page: 249
+  figure: null
+  bbox_pt:
+  - 12.5
+  - 50.9
+  - 442.1
+  - 245.3
+  density: 0.085
+  file: doc/figures/clymer/p249-d0.jpg
+- page: 250
+  figure: null
+  bbox_pt:
+  - 254.4
+  - 46.1
+  - 462.2
+  - 230.4
+  density: 0.121
+  file: doc/figures/clymer/p250-d0.jpg
+- page: 250
+  figure: null
+  bbox_pt:
+  - 254.9
+  - 247.2
+  - 462.2
+  - 405.1
+  density: 0.056
+  file: doc/figures/clymer/p250-d1.jpg
+- page: 252
+  figure: null
+  bbox_pt:
+  - 253.4
+  - 44.2
+  - 461.3
+  - 300.5
+  density: 0.067
+  file: doc/figures/clymer/p252-d0.jpg
+- page: 252
+  figure: null
+  bbox_pt:
+  - 32.2
+  - 205.4
+  - 199.7
+  - 272.2
+  density: 0.039
+  file: doc/figures/clymer/p252-d1.jpg
+- page: 252
+  figure: null
+  bbox_pt:
+  - 253.4
+  - 317.8
+  - 461.8
+  - 657.6
+  density: 0.071
+  file: doc/figures/clymer/p252-d2.jpg
+- page: 253
+  figure: null
+  bbox_pt:
+  - 8.6
+  - 51.4
+  - 218.9
+  - 355.2
+  density: 0.046
+  file: doc/figures/clymer/p253-d0.jpg
+- page: 253
+  figure: null
+  bbox_pt:
+  - 283.7
+  - 89.8
+  - 387.8
+  - 187.2
+  density: 0.605
+  file: doc/figures/clymer/p253-d1.jpg
+- page: 253
+  figure: null
+  bbox_pt:
+  - 12.5
+  - 371.0
+  - 221.8
+  - 664.8
+  density: 0.045
+  file: doc/figures/clymer/p253-d2.jpg
+- page: 265
+  figure: null
+  bbox_pt:
+  - 8.6
+  - 56.6
+  - 220.3
+  - 348.0
+  density: 0.066
+  file: doc/figures/clymer/p265-d0.jpg
+- page: 265
+  figure: null
+  bbox_pt:
+  - 13.9
+  - 362.9
+  - 225.1
+  - 670.1
+  density: 0.038
+  file: doc/figures/clymer/p265-d1.jpg
+- page: 266
+  figure: null
+  bbox_pt:
+  - 253.4
+  - 48.5
+  - 461.3
+  - 245.3
+  density: 0.071
+  file: doc/figures/clymer/p266-d0.jpg
+- page: 285
+  figure: null
+  bbox_pt:
+  - 9.1
+  - 215.0
+  - 181.9
+  - 351.4
+  density: 0.344
+  file: doc/figures/clymer/p285-d0.jpg
+- page: 300
+  figure: null
+  bbox_pt:
+  - 296.2
+  - 60.0
+  - 410.4
+  - 179.0
+  density: 0.522
+  file: doc/figures/clymer/p300-d0.jpg
+- page: 314
+  figure: null
+  bbox_pt:
+  - 293.8
+  - 241.4
+  - 409.4
+  - 326.9
+  density: 0.387
+  file: doc/figures/clymer/p314-d0.jpg
+- page: 314
+  figure: null
+  bbox_pt:
+  - 277.4
+  - 394.6
+  - 442.1
+  - 462.7
+  density: 0.441
+  file: doc/figures/clymer/p314-d1.jpg
+- page: 321
+  figure: null
+  bbox_pt:
+  - 3.4
+  - 56.2
+  - 465.6
+  - 511.2
+  density: 0.031
+  file: doc/figures/clymer/p321-d0.jpg
+- page: 325
+  figure: null
+  bbox_pt:
+  - 3.4
+  - 51.8
+  - 210.2
+  - 234.7
+  density: 0.116
+  file: doc/figures/clymer/p325-d0.jpg

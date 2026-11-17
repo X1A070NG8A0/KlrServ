@@ -65,6 +65,7 @@ operations:
           - {t: "Examine the splines, the sprocket teeth and the rubber mounting on the sprocket.", cite: {p: 133}}
           - {t: "On early engines, examine the springs and the rollers in the sprocket. Replace parts that are worn, fatigued or missing.", cite: {p: 133}}
           - {t: "During assembly, install a new snap ring at the left end of the shaft.", cite: {p: 133}}
+          - {t: "Install a new snap ring on the right end of the shaft now. Install the snap ring so that the sharp edge faces in, toward the balancer weight.", cite: {p: 133}}
       - title: "Balancer chain tensioner"
         steps:
           - {t: "Examine the spacer and the washers.", cite: {p: 133}, figs: [21], op: balancer-chain-tensioner}
@@ -130,9 +131,9 @@ operations:
           - {t: "Make sure that all sprocket alignments are correct. Move any sprocket that is not aligned at top dead center.", cite: {p: 136}}
       - title: "Snap rings, cam chain and guides"
         steps:
-          - {t: "Install the washer and a new snap ring on the rear balancer shaft. Install the snap ring so that the sharp edge faces out.", cite: {p: 136},
-             gap: "Clymer gives two directions for this snap ring. No other source in this wiki gives the direction.",
-             conflict: {note: "The rear shaft inspection steps in Clymer give the opposite direction for the snap ring on the right end of the rear shaft.", others: [{t: "Install the snap ring on the right end of the rear shaft so that the sharp edge faces in, toward the balancer weight.", cite: {s: clymer, p: 133}}]}}
+          - {t: "Install the washer and a new snap ring on the rear balancer shaft, outside the rear sprocket. Install the snap ring so that the sharp edge faces out.", cite: {p: 136}}
+          - {kind: note, t: "This snap ring is at the left end of the rear shaft. You removed it with the washers and the rear sprocket.", cite: {p: 132}, figs: [15]}
+          - {kind: note, t: "The snap ring at the right end of the rear shaft is a different snap ring. Its sharp edge faces in, toward the balancer weight. Install it before the shaft goes into the crankcase.", cite: {p: 133}}
           - {t: "Install a new snap ring on the front balancer shaft. Install the snap ring so that the sharp edge faces in.", cite: {p: 136}}
           - {t: "Engage the cam chain with the crankshaft sprocket. Put the chain toward the top of the engine.", cite: {p: 136}}
           - {t: "Use wire to hold the cam chain and to decrease the slack.", cite: {p: 136}}
