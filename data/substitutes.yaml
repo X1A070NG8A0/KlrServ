@@ -1,0 +1,33 @@
+# Community-accepted substitutes for proprietary or unusual tools and parts.
+# Each entry paraphrases a saved klr650.net post (ASD-STE100). `for.tool` is a
+# tool id from data/tools.yaml or kaw-57001-NNNN; `for.part` is a part name from
+# data/operations. `for.op` (optional) limits the note to one procedure.
+# Reviewed against the posts on 2026-11-17.
+substitutes:
+  - for: {tool: kaw-57001-1184}
+    t: "One owner makes a rotor holder from a 32mm open end wrench. He heats the handle and bends it to get around the rotor lip. He uses it to loosen the rotor bolt and to tighten it."
+    cite: {s: forum, id: rotor-holder-necessary, post: 5}
+  - for: {tool: kaw-57001-1184}
+    t: "One forum member warns that a crowfoot with an extension and a ratchet has no good point to brace against and can come apart. He recommends a one-piece wrench braced on the footpeg."
+    cite: {s: forum, id: poor-man-flywheel-wrench, post: 10}
+  - for: {tool: holding-tool}
+    t: "To hold the rotor, one owner makes a holder from a 32mm open end wrench. He uses it to loosen the rotor bolt and to tighten it."
+    cite: {s: forum, id: rotor-holder-necessary, post: 5}
+  - for: {tool: rotor-puller}
+    t: "One forum member says to use only the Eager Mike rotor puller. He says other flywheel removers are not as good and can damage the threads."
+    cite: {s: forum, id: poor-man-flywheel-wrench, post: 7}
+  - for: {tool: rotor-puller}
+    t: "One owner removed a flywheel from a different motorcycle with a three arm gear puller and an air impact. He did not try this on the KLR."
+    cite: {s: forum, id: rotor-removal-problem, post: 5}
+  - for: {tool: kaw-57001-1075}
+    t: "Instead of the Kawasaki drivers and press shaft, one owner installed the new races with the old races. He tapped the new race in until it stayed. Then he held the old race against it and tapped it in with a hammer until it was firm."
+    cite: {s: forum, id: steering-race-removal, post: 3}
+  - for: {tool: drift-punch, op: c12-steering-race-replacement}
+    t: "One owner drove out the upper race with a tool made from a socket, the old lower inner race and an extension."
+    cite: {s: forum, id: steering-race-removal, post: 1}
+  - for: {tool: drift-punch, op: c12-steering-race-replacement}
+    t: "One owner removed the lower race with a punch made from a long square-shank screwdriver. He cut two grooves in the race with a Dremel cutoff wheel so that the punch could grip."
+    cite: {s: forum, id: steering-race-removal, post: 1}
+  - for: {tool: drift-punch, op: c12-steering-race-replacement}
+    t: "One owner bent the tip of a large screwdriver over 90 degrees. He hooked it on the top edge of the outer race from the bottom. A helper tapped it down from the top."
+    cite: {s: forum, id: steering-stem-bearing-adjustment, post: 36}

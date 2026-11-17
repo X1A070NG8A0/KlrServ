@@ -18,6 +18,8 @@ export type Conflict = { note: string; agrees?: boolean; others: { t: string; ci
 export type Step = { t: string; kind?: "note" | "caution" | "warning"; cite: Cite; image_checked?: boolean; diagram?: string; figs?: number[]; chapter?: number; op?: string; ref?: string; spec_ref?: string; conflict?: Conflict; gap?: string };
 export type DiagramPoint = { n: string; x: number; y: number; label: string };
 export type Diagram = { id: string; title: string; kind: string; cite: Cite; image_checked?: boolean; note?: string; shapes?: { kind: string; x: number; y: number; w: number; h: number; label?: string }[]; points: DiagramPoint[] };
+// A community-accepted substitute for a proprietary or unusual tool or part.
+export type Substitute = { for: { tool?: string; part?: string; op?: string }; t: string; cite: Cite };
 export type BookSection = { id: string; title: string; pages: [number, number]; summary?: { t: string; cite: Cite }[]; ops?: string[]; written: boolean };
 export type BookChapter = { n: number; title: string; pages: [number, number]; sections: BookSection[]; file?: string };
 export type Section = { title?: string; steps: Step[] };
@@ -40,6 +42,7 @@ export type Data = {
   threads: Map<string, Thread>;
   figures: Figure[];
   diagrams: Map<string, Diagram>;
+  substitutes: Substitute[];
   book: BookChapter[];
   pageText: (src: string, p: number) => string | undefined;
   errors: string[];
@@ -247,7 +250,33 @@ export function load(): Data {
       if (op && !op.parts?.some((p) => p.name === name)) errors.push(`schedule "${t.task}": part "${name}" is not in operation "${op.id}"`);
   }
 
-  return { sources, schedule, tables, ops, issues, threads, figures, diagrams, book, pageText, errors, warnings };
+  // Substitutes (data/substitutes.yaml): validated like steps.
+  const substitutes: Substitute[] = [];
+  const subFile = join(ROOT, "data", "substitutes.yaml");
+  if (existsSync(subFile)) {
+    const toolIds = new Set<string>();
+    for (const g of (readYaml(join(ROOT, "data", "tools.yaml")).groups ?? []) as { tools: { id: string }[] }[]) for (const t of g.tools) toolIds.add(t.id);
+    const partNames = new Set<string>();
+    for (const op of ops.values()) for (const pt of op.parts ?? []) partNames.add(pt.name);
+    const norm = (x: string) => x.replace(/\s+/g, " ").trim();
+    ((tryYaml(subFile, errors)?.substitutes ?? []) as Substitute[]).forEach((sub, i) => {
+      const w = `substitute ${i + 1}`;
+      if (!sub.t?.trim()) errors.push(`${w}: empty text`);
+      checkCite(sub.cite, w);
+      if (sub.for?.tool && !toolIds.has(sub.for.tool) && !/^kaw-57001-\d+$/.test(sub.for.tool)) errors.push(`${w}: unknown tool id "${sub.for.tool}"`);
+      if (sub.for?.part && !partNames.has(sub.for.part)) errors.push(`${w}: no operation has a part named "${sub.for.part}"`);
+      if (!sub.for?.tool && !sub.for?.part) errors.push(`${w}: needs for.tool or for.part`);
+      if (sub.for?.op && !ops.has(sub.for.op)) errors.push(`${w}: unknown operation "${sub.for.op}"`);
+      if (sub.cite?.s === "forum") {
+        const post = norm(threads.get(sub.cite.id!)?.posts.get(sub.cite.post!)?.text ?? "");
+        for (const m of sub.t.matchAll(/"([^"]{12,})"/g)) if (!post.includes(norm(m[1]))) errors.push(`${w}: quote not verbatim in ${sub.cite.id}#${sub.cite.post}`);
+        for (const num of sub.t.match(/\d+(?:\.\d+)?/g) ?? []) if (!post.replace(/\s+/g, "").includes(num)) warnings.push(`${w}: number "${num}" not found in ${sub.cite.id}#${sub.cite.post}`);
+      }
+      substitutes.push(sub);
+    });
+  }
+
+  return { sources, schedule, tables, ops, issues, threads, figures, diagrams, substitutes, book, pageText, errors, warnings };
 }
 
 export function findSpec(data: Pick<Data, "tables">, ref: string): { table: SpecTable; row: SpecRow } | undefined {

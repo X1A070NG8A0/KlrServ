@@ -231,6 +231,11 @@ ul.toollist details { font-size: .88rem; }
 ul.toollist details ul { columns: 2 14rem; }
 .repair-cat h2 { font-size: 1.15rem; }
 
+/* Tool size variants and community substitute notes */
+.variants { font-size: .9em; }
+ul.subs { list-style: none; padding-left: .6rem; margin: .15rem 0; font-size: .86rem; border-left: 2px solid var(--link); }
+ul.tools { columns: 1; }
+
 /* Site name in the "Helvetica Diagonal" style: heavy, uppercase, steep oblique.
    Heros has no black weight, so a thin text stroke makes the bold heavier. */
 .brand, .brandmark {
@@ -238,6 +243,7 @@ ul.toollist details ul { columns: 2 14rem; }
   letter-spacing: -.02em; -webkit-text-stroke: .035em currentColor;
   display: inline-block; transform: skewX(-7deg) scaleX(1.06); transform-origin: left center;
 }
-header.site .brand { font-size: 1.15rem; text-decoration: none; }
+header.site .brand { font-size: 1.15rem; text-decoration: none; margin-right: 1.8rem; }
+header.site { column-gap: 1.6rem; }
 h1.brandmark { font-size: 2.3rem; }
 h1, h2, h3, h4 { font-weight: 700; }

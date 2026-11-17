@@ -196,12 +196,12 @@ const sectionsHtml = (secs: Section[], src: string, chapter?: number) =>
 function partsHtml(parts: Part[], src: string, check?: string): string {
   const groups: [Part["replace"], string][] = [["always", "Replace"], ["inspect", "Replace if worn or damaged"], ["consumable", "Consumables"]];
   return groups.map(([kind, title]) => {
-    const list = parts.filter((p) => p.replace === kind);
+    const list = parts.filter((p) => p.replace === kind && !isToolPart(p));
     if (!list.length) return "";
     const items = list.map((p) => {
       const key = `${check ?? ""}:${p.name}`;
       const box = check ? `<input type="checkbox" data-done-key="${esc(key)}" aria-label="Done: ${esc(p.name)}"> ` : "";
-      return `<li class="part part-${kind}" data-key="${esc(key)}" title="${esc(srcLabel(data, p.cite, src))}">${box}<span class="name">${esc(p.name)}</span>${p.spec_ref ? ` ${specLink(p.spec_ref)}` : ""}${p.note ? ` <span class="pnote">${esc(p.note)}</span>` : ""}</li>`;
+      return `<li class="part part-${kind}" data-key="${esc(key)}" title="${esc(srcLabel(data, p.cite, src))}">${box}<span class="name">${esc(p.name)}</span>${p.spec_ref ? ` ${specLink(p.spec_ref)}` : ""}${p.note ? ` <span class="pnote">${esc(p.note)}</span>` : ""}${subNotes("part", p.name)}</li>`;
     }).join("");
     return `<section class="parts parts-${kind}"><h4>${title}</h4><ul class="checklist">${items}</ul></section>`;
   }).join("");
@@ -241,7 +241,7 @@ function opBody(op: Operation, full: boolean): string {
   ${deps.length ? `<p class="needs"><span class="lbl">Do first or have ready:</span> ${deps.map(depLink).join(" ")}</p>` : ""}
   ${op.issue && data.issues.has(op.issue) ? `<p class="needs"><span class="lbl">Known issue:</span> <a href="/issues/${op.issue}.html">${esc(data.issues.get(op.issue)!.title)}</a></p>` : ""}
   ${specs}
-  ${op.parts?.length ? `<section class="box"><h3>Parts and materials</h3>${partsHtml(op.parts, op.source)}</section>` : ""}
+  ${op.parts?.some((p) => !isToolPart(p)) ? `<section class="box"><h3>Parts and materials</h3>${partsHtml(op.parts!, op.source)}</section>` : ""}
   ${toolsBox(op)}
   ${full ? sectionsHtml(op.sections, op.source, op.chapter) : ""}
   ${full && users.length ? `<p class="needs"><span class="lbl">Needed by:</span> ${users.map((u) => opLink(u)).join(" ")}</p>` : ""}
@@ -257,51 +257,103 @@ function sectionBody(c: BookChapter, s: BookSection): string {
   return `${s.summary?.length ? s.summary.map((x) => `<p class="summary">${esc(x.t)}</p>`).join("") : ""}
   ${!s.written ? `<p class="gap">This section is not written yet.</p>` : ""}
   ${ops.length > 1 ? `<p class="toc">Procedures: ${ops.map((o) => `<a href="#op-${o.id}">${esc(o.title)}</a>`).join(" · ")}</p>` : ""}
-  ${ops.map((o) => `<article class="op" id="op-${o.id}"><h2><a href="/ops/${o.id}.html">${esc(o.title)}</a></h2>${o.summary ? `<p class="summary">${esc(o.summary.t)}</p>` : ""}${depsOf(o).length ? `<p class="needs"><span class="lbl">Do first or have ready:</span> ${depsOf(o).map(depLink).join(" ")}</p>` : ""}${o.parts?.length ? `<section class="box"><h3>Parts and materials</h3>${partsHtml(o.parts, o.source)}</section>` : ""}${toolsBox(o)}${sectionsHtml(o.sections, o.source, o.chapter)}</article>`).join("")}
+  ${ops.map((o) => `<article class="op" id="op-${o.id}"><h2><a href="/ops/${o.id}.html">${esc(o.title)}</a></h2>${o.summary ? `<p class="summary">${esc(o.summary.t)}</p>` : ""}${depsOf(o).length ? `<p class="needs"><span class="lbl">Do first or have ready:</span> ${depsOf(o).map(depLink).join(" ")}</p>` : ""}${o.parts?.some((p) => !isToolPart(p)) ? `<section class="box"><h3>Parts and materials</h3>${partsHtml(o.parts!, o.source)}</section>` : ""}${toolsBox(o)}${sectionsHtml(o.sections, o.source, o.chapter)}</article>`).join("")}
   ${users.length ? `<p class="needs"><span class="lbl">Other procedures need this section:</span> ${users.map((u) => opLink(u)).join(" ")}</p>` : ""}`;
 }
 
 // ---------- tools (found in the cited step text, see data/tools.yaml) ----------
-type ToolDef = { id: string; name: string; group: string; torque?: boolean; re: RegExp[] };
-type ToolUse = { id: string; name: string; group: string; why: string[] };
+type ToolDef = { id: string; name: string; group: string; torque?: boolean; re: RegExp[]; sizes: RegExp[]; kinds: [RegExp, string][]; specs?: RegExp };
+type ToolUse = { id: string; name: string; group: string; why: string[]; variants: Map<string, Set<string>> };
 const toolDefs: ToolDef[] = [];
 const toolGroups: string[] = [];
-for (const g of (YAML.parse(readFileSync(join(ROOT, "data", "tools.yaml"), "utf8")).groups ?? []) as { name: string; tools: { id: string; name: string; match: string[]; torque?: boolean }[] }[]) {
+type RawTool = { id: string; name: string; match: string[]; torque?: boolean; sizes?: string[]; kinds?: Record<string, string>; specs?: string };
+for (const g of (YAML.parse(readFileSync(join(ROOT, "data", "tools.yaml"), "utf8")).groups ?? []) as { name: string; tools: RawTool[] }[]) {
   toolGroups.push(g.name);
-  for (const t of g.tools) toolDefs.push({ id: t.id, name: t.name, group: g.name, torque: t.torque, re: t.match.map((m) => new RegExp(m, "i")) });
+  for (const t of g.tools)
+    toolDefs.push({ id: t.id, name: t.name, group: g.name, torque: t.torque, re: t.match.map((m) => new RegExp(m, "i")), sizes: (t.sizes ?? []).map((m) => new RegExp(m, "gi")), kinds: Object.entries(t.kinds ?? {}).map(([k, v]) => [new RegExp(k, "i"), v] as [RegExp, string]), specs: t.specs ? new RegExp(t.specs, "i") : undefined });
 }
 const KAW = "Kawasaki special tools";
 toolGroups.push(KAW);
 const isTorqueRef = (ref?: string) => !!ref && findSpec(data, ref)?.table.kind === "torque";
+// A "part" that is really a tool: a Kawasaki tool number, or a name the tool
+// dictionary knows that is not a material (grease for the puller is a material).
+function isToolPart(p: Part): boolean {
+  if (/57001-\d{3,4}/.test(p.name)) return true;
+  if (/grease|oil|sealant|compound|lubricant|cleaner|fluid|solvent/i.test(p.name)) return false;
+  return toolDefs.some((d) => d.re.some((r) => r.test(p.name)));
+}
+const plain = (html: string) => html.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
+// A spec row as a variant label, for example "new 0.10-0.20 (0.004-0.008): Valve clearance, Intake".
+const specVariant = (ref: string): string | undefined => {
+  const h = findSpec(data, ref);
+  return h ? `${plain(specValue(h.row, h.table.kind))}: ${h.row.group ? `${h.row.group}, ` : ""}${h.row.item}` : undefined;
+};
 function toolsFor(op: Operation): ToolUse[] {
   const found = new Map<string, ToolUse>();
   const add = (id: string, name: string, group: string, why: string) => {
-    if (!found.has(id)) found.set(id, { id, name, group, why: [] });
+    if (!found.has(id)) found.set(id, { id, name, group, why: [], variants: new Map() });
     const w = found.get(id)!.why;
     if (!w.includes(why) && w.length < 3) w.push(why);
+    return found.get(id)!;
+  };
+  const variant = (u: ToolUse, v: string) => {
+    if (!u.variants.has(v)) u.variants.set(v, new Set());
+    u.variants.get(v)!.add(op.title);
   };
   for (const sec of op.sections)
     for (const st of sec.steps) {
       for (const d of toolDefs) {
-        if (d.re.some((r) => r.test(st.t))) add(d.id, d.name, d.group, st.t);
-        else if (d.torque && isTorqueRef(st.spec_ref)) add(d.id, d.name, d.group, `${st.t} (torque value)`);
+        if (d.re.some((r) => r.test(st.t))) {
+          const u = add(d.id, d.name, d.group, st.t);
+          // Sizes come from the step and from its cited page, where the page names the same tool.
+          const src = st.cite.s ?? op.source;
+          const page = src !== "forum" && st.cite.p ? (data.pageText(src, st.cite.p) ?? "").replace(/\s+/g, " ") : "";
+          for (const r of d.sizes) for (const text of [st.t, page]) for (const m of text.matchAll(r)) variant(u, `${m[1]} mm`);
+          for (const [r, label] of d.kinds) if (r.test(st.t)) variant(u, label);
+          if (d.specs && st.spec_ref && d.specs.test(st.spec_ref)) { const v = specVariant(st.spec_ref); if (v) variant(u, v); }
+          // Procedure-wide specs only for selective tools (feeler gauge: clearance|gap), never for catch-all ones.
+          if (d.specs && d.specs.source !== ".") for (const ref of op.spec_refs ?? []) if (!isTorqueRef(ref) && d.specs.test(ref)) { const v = specVariant(ref); if (v) variant(u, v); }
+        } else if (d.torque && isTorqueRef(st.spec_ref)) add(d.id, d.name, d.group, `${st.t} (torque value)`);
       }
       for (const m of st.t.matchAll(/57001-\d{3,4}/g)) add(`kaw-${m[0]}`, `Kawasaki special tool ${m[0]}`, KAW, st.t);
     }
+  // Some writers listed special tools as parts; those count as tools here.
+  for (const p of op.parts ?? []) {
+    if (!isToolPart(p)) continue;
+    for (const m of p.name.matchAll(/57001-\d{3,4}/g)) add(`kaw-${m[0]}`, `Kawasaki special tool ${m[0]}`, KAW, p.name);
+    for (const d of toolDefs) if (d.re.some((r) => r.test(p.name))) {
+      const u = add(d.id, d.name, d.group, p.name);
+      for (const r of d.sizes) for (const m of p.name.matchAll(r)) variant(u, `${m[1]} mm`);
+    }
+  }
   const torqueDef = toolDefs.find((d) => d.torque);
   if (torqueDef && op.spec_refs?.some(isTorqueRef)) add(torqueDef.id, torqueDef.name, torqueDef.group, "This procedure has torque specifications.");
   return [...found.values()].sort((a, b) => toolGroups.indexOf(a.group) - toolGroups.indexOf(b.group) || a.name.localeCompare(b.name));
 }
+const sortVariants = (vs: string[]) => vs.sort((a, b) => (parseFloat(a) || 1e9) - (parseFloat(b) || 1e9) || a.localeCompare(b));
 const toolIndex = new Map<string, ToolUse & { ops: Operation[] }>();
 for (const op of data.ops.values())
   for (const t of toolsFor(op)) {
-    if (!toolIndex.has(t.id)) toolIndex.set(t.id, { ...t, why: [...t.why], ops: [] });
-    toolIndex.get(t.id)!.ops.push(op);
+    if (!toolIndex.has(t.id)) toolIndex.set(t.id, { ...t, why: [...t.why], variants: new Map(), ops: [] });
+    const agg = toolIndex.get(t.id)!;
+    agg.ops.push(op);
+    for (const [v, opsSet] of t.variants) {
+      if (!agg.variants.has(v)) agg.variants.set(v, new Set());
+      for (const o of opsSet) agg.variants.get(v)!.add(o);
+    }
   }
+// Community substitutes (data/substitutes.yaml), shown as notes on tools and parts.
+// opId limits notes that apply to one procedure; with no opId (tool list) all
+// notes show, with the procedure named.
+const subNotes = (kind: "tool" | "part", key: string, opId?: string): string => {
+  const list = data.substitutes.filter((x) => x.for[kind] === key && (!x.for.op || !opId || x.for.op === opId));
+  const where = (x: (typeof list)[number]) => (!opId && x.for.op ? ` (for ${opLink(x.for.op)})` : "");
+  return list.length ? `<ul class="subs">${list.map((x) => `<li><span class="lbl">Substitute${where(x)}:</span> ${esc(x.t)} ${supplementCite(data, x.cite)}</li>`).join("")}</ul>` : "";
+};
 const toolsBox = (op: Operation): string => {
   const ts = toolsFor(op);
   if (!ts.length) return "";
-  return `<section class="box"><h3>Tools</h3><ul class="tools">${ts.map((t) => `<li><a href="/tools.html#tool-${t.id}" title="${esc(t.why[0])}">${esc(t.name)}</a></li>`).join("")}</ul></section>`;
+  return `<section class="box"><h3>Tools</h3><ul class="tools">${ts.map((t) => `<li><a href="/tools.html#tool-${t.id}" title="${esc(t.why[0])}">${esc(t.name)}</a>${t.variants.size ? `: <span class="variants">${esc(sortVariants([...t.variants.keys()]).join("; "))}</span>` : ""}${subNotes("tool", t.id, op.id)}</li>`).join("")}</ul></section>`;
 };
 
 // ---------- full reference (book) ----------
@@ -394,7 +446,7 @@ function pageTools(): string {
   const groups = toolGroups.map((g) => {
     const list = [...toolIndex.values()].filter((t) => t.group === g).sort((a, b) => b.ops.length - a.ops.length || a.name.localeCompare(b.name));
     if (!list.length) return "";
-    return `<section><h2>${esc(g)}</h2><ul class="checklist toollist">${list.map((t) => `<li id="tool-${t.id}" data-key="tool:${t.id}" data-search="${esc(`${t.name} ${t.ops.map((o) => o.title).join(" ")}`.toLowerCase())}"><input type="checkbox" data-done-key="tool:${t.id}" aria-label="I have: ${esc(t.name)}"> <span class="name">${esc(t.name)}</span> <span class="meta">${t.ops.length} procedure${t.ops.length === 1 ? "" : "s"}</span>${g === KAW ? `<p class="meta">${esc(t.why[0])}</p>` : ""}<details><summary>Used in</summary><ul>${t.ops.map((o) => `<li>${opLink(o.id)}</li>`).join("")}</ul></details></li>`).join("")}</ul></section>`;
+    return `<section><h2>${esc(g)}</h2><ul class="checklist toollist">${list.map((t) => `<li id="tool-${t.id}" data-key="tool:${t.id}" data-search="${esc(`${t.name} ${t.ops.map((o) => o.title).join(" ")}`.toLowerCase())}"><input type="checkbox" data-done-key="tool:${t.id}" aria-label="I have: ${esc(t.name)}"> <span class="name">${esc(t.name)}</span> <span class="meta">${t.ops.length} procedure${t.ops.length === 1 ? "" : "s"}</span>${g === KAW ? `<p class="meta">${esc(t.why[0])}</p>` : ""}${t.variants.size ? `<p class="variants"><span class="lbl">Sizes and values needed:</span> ${sortVariants([...t.variants.keys()]).map((v) => `<span title="${esc([...t.variants.get(v)!].join(", "))}">${esc(v)}</span>`).join("; ")}</p>` : ""}${subNotes("tool", t.id)}<details><summary>Used in</summary><ul>${t.ops.map((o) => `<li>${opLink(o.id)}</li>`).join("")}</ul></details></li>`).join("")}</ul></section>`;
   }).join("");
   return layout("Tool list", "tools", `<h1>Tool list</h1>
 <p>Each tool that a procedure names, with the procedures that use it. Tick the tools that you have. This browser keeps the ticks.</p>

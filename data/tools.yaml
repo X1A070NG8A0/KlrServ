@@ -2,17 +2,20 @@
 # procedures (case-insensitive regular expressions), so a tool appears in a
 # procedure only where a cited step names it. `torque: true` also adds the
 # tool to each procedure that has a step with a torque specification.
+# `sizes`: regexes whose first group is a size, read from the step and its cited
+# page. `kinds`: regex -> variant label. `specs`: regex on the spec rows (of steps
+# that name the tool) whose values the tool must measure.
 # Patterns are narrow on purpose: "press" is usually a verb, "socket" can be a
 # bulb socket, and "holder" is often a part.
 groups:
   - name: "Hand tools"
     tools:
       - {id: torque-wrench, name: "Torque wrench", match: ['torque wrench'], torque: true}
-      - {id: socket-set, name: "Socket wrench set with extension", match: ['\bwith a socket\b', '\ba socket (and|with|on)\b', '\bsocket and (an )?extension\b', '\bdeep socket\b', '\b\d+ ?mm socket\b']}
-      - {id: wrench, name: "Open-end and box wrenches", match: ['\b(open-end|box-end|combination|\d+ ?mm) wrench\b', '\b(a|the|two) wrenche?s?\b(?! (to|on) the (spoke|plug))']}
-      - {id: crowfoot, name: "Crowfoot wrench", match: ['crowfoot']}
-      - {id: hex-keys, name: "Allen (hex) keys", match: ['\ballen\b', 'hex key', 'hex wrench', 't-handle']}
-      - {id: screwdriver, name: "Screwdrivers", match: ['screwdriver']}
+      - {id: socket-set, name: "Socket wrench set with extension", match: ['\bwith a socket\b', '\ba socket (and|with|on)\b', '\bsocket and (an )?extension\b', '\bdeep socket\b', '\b\d+ ?mm socket\b'], sizes: ['(\d+(?:\.\d+)?) ?mm (?:deep )?socket']}
+      - {id: wrench, name: "Open-end and box wrenches", match: ['\b(open-end|box-end|combination|\d+ ?mm) wrench\b', '\b(a|the|two) wrenche?s?\b(?! (to|on) the (spoke|plug))'], sizes: ['(\d+(?:\.\d+)?) ?mm (?:open-end |box-end |combination )?wrench']}
+      - {id: crowfoot, name: "Crowfoot wrench", match: ['crowfoot'], sizes: ['(\d+(?:\.\d+)?) ?mm crowfoot']}
+      - {id: hex-keys, name: "Allen (hex) keys", match: ['\ballen\b', 'hex key', 'hex wrench', 't-handle'], sizes: ['(\d+(?:\.\d+)?) ?mm (?:allen|hex) (?:key|wrench|bit|socket)', '(?:allen|hex) (?:key|wrench|bit|socket)[^.]{0,16}?(\d+(?:\.\d+)?) ?mm']}
+      - {id: screwdriver, name: "Screwdrivers", match: ['screwdriver'], kinds: {'phillips': 'Phillips', 'flat[- ]blade|straight[- ]blade': 'Flat blade', 'impact driver': 'Impact driver'}}
       - {id: pliers, name: "Pliers", match: ['(?<!snap ring )\bpliers\b']}
       - {id: snap-ring-pliers, name: "Snap ring pliers", match: ['snap ring pliers']}
       - {id: hammer, name: "Hammer and soft mallet", match: ['\bhammer\b', '\bmallet\b']}
@@ -21,7 +24,7 @@ groups:
       - {id: vise, name: "Vise with soft jaws", match: ['\bvise\b', 'soft jaws']}
       - {id: drill, name: "Drill and bits", match: ['\bdrill\b']}
       - {id: thread-chaser, name: "Thread chaser, tap and die", match: ['thread chaser', 'tap and die', '\ba tap\b(?! (on|with) the)', '\b(the|a) die\b']}
-      - {id: spark-plug-wrench, name: "Spark plug wrench", match: ['spark plug wrench', 'spark plug socket']}
+      - {id: spark-plug-wrench, name: "Spark plug wrench", match: ['spark plug wrench', 'spark plug socket'], sizes: ['(\d+(?:\.\d+)?) ?mm spark plug (?:wrench|socket)']}
       - {id: spoke-wrench, name: "Spoke wrench", match: ['spoke wrench']}
       - {id: tire-irons, name: "Tire irons and rim protectors", match: ['tire (iron|lever)s?', 'rim protector']}
       - {id: cable-lubricator, name: "Cable lubricator", match: ['cable lubricator']}
@@ -29,15 +32,15 @@ groups:
       - {id: stand, name: "Motorcycle stand or jack", match: ['\bjack\b', '(motorcycle|work|support|rear|center) stand\b']}
   - name: "Measuring tools"
     tools:
-      - {id: feeler-gauge, name: "Feeler gauge (flat and wire)", match: ['feeler gauge']}
-      - {id: micrometer, name: "Micrometer", match: ['micrometer']}
-      - {id: vernier-caliper, name: "Vernier caliper", match: ['vernier', 'with a caliper\b']}
-      - {id: dial-indicator, name: "Dial indicator", match: ['dial indicator', 'dial gauge']}
-      - {id: bore-gauge, name: "Telescoping and small-bore gauges", match: ['telescoping gauge', 'small[- ]bore gauge', 'bore gauge']}
-      - {id: plastigauge, name: "Plastigauge", match: ['plastigauge']}
+      - {id: feeler-gauge, name: "Feeler gauge (flat and wire)", match: ['feeler gauge'], specs: 'clearance|gap'}
+      - {id: micrometer, name: "Micrometer", match: ['micrometer'], specs: '.'}
+      - {id: vernier-caliper, name: "Vernier caliper", match: ['vernier', 'with a caliper\b'], specs: '.'}
+      - {id: dial-indicator, name: "Dial indicator", match: ['dial indicator', 'dial gauge'], specs: 'runout|play|clearance|deflection'}
+      - {id: bore-gauge, name: "Telescoping and small-bore gauges", match: ['telescoping gauge', 'small[- ]bore gauge', 'bore gauge'], specs: '.'}
+      - {id: plastigauge, name: "Plastigauge", match: ['plastigauge'], specs: 'clearance'}
       - {id: v-blocks, name: "V-blocks", match: ['v-blocks?']}
       - {id: straightedge, name: "Straightedge and surface plate", match: ['straight ?edge', 'surface plate']}
-      - {id: multimeter, name: "Multimeter (ohmmeter and voltmeter)", match: ['ohmmeter', 'voltmeter', 'ammeter', 'multimeter']}
+      - {id: multimeter, name: "Multimeter (ohmmeter and voltmeter)", match: ['ohmmeter', 'voltmeter', 'ammeter', 'multimeter'], specs: 'resistance|voltage|output|ohm'}
       - {id: hydrometer, name: "Battery hydrometer", match: ['hydrometer']}
       - {id: thermometer, name: "Thermometer", match: ['thermometer']}
       - {id: compression-gauge, name: "Compression gauge", match: ['compression gauge']}
