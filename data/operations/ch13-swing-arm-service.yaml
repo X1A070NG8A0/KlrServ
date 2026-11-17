@@ -1,0 +1,111 @@
+operations:
+  - id: c13-swing-arm-inspection
+    title: "Swing arm inspection and repair"
+    system: "Rear suspension"
+    source: clymer
+    chapter: 13
+    section: "13/swing-arm-service"
+    summary: {t: "This procedure cleans and examines the swing arm, the guides and the pivot bearings. It also installs the seals and pivot spacers. Remove the swing arm first.", cite: {p: 290}}
+    parts:
+      - {name: "Molydisulfide grease or waterproof grease", replace: consumable, cite: {p: 289}, note: "Kawasaki recommends molydisulfide grease for all swing arm bearings. Waterproof grease is durable and resists washout. Which one to use is the choice of the rider."}
+      - {name: "Swing arm pivot bolt and nut", replace: inspect, cite: {p: 291}, note: "Replace them if they have rounded flats."}
+      - {name: "Swing arm bushings (back of engine)", replace: inspect, cite: {p: 291}, note: "When you replace the bearing sets, always replace the bushing on each side of the engine case."}
+      - {name: "Swing arm needle bearings", replace: inspect, cite: {p: 291}}
+      - {name: "Swing arm seals", replace: inspect, cite: {p: 291}}
+      - {name: "Chain slider", replace: inspect, cite: {p: 290}, note: "Replace the slider if it is worn to more than half of its thickness."}
+      - {name: "Brake hose guide", replace: inspect, cite: {p: 290}, note: "Replace the guide if it is corroded or damaged."}
+    sections:
+      - title: "Preparation and guides"
+        steps:
+          - {kind: note, t: "Do not remove the bearing pivot spacers until you will examine the bearings. The rollers of aftermarket bearings can fall out.", cite: {p: 290}}
+          - {t: "Make sure that the spacers are firmly in position before you examine them. If necessary, tape the ends of the bearing bores.", cite: {p: 290}}
+          - {t: "Clean the swing arm, in particular around all bearings.", cite: {p: 290}}
+          - {t: "Examine the hose guide. If it is corroded or damaged, replace it.", cite: {p: 290}, figs: [37]}
+          - {t: "Examine the chain guard and the chain guide. Make sure that all fasteners are tight.", cite: {p: 290}, figs: [38]}
+          - {t: "Make sure that the chain guard is locked in the upper and lower brackets at the front of the swing arm.", cite: {p: 290}, figs: [39]}
+          - {t: "Examine the chain guide for too much wear.", cite: {p: 290}}
+          - {t: "Examine the chain slider and the mounting bolts.", cite: {p: 290}, figs: [40]}
+          - {t: "If the slider is worn to more than half of its thickness, replace it. If the slider wears through, the swing arm can get damaged.", cite: {p: 290}, figs: [41]}
+          - {t: "Examine the small slider below the swing arm bolt, where the chain returns to the rear wheel.", cite: {p: 290}}
+          - {kind: note, t: "To make the work on the bearings easier, remove the chain guard and the chain guide.", cite: {p: 290}}
+      - title: "Bearings"
+        steps:
+          - {t: "At each bearing, remove the pivot spacer.", cite: {p: 291}, figs: [42]}
+          - {t: "Remove the seals. Pry the seals at their outer edge.", cite: {p: 291}, figs: [43]}
+          - {kind: note, t: "Original equipment bearings have fixed rollers. If the rollers of aftermarket bearings can be removed, put them in a marked container. Install them in their original housing.", cite: {p: 291}}
+          - {t: "Clean the bearings, the spacers, the seals and the bores in clean solvent. Dry all parts.", cite: {p: 291}, figs: [44]}
+          - {t: "Examine the swing arm for cracks, in particular around the bearing bores.", cite: {p: 291}}
+          - {t: "Examine the swing arm pivot bolt and nut for scoring, wear and damage. Replace them if they have rounded flats.", cite: {p: 291}}
+          - {t: "Examine the fit of the pivot bolt in the bushings at the back of the engine. If the bushings are worn, drive out both bushings with a drift.", cite: {p: 291}, figs: [45]}
+          - {t: "Examine the seals for cracks, wear and damage.", cite: {p: 291}}
+          - {t: "Examine the pivot spacers for scoring, wear and damage.", cite: {p: 291}}
+          - {t: "Examine the needle bearings for wear, flat spots, rust and discoloration. If the rollers are blue, the bearing was too hot.", cite: {p: 291}}
+          - {t: "Lightly lubricate the bearings and the pivot spacers. Put each spacer in its bearing.", cite: {p: 291}, figs: [46]}
+          - {t: "Make sure that the parts turn freely and smoothly with no play.", cite: {p: 291}}
+          - {t: "If there is play or roughness, replace the bearing set.", cite: {p: 291}, op: c13-swing-arm-bearing-replacement}
+          - {t: "When you replace the bearing sets in the swing arm pivots, also replace the bushing on each side of the engine case.", cite: {p: 291}, figs: [47]}
+      - title: "Assembly"
+        steps:
+          - {t: "Pack grease into the bearings and the bores.", cite: {p: 291}, figs: [48]}
+          - {t: "Apply grease to the seals, the pivot spacers, the swing arm bushings at the back of the engine and the bolts.", cite: {p: 291}}
+          - {t: "Press the seals into position by hand.", cite: {p: 292}}
+          - {t: "If the seals do not seat, examine the bearing depth. If necessary, adjust the depth.", cite: {p: 292}}
+          - {t: "Hold the seals and twist the pivot spacers into position.", cite: {p: 292}, figs: [49]}
+          - {t: "If you removed the chain guard and the chain guide, install them.", cite: {p: 292}}
+          - {t: "Install the swing arm.", cite: {p: 292}, op: c13-swing-arm-removal, figs: [50]}
+
+  - id: c13-swing-arm-bearing-replacement
+    title: "Swing arm bearing replacement"
+    system: "Rear suspension"
+    source: clymer
+    chapter: 13
+    section: "13/swing-arm-service"
+    summary: {t: "This procedure replaces the needle bearings in the swing arm. Use a press or use hand tools with a drawbolt. Read both methods to find the best one. If you are not sure, let a dealer or a machine shop replace the bearings.", cite: {p: 292}}
+    parts:
+      - {name: "Swing arm needle bearings", replace: always, cite: {p: 292}, note: "For the lever arm bore, replace both bearings. For the swing arm pivot bores, replace the bearing in each bore. Do not mix new and worn bearings on the same pivot bolt."}
+      - {name: "Penetrating oil", replace: consumable, cite: {p: 293}}
+      - {name: "Molydisulfide grease or waterproof grease", replace: consumable, cite: {p: 293}}
+    sections:
+      - title: "Preparation"
+        steps:
+          - {t: "Remove all seals, spacers and guards from the swing arm.", cite: {p: 292}}
+          - {kind: warning, t: "If you use heat to remove the bearings, prevent burning of finished or combustible surfaces. Remove parts that heat can damage. Fire and burns can occur.", cite: {p: 292}}
+          - {kind: warning, t: "Keep the heat source moving at a steady rate. Do not heat the bearing. Work in a well-ventilated area, away from combustible materials. Wear eye protection, insulated gloves and protective clothing.", cite: {p: 293}}
+          - {kind: note, t: "The heat from a heat gun or a propane torch slightly expands the bores. The bearings then come out with less force. This helps most with bearings that have much corrosion.", cite: {p: 293}}
+      - title: "Press method"
+        steps:
+          - {t: "Apply penetrating oil to the bearings and the bore.", cite: {p: 293}}
+          - {t: "If necessary, heat the area around the bearings.", cite: {p: 293}}
+          - {t: "Support the swing arm in a press. Put the bearing bore over a large socket so that the bearing can go out of the bore.", cite: {p: 293}, figs: [51]}
+          - {t: "The lower socket must fit on the edge of the bore and be large enough to hold the removed bearing.", cite: {p: 293}}
+          - {t: "Put a driver through the upper swing arm bore to the lower bore.", cite: {p: 293}, figs: [51]}
+          - {t: "Put a socket or a driver squarely against the bearing. The driver must pass through the bore and be longer than the bore depth.", cite: {p: 293}, figs: [51]}
+          - {t: "Press the bearing out of the arm.", cite: {p: 293}}
+          - {t: "Turn the swing arm over. Do again for the other arm.", cite: {p: 293}}
+          - {t: "Clean and examine the mounting bores.", cite: {p: 293}}
+          - {t: "Lubricate the new bearings with grease.", cite: {p: 293}}
+          - {t: "Support the swing arm bore on a flat, stable surface. You do not need the lower socket.", cite: {p: 293}}
+          - {t: "Put the new bearing squarely over the bore with the manufacturer marks out.", cite: {p: 293}}
+          - {t: "Put a socket or a driver squarely against the bearing. Drive the bearing into the swing arm.", cite: {p: 293}}
+          - {t: "When the driver starts to enter the bore, frequently measure the bearing depth.", cite: {p: 293}, figs: [52, 53]}
+          - {t: "Drive all bearings in the swing arm to 5 mm below the outer edge of the bore. The seals must seat in the bore.", cite: {p: 293}}
+          - {t: "Drive in the other bearings.", cite: {p: 293}}
+          - {t: "Complete the assembly.", cite: {p: 293}, op: c13-swing-arm-inspection}
+      - title: "Hand tool method"
+        steps:
+          - {kind: note, t: "Make the drawbolt from a bolt, a nut, washers and sockets. The driver is a socket that passes through the bore and is longer than the bore depth. The large socket fits on the edge of the bore and holds the removed bearings. Motion Pro makes a similar tool, part No. 08-213.", cite: {p: 294}, figs: [54, 55]}
+          - {t: "Apply penetrating oil to the bearings and the bore.", cite: {p: 294}}
+          - {t: "If necessary, heat the area around the bearings.", cite: {p: 294}}
+          - {t: "Assemble the tool.", cite: {p: 294}, figs: [56]}
+          - {t: "Tighten the nut by hand until the assembly is square against the bearing and the contact points on the swing arm.", cite: {p: 294}}
+          - {t: "Turn the nut to drive the bearing into the large socket.", cite: {p: 294}}
+          - {t: "Clean and examine the bearing bore.", cite: {p: 294}}
+          - {t: "Lubricate the new bearings with grease.", cite: {p: 294}}
+          - {t: "Put the bearing squarely on the outer face of the bore. The manufacturer marks must be out.", cite: {p: 294}}
+          - {t: "In a bore with two bearings, install each bearing from the nearest end of the bore.", cite: {p: 294}}
+          - {t: "Turn the tool around. Tighten the nut by hand until the tool and the bearing are square with the bore.", cite: {p: 294}}
+          - {kind: note, t: "You can now use a thick washer of large diameter in place of the large socket. This makes the assembly easier to handle.", cite: {p: 294}}
+          - {t: "Drive the bearing into the swing arm. When the driver starts to enter the bore, frequently measure the bearing depth.", cite: {p: 294}, figs: [53]}
+          - {t: "Drive all bearings in the swing arm to 5 mm below the outer edge of the bore. The seals must seat in the bore.", cite: {p: 294}}
+          - {t: "Drive in the other bearings.", cite: {p: 294}}
+          - {t: "Complete the assembly.", cite: {p: 294}, op: c13-swing-arm-inspection}
