@@ -1,0 +1,131 @@
+ELECTRICAL SYSTEM
+
+1. Remove the cover to access the relay.
+
+2. Remove the relay from the mount, then unplug
+
+the relay.
+
+3. Connect a 12-volt battery and ohmmeter to the 
+relay terminals as shown in Figure 41.
+
+a. Set the ohmmeter to R X 1 ohm.
+
+b. Note that terminals 1 (blue/red) and 2 (yel-
+
+low/red) are connected to the relay coil and
+
+terminals 3 (black) and 4 (yellow/red) are 
+connected to the circuit relay switch.
+
+4. Make the following checks:
+
+a. With the battery and ohmmeter connected as
+
+shown in Figure 41, check for continuity 
+through the circuit relay switch (terminals 3 
+and 4). There should be continuity.
+
+b. Disconnect the battery and check for continu-
+
+ity through the circuit relay switch (terminals 
+3 and 4). There should be no continuity.
+
+c. With the battery disconnected measure the
+
+circuit relay coil resistance (terminals | and
+
+2). The meter should read 65-85 ohms.
+
+5. Replace the relay if 
+it fails any of the checks.
+
+
+
+-----
+
+203
+
+Starter Lockout Switch 
+Testing
+
+The starter lockout switch (Figure 42) is located
+
+in the clutch lever assembly. Check the switch for
+
+continuity, using an ohmmeter connected to the ap- 
+propriate color-coded wires in the connector plug 
+(E, Figure 43). The plug is located in front of the 
+handlebar gauges, behind the cover. Remove the 
+cover to access the wiring. If necessary, remove the
+
+fairing. When checking wires at the plug, connect
+
+the ohmmeter to the plug half that leads to the
+
+switch. Refer to Figure 39.
+
+1. Separate the connector plug.
+
+2. Connect an ohmmeter to the blue/red wire and
+
+the light green wire.
+
+a. With the clutch lever out there should be con-
+
+tinuity.
+
+b. With the clutch lever pulled in there should be
+
+no continuity.
+
+3. Connect the ohmmeter to the blue/red wire and
+
+the black/yellow wire.
+
+a. With the clutch lever out there should be no
+
+continuity.
+
+b. With the clutch lever pulled in there should be
+
+continuity.
+
+4. Replace or repair the assembly if it fails any of
+
+the checks.
+
+Neutral Switch 
+Testing
+
+The neutral switch is located on the left side of the
+
+engine, next to the drive sprocket. Check the switch
+
+for continuity, using an ohmmeter. Refer to Figure
+
+39)
+
+1. Remove the chain sprocket guard. The sprocket 
+does not have to be removed.
+
+2. Put the transmission in neutral.
+
+3. Remove the wire from the switch terminal (Fig-
+
+ure 44).
+
+4. Connect an ohmmeter to the switch terminal and
+
+to ground (an unpainted part of the engine).
+
+4. There should be continuity when the trans- 
+mission is in neutral.
+
+b. There should be no continuity when the trans-
+
+mission is in any gear.
+
+5. If the switch fails either test, remove the switch
+
+and test again as follows:

@@ -1,0 +1,37 @@
+Engine Unit
+
+For later installation convenience, note and record how and where cables, wires, and hoses are routed, They should
+not be bent sharply, kinked, or twisted (See chapter 13).
+
+‘@Drain the transmission oil (chap, 4) and coolant (chap. 5),
+
+@Remove the parts and free the cables and wiring shown in the chart.
+
+Turn the fuel tap OFF and pull off the fuel hose.
+
+‘Take off the fuel tank,
+
+@Loosen the drive chain (chap. 9) and remove the engine sprocket (chap. 4),
+
+@Loosen the engine mounting bolts and nuts,
+
+Place a stand or block under the engine and remove the engine mounting brackets, bolts and nuts,
+
+OThis chart is designed to aid in proper removal . Select the comp you wish ww remove and
+follow the arrows to that point on the chart,
+
+chap. 9 chap. 12 chap. 3 chap. 4 12
+Sprocket cover Throttle Spark plus Muffler Radiator | | Clutch |] Choke
+chain cover cable lead hoses cable |} cable
+
+ies
+
+nail
+
+Lanen
+Magneto
+Engine Shift | connector
+rs i
+[ Engine mounting brackets, bolts and nuts |
+
+[riot at

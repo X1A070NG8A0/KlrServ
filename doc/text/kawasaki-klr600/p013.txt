@@ -1,0 +1,51 @@
+POPU UPOCECTOETOOCOCrecrCrrrerrrri rr eter rest rie reir)
+
+Pree EPEETOOIOTOsrrerrcrririri titi i ister erry)
+
+1-5
+
+Items KL600-A1
+Dimensions:
+Overall length 2,240 mm/(U) ©) 2,230 mm
+Overall width 875 mm
+Overall height 1,225 mm
+Wheelbase 1,470 mm
+Road clearance 280 mm
+Seat height 870 mm
+Dry weight 1,280 N (130 kg), €a) 1,280 N (130.5 kg)
+Curb weight: Front 670 N (68 kg), 670 N (68.5 kg)
+Rear 760 N (77 kg)
+Fuel tank capacity 11.5:L
+Performance:
+Climbing ability 32°
+Braking distance 12.5 m from 50 km/h
+Minimum turning radius 2.2m
+Engine:
+Type 4-stroke, DOHC, 4-valve, 1-cylinder
+Coolaing system Liquid cooled
+Bore and stroke 96.0 x 78.0 mm
+Displacement 564 mL
+Compression ratio 9.5
+Maximum horsepower 30.9 kW (42 PS) @7,000 r/min (rpm)
+
+WW) @©19.9 kW (27 PS, DIN) @6,000 r/min (rpm)
+
+Maximum torque 46.1 N-m (4.7 kg-m, 34.0 ft-lb) @5,000 r/min (rpm)
+W @ 39.2 N-m (4.0 kg-m, 28.9 ft-lb)
+3,000 r/min (rpm)
+
+Carburetion system Carburetor, Keihin CVK40
+
+Starting system Primary kick
+
+Ignition system CDI
+
+Timing advance Electronically advanced
+
+Ignition timing From 10° BTDC @1,300 r/min (rpm) to
+
+40° BTDC @3,000 r/min (rpm)
+NGK DR®8ES, or ND X24ESR-U
+QM @GWNGK DB8ES, or ND X24ES-U
+Cylinder numbering method 1
+Firing order 1

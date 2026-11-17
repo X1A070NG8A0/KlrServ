@@ -1,0 +1,53 @@
+A. Starter Lockout Switch C. Engine Stop Switch 
+B. Ignition Switch
+
+A. Engine Stop Switch 6-pin Connector (Red) 
+B. Ignition Switch 6-pin Connector (Black) 
+C. Starter Lockout Switch 3-pin Connector 
+Ignition Coil Inspection
+
+Refer to the Base Manual, noting the following.
+
+Ignition Coil Test (Arcing Distance)
+
+® Bif: 
+-Ç (?+ 
+<j)4
+
+1. Electro Tester: 57001-980 
+2. Ignition Coil
+
+
+
+-----
+
+ELECTRICAL SYSTEM 14-9
+
+A. Magneto 6-pin Connector 
+B. Neutral Switch and Pickup Coil 3-pin Connector 
+C. Diodes 
+D. CDI Unit
+
+A. Neutral Switch 
+B. Side Stand Switch 
+C. Side Stand Switch 2-pin Connector 
+Ignition Coil Winding Resistance
+
+© 
+o
+
+o
+
+-►d
+
+1. Measure primary winding resistance. 
+2. Measure secondary winding resistance. 
+3. Ignition Coil
+
+Ignition Coil Resistance
+
+Primary: 
+0.15 — 0.21 fl
+
+Secondary: 
+3.8 — 5.8 k£2

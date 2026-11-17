@@ -1,0 +1,19 @@
+# klr650.net threads saved into this folder by scripts/save_forum_threads.py.
+# Each becomes <slug>.md with every post numbered, so data/ can cite
+# {s: forum, id: <slug>, post: <n>}. Community sources fill gaps the manuals
+# don't cover (doohickey, subframe bolts, oil burning) and serve as the
+# consensus check when Clymer and Kawasaki disagree.
+doohickey-explanation: https://klr650.net/forums/showthread.php?t=111376
+doohickey-wtf: https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-maintenance-klr-wrenching-modifications-technical-support/95400-doohickey-wtf-is-a-doohickey
+doohickey-believer: https://www.klr650.net/forums/showthread.php?t=48892
+doohickey-adjustment: https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-maintenance-klr-wrenching-modifications-technical-support/62378-doohickey-adjustment?t=62903
+thermobob: https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-maintenance-klr-wrenching-modifications-technical-support/102553-thermobob
+thermobob-video: https://www.klr650.net/forums/articles/55212-howto-video-thermo-bob-installation
+thermobob-gen1: https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-first-generation-forums/105803-thermo-bob-did-the-trick-thx-watt-man?t=106977
+weak-doohickeys-frame-bolts: https://klr650.net/forums/showthread.php?t=77956
+subframe-necessary: https://www.klr650.net/forums/showthread.php?t=117744
+subframe-drill-through: https://klr650.net/forums/showthread.php?t=120430
+subframe-broken-bolt: https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-maintenance-klr-wrenching-modifications-technical-support/84538-broken-subframe-bolt
+oil-consumption-piston: https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-maintenance-klr-wrenching-modifications-technical-support/115635-oil-consumption-piston-study?t=117088
+first-time-owner-maintenance: https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-maintenance-klr-wrenching-modifications-technical-support/136798-first-time-klr650-owner-regular-maintenance-questions
+gen1-maintenance-opinions: https://www.klr650.net/forums/showthread.php?t=123334

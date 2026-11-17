@@ -1,0 +1,53 @@
+124
+
+Disassembly Lubrication
+Refer to Tachometer Disassembly on chapter 14. @Remove the speedometer gear housing and disassemble
+the speedometer gear.
+@Clean the gear and the exposed portion of the pinion
+ee with a high flash-point solvent, dry them, and grease to
+the gear teeth and the inside of the gear sleeve.
+
+Speedometer
+
+Speedometer Disassembly
+
+olt is recommended that the speedometer pinion as-
+sembly be replaced rather than attempting to repair the
+components.
+
+xIf the speedometer cable bushing or speedometer
+pinion needs to be removed, press the spring pin out of
+the housing.
+
+A, Grease.
+; 6 Cable bushing sacdlsSceiaq vocse Gauss de veacevenssuucesUubowsrssadethentecnrncssmassesonceses
+Handlebar
+\ @ Tact aE SEN ero AS TRISS
+Spring pin Pinion Installation
+
+@[nstall the handlebar clamps so that the arrow on the
+clamp points to the front.
+
+eTighten the front clamp bolts first, and then the rear
+clamp bolts, There will be a gap at the rear part of the
+clamp after tightening.
+
+Tightening Torque
+
+Handlebar Clamp Bolts: 24 N-m
+(2.4 kg-m, 17.5 ft-lb)
+
+@Fit the stopper of the right front fork into the speedo-
+meter gear housing slot.
+
+A. Arrow B. No gap C. Even gap
+
+@Check and adjust the following items:
+Front brake effectiveness
+Clutch
+Throttle grip play
+
+A. Stopper B. Slot Rear view mirrors
+
+a
+28

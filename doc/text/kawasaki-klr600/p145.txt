@@ -1,0 +1,63 @@
+14-5
+
+Female Connectors
+
+There are a number of important precautions that are
+musts when servicing electrical systems. Failure to
+observe these rules can result in serious system damage.
+Learn and observe all the rules below.
+
+Do not reverse the battery lead connections. This will Male Connectors
+burn out the diodes in the electrical parts.
+
+OAlways check battery condition before condemning
+other parts of an electrical system. A fully charged
+battery is a must for conducting accurate electrical
+system tests,
+
+Electrical parts should never be struck sharply as with
+a hammer, or allowed to fall on a hard surface. Such
+a shock to the parts can damage them.
+
+OTo prevent damage to electrical parts, unless otherwise
+instructed during a test, do not disconnect the battery
+leads or any other electrical connections when the
+ignition switch is on, or while the engine is running.
+
+©Do not use a meter illumination bulb rated for other
+than the voltage or wattage specified in the wiring
+diagram, as the meter or gauge panel could be warped
+by excessive heat radiated from the bulb.
+
+OTake care not to short the leads that are directly fipientwisacceavsanctaeven seusoupouean wotvalesuvevesavuwanewseevsiae aebeaass
+connected to the battery positive (+) terminal to the Battery
+chassis round, een sesssastssasansvaes
+
+Troubles may involve one or in some cases all items.
+Never replace a defective part without determining
+what CAUSED the failure. If the failure was caused Battery Vent Hose Routing
+on by some other item or items, they too must be re-
+paired or replaced, or the new replacement will soon
+fail again.
+
+OMake sure all connectors in the circuit are clean and
+tight and examine wires for signs of burning and
+fraying. Poor wires and bad connections will affect
+electrical system operation.
+
+OMeasure coil and winding resistance when the parts are
+cold (at room temperature).
+
+®Route the battery vent hose as shown in the figure.
+
+oColor Codes: Reserve Tank Tube
+Over Flow Tube —__
+BK : Black LG : Light green
+BL : Blue O- : Orange
+BR : Brown PP : Pink
+G_ : Green R :Red
+GY : Gray W_ : White
+
+LB :Lightblue Y _ : Yellow
+
+oElectric Connectors are labeled as follows.

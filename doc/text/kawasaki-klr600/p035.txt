@@ -1,0 +1,42 @@
+38
+
+Camshafts Installation Point
+
+Camshaft Chain Guide (Including Chain Timing Procedure}
+Camshaft Chain
+Camshafts
+“NOTE
+Camshaft Removal Point The exhaust camshaft has # compression release
+@Remove the cam chain tensioner assembly before mechanism, Be careful not to confuse these shafts
+removing the camshafts. when installing.
+
+Tighten the cylinder head bolt to the specification
+before the camshaft installation (See Installation Point
+of Cylinder Head)
+
+Apply engine oi! to all cam parts. If the camshaft(s)
+
+OThe crankshaft may be turned, while the comshafts are and/or cylinder head are replaced with new ones, apply
+removed and the camshaft chain is loose. In this case, a thin coat of 4 molybdenum disulfide engine assembly
+always pull the chain taut while turning the crankshaft. grease on the new cam part surfaces.
+
+This avoids kinking the chain on the lower (crankshaft) @Temporarily install the magneto flywheel and key
+sprocket. A kinked chain could damage both the chain e@Position the crankshaft at TDC and engage the
+and the sprocket. camshaft chain with camshaft sprockets as shown in
+
+the figure. Pull the tension side of the chain taut to
+install the chair,
+The timing marks must be aligned with the cylinder
+head upper surface and pointed toward the FRONT,
+Chain Guide Installation Points after the camshaft chain stack is taken up by the
+@Be sure to install the chain guides (front and rear) tensioner,
+before the cylinder head installation (See Exploded
+Views).
+
+Camshaft Chain Timing (Lefthand View)
+
+Ps
+
+Cylinder head
+upper surface
+

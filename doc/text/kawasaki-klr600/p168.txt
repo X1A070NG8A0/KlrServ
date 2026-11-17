@@ -1,0 +1,76 @@
+15-5
+
+Poor Running or No Power at High Speed Fuel/air mixture incorrect
+Firing incorrect Main jet clogged
+Spark plug dirty, broken, or maladjusted Fuel level too low
+Spark plug cap or high tension wiring trouble Carburetor holder loose
+Spark plug cap not in good contact Carburetor and carburetor holder not aligned
+Spark plug incorrect correctly
+CDI unit broken Air cleaner poorly sealed, or missing
+Pick-up coil broken Air cleaner/carburetor poorly sealed
+Ignition coil broken Compression high
+Ignition coil resistor open Carbon buit up in combustion chamber
+Timing not advancing Engine load faulty
+Clutch slipping
+Fuel/air mixture incorrect Engine oil level too high
+Main jet clogged or wrong size Engine oil viscosity too high
+Jet needle or needle jet worn Brakes dragging
+Fuel level too high or too low Lubrication inadequate
+Air bleed pipe bleed holes clogged Engine oil level too low
+Air cleaner clogged, poorly sealed, or missing Engine oil poor quality or incorrect
+Air cleaner/carburetor poorly sealed Gauge incorrect
+Starter plunger sutck open Water temperature gauge broken
+Water or foreign matter in fuel Water temperature sender broken
+Carburetor holder loose Voltage regulator broken
+Carburetor and carburetor holder not aligned Coolant incorrect
+correctly Coolant level too low
+Fuel tank air vent obstructed Coolant deteriorated
+Fuel tap clogged Cooling system component incorrect
+Fuel line clogged Radiator clogged
+Compression low Thermostat trouble
+Spark plug loose Radiator cap trouble
+Cylinder head not sufficiently tightened down Thermostatic fan switch trouble
+No valve clearance Fan relay trouble
+Cylinder, piston worn Fan motor broken
+Piston rings bad (worn, weak, broken, or sticking) Fan blade damaged
+Piston ring/land clearance excessive Water pump not turning
+Cylinder head gasket damaged Water pump impeller damaged
+
+Cylinder head warped
+Valve spring broken or weak
+Valve not seating properly (valve bent, worn, or
+carbon accumulation on the seating surface.)
+Compression release cam (K.A.C.R) sticks open
+(Engine stalls when moving off)
+
+Knocking Over Cooling
+Carbon built up in combustion chamber Gauge incorrect
+Fuel poor quality or incorrect Water temperature gauge broken
+Spark plug incorrect Water temperature sender broken
+Miscellaneous Cooling system component incorrect
+Butterfly yalve won't fully open Thermostatic fan switch trouble
+Carburetor vacuum piston does not slide smoothly Thermostat trouble
+
+Timing not advancing
+
+Brakes dragging
+
+Clutch slipping
+
+Overheating
+
+Engine oil level too high
+
+Engine oil viscosity too high Clutch Operation Faulty
+
+Balancer mechanism malfunctioning Clutch slipping
+No clutch lever play
+Friction plates worn or warped
+Steel plates worn or warped
+Clutch springs broken or weak
+
+Overheating Clutch release maladjusted
+Firing incorrect Clutch inner cable catching
+Spark plug dirty, damaged, or maladjusted Clutch release mechanism trouble
+
+Spark plug incorrect Clutch hub or housing unevenly worn

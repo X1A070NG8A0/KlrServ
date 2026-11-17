@@ -1,0 +1,18 @@
+# Clymer Chapter One tables, transcribed from page images.
+chapter: "General Information"
+tables:
+  - id: general-torque
+    title: "General torque specifications"
+    kind: torque
+    cite: {s: clymer, p: 41, ref: "Table 4"}
+    note: "Use this table as a guide for fasteners that do not have a specification."
+    rows:
+      - {item: "5 mm thread", nm: "5", inlb: "42"}
+      - {item: "6 mm thread", nm: "8", inlb: "72"}
+      - {item: "8 mm thread", nm: "19", ftlb: "14"}
+      - {item: "10 mm thread", nm: "34", ftlb: "25"}
+      - {item: "12 mm thread", nm: "55", ftlb: "40"}
+      - {item: "14 mm thread", nm: "85", ftlb: "63"}
+      - {item: "16 mm thread", nm: "135", ftlb: "100"}
+      - {item: "18 mm thread", nm: "190", ftlb: "140"}
+      - {item: "20 mm thread", nm: "275", ftlb: "203"}

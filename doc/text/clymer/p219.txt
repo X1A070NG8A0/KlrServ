@@ -1,0 +1,76 @@
+ELECTRICAL SYSTEM 
+| 
+207
+
+CDI RESISTANCE TEST (1987-1989)
+
+Wire colors and abbreviations:
+
+B: black 
+B/W: black with white tracer 
+UR: blue with red tracer 
+R: red 
+R/B: red with black tracer 
+R/G: red with green tracer 
+W: white
+
+co: infinity
+
+Approximate kQ
+
+Positive probe
+
+Negative 
+probe
+
+f. The resistance should be infinite in one direc- 
+a. Connect the meter probes to the terminals on
+
+tion and low in the other direction. If any pair 
+the coil. 
+of terminals has low or high resistance in both 
+b. Measure the resistance. Refer to Table 2 for 
+directions, the unit is faulty. 
+the specification.
+
+a. Remove the spark plug cap from the spark 
+Ignition Coil 
+Pinetead. 
+Testing 
+‘ 
+b. Connect one meter probe to the spark plug
+
+paket 
+ve: 
+: 
+; 
+lead and the other meter probe to the terminal 
+The ignition coil is located at the right side of the 
+for the black/yellow wire.
+
+papier ye upee a a ees Bees Ho 
+c. Measure the resistance. Refer to Table 2 for 
+resistance in the primary and secondary coils. 
+the specification.
+
+1. Remove the fuel tank.
+
+2. Disconnect the black/yellow wire (A, Figure 
+, 
+ae 
+hae 
+50) and black wire (B) at the evil. 
+If the coil and spark plug lead pass a
+
+tests, 
+the spark plug cap may be 
+3. Remove the spark plug cap from the plug. 
+faulty. Although no resistance mea- 
+4. Check primary coil resistance as follows: 
+surement is specified by Kawasaki,
+
+
+
+-----
+
+5. Check secondary coil resistance as follows:

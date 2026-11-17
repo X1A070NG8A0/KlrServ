@@ -1,0 +1,91 @@
+CLUTCH, GEARSHIFT LINKAGE AND LUBRICATION SYSTEM 
+153
+
+
+
+-----
+
+CAUTION 
+Do not jam the gears with screwdriv- 
+ers or other tools. This could cause 
+gear tooth breakage.
+
+c. Loosen the nut.
+
+d. Remove the clutch as described in this chap-
+
+ter.
+
+4. Remove the primary drive gear nut and washer.
+
+5. Remove the oil pump drive gear, primary drive
+
+gear, shaft key and spacer (Figure 72).
+
+6. Inspect the parts (Figure 73).
+
+a. Inspect the gears for worn or broken teeth.
+
+b. Inspect the fit of the key in the gears and
+
+crankshaft (Figure 74). The key must fitin all |
+
+parts with no play.
+
+c. Inspect the spacer for obvious damage.
+
+Installation
+
+1. Lubricate the crankshaft with engine oil, then in-
+
+stall the spacer, shaft key, primary drive gear and oil 
+pump drive gear.
+
+2. Install 
+a new lockwasher with the cupped side
+
+facing out.
+
+3. Apply engine oil to the crankshaft threads and 
+primary drive gear nut. Finger-tighten the nut. 
+4A. If a rotor holder tool is used:
+
+a. Fit the rotor holder tool onto the rotor.
+
+b. Tighten the nut to 120 Nem (89 ft.-Ib.).
+
+c. Flatten one side of the lockwasher (Figure
+
+75) against the nut.
+
+d. Install the alternator cover as described in
+
+Chapter Nine.
+
+e. Install the clutch as described in this chapter.
+
+4B. If a jam gear is used:
+
+a. Install the clutch as described in this chapter.
+
+b. Mesh the jam gear with the clutch housing
+
+gear and primary drive gear.
+
+CAUTION 
+Do not jam the gears with screwdriv-
+
+ers or other tools. This could cause 
+gear tooth breakage.
+
+c. Tighten the nut to 120 Nem (89 ft.-lb.).
+
+d. Flatten one side of the lockwasher (Figure
+
+75) against the nut.
+
+5. Install the oil pump as described in this chapter.
+
+6. Install the right crankcase cover as described in
+
+this chapter.

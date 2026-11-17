@@ -1,0 +1,43 @@
+# Clymer Chapter Eight and Ten tables, transcribed from page images (PDF p200, p241).
+chapter: "Fuel System and Cooling System"
+tables:
+  - id: carburetor
+    title: "Carburetor specifications"
+    cite: {s: clymer, p: 200, ref: "Chapter Eight, Table 1"}
+    note: "Float height: refer to text."
+    rows:
+      - {item: "Carburetor type", value: "Keihin constant velocity"}
+      - {item: "Carburetor bore diameter", value: "40 mm"}
+      - {item: "Identification number", value: "CVK40"}
+      - {item: "Idle speed", value: "1200-1400 rpm"}
+      - {group: "Main jet number", item: "Below 1220 m (4000 ft.)", value: "148"}
+      - {group: "Main jet number", item: "Above 1220 m (4000 ft.)", value: "145"}
+      - {item: "Main air jet number", value: "50"}
+      - {item: "Needle jet number", value: "6"}
+      - {item: "Jet needle", value: "N31R"}
+      - {group: "Pilot jet number", item: "Below 1220 m (4000 ft.)", value: "40"}
+      - {group: "Pilot jet number", item: "Above 1220 m (4000 ft.)", value: "38"}
+      - {item: "Pilot air jet number", value: "70"}
+      - {item: "Pilot mixture screw turns out", value: "1 3/8"}
+      - {item: "Starter jet number", value: "52"}
+      - {item: "Float height", value: "17.5 mm (0.69 in.)"}
+
+  - id: cooling
+    title: "Cooling system specifications"
+    cite: {s: clymer, p: 241, ref: "Chapter Ten, Table 1"}
+    rows:
+      - {item: "Antifreeze type", value: "Ethylene glycol containing anti-corrosion inhibitors for aluminum engines"}
+      - {item: "Coolant mixture", value: "50/50 (antifreeze/distilled water)"}
+      - {item: "Cooling system capacity", value: "1.3 liters (1.4 U.S. qt.)"}
+      - {item: "Radiator cap relief pressure", value: "93-123 kPa (13.5-17.8 psi)"}
+      - {item: "Thermostat valve opening temperature", value: "69.5-72.5° C (157-162° F)"}
+      - {item: "Thermostat minimum full open lift", value: "3 mm at 85° C (0.12 in. at 185° F)"}
+
+  - id: cooling-torque
+    title: "Cooling system torque specifications"
+    kind: torque
+    cite: {s: clymer, p: 241, ref: "Chapter Ten, Table 2"}
+    rows:
+      - {item: "Impeller nut", nm: "10", inlb: "88"}
+      - {item: "Radiator fan switch", nm: "7.4", inlb: "65"}
+      - {item: "Water temperature sending unit", nm: "15", ftlb: "11"}

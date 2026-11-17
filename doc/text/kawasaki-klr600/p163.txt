@@ -1,0 +1,52 @@
+14-23
+
+Fan Relay Inspection Fan Switch Inspection
+
+®Remove the fan switch, and check the internal resis-
+tance of the fan switch across the switch terminal and
+the body.
+
+®Suspend the switch in a container of water so that the
+temperature-sensing projection and threaded portion
+are submerged.
+
+Fan Switch Inspection
+
+Fan Terminal Thermometer
+
+A. Fan Relay
+
+Connect the ohmmeter and one 12-volt battery to the
+removed relay as shown.
+
+*If the relay does not work as specified, replace the
+relay.
+
+Testing Relay
+
+Meter range : x 1Qrange They must not touch
+Connection the container sides or 2
+1<Meter>2 : 65—859 LL bottom, _)
+3<Meter>4 : 0Q with battery connected
+3+Meter>4 : c Q with battery (MB LOS
+disconnected
+@) @) *The fan switch resistance should change as shown in
+
+the table. If it does not, replace the switch.
+
+Fan Switch Resistance
+
+Temperature Resistance Change
+@ @ Atmospheric
+co 0)
+temperature
+Ohmmeter Raise 94 — 100°C ence
+@ Relay @ + (201 — 212°F)
+91°C Lower
+
+6 On ames
+
+Battery
+
+a and : Relay Coil Terminals
+and @) : Relay Switch Terminal

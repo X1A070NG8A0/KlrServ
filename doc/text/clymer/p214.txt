@@ -1,0 +1,110 @@
+STARTER CIRCUIT RELAY TEST
+
+Ohmmeter
+
+Switch 
+terminal 
+yellow/red
+
+(4) 
+Relay
+
+Switch 
+terminal
+
+black
+
+(3)
+
+2. Disconnect the cables leading to the starter and
+
+to the battery.
+
+CAUTION 
+The cable leading to the battery is 
+connected to the positive terminal on 
+the battery. Do not allow the cable 
+end to touch the frame, engine or any 
+other part that is grounded. Battery 
+shorting will occur. Keep the cable 
+end protected until it is reconnected.
+
+3. Connect an ohmmeter to the relay terminals. Set
+
+the meter to the R X | scale.
+
+4. Check the following before testing:
+
+a. The neutral switch is in the on position.
+
+b. The engine stop switch is in the run position.
+
+5. Turn on the ignition switch and press the starter 
+button. Listen to the relay and observe the meter.
+
+6. Turn off the ignition switch and note the follow- 
+ing:
+
+a. If the relay clicks when the button is pressed
+
+and the meter reads 0 (no resistance in relay),
+
+the relay is in good condition. Check the
+
+starter and cables for damage.
+
+
+
+-----
+
+CHAPTER NINE
+
+Coil 
+terminal 
+yellow/red
+
+(2)
+
+Coil 
+terminal 
+blue/red
+
+(1)
+
+b. If the relay clicks when the button is pressed
+
+and the meter does not read 0 (resistance in
+
+relay), the relay is faulty.
+
+c. If the relay does not click when the button is
+
+pressed, the relay is faulty. Before replacing
+
+the relay, verify that power is passing to the 
+relay wires when the the starter button is 
+pressed. If not, inspect and test the starter cir-
+
+cuit relay.
+
+Starter Circuit Relay 
+Testing
+
+The starter circuit relay (B, Figure 40) is located
+
+at the left side of the motorcycle, behind the plastic
+
+cover. The starter circuit relay passes current to the
+
+starter relay, which activates the starter. In order for
+
+the starter circuit relay to pass current, it requires
+
+that the starter lockout switch or neutral switch be in
+
+its safe startup position. When either or both of 
+these switches are in their safe positions, the switch
+
+in the starter circuit relay closes and completes the
+
+circuit. Refer to Figure 39.

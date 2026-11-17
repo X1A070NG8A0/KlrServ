@@ -1,0 +1,62 @@
+Thermostat Inspection
+
+®Remove the thermostat, and inspect the thermostat
+valve at room temperature.
+
+*if the valve is open, replace the valve with a new one.
+
+®To check valve opening temperature, suspend the
+thermostat and an accurate thermometer in a container
+of water.
+
+©Place the container over a source of heat and gradually
+raise the temperature of the water while stirring the
+water gently.
+
+Valve Opening Temperature Measurement
+
+Thermometer —___(~) A. Impeller B. Nut C. Washer
+“a CAUTION
+es, f ae OBe careful not to damage the sealing surface of the
+
+mechanical seal during operation.
+
+Thermostat Pull the mechanical seal out of the right engine cover
+
+with a sharp hook, after prying the flange off.
+@Pull out the oil seal with a sharp hook.
+
+completely £
+submerged ¥
+
+They must not touch the container
+
+e sides or bottom. yy
+
+ak ae
+
+@Watch the valve. As soon as the valve starts to open,
+note the temperature.
+xIf it is out of the service limit, replace the thermostat.
+
+A. Flange
+Valve Opening Temperature Inspection
+Service Limit: 69.5 — 72.5°C (157 — 162°F) ®Visually inspect the mechanical seal.
+xIf any one of the parts is damaged, replace the
+mechanical seal as a unit.
+
+OThe sealing seat and rubber seal may be removed easily
+by hand.
+
+Water Pump, Mechanical Seal
+
+Disassembly
+
+®Remove the skid plate.
+
+®Drain the coolant and engine oil. | "
+
+®Remove the water pump cover and the right engine A. Impeller Sealing Seat Surface
+cover. B. Rubber Seal
+
+®@Remove the impeller nut, washer and impeller. C. Mechanical Seal Diaphragm -

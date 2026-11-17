@@ -1,0 +1,91 @@
+CLUTCH, GEARSHIFT LINKAGE AND LUBRICATION SYSTEM 
+149
+
+
+
+-----
+
+Installation
+
+1. Ifremoved, install the return spring post (C, Fig- 
+ure 46). Apply threadlocking compound to the 
+threads before tightening the post.
+
+2. Install the pin in the end of 
+the shift drum.
+
+3. Install the shift cam, engaging the bore in the
+
+shift cam with the pin (Figure 53).
+
+4. Apply threadlocking compound to the threads of
+
+the shift cam bolt, then install and tighten the bolt to
+
+12 Nem (106 in.-lb.).
+
+5. Install the lever and torsion spring (A, Figure 
+46).
+
+a. Check that the spring is correctly installed 
+, 
+with the lever and against the crankcase (Fig- 
+ure 54),
+
+b. Check that the bolt shoulder is seated into the
+
+lever before tightening.
+
+6. Insert the shift shaft assembly through the en- 
+gine (Figure 45). Seat the return spring around the
+
+post (Figure 55).
+
+7. Install the shift lever onto the left side of the en-
+
+gine. If necessary, get assistance to hold the shaft in 
+place on the right side while the lever is installed.
+
+8. Check the shifting action of the linkage.
+
+a. Turn the transmission shaft to aid in shifting.
+
+b. The lever roller should lock into each dent on
+
+the shift cam as the transmission is shifted. In
+
+neutral, the lever roller should rest in the neu-
+
+tral detent (Figure 44).
+
+9. Install the clutch as described in this chapter.
+
+10. Install the right crankcase cover as described in
+
+this chapter.
+
+OIL PUMP
+
+The engine is a wet-sump engine, and therefore
+
+stores the engine oil in the crankcase. The oil supply
+
+flows from the crankcase oil strainer (A, Figure 56)
+
+to the oil pump (B), where it is pumped under pres-
+
+sure through the oil filter and to the engine compo-
+
+nents. After oil passes through a lubrication point, it
+
+falls to the crankcase, where it again circulates to
+
+the oil pump. The oil pump is driven by a gear on
+
+the end of the crankshaft.
+
+Removal and Installation
+
+1. Remove the right crankcase cover as described
+
+in this chapter.

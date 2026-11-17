@@ -1,0 +1,60 @@
+Precaution of Di . Assembl
+
+®Prior to disassembly of cooling system parts (radiator,
+Pump, sensers, etc.), waite until coolant cools down
+and release coolant,
+
+@After assernbly the parts and filling the cooling system
+with coolant, bleed air from the system.
+
+Radiator, Radiator Fan
+
+A. Exhaust Pipe C. Gap: more than 10 mm
+Removal Point 8, Hose
+i if .
+®Disconnect the fan motor wiring before removal of the Radiator Inspection
+
+f
+CRA Fae a eCheck the radiator core.
+
+#if there are obstructions to air flow, remove them.
+
+#If the corrugated fins are deformed, carefully straighten
+them with the balde of a thin screwdriver.
+
+The radiator fan and fan switch are connected directly If the air passages of the radiator core are blocked more
+to the battery. The radiator fan may start even if the than 20% by unremovable obstructions or irreparably
+ignition switch i off. NEVER TOUCH THE deformed fins, replace the radiator with a new one,
+RADIATOR FAN UNTIL THE ENGINE COM. Check the radiator filler neck for signs of damage.
+PLETELY COOLS OFF, TOUCHING THE FAN ®Check the condition of the top and bottom sealing
+BEFORE THE ENGINE COOLS COULD CAUSE seats in the filler neck. They must be smooth and clean
+
+INJURY FROM THE FAN BLADES. for the radiator cap to function properly (See below)
+
+@Remove the mounting bolts and free the radiator fan Radiator Cap Inspection
+
+from the motorcycle. @Check the condition of the valve spring, and the top
+and bottom valve seals of the radiator cap.
+if any one of them shows visible damage, replace the
+cap,
+
+A. Radiator Fan B. Mounting Bolt
+
+Remove the radiator taking care mot to damage the
+radiator core. A. Top Sealing Seat C. Valve Spring
+B, Bottom Sealing Seat D. Seal
+
+install the cap on a cooling system pressure tester
+
+Watching the pressure gauge, pump the pressure tester
+
+to build up the pressure, The cap must retain the
+
+pressure, (Watch the pressure gauge at least 6 seconds
+
+. . to chock that the pressure holds steady.) Also the cap
+Radiator Hose Installation Point must open at the pressure shown in the table
+
+Route the radiator hose as shown in the figure to avoid wif the cap cannot hold the specified pressure, or if it
+
+the burn by the radiator. holds too much pressure, replace it with a new one

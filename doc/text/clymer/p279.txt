@@ -1,0 +1,79 @@
+CHAPTER THIRTEEN
+
+REAR SUSPENSION
+
+This chapter provides service procedures for the
+
+rear shock absorber, swing arm and linkage assem-
+
+bly. Refer to the tables at the end of the chapter for
+
+specifications, recommended shock absorber set- 
+tings and torque values.
+
+LINK-TYPE SUSPENSION SYSTEM
+
+The link suspension includes the swing arm, sin- 
+gle shock absorber and a three-piece linkage sys- 
+tem. The lower end of the shock absorber is 
+connected to the swing arm by the linkage system. 
+The design of the linkage system combines with the
+
+spring and damper to provide good suspension per- 
+formance over the operating range of the swing
+
+arm.
+
+The function of the linkage is to vary the speed of 
+shock absorber compression, depending on the po-
+
+sition of the swing arm. This change in compression 
+speed varies the damping curve of the shock ab-
+
+sorber, Small bumps cause the swing arm to com- 
+press slightly, and the shock absorber provides a 
+compliant ride. The damping curve is relatively flat 
+and soft under this condition. As riding conditions 
+become more aggressive (large bumps) and swing 
+arm travel increases, the same damping curve is no
+
+
+
+-----
+
+longer effective. The damping curve must rise, in 
+order to prevent bottoming of the suspension. To
+
+raise the curve, shock absorber speed must be in- 
+creased, to raise hydraulic resistance (damping) in
+
+the shock absorber.
+
+This increase in speed is achieved by the linkage 
+system. During the transition from low to high 
+swing arm movement, the linkage system pivots, in- 
+_ 
+creasing its leverage on the shock absorber. This in- 
+©
+
+creases shock absorber speed, which causes 
+a [70m 
+progressively firmer damping action.
+
+SHOCK ABSORBER
+
+The single shock absorber (Figure 1) is a 
+spring-loaded, hydraulically damped unit with an
+
+integral oil/nitrogen reservoir. The shock absorber 
+damper is not rebuildable. To adjust the shock ab-
+
+sorber, refer to Rear Suspension Adjustment in this
+
+chapter.
+
+Removal and Installation
+
+Read all procedures before removing the shock
+
+absorber. If the motorcycle has been modified,

@@ -1,0 +1,82 @@
+226 
+CHAPTER TEN
+
+— 
+—_——— 
+— 
+— 
+i
+
+c. When the thermostat begins to open, observe
+
+the temperature on the thermometer. The 
+thermostat should open between 69.5-72.5° C 
+(157-162> F):
+
+d. Continue to raise the temperature to 85° C
+
+(185° F). At this temperature, the thermostat
+
+valve should reach full lift, which is 3 mm
+
+(0.12 in.) or greater.
+
+e. Replace the thermostat if it does meet the
+
+conditions of the tests.
+
+5. Install the thermostat with the air bleed hole at
+
+the top of the opening (Figure 8). Seat the gasket in
+
+the bore.
+
+6. Align and seat the housing, then bolt it into
+
+place.
+
+7. Fill and bleed the cooling system (Chapter
+
+Three).
+
+WATER TEMPERATURE
+
+SENDING UNIT
+
+The water temperature sending unit is located on 
+top of the cylinder head (Figure 9). The unit sends
+
+an electrical signal to the water temperature gauge, 
+which reacts with a corresponding temperature 
+reading. At a low coolant temperature, the sending
+
+unit has high resistance and the temperature gauge
+
+indicates a cold reading. As coolant temperature
+
+rises, the resistance of the sending unit lowers and
+
+the temperature gauge indicates a hotter reading.
+
+
+
+-----
+
+Removal and Installation
+
+1. Remove the wire from the sending unit connec-
+
+tor.
+
+2. Remove the sending unit from the cylinder head.
+
+3. Clean the sending unit and the threads in the cyl- 
+inder head.
+
+4. Test the sending unit as described in Chapter 
+Nine.
+
+5. Apply waterproof sealant to the sending unit 
+threads.
+
+6. Tighten the sending unit to 15 Nem (11 ft.-Ib.).

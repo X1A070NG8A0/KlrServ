@@ -1,0 +1,103 @@
+Electrical System
+
+Table of Contents
+
+Exploded View ................................................... 
+14-2 
+Service Data ...................................................... 
+14-4 
+Special Tools ..................................................... 
+Precautions ........................................................ 
+14-5 
+Battery ............................................................... 
+14-5 
+Charging System ................................................ 
+14-5 
+Measuring Regulator/Rectifier
+
+Output Voltage (Loaded) ...................... 
+Measuring Stator Coil Resistance .............. 
+14-5 
+Testing Stator Coil Insulation ..................... 
+Regulator/Rectifier Inspection .................... 
+14-5 
+Ignition System................................................... 
+14-7 
+Adjustment .................................................... 
+14-7 
+Spark Plug Cleaning and Gapping ............. 
+14-7 
+Removal/Installation ...................................... 
+14-7 
+Magneto Removal or Installation ................ 
+14-7 
+Magneto Installation .................................. 
+14-7 
+Ignition Coil Installation.............................. 
+14-7 
+Ignition System Maintenance ......................... 
+14-8 
+Switch Inspection ...................................... 
+14-8 
+Diode Inspection ....................................... 
+Ignition Coil Inspection .............................. 14-9 
+CDI Unit Inspection ................................... 14-10 
+Exciter or Pickup Coil Inspection ................ 14-10 
+Electric Starter System ....................................... 14-11
+
+Starter Motor Removal .............................. 14-11 
+Installation Points ......................................... 14-11 
+Starter Motor Disassembly ........................ 14-11 
+Starter Motor Assembly Points................... 14-11 
+Starter Clutch Removal ............................. 14-12 
+Installation Point ....................................... 14-12 
+Starter Motor Brush Length ....................... 14-12 
+Brush Spring Inspection ............................ 14-12 
+Commutator Cleaning and Inspection . . 14-12 
+Armature Inspection .................................. 14 13 
+Brush Plate Inspection .............................. 14-13 
+Positive Brush Assembly Inspection . . . 14-13 
+Starter Relay Inspection ............................ 14-13 
+Starter Circuit Relay Inspection .................. 14-14 
+Starter Button Inspection ........................... 14-14 
+Starter Clutch Inspection ........................... 14-14
+
+
+
+-----
+
+ELECTRICAL SYSTEM 14-1
+
+Lighting System .................................................. 14-15
+
+Headlight Horizontal Adjustment ................ 
+Headlight Vertical Adjustment .................... 14-15 
+Headlight Bulb Installation ......................... 
+Headlight, Dimmer, or Passing
+
+Switch Inspection ................................. 14-16 
+Front Brake Light Switch Inspection. . . 
+Rear Brake Light Switch Adjustment . . 
+Rear Brake Light Switch Inspection ... 
+Turn Signal Inspection ............................... 
+Tachometer and Water Temperature Gauge .. 14-16
+
+Disassembly .................................................. 14-16 
+Maintenance .................................................. 14-17
+
+Meter Mounting Inspection ........................ 
+Meter Power Supply Test .......................... 
+Tachometer Inspection .............................. 14-17 
+Water Temperature Gauge
+
+Circuit Check ....................................... 
+Water Temperature Sender Check............. 
+Radiator Fan....................................................... 14-17
+
+Initial Check .............................................. 14-17 
+Fan Motor Inspection................................. 14-17 
+Fan Relay Inspection................................. 14-17 
+Fan Switch Inspection ............................... 
+Wiring Diagram ................................................... 14-19
+
+‘Refer to Base Manual

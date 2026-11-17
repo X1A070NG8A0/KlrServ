@@ -1,0 +1,104 @@
+# Clymer Chapter Three: battery (PDF p56-57) and coolant level / cooling system inspection (PDF p69-70).
+operations:
+  - id: battery
+    title: "Battery: removal, electrolyte, voltage test and charging"
+    system: "Electrical"
+    source: clymer
+    chapter: 3
+    section: "03/battery"
+    summary:
+      t: "The standard battery is 12 volt, 14 amp-hour. If you do not use the motorcycle for at least two weeks, charge the battery. This prevents sulfation of the battery plates."
+      cite: {p: 56}
+    spec_refs:
+      - "tune-up:Battery"
+    parts:
+      - {name: "Distilled water (electrolyte top-up)", replace: consumable, cite: {p: 57}}
+      - {name: "Dielectric grease (terminals)", replace: consumable, cite: {p: 56}}
+      - {name: "Battery", replace: inspect, cite: {p: 57}, note: "If the voltage does not stay stable after a charge, or if the battery fails the Chapter Nine load test, replace the battery."}
+    sections:
+      - title: "Removal and installation"
+        steps:
+          - {t: "Make sure that the ignition switch is off.", cite: {p: 56}}
+          - {t: "Remove the side covers.", cite: {p: 56}, ref: "15/side-covers"}
+          - {t: "Remove the seat.", cite: {p: 56}, ref: "15/seat"}
+          - {t: "Disconnect the negative cable (A) from the battery first. Do not let the loose cable touch the frame or other metal parts.", cite: {p: 56}, figs: [1]}
+          - {t: "Remove the insulator cover from the positive cable.", cite: {p: 56}, figs: [1]}
+          - {t: "Remove the positive cable (B) from the battery.", cite: {p: 56}, figs: [1]}
+          - {t: "Remove the vent tube.", cite: {p: 56}, figs: [2]}
+          - {t: "Remove the screw that holds the battery holder.", cite: {p: 56}, figs: [2]}
+          - {t: "Clean the parts and examine them for damage.", cite: {p: 56}}
+          - {t: "To install the battery, do the removal steps in reverse order.", cite: {p: 56}}
+          - {t: "Make sure that the battery terminals face the rear of the motorcycle.", cite: {p: 56}}
+          - {t: "Put a thin layer of dielectric grease on the battery terminals and the cable ends. This prevents corrosion.", cite: {p: 56}}
+          - {t: "Tighten the cables firmly. Do not use too much force.", cite: {p: 56}}
+      - title: "Electrolyte level"
+        steps:
+          - {t: "Make sure that the electrolyte level in each cell is between the upper and lower marks on the front of the battery.", cite: {p: 57}}
+          - {t: "Remove the battery to see each cell. The marks on the battery holder show only the cell at the left end.", cite: {p: 57}}
+          - {t: "If the level in a cell is low, remove the cap above the cell. Add distilled water to the upper mark. Do not overfill the battery.", cite: {p: 57}}
+          - {t: "Install the cap.", cite: {p: 57}}
+      - title: "Voltage test (unloaded)"
+        steps:
+          - {t: "Connect a voltmeter to the negative and positive terminals. If you do not have a voltmeter, use a syringe hydrometer to measure the specific gravity of the electrolyte.", cite: {p: 57}, figs: [3]}
+          - {t: "A fully charged battery has a minimum of 12.6 volts (1.265 hydrometer reading).", cite: {p: 57}}
+          - {t: "A battery with a charge of about 75 percent has a minimum of 12.4 volts (1.210).", cite: {p: 57}}
+          - {t: "A battery with a charge of about 50 percent has a minimum of 12.1 volts (1.160).", cite: {p: 57}}
+          - {kind: note, t: "An unloaded test shows only the state of charge. To find if the battery can operate the motorcycle, do the load test in Chapter Nine.", cite: {p: 57}}
+      - title: "Charging"
+        steps:
+          - {kind: caution, t: "Remove the cables from the battery before you charge it. If you do not, the electrical system can get damage.", cite: {p: 57}}
+          - {kind: caution, t: "Do not use a charger that is rated more than 1.4 amps. Do not use an automotive charger. These charge rates make the battery too hot and cause damage to the plates.", cite: {p: 57}}
+          - {t: "Remove the battery.", cite: {p: 57}, figs: [4]}
+          - {t: "Connect the charger leads to the correct battery terminals.", cite: {p: 57}, figs: [4]}
+          - {t: "Set the charger to 12 volts and a low charge rate.", cite: {p: 57}, figs: [4]}
+          - {kind: note, t: "With a 1 amp constant-current charger, the suggested charge times are as follows. For a battery at about 75 percent charge, 4 hours. For a battery at about 50 percent charge, 9 hours.", cite: {p: 57}}
+          - {t: "Turn off the charger before you remove the leads.", cite: {p: 57}}
+          - {t: "If the level in a cell is low, add distilled water.", cite: {p: 57}}
+          - {t: "Measure the voltage again.", cite: {p: 57}}
+
+  - id: cooling-system-inspect
+    title: "Coolant level, hoses and cooling system pressure test"
+    system: "Cooling system"
+    source: clymer
+    chapter: 3
+    section: "03/maintenance-and-inspection"
+    spec_refs:
+      - "routine-checks:Radiator cap relief pressure"
+      - "cooling:Coolant mixture"
+    parts:
+      - {name: "Radiator cap", replace: inspect, cite: {p: 70}, note: "If the seals are cracked or hard, if the relief valve is damaged, or if the cap fails the pressure test, replace it."}
+      - {name: "Radiator hoses and clamps", replace: inspect, cite: {p: 71}}
+      - {name: "Coolant (50/50 antifreeze/distilled water)", replace: consumable, spec_ref: "cooling:Coolant mixture", cite: {p: 69}}
+    sections:
+      - title: "Coolant level"
+        steps:
+          - {kind: warning, t: "Do the inspection when the engine and the coolant are cold. If you must remove the cap when the engine is warm, put a towel over the cap and open it slowly. Do not remove the cap until all pressure is released.", cite: {p: 69}}
+          - {kind: warning, t: "Keep your hands and tools away from the fan until the engine is cool. When the engine is hot, the fan can operate with the key off.", cite: {p: 69}}
+          - {t: "Support the motorcycle so that it is vertical and level.", cite: {p: 69}}
+          - {t: "Make sure that the coolant level at the gauge on the reserve tank cover is between the low and full marks.", cite: {p: 69}, figs: [41]}
+          - {t: "If the level is low, remove the two screws that hold the reserve tank cover. Remove the cover.", cite: {p: 69}, figs: [42]}
+          - {t: "Remove the tank cap. Fill the tank to the full mark on the tank.", cite: {p: 69}, figs: [42]}
+          - {t: "Examine the hoses and the tank for leaks.", cite: {p: 69}}
+          - {t: "Install the reserve tank cover.", cite: {p: 69}}
+          - {t: "If the reserve tank was empty, also examine the radiator. The coolant must be at the bottom of the filler neck.", cite: {p: 69}, figs: [43]}
+          - {t: "If the level in the radiator is low, add coolant. Install the cap.", cite: {p: 69}, figs: [43]}
+          - {t: "Start the engine and examine it for leaks.", cite: {p: 70}}
+          - {t: "If there is coolant at the drain hole on the bottom of the water pump (A), the mechanical seal of the pump leaks.", cite: {p: 70}, figs: [44], ref: "10/water-pump"}
+          - {t: "If there is engine oil at the drain hole, the oil seal in the right crankcase cover leaks.", cite: {p: 70}, figs: [44], ref: "06/right-crankcase-cover"}
+          - {kind: caution, t: "If the coolant level continues to decrease, do a pressure test on the system. If the engine overheats, severe engine damage can occur.", cite: {p: 70}}
+      - title: "Pressure test (annually, or if overheating is suspected)"
+        steps:
+          - {t: "Use a cooling system tester. A dealer can do the test, or you can buy a tester at an auto parts store.", cite: {p: 70}}
+          - {t: "Do the test when the engine is cold.", cite: {p: 70}}
+          - {t: "Remove the radiator cap.", cite: {p: 70}}
+          - {t: "If the rubber seals of the cap are cracked, compressed or hard, or if the relief valve is damaged, replace the cap.", cite: {p: 70}}
+          - {t: "Wet the cap seal. Put the cap on the tester and pump the tester.", cite: {p: 70}, figs: [45], spec_ref: "routine-checks:Radiator cap relief pressure"}
+          - {t: "If the cap holds pressure up to the relief range, it is good.", cite: {p: 70}}
+          - {t: "If the cap does not hold pressure, or if it relieves at too high or too low a pressure, replace it.", cite: {p: 70}}
+          - {t: "Fill the radiator to the bottom of the filler neck.", cite: {p: 70}}
+          - {t: "Put the tester on the radiator. Pump to 137 kPa (20 psi).", cite: {p: 70}}
+          - {kind: caution, t: "Do not let the pressure go more than 137 kPa (20 psi). Too much pressure can cause damage to the cooling system.", cite: {p: 70}}
+          - {t: "If the system holds the pressure, it is good.", cite: {p: 70}}
+          - {t: "If the system does not hold the pressure, examine the radiator and all fittings for leaks.", cite: {p: 70}}
+          - {t: "If the pressure drops and then becomes stable, examine the hoses for swelling.", cite: {p: 70}}
+          - {t: "Repair the system until it holds the test pressure.", cite: {p: 70}}

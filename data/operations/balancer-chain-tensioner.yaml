@@ -1,0 +1,31 @@
+id: balancer-chain-tensioner
+title: "Balancer chain tensioner adjustment (the \"doohickey\")"
+system: "Engine lower end"
+source: clymer
+chapter: 3
+section: "03/maintenance-and-inspection"
+issue: doohickey
+summary:
+  t: "When the balancer chain and the guide wear, a spring in the tensioner removes the slack automatically if you loosen the tensioner bolt. When you tighten the bolt, the tensioner is locked until the next adjustment."
+  cite: {p: 68}
+sections:
+  - title: "Adjustment"
+    steps:
+      - {t: "For easier access, remove the skid plate.", cite: {p: 68}, ref: "15/skid-plate"}
+      - {t: "Find the tensioner bolt below the alternator cover on the left side of the engine, near the frame.", cite: {p: 68}, figs: [39]}
+      - {t: "Remove the rubber plug.", cite: {p: 68}}
+      - {t: "Loosen the tensioner bolt. Turn it counterclockwise not more than two turns.", cite: {p: 68},
+         conflict: {
+           note: "Kawasaki's KLR600 base manual says only to loosen the bolt \"a few turns\". klr650.net posters recommend half a turn to one turn at most, tapping the alternator cover with a mallet before retightening.",
+           others: [
+             {t: "Remove the tensioner cap and loosen the tensioner bolt a few turns. Tighten the bolt and install the cap in the original position.", cite: {s: kaw-600, p: 65}},
+             {t: "\"NO! No more than ONE turn! 1/2 to 1 turn max.\"", cite: {s: forum, id: doohickey-believer, post: 14}},
+             {t: "\"Just back off the adjuster bolt 1/2 turn and whack the side of the alternator cover with a wood mallet and then re-torque the bolt to 69 in Lbs\"", cite: {s: forum, id: doohickey-believer, post: 7}}
+           ]}}
+      - {t: "Tighten the tensioner bolt.", cite: {p: 68},
+         gap: "Chapter Three of Clymer and the Kawasaki KLR600 procedure do not give a torque for the tensioner bolt here. The 69 in-lb value above is from a forum post. It is not a manual value."}
+      - {t: "Install the rubber plug.", cite: {p: 68}}
+      - {t: "If you removed the skid plate, install it.", cite: {p: 68}, ref: "15/skid-plate"}
+      - {kind: caution, t: "When you start the engine after the adjustment, listen for abnormal noise from the balancer chain assembly. Do not race the engine.", cite: {p: 68}}
+      - {t: "If you hear noise, stop the engine immediately and examine the tensioner.", cite: {p: 68}}
+      - {kind: note, t: "The shaft lever or the tensioner spring can break before an adjustment. The tight bolt holds the broken assembly in position. After you loosen the bolt, the assembly can create chain slack or fall apart. The chain can then come off its sprockets and cause engine damage.", cite: {p: 68}}

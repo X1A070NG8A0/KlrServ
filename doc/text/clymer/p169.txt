@@ -1,0 +1,83 @@
+TRANSMISSION AND INTERNAL SHIFT MECHANISM 
+157
+
+Rounded edges 
+i 
+Sharp edges
+
+Direction of thrust
+
+move and install the transmission assemblies as de- 
+scribed in Crankcase in Chapter Five.
+
+After the transmission is removed from the crank-
+
+case, disassembly, inspection and assembly can be 
+performed. Careful inspection of the parts is re- 
+quired, as well as keeping the parts oriented so they
+
+can be reinstalled in the correct direction on the
+
+shafts. The gears, washers and snap rings must be
+
+installed in the same direction as they were before 
+disassembly. If necessary, slide the parts onto a long
+
+
+
+-----
+
+dowel or screwdriver as the parts are removed, or 
+make an identification mark on each part to indicate 
+position and orientation.
+
+Always install new snap rings. The snap rings fa- 
+tigue and distort when they are removed. Do not re-
+
+use them, although they appear to be in good 
+condition. To install a new snap ring without dis-
+
+torting it, hold the closed side of the snap ring witha 
+pair of pliers while the open side is spread with snap 
+ring pliers (Figure 3). While holding the spread 
+ring with both tools, slide it over the shaft and into 
+position. This technique is particularly useful when 
+removing the notched-type snap ring shown in Fig- 
+ure 3. During removal, this type of snap ring tends
+
+to bind and grip the shaft.
+
+Usually, snap rings have one rounded edge, while
+
+the other side has a sharp edge (Figure 4). The inner 
+sharp edge prevents the snap ring from lifting out of
+
+the shaft groove when lateral pressure is applied to
+
+the snap ring. Always look at the inner and outer
+
+edges of the snap ring. Some snap rings are manu-
+
+factured with the inner and outer sharp edge on op-
+
+posite sides. Ifa snap ring has no identifiable sharp
+
+edge, the snap ring can be installed in either direc-
+
+tion. In all cases, new snap rings must be installed at
+
+assembly, and when applicable, must be installed in
+
+the same direction as the removed snap rings.
+
+When installed on a splined shaft, the snap ring 
+gap should be positioned over a groove in the shaft 
+(Figure 5). When a spline washer is used next to the 
+snap ring, the teeth of the spline washer should be
+
+offset from the ends of the snap ring (Figure 6).
+
+INPUT SHAFT
+
+Use the following procedures to disassemble and 
+assemble the input shaft. Although the design of the

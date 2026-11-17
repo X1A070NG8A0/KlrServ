@@ -1,0 +1,80 @@
+14-15
+
+Diode Inspection !gnition Coil Inspection
+
+®Remove the connector. (a) Measuring Arcing Distance:
+
+@Zero the ohmmeter, and connect it to each pair of The most accurate test for determining the condition
+terminals: 1 — 2,3 —4,5 —6, of the ignition coil is made by measuring arcing distance
+
+®Check the resistance in both directions between the with the Kawasaki Electrotester (special tool).
+terminals.
+
+*The resistance should be low in one direction and more
+
+“NOTE”
+
+than ten times as much in the other direction. If any ; -
+
+two terminals are low or high in both directions, the Since a tester other than the Kawasaki Electrotester
+diode is defective and must be replaced. may produce a different arcing distance, the Kawasaki
+
+Electrotester is recommended for reliable results.
+
+®Turn off the ignition switch, and remove the ignition
+coil.
+
+®Connect the ignition coil (with the spark plug cap left
+installed at the end of the spark plug lead) to the
+Kawasaki Electrotester.
+
+®Turn on the tester switches.
+“NOTE”
+©The actual meter reading varies with the meter used Ignition Coil Test
+and the individual diode, but, generally speaking the
+lower reading should be from zero to the first % of the ES
+scale,
+
+Electrotester
+
+Diode Circuit Inspection
+
+(Terminal)
+{ | JP / OQ] Ignition Coil
+——=-e
+if i WARNING
+To avoid extremely high voltage shocks, do not touch
+l ll the coil or leads.
+v Tv \ J Gradually slide the arcing distance adjusting knob from
+\ ES \ left to right (small distance to large distance), carefully
+x aS . checking the arcing.
+@ 4 © ®Stop moving the knob at the point where the arcing
+(Circuit) begins to fluctuate, and note the knob position in mm.
+*If the distance reading is less than the specified value,
+: _ _ the ignition coil or spark plug cap is defective. To
+(1) (3) (5) determine which part is defective, measure the arcing
+Diode
+
+distance again with the spark plug cap removed from
+the ignition coil. If the arcing distance is subnormal
+ee rs Soe 7 as before, the trouble is with the ignition coil itself. If
+
+| the arcing distance is now normal, the trouble is with
+|
+
+1 V Z|
+
+|
+|
+
+the spark plug cap.
+|
+
+er Cer ieee Kee
+
+Arcing Distance
+
+2 @® ©
+
+Standard : 7 mm or more
+

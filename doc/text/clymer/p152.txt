@@ -1,0 +1,132 @@
+140
+
+installing, apply threadlocking compound to the re-
+
+lief valve threads.
+
+5. Inspect and clean the crankcase oil strainer (Fig- 
+ure 4) whenever the crankcase cover is removed. 
+Oil passes from this screen to the oil pump. A 
+plugged, damaged or missing screen could cause 
+engine damage. If the screen or grommet is dis- 
+torted or damaged, replace the parts. Inspect and 
+clean the passage where the strainer seats.
+
+CLUTCH
+
+The clutch assembly consists of an outer housing 
+and a clutch hub. A set of clutch plates and friction
+
+plates are alternately locked to the two parts. The 
+gear-driven clutch housing is mounted on the trans- 
+mission input shaft and can rotate freely. The hous- 
+ing receives power from the primary drive gear 
+mounted on the crankshaft. As the clutch is en- 
+gaged, the housing and friction plates transfer the 
+power to the clutch plates, locked to the clutch hub. 
+The clutch hub is splined to the input shaft and pow-
+
+ers the transmission. The plate assembly is engaged 
+by springs and disengaged by a cable-actuated re-
+
+lease lever and lift assembly.
+
+The clutch operates immersed in the engine oil
+
+supply. Oil additives should not be added to the oil 
+supply, since these can cause poor clutch operation. 
+The friction plates can also become contaminated.
+
+On 1987-1995 models, the clutch uses seven fric-
+
+tion plates and six clutch plates. On 1996-on mod-
+
+els, the clutch uses eight friction plates and seven 
+clutch plates. The removal, inspection and installa-
+
+tion procedures are the same for all models.
+
+Removal
+
+Refer to Figure 12.
+
+1. Remove the right crankcase cover as described
+
+in this chapter.
+
+2. Remove the five bolts compressing the clutch 
+springs (Figure 13). Make several passes to relieve
+
+the pressure equally on the bolts.
+
+3. Remove the bolts and springs from the clutch 
+(Figure 14).
+
+4. Remove the pressure plate. When removing, 
+keep the plate tilted up so the lifter bearing in the 
+back of 
+the plate does not fall out (Figure 15).
+
+5. Remove the clutch lifter (Figure 16).
+
+
+
+-----
+
+CHAPTER SIX
+
+6. Remove the plates from the clutch housing and
+
+clutch hub (Figure 17).
+
+NOTE 
+On 1996-on models, note that the 
+outer friction plate seats into the shal- 
+low slots of the outer housing (Figure 
+18).
+
+7. Remove the clutch locknut (Figure 19) as fol-
+
+lows:
+
+a. Temporarily install the right footpeg.
+
+b. Attach a clutch holder tool to the clutch hub
+
+and rest it on the footpeg (Figure 20).
+
+CAUTION 
+Do not jam the gears with screwdriv- 
+ers or other tools. This can cause gear 
+breakage. 
+The 
+Kawasaki 
+clutch 
+holder tool (part No. 57001-3035) can 
+be ordered from a Kawasaki dealer- 
+ship.
+
+c. Using a 30 mm socket, loosen the locknut.
+
+d. Remove the clutch locknut and lockwasher.
+
+8. Remove the clutch hub (Figure 21).
+
+9. Remove the washer (Figure 22).
+
+10. Remove the clutch housing (Figure 23).
+
+11. Remove the clutch housing collar (Figure 24).
+
+12. Remove the spacer (Figure 25).
+
+13. Inspect the clutch assembly as described in this
+
+section.
+
+Inspection
+
+Always replace clutch plates, friction plates or 
+springs as a set if they do not meet specifications. If 
+any part shows signs of wear or damage, replace it, 
+regardless of its specification. Refer to the specifi-

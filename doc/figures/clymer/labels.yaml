@@ -1,0 +1,107 @@
+# Figure numbers for detected regions (doc/figures/clymer/index.yaml), read
+# visually from a contact sheet of each region's top-left corner
+# (scripts/figure_contact_sheet.py). Regions with no readable circled number
+# are left out; they are either cut-off crops or non-figure regions.
+# Keyed by file stem; value is the Clymer figure number within its chapter.
+chapter-3:
+  p056-r0: 1
+  p056-r2: 2
+  p057-r0: 3
+  p057-r1: 4
+  p058-r0: 5
+  p058-r1: 6
+  p059-r0: 7
+  p060-r1: 8
+  p060-r2: 9
+  p060-r0: 10
+  p060-r4: 12
+  p061-r0: 13
+  p061-r1: 14
+  p061-r2: 15
+  p061-r3: 16
+  p063-r0: 21
+  p063-r1: 22
+  p063-r2: 23
+  p064-r1: 25
+  p064-r0: 26
+  p064-r2: 27
+  p065-r0: 28
+  p065-r1: 29
+  p065-r2: 30
+  p066-r1: 31
+  p066-r0: 32
+  p067-r0: 34
+  p067-r1: 35
+  p067-r2: 36
+  p068-r1: 37
+  p068-r0: 38
+  p068-r2: 39
+  p069-r0: 40
+  p069-r2: 41
+  p069-r3: 42
+  p069-r1: 43
+  p070-r0: 44
+  p071-r0: 46
+  p073-r0: 51
+  p073-r1: 52
+  p074-r2: 54
+  p074-r1: 56
+  p074-r3: 57
+  p075-r0: 58
+  p075-r1: 59
+  p075-r2: 60
+  p076-r1: 61
+  p076-r0: 62
+  p076-r2: 63
+  p077-r0: 64
+  p077-r1: 65
+  p077-r3: 67
+  p078-r0: 68
+  p078-r1: 69
+  p079-r0: 70
+  p079-r1: 71
+  p079-r2: 72
+  p080-r1: 73
+  p080-r0: 74
+  p080-r2: 75
+  p081-r0: 76
+  p081-r1: 77
+  p081-r2: 78
+  p082-r0: 79
+  p083-r0: 80
+  p084-r0: 81
+  p084-r1: 82
+  p085-r0: 84
+  p086-r0: 86
+chapter-9:
+  p230-r0: 68
+  p230-r1: 69
+  p231-r0: 70
+  p232-r0: 72
+  p232-r1: 73
+  p233-r0: 74
+  p233-r1: 75
+chapter-14:
+  p299-r0: 8
+  p299-r1: 9
+  p299-r2: 10
+  p300-r0: 11
+  p300-r1: 13
+  p305-r0: 30
+  p305-r1: 31
+  p305-r2: 32
+  p306-r1: 33
+  p306-r3: 34
+  p306-r0: 35
+  p322-r0: 97
+  p323-r0: 98
+  p323-r1: 99
+  p324-r0: 100
+  p324-r1: 101
+  p325-r0: 103
+chapter-15:
+  p328-r1: 2
+  p328-r0: 3
+  p328-r2: 4
+  p328-r3: 5
+  p328-r4: 6

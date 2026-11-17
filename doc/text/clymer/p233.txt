@@ -1,0 +1,95 @@
+ELECTRICAL SYSTEM
+
+vent heat dissipation from the bulb, 
+which can cause shortened bulb life.
+
+6. Seat the new bulb into the socket.
+
+7. Seat the socket into the lens, then push in and
+
+turn the socket clockwise to lock it into the lens.
+
+8. Orient the top mark (indicated on the cover), 
+then install the cover onto the lens. Check that the 
+cover is seated so the bulb terminals are fully ex-
+
+posed.
+
+9. Plug the wire connector onto the bulb terminals.
+
+10. Turn on the ignition switch and check that the 
+bulb operates. 
+Check both high and low beams.
+
+11. Install the cowl.
+
+Headlight Adjustment
+
+1. Adjust vertical alignment by loosening the bolt
+
+at the rear of the light, inside the fairing (Figure 73).
+
+2. Adjust horizontal alignment by turning the 
+screw at the lower left corner of the light (Figure 
+74).
+
+Table 1 ELECTRICAL SYSTEM GENERAL SPECIFICATIONS
+
+Alternator
+
+Type 
+Output 
+Battery 
+Ignition timing
+
+Idle 
+Advanced
+
+(continued)
+
+
+
+-----
+
+221
+
+CHOKE
+
+a. Turn the screw in to turn the light to the right.
+
+b. Turn the screw out to turn the light to the left.
+
+LEFT HANDLEBAR SWITCHES
+
+Switch Tests
+
+The left handlebar switch unit (Figure 75) houses
+
+the headlight high/low switch, turn signal switch
+
+and horn button. The switches can be checked for
+
+continuity using an ohmmeter, connected to the ap-
+
+propriate color-coded wires in the connector plug
+
+(D, Figure 70). The plug is located in front of the
+
+handlebar gauges, and behind the cover. Remove
+
+the cover to access the wiring. If necessary, remove
+
+the fairing.
+
+Refer to the Continuity Testing Guidelines sec-
+
+tion in this chapter for the test procedure.
+
+Three-phase AC
+
+14 volts/14 amps at 8000 rpm
+
+12 volts/14 amp-hour
+
+10° BTDC at 1300 rpm 
+30° BTDC at 3300 rpm

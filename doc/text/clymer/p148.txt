@@ -1,0 +1,49 @@
+136 
+CHAPTER FIVE
+
+Table 1 ENGINE LOWER END SPECIFICATIONS (continued)
+
+Crankshaft runout (total
+
+indicator reading) 
+Left half 
+0.03 
+(0.0012) 
+Right half 
+0.04 
+(0.0016)
+
+Table 2 ENGINE LOWER END TORQUE SPECIFICATIONS
+
+Balancer shaft nut
+
+(right side) 
+Balancer chain guide bolts
+
+6mm 
+8mm 
+Engine mounting bolts
+
+8mm 
+10 mm 
+Cam chain guide bolt 
+Crankcase bolts
+
+6mm 
+8mm 
+Neutral switch 
+Oil drain plug 
+Oil pipe
+
+Banjo bolts 
+Retainer bolt 
+Oil pressure relief valve 
+Primary drive gear nut 
+Swing arm pivot bolt
+
+
+
+-----
+
+Service limit 
+mm (in.)

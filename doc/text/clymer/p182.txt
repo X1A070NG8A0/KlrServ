@@ -1,0 +1,60 @@
+{nme 
+coe 
+ah ae A oie
+
+Table 1 GENERAL TRANSMISSION SPECIFICATIONS
+
+Transmission 
+Five-speed constant mesh 
+Primary reduction
+
+Type 
+Gear 
+Ratio 
+2.272 (75/33) 
+Final reduction ratio 
+2.866 (43/15) 
+Overall drive ratio 
+5.157 (top gear) 
+Gear ratios
+
+1st gear 
+2.266 (34/15) 
+2nd gear 
+1987-1996 (to KL650 AE032209) 
+1.529 (26/17) 
+1996-on (from KL650AE032210) 
+1.444 (26/18) 
+3rd gear 
+1987-1996 (to KL650AE032209) 
+1.181 (26/22) 
+1996-on (from KL650AE032210) 
+1.136 (25/22) 
+4th gear 
+0.954 (21/22) 
+5th gear 
+0.791 (19/24)
+
+Table 2 TRANSMISSION SPECIFICATIONS
+
+Standard 
+Service limit 
+mm (in.) 
+mm (in.)
+
+Shift drum groove width 
+6.05-6.20 (0.238-0.244) 
+6.3 (0.248) 
+Gear groove width 
+4.55-4.65 (0.179-0.183) 
+4.8 (0.189) 
+Shift fork claw thickness 
+4.4-4.5 (0.173-0.177) 
+4.3 (0.169) 
+Shift fork guide pin diameter 
+5.9-6.0 (0.232-0.236) 
+5.8 (0.228)
+
+
+
+-----

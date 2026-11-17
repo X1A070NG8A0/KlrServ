@@ -1,0 +1,34 @@
+Items KL600-A1
+Rear suspension:
+Type Swing arm (uni-trak)
+Wheel travel 220 mm
+Brake type:
+Front Single disc
+Rear Drum
+Electrical Equipment:
+Battery 12 V4 AH
+Headlight:
+Type Semi-Sealed beam
+Bulb 12 V 60/55 W (quartz-halogen)
+Tail/brake light 12 V 5/21W, © ©€a© 12 V 8/27 W
+Alternator:
+Type Single-phase AC
+Rated output 10.5 A @8,000 r/min (rpm), 14 V
+Voltage regulator:
+Type Short-circuit
+
+Specifications subject to change without notice, and may not apply to every country.
+
+Abbreviation
+
+(A) : Australian Model (N) : Norwegian Model
+
+: U.K. Model (S) : South African Model
+©) : Canadian Model : Swedish Model
+
+: Californian Model : U.S. Model
+
+(E) : European Model : Swiss Model
+
+(F) : French Model G) : Greek Model
+© : West German Model

@@ -1,0 +1,87 @@
+BRAKES 
+305
+
+
+
+-----
+
+17. Install the bleeder valve and cap.
+
+18. Install the caliper as described in this section.
+
+REAR MASTER CYLINDER
+
+Removal and Installation
+
+Use the following procedure to remove the rear 
+master cylinder and brake fluid reservoir from the 
+motorcycle. Refer to Repair in this section to make
+
+internal repairs to the master cylinder. Refer to Fig-
+
+ure 75.
+
+1. Drain the brake system as described in this chap-
+
+ter.
+
+2. Remove the cotter pin and clevis pin (Figure 76)
+
+that secure the master cylinder clevis to the brake
+
+pedal.
+
+3. Remove the reservoir cover (Figure 77).
+
+4. Remove the back plate and reservoir bolt (Fig-
+
+ure 78).
+
+5. Remove the banjo bolt and seal washers from the 
+brake hose (A, Figure 79). Have a shop cloth ready
+
+to absorb excess brake fluid that drips from the 
+hose. Wrap the hose end to prevent brake fluid from 
+damaging other surfaces.
+
+6. Remove the master cylinder mounting bolts (B, 
+Figure 79).
+
+7. Repair the master cylinder as described in this
+
+section.
+
+8. Reverse this procedure to install the master cyl-
+
+inder and reservoir. Note the following:
+
+a. Tighten the master cylinder mounting bolts to
+
+23 Nem (17 ft.-Ib.).
+
+b. Install new seal washers on the banjo bolt.
+
+Tighten the bolt to 25 Nem (18 ft.-Ib.).
+
+c. Install a new cotter pin on the clevis pin.
+
+9. Fill the brake fluid reservoir and bleed the brake 
+system as described in this chapter.
+
+Repair
+
+Use the following procedure to disassemble, in-
+
+spect and assemble the master cylinder, using new
+
+parts. The piston, seals and spring are only available
+
+as a complete assembly. Refer to Figure 75.
+
+1. Remove the master cylinder and reservoir as de- 
+scribed in this section.
+
+2. Remove the snap ring that retains the hose and
+
+fitting against the master cylinder (Figure 80). Re- 
+move the hose assembly and internal O-ring.

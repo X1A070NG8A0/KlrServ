@@ -1,0 +1,62 @@
+operations:
+  - id: c12-fork-removal
+    title: "Fork removal"
+    system: "Front suspension and steering"
+    source: clymer
+    chapter: 12
+    section: "12/fork-removal-and-installation"
+    summary: {t: "This procedure removes the fork legs from the motorcycle. Removal of the fairing, fender, fuel tank and radiator covers is not necessary. But when you remove some of these parts, it is easier to get to and to handle the fork.", cite: {p: 268}}
+    parts:
+      - {name: "Fork leg drain screw O-ring", replace: inspect, cite: {p: 268}}
+      - {name: "Bridge pinch bolts", replace: inspect, cite: {p: 269}, note: "Replace damaged bolts."}
+    sections:
+      - steps:
+          - {t: "Push the air valve and release the air pressure from both fork legs.", cite: {p: 268}, figs: [21], op: fork-air-release}
+          - {t: "If you will disassemble the fork legs, drain the oil now or when you disassemble them. If you drain it now, there is less oil on the parts during disassembly.", cite: {p: 268}}
+          - {t: "To drain the oil, remove the drain screw and the O-ring from both fork legs.", cite: {p: 268}, figs: [22]}
+          - {t: "Pump the fork to help the oil drain. If possible, let the legs drain overnight.", cite: {p: 268}}
+          - {t: "Support the motorcycle so that it is stable and the front wheel is off the ground.", cite: {p: 268}}
+          - {t: "Remove the front wheel.", cite: {p: 268}, ref: "11/front-wheel-and-speedometer-drive-unit"}
+          - {t: "Remove the brake caliper bolts.", cite: {p: 268}, figs: [22], ref: "14/front-brake-caliper"}
+          - {t: "Put a spacer block between the brake pads. This prevents the pads from coming out of the caliper if the brake lever is operated.", cite: {p: 268}}
+          - {t: "Hang the caliper with a piece of wire. Do not let it hang by the hose.", cite: {p: 269}}
+          - {t: "Remove the brake hose guides and the speedometer cable guides from the fork.", cite: {p: 269}, figs: [23]}
+          - {t: "Remove the brake hose clamp and the tie.", cite: {p: 269}}
+          - {t: "Tie the caliper away from the fork.", cite: {p: 269}}
+          - {t: "If you will disassemble the forks, loosen the fork caps. Do not remove them.", cite: {p: 269}, figs: [25]}
+          - {t: "If you will remove the steering stem assembly, remove the handlebar and loosen the steering stem nut.", cite: {p: 269}}
+          - {t: "Install the handlebar and lightly bolt it into place.", cite: {p: 269}}
+          - {t: "Loosen the upper bridge pinch bolts on each fork leg.", cite: {p: 269}, figs: [26]}
+          - {t: "Loosen the lower bridge pinch bolts.", cite: {p: 269}}
+          - {t: "Twist the fork tube and remove it from the upper and lower fork bridges.", cite: {p: 269}}
+          - {t: "Do the same for the other fork tube.", cite: {p: 269}}
+          - {t: "Clean the fork tubes, the fork bridges and the clamping surfaces.", cite: {p: 269}}
+          - {t: "Remove and clean the pinch bolts. Replace damaged bolts.", cite: {p: 269}}
+
+  - id: c12-fork-installation
+    title: "Fork installation"
+    system: "Front suspension and steering"
+    source: clymer
+    chapter: 12
+    section: "12/fork-removal-and-installation"
+    summary: {t: "This procedure installs the fork legs in the fork bridges. The left fork leg has the brake caliper mount.", cite: {p: 269}}
+    spec_refs:
+      - "front-suspension-torque:Bridge pinch bolts"
+      - "front-suspension-torque:Fork caps"
+    parts:
+      - {name: "Brake hose tie", replace: always, cite: {p: 269}, note: "Install a new tie."}
+    sections:
+      - steps:
+          - {t: "Install the left fork leg, the leg with the brake caliper mount, into the lower and upper fork bridges.", cite: {p: 269}}
+          - {t: "Adjust the fork leg at the upper fork bridge. The top surface of the upper bridge must be 1 mm (0.040 in.) below the top edge of the fork tube.", cite: {p: 269}, figs: [28]}
+          - {t: "Do not include the fork cap in the measurement.", cite: {p: 269}}
+          - {t: "Lightly tighten the upper and lower bridge bolts to hold the fork leg in place.", cite: {p: 269}, figs: [26]}
+          - {t: "Do these steps again to install the right fork leg.", cite: {p: 269}}
+          - {t: "Tighten the bridge pinch bolts to the specified torque.", cite: {p: 269}, spec_ref: "front-suspension-torque:Bridge pinch bolts"}
+          - {t: "Install the brake hose clamp and a new tie.", cite: {p: 269}}
+          - {t: "Install the brake hose guides and the speedometer cable guides.", cite: {p: 269}, figs: [23]}
+          - {t: "Install the brake caliper.", cite: {p: 269}, ref: "14/front-brake-caliper"}
+          - {t: "Install the front wheel.", cite: {p: 269}, ref: "11/front-wheel-and-speedometer-drive-unit"}
+          - {t: "If you rebuilt the fork legs, align the fork boots and tighten the clamps.", cite: {p: 269}}
+          - {t: "If you rebuilt the fork legs, tighten the fork caps to the specified torque.", cite: {p: 269}, spec_ref: "front-suspension-torque:Fork caps"}
+

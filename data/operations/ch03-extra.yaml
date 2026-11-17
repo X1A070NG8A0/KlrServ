@@ -1,0 +1,240 @@
+# Clymer Chapter Three: pre-ride inspection, break-in, service intervals, fuel and
+# lubricants, timing and compression checks, spark plug selection and reading.
+operations:
+  - id: c03-pre-ride-inspection
+    title: "Pre-ride inspection"
+    system: "lubrication, maintenance and tune-up"
+    source: clymer
+    chapter: 3
+    section: "03/pre-ride-inspection"
+    summary: {t: "Do the pre-ride checks before each ride when the engine is cold. On extended travel and on rough terrain, do the checks at least once each day.", cite: {p: 55}}
+    sections:
+      - steps:
+          - {t: "Do the checks when the engine is cold.", cite: {p: 55}}
+          - {t: "To start the motorcycle, use the starting procedure.", cite: {p: 55}, ref: "02/starting-the-engine"}
+          - {t: "Make sure that the fuel lines and fittings do not leak.", cite: {p: 55}}
+          - {t: "Make sure that the fuel level is correct.", cite: {p: 55}}
+          - {t: "Make sure that the engine oil level is correct.", cite: {p: 55}, op: engine-oil-and-filter}
+          - {t: "Make sure that the coolant level is correct.", cite: {p: 55}, op: cooling-system-inspect}
+          - {t: "Make sure that the brakes operate correctly and that the lever and pedal free play is correct.", cite: {p: 55}}
+          - {t: "Make sure that the throttle operates correctly and that its free play is correct.", cite: {p: 55}, op: throttle-cable}
+          - {t: "Make sure that the clutch operates correctly and that its free play is correct.", cite: {p: 55}, op: clutch-adjust}
+          - {t: "Make sure that there is no air pressure in the fork legs.", cite: {p: 55}, op: fork-air-release}
+          - {t: "Make sure that the steering operates smoothly and that no cable binds.", cite: {p: 55}}
+          - {t: "Examine the tires. Make sure that the air pressure is correct.", cite: {p: 55}, op: tires}
+          - {t: "Examine the wheels. Make sure that the spokes are tight.", cite: {p: 55}, op: spokes}
+          - {t: "Make sure that the axle nuts are tight.", cite: {p: 55}}
+          - {t: "Make sure that no nuts or bolts are loose.", cite: {p: 55}, op: fasteners}
+          - {t: "Make sure that the exhaust system is tight.", cite: {p: 55}}
+          - {t: "Examine the drive chain. Make sure that its adjustment is correct.", cite: {p: 55}, op: drive-chain-adjust}
+          - {t: "Make sure that the rear sprocket is tight.", cite: {p: 55}}
+          - {t: "Make sure that there is no dirt or debris on the air filter.", cite: {p: 55}, op: air-filter}
+          - {t: "Make sure that the suspension does not leak and that its settings are correct for the riding conditions.", cite: {p: 55}}
+          - {t: "Make sure that the engine stop switch operates correctly.", cite: {p: 55}}
+          - {t: "Make sure that the lights and signals operate correctly.", cite: {p: 55}}
+
+  - id: c03-engine-break-in
+    title: "Engine break-in"
+    system: "lubrication, maintenance and tune-up"
+    source: clymer
+    chapter: 3
+    section: "03/engine-break-in"
+    summary: {t: "Do the break-in procedure after service of the engine bearings, crankshaft, piston, piston rings or cylinder. The break-in period is 1000 miles (1600 km) of engine operation.", cite: {p: 55}}
+    sections:
+      - steps:
+          - {t: "Operate the motorcycle on hard ground. Do not operate it in sand, mud or on steep hills. This can overload and overheat the engine.", cite: {p: 56}}
+          - {t: "Change the throttle position often. Do not keep the throttle in one position for a long time.", cite: {p: 56}}
+          - {t: "Make sure that a new spark plug is installed.", cite: {p: 56}}
+          - {t: "Make sure that the air filter is clean and oiled.", cite: {p: 56}}
+          - {t: "Make sure that the engine has the correct quantity and grade of engine oil.", cite: {p: 56}}
+          - {t: "Make sure that the cooling system is full.", cite: {p: 56}}
+          - {t: "Start the engine and let it warm up for at least 2 minutes. Do not race the engine while it warms up.", cite: {p: 56}}
+          - {t: "During the warm-up, make sure that the idle speed is correct and that there are no leaks.", cite: {p: 56}}
+          - {t: "For the first 500 miles (800 km), do not operate the motorcycle at more than 4000 rpm.", cite: {p: 56}}
+          - {t: "During this time, change the engine speed often. Do not lug the engine.", cite: {p: 56}}
+          - {t: "At the end of the first 500 miles (800 km), do the maintenance procedures in Table 1.", cite: {p: 56}, op: c03-service-intervals}
+          - {t: "For the second 500 miles (800 km), do not operate the motorcycle at more than 6000 rpm.", cite: {p: 56}}
+          - {t: "During this time, change the throttle position often. Do not lug the engine.", cite: {p: 56}}
+
+  - id: c03-service-intervals
+    title: "Tune-up and service intervals"
+    system: "lubrication, maintenance and tune-up"
+    source: clymer
+    chapter: 3
+    section: "03/tune-up-and-service-intervals"
+    summary: {t: "Table 1 gives the maintenance and lubrication intervals. The intervals are for equal use on and off the road.", cite: {p: 56}}
+    sections:
+      - steps:
+          - {t: "If you operate the motorcycle in extreme weather, or in water or sand, do the service procedures more often.", cite: {p: 56}}
+          - {t: "Write down the date of each service in the maintenance log at the end of the manual.", cite: {p: 56}}
+          - {t: "Adjust and lubricate the drive chain every 200 miles (300 km).", cite: {p: 88}, op: drive-chain-adjust-lube}
+          - {t: "Lubricate the steering bearings every 12,000 miles (20,000 km).", cite: {p: 88}, op: steering-bearings}
+          - {t: "Replace the fork oil every 18,000 miles (30,000 km).", cite: {p: 88}, op: fork-oil}
+          - {t: "Replace the coolant every 2 years.", cite: {p: 88}, op: coolant-replace}
+          - {t: "Replace the brake fluid every 2 years.", cite: {p: 88}}
+          - {t: "Replace the fuel hose every 4 years.", cite: {p: 88}}
+          - {t: "Replace the brake hoses every 4 years.", cite: {p: 88}}
+          - {t: "Replace the air filter every 5 cleanings.", cite: {p: 88}, op: air-filter}
+          - {t: "Do the other Table 1 items at the initial 500 miles (800 km) service and at the 3000 miles (5000 km) and 6000 miles (10,000 km) services.", cite: {p: 88},
+             gap: "The text layer of Table 1 does not show which column each item belongs to. The data/schedule.yaml file holds the column assignments. See the page image on p88."}
+
+  - id: c03-fuel-and-lubricants
+    title: "Fuel and lubricant requirements"
+    system: "lubrication, maintenance and tune-up"
+    source: clymer
+    chapter: 3
+    section: "03/fuel-and-lubricants"
+    summary: {t: "This procedure lists the fuel and the lubricants that the engine and the chassis need.", cite: {p: 58}}
+    spec_refs:
+      - "fluids:Fuel type"
+      - "fluids:Engine oil"
+      - "fluids:Fork oil grade"
+      - "fluids:Drive chain"
+      - "fluids:Control cables"
+      - "fluids:Air filter"
+    sections:
+      - title: "Fuel"
+        steps:
+          - {t: "Use unleaded pump-grade gasoline with an octane rating of 87 (R + M/2) or 91 RON (Research Octane Number).", cite: {p: 58}, spec_ref: "fluids:Fuel type"}
+          - {t: "Do not use gasoline that contains alcohol for continual use.", cite: {p: 58}}
+          - {kind: note, t: "On California models, do not fill the tank up to the neck of the fuel tank. Heat can make the fuel expand and flow into the lines of the evaporative emission control unit near the filler neck. This can cause hard starting and engine hesitation until the fuel clears from the system.", cite: {p: 58}}
+      - title: "Engine oil"
+        steps:
+          - {t: "Use a multigrade oil with an SAE viscosity rating of 10W-40, 20W-40, 10W-50 or 20W-50.", cite: {p: 58}, spec_ref: "fluids:Engine oil"}
+          - {t: "Use an oil with a service classification of SG. The oil container shows the viscosity rating and the classification.", cite: {p: 58}}
+          - {kind: note, t: "The SAE numbers show the equivalent weight of the oil at 0° F (-18° C) and 210° F (99° C). They do not show the real thickness. They show how well the oil circulates and lubricates at these extremes.", cite: {p: 58}}
+          - {kind: note, t: "The engine oil also lubricates the transmission. The transmission shears the polymers in the oil over time, and the oil lubricates less well. Change the oil and filter at the Table 1 intervals. If possible, use the same brand of oil at each oil change.", cite: {p: 58}}
+          - {kind: caution, t: "Do not use oils or oil additives that contain graphite or molybdenum. These additives can cause clutch slippage and erratic operation.", cite: {p: 58}}
+      - title: "Fork oil"
+        steps:
+          - {t: "Use 10-weight fork oil in the fork legs.", cite: {p: 58}, spec_ref: "fluids:Fork oil grade"}
+      - title: "Grease"
+        steps:
+          - {t: "Use a good quality, lithium-base grease on components that need grease.", cite: {p: 58}}
+          - {t: "Where a procedure specifies it, use molybdenum disulfide grease for its extreme-pressure qualities or waterproof grease for its protective qualities.", cite: {p: 58}}
+          - {t: "Grease components often. This pushes water and grit out of the component and makes it last longer.", cite: {p: 58}}
+      - title: "Chain lubricant"
+        steps:
+          - {t: "Use a good-quality chain lubricant that is compatible with the type of chain on the motorcycle.", cite: {p: 58}}
+          - {t: "An O-ring chain was standard equipment for the years that the manual covers. Use chain lubricant made for O-ring chains.", cite: {p: 58}, spec_ref: "fluids:Drive chain"}
+          - {t: "The links of an O-ring chain are permanently lubricated and sealed. O-ring chain lubricant prevents corrosion on the outside of the chain and conditions the O-rings. It is not tacky and does not hold dirt.", cite: {p: 59}}
+          - {t: "Do not use tacky lubricants or lubricants for conventional chains. They attract dirt and cause unnecessary wear on the O-rings.", cite: {p: 59}}
+      - title: "Control cable lubricant and air filter oil"
+        steps:
+          - {t: "Use lithium grease on the control cable pivots.", cite: {p: 59}}
+          - {t: "Lubricate the cable with light oil or a commercial cable lubricant.", cite: {p: 59}, spec_ref: "fluids:Control cables"}
+          - {t: "Use a commercial air filter oil made for foam filters. This oil stays on the foam and traps dust well.", cite: {p: 59}, spec_ref: "fluids:Air filter"}
+
+  - id: c03-engine-timing-check
+    title: "Engine timing check"
+    system: "lubrication, maintenance and tune-up"
+    source: clymer
+    chapter: 3
+    section: "03/engine-tune-up"
+    summary: {t: "The CDI unit controls the ignition timing electronically. You cannot adjust the timing. The timing check shows that the CDI unit operates correctly.", cite: {p: 83}}
+    sections:
+      - steps:
+          - {t: "If you must make sure that the ignition timing is correct, do the ignition timing check in Chapter Nine.", cite: {p: 83}, ref: "09/ignition-system"}
+
+  - id: c03-compression-check
+    title: "Compression check"
+    system: "lubrication, maintenance and tune-up"
+    source: clymer
+    chapter: 3
+    section: "03/engine-tune-up"
+    summary: {t: "A compression check shows the condition of the piston, rings and cylinder head assembly without disassembly of the engine. Keep a record of the reading at each tune-up. Compare the readings to find normal wear.", cite: {p: 83}}
+    spec_refs:
+      - "tune-up:Compression"
+    sections:
+      - steps:
+          - {kind: note, t: "A correctly broken-in engine usually has 530-855 kPa (77-124 psi) of compression. The compression release opens the right exhaust valve a small amount during cranking, so the compression can change.", cite: {p: 83}, spec_ref: "tune-up:Compression"}
+          - {kind: note, t: "If a reading is very different from a previous reading, find the cause. Examine the compression release first. Do not operate the engine with abnormal compression readings. Severe engine damage can occur.", cite: {p: 83}}
+          - {t: "Warm the engine to operating temperature.", cite: {p: 83}}
+          - {t: "Remove the spark plug.", cite: {p: 83}, op: spark-plug}
+          - {t: "Put the spark plug in the cap. Ground the plug to the cylinder.", cite: {p: 83}}
+          - {kind: caution, t: "Ground the spark plug. If you do not, the CDI unit can get damage.", cite: {p: 83}}
+          - {t: "Thread a compression gauge into the spark plug hole. The gauge must fit airtight in the hole to give an accurate reading.", cite: {p: 83}}
+          - {kind: note, t: "The compression gauge needs a 12 mm spark plug fitting to thread into the cylinder head. Compression gauge sets do not usually include this size. You can use a gauge with a tapered rubber fitting that you seat and hold in the hole.", cite: {p: 83}}
+          - {t: "Hold the throttle fully open.", cite: {p: 83}}
+          - {t: "Operate the starter. Turn the engine over until the gauge shows the highest reading.", cite: {p: 83}}
+          - {t: "Write down the reading. Compare it with the previous readings.", cite: {p: 83}}
+          - {kind: note, t: "In normal operation, the compression slowly gets lower than the original specification. This is because of wear of the piston rings and the valve seats.", cite: {p: 83}}
+          - {t: "If the reading is higher than normal, find the cause. A broken or jammed compression release spring can be the cause. If the spring cannot pull back the compression release weights, the release does not release compression during cranking.", cite: {p: 83}}
+          - {t: "Carbon buildup in the combustion chamber is a common cause of high compression. It can cause high combustion chamber temperatures and engine damage.", cite: {p: 83}}
+          - {t: "If the reading is lower than normal, find the cause. Worn piston rings, worn valves, a damaged piston or a leaking head gasket can be the cause.", cite: {p: 83}}
+          - {kind: note, t: "The compression release is less likely to be the cause of a low reading. When the engine fires and the camshaft speed increases, the release weights probably do not turn fast enough to stop the release of compression.", cite: {p: 83}}
+          - {t: "To find the source of the leak, pour 15 cc (1/2 oz.) of four-stroke engine oil through the spark plug hole into the cylinder.", cite: {p: 83}}
+          - {t: "Turn the engine over to spread the oil and clear the extra oil.", cite: {p: 84}}
+          - {t: "Measure the compression again.", cite: {p: 84}}
+          - {t: "If the compression increases, the piston rings are worn or damaged.", cite: {p: 84}}
+          - {t: "If the compression is the same, the piston, head gasket, valves or compression release are worn or damaged.", cite: {p: 84}}
+
+  - id: c03-spark-plug-selection
+    title: "Spark plug selection"
+    system: "lubrication, maintenance and tune-up"
+    source: clymer
+    chapter: 3
+    section: "03/spark-plugs"
+    summary: {t: "Table 3 gives the standard or resistor-type spark plug and the gap. The heat range and the reach of the plug must be correct for the engine.", cite: {p: 85}}
+    spec_refs:
+      - "tune-up:Spark plug/Type"
+      - "tune-up:Spark plug/Gap"
+    sections:
+      - steps:
+          - {kind: caution, t: "Before you change to a plug that Kawasaki does not recommend, ask the spark plug manufacturer for the part numbers that apply to this motorcycle. A plug that is not compatible can cause poor performance or engine damage.", cite: {p: 85}}
+          - {t: "Use the recommended standard or resistor-type spark plug and gap.", cite: {p: 85}, spec_ref: "tune-up:Spark plug/Type"}
+          - {t: "The standard plug has a medium heat range. It operates well over a wide range of engine speeds. If the engine speed changes, this plug stays relatively clean.", cite: {p: 85}}
+          - {t: "If you operate the engine in hot climates, at high speed or under heavy loads for a long time, use a colder plug. A colder plug has a short path up the ceramic insulator and moves heat quickly from the firing tip to the cylinder head.", cite: {p: 85}, figs: [85]}
+          - {t: "If you operate the engine slowly for a long time, a colder plug can foul and cause poor performance.", cite: {p: 86}}
+          - {t: "If you operate the engine in cold climates or at slow speed for a long time, use a hotter plug. A hotter plug has a long path up the insulator and moves heat slowly from the firing tip.", cite: {p: 86}, figs: [85]}
+          - {t: "If you operate the engine in hot climates or fast for a long time, a hotter plug can overheat. It can cause preignition and melt the electrode. Damage to the piston and cylinder assembly is possible.", cite: {p: 86}}
+          - {t: "If you change the heat range, go one step hotter or one step colder than the recommended plug.", cite: {p: 86}}
+          - {t: "Do not use different spark plugs to correct poor carburetor or ignition problems. This makes the problems worse and can cause severe engine damage.", cite: {p: 86}}
+          - {t: "Use a plug with the correct reach. The reach is the length of the threaded portion of the plug.", cite: {p: 86}}
+          - {t: "If the reach is too short, deposits can form or the exposed threads in the cylinder head can burn. The engine can misfire because the tip of the plug is shrouded and not in the fuel mixture.", cite: {p: 86}}
+          - {t: "If the reach is too long, the exposed plug threads can burn and cause preignition. The piston can also touch the plug on the upstroke and cause severe engine damage.", cite: {p: 86}}
+
+  - id: c03-spark-plug-reading
+    title: "Spark plug reading"
+    system: "lubrication, maintenance and tune-up"
+    source: clymer
+    chapter: 3
+    section: "03/spark-plugs"
+    summary: {t: "The spark plug shows how the engine operates. When you remove the plug, compare the firing tip with the conditions in the figure.", cite: {p: 87}}
+    sections:
+      - steps:
+          - {kind: caution, t: "If the plug does not read normal, find the cause before you continue to operate the engine. If you ignore an abnormal reading, severe engine damage is possible.", cite: {p: 87}}
+          - {t: "Compare the firing tip of the removed plug with the conditions in the figure.", cite: {p: 87}, figs: [86]}
+      - title: "Normal"
+        steps:
+          - {t: "A normal plug has light tan or gray deposits on the tip. The electrodes do not show erosion and the gap is correct.", cite: {p: 87}}
+          - {t: "This condition shows that the carburetion, the ignition timing and the fuel are correct, and that the heat range is correct for the conditions. You can clean the plug and use it again.", cite: {p: 87}}
+      - title: "Carbon-fouled"
+        steps:
+          - {t: "A carbon-fouled plug is black with a dry, sooty deposit on the complete plug surface. The deposit is conductive and can make electrical paths around the electrode gap. This often causes a misfire.", cite: {p: 87}}
+          - {t: "Find the cause. It can be a rich fuel mixture, a plug that is too cold, a faulty ignition component, prolonged idling, a clogged air filter or poor compression.", cite: {p: 87}}
+      - title: "Oil-fouled"
+        steps:
+          - {t: "An oil-fouled plug is wet with black, oily deposits on the electrodes and the insulator. The electrodes do not show wear.", cite: {p: 87}}
+          - {t: "Find the cause. It can be incorrect carburetor jetting, prolonged idling or a low idle speed, a plug that is too cold, worn valve guides, worn piston rings or a failure of an ignition component.", cite: {p: 87}}
+      - title: "Gap-bridged"
+        steps:
+          - {t: "A gap-bridged plug has deposits between the electrodes. The electrodes do not show wear.", cite: {p: 87}}
+          - {t: "Find the cause. It can be incorrect oil, incorrect fuel or contaminated fuel, carbon deposits in the combustion chamber, or high-speed operation after too much idling.", cite: {p: 87}}
+      - title: "Overheated"
+        steps:
+          - {t: "An overheated plug is dry. The insulator has a white or light gray color and can look blistered. The electrodes can look burnt and blue.", cite: {p: 87}}
+          - {t: "Find the cause. It can be a lean fuel mixture, a plug that is too hot, an air leak into the intake system, no crush washer on the plug, a plug that is not tightened correctly or a faulty ignition component.", cite: {p: 87}}
+      - title: "Preignition"
+        steps:
+          - {t: "A plug with preignition has electrodes that are severely eroded or melted. This condition can lead to severe engine damage.", cite: {p: 87}}
+          - {t: "Find the cause. It can be a faulty ignition component, a plug that is too hot, an air leak into the intake system or carbon deposits in the combustion chamber.", cite: {p: 87}}
+      - title: "Worn out"
+        steps:
+          - {t: "A worn out plug has electrodes that are round from normal combustion. There is no sign of abnormal combustion or engine conditions.", cite: {p: 87}}
+          - {t: "Replace the plug.", cite: {p: 87}}
+      - title: "Spark plug cap"
+        steps:
+          - {t: "Make sure that the spark plug cap fits tight on the spark plug and is in good condition.", cite: {p: 87}}
+          - {t: "A cap that does not seal and insulate the plug terminal can cause flashover (a short down the side of the plug). This is more likely in wet conditions.", cite: {p: 87}}
+          - {t: "Wipe a small quantity of dielectric grease around the inside of the cap before you install it. This prevents water from getting under the cap.", cite: {p: 87}}

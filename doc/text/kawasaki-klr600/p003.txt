@@ -1,0 +1,46 @@
+Unit Conversion Table List of Abbreviations
+
+ec x 0610 = cuin ABDC after bottom dead center
+ec x .02816 = oz (imp) ATOC after top dead center
+cc x .03381 = oz (US) BBDC before bottom dead center
+cuin x 16.39 = cc BOC bottom dead center
+ftlbs x 12 = inlbs BToOC before top dead center
+ftlbs x 1383 = kgm cc cubic centimeters
+gailimp) x 4,546 = litres cuin cubic inches
+gal(imp) x 1.201 = gal (US) ft foot, feet
+gal (US) x 3.7853 = liters ft-lbs foot pounds
+gal (US) x 8326 = gal {imp) gal gation, gallons
+grams x (03527 = oz hp horsepower
+in x 2540 = mm in inch, inches
+intbs x 0833 = frlbs int inch pounds
+intbs x (O115 = kgm kg kilogram, kilograms
+kg x 2.2046 © Ibs kg/cm’ kilogr per square
+kg x 35.274 = oz kom kilogram meters
+kam x 7.233 = ftlbs km kilometer
+kgm x 86.796 = inlbs kph kilometers per hour
+kg/cm’ x 14.22 = Ibs/in’ tb, Ibs pound, pounds
+km x 6214 = mile Ibs/in* pounds per square inch
+Ib x 4536 = kg tir liter, litre
+Ib/in® =x = 0703 = kg/cm’ m meter, meters
+litte x 28.16 = oz limp) mi mile, miles
+litre x 33.81 = oz (US) mm milimeters
+litte x (8799 = qt limp) mph miles per hour
+litte x 1.0567 = qt (US) oz ounce, ounces
+metre x 3.281 = ft psi pounds per square inch
+mile x 1.6093 = km at quart, quarts
+mm x .03937 = in rpm revolutions per minute
+ozlimp) x 3551 = cc sec second, seconds
+oz(US) x 29.57 = cc ss standing start
+oz (weight) x 28.35 = grams Toc top dead center
+qtiimp) x 1.1365 = litre 7 inch, inches
+qtlimp) x 1.201 = qt (US) r/min revolutions per minute
+qt(US) x 9463 = litre ‘ liter, litre
+qtu(Us) x 8326 = qt (imp) kPa kilo-Pascals
+
+kg/cm’ x 98.07 © kPa
+Ibs/in? x = 6. 896. = -—kPa
+kPa x = 1450 = Ibs/in’
+
+oF; SCCSMggare
+
+"6 ="°C: aCe es 40) _ ag="c

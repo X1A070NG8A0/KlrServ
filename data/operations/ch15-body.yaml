@@ -1,0 +1,145 @@
+operations:
+  - id: c15-side-covers
+    title: "Side cover removal and installation"
+    system: "body"
+    source: clymer
+    chapter: 15
+    section: "15/side-covers"
+    summary: {t: "This procedure removes and installs a side cover. A friction barb holds the cover in a grommet.", cite: {p: 327}}
+    sections:
+      - title: "Removal"
+        steps:
+          - {t: "Remove the screws at the front and rear of the cover.", cite: {p: 327}}
+          - {t: "Pull the bottom of the cover out to release the friction barb from the grommet.", cite: {p: 328}}
+          - {t: "Remove the cover.", cite: {p: 328}}
+      - title: "Installation"
+        steps:
+          - {t: "Put the rear edge of the cover in first. The cover must fit under the rear fender.", cite: {p: 328}}
+          - {t: "Align the friction barb with the grommet.", cite: {p: 328}}
+          - {t: "Press the cover into position.", cite: {p: 328}}
+          - {t: "Install and tighten the screws.", cite: {p: 328}}
+
+  - id: c15-seat
+    title: "Seat removal and installation"
+    system: "body"
+    source: clymer
+    chapter: 15
+    section: "15/seat"
+    summary: {t: "This procedure removes and installs the seat. The seat engages the fuel tank at the front.", cite: {p: 328}}
+    sections:
+      - title: "Removal"
+        steps:
+          - {t: "Remove the side covers.", cite: {p: 328}, op: c15-side-covers}
+          - {t: "Remove the bolt from each side of the seat.", cite: {p: 328}, figs: [2]}
+          - {t: "Hold the front and rear of the seat.", cite: {p: 328}}
+          - {t: "Pull the seat toward the rear to release it from the fuel tank.", cite: {p: 328}, figs: [3]}
+      - title: "Installation"
+        steps:
+          - {t: "Install the seat in the reverse order of removal.", cite: {p: 328}}
+          - {t: "Make sure that the seat is tight at the front.", cite: {p: 328}}
+
+  - id: c15-fuel-tank
+    title: "Fuel tank removal and installation"
+    system: "body"
+    source: clymer
+    chapter: 15
+    section: "15/fuel-tank"
+    summary: {t: "This procedure removes and installs the fuel tank. You move the tank toward the rear of the motorcycle.", cite: {p: 328}}
+    sections:
+      - title: "Removal"
+        steps:
+          - {t: "Remove the seat.", cite: {p: 328}, op: c15-seat}
+          - {t: "Turn the fuel valve off.", cite: {p: 328}}
+          - {t: "Remove the fuel hose (A) and the vacuum hose (B) from the fuel valve assembly.", cite: {p: 328}, figs: [4]}
+          - {t: "Remove the bolts and the hoses at the rear of the fuel tank.", cite: {p: 328}, figs: [5]}
+          - {t: "Remove the screw at the top of the radiator cover.", cite: {p: 328}, figs: [6]}
+          - {t: "Pull the friction barb from the grommet in the fuel tank.", cite: {p: 328}}
+          - {kind: caution, t: "Do not bend the radiator cover too much. This can cause discoloration.", cite: {p: 328}}
+          - {t: "Move the fuel tank toward the rear of the motorcycle and remove it.", cite: {p: 328}}
+      - title: "Installation"
+        steps:
+          - {t: "Install the fuel tank in the reverse order of removal.", cite: {p: 328}}
+          - {t: "Align the fuel tank with all the bolt holes and screw holes before you tighten the fasteners.", cite: {p: 328}}
+
+  - id: c15-radiator-covers
+    title: "Radiator cover removal and installation"
+    system: "body"
+    source: clymer
+    chapter: 15
+    section: "15/radiator-covers"
+    summary: {t: "This procedure removes and installs the radiator covers. The left cover shrouds the radiator. The right cover shrouds the coolant reserve tank.", cite: {p: 328}}
+    sections:
+      - title: "Removal"
+        steps:
+          - {kind: note, t: "You can remove the covers together with the fuel tank. In that case, remove only the fasteners at the front of the covers.", cite: {p: 328}, ref: "15/fuel-tank"}
+          - {t: "If the covers stay attached to the fuel tank, support the fuel tank after you remove it. Do not let the tank rest on the covers.", cite: {p: 328}}
+          - {t: "At the front of the cover, remove the bolt or screw at the top.", cite: {p: 329}, figs: [7]}
+          - {t: "At the front of the cover, remove the bolt or screw at the bottom.", cite: {p: 329}, figs: [7]}
+          - {t: "Remove the screw at the top of the radiator cover.", cite: {p: 329}}
+          - {t: "Pull the friction barb from the grommet in the fuel tank.", cite: {p: 329}, figs: [6], chapter: 15}
+          - {kind: caution, t: "Do not bend the cover too much. This can cause discoloration.", cite: {p: 329}}
+      - title: "Installation"
+        steps:
+          - {t: "Install the radiator covers in the reverse order of removal.", cite: {p: 329}}
+
+  - id: c15-fairing
+    title: "Fairing removal and installation"
+    system: "body"
+    source: clymer
+    chapter: 15
+    section: "15/fairing"
+    summary: {t: "This procedure removes and installs the fairing. The fairing contains the headlight and the turn signals.", cite: {p: 329}}
+    parts:
+      - {name: "Dielectric grease", replace: consumable, cite: {p: 329}, note: "Apply a thin layer to the electrical connectors at installation."}
+    sections:
+      - title: "Removal"
+        steps:
+          - {t: "Cover the front fender or remove it.", cite: {p: 329}}
+          - {t: "Remove the upper mounting bolt from the frame.", cite: {p: 329}, figs: [10]}
+          - {t: "If necessary, loosen the lower mounting bolt. The fairing then tilts forward.", cite: {p: 329}}
+          - {t: "Tilt the fairing forward.", cite: {p: 329}}
+          - {t: "Remove the wire ties that hold the wiring to the framework.", cite: {p: 329}}
+          - {t: "Identify the turn signal wires.", cite: {p: 329}}
+          - {t: "Disconnect the turn signal wires.", cite: {p: 329}}
+          - {t: "Unplug the headlight.", cite: {p: 329}}
+          - {t: "Remove the wires from the frame tab.", cite: {p: 329}}
+          - {t: "Support the fairing. Remove the lower mounting bolt from the frame.", cite: {p: 329}}
+          - {t: "Examine the fairing and the frame for damage.", cite: {p: 329}}
+      - title: "Installation"
+        steps:
+          - {t: "Install the fairing in the reverse order of removal.", cite: {p: 329}}
+          - {t: "Clean all the electrical connections.", cite: {p: 329}}
+          - {t: "Apply a thin layer of dielectric grease to the connectors.", cite: {p: 329}}
+
+  - id: c15-subframe
+    title: "Subframe removal and installation"
+    system: "body"
+    source: clymer
+    chapter: 15
+    section: "15/subframe"
+    issue: subframe-bolts
+    summary: {t: "This procedure removes and installs the subframe, the rear part of the frame. An assistant must hold the subframe when you remove the upper bolts.", cite: {p: 330}}
+    spec_refs: ["kaw-torque:Frame/Rear frame mounting bolts"]
+    parts:
+      - {name: "Subframe mounting bolts", replace: inspect, cite: {p: 330}, note: "Replace a bolt that is corroded or damaged."}
+    sections:
+      - title: "Removal"
+        steps:
+          - {t: "Remove the side covers.", cite: {p: 330}, op: c15-side-covers}
+          - {t: "Remove the seat.", cite: {p: 330}, op: c15-seat}
+          - {t: "Remove the muffler from the exhaust pipe and the frame.", cite: {p: 330}, ref: "04/exhaust-system"}
+          - {t: "Remove the right passenger footpeg (A).", cite: {p: 330}, figs: [11]}
+          - {t: "Loosen the carburetor clamp (A).", cite: {p: 330}, figs: [12]}
+          - {t: "Remove the battery.", cite: {p: 330}, op: battery}
+          - {t: "Disconnect all the hoses and wires that go from the front to the rear of the motorcycle.", cite: {p: 330}, figs: [13]}
+          - {t: "Route the hoses and wires out of the subframe.", cite: {p: 330}}
+          - {t: "Remove the lower subframe bolts (B).", cite: {p: 330}, figs: [11]}
+          - {kind: caution, t: "Ask an assistant to hold the subframe when you remove the upper subframe bolts. The subframe can fall.", cite: {p: 330}}
+          - {t: "Remove the upper subframe bolts (B).", cite: {p: 330}, figs: [12]}
+      - title: "Installation"
+        steps:
+          - {t: "Examine the subframe mounting bolts. If a bolt is corroded or damaged, replace it.", cite: {p: 330}}
+          - {t: "Ask an assistant to help you install the subframe.", cite: {p: 330}}
+          - {t: "Install the subframe in the reverse order of removal.", cite: {p: 330}}
+          - {t: "Tighten all the subframe mounting bolts with your fingers.", cite: {p: 330}}
+          - {t: "Tighten the subframe mounting bolts to the specified torque. The torque value is from Kawasaki. Clymer gives the same value.", cite: {s: kaw-supp, p: 16}, spec_ref: "kaw-torque:Frame/Rear frame mounting bolts", conflict: {note: "Clymer p330 gives the same torque for the subframe mounting bolts.", agrees: true, others: [{t: "Tighten the bolts to 25 N-m (18 ft-lb).", cite: {p: 330}}]}}

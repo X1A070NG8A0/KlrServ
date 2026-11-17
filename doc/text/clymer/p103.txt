@@ -1,0 +1,124 @@
+ENGINE TOP END
+
+passes. Carefully remove the caps, dowels 
+and Plastigauge strips. Keep all strips with
+
+their respective cap.
+
+g. Using the scale included with the Plastigauge
+
+kit, measure the width of the Plastigauge to 
+determine 
+if 
+clearance 
+is 
+within 
+the 
+specification. If oil clearance is not within 
+specification, measure the camshaft journal
+
+to determine which part(s) are worn. Replace
+
+the camshaft, cylinder head, or if necessary,
+
+both parts.
+
+CYLINDER HEAD
+
+Removal
+
+The cylinder head can be removed with the en- 
+gine mounted in the frame. Refer to Figure 6 as 
+needed.
+
+1. Drain the engine coolant (Chapter Three).
+
+2. Remove the coolant hose, thermostat and hous- 
+ing (Figure 35) (Chapter Ten).
+
+3. Remove the carburetor (Chapter Eight).
+
+
+
+-----
+
+OT
+
+4. Remove the exhaust pipe as described in this 
+chapter.
+
+5. Remove the cylinder head cover, camshafts and 
+cam chain tensioner as described in this chapter.
+
+6. Remove the shims from the valve lifters (Figure 
+21) as follows:
+
+a. Rotate the valve lifter so the notch in the edge
+
+of the lifter is accessible.
+
+b. Wedge a small-tipped tool between the shim
+
+and lifter, then tilt the tool back to break the
+
+oil adhesion between the parts.
+
+c. Remove the shim and mark its location in the
+
+cylinder head. The shims must be identified, 
+since they can vary in thickness. Make a 
+drawing of the cylinder head so all parts from 
+each location can be placed in the appropriate 
+position on the guide.
+
+7. Remove the banjo bolt and seal washers from the
+
+oil pipe (A, Figure 36).
+
+8. Remove the nut from the rear of the cylinder 
+head (B, Figure 36).
+
+9. Remove the nut and bolt from the front of the 
+cylinder head (Figure 37).
+
+10. On 1987-1995 models, remove the two cylin- 
+der head bolts located in the cam chain tunnel. On
+
+later models, these are the outer bolts that secure the 
+upper chain guide, which was removed in the cam-
+
+shaft removal procedure.
+
+a. Stuff the cam chain tunnel with clean shop
+
+cloths to prevent parts from entering the en-
+
+gine.
+
+b. Remove the bolts with a socket and exten-
+
+sion. Check that the socket and extension fit 
+together tightly and cannot separate when 
+lowered into the tunnel.
+
+11. Remove the four cylinder head bolts (10 mm), 
+located in the cylinder head (Figure 38 and Figure
+
+39). Loosen the bolts in a crossing pattern and in 
+several passes.
+
+CAUTION 
+Do not remove the four cylinder head 
+bolts before removing the nuts and 
+bolt in the previous steps. Doing so
+
+will overstress the smaller fasteners.
+
+12. Loosen the cylinder head by lightly tapping 
+around its base with a soft mallet. Lift the head out
+
+the left side of the engine while routing the cam
+
+chain out of the head. Secure the chain so it does not
+
+fall into the engine.

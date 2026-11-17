@@ -1,0 +1,69 @@
+3-18
+
++if cylinder compression is higher than the usable range, @-@ : 37-41Nm
+
+check the following. (3.8 — 4.2 kya, 27 — 30 fib)
+
+(1) Carbon build-up on the piston head and cylinder ®-® + 2S Nm (2.5 kgm, 18 fet)
+head — clean off any carbon on the piston head and (Retighten the crankcase side nuts)
+cylinder head, @® + 18Nm (1.8 kgm, 13.0 ft-lb)
+
+(2) Cylinder head gasket, cylinder base gasket — use GO=@) = 9.8N-m (1.0 kgm, 7 fr4b)
+only the proper gaskets. The use of a gasket of
+incorrect thickness will change the Adj and Op ion after Mi
+
+(3) Valve stem oil seals and piston rings — rapid carbon SThroughly warm up the engine, and then let it cool
+accumulation in the combustion chamber may be completely. Now retighten the cylinder nuts and bolt
+caused by damaged valve stem oll seals and/or to the specified torque.
+
+damaged piston oil rings. This may be indicated by
+white exhaust snoke.
+
+(4) Compression release cam spring bs damaged, de-
+formed, missing, or weights do not move smoothly.
+
+Disassembly Points of Cylinder Head
+
+*1f cylinder compression is lower than the usable range, Use valve spring compressor assembly $7001-241 to
+check the following press down the valve spring retainer, and remove the
+(1) Gas leakage around the cylinder head — replace the split keepers.
+
+damaged gasket and check the cylinder head warp, Be careful not to damage the studs on the cylinder
+(2} Condition of the valve seating. surface
+
+(3) Valve clearance.
+
+(4) Piston/cylinder clearance, piston seizure.
+
+(5) Piston ring, piston ring groove.
+
+(6) Compression release weights do not move smoothly,
+
+Removal Point of Cylinder Head
+
+@Remove the cylinder head Allen bolts and nuts (8 mm)
+first, and then remove the cylinder head bolts (10 mm),
+This prevents excessive stress on the small bolts and
+nuts,
+
+Installation Point of Cylinder Head
+
+e@The camshaft caps are machined together with the
+cylinder head, so, if a new cylinder head is installed,
+use the caps that are supplied with a new head.
+
+®Apply a molybdenum disulfide grease to the cylinder
+head bolts bearing surface and threads.
+
+Torque the cylinder head bolts and the cylinder nuts to
+the specification ing the tightens
+
+Cylinder Head Bolts and Nuts Tightning Sequence @Hicat the area around the valve guide to about 120
+150°C (248 — 302°F), and hammer lightly on valve
+guide arbor (special tool) to remove the guide from the
+top of the head,
+
+A. Valve Spritig Compressor Assembly 57001-2471
+B, Adaptor : $7001-243
+
+A. Valve guide arbor > 57001-163

@@ -1,0 +1,87 @@
+LUBRICATION, MAINTENANCE AND TUNE-UP
+
+tool. Damage to the center electrode and insulator is 
+possible.
+
+4. Inspect the spark plug to ensure it is fitted with a 
+crush washer.
+
+5. Wipe a small amount of antiseize compound 
+onto the spark plug threads. Do not allow the com- 
+pound to get on the electrodes.
+
+. accommodate the load and performance demands
+
+6. Finger-tighten the spark plug into the cylinder 
+head. This will ensure the plug is not cross-thread-
+
+ing.
+
+7. Torque the spark plug to 14 Nem (10 ft.-lb.). Ifa 
+torque wrench is not available, turn a new spark 
+plug 1/4-1/2 turn from the seated position; a used 
+spark plug 1/8-1/4 turn from the seated position.
+
+8. To help prevent water from migrating under the
+
+cap, wipe a small amount of dielectric grease 
+around the interior of the cap. Press and twist the
+
+cap onto the spark plug.
+
+
+
+-----
+
+ae 
+gy 
+a4 
+G4 
+ZG 
+Gye 
+ROO
+
+Spark Plug Selection
+
+Refer to Table 3 for the recommended standard
+
+or resistor-type spark plug and gap.
+
+CAUTION 
+The following paragraphs provide 
+general information and operation 
+fundamentals that apply to all spark
+
+plugs. However, before changing to a 
+plug other than what is recommended
+
+by Kawasaki, check with the spark 
+plug manufacturer for specific part
+
+numbers and equivalents that apply to 
+this motorcycle. Poor performance or 
+engine damage can occur by install- 
+ing a spark plug that is not compatible 
+with this engine.
+
+Heat range
+
+Spark plugs are available in several heat ranges to
+
+put on the engine. The standard spark plug recom- 
+mended by manufacturers is usually a medium 
+heat-range plug that operates well over a wide range 
+of engine speeds. As long as engine speeds vary, 
+these plugs will stay relatively clean and perform
+
+well.
+
+If the engine is run in hot climates, at high speed
+
+or under heavy loads for prolonged periods, a spark 
+plug with a colder heat range is recommended. A 
+colder plug quickly transfers heat away from its fir- 
+ing tip and to the cylinder head (Figure 85). This is 
+accomplished by a short path up the ceramic insula-
+
+tor and into the body of the spark plug. By transfer-

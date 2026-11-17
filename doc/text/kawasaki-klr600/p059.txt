@@ -1,0 +1,53 @@
+4-10
+
+elf new steel plates and friction plates are installed, Friction and Steel Plate Warp Measurement
+
+apply engine oil to the surfaces of each plate to avoid
+clutch seizure.
+
+®Be careful not to mix up the thrust washer with the
+other washers (See Exploded Views).
+
+@lnstall the clutch spring plate pusher, applying a
+molybdenum disulfide grease to the surface.
+
+A. Friction Plate
+
+Clutch Spring Free Length Measurement
+
+A. Clutch Spring Plate Pusher
+
+Friction Plate Wear, Damage Inspection :
+
+eVisually inspect the friction plates to see if they show
+any signs of seizure, overheating, or uneven wear.
+
+x|f any plates show signs of damage, replace the friction
+
+plates and steel plates as a set.
+
+Friction Plate Thickness Measurement
+A. Clutch Spring
+
+Clutch Housing Finger Inspection
+
+e@Visually inspect the fingers of the clutch housing where
+the tangs of the friction plates hit them.
+
+*|f they are badly worn or if there are grooves cut where
+the tangs hit, replace the housing. Also, replace the
+friction plates if their tangs are damaged.
+
+A. Friction Plate
+
+Friction or Steel Plate Warp Inspection
+
+@Place each friction plate or steel plate on a surface
+plate, and measure the gap between the surface plate
+and each friction plate or steel plate. This gap is the
+amount of friction or steel plate warp.
+
+*|f any plate is warped over the service limit, replace it
+with new one.
+
+A. Clutch Housing Finger B. Friction Plate Tang

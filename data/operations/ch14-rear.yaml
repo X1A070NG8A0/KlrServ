@@ -1,0 +1,278 @@
+operations:
+  - id: c14-rear-brake-pads
+    title: "Rear brake pad replacement"
+    system: "brakes"
+    source: clymer
+    chapter: 14
+    section: "14/rear-brake-pads"
+    summary: {t: "Remove the rear caliper from the swing arm to replace the pads. You do not have to disconnect the brake hose.", cite: {p: 309}}
+    spec_refs:
+      - "brakes:Pad lining thickness"
+      - "brake-torque:Caliper mounting bolts"
+    parts:
+      - {name: "Rear brake pads", replace: inspect, cite: {p: 309}, note: "Replace the pads if they are worn to within 1 mm (0.040 in.) of the backing plate, or if oil or other chemicals contaminate them."}
+      - {name: "Pad spring", replace: inspect, cite: {p: 309}}
+    sections:
+      - title: "Removal"
+        steps:
+          - {t: "Hold the caliper in your hand during this procedure. Keep the caliper supported. Do not let it hang by the brake hose.", cite: {p: 309}}
+          - {t: "Remove the caliper mounting bolts and the hose guide. Do not kink the brake hose.", cite: {p: 309}, figs: [50]}
+          - {kind: caution, t: "Watch the fluid level in the master cylinder reservoir in the next step. Brake fluid flows back to the reservoir when you press the piston into the bore. Do not let fluid spill from the reservoir. Wash spills immediately with water. Fluid can damage painted and plastic surfaces.", cite: {p: 309}}
+          - {t: "Hold the caliper. Press the inner pad and the caliper holder against the caliper. This presses the piston into the bore and compresses the holder. Keep the holder compressed until you remove the outer pad.", cite: {p: 309}, figs: [51]}
+          - {t: "Tilt the outer pad toward the caliper. Disengage the pad from the slide pins and the pad spring.", cite: {p: 309}, figs: [52]}
+          - {t: "Press down on the inner pad. Disengage it from the caliper holder and the pad spring.", cite: {p: 309}}
+          - {kind: note, t: "Do not operate the brake pedal when the pads are removed. The caliper piston can come out of the bore.", cite: {p: 309}}
+      - title: "Inspection"
+        steps:
+          - {t: "Clean the inside of the caliper.", cite: {p: 309}}
+          - {t: "Examine the area around the piston, the bleeder valve and the hose connection for leaks and damage.", cite: {p: 309}}
+          - {t: "Examine the boots. Replace a boot that is damaged or missing.", cite: {p: 309}}
+          - {t: "Move the caliper holder in and out of the caliper. If the drag is too high, or if there is corrosion or water around the slide pin boots, clean the parts. Lubricate them with silicone brake grease.", cite: {p: 309}}
+          - {t: "Examine the pad spring. Make sure that the small tabs are not corroded or missing. The spring must be slightly arched and flexible.", cite: {p: 309}}
+          - {t: "Examine the pads for contamination, scoring and wear.", cite: {p: 309}}
+          - {t: "If the pads are worn to within 1 mm (0.040 in.) of the backing plate, replace them. Also replace them if oil or other chemicals contaminate them.", cite: {p: 309}, spec_ref: "brakes:Pad lining thickness"}
+          - {t: "If the pads wear unevenly, the caliper probably does not slide correctly on the slide pins. Clean the pins. Buildup or corrosion on the pins holds the caliper in one position. This causes brake drag and fast pad wear.", cite: {p: 309}}
+      - title: "Installation"
+        steps:
+          - {t: "Compress the caliper holder against the caliper and hold it so that you can install the pads.", cite: {p: 310}, figs: [53]}
+          - {t: "Install the inner pad. Seat it in the pad spring and in the notches of the caliper holder. Press the pad against the piston.", cite: {p: 310}, figs: [54]}
+          - {t: "Tilt the outer pad. Engage it with the slide pins and the pad spring.", cite: {p: 310}, figs: [55]}
+          - {t: "Put the caliper over the brake disc. Guide the disc between the pads.", cite: {p: 310}}
+          - {t: "Install the caliper mounting bolts. Tighten them to the specified torque.", cite: {p: 310}, spec_ref: "brake-torque:Caliper mounting bolts"}
+          - {t: "Install the hose guide.", cite: {p: 310}}
+          - {t: "Operate the brake pedal several times to seat the pads.", cite: {p: 310}}
+          - {t: "Examine the brake fluid level in the reservoir. Add or remove fluid as necessary.", cite: {p: 310}, op: brake-fluid-level}
+          - {t: "Raise the rear wheel. Make sure that the wheel turns freely and that the brake operates correctly.", cite: {p: 310}}
+
+  - id: c14-rear-caliper-remove
+    title: "Rear brake caliper removal and installation"
+    system: "brakes"
+    source: clymer
+    chapter: 14
+    section: "14/rear-brake-caliper"
+    summary: {t: "Remove the rear caliper from the swing arm. If you will disassemble the caliper, drain the brake system first.", cite: {p: 311}}
+    spec_refs:
+      - "brake-torque:Caliper mounting bolts"
+      - "brake-torque:Brake hose banjo bolts"
+    parts:
+      - {name: "Banjo bolt seal washers", replace: always, cite: {p: 312}, note: "Install new seal washers on the banjo bolt."}
+    sections:
+      - title: "Removal"
+        steps:
+          - {t: "If you will disassemble the caliper, drain the brake system.", cite: {p: 311}, op: brake-fluid-replace}
+          - {t: "Loosen the brake hose banjo bolt while the caliper is on the swing arm. Leave the bolt finger-tight.", cite: {p: 311}, figs: [56]}
+          - {t: "Remove the caliper mounting bolts. Then remove the caliper from the swing arm. Do not kink the brake hose.", cite: {p: 312}, figs: [56]}
+          - {t: "If you leave the hose on the caliper and do not disassemble it, attach a wire to the caliper. Hang the caliper on the motorcycle.", cite: {p: 312}}
+          - {t: "Do not let the caliper hang by the brake hose.", cite: {p: 312}}
+          - {t: "Put a small wooden block between the brake pads. This prevents the piston from coming out of the caliper if the brake pedal is operated.", cite: {p: 312}}
+          - {t: "If you will disassemble the caliper, remove the banjo bolt and the seal washers from the brake hose. Keep a shop cloth ready for fluid that drips from the hose.", cite: {p: 312}}
+          - {t: "Wrap the end of the hose. This prevents damage to other surfaces from brake fluid.", cite: {p: 312}}
+          - {t: "Drain the extra brake fluid from the caliper.", cite: {p: 312}}
+          - {t: "Repair the caliper if necessary.", cite: {p: 312}, op: c14-rear-caliper-repair}
+      - title: "Installation"
+        steps:
+          - {t: "Put the caliper over the brake disc. Guide the disc between the pads.", cite: {p: 312}}
+          - {t: "Install new seal washers on the banjo bolt.", cite: {p: 312}, figs: [57]}
+          - {t: "Put the brake hose fitting behind the support.", cite: {p: 312}, figs: [57]}
+          - {t: "Install the caliper mounting bolts. Tighten them to the specified torque.", cite: {p: 312}, spec_ref: "brake-torque:Caliper mounting bolts"}
+          - {t: "Install the banjo bolt. Tighten it to the specified torque.", cite: {p: 312}, spec_ref: "brake-torque:Brake hose banjo bolts"}
+          - {t: "If you rebuilt the caliper or disconnected the brake hose from it, fill and bleed the brake system.", cite: {p: 312}, op: brake-fluid-replace}
+          - {t: "Operate the brake pedal several times to seat the pads.", cite: {p: 312}}
+          - {t: "Examine the brake fluid level in the reservoir. Add or remove fluid as necessary.", cite: {p: 312}, op: brake-fluid-level}
+          - {t: "Raise the rear wheel. Make sure that the wheel turns freely and that the brake operates correctly.", cite: {p: 312}}
+
+  - id: c14-rear-caliper-repair
+    title: "Rear brake caliper disassembly, inspection and assembly"
+    system: "brakes"
+    source: clymer
+    chapter: 14
+    section: "14/rear-brake-caliper"
+    summary: {t: "Disassemble the rear caliper, examine the parts and assemble it with new seals.", cite: {p: 312}}
+    parts:
+      - {name: "Caliper piston seal", replace: always, cite: {p: 312}, note: "Install a new seal."}
+      - {name: "Caliper piston boot", replace: always, cite: {p: 312}, note: "Install a new boot."}
+      - {name: "DOT 4 brake fluid (sealed container)", replace: consumable, spec_ref: "fluids:Brake fluid type", cite: {p: 314}}
+      - {name: "Silicone brake grease", replace: consumable, cite: {p: 315}}
+    sections:
+      - title: "Disassembly"
+        steps:
+          - {t: "Remove the caliper.", cite: {p: 312}, op: c14-rear-caliper-remove}
+          - {t: "Hold the caliper. Press the inner pad and the caliper holder against the caliper. This presses the piston into the bore and compresses the holder. Keep the holder compressed until you remove the outer pad.", cite: {p: 312}, figs: [58]}
+          - {t: "Tilt the outer pad toward the caliper. Disengage the pad from the slide pins and the pad spring.", cite: {p: 312}, figs: [59]}
+          - {t: "Press down on the inner pad. Disengage it from the caliper holder and the pad spring.", cite: {p: 312}, figs: [60]}
+          - {t: "Remove the caliper holder, the pad spring and the boots.", cite: {p: 313}, figs: [61]}
+          - {t: "Remove the piston from the caliper bore with compressed air. Read the next steps fully before you start.", cite: {p: 313}}
+          - {kind: caution, t: "Do not pry the piston out of the caliper.", cite: {p: 313}}
+          - {t: "Put the caliper on a padded work surface.", cite: {p: 313}}
+          - {t: "Close the bleeder valve on the caliper so that air cannot escape.", cite: {p: 313}}
+          - {t: "Put a strip of wood in the caliper to cushion the piston when it comes out.", cite: {p: 313}}
+          - {kind: warning, t: "Wear eye protection when you use compressed air to remove the piston. Keep your fingers away from the piston discharge area. If you try to stop the piston with your fingers, injury can occur.", cite: {p: 313}}
+          - {t: "Lay the caliper so that the piston discharges downward.", cite: {p: 313}}
+          - {t: "Put an air nozzle in the brake hose fitting. If the nozzle has no rubber tip, wrap tape on it. The nozzle then seals tightly and does not damage the threads.", cite: {p: 313}}
+          - {t: "Put a shop cloth over the full caliper to catch spray.", cite: {p: 313}}
+          - {t: "Apply air pressure. Listen for the piston to pop out of the caliper.", cite: {p: 313}, figs: [62]}
+          - {t: "Remove the piston boot and the seal from the cylinder bore.", cite: {p: 313}, figs: [63]}
+          - {t: "Remove the bleeder valve and the cap from the caliper.", cite: {p: 313}}
+      - title: "Inspection"
+        steps:
+          - {t: "Clean the parts that you will use again with fresh brake fluid or isopropyl (rubbing) alcohol.", cite: {p: 313}}
+          - {t: "Clean the seal and boot grooves of the caliper with a tool that has a wood or plastic tip. Clean the piston, the bore and the seal grooves with clean brake fluid.", cite: {p: 313}}
+          - {t: "Examine the cylinder bore and the piston for wear, pitting and corrosion.", cite: {p: 313}, figs: [64]}
+          - {t: "Examine the caliper holder and the boots. Examine the slide pins for wear, pitting and corrosion. Examine the boots for deterioration.", cite: {p: 313}, figs: [65]}
+          - {t: "Examine the pad spring. Make sure that the small tabs are not corroded or missing. The spring must be slightly arched and flexible.", cite: {p: 314}, figs: [66]}
+          - {t: "Examine all threaded parts. Make sure that the threads and seats have no corrosion or damage.", cite: {p: 314}, figs: [67]}
+          - {t: "Examine the pads for contamination, scoring and wear. If the pads are worn to within 1 mm (0.040 in.) of the backing plate, or if oil or other chemicals contaminate them, replace them.", cite: {p: 314}, spec_ref: "brakes:Pad lining thickness"}
+          - {t: "If the pads wear unevenly, the caliper probably does not slide correctly on the slide pins. Clean the pins. The caliper must float freely on the pins.", cite: {p: 314}}
+      - title: "Assembly"
+        steps:
+          - {kind: note, t: "Use new DOT 4 brake fluid to lubricate the parts in the next steps.", cite: {p: 314}, spec_ref: "fluids:Brake fluid type"}
+          - {t: "Soak the new piston seal and the new boot in brake fluid for 15 minutes.", cite: {p: 314}}
+          - {t: "Put brake fluid on the caliper bore and on the piston.", cite: {p: 314}}
+          - {t: "Seat the seal in the caliper groove. The piston seal goes in the back groove.", cite: {p: 314}, figs: [68]}
+          - {t: "Install the boot on the back end of the piston. The small diameter of the boot fits in the caliper groove.", cite: {p: 314}, figs: [69]}
+          - {t: "Seat the boot in its groove. Start at the bottom of the caliper.", cite: {p: 314}, figs: [70]}
+          - {t: "Support the piston. Use a small screwdriver to work the boot into the groove.", cite: {p: 315}}
+          - {t: "When the boot is fully seated, twist the piston past the seal. Press the piston to the bottom of the bore.", cite: {p: 315}}
+          - {t: "Make sure that the boot seats in the piston.", cite: {p: 315}, figs: [71]}
+          - {t: "Put silicone brake grease on the inside of the boots. Install the boots on the caliper.", cite: {p: 315}}
+          - {t: "If necessary, put a thin layer of grease on the outside of the large boot. This helps to pass it through the caliper.", cite: {p: 315}}
+          - {t: "Install the pad spring with the narrow end toward the outside.", cite: {p: 315}, figs: [72]}
+          - {t: "Lubricate the slide pins on the caliper holder. Put them in the boots.", cite: {p: 315}}
+          - {t: "Press the holder against the boots. Lift the boots carefully onto the holder seats.", cite: {p: 315}, figs: [73]}
+          - {t: "Compress the caliper holder against the caliper and hold it so that you can install the pads.", cite: {p: 315}}
+          - {t: "Install the inner pad. Seat it in the pad spring and in the notches of the caliper holder. Press the pad against the piston.", cite: {p: 315}}
+          - {t: "Tilt the outer pad. Engage it with the slide pins and the pad spring.", cite: {p: 315}, figs: [74]}
+          - {t: "Install the bleeder valve and the cap.", cite: {p: 317}}
+          - {t: "Install the caliper.", cite: {p: 317}, op: c14-rear-caliper-remove}
+
+  - id: c14-rear-master-cylinder-remove
+    title: "Rear master cylinder removal and installation"
+    system: "brakes"
+    source: clymer
+    chapter: 14
+    section: "14/rear-master-cylinder"
+    summary: {t: "Remove the rear master cylinder and the brake fluid reservoir from the motorcycle.", cite: {p: 317}}
+    spec_refs:
+      - "brake-torque:Master cylinder mounting bolts/Rear"
+      - "brake-torque:Brake hose banjo bolts"
+    parts:
+      - {name: "Banjo bolt seal washers", replace: always, cite: {p: 317}, note: "Install new seal washers on the banjo bolt."}
+      - {name: "Clevis pin cotter pin", replace: always, cite: {p: 317}, note: "Install a new cotter pin on the clevis pin."}
+    sections:
+      - title: "Removal"
+        steps:
+          - {t: "Drain the brake system.", cite: {p: 317}, op: brake-fluid-replace}
+          - {t: "Remove the cotter pin and the clevis pin that hold the master cylinder clevis to the brake pedal.", cite: {p: 317}, figs: [76]}
+          - {t: "Remove the reservoir cover.", cite: {p: 317}, figs: [77]}
+          - {t: "Remove the back plate and the reservoir bolt.", cite: {p: 317}, figs: [78]}
+          - {t: "Remove the banjo bolt and the seal washers from the brake hose. Keep a shop cloth ready for fluid that drips from the hose.", cite: {p: 317}, figs: [79]}
+          - {t: "Wrap the end of the hose. This prevents damage to other surfaces from brake fluid.", cite: {p: 317}}
+          - {t: "Remove the master cylinder mounting bolts.", cite: {p: 317}, figs: [79]}
+          - {t: "Repair the master cylinder if necessary.", cite: {p: 317}, op: c14-rear-master-cylinder-repair}
+      - title: "Installation"
+        steps:
+          - {t: "Install the master cylinder and the reservoir. Tighten the master cylinder mounting bolts to the specified torque.", cite: {p: 317}, spec_ref: "brake-torque:Master cylinder mounting bolts/Rear"}
+          - {t: "Install new seal washers on the banjo bolt. Install the bolt and tighten it to the specified torque.", cite: {p: 317}, spec_ref: "brake-torque:Brake hose banjo bolts"}
+          - {t: "Install the clevis pin. Install a new cotter pin on the clevis pin.", cite: {p: 317}}
+          - {t: "Fill the brake fluid reservoir and bleed the brake system.", cite: {p: 317}, op: brake-fluid-replace}
+
+  - id: c14-rear-master-cylinder-repair
+    title: "Rear master cylinder disassembly, inspection and assembly"
+    system: "brakes"
+    source: clymer
+    chapter: 14
+    section: "14/rear-master-cylinder"
+    summary: {t: "Disassemble the rear master cylinder, examine the parts and assemble it with new parts. The piston, the seals and the spring are only available as a complete assembly.", cite: {p: 317}}
+    parts:
+      - {name: "Master cylinder piston, seals and spring assembly", replace: always, cite: {p: 317}, note: "These parts are only available as a complete assembly."}
+      - {name: "Hose fitting O-ring", replace: always, cite: {p: 320}, note: "Install a new, lubricated O-ring."}
+      - {name: "DOT 4 brake fluid (sealed container)", replace: consumable, spec_ref: "fluids:Brake fluid type", cite: {p: 319}}
+      - {name: "Silicone brake grease", replace: consumable, cite: {p: 320}}
+    sections:
+      - title: "Disassembly"
+        steps:
+          - {t: "Remove the master cylinder and the reservoir.", cite: {p: 317}, op: c14-rear-master-cylinder-remove}
+          - {t: "Remove the snap ring that holds the hose and fitting against the master cylinder.", cite: {p: 317}, figs: [80]}
+          - {t: "Remove the hose assembly and the internal O-ring.", cite: {p: 317}}
+          - {t: "Remove the clevis and the locknuts.", cite: {p: 318}, figs: [81]}
+          - {t: "Remove the boot from the pushrod. The boot is a friction fit. To prevent damage, put penetrating lubricant around the boot. Pull the bottom edge back carefully so that the lubricant can loosen the boot.", cite: {p: 318}, figs: [82]}
+          - {t: "Hold the cylinder in a vise with soft jaws.", cite: {p: 318}}
+          - {t: "Screw a locknut on the end of the pushrod. This gives a larger area to press.", cite: {p: 318}, figs: [83]}
+          - {t: "Press down on the pushrod to release the pressure on the snap ring. Remove the snap ring with snap ring pliers.", cite: {p: 318}}
+          - {t: "Release the pressure on the piston slowly.", cite: {p: 318}}
+          - {t: "Remove the piston and pushrod assembly from the bore.", cite: {p: 318}, figs: [84]}
+      - title: "Inspection"
+        steps:
+          - {t: "Clean the parts that you will use again with fresh brake fluid or isopropyl (rubbing) alcohol.", cite: {p: 318}}
+          - {t: "Examine the cylinder bore for wear, pitting and corrosion.", cite: {p: 319}, figs: [85]}
+          - {t: "Clean the threads and the orifices in the master cylinder with compressed air. Examine them.", cite: {p: 319}, figs: [86]}
+          - {t: "Examine the boot, the snap ring and the pushrod for corrosion and damage.", cite: {p: 319}, figs: [87]}
+          - {t: "Examine the clevis and the pin for wear at their contact points.", cite: {p: 319}, figs: [88]}
+          - {t: "Examine the diaphragm, the diaphragm plate and the reservoir cap for damage.", cite: {p: 319}, figs: [89]}
+          - {t: "Examine the reservoir hose and the fittings for damage.", cite: {p: 319}}
+      - title: "Assembly"
+        steps:
+          - {t: "Soak the primary seal and the secondary cup in fresh DOT 4 brake fluid for 15 minutes. This softens and lubricates the seals.", cite: {p: 319}, figs: [90]}
+          - {t: "Put brake fluid on the piston so that the cups can slide over the ends.", cite: {p: 319}}
+          - {t: "Find the wide (open) side of the primary seal. Install the seal on the piston so that the wide side faces in the direction of the arrow.", cite: {p: 319}, figs: [91]}
+          - {t: "Find the wide (open) side of the secondary seal. Install the seal on the piston so that the wide side faces in the direction of the arrow.", cite: {p: 319}, figs: [91]}
+          - {t: "Install the small end of the spring on the piston. Seat it.", cite: {p: 319}}
+          - {t: "Lubricate the cylinder bore and the piston assembly with brake fluid.", cite: {p: 319}}
+          - {t: "Put a small quantity of silicone brake grease on the contact area of the pushrod.", cite: {p: 320}}
+          - {t: "Put the piston in the cylinder and seat it.", cite: {p: 320}, figs: [92]}
+          - {t: "Hold the cylinder in a vise with soft jaws.", cite: {p: 320}}
+          - {kind: caution, t: "Do not tighten the vise too much. This can damage the cylinder.", cite: {p: 320}}
+          - {t: "Screw a nut on the end of the pushrod. Rest the pushrod in the cylinder. The nut gives a larger area to press.", cite: {p: 320}, figs: [83]}
+          - {t: "Put the snap ring over the end of the pushrod. Rest it on the edge of the bore. The flat side of the snap ring must face out.", cite: {p: 320}}
+          - {t: "Compress the snap ring with snap ring pliers.", cite: {p: 320}}
+          - {t: "Press the pushrod into the cylinder. Guide the snap ring into position.", cite: {p: 320}}
+          - {t: "If the snap ring does not seat easily, release it. Use the tip of the pliers to press it into the groove. Keep the pushrod compressed until the snap ring seats.", cite: {p: 320}}
+          - {t: "Remove the cylinder from the vise. Remove the nut from the pushrod.", cite: {p: 320}}
+          - {t: "Put silicone brake grease inside the boot. Seat the boot in the cylinder.", cite: {p: 320}}
+          - {t: "Install the clevis and the locknuts.", cite: {p: 320}}
+          - {t: "Adjust the clevis and lock it so that the pushrod threads extend 3-3.5 mm (0.12-0.14 in.) below the nut. This sets the correct brake pedal height.", cite: {p: 320}, figs: [93]}
+          - {t: "Install a new, lubricated O-ring in the master cylinder. Lock the hose and fitting in position.", cite: {p: 320}, figs: [94]}
+          - {t: "Install the snap ring with the flat side toward the outside.", cite: {p: 320}}
+          - {t: "Install the diaphragm, the diaphragm plate and the cap loosely on the reservoir.", cite: {p: 320}}
+          - {t: "Install the master cylinder and the reservoir.", cite: {p: 320}, op: c14-rear-master-cylinder-remove}
+
+  - id: c14-rear-brake-pedal
+    title: "Rear brake pedal removal and installation"
+    system: "brakes"
+    source: clymer
+    chapter: 14
+    section: "14/rear-brake-pedal"
+    summary: {t: "Remove the rear brake pedal to examine the pedal shaft, the bushing, the spring and the clevis pin.", cite: {p: 320}}
+    parts:
+      - {name: "Clevis pin cotter pin", replace: always, cite: {p: 322}, note: "Install a new cotter pin."}
+      - {name: "Pedal shaft bushing", replace: inspect, cite: {p: 321}, note: "If the bushing is worn, replace it."}
+      - {name: "Waterproof grease", replace: consumable, cite: {p: 322}}
+    sections:
+      - title: "Removal"
+        steps:
+          - {t: "Remove the brake light switch spring from the pedal.", cite: {p: 320}, figs: [95]}
+          - {t: "Remove the cotter pin and the clevis pin that hold the master cylinder clevis to the brake pedal.", cite: {p: 320}, figs: [96]}
+          - {t: "Remove the bolt that holds the pedal to the shaft completely.", cite: {p: 321}, figs: [96]}
+          - {t: "Before you remove the pedal, note how the spring touches the post on the brake stay and on the pedal.", cite: {p: 321}}
+          - {t: "Hold the pedal shaft in position. Pull the pedal off the shaft.", cite: {p: 321}}
+          - {t: "Remove the pedal shaft and the spring.", cite: {p: 321}}
+      - title: "Inspection"
+        steps:
+          - {t: "Clean the parts.", cite: {p: 321}}
+          - {t: "Examine the pedal shaft and the bore bushing for scoring and damage. Examine them for entry of water and dirt. If the bushing is worn, replace it.", cite: {p: 321}}
+          - {t: "Examine the clevis pin and the pedal bore. The pin must be a firm fit in the clevis and in the pedal.", cite: {p: 322}}
+          - {t: "Examine the spring and the shaft bolt for corrosion and damage.", cite: {p: 322}}
+          - {t: "Make sure that the brake stay is tight.", cite: {p: 322}}
+      - title: "Installation"
+        steps:
+          - {t: "Put waterproof grease on the bushing and on the pedal shaft.", cite: {p: 322}}
+          - {t: "Install the spring. Seat it against the brake stay. The straight end of the spring touches the back of the brake stay post.", cite: {p: 322}}
+          - {t: "Install the pedal shaft. Engage the hooked end of the spring with the narrow arm on the pedal shaft.", cite: {p: 322}}
+          - {t: "Hold the shaft in position. Turn it forward to put a preload on the spring.", cite: {p: 322}}
+          - {t: "Install the pedal. Guide it into the clevis. Align the index marks on the pedal and the shaft.", cite: {p: 322}, figs: [96]}
+          - {t: "Install the bolt that holds the pedal to the shaft.", cite: {p: 322}}
+          - {t: "Make sure that the pushrod threads extend 3-3.5 mm (0.12-0.14 in.) below the nut in the clevis. If necessary, adjust the clevis position. This sets the correct brake pedal height.", cite: {p: 322}, figs: [93]}
+          - {t: "Install the clevis pin and a new cotter pin.", cite: {p: 322}}
+          - {t: "Attach the brake light switch spring.", cite: {p: 322}}
+          - {t: "Examine the pedal height and operation. If the pedal is not level with the footpeg, examine the parts for bends and damage.", cite: {p: 322}, op: brake-pedal}
+          - {t: "Make sure that the brake light operates. If necessary, adjust the switch.", cite: {p: 322}, op: brake-light-switch}

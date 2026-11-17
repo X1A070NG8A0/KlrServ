@@ -1,0 +1,74 @@
+ELECTRICAL SYSTEM
+
+The fiber washers must be in good condition
+
+so they insulate the cable from the starter 
+housing.
+
+i. Install a new, lubricated O-ring onto the front
+
+end cover.
+
+
+
+-----
+
+Inspection and Testing
+
+Use an ohmmeter for all electrical tests in this 
+procedure. If the result for any test is incorrect, the 
+part is either shorted, or there is an open circuit be-
+
+tween the test points. Replace or recondition parts
+
+that are worn or damaged. Refer to Figure 22.
+
+1. Clean the parts as required. Use a solvent specif-
+
+ically for electric motors to remove buildup and 
+contamination, particularly between the commuta-
+
+tor bars.
+
+2. Inspect the condition of the housing and end
+
+covers. The armature should fit in the covers with
+
+little or no play.
+
+3. Inspect the armature.
+
+a. The bearing should turn smoothly and freely.
+
+b. Inspect any shims for cracks or damage.
+
+c. Inspect the windings for obvious shorts or
+
+damage.
+
+4. Inspect and test the commutator.
+
+a. Measure the outside diameter (Figure 31).
+
+Refer to Table 2 for specifications.
+
+b. Inspect the bar height. The commutator bars
+
+should be taller than the insulation between 
+the bars (Figure 32).
+
+c. Inspect the bars for discoloration. If a pair of
+
+bars is discolored, this indicates grounded ar- 
+mature coils.
+
+d. Inspect the bars for scoring. Mild scoring can
+
+be repaired with fine emery cloth.
+
+e. Check for continuity across all adjacent pairs
+
+of commutator 
+bars (Figure 
+33). There 
+should be continuity across all pairs of bars.

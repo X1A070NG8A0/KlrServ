@@ -1,0 +1,85 @@
+ENGINE TOP END 
+93
+
+
+
+-----
+
+sert, such as a HeliCoil. Thread dam- 
+age can be minimized by applying 
+antiseize compound to the spark plug 
+threads before installation. Do not 
+overtighten the spark plug.
+
+2. If necessary, clean the entire cylinder head after 
+thread repair.
+
+3. Inspect the inside of the cylinder head (Figure 
+42).
+
+a. Inspect for cracks or damage in the combus-
+
+tion chamber, water jackets and exhaust port.
+
+b. Inspect the studs for damage or looseness.
+
+4. Inspect the outside of the cylinder head (Figure 
+43).
+
+a. Inspect for cracks or damage around the holes
+
+for the spark plug and water temperature 
+sending unit.
+
+b. Inspect the camshaft bearing surfaces and
+
+mating caps for obvious scoring or damage. If
+
+either part is damaged, replace the caps and 
+cylinder head as a set. The parts are only 
+available as a single part number. The caps
+
+are machined with the cylinder head, so their 
+dimensions and alignments are unique to that 
+cylinder head.
+
+c. If cracks are found anywhere in the cylinder
+
+head, take the head to a dealership or machine 
+shop to see if the head can be repaired. If not, 
+replace the head and camshaft cap set.
+
+5. Inspect the cylinder head for warp as follows:
+
+a. Lay a machinist’s straightedge across the cyl-
+
+inder head as shown in Figure 44.
+
+b. Try to insert a flat feeler gauge between the
+
+straightedge and the machined surface of the 
+head. If clearance exists, record the maximum 
+measurement.
+
+c. Repeat substeps a and b several times, laying
+
+the straightedge both across and diagonally
+
+on the head.
+
+d. Compare the measurements to the warp ser-
+
+vice limit listed in Table 2. If the clearance is 
+not within the service limit, take the cylinder 
+head to a dealership or machine shop for fur-
+
+ther inspection and possible resurfacing.
+
+6. Inspect the front and rear cam chain guides (Fig-
+
+ure 45) for wear and damage.
+
+7. Inspect the cylinder fasteners (Figure 46) for 
+damaged threads and heads. Replace fasteners that
+
+are rusted.

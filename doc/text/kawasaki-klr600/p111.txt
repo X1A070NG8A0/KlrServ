@@ -1,0 +1,46 @@
+10-5
+
+Filling Up the Brake Line Air Bleeding
+
+1. Open the bleed valve.
+2. Apply the brake and hold it.
+3. Close the bleed valve.
+4. Then release the brake suddenly.
+
+1. Hold the brake applied.
+2. Quickly open and close the valve.
+Brake Line Air Bleeding 3. Release the brake.
+@®Remove the reservoir cap, and check that there is
+plenty of fluid in the reservoir.
+eWith the reservoir cap off, slowly pump the brake lever
+several times until no air bubbles can be seen rising up
+from the bottom of the reservoir. This bleeds the air
+from the master cylinder end of the line.
+®|nstall the reservoir cap.
+@Remove the rubber cap on the bleed valve. Bleed Valve : 7.8N-m (0.8 kg-m, 69 in-Ib)
+Attach a clear plastic hose to the bleed valve on the
+caliper, running the other end of the hose into a
+
+®|nstall the rubber cap on the bleed valve.
+®Tighten the bleed valve to the specification.
+
+Tightening Torque
+
+container. @F il] the brake fluid to the proper level, referring to the
+e@Pump the brake lever a few times until it becomes hard brake fluid level inspection.
+
+and then, holding the lever squeezed, quickly open ®|nstall the reservoir cap.
+
+(turn counterclockwise) and close the bleed valve. @Apply the brake forcefully for a few seconds, and
+Then release the lever. Repeat this operation until no check for fluid leakage around the fittings.
+
+more air can be seen coming out into the plastic hose.
+
+“NOTE”
+OThe fluid level must be checked several times during
+the bleeding operation and replenished as necessary. If Brake Fluid Recommendation
+the fluid in the reservoir runs completely out any time Recommended fluids are given in the table on the
+during bleeding, the bleeding operation must be done Service Data section. If none of the recommended
+over again from the beginning since air will have brake fluids is available, use extra heavy-dury brake
+
+entered the line. fluid only from a container marked D.O.T.3.

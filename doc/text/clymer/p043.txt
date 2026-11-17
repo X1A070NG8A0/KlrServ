@@ -1,0 +1,89 @@
+CHAPTER TWO
+
+TROUBLESHOOTING
+
+Diagnosing problems with the motorcycle, either 
+mechanical or electrical, can be relatively easy if
+
+the fundamental operating requirements are kept in 
+mind. By doing so, problems can be approached ina 
+logical and methodical manner. The first steps are
+
+to:
+
+1. Define the symptoms of the problem.
+
+2. Determine which areas 
+could exhibit those 
+symptoms.
+
+3. Test and analyze the suspect area.
+
+4. Isolate the problem.
+
+Being quick to assume a particular area is at fault 
+can lead to increased problems, lost time and unnec- 
+essary parts replacement. The easiest way to keep 
+troubleshooting simple, is to perform the lubrica-
+
+tion, maintenance 
+and tune-up procedures 
+de- 
+scribed in Chapter Three. The rider will gain a
+
+better understanding of the condition and functions 
+of the motorcycle.
+
+Always start with the simple and obvious checks 
+when troubleshooting. This would include: engine 
+stop switch operation, fuel level, fuel valve position 
+and spark plug cap tightness. If the problem cannot 
+be solved, stop and evaluate all conditions prior to
+
+the problem.
+
+For removal, installation and test procedures for 
+some components, refer to the specific chapter in
+
+the manual. When applicable, tables at the end of 
+each chapter provide specifications and wear limits.
+
+
+
+-----
+
+OPERATING REQUIREMENTS
+
+There are three requirements for an engine to run 
+properly. These are: correct air/fuel mixture, com- 
+pression and properly timed spark. If one of these 
+requirements is not correct, the engine will not run,
+
+or will run poorly. A four-stroke engine performs 
+these functions as shown in Figure 1.
+
+STARTING THE ENGINE
+
+Before starting the engine, always perform a 
+pre-ride check of the motorcycle, as described in 
+Chapter Three.
+
+Safety Switches
+
+The motorcycle is equipped with safety switches
+
+that prevent the engine from starting or running if
+
+certain conditions occur. The following describes 
+each switch and when it prevents the engine from 
+running:
+
+1. Neutral switch. With the transmission in any po-
+
+sition except neutral, with the clutch engaged 
+(clutch lever out), the engine will not start.
+
+2. Starter lockout switch (located in clutch lever as- 
+sembly). With the transmission in gear, the engine
+
+will not start if the clutch is engaged (clutch lever

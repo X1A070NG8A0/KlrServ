@@ -1,0 +1,101 @@
+7. Thoroughly wash and scrub the cylinder in hot, 
+soapy water after inspection and service, to remove
+
+all fine grit and material/residue left from machine 
+operations. Check cleanliness by rubbing a clean, 
+white cloth over the bore. No residue should be evi-
+
+dent. When the cylinder is thoroughly clean and dry, 
+immediately coat the cylinder bore with oil to pre- 
+vent corrosion. Wrap the cylinder until engine reas-
+
+sembly.
+
+CAUTION 
+Wash the cylinder in hot, soapy water. 
+Solvents do not remove the fine grit 
+left in the cylinder. This grit causes 
+premature wear of the rings and cylin-
+
+der.
+
+8. Perform any service to the piston assembly be-
+
+fore installing the cylinder.
+
+Installation
+
+Refer to Figure 69.
+
+1. Check that all gasket residue is removed from all 
+mating surfaces.
+
+2. Install the dowels and a new base gasket onto the 
+crankcase. Figure 80 shows the gasket and dowels
+
+installed before the piston is installed. Whenever
+
+the piston is removed, it is easier to install the gasket
+
+before the piston, since the cam chain must also be 
+handled and routed through the gasket. Gasket 
+bending or other damage is less likely to occur.
+
+3. Lubricate the following components with engine
+
+oil:
+
+a. Piston and rings.
+
+b. Piston pin and connecting rod.
+
+c. Cylinder bore.
+
+
+
+-----
+
+CHAPTER FOUR
+
+4. Support the piston so the cylinder can be lowered
+
+into place.
+
+5. Stagger the piston ring gaps onto the piston as 
+shown in Figure 81. Note that the top and second 
+ring gaps are opposite one another, pointing to the
+
+front and back of the piston. The oil ring rails are 
+about 30° apart, pointing to the sides.
+
+6. Lower the cylinder onto the crankcase.
+
+a. Route the cam chain and guide through the
+
+chain tunnel. Secure the cam chain so it can-
+
+not fall into the engine.
+
+b. As the piston enters the cylinder, compress
+
+each ring so it can enter the cylinder. A ring 
+compressor can also be used. When the bot- 
+tom ring is in the cylinder, remove any hold- 
+ing fixture 
+and 
+shop 
+cloths 
+from 
+the 
+crankcase.
+
+7. Install and torque the cylinder mounting nuts at
+
+the front (B, Figure 70) and rear (B, Figure 71) of 
+the cylinder.
+
+a. If necessary, remove the coolant hose fitting
+
+in order to torque the front nut.
+
+b. Torque the nuts equally in several passes.

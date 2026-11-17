@@ -1,0 +1,25 @@
+14-11
+
+Magneto Installation Ignition Coil Installation
+®Clean off any oil or dirt that may be on the crank- ®Route the plug lead as shown in the figure to avoid
+shaft taper or magneto flywheel hub. damage by the fan blade.
+
+@See that the key is fitted in place on the crankshaft
+properly, and then fit the flywheel in place.
+
+A. Key
+
+CAUTION
+
+©The oil, dirt, or incorrect tightening may cause the
+flywheel bolt loosening and the serious damage.
+
+Magneto Stator Installation
+®@Tighten the stator bolts to the specification.
+
+A. Plug Lead B. Fan Blade
+
+Tightening Torque
+Stator Bolts: 12 .N-m (1.2 kg-m, 8.5 ft-lb)
+
+A. Stator Bolt

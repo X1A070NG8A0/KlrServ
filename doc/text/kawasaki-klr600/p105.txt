@@ -1,0 +1,77 @@
+@|f the chain appears dry, lubricate it.
+
+@Stretch the chain taut by hanging a 10 kg weight
+on the chain.
+
+@Measure the length of 20 links on the straight part
+of the chain from pin center of the Ist pin to pin
+center of the 21st pin. Since the chain may wear
+unevenly, take measurements at several places.
+
+A. Weight B. Measure
+
+*If any measurement exceeds the service limit, (see
+Service Data Section) replace the chain. Also replace
+the engine and rear sprockets when the drive chain is
+replaced.
+
+Chain Guide Wear
+
+eVisually inspect the drive chain guide.
+xf the guide is worn excessively or damaged, replace it.
+
+A. Drive Chain Guide
+
+Lubrication
+
+The chain should be lubricated with a lubricant which
+will both prevent the exterior from rusting and also
+absorb shock and reduce friction in the interior of the
+chain. An effective, good quality lubricant specially for-
+mulated for chains is best for regular chain lubrication,
+If a special lubricant is not available, a heavy oil such as
+SAE 90 is preferred to a lighter oil because it will stay
+on the chain longer and provide better lubrication.
+elf the chain appears especially dirty, it should be
+
+cleaned before lubrication.
+
+CAUTION
+
+The O-rings between the side plates seal in the
+lubricant between the pin and the bushing. To avoid
+damaging the O-rings and resultant loss of lubricant,
+observe the following rules.
+
+OUse only kerosene or diesel oil for cleaning an O-ring
+drive chain . Any other cleaning solution such as
+gasoline or trichloroethylene will cause deterioration
+and swelling of the O-rings.
+
+Olmmediately blow the chain dry with compressed air
+after cleaning.
+
+OCompletely clean and dry the chain within 10 minutes.
+
+e@Apply oil to the sides of the rollers so that oil will
+penetrate to the rollers and bushings. Apply the oil to
+the O-rings so that the O-rings will be coated with oil.
+®Wipe off any excess oil.
+
+A. O-Ring B. Roller
+
+Drive Chain Removal
+
+®@Loosen the pivot shaft nut.
+
+eAfter the engine sprocket removal (See chapter 4) and
+the rear wheel removal (See chapter 8), remove the
+pivot shaft, the circlip, and the sleeve.
+
+Olt is necessary to raise the rear wheel off the ground
+with a suitable stand.
+
+@Remove the drive chain along with the swing arm.
+
+A. Pivot Shaft C. Removal Point
+B. Tie Rod D. Swing Arm

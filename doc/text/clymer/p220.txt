@@ -1,0 +1,99 @@
+mA
+
+CDI RESISTANCE TEST (1990-ON)
+
+Wire colors and abbreviations:
+
+B: black 
+B/W: black with white tracer 
+L/R: blue with red tracer
+
+R: red 
+R/G: red with green tracer 
+W: white 
+Y/B: yellow with black tracer
+
+co: infinity
+
+Approximate kQ
+
+5-25 
+5-35 - 
+= 
+1
+
+Negative 
+probe
+
+=e EES 
+Y/B 
+| 15-80 
+10-55
+
+the cap on the model shown in this 
+4. Measure the coil resistance as follows:
+
+manual measures 5.5K ohms. If 
+nec- 
+a. Set the ohmmeter to R X 10 ohms. 
+essary, 
+use this measurement as a 
+db cps 
+: 
+bee 
+Gite 
+We 
+hens 
+guide in determining the condition of 
+See ee ee eet 
+das) Saaiaiin 
+uieae aen 
+the spark plug cap. 
+the white wire and the red wire. Refer to Ta- 
+ble 2 for the specification.
+
+c. If the exciter coil is not within specification, 
+Exciter Coil 
+as 
+: 
+check the plug and wiring harness for obvious 
+Testing 
+damage and shorting.
+
+The exciter coil is located in the alternator cover. 
+d. If necessary, remove the alternator cover and 
+The exciter coil can be checked at the wire connec- 
+recheck the wiring harness and coil (A, Fig-
+
+tor, located under the fuel tank. 
+Check the exciter 
+ure 52). Individually check the full length of 
+coil for resistance. Refer to Figure 45. 
+the harness wires for continuity. There should 
+1. Remove the fuel tank. 
+be near zero resistance in all wires. Flex the
+
+2. Separate the connector, located on the right side 
+harness during the check to detect erratic con- 
+of the frame (A, Figure 51). 
+tinuity.
+
+3. Identify the half of the connector that leads to the 
+e. If the harness is not shorted, check the coil at
+
+stator. 
+the white and red wire connections on the
+
+
+
+-----
+
+Positive probe
+
+RIG wal 
+L/R
+
+—
+
+ie.) 
+co

@@ -1,0 +1,70 @@
+314
+
+3. Clean the bolts and mounting holes.
+
+4. Reverse this procedure to install the discs. Note
+
+the following:
+
+a.
+
+Install the disc with the thickness marking 
+and direction arrow (Figure 104) facing out. 
+Apply nonpermanent 
+threadlocking 
+com- 
+pound to the bolt threads.
+
+b.
+
+. Tighten the bolts in several passes and in a
+
+crossing pattern.
+
+. Tighten the bolts to 23 Nem (17 ft.-Ib.).
+
+Check the disc for runout as described in this
+
+section.
+
+Table 1 BRAKE SPECIFICATIONS
+
+Disc thickness
+
+Front 
+3.8-4.1 (0.15-0.16) 
+Rear 
+4.8-5.1 (0.19-0.20) 
+Disc runout 
+0-0.2 (0-0.008) 
+Pad lining thickness 
+4.5 (0.18) 
+Brake fluid type 
+DOT 4
+
+Table 
+2 BRAKE SYSTEM TORQUE SPECIFICATIONS
+
+Brake bleeder valve 
+Brake disc bolts 
+Brake hose banjo bolts 
+Brake lever pivot nut 
+Caliper mounting bolts 
+Master cylinder mounting bolts
+
+Front 
+Rear
+
+
+
+-----
+
+CHAPTER FOURTEEN
+
+Service limit 
+mm (in.)
+
+3.5 (0.14) 
+4.5 (0.18) 
+0.3 (0.012) 
+1.0 (0.040)

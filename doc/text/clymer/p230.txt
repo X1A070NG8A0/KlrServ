@@ -1,0 +1,114 @@
+218
+
+Fan Fuse
+
+On 1990-on models, the fan circuit fuse is located
+
+at the right side of the motorcycle, under the fuel
+
+tank (Figure 68). The fuse is rated at 10 amps. Use
+
+an ohmmeter to check the fuse for continuity. Even 
+though a fuse may appear to be in good condition, a
+
+fine break in the fuse element is not always seen.
+
+A fine break in the element can also indicate con-
+
+tinuity when tested cold, then break continuity 
+when it is under load and heated in the circuit.
+
+WATER TEMPERATURE GAUGE AND
+
+SENDING UNIT
+
+The water temperature sending unit is located on 
+top of the cylinder head (Figure 69). The unit sends
+
+an electrical signal to the water temperature gauge, 
+which reacts with a corresponding temperature 
+reading. At low coolant temperatures, the sending
+
+unit has high resistance and the temperature gauge 
+indicates a cold reading. As coolant temperature
+
+rises, the resistance of the sending unit lowers and
+
+the temperature gauge indicates a hotter reading.
+
+Water Temperature Gauge Circuit Test
+
+Use the following procedure to determine if the 
+gauge or the sending unit should be tested.
+
+1. Remove the fuel tank.
+
+2. Disconnect the yellow wire from the terminal on
+
+the sending unit. Do not allow the loose wire to con-
+
+tact the engine or any other grounded surface.
+
+3. Check the water temperature gauge circuit as 
+follows:
+
+a. Turn on the ignition key and observe the
+
+gauge. The needle should indicate C.
+
+b. While observing the gauge, momentarily
+
+touch the yellow wire to the engine or another 
+grounded (unpainted) surface on the motor-
+
+cycle. The needle should should move toward 
+H when the wire is grounded.
+
+CAUTION 
+Ground the wire only long enough to 
+verify the action of the gauge needle. 
+Damage to the gauge can occur with 
+excessive grounding.
+
+
+
+-----
+
+CHAPTER NINE
+
+c. If the gauge passes the check, test the water
+
+temperature sending unit as described in this
+
+section.
+
+d. If the gauge does not pass the check, inspect
+
+the wiring harness for damaged or poor con- 
+nections. If all wiring is in good condition,
+
+test the gauge as described in this section.
+
+Water Temperature Gauge 
+Testing
+
+Check the water temperature gauge for resis-
+
+tance. Use an ohmmeter, connected to the appropri-
+
+ate color-coded wires in the connector plug (B, 
+Figure 70). The plug is located in front of the han-
+
+dlebar gauges, and behind the cover. Remove the 
+cover to access the wiring. If necessary, remove the
+
+fairing. When checking wires at the plug, connect
+
+the ohmmeter to the plug half that leads to the 
+gauge.
+
+Refer to Table 2 for resistance specifications.
+
+1. Separate the connector plug.
+
+2. Set the ohmmeter to R X 10 ohms.

@@ -1,0 +1,61 @@
+11-8
+
+Steering Stem Installation Front Fork Air Pressure
+
+@Lubricate the steering stem bearings with grease. | Standard: Atmospheric Pressure |
+
+elf a new steering bearing is installed, or if the removed
+bearing is reinstalled, seat the bearing according to the
+following.
+
+OTighten the stem locknut to 39 N-m (4.0 kg-m,
+29 ft-lb).
+
+oOCheck that there is no play and that the steering stem
+turns smoothly without rattling. If the steering stem
+does not turn smoothly, the bearings may be damaged.
+
+OLoosen the steeering stem locknut a little until it turns
+lightly.
+
+OTurn the steering stem locknut lighly clock-
+wise until it just becomes hard to turn. Do not over-
+tighten, or the steering will be too tight.
+
+“NOTE” A. Air Valve
+
+OTightening the stem locknut to 39 N-m (4.0 kg-m, 29
+ft-lb) of torque is only to seat the bearing. After
+seating the bearing, loosen and handtighten the locknut.
+©To torque the locknut with steering stem nut wrench
+(special tool), hook the wrench on the stem locknut, ©Do not remove the springs and rely on air only. Correct
+ide apap al il at the hole with 218 N (22.2 kg) springs must be used in this suspension system. Use
+orce in the direction shown. without springs can lead to a condition causing
+. accident and injury.
+Torquing Stem Locknut ODo not incinerate the front fork to avoid explosion.
+< 180 mm >|
+
+218 N
+(22.2 kg)
+
+1. Stem nut wrench: 57001-1100
+
+Adjustment after Installation
+
+@Check and adjust the following items:
+Steering
+Headlight aim (See Headlight Adjustment on chapter
+14.)
+
+Front Fork
+
+Air Pressure Adjustment
+
+@Use a jack under the engine or other suitable means to
+lift the front off the ground.
+
+OThe standard air pressure is atmospheric pressure.
+
+@Remove the air valve cap and push the air valve to open.
+
+®|nstall the air valve cap.

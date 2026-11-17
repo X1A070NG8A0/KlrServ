@@ -1,0 +1,73 @@
+14-18
+
+Dust Cover Installation Headlight and Dimmer Switch Connections
+(Other than US and Canada)
+
+Headlight Switch Dimmer Switch
+\ ‘: Color | BR |R/W | O | Color | R/BK| O | R/Y
+2 : ON | OmefemOmmete) | HI Oma)
+OFF — Pet
+° ° =
+PO | Ome | | Lo | OmmO
+OR Bs .__ |White 9-pin male connector behind the
+| J) £ Lead Location | adlight housing,
+Good Bad Dimmer Switch Connections (US and Canada)
+
+1. Dust cover
+2. Headlight bulb
+
+Lead Color
+R/BK BR R/Y
+
+Lead Location
+
+White 9-pin male
+
+Headlight, Dimmer Switch Inspection is é O connector behind
+If the bulb does not light, check to see if the bulb has LO Oummtmm) | the headlight hous-
+
+burned out or the fuse has blown. A blown fuse should ing.
+
+be replaced. If the bulb and fuse are good, check the
+
+switch.
+
+Front Brake Light Switch Inspection
+
+@Connect an ohmmeter to the disconnected switch
+leads, and pull the front brake lever. The ohmmeter
+should read zero ohms.
+
+*If it does not, replace the switch.
+
+Rear Brake Light Switch Adjustment
+See chapter 10. Brakes.
+
+Rear Brake Light Switch Inspection
+
+®|nspect the rear brake light switch in the same way as
+the front brake light switch.
+
+*If there is no continuity whenever the brake pedal is
+depressed, replace the switch.
+
+A. Headlight or Dimmer Switch Connector
+B. Front Brake Light Switch Connector
+
+®Disconnect the 9-pin connector to the headlight switch
+or to the dimmer switch.
+
+@Use an ohmmeter to see that only the connections
+shown in the table have continuity (zero ohms).
+
+*If the switch has an open or a short, it can be
+disassembled for repair. The contact surfaces may be
+cleaned, but no internal parts are available for
+replacement.
+
+*If any parts are not repairable, the switch must be f
+replaced as a unit. ; Sortie
+
+*If the procedure above does not remedy the problem,
+check the ignition switch, the wiring, and the battery. A. Rear Brake Light Switch in the righ side cover.
+

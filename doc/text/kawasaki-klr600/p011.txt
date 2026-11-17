@@ -1,0 +1,72 @@
+1-3
+
+(12) Oil Seal and Grease Seal
+
+Replace any oil or grease seals that were removed with new ones, as removal generally damages
+seals.
+
+When pressing in a seal which has manufacturer’s marks, press it in with the marks facing out.
+
+Seals should be pressed into place using a suitable driver, which evenly contacts the side of seal,
+until the face of the seal is even with the end of the hole.
+
+(13) Seal Guide
+
+A seal guide is required for certain oil or grease seals during installation to avoid damage to the
+seal lips. Before a shaft passes through a seal, apply a little high temperature grease to the seal
+lips to reduce rubber to metal friction.
+
+(14) Circlip, Retaining Ring
+
+Replace any circlips and retaining rings that are removed with new ones, as removal weakens
+and deforms them. When installing circlips and retaining rings, take care to compress or expand
+them only enough to install them and no more.
+
+(15) Lubrication
+
+Engine wear is generally at its maximum while the engine is warming up and before all the
+rubbing surfaces have an adequate lubricative film. During assembly, oil or grease (whichever is
+more suitable) should be applied to any rubbing surface which has lost its lubricative film. Old
+grease and dirty oil should be cleaned off. Deteriorated grease has lost its lubricative quality and
+may contain abrasive foreign particles.
+
+Don’t use just any oil or grease. Some oils and greases in particular should be used only in
+certain applications and may be harmful if used in an application for which they are not intended.
+This manual makes reference to molybdenum disulfide grease (MoS, ) in the assembly of certain
+engine and chassis parts. Always check manufacturer recommendations before using such special
+lubricants.
+
+(16) Electrical Wires
+
+All the electrical wires are either single-color or two-color and, with only a few exceptions,
+must be connected to wires of the same color. On any of the two-color wires there is a greater
+amount of one color and a lesser amount of a second color, so a two-color wire is identified by
+first the primary color and then the secondary color. For example, a yellow wire with thin red
+stripes is referred to as a “yellow/red” wire; it would be a “red/yellow” wire if the colors were
+reversed to make red the main color.
+
+Wire Name of Picture in
+(cross-section) Wire Color Wiring Diagram
+i
+Red Yellow
+Wire ——¥
+strands Yellow/red _ a x =
+Yellow i
+Red
+
+(17) Replacement Parts
+When there is a replacement instruction, replace these parts with new ones every time they are
+removed. These replacement parts will be damaged or lose their original function once removed.
+(18) Inspection
+When parts have been disassembled, visually inspect these parts for following conditions or
+other damage. If there is any doubt as to the condition of them, replace them with new ones.
+
+Abrasion Denting Hardening Warping
+Bending Deterioration Scratching Wear
+Cracking Discoloration Seizure
+
+(19) Service Data
+Numbers of service data in this text have following meanings:
+“Standards”: Show dimensions or performances which brand-new parts or systems have.
+“Service Limits”: Indicate the usable limits. If the measurement shows excessive wear or
+deteriorated performance, replace the damaged parts.

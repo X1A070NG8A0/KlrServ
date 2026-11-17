@@ -1,0 +1,105 @@
+Fuel Tank
+
+Removal Point 
+•Before removing the fuel tank or disconnecting the fuel 
+hose from the fuel tap, turn the fuel tap lever to the OFF 
+position to prevent fuel leaking out while the tank is 
+removed or the hose is disconnected.
+
+1 WARNING |
+
+OGasoline is extremely flammable and can be explosive 
+under certain conditions. Turn the ignition switch OFF. Do 
+not smoke. Make sure the area is well ventilated and free 
+from any source of flame or sparks; this includes any 
+appliance with a pilot light.
+
+Carburetor
+
+Adjustment: 
+High Altitude Performance Adjustment (US
+
+model) 
+To improve the Emission Control Performance of vehicle 
+operated above 4 000 feet (1 219 meters), Kawasaki 
+recommends the 
+following Environmental protection 
+Agency (EPA) approved modification.
+
+NOTE
+
+oWhen properly performed, these specified adjustments are not 
+considered to be emission control system "tampering" and 
+vehicle performance is generally unchanged as a result.
+
+•High altitude adjustments require replacement of certain 
+carburetor jets.
+
+High Altitude Carburetor Specifications
+
+Main Jet: 
+#145
+
+Pilot Jet: 
+#38
+
+•After high altitude adjustments are performed, provide the 
+customer with the Vehicle Emission Control Information 
+Update Label and label installation instructions (P/N 
+99969-0614). 
+•Advise the customer that by law, the Vehicle Emission 
+Control Information Update Label must be affixed to any 
+vehicle modified with the high altitude adjustments.
+
+NOTE
+
+oIf a vehicle with the high altitude adjustments is used below 4 
+000 feet (1 219 meters), the update label must be removed and 
+the original carburetor parts must be reinstalled.
+
+
+
+-----
+
+FUEL SYSTEM 2-5
+
+Carburetor Disassembly: 
+Carburetor Installation
+
+Refer to the Base Manual, noting the following. •Refer to 
+Cable, Wire, and Hose Routing in the chapter 1 for the 
+carburetor overflow tube and air vent tube routing.
+
+Adjustment after Installation 
+•Adjust the following. 
+Throttle 
+Grip Choke 
+Lever 
+Idle 
+S
+d
+
+Air Cleaner
+
+Element Removal •Remove 
+the right side cover. 
+•Remove the screws and take off the air cleaner element 
+cap.
+
+A. Element Cap 
+C. Wing Head Bolt 
+B. Element
+
+•Remove the wing head bolt and take off the air cleaner 
+element. 
+•Push a clean, lint-free towel into the air cleaner housing to 
+keep dirt or other foreign material from entering.
+
+Olf dirt gets through into the engine, excessive engine 
+wear and possibly engine damage will occur.
+
+Element Installation Points 
+•Coat the element lip with a layer of all purpose grease to 
+assure a complete seal against the cleaner case. 
+•Be sure the foam gasket Is in place In the groove in the 
+element cap.

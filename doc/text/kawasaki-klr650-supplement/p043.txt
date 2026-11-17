@@ -1,0 +1,13 @@
+5-2 COOLING SYSTEM
+
+Exploded View
+
+LS: Liquid Gasket (Silicone Sealant)
+
+T1 : 7.4 N-m <0.75 kg-m, 65 in-lb) 
+T2: 9.8 N-m (1.0 kg-m, 87 in-)b) 
+T3: 15 N-m (1.5 kg-m, 11.0 ft-lb)
+
+
+
+-----

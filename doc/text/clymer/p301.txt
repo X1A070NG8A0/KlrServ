@@ -1,0 +1,94 @@
+BRAKES 
+289
+
+
+
+-----
+
+of the caliper. Read the following procedure en-
+
+tirely before removal.
+
+a.
+
+Place the caliper on a padded work surface.
+
+b.
+
+Close the bleeder valve on the caliper so air
+
+cannot escape.
+
+Place a strip of wood, or similar pad, in the
+
+caliper. The pad cushions the piston when it 
+comes out of the caliper.
+
+WARNING 
+Wear eye protection when using com- 
+pressed air to remove the piston. Keep 
+fingers away from the piston dis-
+
+charge area. Injury can occur if an at- 
+tempt is made to stop the piston with 
+the fingers.
+
+. Lay the caliper so the piston discharges
+
+downward.
+
+Insert an air nozzle into the brake hose fitting.
+
+If the nozzle does not have a rubber tip, wrap 
+the nozzle with tape. This allows the nozzle to
+
+seal tightly and prevent thread damage.
+
+Place a shop cloth over the entire caliper to 
+catch any spray that may discharge from the
+
+caliper. 
+Apply pressure and listen for the piston to pop 
+from the caliper (Figure 15).
+
+Be
+
+6. Remove the piston boot and seal from the cylin- 
+der bore (Figure 16).
+
+7. Remove the bleeder valve and cap from the cali-
+
+per.
+
+8. Inspect the caliper assembly.
+
+Clean all parts that will be reused with fresh 
+brake fluid or isopropyl (rubbing) alcohol. jaygg 
+Use a wood or plastic-tipped tool to clean the 
+© 
+caliper seal and boot grooves. Use clean 
+brake fluid to clean the piston, bore and seal 
+grooves.
+
+a.
+
+. Inspect the cylinder bore and piston (Figure
+
+17) for wear, pitting or corrosion. Service
+
+limits are not specified by Kawasaki.
+
+Inspect the caliper holder and slide pins (Fig-
+
+ure 18) for wear, pitting or corrosion.
+
+. Inspect the boots for deterioration.
+
+. Inspect the pad pin, lock pin and pad spring
+
+(Figure 19). The pin and spring must be in 
+good condition to allow the inner pad to
+
+slightly move when installed. Replace the
+
+parts if worn, corroded or damaged.

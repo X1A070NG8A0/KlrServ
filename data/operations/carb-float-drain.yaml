@@ -1,0 +1,41 @@
+operations:
+  - id: carb-float-drain
+    title: "Carburetor float chamber drain"
+    system: "Fuel system"
+    source: clymer
+    chapter: 3
+    section: "03/maintenance-and-inspection"
+    summary:
+      t: "The float chamber drain removes moisture and sediment. Moisture and sediment can clog the jets and cause poor engine operation. Also drain the float chamber if you store the motorcycle or do not start it for a long time."
+      cite: {p: 68}
+    sections:
+      - steps:
+          - {kind: warning, t: "Do not drain the float chamber when the engine is hot or when it runs. The fuel can ignite.", cite: {p: 68}}
+          - {t: "Support the motorcycle so that it is vertical and level.", cite: {p: 68}}
+          - {t: "Connect a hose with a 1/4 in. inside diameter to the drain (A).", cite: {p: 68}, figs: [40],
+             gap: "The manual prints \"25 mm (1/4 in.)\". 1/4 in. is 6.35 mm (Clymer Chapter One Table 5 conversion, PDF p41). 25 mm is probably a misprint for about 6 mm."}
+          - {t: "Put the other end of the hose in a suitable container.", cite: {p: 68}, figs: [40]}
+          - {t: "Turn the drain screw (B) out two turns. Let all the fuel in the chamber flow into the container.", cite: {p: 69}, figs: [40]}
+          - {t: "Close the drain screw.", cite: {p: 69}}
+          - {t: "Disconnect the drain hose.", cite: {p: 69}}
+
+  - id: muffler-clean
+    title: "Muffler (spark arrester) cleaning"
+    system: "Exhaust"
+    source: clymer
+    chapter: 3
+    section: "03/maintenance-and-inspection"
+    summary:
+      t: "The muffler is approved by the U.S. Forest Service as a spark arrester and limits noise to 80 decibels. Remove carbon from the internal baffle so that the muffler operates correctly. This is more important if the engine ran rich."
+      cite: {p: 67}
+    sections:
+      - steps:
+          - {kind: warning, t: "Do not spray solvents or other flammable liquids into the muffler to remove buildup. This can cause an explosion or fire.", cite: {p: 67}}
+          - {t: "Park the motorcycle in an open area, away from flammable materials.", cite: {p: 67}}
+          - {t: "Remove the two plugs on the back side of the muffler.", cite: {p: 67}, figs: [37, 38]}
+          - {t: "Remove the plug near the right passenger peg.", cite: {p: 67}, figs: [37, 38]}
+          - {t: "Start the engine.", cite: {p: 67}}
+          - {t: "Wear gloves. Tap the muffler with a rubber mallet while you increase and decrease the engine speed.", cite: {p: 67}}
+          - {t: "For a short time, put a folded shop cloth over the end of the muffler. The exhaust pressure then pushes carbon out of the plug openings.", cite: {p: 67}}
+          - {t: "When no more carbon particles come out, stop the engine.", cite: {p: 68}}
+          - {t: "Install the plugs.", cite: {p: 68}}

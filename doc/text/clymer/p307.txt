@@ -1,0 +1,51 @@
+BRAKES 
+295
+
+
+
+-----
+
+c. Slowly relieve the pressure on the piston.
+
+8. Remove the piston assembly from the bore (Fig- 
+ure 39).
+
+9. Inspect the master cylinder assembly.
+
+a. Clean all parts that will be reused with fresh
+
+brake fluid or isopropyl (rubbing) alcohol.
+
+b. Inspect the cylinder bore for wear, pitting or
+
+corrosion (Figure 40).
+
+c. Inspect and clean the threads and orifices in
+
+the reservoir (Figure 41). Clean with com- 
+pressed air.
+
+d. Inspect the brake lever bore and pivot bolt for
+
+wear (Figure 42).
+
+e. Inspect the diaphragm and reservoir cap for
+
+damage (Figure 43). 
+.
+
+f. Inspect the boot, snap ring and mounting
+
+hardware (Figure 44) for corrosion and dam-
+
+age.
+
+g. Inspect the brake switch. Clean the switch
+
+with electrical contact cleaner by spraying
+
+into the holes in the case (Figure 45). Operate
+
+the switch while flushing the contacts. If the 
+switch condition is not known, attach an ohm- 
+meter to the terminals on the switch. The me-

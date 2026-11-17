@@ -1,0 +1,86 @@
+CHAPTER FIVE
+
+ENGINE LOWER END
+
+This chapter provides procedures for servicing or 
+removing the following lower end components:
+
+1. Cam chain and lower guide.
+
+2. Left crankcase cover.
+
+3. Engine balancer.
+
+4. Crankcase, bearings and seals.
+
+5. Crankshaft and connecting rod. 
+To access and service some of these components,
+
+the engine must be removed from the frame, then 
+dismantled of all assemblies attached to the crank-
+
+case.
+
+Read this chapter before repairing the engine 
+lower end. Become familiar with the procedures, 
+photos and illustrations to understand the skill and 
+equipment required. Refer to Chapter One for tool 
+usage and techniques.
+
+SHOP CLEANLINESS
+
+Prior to removing and disassembling the engine, 
+clean the engine and frame with degreaser. The dis- 
+assembly job goes easier and there is less chance of
+
+dirt entering the assemblies. Keep the work envi- 
+ronment as clean as possible. Store parts and assem-
+
+blies in well-marked plastic bags and containers. 
+Keep reconditioned parts wrapped and lubricated
+
+until they are installed.
+
+
+
+-----
+
+ENGINE
+
+The following removal and installation procedure
+
+outlines the basic steps necessary to remove the en- 
+gine from the frame. Depending on the planned
+
+level of disassembly, consider removing top end 
+components, and those located in the crankcase
+
+covers, while the engine remains in the frame. Since
+
+the frame keeps the engine stabilized, tight nuts and
+
+bolts are easier to remove if the engine is held
+
+steady. Also, if the actual engine problem is un- 
+known, it may be discovered in another assembly, 
+other than the crankcase.
+
+During engine removal, make note of mounting
+
+bolt directions and how cables and wire harnesses
+
+are routed. Refer to the appropriate chapters for re- 
+moval, inspection and installation procedures for
+
+the components in the engine top end and crankcase 
+covers.
+
+Removal and Installation
+
+1. Support the motorcycle so it is stable, level and
+
+the rear wheel is off the ground.
+
+2. If possible, perform a compression test (Chapter 
+Three) and leakdown test (Chapter Two) before dis- 
+mantling the engine.

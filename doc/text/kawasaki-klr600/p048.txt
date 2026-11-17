@@ -1,0 +1,67 @@
+3-21
+
+Piston Ring End Gap Piston Diameter
+
+@Place the piston ring inside the cylinder, using the Piston Diameter Measurenient
+piston to locate the ring squarely in place. Set it close
+to the bottom of the cylinder, where cylinder wear is
+
+low.
+®@Measure the gap between the ends of the ring with a st aay
+
+thickness gauge. ———
+
+End Gap Measurement K )
+Piston Ring
+sie )
+\ , , Gap )
+
+i afm : / 7
+NI a ==] TS
+GY: Boring, Honing
+j When boring and honing a cylinder, note the follow-
+ing:
+Y) oThere are two sizes of oversize pistons available. Over-
+Z size pistons require oversize rings.
+yy Oversize Pistons and Rings
+0.5 mm Oversize
+1.0 mm Oversize
+Before boring a cylinder, first measure the exact
+diameter of the oversize piston, and then, according to
+the standard clearance in the Service Data Section,
+determine the rebore diameter. However, if the
+amount of boring necessary would make the inside
+Ya t diameter greater than 1.0 mm, the cylinder block must
+be replaced.
+OCylinder inside diameter must not vary more than
+0.01 mm at any point.
+©OBe wary of measurements taken immediately after
+. . : boring since the heat affects cylinder diameter.
+Cylinder Inside Diameter ; a oln the case of a rebored cylinder and oversize piston,
+@Since there is a difference in cylinder wear in differ- the service limit for the cylinder is the diameter that
+ent directions, take a side-to-side and a front-to-back the cylinder was bored to plus 0.1 mm and the service
+measurement at each of the 3 locations (total of 6 limit for the piston is the oversize piston original
+measurements) shown in the figure. diameter minus 0.15 mm. _ If the exact figure for the
+*If any of the cylinder inside diameter measurements rebored diameter is unknown, it can be roughly deter-
+exceeds the service limit, the cylinder will have to be mined by measuring the diatheter at the base of the
+bored to oversize and then honed. cylinder.
+
+Cylinder Inside Diameter Measurement
+
+1
+[r1GAR asses a smreannorcisansaneesyecnsliT scebcapaaaostainn
+5 E | Muffler
+S cs! Il GF  — wanna Setoerewerance ieussaccwuans suneshenthaxs Detesereeenes penpeereskias ieee
+— io
+Installation Points
+E i. eTighten the muffler mounting bolts, nuts, and clamp
+bolts in the order and method indicated below.
+= OF irst, tighten all the bolts and nuts to a snug fit.
+= OSecondly, tighten the exhaust pipe holder nuts evenly
+S to avoid exhaust leaks.
+\ OLastly, tighten the rest of the mounting bolts and
+
+clamp bolts securely.
+@Thoroughly warm up the engine, wait until the engine
+cools down, and retighten all the clamp bolts.
+

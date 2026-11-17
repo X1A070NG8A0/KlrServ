@@ -1,0 +1,105 @@
+GENERAL INFORMATION
+
+cepts the socket, adapter or extension. Common 
+types of torque wrenches are the deflecting beam,
+
+dial indicator and audible click (Figure 19).
+
+When choosing a torque wrench, consider the 
+torque range, drive size and accuracy. The torque
+
+specifications in this manual provide an indication
+
+of the range required.
+
+A torque wrench is a precision tool that must be
+
+properly cared for to remain accurate. Store torque
+
+wrenches 
+in cases 
+or separate padded drawers
+
+
+
+-----
+
+13
+
+within a toolbox. Follow the manufacturer’s in- e
+
+structions for their care and calibration.
+
+Torque Adapters
+
+Torque adapters or extensions extend or reduce
+
+the reach of a torque wrench. The torque adapter 
+shown in Figure 20 is used to tighten a fastener that 
+cannot be reached due to the size of the torque
+
+wrench head, drive, and socket. If a torque adapter
+
+changes the effective lever length (Figure 21), the
+
+torque reading on the wrench will not equal the ac-
+
+tual torque applied to the fastener. It is necessary to
+
+recalibrate the torque setting on the wrench to com-
+
+pensate for the change of lever length. When using a
+
+torque adapter at a right angle to the drive head, cal-
+
+ibration is not required, since the effective length
+
+has not changed.
+
+To recalculate a torque reading when using a 
+torque adapter, use the following formula, and refer
+
+to Figure 21.
+
+TWetA xb
+
+L+A 
+TW is the torque setting or dial reading on the 
+wrench.
+
+TA is the torque specification and the actual 
+amount of torque that will be applied to the fastener.
+
+A is the amount that the adapter increases (or in 
+some cases reduces) the effective lever length as 
+measured along the centerline of the torque wrench 
+(Figure 21).
+
+L is the lever length of the wrench as measured 
+from the center of the drive to the center of the grip.
+
+The effective length of the torque wrench mea- 
+sured along the centerline of the torque wrench is
+
+the sum of Land A.
+
+Example: 
+TA = 20 ft.-lb.
+
+A =3 
+in. 
+L= 14 in. 
+TW = 20 X 14 = 280 = 16.5 ft. lb.
+
+14433. =)
+
+In this example, the torque wrench would be set
+
+to the recalculated torque value (TW = 16.5 ft.-Ib.). 
+When using a beam-type wrench, tighten the fas-
+
+tener until the pointer aligns with 16.5 ft.-lb. In this
+
+example, although the torque wrench is preset to
+
+16.5 ft.-lb., the actual torque is 20 ft.-Ib.

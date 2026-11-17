@@ -1,0 +1,37 @@
+16-8 SUPPLEMENT - 2000 - 2001 MODELS
+
+Enginr Right Side / Left Side
+
+Exploded View
+
+GrGrease
+
+T3:15N-m(1.5kg-m.11.0ft-lb)
+
+L:Non-permanent Locking Agent
+
+T4:20N-m(2.0kg-m,14.5ft-lb)
+
+M:Molybdenum Disulfide Grease
+
+T5:23N-m(2.3kg-m, 16.5ft-lb)
+
+T1:9.8N-m(1.0kg-m,87in-lb)
+
+T6:25N-m(2.5kg-m, 18.0ft-lb)
+
+T2:12N-m(1.2kg-m,104in-lb)
+
+T7:44N-m(4.5kg-m,33ft-lb)
+
+T8:120N-m{12.0kg-m,87ft-lb)
+
+T9:130N-m( 13.5kg-m, 98ft-lb)
+
+T10:8.8N-m(0.9kg-m,78in-lb)
+
+T11:98N-m(10kg-m.72ft-lb)
+
+
+
+-----

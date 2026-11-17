@@ -1,0 +1,146 @@
+# Maintenance and lubrication schedule.
+# Transcribed from the page image of Clymer Table 1 (PDF p88, printed p76).
+# Every row inherits the table citation unless it carries its own `cite`.
+# `op` links to data/operations/<op>.yaml. Rows whose op does not exist yet
+# render without a link rather than with an invented procedure.
+
+cite: {s: clymer, p: 88, ref: "Table 1, Maintenance and Lubrication Schedule"}
+
+intervals:
+  - id: initial-500
+    label: "Initial 500 mi / 800 km"
+  - id: every-3000
+    label: "Every 3000 mi / 5000 km"
+    every_mi: 3000
+  - id: every-6000
+    label: "Every 6000 mi / 10,000 km"
+    every_mi: 6000
+
+footnotes:
+  "*": "California models only. Examine the hoses and replace them if necessary."
+
+tasks:
+  - task: "Adjust and lubricate the drive chain"
+    op: drive-chain-adjust-lube
+    at: []
+    other: "Every 200 miles/300 km"
+  - task: "Examine, fill and charge the battery"
+    op: battery
+    at: []
+    other: "Monthly"
+  - task: "Examine the brake fluid level"
+    op: brake-fluid-level
+    at: [initial-500, every-3000]
+    other: "Or each month"
+  - task: "Examine the brake pedal adjustment"
+    op: brake-pedal
+    at: [initial-500, every-3000]
+    other: "Or each month"
+  - task: "Examine the brake light switch adjustment"
+    op: brake-light-switch
+    at: [initial-500, every-3000]
+    other: "Or each month"
+  - task: "Replace the engine oil"
+    op: engine-oil-and-filter
+    at: [initial-500, every-3000]
+    other: "Or each year"
+    # parts used when only the oil is changed (the filter has its own row)
+    parts: ["Drain plug seal washer", "Drain plug", "Oil fill cap O-ring", "Engine oil"]
+  - task: "Clean the air filter"
+    op: air-filter
+    at: [initial-500, every-3000]
+    other: "Or more frequently if necessary"
+    parts: ["Foam air filter", "Foam air filter oil", "Lithium grease (filter lip)", "Air filter housing cover gasket"]
+  - task: "Replace the air filter"
+    op: air-filter
+    at: []
+    other: "Every 5 cleanings"
+    parts: ["Foam air filter"]
+  - task: "Examine the air filter housing drain"
+    op: air-filter
+    at: [initial-500, every-3000]
+    parts: []
+  - task: "Adjust the balancer chain tensioner"
+    op: balancer-chain-tensioner
+    at: [initial-500, every-3000]
+  - task: "Examine and adjust the steering bearings"
+    op: steering-bearings
+    at: [initial-500, every-3000]
+  - task: "Measure the engine idle speed"
+    op: idle-speed
+    at: [initial-500, every-3000]
+  - task: "Examine the operation of the lights and switches"
+    op: lights-switches
+    at: [initial-500, every-3000]
+  - task: "Measure the free play of the throttle grip"
+    op: throttle-cable
+    at: [initial-500, every-3000]
+  - task: "Examine the evaporative emission system*"
+    op: evap-system
+    at: [initial-500, every-3000]
+  - task: "Examine the coolant hoses and replace them if necessary"
+    op: cooling-system-inspect
+    at: [initial-500, every-3000]
+  - task: "Examine and adjust the clutch"
+    op: clutch-adjust
+    at: [initial-500, every-3000]
+  - task: "Examine the brake pads and replace them if necessary"
+    op: brake-pads
+    at: [initial-500, every-3000]
+  - task: "Examine and tighten the spokes"
+    op: spokes
+    at: [initial-500, every-3000]
+  - task: "Replace the engine oil filter"
+    op: engine-oil-and-filter
+    at: [initial-500, every-6000]
+    parts: ["Oil filter", "Oil filter cover O-ring"]
+  - task: "Measure the valve clearance"
+    op: valve-clearance
+    at: [initial-500, every-6000]
+  - task: "Examine the nuts, bolts and other fasteners"
+    op: fasteners
+    at: [initial-500, every-6000]
+  - task: "Examine the spark plug and replace it if necessary"
+    op: spark-plug
+    at: [every-3000]
+  - task: "Examine the drive chain and sprockets"
+    op: drive-chain-inspect
+    at: [every-3000]
+  - task: "Drain the carburetor float chamber"
+    op: carb-float-drain
+    at: [every-3000]
+  - task: "Clean the muffler"
+    op: muffler-clean
+    at: [every-3000]
+  - task: "Do the general lubrication"
+    op: general-lubrication
+    at: [every-3000]
+  - task: "Examine and lubricate the swing arm linkage"
+    op: swingarm-linkage
+    at: [every-6000]
+  - task: "Lubricate the steering bearings"
+    op: steering-bearings
+    at: []
+    other: "Every 12,000 miles/20,000 km"
+    every_mi: 12000
+  - task: "Replace the fork oil"
+    op: fork-oil
+    at: []
+    other: "Every 18,000 miles/30,000 km"
+    every_mi: 18000
+  - task: "Replace the coolant"
+    op: coolant-replace
+    at: []
+    other: "Every 2 years"
+  - task: "Replace the brake fluid"
+    op: brake-fluid-replace
+    at: []
+    other: "Every 2 years"
+  - task: "Replace the fuel hose"
+    op: fuel-hose
+    at: []
+    other: "Every 4 years"
+  - task: "Replace the brake hoses"
+    op: brake-hoses
+    at: []
+    other: "Every 4 years"

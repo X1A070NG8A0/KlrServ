@@ -1,0 +1,51 @@
+14-8
+Regulator/Rectifier Terminal
+CAUTION
+
+B (Battery) ~] M (Monitor) Terminal
+OThe test light works as an indicator and also a current
+
+G (Ground) Terminal limiter to protect the regulator/rectifier from excessive
+current. Do not use an ammeter instead of a test light.
+
+Regulator Circuit Test-1st Step:
+
+eConnect the test light and the 12 V battery to th
+the regulator/rectifier as shown.
+
+@Check M1 and M2 terminal respectively.
+
+*The test light should not go on. If it goes on, the
+thyristor is shorted; replace the regulator/rectifier.
+
+MI ee i (magneto)
+
+Regulator Circuit Test-1st Step
+
+Regulator/Rectifier
+
+A. Regulator/Rectifier Connector
+
+Regulator/Rectifier Resistance
+
+ees? Meter (+) Lead Connection Test ay
+6| Terminal | G M B M1 or 2 7 | ©
+
+3 = 0.2— | 04— |] 02-
+S 0.8kQ | 2kQ | 0.6k2
+2 ‘i 03.— (ie 0.5 — 12 V Battery
+g 1kQ §0kQ | 3kQ
+=I
+ane B co co co
+5 0.2 —
+2 M1 or 2 0.6 kQ
+a Regulator Circuit Test-2nd Step:
+Regulator Circuit Test: ®Connect the test light and the 12 V battery in the same
+e@Disconnect the regulator/rectifier connector. manner as specified in the “Regulator Circuit Test 1st
+@Prepare testing tools. Step”.
+i @Apply 12 V to the voltage monitoring terminal.
+Tools for Regulator Circuit Test eCheck M1 and M2 terminal respectively.
+Test light => Bulb rated 12 V and 3 —6 W *The test light should not go on. If it goes on, the
+Batteries > 6 V and 12 V batteries control circuit in the regulator/rectifier is damaged;
+
+Test wires -= 5 auxiliary wires replace the regulator/rectifier.

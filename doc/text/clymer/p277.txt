@@ -1,0 +1,82 @@
+FRONT SUSPENSION AND STEERING
+
+tube. Drive the seals until the stop ring groove
+
+is visible above the seal.
+
+12. Install and seat the stop ring in the groove.
+
+13. Slide the fork tubes together several times and 
+check for smooth operation. If there is roughness or 
+binding, disassemble the parts and determine the 
+cause.
+
+14. Refer to Table 2 for the recommended fork oil
+
+and capacity.
+
+
+
+-----
+
+265
+
+15. Accurately measure and pour the oil into the
+
+fork leg (Figure 58).
+
+16. Pump the leg for several minutes to distribute
+
+the oil and purge air pockets.
+
+17. Measure the oil level as follows:
+
+a. Compress the fork leg to the bottom of its
+
+travel.
+
+b. Measure the distance from the top edge of the
+
+fork leg to the surface of the oil (Figure 59). 
+Refer to Table 2 for the required distance.
+
+c. If necessary, add or remove oil to bring the
+
+levels to the required distance. Both legs must 
+have identical levels.
+
+NOTE 
+The oil level establishes the air pocket 
+that is above the oil. Since the air 
+pocket contributes to fork damping,
+
+slight variation of the oil level is per- 
+missible to meet the riding conditions. 
+Excess oil in the fork leg (small air 
+pocket), makes damping harder. This
+
+condition can also lead to fork seal 
+leakage. Too little oil in the fork leg 
+(large air pocket), makes damping
+
+softer. This condition can cause the 
+fork to bottom and possibly damage 
+fork components.
+
+18. Extend the fork leg, then install the spring and 
+spring seat (Figure 60). If the spring is progres-
+
+sively wound, install the correct end up.
+
+19. Install the spring spacer and fork cap. Tighten
+
+the cap enough to prevent the fork leg from leaking. 
+The cap will be tighten to the torque specification
+
+after the leg is installed on the motorcycle.
+
+20. Install the fork boot. Seat the boot into the outer
+
+tube, but do not tighten the clamp until the fork leg
+
+has been installed on the motorcycle.

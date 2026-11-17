@@ -1,0 +1,92 @@
+4. Lubricate micrometers with WD-40 to prevent
+
+corrosion.
+
+Telescoping and Small-Bore Gauges
+
+Use 
+telescoping 
+gauges 
+(Figure 
+33) 
+and 
+small-hole gauges to measure bores. Neither gauge 
+has a scale for direct readings. An outside microme-
+
+ter must be used to determine the reading.
+
+To use a telescoping gauge, select the correct size 
+gauge for the bore. Compress the movable post and 
+carefully insert the gauge into the bore. Carefully 
+move the gauge in the bore to check that it is cen-
+
+tered. Tighten the knurled end of the gauge to hold
+
+the movable post in position. Remove the gauge and 
+measure the length of the posts. Telescoping gauges
+
+are typically used to measure cylinder bores.
+
+To use a small-bore gauge, select the correct size 
+gauge for the bore. Carefully insert the gauge into
+
+the bore. Tighten the knurled end of the gauge to 
+carefully expand the gauge fingers to the limit 
+within the bore. Do not overtighten the gauge, as
+
+there is no built-in release. Excessive tightening can 
+damage the bore surface and damage the tool. Re- 
+move the gauge and measure the outside dimension 
+(Figure 34). Small-hole gauges are typically used
+
+to measure valve guides.
+
+Dial Indicator
+
+A dial indicator (Figure 35) is a gauge with a dial
+
+face and needle used to measure variations in di- 
+mensions and movements. Measuring brake rotor 
+runout is a typical use for a dial indicator.
+
+Dial indicators are available in various ranges and 
+graduations and with three basic types of mounting 
+bases: magnetic, clamp, or screw-in stud. When
+
+
+
+-----
+
+CHAPTER ONE
+
+purchasing a dial indicator, select the magnetic
+
+stand type, with a continuous dial.
+
+Cylinder Bore Gauge
+
+A cylinder bore gauge is similar to a dial indica-
+
+tor. The gauge set shown in Figure 36 consists of a
+
+dial indicator, handle, and different length adapters
+
+(anvils) to fit the gauge to various bore sizes. The 
+bore gauge is used to measure bore size, taper and 
+out-of-round. When using a bore gauge, follow the 
+manufacturer’s instructions.
+
+Compression Gauge
+
+A compression gauge (Figure 37) measures com- 
+bustion chamber (cylinder) pressure, usually in psi
+
+or kPa. The gauge adapter is either inserted or 
+screwed into the spark plug hole to obtain the read-
+
+ing. Disable the engine so it will not start and hold
+
+the throttle in the wide-open position when per- 
+forming a compression test. An engine that does not 
+have adequate compression cannot be properly 
+tuned.

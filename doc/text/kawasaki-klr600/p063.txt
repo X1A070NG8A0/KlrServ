@@ -1,0 +1,61 @@
+4-14
+
+Oil Pressure: @Run the engine at the specified speed, and read the oil
+Measuring the oil pressure when the engine is cold pressure gauge.
+
+(about room temperature) is a way to inspect relief valve Normal operating temperature: 90°C (194°F)
+
+operation. First inspect the relief valve operation with Oil pressure measuring engine speed:
+
+the engine to measure the oil pressure at the normal 4, 000 r/min (rpm)
+
+operating temperature. xlf the oil pressure is significantly below the standard
+
+pressure, inspect the engine oil pump and relief valve.
+*|f the pump and relief valve are not at fault, inspect
+Relief Valve Opening Pressure the rest of the lubrication system.
+When the engine is cold:
+@Remove the skid plate.
+
+eRemove the oil passage plug. Oil Pump:
+@install oil pressure gauge 57001-164 and adapter Removal Point
+57001-1182. @Remove the right engine cover.
+
+@Turn the crankshaft so that the engine oil pump screws
+(3) can be removed through the oil pump gear hole,
+and remove the screws (3) and oil pump.
+
+A. Oil Pressure Gauge : 57001-164
+B. Adapter: 57001-1182
+
+A. Oil Pump Gear
+eStart the engine, and note the oil pressure while B. Screws: removal is required
+running the engine at various speeds. A normal relief Cc. A Screw: removal is not required
+valve keeps the maximum oil pressure within the
+standard pressure of valve operating.
+*lf the oil pressure exceeds the standard pressure very
+much, the relief valve is stuck in its closed position.
+
+*x|f the oil pressure is much lower than the standard Installation Point
+pressure at more than 5,000 r/min (rpm) the relief @Clean any metal particles and dirt off the oil screen.
+valve may be stuck open, or there may be other damage @Fill the oil pump with engine oil for initial lubrication.
+in the lubrication system. @Check to see that the knock pins (2), plugs (2), the
+
+screen and new gasket are in place.
+
+Oil Pressure Measurement
+
+When the engine is warmed up:
+
+@Remove the oil passage plug.
+
+@jnstall oil pressure gauge 57001-164 and adapter
+
+57001-1182.
+
+Olf the oil passage plug is removed while the engine is :
+warm, hot engine oil will drain through the oil passage; (D) oe (B)
+take care against burns. io ; i
+
+eWarm up the engine to the normal operating tem- A. Knock Pin C. Gasket
+perature. B, Plug D. Oil Screen

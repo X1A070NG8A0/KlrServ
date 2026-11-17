@@ -1,0 +1,86 @@
+*lf the test light turns on, the regulator/rectifier is defective. 
+Replace it. 
+*lf the test light does not turn on, continue the test. 
+•Momentarily apply 18 V to the voltage monitoring terminal 
+by adding a 6 V battery. 
+•Check Ml, M2, and M3 terminals respectively.
+
+C AU TI ON
+
+Do not apply more than 18 V to the regulator/rectifier and do not leave the 18 V applied for more than a few seconds, or the unit will be d
+
+Regulator Circuit Test-3rd Step
+
+6 V Battery
+
+*lf the test light did not light when the 18 V was applied 
+momentarily to the voltage monitoring terminal, the 
+regulator/rectifier is defective. Replace it. 
+*lf the regulator/rectifier passes all of the tests described, it 
+may still be defective. If the charging system still does not 
+work properly after checking all of the components and the 
+battery, test the regulator/rectifier by replacing it with a 
+known good unit.
+
+Ignition System
+
+Adjustment: 
+Spark Plug Cleaning and Gapping
+
+Refer to the Base Manual, noting the following.
+
+
+
+-----
+
+ELECTRICAL SYSTEM 14-7
+
+Standard Spark Plug 
+Plug Type: 
+NGK DPft8EA-9 or ND X24EPR-U9 
+@Q>©<0> NGK DP8EA-9 or ND X24EP-U9 Plug 
+Gap: 
+0.8— 0.9 mm 
+Tightening Torque: 
+14 N-m (1.4 kg-m, 10.0 ft-lb)
+
+@ : 
+Australian Model 
+0 : 
+Italian Model 
+(§) : 
+South African Model 
+© : 
+US Model
+
+Removal/Installation: 
+Magneto Removal or Installation 
+Refer to the Base Manual, noting the following. 
+• Replace the magneto flywheel bolt with a new one. This 
+bolt is required to replace if it has been tightened once to 
+the specified torque. 
+•Tightening procedure of the magneto flywheel bolt is the 
+following. 
+oTighten the magneto flywheel bolt to 120 N-m (12.0 kg-m, 
+87 ft-lb) of torque. Do not overtighten it now. 
+OLoosen the bolt and then tighten it again to the same 
+torque (above). 
+oFinally, tighten the bolt to the specified torque.
+
+Tightening Torque 
+Magneto Flywheel Bolt:
+
+175 N-m (18.0 kg-m. 130 ft-lb)
+
+^CAUTTOTT
+
+oUse a 6-point socket instead of a 12-point one to tighten 
+the flywheel bolt to the specified torque.
+
+Ignition Coil Installation 
+•Connect the primary leads to the ignition coil terminals as 
+shown in the figure.
+
+Ignition Coil Terminals
+
+1. (+) Terminal <- BK 2. (-) Terminal «- BK/Y

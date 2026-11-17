@@ -1,0 +1,98 @@
+ENGINE TOP END
+
+PISTON RING
+
+POSITIONS
+
+1
+
+‘2N’ 
+‘N’ 
+mark up 
+mark up
+
+2
+
+Arrow 
+forward
+
+. Top ring
+
+. Second ring
+
+. Oil ring rail
+
+. Oil ring expander
+
+c. Torque the nuts to 25 Nem (18 ft.-Ib.).
+
+8. Install and torque the cylinder mounting bolt, lo-
+
+cated in the cam chain tunnel (Figure 73).
+
+a. Stuff clean shop cloths into the tunnel to pre-
+
+vent parts from entering the engine.
+
+b. Torque the bolt to 10 Nem (88 in.-lb.).
+
+9. Install the oil pipe retainer and bolt (A, Figure 
+71) at the rear of the cylinder. Torque the bolt to 8 
+Nem (71 in.-lb.).
+
+
+
+-----
+
+105
+
+a. If the entire oil pipe was removed, install new
+
+seal washers on the banjo bolts, then fin- 
+ger-tighten the bolts (Figure 72).
+
+b. Torque all the oil pipe banjo bolts and retainer
+
+bolt after installing the cylinder head.
+
+10. Install the coolant hose at the front of the cylin- 
+der (A, Figure 70).
+
+11. Install the cylinder head as described in this
+
+chapter.
+
+PISTON AND PISTON RINGS
+
+The piston is made of aluminum alloy and fitted 
+with three rings. The piston is held on the small end 
+of the connecting rod by a chrome-plated, steel pis-
+
+ton pin. The pin is a precision fit in the piston and
+
+rod, and is held in place by circlips.
+
+As each component of the piston assembly is 
+cleaned and measured, record and identify all mea- 
+surements. Refer to the measurements when check- 
+ing dimensions and wear limits.
+
+Piston Removal
+
+1. Remove the cylinder as described in this chapter.
+
+2. Before removing the piston, check the piston and
+
+piston pin for obvious play. Hold the rod and try to
+
+tilt the piston side to side (Figure 82). If a tilting
+
+(not sliding) motion is detected, there is wear on el-
+
+ther the piston pin, pin bore or connecting rod. Wear
+
+could be on any combination of the three parts.
+
+Careful inspection is required to determine which
+
+parts should be replaced.

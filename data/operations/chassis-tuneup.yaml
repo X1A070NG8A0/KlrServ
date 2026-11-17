@@ -1,0 +1,157 @@
+# Clymer Chapter Three: chassis checks and engine tune-up (PDF p79-82).
+operations:
+  - id: swingarm-linkage
+    title: "Swing arm bearing inspection"
+    system: "Rear suspension"
+    source: clymer
+    chapter: 3
+    section: "03/maintenance-and-inspection"
+    summary:
+      t: "This is a general side-to-side check of the swing arm bearings. Chapter Thirteen has the full inspection of the bearings and pivots for side and vertical wear."
+      cite: {p: 79}
+    spec_refs:
+      - "rear-suspension-torque:Swing arm pivot bolt"
+    sections:
+      - steps:
+          - {t: "Support the motorcycle so that the rear wheel is off the ground.", cite: {p: 79}}
+          - {t: "Ask an assistant to hold the motorcycle steady.", cite: {p: 79}}
+          - {t: "Hold the ends of the swing arm. Move the swing arm from side to side.", cite: {p: 79}}
+          - {t: "If you can feel play, service the swing arm.", cite: {p: 79}, ref: "13/swing-arm-service",
+             gap: "Table 1 calls this \"Inspect/lubricate swing arm linkage\". The lubrication procedure is in Chapter Thirteen. That chapter is not yet written in this wiki."}
+
+  - id: fork-air-release
+    title: "Fork air release"
+    system: "Front suspension"
+    source: clymer
+    chapter: 3
+    section: "03/maintenance-and-inspection"
+    summary:
+      t: "While you ride, the air at the top of each fork leg gets warm and expands. This makes the fork stiff. Kawasaki recommends that you do not add air pressure before you ride, because it increases the risk of seal leaks. Release the pressure regularly. On very rough terrain, release it at least once a day."
+      cite: {p: 79}
+    spec_refs:
+      - "routine-checks:Fork air pressure"
+    sections:
+      - steps:
+          - {t: "Remove the cap from each air release valve.", cite: {p: 79}, figs: [71]}
+          - {t: "Push the valve core in to release the pressure.", cite: {p: 79}, figs: [71]}
+          - {t: "Install the caps.", cite: {p: 79}, figs: [71]}
+
+  - id: tires
+    title: "Tire pressure and inner tube alignment"
+    system: "Wheels and tires"
+    source: clymer
+    chapter: 3
+    section: "03/maintenance-and-inspection"
+    summary:
+      t: "A small increase or decrease of the tire pressure is acceptable if the riding conditions need it. Do not go outside the range on the sidewall. The tires have inner tubes. If the pressure is too low, the tire slips on the rim and bends the valve stem. The stem can then break and the tire deflates."
+      cite: {p: 79}
+    spec_refs:
+      - "routine-checks:Tire pressure/Front"
+      - "routine-checks:Tire pressure/Rear, loads up to 97.5 kg (215 lb.)"
+      - "routine-checks:Tire pressure/Rear, loads 97.5-182 kg (215-400 lb.)"
+    sections:
+      - title: "Tube alignment (bent valve stem)"
+        steps:
+          - {t: "Wash the tire and the rim.", cite: {p: 80}, figs: [72]}
+          - {t: "Remove the valve core and deflate the tire.", cite: {p: 80}, figs: [72]}
+          - {t: "Ask an assistant to hold the motorcycle steady.", cite: {p: 80}}
+          - {t: "Break the seal between the tire and the rim all the way around, on both sides.", cite: {p: 80}}
+          - {t: "Support the motorcycle with the wheel off the ground. Make sure that the valve stem is loose.", cite: {p: 80}}
+          - {t: "Spray soapy water on the two beads.", cite: {p: 80}}
+          - {t: "Ask the assistant to apply the brake of that wheel.", cite: {p: 80}}
+          - {t: "Turn the tire and the tube together until the valve stem is straight.", cite: {p: 80}}
+          - {t: "Install the valve core and inflate the tire. If necessary, put soap on the beads again.", cite: {p: 80}}
+          - {t: "Make sure that the beads seat evenly.", cite: {p: 80}}
+          - {kind: warning, t: "Do not inflate the tire too much to seat the beads. If the beads do not seat, deflate the tire and lubricate the beads again.", cite: {p: 80}}
+
+  - id: spokes
+    title: "Spoke tension"
+    system: "Wheels and tires"
+    source: clymer
+    chapter: 3
+    section: "03/maintenance-and-inspection"
+    spec_refs:
+      - "maintenance-torque:Spokes"
+      - "routine-checks:Rim runout (radial and lateral)"
+    sections:
+      - steps:
+          - {t: "Make sure that the spoke tension is correct. Do this regularly, after each respoke of the wheel, and often during break-in.", cite: {p: 80}}
+          - {t: "For inspection and tightening of the spokes, do the rim and spoke service.", cite: {p: 80}, ref: "11/rim-and-spoke-service",
+             gap: "The rim and spoke procedure in Chapter Eleven is not yet written in this wiki. Only the spoke torque is shown."}
+
+  - id: valve-clearance
+    title: "Valve clearance check and shim adjustment"
+    system: "Engine top end"
+    source: clymer
+    chapter: 3
+    section: "03/engine-tune-up"
+    summary:
+      t: "The engine has two intake valves and two exhaust valves. Shims on top of each lifter, under the camshaft, adjust the clearance. If the valve clearance is not correct, performance is poor and the engine can get damage. Valve clearance more often decreases than increases. Adjust toward the larger end of the range, but not past it."
+      cite: {p: 80}
+    spec_refs:
+      - "tune-up:Valve clearance/Intake"
+      - "tune-up:Valve clearance/Exhaust"
+      - "top-end-torque:Cylinder head cover bolts"
+    parts:
+      - {name: "Valve shims (as measured)", replace: inspect, cite: {p: 81}, note: "Kawasaki shims are available in steps of 0.05 mm, from 2.00 mm (No. 200) to 3.20 mm (No. 320)."}
+    sections:
+      - steps:
+          - {t: "Read the complete procedure before you start.", cite: {p: 81}}
+          - {t: "Measure the valve clearance when the engine temperature is less than 35° C (95° F).", cite: {p: 81}}
+          - {t: "Support the motorcycle so that it is stable.", cite: {p: 81}}
+          - {t: "Remove the cylinder head cover.", cite: {p: 81}, ref: "04/cylinder-head-cover"}
+          - {t: "Remove the timing plug (A) and the rotor nut plug (B).", cite: {p: 81}, figs: [74]}
+          - {t: "Put a socket on the rotor nut.", cite: {p: 81}, figs: [75, 76]}
+          - {t: "Turn the crankshaft counterclockwise until the T mark on the rotor aligns with the index mark in the timing hole.", cite: {p: 81}, figs: [75, 76]}
+          - {t: "Make sure that the engine is at TDC. All the cam lobes must face away from the center of the engine (B).", cite: {p: 81}, figs: [73]}
+          - {t: "If the cam lobes point toward the center of the engine, turn the crankshaft one full turn. Align the T mark again.", cite: {p: 81}, figs: [73]}
+          - {t: "For each valve, measure the gap between the shim and the cam lobe with a flat feeler gauge.", cite: {p: 81}, figs: [77]}
+          - {t: "The gap is correct when you feel a small resistance as you put in and pull out the gauge.", cite: {p: 81}, figs: [77]}
+          - {t: "Write down each measurement and the location of each valve.", cite: {p: 81}}
+          - {t: "If adjustment is necessary, remove the camshafts.", cite: {p: 81}, ref: "04/camshafts-and-cam-chain-tensioner"}
+          - {t: "Turn the lifter so that the notch on its edge is accessible.", cite: {p: 81}, figs: [78]}
+          - {t: "Put a tool with a small tip between the shim and the lifter. Tilt the tool to break the oil adhesion.", cite: {p: 81}, figs: [78]}
+          - {t: "Remove the shim and write down its location.", cite: {p: 81}, figs: [78]}
+          - {kind: note, t: "The number on the shim is its original thickness. A shim with the number 255 is 2.55 mm thick. The next sizes are 2.60 mm and 2.50 mm.", cite: {p: 81}, figs: [79]}
+          - {t: "Measure each shim with a caliper to get its actual thickness.", cite: {p: 81}, figs: [79]}
+          - {t: "Find the difference between the specified clearance and the measured clearance.", cite: {p: 82}}
+          - {t: "If the valve is loose, add this difference to the thickness of the removed shim. If the valve is tight, subtract it.", cite: {p: 82}}
+          - {kind: note, t: "Example from the manual: an exhaust valve has a clearance of 0.14 mm. The specified clearance is 0.15-0.25 mm. The difference is 0.01-0.11 mm, so the new shim must be this much thinner. The removed shim is No. 255 (2.55 mm). Install a No. 245 (2.45 mm) shim. This increases the clearance by 0.10 mm to 0.24 mm.", cite: {p: 82}}
+          - {t: "Lubricate the new shim with engine oil.", cite: {p: 82}}
+          - {t: "Install the shim on the lifter with the number side down. The cam lobe then does not wear away the number.", cite: {p: 82}}
+          - {t: "Do the same for each other valve that is not in specification.", cite: {p: 82}}
+          - {t: "Install the camshafts.", cite: {p: 82}, ref: "04/camshafts-and-cam-chain-tensioner"}
+          - {t: "Measure the valve clearance again. If a clearance is not correct, remove the camshafts and adjust the valves that are not in specification.", cite: {p: 82}}
+          - {t: "Install the cylinder head cover.", cite: {p: 82}, ref: "04/cylinder-head-cover"}
+          - {t: "Install the timing plug (A) and the rotor nut plug (B).", cite: {p: 82}, figs: [74]}
+
+  - id: idle-speed
+    title: "Carburetor idle speed and pilot mixture"
+    system: "Fuel system"
+    source: clymer
+    chapter: 3
+    section: "03/engine-tune-up"
+    summary:
+      t: "The idle speed must keep the engine in operation, but it must be low enough for compression braking. The pilot mixture screw sets the throttle response from idle to about 1/4 throttle. You cannot adjust the jet needle of the CVK40 carburetor."
+      cite: {p: 82}
+    spec_refs:
+      - "tune-up:Idle speed"
+      - "tune-up:Pilot mixture screw turns out"
+    sections:
+      - steps:
+          - {t: "Make sure that the throttle cables are adjusted correctly.", cite: {p: 82}, op: throttle-cable}
+          - {t: "Make sure that the air filter is clean.", cite: {p: 82}}
+          - {kind: note, t: "A plug blocks the pilot mixture screw unless it was removed before. To remove the plug, remove the carburetor and drill a hole in the plug. Then pry the plug out.", cite: {p: 82}, ref: "08/carburetor"}
+          - {kind: note, t: "There is little clearance between the screw bore and the starter. Kawasaki does not supply a tool. You can make a small angled screwdriver with a straight blade.", cite: {p: 82}}
+          - {t: "Seat the pilot mixture screw (A) lightly.", cite: {p: 82}, figs: [80]}
+          - {t: "Turn the screw out 1 3/8 turns. This is the start point for the adjustment.", cite: {p: 82}, figs: [80]}
+          - {t: "Start the engine and let it get warm.", cite: {p: 82}}
+          - {t: "Turn the throttle stop screw (B) to set the idle speed to 1200-1400 rpm.", cite: {p: 82}, figs: [80]}
+          - {t: "Increase and decrease the engine speed a few times. Make sure that it returns to the set idle speed.", cite: {p: 82}}
+          - {t: "Mark the position of the pilot screw.", cite: {p: 82}}
+          - {t: "Turn the screw in and out in small steps. Find the two points where the engine speed starts to decrease.", cite: {p: 82}}
+          - {t: "Set the screw midway between these two points.", cite: {p: 82}}
+          - {t: "Set the idle speed again to the specified value.", cite: {p: 82}, spec_ref: "tune-up:Idle speed"}
+          - {t: "Do a test ride. Make sure that the throttle response is good.", cite: {p: 83}}
+          - {t: "If the throttle response from idle is poor, turn the pilot mixture screw out (richer) or in (leaner) in steps of 1/8 turn. Continue until the engine accelerates smoothly.", cite: {p: 83}}
+          - {t: "If necessary, adjust the play of the throttle cables.", cite: {p: 83}, op: throttle-cable}

@@ -1,0 +1,112 @@
+of each part as it is removed from the 
+shaft. Check all snap rings and note 
+which direction the inner, sharp edge
+
+is facing. For the model shown in this 
+procedure, 
+the notched snap rings 
+were identical on both inner edges, 
+and therefore could be installed in ei- 
+ther direction.
+
+1. Beginning at the splined end of the shaft, disas- 
+semble the parts in the following order:
+
+a. Spacer.
+
+b. Second gear.
+
+c. Thrust washer.
+
+2. At the smooth end of the shaft, disassemble the
+
+parts in the following order:
+
+Snap ring.
+
+. Spacer.
+
+Bearing.
+
+. Thrust washer.
+
+First gear.
+
+Thrust washer.
+
+. Fifth gear.
+
+. Snap ring.
+
+Spline washer.
+
+Third gear.
+
+. Thrust washer.
+
+aE 
+Peis 
+m eG 
+Ane 
+oe 
+&
+
+1. Fourth gear.
+
+3. Inspect each part as described in this chapter, 
+then return it to its place until assembly.
+
+Assembly 
+1987-1996 (To Engine Serial Number 
+KL650AE032209)
+
+Before beginning assembly, have new snap rings
+
+on hand. Throughout the procedure, the orientation 
+of the parts is made in relation to the splined end of
+
+
+
+-----
+
+CHAPTER SEVEN
+
+the shaft, where the drive sprocket is mounted. If 
+desired, lock the splined end of the shaft in a padded
+
+vise. With the shaft held stable and vertical, installa-
+
+tion of the snap rings will be easier. Do not allow the
+
+vise to damage the shaft. Refer to Figure 20.
+
+CAUTION 
+Refer to Service Notes in this chapter 
+for the snap ring installation tech-
+
+nique. 
+This 
+technique 
+is recom- 
+mended for installing the notched 
+snap rings. The installed snap rings 
+must grip the shaft tightly. If neces- 
+sary, practice the technique using dis- 
+carded snap rings.
+
+1. Clean and dry all parts before assembly. Lubri-
+
+cate all parts with engine oil.
+
+2. Install second gear. The side of the gear with the 
+gear dog recesses must face out (away from the
+
+splined end).
+
+3. Install the thrust washer and snap ring. The snap 
+ring must seat in the shaft groove.
+
+4. Install fourth gear. The side of the gear with the
+
+shift fork groove must face out (away from the 
+splined end).

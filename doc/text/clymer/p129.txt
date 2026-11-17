@@ -1,0 +1,114 @@
+ENGINE LOWER END
+
+a. Pull the chain tight and measure a 20-link
+
+span (21 pins). Refer to Table 1 for specifica-
+
+tions. Repeat the check on several lengths of
+
+the chain.
+
+b. Inspect the chain guide for wear on its face.
+
+6. Reverse this procedure to install the cam chain 
+and guides. Note the following:
+
+a. Check that the shouldered spacer seats in the
+
+cam chain guide. The guide should pivot on
+
+the spacer.
+
+b. Apply threadlocking compound to the bolt
+
+threads.
+
+c. Torque the bolts to the specifications listed in
+
+Table 2.
+
+LEFT CRANKCASE COVER
+
+Removal and Installation
+
+The left crankcase cover is located between the
+
+alternator cover and left crankcase.
+
+1. Remove the alternator cover, starter drive gears 
+and rotor (Chapter Nine). If the crankcase halves
+
+
+
+-----
+
+117
+
+will be disassembled, 
+also remove 
+the starter 
+(Chapter Nine).
+
+2. Remove the tensioner bolt and shaft lever from
+
+the balancer tensioner shaft (Figure 7).
+
+3. Remove the nine bolts from the perimeter of the 
+crankcase cover (Figure 8).
+
+4. Remove the gasket and 2 dowels behind the
+
+cover.
+
+5. Inspect the parts for damage. To inspect the 
+tensioner bolt and shaft lever, refer to the inspection 
+procedures in Engine Balancer in this chapter.
+
+6. Reverse 
+this procedure to install the cover, 
+tensioner bolt and and shaft lever. Note the follow-
+
+ing:
+
+a. Install the lever so the weld joint is facing in.
+
+b. Tighten the cover bolts in several passes and
+
+in a crossing pattern.
+
+ENGINE BALANCER
+
+The engine uses a rotating balancer assembly to 
+dampen vibration that is inherent to a single-cylin-
+
+der 
+engine. 
+The 
+three 
+balancer 
+weights 
+are
+
+shaft-mounted and synchronized with the crank-
+
+shaft. The balancer shaft at the front of the engine
+
+has a weight at each end of the shaft, while the rear
+
+balancer shaft has a single weight, located between
+
+the crankcase halves. Both balancer shafts are
+
+chain-driven by a sprocket on the left end of the
+
+crankshaft.
+
+Early and Late Model Differences
+
+In 
+1996, 
+from 
+engine 
+serial 
+number 
+KL650AE032206-on, the left and rear balancer

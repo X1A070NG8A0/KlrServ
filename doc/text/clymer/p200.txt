@@ -1,0 +1,91 @@
+188
+
+12. Install the grip on the handlebar.
+
+13. Route the accelerator cable over the drum and
+
+the decelerator cable under the drum (Figure 61).
+
+Seat the cable ends in the drum.
+
+14. Carefully seat the assembly onto the lower 
+housing. Hold the parts together and install the 
+screws.
+
+15. Route the cables through the frame and to the
+
+carburetor.
+
+16. Install the accelerator cable in the left holder, 
+then install the remaining cable.
+
+17. Pull all slack out of the cables, then check that 
+they move in the correct direction when the throttle
+
+is operated.
+
+18. Connect the cables to the carburetor, then ad-
+
+just the cables as described in Chapter Three.
+
+Table 
+1 CARBURETOR SPECIFICATIONS
+
+Carburetor type 
+Carburetor bore diameter 
+Identification number 
+Idle speed 
+Main jet number
+
+Below 1220 m (4000 ft.) 
+Above 1220 m (4000 ft.) 
+Main air jet number 
+Needle jet number 
+Jet needle 
+Pilot jet number
+
+Below 1220 m (4000 ft.) 
+Above 1220 m (4000 ft.) 
+Pilot air jet number
+
+Pilot mixture screw turns out 
+Starter jet number 
+Float height*
+
+*Refer to text.
+
+
+
+-----
+
+CHAPTER EIGHT
+
+19. Install the fuel tank when adjustment and 
+proper operation is verified.
+
+AIR FILTER HOUSING
+
+The air filter housing is attached to the subframe.
+
+It is not necessary to remove the housing in order to 
+service the air filter. Service the air filter as de- 
+scribed in Chapter Three. If the air filter housing as- 
+sembly must be removed, do the following:
+
+1. Disconnect/remove the subframe (Chapter Fif-
+
+teen).
+
+2. Remove the bolts securing the housing to the 
+subframe.
+
+Keihin constant velocity 
+40 mm 
+CVK40 
+1200-1400 rpm
+
+148 
+145 
+50
+
+17.5 mm (0.69 in.)

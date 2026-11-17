@@ -1,0 +1,67 @@
+28 
+CHAPTER ONE 
+a 
+EE
+
+Table 2 GENERAL DIMENSIONS AND WEIGHT
+
+Ground clearance 
+Overall length 
+Overall width 
+Overall height 
+Wheelbase 
+Seat height 
+Dry weight
+
+Table 3 TECHNICAL ABBREVIATIONS
+
+
+
+-----
+
+After bottom dead center 
+After top dead center 
+Before bottom dead center 
+Bottom dead center 
+Before top dead center 
+Celsius (centigrade) 
+Cubic centimeters 
+Cubic inch displacement 
+Capacitor discharge ignition 
+Cubic inches 
+Direct air induction 
+Engine control module 
+Engine coolant temperature sensor 
+Electronic fuel injection 
+Fahrenheit 
+Feet 
+Foot-pounds 
+Gallons 
+High altitude 
+Horsepower 
+Intake air temperature sensor 
+Ignition control module 
+Inches 
+Inch-pounds 
+Inside diameter 
+Kilograms 
+Kilogram meters 
+Kilometer 
+Kilopascals 
+Liter 
+Meter 
+Magneto 
+Milliliter 
+Millimeter 
+Newton-meters 
+Oxygen 
+Outside diameter 
+Ounces 
+Pulsed secondary air injection system 
+Programmed fuel injection 
+Pounds per square inch 
+Power take off 
+Pint 
+Quart 
+Revolutions per minute 
+Throttle position sensor

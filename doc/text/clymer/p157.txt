@@ -1,0 +1,102 @@
+CLUTCH, GEARSHIFT LINKAGE AND LUBRICATION SYSTEM 
+145
+
+
+
+-----
+
+c. Inspect the bearing for radial and axial play.
+
+The bearing should fit in the pressure plate 
+with minimal play. If the bearing is replaced,
+
+install the bearing with the manufacturer’s 
+marks facing up.
+
+d. Inspect the lifter for wear at the contact area
+
+with the bearing. The lifter is a loose-fit in the 
+bearing. When the lifter is installed in the 
+transmission shaft, and the bearing is in-
+
+stalled 
+in the 
+pressure 
+plate, 
+the 
+parts
+
+self-center.
+
+e. Inspect the lifter for fit with the release lever
+
+(Figure 36). Replace both parts if either part
+
+is damaged.
+
+10. Inspect the bolts, washers and spacer for obvi-
+
+ous damage.
+
+NOTE 
+Do not reuse 
+the locknut. 
+If the 
+lockwasher is no longer cupped, re- 
+place the lockwasher.
+
+11. Inspect the splines, threads and polished sur-
+
+faces on the transmission shaft for damage.
+
+12. Install the clutch assembly as described in this
+
+section.
+
+Installation
+
+During assembly, lubricate the parts and trans- 
+mission shaft with engine oil, unless specified oth-
+
+erwise.
+
+Install the spacer.
+
+Install the clutch housing collar.
+
+Install the clutch housing onto the collar.
+
+Install the washer.
+
+. Install the clutch hub.
+
+DAARWN
+
+_ 
+Install the lockwasher, with the words OUT 
+SIDE facing out (Figure 37).
+
+7. Install a new locknut, with the wide side of 
+the
+
+nut in contact with the lockwasher (Figure 38).
+
+8. Tighten the clutch locknut as follows:
+
+a. Temporarily install the right footpeg.
+
+b. Attach a clutch holder tool to the clutch hub
+
+and rest it against the footpeg (Figure 39).
+
+CAUTION 
+Do not jam the gears with screwdriv-
+
+ers or other tools. This can cause gear
+
+breakage. 
+The 
+Kawasaki 
+clutch
+
+holder tool (part No. 57001-305) can

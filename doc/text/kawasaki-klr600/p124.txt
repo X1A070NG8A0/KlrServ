@@ -1,0 +1,84 @@
+Steering
+
+If the steering is too tight, it will be difficult to turn
+the handlebar quickly, the motorcycle may pull to one
+side, and the steering stem bearings may be damaged. If
+the steering is too loose, the handlebar will vibrate and
+the motorcycle will be unstable and difficult to steer ina
+straight line.
+
+Steering Inspection
+
+ePlace a stand under the frame to raise the front wheel
+off the ground.
+
+eFrom the centered position of the fork slowly push the
+handlebar to either side.
+
+*|f the handlebar begins to turn by the action of gravity
+and continues moving until the ridge on the stem base
+stops against the stop plate on the frame head pipe, the
+steering is not too tight.
+
+xIf the handlebar does not begin to turn by the action of
+gravity, the steering is too tight, necessitating adjust-
+ment.
+
+eSquat in front of the motorcycle and grasp the lower
+ends of the front fork. Push and pull the fork end back
+and forth.
+
+*If play is felt, the steering is too loose, necessitating
+adjustment.
+
+A. Push and pull the front fork.
+
+Steering Adjustment
+
+@Remove the fuel tank.
+
+@Loosen the front fork lower clamp bolts(2) to free the
+fork tubes from the steering stem during adjustment.
+
+@Remove the handlebar clamp bolts and take off the
+handle.
+
+eLoosen the steering stem head nut.
+
+A. Front Fork Lower Clamp Bolts
+B. Handlebar Clamp Bolts
+C. Stem Head Nut
+
+eTurn the steering stem locknut '/g turn at maximum at
+a time using stem nut wrench 57001-1100. If the
+steering is too tight, loosen the locknut a fraction of a
+turn; if the steering is too loose, tighten it a fraction of
+a turn.
+
+A. Stem Nut Wrench: 57001-1100
+B. Stem Locknut
+
+C. Loosen the stem locknut
+
+D. Tighten the stem locknut
+
+eTighten the steerin stem head nut first and then the
+front fork lower clamp bolts to the specified torque in
+this order.
+
+Tightening Torque
+
+Stem head nut: 42 N-m (4,3 kg-m, 31 ft-lb)
+
+Front fork lower
+clamp bolts: 21 N-m (2.1 kg-m, 15 ft-lb)
+
+eTemporarily install the handlebar on the stem head.
+
+Check the steering again.
+
+xIf the steering is still too tight or too loose, repeat the
+adjustment. If the proper condition cannot be
+obtained, inspect the steering parts.
+
+@install the handlebar correctly. (See chapter 12).

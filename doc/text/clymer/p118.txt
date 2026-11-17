@@ -1,0 +1,109 @@
+106
+
+3. Stuff clean shop cloths around the connecting 
+rod and in the cam chain tunnel to prevent parts 
+from entering the crankcase.
+
+4. Rotate the ends of the circlips to the removal 
+gaps, then remove the circlips from the piston pin 
+bore (Figure 83). Discard the circlips.
+
+NOTE 
+New circlips must be installed during 
+assembly.
+
+5. Press the piston pin out of the piston by hand 
+(Figure 84). If the pin is tight, a pin puller (part No. 
+57001-910) and adapter (part No. 57001-1211) are 
+available from a Kawasaki dealership. A simple re- 
+moval tool can be made as shown in Figure 85. The 
+end of the padded pipe rests against the piston, not
+
+the piston pin. The hole in the pipe must be larger 
+than the diameter of the piston pin. As the nut on the 
+end of the rod is tightened, the nut and washer at the 
+opposite end drive the piston pin into the pipe.
+
+CAUTION 
+Do not attempt to drive the pin out
+
+with a hammer and drift. The piston 
+and connecting rod assembly will 
+likely be damaged.
+
+6. Lift the piston off the connecting rod.
+
+7. Inspect the piston and piston pin as described in
+
+this section.
+
+Piston Inspection
+
+1. Remove the piston rings as described in this sec-
+
+tion.
+
+2. Clean the piston.
+
+a. Clean the carbon from the piston crown. Use
+
+a soft scraper, brushes and solvent. Do not use
+
+
+
+-----
+
+CHAPTER FOUR
+
+>
+
+ae 
+Piston 
+ey al 
+Wasa
+
+Piston 
+ia 7 pin 
+ic
+
+tools that can gouge or scratch the surface. 
+This type of damage can cause hot spots on
+
+the piston during engine operation.
+
+b. Clean the piston pin bore, ring grooves and
+
+piston skirt. Clean the ring grooves with a soft 
+brush, or use a broken piston ring to remove 
+carbon and oil residue (Figure 86). Mild gall- 
+ing or discoloration can be polished off the 
+piston skirt with fine emery cloth and oil.
+
+3. Inspect the piston. Replace the piston if damage
+
+is evident.
+
+a. Inspect the piston crown (A, Figure 87) for
+
+wear or damage. If the piston is pitted, over- 
+heating 
+is likely occurring. 
+This can be 
+caused 
+by a 
+lean 
+fuel 
+mixture 
+and/or 
+preignition.
+
+b. Inspect the ring grooves (B, Figure 87) for
+
+dents, nicks, cracks or other damage. The 
+grooves should be square and uniform for the 
+circumference of the piston. Particularly in- 
+spect the top compression ring groove. It is 
+lubricated the least and is nearest the combus-
+
+tion temperatures. 
+If the oil ring appears

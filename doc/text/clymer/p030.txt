@@ -1,0 +1,120 @@
+18 
+CHAPTER ONE
+
+usual sizes (Figure 30) are 0-1 in. (0-25 mm), 1-2
+
+in. (25-50 mm), 2-3 in. (50-75 mm) and 3-4 in. 
+(75-100 mm).
+
+Micrometers that cover a wider range of measure- 
+ment are available. These use a large frame with in- 
+terchangeable anvils of various lengths. This type 
+of micrometer offers a cost savings; however, its
+
+overall size may make it less convenient.
+
+Reading a Micrometer
+
+When reading a micrometer, numbers are taken 
+from different scales and added together. The fol- 
+lowing sections describe how to read the measure- 
+ments of various types of outside micrometers.
+
+For accurate results, properly maintain the mea- 
+suring surfaces of the micrometer. There cannot be 
+any dirt or burrs between the tool and the measured
+
+object. Never force the micrometer closed around
+
+an object. Close the micrometer around the highest 
+point so it can be removed with a slight drag. Figure 
+29 shows the markings and parts of a standard 
+metric micrometer. Be familiar with these terms be-
+
+fore using a micrometer in the follow sections.
+
+Standard inch micrometer
+
+The standard inch micrometer is accurate to 
+one-thousandth of an inch or 0.001. The sleeve is 
+marked in 0.025 in. increments. Every fourth sleeve 
+mark is numbered 1, 2, 3, 4,5, 6, 7, 8, 9. These num-
+
+bers indicate 0.100, 0.200, 0.300, and so on.
+
+The tapered end of the thimble has 25 lines 
+marked around it. Each mark equals 0.001 in. One 
+complete turn of the thimble will align its zero mark 
+with the first mark on the sleeve or 0.025 in.
+
+When reading a standard inch micrometer, per- 
+form the following steps while referring to Figure 
+31.
+
+1. Read the sleeve and find the largest number visi-
+
+ble. Each sleeve number equals 0.100 in.
+
+2. 
+Count the number of lines between the numbered 
+sleeve mark and the edge of the thimble. Each 
+sleeve mark equals 0.025 in.
+
+3. Read the thimble mark that aligns with the sleeve
+
+line. Each thimble mark equals 0.001 in.
+
+NOTE 
+If a thimble mark does not align ex- 
+actly with the sleeve line, estimate the
+
+
+
+-----
+
+amount between the lines. For accu- 
+rate readings in ten-thousandths of an 
+inch (0.0001 in.), use a vernier inch 
+micrometer.
+
+4. Add the readings from Steps 1-3.
+
+Metric micrometer
+
+The standard metric micrometer is accurate to 
+one one-hundredth of a millimeter (0.01 mm). The 
+sleeve line is graduated in millimeter and half milli- 
+meter increments. The marks on the upper half of
+
+the sleeve line equal 1.00 mm. Each fifth mark 
+above the sleeve line is identified with a number. 
+The number sequence depends on the size of the mi- 
+crometer. A 0-25 mm micrometer, for example, will 
+have sleeve marks numbered 0 through 25 in 5 mm 
+increments. This numbering sequence continues 
+with larger micrometers. On all metric microme-
+
+ters, each mark on the lower half of the sleeve 
+equals 0.50 mm.
+
+The tapered end of the thimble has 50 lines 
+marked around it. Each mark equals 0.01 mm. One 
+complete turn of the thimble aligns its 0 mark with
+
+the first line on the lower half of the sleeve line or 
+0.50 mm. 
+When reading a metric micrometer, add the num- 
+ber of millimeters and half-millimeters on the 
+sleeve line to the number of one one-hundredth mil- 
+limeters on the thimble. Perform the following steps 
+while referring to Figure 32.
+
+1. Read the upper half of the sleeve line and count
+
+the number of lines visible. Each upper line equals 1 
+mm.
+
+2. See if the half-millimeter line is visible on the 
+lower sleeve line. If so, add 0.50 mm to the reading
+
+in Step 1.

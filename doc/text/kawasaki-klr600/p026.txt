@@ -1,0 +1,53 @@
+@Wash the disassembled parts, and air and fuel passages
+with a high flash-point solvent. If necessary, use a bath
+of automotive type carburetor cleaner.
+
+®Blow the jets, and air and fuel passages clean with com-
+pressed air.
+
+e@Assemble the disassembled parts, and install the
+removed parts.
+
+Fuel Tank Cap Inspection
+
+eVisually inspect the gasket on the tank cap for any
+damage.
+
+*Replace the gasket if it is damaged.
+
+®Blow the air vent in the tank cap bottom free with
+
+compressed air. A. Air Vent B. Breather Hose
+CAUTION
+Evaporative Emission Control System ©Do not apply compressed air to the air vent from the
+(California Model) breather hose on the cap top. This could cause damage
+PTITITITI TIT iit iii ii iii iri and clogging of the labyrinth in the cap.
+
+The Evaporative Emission Control System routes fuel vapors from the fuel system into the running engine or stores
+the vapors in a canister when the engine is stopped. Although no adjustments are required, a thorough visual inspection
+must be made at the intervals specified by the Periodic Maintenance Chart.
+
+Evaporative Emission Control System ——
+
+—))
+
+Tank Cap Breather Hose (Blue)
+
+Return Pipe
+Fuel Tank
+
+Carburetor
+
+Canister
+Purge Hose
+
+ee
+
+Return Hose
+
+(Red) Separator
+
+\
+
+T r—s
+Vacuum Hose (White)

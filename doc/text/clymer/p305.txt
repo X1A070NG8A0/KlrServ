@@ -1,0 +1,104 @@
+BRAKES 
+age
+
+FRONT MASTER CYLINDER 
+NOTE 
+Brake lever adjustment 
+is not re- 
+quired. If properly bled, the brake le- 
+ver automatically adjusts. 
+Removal and Installation
+
+Use the following procedure to remove the front 
+master cylinder/brake fluid reservoir from the mo-
+
+Re 
+ae 
+: 
+Repair 
+torcycle. Refer to Repair in this section to make in-
+
+ternal repairs to the master cylinder. Refer to Figure 
+Use the following procedure to disassemble, in-
+
+aD: 
+spect and assemble the master cylinder using new
+
+1. Cover and protect the fuel tank and area sur- 
+parts. The piston, seals and spring are only available 
+rounding the master cylinder. 
+as a complete assembly. Refer to Figure 29.
+
+
+
+-----
+
+CAUTION 
+Do not allow brake fluid to splash 
+Jrom the reservoir or hose. Brake fluid
+
+can damage painted and plastic sur- 
+faces. 
+Immediately 
+clean 
+up any 
+spills, flooding the area with water.
+
+2. Drain the brake system as described in this chap-
+
+ter.
+
+3. Remove the brake hose banjo bolt from the mas-
+
+ter cylinder as follows:
+
+a. Pull back the rubber boot.
+
+b. Remove the banjo bolt and seal washers from
+
+the brake hose (Figure 30). Have a shop cloth 
+ready to absorb excess brake fluid that drips 
+from the hose.
+
+c. Wrap the hose end to prevent brake fluid from
+
+damaging other surfaces.
+
+4. Remove the brake switch wires (A, Figure 31).
+
+5. Remove the bolts (B, Figure 31) securing the 
+master cylinder to the handlebar, then remove the 
+master cylinder, holder and hand guard.
+
+6. Repair the master cylinder as described in this
+
+chapter.
+
+7. Reverse this procedure to install the master cyl-
+
+inder. Note the following:
+
+a. The mounting bracket must be installed so
+
+UP and the arrow (C, Figure 31) are facing 
+up. Tighten the upper bolt first, then the bot- 
+tom bolt. Tighten the bolts to 9 Nem (80
+
+in.-lb.).
+
+b. Apply dielectric grease to the brake switch
+
+connectors.
+
+c. Position the brake hose fitting so it is above
+
+the support (Figure 32).
+
+Segue
+
+d. Install new seal washers on the banjo bolt.
+
+Tighten the bolt to 25 Nem (18 ft.-Ib.). 
+oh 
+8. Fill the brake fluid reservoir and bleed the brake 
+system as described in this chapter.

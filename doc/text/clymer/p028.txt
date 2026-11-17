@@ -1,0 +1,126 @@
+16
+
+Precision measurements can vary according to
+
+the experience of the person performing the proce-
+
+dure. Accurate results are only possible if the me-
+
+chanic 
+possesses 
+a 
+feel 
+for using 
+the 
+tool.
+
+Heavy-handed use of measuring tools will produce
+
+less accurate results than if the tool is grasped
+
+gently by the fingertips so the point at which the
+
+tool contacts the object is easily felt. This feel for
+
+the equipment will produce more accurate measure- 
+ments and reduce the risk of damaging the tool or 
+component. Refer to the following sections for spe-
+
+cific measuring tools.
+
+Feeler Gauge
+
+The feeler or thickness gauge (Figure 26) is used
+
+for measuring the distance between two surfaces.
+
+A feeler gauge set consists of an assortment of
+
+steel strips of graduated thickness. Each blade is 
+marked with its thickness. Blades can be of various 
+lengths and angles for different procedures.
+
+A common use for a feeler gauge is to measure 
+valve clearance. Wire (round) type gauges are used
+
+to measure spark plug gap.
+
+Calipers
+
+Calipers (Figure 27) are used to determine out-
+
+side and depth measurements. Although not as pre-
+
+cise 
+aS 
+a micrometer, 
+they allow 
+reasonable
+
+precision, typically to within 0.05 mm (0.001 in.). 
+Most calipers have a range up to 150 mm (6 in.).
+
+Calipers are available in dial, vernier or digital 
+versions. Dial calipers have a dial readout that pro- 
+vides convenient reading. Vernier calipers have 
+marked scales that must be compared to determine
+
+the measurement. The digital caliper uses an LCD
+
+to show the measurement.
+
+Properly maintain the measuring surfaces of the
+
+caliper. There must not be any dirt or burrs between
+
+the tool and the object being measured. Never force
+
+the caliper closed around an object; close the caliper 
+around the highest point so it can be removed with a
+
+slight drag. Some calipers require calibration. Al- 
+ways refer to the manufacturer’s instructions when 
+using a new or unfamiliar caliper.
+
+To read a vernier caliper, refer to Figure 28. The 
+fixed scale is marked in both inch and millimeter in- 
+crements. In this example, refer to the metric scale. 
+The ten individual lines on the fixed scale equal 1
+
+
+
+-----
+
+CHAPTER ONE
+
+cm. The movable scale is marked in 0.05 mm (hun- 
+dredth) increments. To obtain a reading, establish 
+the first number by the location of the 0 line on the 
+movable scale in relation to the first line to the left 
+on the fixed scale. In this example, the number is 10 
+mm. To determine the next number, note which of
+
+the lines on the movable scale align with a mark on
+
+the fixed scale. A number of lines will seem close, 
+but only one will align exactly. In this case, 0.50 
+mm is the reading to add to the first number. The re-
+
+sult of adding 10 mm and 0.50 mm is a measure- 
+ment of 10.50 mm.
+
+Micrometers
+
+A micrometer (Figure 29) is an instrument de- 
+signed for linear measurement using the decimal di-
+
+visions of the inch or meter. While there are many 
+types and styles of micrometers, most of the proce- 
+dures in this manual call for an outside micrometer. 
+The outside micrometer is used to measure the out-
+
+side diameter of cylindrical forms and the thickness 
+of materials.
+
+A micrometer’s size indicates the minimum and 
+maximum size of a part that it can measure. The

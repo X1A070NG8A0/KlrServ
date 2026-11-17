@@ -1,0 +1,109 @@
+134
+
+b. Generally, bearings with one 
+side sealed 
+should have the sealed side facing down.
+
+10. Press the bearing into place using a driver that
+
+fits onto the outer bearing race.
+
+CAUTION 
+If a press is not available, the bearing 
+can be seated by hand, using a driver 
+and 
+hammer. 
+Place 
+the 
+driver 
+squarely over the bearing, then drive 
+the bearing into the case. Prevent us- 
+ing excessive force when driving the 
+bearing. Bearing and case damage 
+could occur.
+
+11. Install the seal (if applicable) as described in
+
+this chapter.
+
+CRANKSHAFT
+
+Inspection
+
+Carefully handle the crankshaft assembly during 
+inspection. Do not place the crankshaft where it 
+could accidentally roll off the workbench. The 
+crankshaft is an assembly-type, with its two halves 
+joined by a crankpin. The crankpin is hydraulically
+
+pressed into the flywheels and aligned, both verti- 
+cally and horizontally, with calibrated equipment.
+
+If any part of the crankshaft assembly is worn or 
+damaged, have a dealership evaluate all the parts to 
+determine the practicality of repair.
+
+1. Clean the crankshaft with clean solvent and dry 
+with compressed air. Lubricate the rod bearing and
+
+shaft bearing with engine oil.
+
+2. Inspect the right end of the crankshaft (Figure 
+58).
+
+a. Inspect 
+the 
+shaft 
+threads. 
+The 
+primary 
+drive-gear nut is torqued to these threads. 
+Light damage can be corrected with a thread
+
+file.
+
+b. Inspect the keyway and seating surfaces for
+
+the primary drive gear and oil pump drive 
+gear.
+
+c. Inspect the bearing surface for scoring, heat
+
+discoloration or other damage. Burnishing
+
+can be removed with 320-grit carborundum 
+cloth.
+
+3. Inspect the left end of the crankshaft (Figure 
+59).
+
+
+
+-----
+
+CHAPTER FIVE
+
+a. Inspect the keyway and seating surface for the
+
+rotor. 
+Burnishing 
+can 
+be removed 
+with 
+320-grit carborundum cloth.
+
+. Inspect the cam chain sprocket and balancer
+
+sprocket for wear and broken teeth.
+
+. Inspect the bearing for heat discoloration or
+
+other damage. Check that the rollers turn
+
+freely and are firmly in the bearing race.
+
+NOTE 
+On 1987-1996 models (to engine se-
+
+rial number KL650AE032205), 
+the

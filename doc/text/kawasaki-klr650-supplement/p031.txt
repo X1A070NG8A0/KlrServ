@@ -1,0 +1,67 @@
+Item 
+Standard 
+Service Limit
+
+Cylinder, Piston:
+
+Cylinder inside diameter: 
+KL650 
+100.000- 100.012 mm 
+100.10 mm
+
+KL500 
+89.000-89.012 mm 
+89.10 mm
+
+Piston diameter: 
+KL650 
+99.942 - 99.957 mm 
+99.80 mm
+
+KL500 
+88.942 - 88.957 mm 
+88.80 mm
+
+Piston/cylinder clearance 
+ 
+0.043 — 0.070 mm 
+ ---
+
+Piston ring/groove clearance:
+
+Top & 2nd 
+ 
+0.02 — 0.05 mm 
+0.16 mm
+
+Piston ring groove width:
+
+Top & 2nd 
+ 
+1.21 - 1.22 mm 
+1.31 mm
+
+Oil 
+ 
+2.81 — 2.83 mm 
+2.91 mm
+
+Piston ring thickness:
+
+Top & 2nd 
+ 
+1.17 - 1.19 mm 
+1.10 mm
+
+Piston ring end gap:
+
+Top & 2nd 
+ 
+0.2 — 0.4 mm 
+0.7 mm
+
+
+
+-----
+
+ENGINE TOP END 3-5

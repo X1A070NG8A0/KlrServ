@@ -1,0 +1,148 @@
+214
+
+b. Connect a voltmeter to the battery terminals
+
+as shown in Figure 58.
+
+c. Start the engine and note the meter reading at
+
+idle and as the engine speed is raised.
+
+d. Unplug the headlight and repeat the check.
+
+e. In both checks, the meter should indicate at
+
+least 12 volts at an idle, increasing to 14-15
+
+volts as the engine speed is raised.
+
+f. In both checks, if the output voltage is signifi-
+
+cantly higher than 15 volts, the regulator/rec-
+
+tifier may not be adequately grounded, or 
+may be faulty. If the output voltage does not
+
+rise with engine speed, the regulator/rectifier
+
+or stator coils are faulty. Before replacing
+
+parts, check the condition of the wiring har-
+
+ness and battery.
+
+Resistance testing
+
+The following test checks for directional resis-
+
+tance in the regulator/rectifier.
+
+Use an analog ohmmeter set to the R X 10 orR X
+
+100 scale.
+
+For some checks, the result should be an infinity 
+reading on the meter. For other checks, the result 
+should be a meter reading from zero to approxi- 
+mately one-half of the meter scale. There is no spe-
+
+cific 
+resistance 
+reading 
+required. 
+Each
+
+regulator/rectifier, as well as the ohmmeter used for
+
+the test, will produce slightly different results. 
+However, the purpose of the test is to check for low 
+resistance in one direction and infinite resistance in
+
+the other direction. For each of the following
+
+checks, the required result is indicated.
+
+Refer to Figure 61 for test points.
+
+1. Remove the plug connector from the regula-
+
+tor/rectifier.
+
+2. Connect the positive meter probe to the B termi-
+
+nal.
+
+a. Keep the probe on the B terminal, then touch
+
+the negative probe to terminals 1, 2 and 3.
+
+b. The meter should read zero to approximately
+
+one-half of the meter scale at all terminals.
+
+3. Connect the negative meter probe to the B termi-
+
+nal.
+
+a. Keep the probe on the B terminal, then touch
+
+the positive probe to terminals 1, 2 and 3.
+
+b. The meter should read infinity at all termi-
+
+nals.
+
+
+
+-----
+
+CHAPTER NINE
+
+REGULATOR/RECTIFIER
+
+TERMINALS
+
+G (ground) 
+B (battery)
+
+2
+
+Charge coils
+
+4. Connect the positive meter probe to the G termi-
+
+nal.
+
+a. Keep the probe on the G terminal, then touch
+
+the negative probe to terminals 1, 2 and 3.
+
+b. The meter should read infinity at all termi-
+
+nals.
+
+5. Connect the negative meter probe to the G termi-
+
+nal.
+
+a. Keep the probe on the G terminal, then touch
+
+the positive probe to terminals 1, 2 and 3.
+
+b. The meter should read zero to approximately
+
+one-half of the meter scale at all terminals.
+
+6. If any checks result in a reading that is high or 
+low in both directions, the regulator/rectifier is 
+faulty.
+
+Stator Charging Coils 
+Testing
+
+The stator coils are located in the alternator cover. 
+Check the charging coils for resistance and continu-
+
+ity. Refer to Figure 56.
+
+1. Remove the fuel tank.

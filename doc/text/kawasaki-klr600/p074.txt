@@ -1,0 +1,78 @@
+56
+Air Bleeding
+
+Before putting the motorcycle into operation, any air
+trapped in the cooling system must be removed as
+follows,
+
+@Start the engine, warm it up thoroughly, and then stop
+the engine.
+
+Check the coolant level in the reserve tank,
+
+*if the coolant level becomes low, add coolant up to the
+FULL mark through the reserve tank opening.
+
+Visual Leak Inspection
+Any time the system slowly loses water, the leak
+inspection should be done.
+
+@Check the drainage outlet of the water purnp cover for A. Pressure Tester B. Adapter
+coolant leak.
+
+*if the mechanical seal is damaged, the coolant leaks
+through the seal, and the leaking coolant is drained
+through the passage. Disassemble the mechanical seal
+and check it,
+
+‘Sif there are no apparent leaks, pressure test the system,
+
+@Remove the pressure tester, replenish the coolant, and
+install the radiator cap.
+
+@Run the engine until normal operating temperature is
+obtained.
+
+e@Remove the radiator cap carefully, and recheck for
+leaks when hot.
+
+*if the pressure drops, check all areas for external
+leakage. Any trace or source of Icakage shows the
+damaged seal or part
+
+*if the pressure drops and no external source is found,
+check for internal leaks. Droplets in the engine oil in
+dicate internal leakage.
+
+Check the internal water sealing
+Cylinder head gasket
+Cylinder tiner O-ring
+Water pump mechanical seal, oil seal
+
+Flushing
+Over a period of time, the cooling system accumulates
+rust, scale, and lime in the water jacket and radiator.
+When this accumulation is suspected or observed, Mush
+the cooling system. If this accurnulation is not removed,
+A. Drainage Outlet it will clog up the water passages and considerably
+reduce the efficiency of the cooling system,
+Drain the cooling system.
+m Fill the cooling system with fresh water mixed with a
+Cooling System Pressure Testing flushing compound
+
+Avoid the use of a flushing compound which is harmful
+
+During pre breed operation, pol not pare biee to the aluminum engine and radiator. Carefully follow
+sons 0 system ts designed to. wo the instructions supplied by the manufacturer of the
+The maximum pressure: 103 kPa (1.05 kg/em®, 16 psi) Geaiien pecies
+
+eWarm up the engine, and run it at normal operating
+
+@Set the motorcycle up on its side stand. temperature for about ten minutes.
+®Remove the radiator cap, and install a cooling system Stop the engine, and drain the cooling system,
+pressure tester on the radiator filler neck. Fill the system with fresh water.
+Build up pressure in the system carefully until the Warm up the engine and drain the system.
+pressure reaches 103 kPa (1.05 kg/cm*, 15 psi) Repeat the previous two steps once more.
+@Watch the gauge for at least 6 seconds. If the pressure @Fill the system with a permanent type coolant, and
+
+holds steady, the system is all right. bleed the air from the system.

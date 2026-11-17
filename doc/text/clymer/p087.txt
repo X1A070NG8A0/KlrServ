@@ -1,0 +1,162 @@
+LUBRICATION, MAINTENANCE AND TUNE-UP
+
+condition of the plug, you can diagnose and pin- 
+point problems, or potential problems. When re- 
+moving the spark plug, compare the firing tip with
+
+the ones shown in Figure 86. The following para- 
+graphs provide a description, as well as common
+
+causes for each of the conditions.
+
+CAUTION 
+In all cases, when the spark plug does 
+not read normal, find the cause of the 
+problem before continuing engine op-
+
+eration. Severe engine damage is pos- 
+sible when abnormal plug readings 
+are ignored.
+
+Normal
+
+The plug has light tan or gray deposits on the tip. 
+No erosion of the electrodes or abnormal gap is evi-
+
+dent. This indicates an engine that has properly ad- 
+justed carburetion, ignition timing, and proper fuel.
+
+This heat range of the plug is appropriate for the 
+conditions in which the engine has been operated. 
+The plug can be cleaned and reused.
+
+Carbon-fouled
+
+The plug is black with a dry, sooty deposit on the
+
+entire plug surface. This dry sooty deposit is con- 
+ductive and can create electrical paths that bypass
+
+the electrode gap. This often causes misfiring of the
+
+plug.
+
+1. Fuel mixture too rich.
+
+. Spark plug range too cold.
+
+. Faulty ignition component.
+
+. Prolonged idling.
+
+. Clogged air filter.
+
+. Poor compression. 
+Nn 
+BW 
+PN
+
+Oil-fouled
+
+The plug is wet with black, oily deposits on the
+
+electrodes and insulator. The electrodes do not
+
+show wear.
+
+Incorrect carburetor jetting. 
+Prolonged idling or low idle speed.
+
+Spark plug range too cold. 
+Worn valve guides. 
+Worn piston rings.
+
+Ignition component failure. 
+A ll 
+ee 
+oe
+
+
+
+-----
+
+Gap-bridged
+
+The plug is clogged with deposits between the
+
+electrodes. The electrodes do not show wear.
+
+1. Incorrect oil being used.
+
+2. Incorrect fuel or fuel contamination.
+
+3. Carbon deposits in combustion chamber.
+
+4. High-speed operation after excessive idling.
+
+Overheated
+
+The plug is dry and the insulator has a white or
+
+light gray cast. The insulator may also appear blis-
+
+tered. The electrodes may have a bluish-burnt ap- 
+pearance.
+
+1. Fuel mixture too lean.
+
+. Spark plug range too hot.
+
+. Air leak into intake system.
+
+. No crush washer on plug.
+
+. Plug improperly tightened.
+
+. Faulty ignition component. 
+Nn 
+BW 
+NY
+
+Preignition
+
+The plug electrodes 
+are severely eroded 
+or 
+melted. This condition can lead to severe engine 
+damage.
+
+1. Faulty ignition component.
+
+2. Spark plug range too hot.
+
+3. Air leak into intake system.
+
+4. Carbon deposits in combustion chamber.
+
+Worn out
+
+The plug electrodes are rounded from normal 
+combustion. There is no indication of abnormal 
+combustion or engine conditions. Replace the plug.
+
+Spark Plug Cap
+
+The spark plug cap should fit tight to the spark
+
+plug and be in good condition. A cap that does not
+
+seal and insulate the spark plug terminal can lead to
+
+flashover (shorting down the side of 
+the plug), par-
+
+ticularly when the bike is operated in wet condi-
+
+tions. To help prevent water from migrating under
+
+the cap, wipe a small amount of dielectric grease
+
+around the interior of the cap before installing it
+
+onto the plug.

@@ -1,0 +1,73 @@
+CHAPTER TEN
+
+COOLING SYSTEM
+
+This chapter provides service procedures for the
+
+radiator, fan, fan switch, thermostat, water tempera-
+
+ture sending unit and water pump. Read this chapter 
+before repairing the cooling system. Become famil-
+
+iar with the procedures and photos to understand the
+
+skill and equipment required.
+
+Refer to Chapter One for tool usage and tech- 
+niques.
+
+Refer to Chapter Nine for electrical test proce- 
+dures.
+
+SAFETY PRECAUTIONS
+
+WARNING 
+Do not remove the radiator cap (Fig- 
+ure 1) immediately after or during en-
+
+
+
+-----
+
+gine operation. When the engine has
+
+been operated, the liquid in the cool- 
+ing system is scalding hot and under 
+pressure. Removing the cap while the
+
+engine is hot can cause the coolant to 
+spray 
+violently from the radiator 
+opening, possibly causing injury.
+
+Wait for the engine to cool, then place a shop 
+cloth over the cap. S/ow/y turn the cap to relieve any
+
+pressure. Turn the cap to the safety stop and check
+
+that all pressure is relieved. To remove the cap from
+
+the radiator, press down on the cap, then twist it
+
+free:
+
+To prevent potential damage to the engine, 
+change the coolant regularly, as described in Chap-
+
+ter Three. Always use an antifreeze solution. Anti-
+
+freeze contains lubricants and rust inhibitors that
+
+protect the components of the cooling system. Al- 
+ways dispose of coolant in an environmentally safe 
+manner.
+
+RADIATOR AND FAN
+
+The bike is equipped with one radiator and a ther- 
+mostatically controlled fan. The fan is turned on and
+
+off by the fan switch and fan relay. During engine 
+operation, hot coolant from the engine enters the ra-
+
+diator from the upper hose. The coolant loses heat

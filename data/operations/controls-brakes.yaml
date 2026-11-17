@@ -1,0 +1,186 @@
+# Clymer Chapter Three: cable adjustments, brakes and steering inspection (PDF p74-78).
+operations:
+  - id: throttle-cable
+    title: "Throttle cable adjustment"
+    system: "Controls"
+    source: clymer
+    chapter: 3
+    section: "03/maintenance-and-inspection"
+    summary:
+      t: "The throttle has two cables. The accelerator cable pulls the throttle open. The decelerator cable pulls the throttle closed. Before you adjust the cables, make sure that they are in good condition and do not bind or drag. Make sure that the idle speed is correct."
+      cite: {p: 74}
+    spec_refs:
+      - "routine-checks:Throttle grip free play"
+    sections:
+      - steps:
+          - {t: "Measure the free play at the throttle grip.", cite: {p: 75}, figs: [56], spec_ref: "routine-checks:Throttle grip free play"}
+          - {t: "If the free play is not correct, adjust it as follows.", cite: {p: 75}}
+          - {t: "At the handlebar, pull the rubber boots back from the cable adjusters.", cite: {p: 75}, figs: [57]}
+          - {t: "Loosen the locknuts (A). Turn the adjusters (B) fully in.", cite: {p: 75}, figs: [57]}
+          - {t: "Turn the bottom adjuster (decelerator cable) out only until the play is gone with the throttle closed. Do not make it too tight.", cite: {p: 75}, figs: [58]}
+          - {kind: note, t: "At the carburetor, the decelerator cable is on the right (A).", cite: {p: 75}, figs: [58]}
+          - {t: "Turn the top adjuster (accelerator cable) out until the free play at the grip is 2-3 mm.", cite: {p: 75}, figs: [58],
+             gap: "This step in the manual prints \"2-3 mm (0.08-0.16 in.)\". The first step and Table 4 give 2-3 mm (0.08-0.12 in.). 3 mm is 0.12 in., so 0.16 is probably a misprint."}
+          - {kind: note, t: "At the carburetor, the accelerator cable is on the left (B).", cite: {p: 75}, figs: [58]}
+          - {t: "Operate the throttle. Look at the cables and the throttle valve at the carburetor. The valve must fully open and fully close.", cite: {p: 75}}
+          - {t: "If you cannot get the correct play at the handlebar, loosen the locknuts at the carburetor.", cite: {p: 75}, figs: [59]}
+          - {t: "Move the cables so that the threads are approximately in the center of the holders. Tighten the locknuts.", cite: {p: 75}, figs: [59]}
+          - {t: "Do the adjustment again.", cite: {p: 75}}
+          - {t: "Tighten the locknuts at the handlebar.", cite: {p: 75}}
+          - {t: "Install the rubber boots.", cite: {p: 75}}
+          - {kind: warning, t: "When you start the engine, turn the handlebar from side to side while the engine idles. If the engine speed changes, make sure that the cables are adjusted and routed correctly.", cite: {p: 75}}
+
+  - id: clutch-adjust
+    title: "Clutch cable adjustment"
+    system: "Controls"
+    source: clymer
+    chapter: 3
+    section: "03/maintenance-and-inspection"
+    summary:
+      t: "A correct adjustment gives smooth shifts and full clutch engagement. It also decreases wear of the clutch plates."
+      cite: {p: 75}
+    spec_refs:
+      - "routine-checks:Clutch lever free play"
+    sections:
+      - steps:
+          - {t: "Flex the left hand guard off the clutch lever assembly. Remove the hand guard.", cite: {p: 75}}
+          - {t: "Measure the free play (the gap) at the lever pivot.", cite: {p: 75}, figs: [60], spec_ref: "routine-checks:Clutch lever free play"}
+          - {t: "Loosen the locknut (A).", cite: {p: 75}, figs: [60]}
+          - {t: "Turn the adjuster (B) to increase or decrease the play.", cite: {p: 75}, figs: [60]}
+          - {t: "If you cannot get the correct play at the handlebar, adjust at the release lever on the right crankcase cover. Loosen the locknuts.", cite: {p: 76}, figs: [61]}
+          - {t: "Put the cable threads in the center of the holder. Tighten the locknuts.", cite: {p: 76}, figs: [61]}
+          - {t: "Do the adjustment again.", cite: {p: 76}}
+          - {t: "Tighten the locknut at the handlebar.", cite: {p: 76}}
+          - {t: "Install the left hand guard.", cite: {p: 76}}
+          - {t: "When you start the engine, make sure that the transmission engages and disengages from the clutch correctly.", cite: {p: 76}}
+
+  - id: choke-cable
+    title: "Choke cable adjustment"
+    system: "Controls"
+    source: clymer
+    chapter: 3
+    section: "03/maintenance-and-inspection"
+    spec_refs:
+      - "routine-checks:Choke lever free play"
+    sections:
+      - steps:
+          - {t: "Move the choke lever fully left (start). Then move it fully right (run). Make sure that the cable moves freely.", cite: {p: 76}}
+          - {t: "If the cable binds, examine the cable and its attachment at the carburetor.", cite: {p: 76}}
+          - {t: "Move the lever fully right. Pull the cable housing away from the point where it enters the adjuster (A). The movement of the housing is the cable play.", cite: {p: 76}, figs: [62], spec_ref: "routine-checks:Choke lever free play"}
+          - {t: "If the play is not correct, loosen the locknut (B).", cite: {p: 76}, figs: [62]}
+          - {t: "Turn the adjuster to change the play.", cite: {p: 76}, figs: [62]}
+          - {t: "Tighten the locknut.", cite: {p: 76}, figs: [62]}
+
+  - id: brake-pedal
+    title: "Rear brake pedal adjustment (and front lever)"
+    system: "Brakes"
+    source: clymer
+    chapter: 3
+    section: "03/maintenance-and-inspection"
+    spec_refs:
+      - "routine-checks:Brake pedal height"
+    sections:
+      - title: "Front brake lever"
+        steps:
+          - {t: "Do not adjust the front brake lever as a routine task. If the master cylinder is in good condition and the brake is bled, the lever adjusts itself.", cite: {p: 76}}
+          - {t: "If the brake drags or the lever play is not acceptable, examine the master cylinder and the caliper for worn or damaged parts.", cite: {p: 76}}
+      - title: "Rear brake pedal"
+        steps:
+          - {t: "Make sure that the pedal is at or near level with the footpeg.", cite: {p: 76}, figs: [63, 64]}
+          - {t: "If the pedal is not level, examine the alignment marks on the pedal and the pivot shaft. If the marks are not aligned, remove the pedal, examine it and install it again.", cite: {p: 76}, figs: [63, 64], ref: "14/rear-brake-pedal"}
+          - {t: "Examine the pedal shaft spring. Make sure that it is not broken or missing.", cite: {p: 76}, figs: [63, 64]}
+          - {t: "Examine the pedal. Make sure that it is not bent.", cite: {p: 76}, figs: [63, 64]}
+          - {t: "Make sure that the pushrod threads extend 3-3.5 mm (0.12-0.14 in.) below the nut in the clevis.", cite: {p: 76}, figs: [65]}
+          - {t: "To adjust, loosen the locknut (A).", cite: {p: 76}, figs: [65]}
+          - {t: "Turn the adjuster (B). Then tighten the locknut.", cite: {p: 76}, figs: [65]}
+          - {t: "Make sure that the adjustment is correct from the riding position.", cite: {p: 77}}
+          - {t: "If the brake action is not correct, bleed the brake.", cite: {p: 77}, ref: "14/brake-system-bleeding"}
+          - {t: "Lift the rear wheel off the ground. Turn the wheel and operate the pedal. Make sure that the brake fully engages and disengages.", cite: {p: 77}}
+          - {t: "If the brake drags, or you cannot get the correct height and play, examine the master cylinder and the caliper for worn or damaged parts.", cite: {p: 77}}
+          - {t: "Make sure that the brake light operates correctly.", cite: {p: 77}, op: brake-light-switch}
+
+  - id: brake-light-switch
+    title: "Rear brake light switch adjustment"
+    system: "Brakes"
+    source: clymer
+    chapter: 3
+    section: "03/maintenance-and-inspection"
+    spec_refs:
+      - "routine-checks:Brake light switch"
+    sections:
+      - steps:
+          - {t: "Turn the ignition on. Push the brake pedal down 15 mm (0.6 in.). Make sure that the rear brake light comes on.", cite: {p: 77}, figs: [66]}
+          - {t: "To adjust, turn the nut on the switch.", cite: {p: 77}, figs: [66]}
+          - {t: "If the light comes on too late (too much pedal travel), turn the nut to move the switch up.", cite: {p: 77}}
+          - {t: "If the light comes on too early, turn the nut to move the switch down.", cite: {p: 77}}
+          - {kind: note, t: "If the light does not come on, examine the bulb. If necessary, disconnect the switch wires and use an ohmmeter to measure continuity. The switch is on when the plunger is extended.", cite: {p: 77}}
+
+  - id: brake-fluid-level
+    title: "Brake fluid level inspection"
+    system: "Brakes"
+    source: clymer
+    chapter: 3
+    section: "03/maintenance-and-inspection"
+    spec_refs:
+      - "fluids:Brake fluid type"
+    parts:
+      - {name: "DOT 4 brake fluid", replace: consumable, spec_ref: "fluids:Brake fluid type", cite: {p: 78}}
+    sections:
+      - title: "Front brake"
+        steps:
+          - {t: "Support the motorcycle so that the reservoir is level.", cite: {p: 77}}
+          - {t: "Make sure that the fluid level is between the lower mark and the top of the sight glass.", cite: {p: 77}, figs: [67]}
+          - {t: "If the level is below the low mark, remove the cover and the diaphragm. Add DOT 4 brake fluid. Install the diaphragm and the cover.", cite: {p: 77}, figs: [67]}
+          - {t: "Examine the master cylinder for leaks and the pads for wear.", cite: {p: 77}}
+      - title: "Rear brake"
+        steps:
+          - {t: "Support the motorcycle so that the reservoir is level.", cite: {p: 77}}
+          - {t: "Make sure that the fluid level is between the upper and lower marks on the reservoir.", cite: {p: 78}, figs: [68, 69]}
+          - {t: "If the level is low, remove the guard assembly. Then remove the cap, the diaphragm plate and the diaphragm.", cite: {p: 78}, figs: [68, 69]}
+          - {t: "Add DOT 4 brake fluid. Assemble the reservoir.", cite: {p: 78}, figs: [68, 69]}
+          - {t: "Examine the master cylinder for leaks and the pads for wear.", cite: {p: 78}}
+          - {kind: note, t: "If the fluid is not clear to slightly yellow, it is contaminated. Drain the system and bleed it.", cite: {p: 78}, ref: "14/brake-system-bleeding"}
+
+  - id: brake-pads
+    title: "Brake pad and disc inspection"
+    system: "Brakes"
+    source: clymer
+    chapter: 3
+    section: "03/maintenance-and-inspection"
+    summary:
+      t: "In severe riding, a disc can quickly get scored if the pads are damaged or have debris in them. If a check below shows damage, see Chapter Fourteen for pad replacement and disc limits."
+      cite: {p: 78}
+    spec_refs:
+      - "routine-checks:Brake pad lining minimum thickness"
+      - "brakes:Disc thickness/Front"
+      - "brakes:Disc thickness/Rear"
+      - "brakes:Disc runout"
+    parts:
+      - {name: "Brake pad set (per wheel)", replace: inspect, cite: {p: 78}, note: "If the pad material is less than 1 mm (0.04 in.) thick, replace the pad set for that wheel."}
+    sections:
+      - steps:
+          - {t: "Support the motorcycle so that the wheels are off the ground.", cite: {p: 78}}
+          - {t: "Examine each disc for scoring. The friction area must be smooth.", cite: {p: 78}}
+          - {t: "Measure the runout of each disc. Turn the wheel and look for side movement. There must be no side movement.", cite: {p: 78}}
+          - {t: "If the friction area shows wear, measure the thickness of both discs.", cite: {p: 78}, spec_ref: "brakes:Disc thickness/Front"}
+          - {t: "Look into each caliper on both sides of the disc. If the front or rear pad material is less than 1 mm (0.04 in.) thick, replace the pad set for that wheel.", cite: {p: 78}, figs: [70]}
+          - {kind: note, t: "Some pads have a wear-indicator groove or step at the edge.", cite: {p: 78}, figs: [70]}
+
+  - id: steering-bearings
+    title: "Steering head bearing inspection"
+    system: "Steering"
+    source: clymer
+    chapter: 3
+    section: "03/maintenance-and-inspection"
+    summary:
+      t: "The steering head has tapered roller bearings. Examine them when the steering feels loose or is not controllable. The bearings must have grease and the correct torque. This prevents wear and keeps the handling correct."
+      cite: {p: 78}
+    spec_refs:
+      - "front-suspension-torque:Steering stem nut"
+    sections:
+      - steps:
+          - {t: "Support the motorcycle so that the front wheel is off the ground.", cite: {p: 78}}
+          - {t: "Turn the handlebar in both directions. Feel for roughness or binding.", cite: {p: 78}}
+          - {t: "Hold the fork legs near the axle. Examine for front-to-back play.", cite: {p: 78}}
+          - {t: "If there is roughness, binding or play, adjust the steering head.", cite: {p: 78}, ref: "12/steering-stem-and-head",
+             gap: "The adjustment and the 12,000-mile bearing lubrication are in Chapter Twelve. That chapter is not yet written in this wiki."}

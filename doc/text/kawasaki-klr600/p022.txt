@@ -1,0 +1,81 @@
+24
+
+Carburetor
+Adj 3
+When the idle speed is too low, the engine may stall;
+
+when the idle speed is too high, the fuel consumption =
+
+becomes excessive, and the resulting lack of engine “NOTE
+
+braking may make the motorcycle difficult to control. When properly performed, these specified modifica-
+tions only, are not considered to be emission system
+
+idle Inspection “tampering” and vehicle performance is generally
+
+®@Thoroughly warm up the engine, unchanged as a result.
+
+With the engine idling, turn the handlebar to each side.
+#if handlebar movement changes the idle speed, the
+throttle cable may be improperly adjusted or incorrectly -
+routed, or it may be damaged, Be sure to correct any Maintenance:
+of these conditions before riding. Carburetor trouble can be caused by dirt, wear, mal-
+adjustment, or improper fuel level in the float chamber.
+
+Operation with improperly adjusted, incorrectly routed, Mixture Ti 5
+rouble YM PtOMms
+i earear) one ene renee eae ee Starting difficulty
+- Poor running
+eCheck that the idle speed is within the specified range, Overheating
+
+Exhaust smokes excessively
+Frequent backfiring in the exhaust system
+
+Idle Speed
+1,300 #100 r/min (rpm) during engine braking
+
+if the idle speed is out of the specified range, adjust it The fi 4 Janation covers the of
+as follows. the carburetor.
+idle Adjustment
+
+Turn the adjusting screw to adjust the idle speed.
+
+o Hine bs and can be
+
+under certain conditions. Turn the ignition switch
+OFF. Do not smoke, Make sure the area is well
+ventilated and free from any source of flame or sparks;
+this includes any appliance with a pilot light.
+
+OMake sure the engine is cold before working. Wipe any
+fuel off the engine before starting it.
+
+Service Fuel Level Inspection
+
+®@Remove the carburetor, and hold it in a true vertical
+position on a stand.
+
+@Sccure an optional fuel tank with a valve to some high
+place to supply fuel to the carburetor.
+
+A. Idle Adjusting Screw
+
+Open and close the throttle a few times to make sure ‘
+1. t . @Attach fuel level gauge (Special tool) to the open end
+that the idle speed is within the specified range. Re- of the overflow tube
+
+adjust If necessary.
+@Holding the gauge against the side of the carburetor
+
+body so that the “0” line is several millimeters higher
+than the bottom edge of the carburetor body, turn out
+the carburetor drain plug 1 — 2 turns to feed fuel to
+
+High Altitude Perf Ad the gauge.
+(U.S. model) Wait until the fuel level in the gauge settles. If the fuel
+©To improve the EMISSION CONTROL PERFORM- does not appear or overflows, inspect the float and
+ANCE of vehicles operated above 4,000 feet, Kawasaki float valve.
+the f ge E ! Protection @Keeping the gauge vertical, sowly lower it until the “O°
+Agency (EPA) approved modification. line is even with the bottom edge of the carburetor
+
+@Change the main jet and pilot jet for high altitude use body

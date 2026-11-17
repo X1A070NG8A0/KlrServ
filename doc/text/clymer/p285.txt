@@ -1,0 +1,83 @@
+REAR SUSPENSION 
+273
+
+
+
+-----
+
+g. Tighten all linkage bolts to 98 Nem (72
+
+ft.-Ib.).
+
+Lever Arms 
+Inspection
+
+The lever arm assembly does not contain any 
+bearings and can be visually inspected. Parts that
+
+show wear or damage should be replaced, in order
+
+for the suspension to operate properly and safely. 
+Refer to Figure 13.
+
+1. Inspect for worn pivot bolts. Check the fit of the
+
+bolts in the lever arms (Figure 19). The bolts should 
+be a snug fit. Replace nuts and bolts that have 
+rounded flats. Proper torquing may not be achieved
+
+if the nuts and bolts cannot be gripped by a socket.
+
+2. Inspect the lever arms for bends or twisting. The 
+arms should lay flat (Figure 20).
+
+3. Inspect the lever arm bores for damage and elon-
+
+gation. If worn or damaged, also replace the pivot
+
+bolts. Note that the left arm is counterbored to ac-
+
+cept the pivot bolt heads (A, Figure 21).
+
+4. Inspect the contact point where the lever arm and 
+pivot spacer mate (B, Figure 21). If the area is worn
+
+or ground away, the pivot bolts have been inade- 
+quately torqued.
+
+5. Install the lever arms as described in this sec-
+
+tion.
+
+Lever 
+Inspection and Repair
+
+1. At each bearing, remove the pivot spacer and
+
+seals (Figure 22). Pry the seals at their outer edge.
+
+NOTE 
+Inspect the bearing rollers to deter-
+
+mine if they are removable. Original
+
+equipment bearings are not remov-
+
+able. Some aftermarket bearings may
+
+be removable. If the rollers can be re-
+
+moved, put the rollers in a marked
+
+container so they can be reinstalled in
+
+their original housing.
+
+2. Clean the lever assembly in clean solvent, then 
+carefully dry all parts.
+
+3. Inspect the following:
+
+a. Inspect the lever for cracks, particularly
+
+around the bearing bores.

@@ -1,0 +1,83 @@
+ENGINE TOP END 
+7
+
+Deburr
+
+Valve stem
+
+4. Tighten the compressor until the spring retainer
+
+no longer holds the valve keepers in position. Lift
+
+the keepers from the valve stem. A magnetic tool 
+works well (Figure 55).
+
+CAUTION 
+Do not overtighten and compress the
+
+valve springs. This can result in loss 
+of valve spring tension.
+
+
+
+-----
+
+5. Slowly relieve the pressure on the valve springs 
+and remove the compressor from the head.
+
+6. Remove the spring retainer and valve springs.
+
+7. Slide the circlip on the oil seal down, then re- 
+move the oil seal, circlip and spring seat.
+
+8. Inspect the valve stem for sharp and flared metal 
+(Figure 56) around the groove for the keepers. If 
+necessary, deburr the valve stem before removing
+
+the valve from the head. Burrs on the valve stem can 
+damage the valve guides.
+
+9. Remove the valve from the cylinder head.
+
+10. After removing each valve assembly, store the
+
+parts with the shim and valve lifter for that location 
+(Figure 57).
+
+CAUTION 
+Install valve components 
+that are 
+within specification in their original 
+positions. Replace the oil seal and
+
+circlip.
+
+11. Repeat Steps 3-10 for the remaining valves.
+
+Valve Component Inspection
+
+During the cleaning and inspection of the valve 
+assemblies, do not allow the sets of parts to get in-
+
+termixed. Work with one set of parts at a time, re-
+
+peating the procedure until all parts are inspected.
+
+After inspecting each set of parts, return them to
+
+their storage container. Refer to Table 2 for specifi-
+
+cations.
+
+NOTE 
+In the following procedure, whenever 
+the valves, 
+valve guides and valve
+
+seats must be replaced or recondi-
+
+tioned, 
+it is recommended that the 
+work be done by a dealership. These
+
+parts should be replaced or recondi-

@@ -1,0 +1,77 @@
+operations:
+  - id: drive-chain-inspect
+    title: "Drive chain and sprocket inspection"
+    system: "Final drive"
+    source: clymer
+    chapter: 3
+    section: "03/maintenance-and-inspection"
+    summary:
+      t: "A worn chain and worn sprockets are not reliable and can be dangerous. If there is wear, replace the two sprockets and the chain together. Old parts cause fast wear on new parts."
+      cite: {p: 71}
+    spec_refs:
+      - "drive-chain:Drive chain length wear limit (20 links/21 pins)"
+      - "drive-chain:Sprocket sizes (standard, front/rear teeth)"
+      - "drive-chain:Drive chain/Number of links"
+    parts:
+      - {name: "Drive chain", replace: inspect, cite: {p: 72}, note: "If the 20-link length is 323 mm (12.7 in.) or more, replace the chain. If the wear is not normal, replace the chain."}
+      - {name: "Front and rear sprockets", replace: inspect, cite: {p: 73}, note: "If one sprocket is worn out, replace both. When you install a new chain, replace both."}
+      - {name: "Chain slider", replace: inspect, cite: {p: 74}}
+      - {name: "Chain guide", replace: inspect, cite: {p: 74}}
+    sections:
+      - title: "Chain and sprockets"
+        steps:
+          - {t: "Pull one link away from the rear sprocket.", cite: {p: 72}, figs: [47]}
+          - {t: "If you can see more than half the height of the sprocket tooth, measure the chain length.", cite: {p: 72}, figs: [47]}
+          - {t: "If the chain is on the motorcycle, loosen the axle nut. Turn the adjusters equally to remove all play from the top run.", cite: {p: 72}}
+          - {t: "If the chain is off the motorcycle, put it flat and pull the ends to remove the slack.", cite: {p: 72}}
+          - {t: "Measure any 20-link (21-pin) length, from center to center of the pins.", cite: {p: 72}, figs: [48], spec_ref: "drive-chain:Drive chain length wear limit (20 links/21 pins)"}
+          - {t: "If the length is equal to or more than the service limit, replace the chain.", cite: {p: 72}, spec_ref: "drive-chain:Drive chain length wear limit (20 links/21 pins)"}
+          - {t: "If the chain is in the limit, examine the inside surfaces of the link plates. They must be shiny at the two ends of the roller.", cite: {p: 72}}
+          - {t: "If the wear is on one side only, the chain ran out of alignment. This also causes wear on the rollers and pins.", cite: {p: 72}}
+          - {t: "If the wear is not normal, replace the chain.", cite: {p: 72}}
+          - {t: "Compare each sprocket to the profile of a new sprocket. The teeth of a new sprocket are symmetrical and uniform. A used sprocket wears on the back side of each tooth.", cite: {p: 73}, figs: [49, 50]}
+          - {t: "If a sprocket has other damage, replace it. If you install a new chain, replace the sprockets.", cite: {p: 73}}
+          - {t: "If one sprocket is worn out, replace both sprockets.", cite: {p: 73}}
+      - title: "Slider, guard and guide"
+        steps:
+          - {t: "Examine the upper and lower surfaces of the chain slider for wear or damage. If the slider is worn or missing, the chain touches the swing arm.", cite: {p: 74}, figs: [54]}
+          - {t: "Make sure that the mounting screws of the chain slider are tight.", cite: {p: 74}, figs: [54]}
+          - {t: "Examine the chain guard (A) for damage. Make sure that its clearance is correct.", cite: {p: 74}, figs: [55]}
+          - {t: "Make sure that the mounting bolts of the chain guard are tight.", cite: {p: 74}, figs: [55]}
+          - {t: "Examine the sliding surface of the chain guide (B) for wear or damage. A torn or broken guide can catch the chain.", cite: {p: 74}, figs: [55]}
+          - {t: "Make sure that the mounting bolts of the chain guide are tight.", cite: {p: 74}, figs: [55]}
+
+  - id: drive-chain-adjust
+    title: "Drive chain adjustment"
+    system: "Final drive"
+    source: clymer
+    chapter: 3
+    section: "03/maintenance-and-inspection"
+    summary:
+      t: "If the chain has too little play, it is too tight and causes wear on the driveline. If the chain has too much play, it can come off the sprockets."
+      cite: {p: 73}
+    spec_refs:
+      - "routine-checks:Drive chain play"
+      - "maintenance-torque:Axle nut/Rear"
+    parts:
+      - {name: "Rear axle cotter pin", replace: always, cite: {p: 74}, note: "Install a new cotter pin."}
+    sections:
+      - steps:
+          - {t: "Support the motorcycle so that the rear wheel is off the ground.", cite: {p: 73}}
+          - {t: "Turn the rear wheel to find the tightest point of the chain on the bottom run. This point has the least play.", cite: {p: 73}}
+          - {t: "Mark the swing arm at the midpoint between the sprockets.", cite: {p: 73}}
+          - {t: "Hold a tape measure vertical below the mark.", cite: {p: 73}, figs: [51]}
+          - {t: "Push the chain down. Note the position of a link pin on the tape measure.", cite: {p: 73}, figs: [51]}
+          - {t: "Push the chain up. Note the position of the same pin. The difference is the chain play.", cite: {p: 73}, figs: [51], spec_ref: "routine-checks:Drive chain play"}
+          - {t: "To adjust the play, remove the cotter pin from the axle nut.", cite: {p: 73}, figs: [52]}
+          - {t: "Loosen the axle nut (A).", cite: {p: 73}, figs: [52]}
+          - {t: "Loosen the adjuster locknuts (B) on both sides.", cite: {p: 73}, figs: [52]}
+          - {t: "Turn the adjuster nuts (C) equally until the play is correct. Use the marks (D) on the swing arm.", cite: {p: 73}, figs: [52]}
+          - {t: "If you increase the play, push the wheel forward to remove the play from the adjusters.", cite: {p: 73}, figs: [52]}
+          - {kind: note, t: "If you cannot get the correct play in the range of the adjusters, the chain is worn too much. Replace the chain.", cite: {p: 73}, op: drive-chain-inspect}
+          - {t: "Make sure that the wheel is aligned (A).", cite: {p: 74}, figs: [53]}
+          - {t: "If the chain curves in or out (B, C), adjust again until the wheel is aligned with the rest of the motorcycle.", cite: {p: 74}, figs: [53]}
+          - {t: "Tighten the axle nut to the specified torque.", cite: {p: 74}, spec_ref: "maintenance-torque:Axle nut/Rear"}
+          - {t: "Measure the chain play again.", cite: {p: 74}}
+          - {t: "Tighten the adjuster locknuts.", cite: {p: 74}}
+          - {t: "Install a new cotter pin.", cite: {p: 74}}

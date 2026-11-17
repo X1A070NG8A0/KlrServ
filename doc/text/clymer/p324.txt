@@ -1,0 +1,99 @@
+312
+
+fluid level in the reservoir and replenish, if neces-
+
+sary.
+
+NOTE 
+During the bleeding process, the res- 
+ervoir must contain fluid during the 
+entire procedure. If the reservoir is al- 
+lowed to become empty, air will be in 
+the system and the bleeding process 
+will have to be repeated.
+
+5. Repeat Step 3 and Step 4 until clear fluid (mini- 
+mal air bubbles) is seen passing out of the bleeder
+
+valve. Unless the bleeder valve threads are wrapped 
+with Teflon tape, or coated with silicone brake
+
+grease, a small amount of air will enter the system 
+when the bleeder valve is opened.
+
+NOTE 
+If small bubbles (foam) remain in the 
+system 
+after several 
+bleeding 
+at- 
+tempts, close the reservoir and allow 
+the system to stand undisturbed for a 
+few hours. The system will stabilize
+
+and the air can be purged as large 
+bubbles.
+
+6. The bleeding procedure is completed when the
+
+feel of the lever/pedal is firm.
+
+7. Check the brake fluid reservoir and fill the reser- 
+voir to the upper level, if necessary.
+
+8. Tighten the bleeder valve to 8 Nem (70 in.-lb.). 
+Do not overtighten.
+
+9. Dispose the waste brake fluid in an environmen-
+
+tally safe manner.
+
+Vacuum Bleeding
+
+To vacuum-bleed the brake system, have a 10 mm 
+wrench and a vacuum pump, such as the Mityvac 
+pump shown in Figure 100. Use the following pro- 
+cedure to bleed either the front or rear brake.
+
+CAUTION 
+Brake fluid can damage painted and 
+finished surfaces. Use water and im-
+
+mediately wash any surface that be- 
+comes contaminated with brake fluid.
+
+1. Check that the banjo bolts are tight at the master
+
+cylinder and caliper.
+
+2. Attach the brake bleeder to the bleeder valve 
+(Figure 100). Suspend the tool with wire. This al-
+
+
+
+-----
+
+CHAPTER FOURTEEN
+
+lows the tool to be released when the fluid reservoir 
+needs to be refilled.
+
+3. Fill the reservoir to the upper level with DOT 4
+
+brake fluid.
+
+CAUTION 
+Do not use brake fluid from an un- 
+sealed container. 
+It will have ab- 
+sorbed moisture from the air and 
+already be contaminated. Use DOT 4 
+brake fluid from a sealed container.
+
+NOTE 
+During the bleeding process, the res- 
+ervoir must contain fluid during the 
+entire procedure. If the reservoir is al- 
+lowed to become empty, air will be in 
+the system and the bleeding process 
+will have to be repeated.

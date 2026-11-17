@@ -1,0 +1,90 @@
+Electrical Wires
+
+13. To Headlight 
+14. 
+Headlight Bracket 
+15. Ground Lead 
+16. 
+Frame Top Tube 
+17. 
+To Neutral Switch 
+ 
+and Pickup Coil 
+18. Main Harness 
+19. To Water Tempera 
+ 
+ture Sender 
+20. Ignition Coil 
+21. 
+Spark Plug Cap 
+22. Horn 
+23. Radiator Fan 
+ 
+Connector 
+24. Turn Signal Relay 
+25. Radiator Fan Relay 
+26. CDI Unit 2P 
+ 
+Connector
+
+LH Switch Leads 
+RH Switch Leads 
+Starter Lockout 
+Switch Leads RH 
+Switch 6P 
+Connector (Red) 
+Meter 9P 
+Connector Ignition 
+Switch 6P 
+Connector (Black) 
+LH Switch 9P 
+Connector (Red) 
+Starter Lockout 
+Switch 3P 
+Connector Meter 
+Bracket Main 
+Harness To Turn 
+Signal Light To 
+City Light
+
+1
+. 
+2
+
+4.
+
+5.
+
+6.
+
+7.
+
+8
+
+9. 
+10. 
+11. 
+1 2 .
+
+
+
+-----
+
+GENERAL INFORMATION 1-11
+
+27. Neutral Switch and 
+Pickup Coil 3P 
+ 
+Connector 
+28. 
+Magneto 6P 
+ 
+Connector 
+29. 
+CDI Unit 6P 
+ 
+Connector 
+30. CDI Unit 
+31. Diode Assembly
+
+Viewed from C

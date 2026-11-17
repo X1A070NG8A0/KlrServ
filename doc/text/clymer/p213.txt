@@ -1,0 +1,78 @@
+ELECTRICAL SYSTEM 
+201
+
+STARTING SYSTEM
+
+Starter 
+Color Code 
+Diagram Key 
+button 
+Black 
+Green 
+Connectors
+
+Engine 
+Ignition 
+stop 
+switch 
+switch
+
+Yellow/Black (Y/B) wire is 
+used on 1990-on models. 
+No connection
+
+Starter 
+motor 
+lockout 
+Neutral 
+Starter 
+switch 
+switch 
+relay
+
+
+
+-----
+
+Blue 
+Red 
+round
+
+Yellow 
+White 
+Brown 
+Light green 
+ros<zroo 
+© 
+Connection
+
+Starter 
+circuit 
+relay
+
+Black (B) wire is used on 
+1987-89 models only.
+
+( 
+Starter
+
+Starter Relay 
+Testing
+
+The starter relay (A, Figure 40) is located at the
+
+left side of the motorcycle, behind the plastic cover. 
+The starter relay connects the battery to the starter. 
+The relay is designed to temporarily carry the high
+
+electrical load between the parts during startup. The
+
+relay is activated by a small amount of current from
+
+the starter circuit relay when the starter button is
+
+pressed.
+
+1. Remove the cover to access the switch. If neces-
+
+sary, remove the fuel tank to improve access.

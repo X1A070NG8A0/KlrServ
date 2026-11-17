@@ -1,0 +1,84 @@
+LUBRICATION, MAINTENANCE AND TUNE-UP 
+51
+
+
+
+-----
+
+13. Tighten the fork caps to 29 Nem (21 ft.-Ib.).
+
+Cable Lubrication
+
+If there is binding or drag in the throttle or clutch,
+
+this can indicate a lack of cable lubrication or worn
+
+parts. Since the throttle uses two cables, also check
+
+the adjustment. Use lithium grease to lubricate the
+
+control cable pivots. Lubricate the cables with light
+
+oil or cable lubricant. If the clutch or throttle cables
+
+continue to operate poorly after lubrication, discon-
+
+nect the cable(s) at both ends and check for binding
+
+or drag. Replace the cable(s) if necessary. If the ca-
+
+ble(s) is in good condition, check for binding or
+
+drag in the carburetor/clutch.
+
+Clutch cable and starter lockout switch
+
+1. Remove the clutch lever hand guard. Carefully
+
+flex the guard to remove it from the clutch lever as- 
+sembly.
+
+2. Remove the pivot bolt (A, Figure 21) and lower
+
+nut from the lever.
+
+3. Loosen the clutch cable locknut (B, Figure 21), 
+then turn the adjuster (C) in until the cable and lever 
+can be removed from the slots in the adjuster assem-
+
+bly (Figure 22).
+
+4. Remove the cable end at the release lever (Fig-
+
+ure 23).
+
+5. Clean the levers and cable ends. Also clean the 
+pivot and clutch lever housing.
+
+6. Attach a cable lubricator, then lubricate the cable 
+with an aerosol cable lubricant (Figure 24). Keep
+
+the cable in a vertical position so the lubricant can 
+pass to the opposite end. Move the cable in the 
+housing to help distribute the oil. Stop lubrication 
+when oil is seen at the opposite end of 
+the cable.
+
+7. Lubricate the lever pivots and cable ends with
+
+lithium grease, then attach the cable to the release
+
+lever and clutch lever.
+
+NOTE 
+When lubricating the clutch cable and 
+lever assembly, occasionally inspect 
+the condition of the starter lockout 
+switch, located on the bottom of the 
+clutch lever housing. Open the switch 
+(Figure 25) and clean dirt and lubri- 
+cant that has accumulated 
+in the 
+switch housing. Clean the switch con-
+
+tacts with electrical contact cleaner,

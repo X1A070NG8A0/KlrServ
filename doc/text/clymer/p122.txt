@@ -1,0 +1,121 @@
+110
+
+Piston Ring Installation
+
+If new piston rings will be installed, the cylinder 
+must be honed. This is necessary to deglaze and 
+crosshatch the cylinder surface. The newly honed 
+surface is important in providing lubrication pock-
+
+ets for the new rings, helping them seat and seal 
+against the cylinder. A dealership or machine shop 
+can hone the cylinder for a minimal cost. Refer to 
+Cylinder Inspection in this chapter to determine if
+
+the cylinder should be honed and reused. If the cyl- 
+inder needs to be overbored, a larger piston and
+
+rings have to be installed.
+
+1. Check that the piston and rings are clean and dry. 
+When installing, spread the rings only enough to
+
+clear the piston.
+
+2. Install the rings as follows:
+
+a. Install the oil ring expander in the bottom
+
+groove, followed by the bottom rail and top
+
+rail. The ends of the expander must not over-
+
+lap. The rails can be installed in either posi-
+
+tion and direction.
+
+b. Install the second ring. Check that the 2N
+
+mark faces up (Figure 95).
+
+c. Install the top ring. Check that the N mark
+
+faces up (Figure 95).
+
+3. Check that all rings rotate freely in their grooves.
+
+Piston Installation
+
+1. Install the piston rings onto the piston as de- 
+scribed in this section.
+
+2. Check that all parts are clean and ready to be in-
+
+stalled. Use new circlips when installing the piston.
+
+CAUTION 
+Never install used circlips. Severe en- 
+gine damage could occur. Circlips fa-
+
+tigue and distort 
+when 
+they are 
+removed, even though they appear re- 
+usable.
+
+3. Install a new circlip into the left piston pin boss. 
+Rotate the ends of the circlip away from the gap. By
+
+installing the circlip in the left boss the remaining
+
+circlip can be installed at the right side of the en-
+
+gine, where work space is better.
+
+4. Lubricate the following components with engine
+
+oil:
+
+a. Piston pin.
+
+b. Piston pin bores.
+
+
+
+-----
+
+CHAPTER FOUR
+
+c. Connecting rod bore.
+
+5. Start the piston pin into the open pin bore, then 
+place the piston over the connecting rod. The arrow 
+stamped on the piston crown (Figure 100) must 
+point forward.
+
+CAUTION 
+The piston must be installed correctly. 
+Failure to install the piston correctly 
+can lead to severe engine damage.
+
+6. Align the piston with the rod, then slide the pin 
+through the rod and into the other piston bore.
+
+7. Install a new circlip into the right piston pin
+
+boss. Rotate the ends of the circlip away from the
+
+gap.
+
+8. Stagger the piston ring gaps on the piston as 
+shown in Figure 81. Note that the top and second 
+ring gaps are opposite one another, pointing to the
+
+front and back of the piston. The oil ring rails are 
+about 30° apart, pointing to the sides.
+
+9. Install the cylinder as described in this chapter.
+
+10. Refer to Chapter Three for break-in proce-
+
+dures.

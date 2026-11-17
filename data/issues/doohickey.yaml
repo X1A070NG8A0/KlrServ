@@ -1,0 +1,22 @@
+id: doohickey
+title: "Balancer chain tensioner lever and spring (the \"doohickey\")"
+ops: [balancer-chain-tensioner]
+summary:
+  - t: "The balancer chain tensioner is spring-loaded and locked by a bolt. Clymer warns that the shaft lever or the tensioner spring can break before an adjustment; the bolt then holds the broken assembly until it is next loosened, when it can create slack or fall apart and derail the chain, damaging the engine."
+    cite: {s: clymer, p: 68}
+  - t: "Owners call the lever the \"doohickey\". Gen 1 means 2007 and earlier; Eagle Mike (who makes an aftermarket lever) describes the stock 1990-2007 lever as one that sometimes breaks."
+    cite: {s: forum, id: doohickey-wtf, post: 2}
+sections:
+  - title: "What fails"
+    steps:
+      - {t: "\"It's the balancer adjustment lever. Some years (stock parts) are worse than others.\"", cite: {s: forum, id: doohickey-wtf, post: 2}}
+      - {t: "\"Sometimes they don't break. Sometimes they do. No broken levers in the 2008 and later, but loose fit and occasional broken springs, nearly 100 percent ineffective springs.\"", cite: {s: forum, id: doohickey-wtf, post: 2}}
+      - {t: "\"The pre 08 spring had some sort of mfg process defect which cause one of the eyes to fail. The broken spring could then be collected by the balancer or cam chain and really reak some havok internally.\"", cite: {s: forum, id: doohickey-wtf, post: 18}}
+      - {t: "\"If NOT properly maintained, the balancer system's chain will start slapping around and wear more quickly.\"", cite: {s: forum, id: doohickey-explanation, post: 7}}
+  - title: "What owners do about it"
+    steps:
+      - {t: "The forum consensus fix is to replace the stock lever and spring with an aftermarket kit (Eagle Mike's lever with a torsion spring is the one named): \"The answer is to install a torsion spring.\"", cite: {s: forum, id: doohickey-wtf, post: 18}}
+      - {t: "One owner found the lever intact but the spring useless: \"Mine was not broken BUT the spring was just hagin out being usless and the doohickie was sloppy as hell on the shaft.\"", cite: {s: forum, id: doohickey-wtf, post: 20}}
+      - {t: "Routine adjustment stays on the schedule either way.", cite: {s: clymer, p: 88}, op: balancer-chain-tensioner}
+      - {kind: caution, t: "The lever and spring replacement itself (alternator cover removal) is not in the Chapter Three maintenance procedures, and its parts are aftermarket. Follow the kit maker's instructions together with the Clymer chapters for the alternator cover and balancer.", cite: {s: clymer, p: 68},
+         gap: "No replacement procedure is transcribed here yet."}

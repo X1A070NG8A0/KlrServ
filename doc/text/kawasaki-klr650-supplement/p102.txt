@@ -1,0 +1,77 @@
+14-16 ELECTRICAL SYSTEM
+
+Headlight, Dimmer, or Passing Switch Inspection Refer 
+to the Base Manual, noting the following.
+
+Headlight, Dimmer, or Passing Switch Connections (Other than US and Canada)
+
+Headlight Switch 
+Dimmer Switch 
+Passing Button
+
+Color 
+BR 
+R/W 
+ 
+Color 
+R/BK  
+R/Y 
+Color 
+BR I R/BK*
+
+ON 
+ 
+ 
+ 
+HI 
+O— —Í
+
+OFF  
+ 
+ 
+ 
+ 
+-- 
+ 
+Push 
+CmmmmD 
+PO 
+ 
+ 
+ 
+LO 
+ 
+Ö—I —C 
+ 
+I
+
+A. 
+ LH 
+Switch 
+Housing 
+9-pin
+Connector (Red) 
+A. Screws 
+B
+RH Switch Housing 6 pln Connector (Red)
+
+Tachometer and Water Temperature Gauge
+
+Disassembly: 
+•Remove the meter cover.
+
+A. Meter Cover 
+B. Knob
+
+C. Screw
+
+
+
+-----
+
+*R/Y for Italian Model
+
+•Remove the tachometer or water temperature gauge.
+
+A. Tachometer Mounting Screws 
+B. Water Temperature Gauge Mounting Screws

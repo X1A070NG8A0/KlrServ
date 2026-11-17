@@ -1,0 +1,104 @@
+ENGINE LOWER END
+
+sprockets (Figure 9) underwent design changes. 
+The left sprocket became rubber-mounted in its bal- 
+ancer weight, making the components a single part 
+number. The earlier design used springs and rollers 
+between the sprocket and weight. Each of these 
+components is available as a separate part number.
+
+These 
+same 
+changes 
+occurred 
+at 
+the 
+rear 
+sprocket, eliminating the springs and rollers be-
+
+tween 
+the sprocket and shaft coupling. Addi-
+
+tionally, the later design places a washer between
+
+the crankcase bearing and rear sprocket.
+
+On all 1996-on models, a washer is used on the 
+tensioner bolt. Although some components do not 
+appear exactly as those shown in the following pro-
+
+cedures, the component changes do not affect the 
+function or servicing of the balancer assembly.
+
+Removal
+
+The following procedure details the complete re- 
+moval of the balancer components from the engine 
+crankcase. Refer to Figure 9.
+
+1. Remove the right crankcase cover (Chapter Six).
+
+2. Remove the alternator cover (Chapter Nine).
+
+
+
+-----
+
+119
+
+3. Remove the right balancer weight as follows:
+
+a. Flatten the lockwasher so the nut can be re-
+
+moved from the balancer shaft.
+
+b. Hold the rotor with the rotor holder tool. The
+
+tool can be braced against the bottom of the
+
+left footpeg. Remove the nut and lockwasher 
+securing the right balancer weight (Figure
+
+10). Remove the weight and spacer from the
+
+shaft.
+
+4. Remove the left crankcase cover, tensioner bolt 
+and shaft lever as described in this chapter.
+
+5. Remove the balancer chain tensioner assembly
+
+as follows:
+
+a. Remove the tensioner spring (Figure 11). If
+
+the spring must be used again, do not score, 
+scratch or bend the spring ends. Fracturing
+
+can occur.
+
+b. Rotate the spring lever counterclockwise to
+
+relieve chain tension, then carefully pull the 
+tensioner shaft assembly from the crankcase 
+(Figure 12). Keep the opposite end of the
+
+shaft tilted up, to prevent dropping the spacer,
+
+located behind the sprocket.
+
+CAUTION 
+If the spacer falls, it can roll into the 
+crankcase opening located below the 
+tensioner shaft bore. If this occurs, 
+use a magnetic tool or wire to retrieve
+
+the part.
+
+6. Remove the snap ring from the left end of the
+
+front balancer shaft (Figure 13), then remove the 
+weight/sprocket and spacer.
+
+7. Remove the five bolts (Figure 14) securing the 
+lower cam chain guide and balancer chain guides.

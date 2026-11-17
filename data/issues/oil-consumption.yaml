@@ -1,0 +1,24 @@
+id: oil-consumption
+title: "Oil consumption at sustained high rpm"
+ops: [engine-oil-and-filter]
+summary:
+  - t: "Clymer: check the level at the sight glass with the bike upright and the engine settled; keep it near the upper mark, and do not overfill."
+    cite: {s: clymer, p: 59}
+  - t: "Owners report gen 1 engines using oil under long stretches at or above 5000 rpm (freeway speeds), so the forum advice is to check the level at every fuel stop."
+    cite: {s: forum, id: gen1-maintenance-opinions, post: 5}
+sections:
+  - title: "What owners report"
+    steps:
+      - {t: "\"Oil consumption has been a concern for some KLR650's especially under protracted 5,000 RPM running.\"", cite: {s: forum, id: oil-consumption-piston, post: 1}}
+      - {t: "\"It only uses a tad of oil if you run it all day over 5k rpm\"", cite: {s: forum, id: weak-doohickeys-frame-bolts, post: 7}}
+      - {t: "One investigation compares the KLR piston's oil drain-back holes with another engine's and suspects limited drain area; this is a hypothesis in the thread, not a confirmed cause.", cite: {s: forum, id: oil-consumption-piston, post: 1}}
+  - title: "Checking and topping up"
+    steps:
+      - {t: "Check at every fuel stop, keeping the level high in the window.", cite: {s: forum, id: gen1-maintenance-opinions, post: 5},
+         conflict: {
+           note: "The forum advice is to fill to just above the sight glass window; Clymer says keep the level between the marks, preferably near the upper one, and not to overfill.",
+           others: [
+             {t: "\"keep the oil sight glass full to just slightly above the window. That is 2.5 liters just like Kawasaki states. Check it every gas stop.\"", cite: {s: forum, id: gen1-maintenance-opinions, post: 5}},
+             {t: "The oil level should be between the upper and lower level marks; preferably keep it near the upper mark. Do not overfill the crankcase.", cite: {s: clymer, p: 59}}
+           ]}}
+      - {t: "Use the procedure for an accurate reading.", cite: {s: clymer, p: 59}, op: engine-oil-and-filter}

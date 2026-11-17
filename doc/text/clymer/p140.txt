@@ -1,0 +1,126 @@
+128
+
+c. Remove the No. 1, No. 2 and No. 3 shift forks
+
+(Figure 45).
+
+d. Remove the input shaft and output shaft as-
+
+semblies (Figure 46) as a unit, keeping the 
+gears meshed and the shafts upright.
+
+e. Disassemble and inspect the transmission
+
+(Chapter Seven).
+
+CAUTION 
+Take extreme care when removing, 
+handling and storing the transmis- 
+sion. Wrap and store the assembly un-
+
+til it is inspected. Do not expose the 
+assembly to dirt or place it in an area 
+where it could roll and fall to the floor.
+
+Assembly
+
+1. Read the entire procedure to ensure that all tools,
+
+parts and supplies are on hand, as well as proper 
+preparation of the case halves. Follow these prac-
+
+tices when assembling the crankcase:
+
+a. Check that all mating surfaces are smooth,
+
+clean and dry. Minor irregularities can be re- 
+paired with an oil stone. After thorough re- 
+moval of the old sealant, clean all mating 
+surfaces with a highly evaporative solvent, 
+such as brake cleaner or electrical contact
+
+cleaner. The new sealant will not adhere to
+
+oily surfaces.
+
+b. Lubricate the crankshaft, bearings and trans-
+
+mission assembly with engine oil.
+
+c. Lubricate seal lips with grease.
+
+d. To install the crankshaft, use the crankshaft
+
+installation jig (part No. 57001-1174). The
+
+tool can be ordered from a Kawasaki dealer-
+
+ship. The tool (Figure 47) is adjusted to fit 
+snugly between the flywheels, opposite the 
+crankpin. As the crankcase halves are seated
+
+together, the tool prevents the flywheels from
+
+flexing or binding, causing misalignment of
+
+the flywheels.
+
+e. A liquid gasket sealant is required to seal the
+
+crankcase 
+halves. 
+Use Kawabond 
+5 or 
+Yamabond 4, available at dealerships. These
+
+sealants are durable and can be submerged in
+
+oil. Depending on experience and preference, 
+Kawabond 5 is thinner than Yamabond 4, and 
+may be considered more difficult to evenly 
+apply.
+
+
+
+-----
+
+CHAPTER FIVE
+
+CAUTION 
+Do not attempt to seal the cases with 
+RTV_ 
+silicone 
+sealant, 
+commonly 
+found at auto parts stores. The sealant
+
+is inadequate for this application. Oil 
+leakage and possible engine damage
+
+is likely to occur.
+
+2. Place the right crankcase on wooden blocks, 
+with the open side of the case facing up.
+
+3. Install the transmission as follows:
+
+a. Mesh the input shaft and output shaft assem-
+
+blies. Keeping the gears meshed and the
+
+shafts upright, insert the assembly into the
+
+case (Figure 46).
+
+. Identify the shift forks. (Figure 45). Shift
+
+forks No. 1 and No. 2 can be identified by the 
+casting around the guide pins (Figure 48). 
+These forks mate with the output shaft gears.
+
+Shift fork No. 1 mates with fourth gear and
+
+shift fork No. 2 mates with fifth gear. Shift
+
+fork No. 3 has a smaller claw diameter and 
+only mates with third gear on the input shaft.

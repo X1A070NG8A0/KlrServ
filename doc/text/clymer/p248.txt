@@ -1,0 +1,104 @@
+236
+
+Bearing Inspection
+
+The bearings can be inspected with the wheels 
+mounted on the bike. With the wheels mounted, a 
+high amount of leverage can be applied to the bear- 
+ings to detect wear. Also, the wheels can be spun to
+
+listen for roughness in the bearings. Use the follow- 
+ing procedure to check the bearings while the 
+wheels are mounted. If the wheels are dismounted, 
+make the additional checks described in the wheel 
+removal and inspection procedures in this chapter.
+
+1. Support the bike with the wheel to be inspected
+
+off the ground. The axle nut must be tight. If in- 
+specting the rear wheel, remove the chain from the
+
+sprocket.
+
+2. Grasp the wheel, placing the hands 180° apart. 
+Lever the wheel up and down, and side to side, to 
+check for radial and axial play. Have an assistant ap- 
+ply the brake while repeating the test. Play will be 
+detected in excessively worn bearings, even though
+
+the wheel is locked.
+
+3. Spin the wheel and listen for bearing noise. A 
+damaged bearing inconsistently sounds rough and 
+smooth. An excessively worn bearing sounds con-
+
+sistently rough. In either case, replace the bearing.
+
+NOTE 
+If the disc brake drags and the bear- 
+ing cannot 
+be heard, 
+remove 
+the 
+wheel. Place the axle in the wheel, 
+then support the axle so the wheel 
+spins freely.
+
+4. If damage is evident, replace the bearings as a
+
+set.
+
+CAUTION 
+Do not remove bearings to check their 
+condition 
+or to lubricate. Bearing 
+damage is likely to occur. If the bear- 
+ings are removed, replace them.
+
+Seal Inspection
+
+Seals prevent the entry of moisture and dirt into
+
+the bearings. The seals on the wheel bearings and 
+sprocket hub are permanent and cannot be replaced. 
+If a seal is damaged, the bearing must be replaced.
+
+
+
+-----
+
+CHAPTER ELEVEN
+
+Fy
+
+ddag
+
+Bearing Replacement
+
+Two methods for removing bearings from the 
+wheel hub are provided in the following procedure. 
+The first method (Step 3A) uses a wheel bearing re- 
+moval set and the second method (Step 3B) uses 
+common shop tools.
+
+CAUTION 
+In the following procedure, do not al-
+
+low the wheel to rest on the brake 
+disc. Support the wheel to prevent 
+pressure being applied to the disc.
+
+1. Where used, remove any snap rings from the hub 
+(Figure 25).
+
+2. Examine the bearings. Note the following:
+
+a. Make note of any visible manufacturer’s
+
+marks on the sides of the bearings. The new 
+bearings must be installed with the marks in
+
+the same direction. Mark each bearing, indi- 
+cating its original location in the hub. The re- 
+placement bearings can then be oriented 
+correctly during installation.

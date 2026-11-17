@@ -1,0 +1,71 @@
+Front Brake Adjustment/Inspection WARNING
+
+OChange the brake fluid in the brake line completely if
+the brake fluid must be refilled but the type and brand
+of the brake fluid that already is in the reservoir are
+unidentified.
+OAfter changing the fluid, use only the same type and
+brand of fluid thereafter.
+
+Brake Lining Wear Inspection
+
+eCheck the lining thickness of the pads in the caliper.
+
+xIf the lining thickness of either pad is less than the
+service limit, replace both pads in the caliper as a set.
+
+Pad Lining Thickness
+
+@Apply the brake forcefully for a few seconds, and
+
+Standard : 4.5 mm check for fluid leakage around the fittings.
+Service Limit : 1mm
+Brake Pad
+
+Olf the brake has a soft or “spongy feeling” when it is
+applied, there may be air in the brake line or the
+brake may be defective. Since it is dangerous to
+operate the motorcycle under such conditions, bleed
+the air from the brake line immediately.
+
+Thickness
+
+Brake Fluid Level Inspection
+@Holding the reservoir horizontally, check that the brake .
+fluid level in the reservoir is between the upper and Brake.Fluid Change
+@Remove the reservoir cap, and remove the rubber cap
+
+lower level lines.
+on the bleed valve.
+
+@Attach a clear plastic hose to the bleed valve on the
+caliper, and run the other end of the hose into a
+container.
+
+@Open the bleed valve (counterclockwise to open), and
+pump the brake lever until all the fluid is drained from
+the line.
+eClose the bleed valve.
+
+@Fill the reservoir with fresh brake fluid.
+
+@Open the bleed valve, apply the brake by the brake
+lever, close the valve with the brake held applied, and
+then quickly release the lever. Repeat this operation
+until the brake line is filled and fluid starts coming out
+of the plastic hose.
+
+A. Reservoir C. Lower Level
+B. Upper Level
+
+*If the fluid level is under the lower level line, check for
+
+fluid leakage from the brake line, and add the brake
+fluid as follows. “NOTE”
+
+ORemove the reservoir cap, and fill the reservoir to the OReplenish the fluid in the reservoir as often as
+upper level with the same type and brand of brake fluid necessary to keep it from running completely out.
+
+that already isin the reservoir. Then install the reservoir
+
+cap. eBleed the air from the line.

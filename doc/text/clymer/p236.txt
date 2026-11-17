@@ -1,0 +1,90 @@
+me
+
+as it circulates to the bottom of the radiator. The 
+coolant then returns to the engine by the lower hose.
+
+If the coolant returning to the engine is too hot, the 
+radiator fan switch, located at the bottom of the ra-
+
+diator, turns on the fan. The fan draws air through
+
+the radiator to aid in lowering coolant temperature. 
+The switch is set to turn on the fan when coolant 
+temperature is 94-100° C (201-212° F). The fan
+
+shuts off when coolant temperature drops below 91° 
+C.(196° F).
+
+Fan
+
+Reno yet atau alauon 
+4. Remove the wire from the fan switch (Figure 3).
+
+1. Remove the fuel tank and radiator covers (Chap- 
+If necessary, remove the fan switch.
+
+ter Fifteen). 
+5. Remove the hoses from the radiator. If the hoses
+
+2. Disconnect the battery. 
+are seized to the fittings, cut and split the hoses so 
+they can be peeled from the fittings. Avoid scoring 
+WARNING 
+the fittings. Replace the hoses. 
+The fan is wired directly 
+to the battery 
+ye 
+Laer 
+6. Remove the two bolts at the front of the radiator 
+and does not require 
+the ignition 
+Dinca eon 
+arden te one 
+(Figure 4) and the bolt at the back of the radiator.
+
+7. Inspect the radiator as described in this chapter. 
+3. Trace the wires leading from the fan, then dis- 
+connect the wires at the connector.
+
+4. Remove the wires from the retainers (Figure 2).
+
+5. Remove the three bolts securing the fan to the ra- 
+a Reverse this procedure to install the radiator.
+
+diator (Figure 2). 
+Note the following:
+
+6. Ifnecessary, refer to Chapter Nine to test the fan. 
+a. Replace hoses that are hard, cracked or show
+
+7. Reverse this procedure to install the fan. 
+signs of deterioration, both internally and ex- 
+ternally. Hold each hose and flex it in several
+
+Radiator and Fan Switch 
+Removal and Installation
+
+1. Drain the cooling system (Chapter Three). 
+pee Ro nS LAE ASS:
+
+2. Remove the fuel tank and radiator covers (Chap- 
+b. Install clamps in their original positions.
+
+ter Fifteen). 
+c. If removed, install and tighten the fan switch
+
+3. Remove the fan as described in this section. 
+to 7.4 Nem (65 in.-lb.).
+
+
+
+-----
+
+8. Ifnecessary, refer to 
+Chapter Nine to test the fan 
+switch and fan relay.
+
+directions to check for damage. For a hose
+
+that is difficult to install on a fitting, dip the 
+hose end in hot water until the rubber has soft-

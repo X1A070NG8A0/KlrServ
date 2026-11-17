@@ -1,0 +1,45 @@
+BRAKES 
+a
+
+REAR BRAKE PEDAL
+
+. Brake switch spring
+
+. Pedal
+
+. Bolt
+
+. Bushing
+
+. Brake stay
+
+. Pedal return spring
+
+. Pedal shaft
+
+
+
+-----
+
+9
+
+3. Completely remove the bolt securing the pedal
+
+to the shaft (B, Figure 96).
+
+4. Before removing the pedal, note how the spring 
+contacts the post on the brake stay and pedal.
+
+5. Hold the pedal shaft in place, then pull the pedal
+
+from the shaft.
+
+6. Remove the pedal shaft and spring.
+
+7. Clean and inspect the parts.
+
+a. Inspect the pedal shaft and bore bushing for
+
+scoring, damage or the entry of water and dirt.
+
+If the bushing is worn, replace it.

@@ -1,0 +1,68 @@
+10-8 BRAKES
+
+Caliper Removal 
+Refer to the Front Brake Disassembly/Assembly section in 
+the Base Manual, noting the following. 
+•Use the brake pedal instead of using the brake lever to 
+remove the caliper piston.
+
+Caliper Installation 
+Refer to the Front Brake Disassembly/Assembly section in 
+the Base Manual.
+
+Caliper Disassembly 
+Refer to the Front Brake Disassembly/Assembly section in 
+the Base Manual.
+
+Caliper Assembly. 
+Refer to the Front Brake Disassembly/Assembly section in 
+the Base Manual.
+
+Disc Installation 
+Refer to the Front Brake Disassembly/Assembly section in 
+the Base Manual.
+
+Master Cylinder Installation Points •Discard the used flat 
+washers, and install a new washer on each side of the 
+brake hose fittings. 
+•Check and adjust the brake pedal position.
+
+Master Cylinder Disassembly Points •Using the circlip 
+pliers (special tool: P/N 57001-143), remove the circlip and 
+pull the piston and spring out of the cylinder.
+
+Rear Master Cylinder
+
+1. Spring 
+2. Piston 
+3. Circlip 
+4. Primary Cup 
+5. Secondary Cup
+
+
+
+-----
+
+[CAUTION"
+
+ODo not remove the primary and secondary cups from the 
+piston since removal will damage them.
+
+Master Cylinder Assembly 
+Refer to the Front Brake Disassembly/Assembly section in 
+the Base Manual.
+
+Brake Maintenance
+
+Brake Disc Runout Inspection
+
+A warped disc will cause the brake pads to drag on the 
+disc and will wear down both the pads and disc quickly. 
+Dragging will also cause overheating and poor braking 
+efficiency. 
+•Raise the wheel off the ground. 
+oTurn the handlebar fully to one side if it is the front wheel. 
+•Set up a dial gauge against the brake disc and rotate the 
+wheel to measure the runout. The difference between the 
+highest and lowest dial reading is the amount of runout. 
+*lf runout is beyond the service limit, replace the brake disc.

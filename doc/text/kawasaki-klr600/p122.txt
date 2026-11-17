@@ -1,0 +1,44 @@
+Item Standard Service Limit See Page
+Front Fork:
+Air pressure Atmospheric pressure 11-8
+Oil amount 430 +4 mL --- 11-9
+Oil level 170 +2 mm —--- 11-9
+(extended without (from the top of the
+main spring) inner tube)
+Oil viscosity SAE 10W
+Rear Shock Absorber:
+Spring preload 882 N (90 kg, 199 |b) —---— 11-12
+Damper setting position 2 ---
+Swing Arm
+Sleeve outside diameter 19.979 — 20.000 mm 19.95 mm 11-14
+Uni-trak
+Sleeve outside diameter 19.979 — 20.000 mm 19.95 mm 11-14
+
+Front Fork Spring Force
+(per one fork leg unit)
+
+Rear Shock Absorber Spring Force
+
+Rear Shock Absorber Spring Force
+
+607.5
+
+600F—
+
+2H] 562.5
+
+Front Fork Spring Force
+
+= {per one fork leg unit) |
+
+160 ea
+=; 120
+=< 106
+= 80 =
+
+40 J
+-10 010 40 80 120 160 200 240 250 -30 20 0 20 40 60 80 100 105
+
+Compression (mm)
+
+Compression (mm)

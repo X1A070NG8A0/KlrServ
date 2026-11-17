@@ -1,0 +1,89 @@
+ELECTRICAL SYSTEM 
+217
+
+FAN RELAY TEST
+
+Ohmmeter
+
+Switch 
+Coil 
+terminal 
+terminal 
+white 
+white 
+OV 
+te)
+
+Switch 
+Coil 
+terminal 
+terminal 
+blue 
+red/white
+
+(3) 
+(1)
+
+ter. The temperature sensor and threads must 
+2. Remove the relay from the mount, then unplug 
+be submerged. Do not allow the parts to touch 
+the relay.
+
+the bottom or side of the container. 
+3. Connect a 12-volt battery and ohmmeter to the 
+c. Refer to Table 2 for the temperature and re- 
+_relay terminals as shown in Figure 67. 
+sistance specifications.
+
+d. Slowly heat the water and observe the ther-
+
+mometer and ohmmeter readings. Do not ex- 
+cessively overheat the switch.
+
+e. Replace the switch if it does not operate
+
+within the specifications.
+
+6. Install the switch into the radiator. Tighten the
+
+switch to 7.4 Nem (65 in.-lb.). 
+a. With the battery and ohmmeter connected as
+
+7. Fill and bleed the cooling system (Chapter 
+shown in Figure 67, check for continuity
+
+Three). 
+through the relay switch (terminals 3 and 4). 
+There should be continuity.
+
+b. Disconnect the battery and check for continu- 
+nan es 
+ity through the relay switch (terminals 3 and 
+peeune 
+4). There should be no continuity.
+
+The fan relay is located at the right side of the mo- 
+c. With the battery disconnected measure the re- 
+torcycle, under the fuel tank (B, Figure 65). Refer 
+lay coil resistance (terminals 1 and 2). The 
+to Figure 63. 
+meter should read 65-85 ohms.
+
+1. Remove the fuel tank. 
+5. Replace the relay if it fails any of the checks.
+
+
+
+-----
+
+Battery
+
+a. Set the ohmmeter to R X | ohm.
+
+b. Note that terminals 
+1 (red/white) and 2 
+(white) are connected to the relay coil and ter- 
+minals 3 (blue) and 4 (white) are connected to 
+the relay switch.
+
+4. Make the following checks:

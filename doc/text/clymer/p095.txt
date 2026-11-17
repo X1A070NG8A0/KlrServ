@@ -1,0 +1,82 @@
+ENGINE TOP END 
+83
+
+
+
+-----
+
+e. Clean all electrical connections and apply di-
+
+electric grease when reconnecting.
+
+CAMSHAFTS AND CAM CHAIN
+
+TENSIONER
+
+Camshaft and Cam Chain 
+Tensioner Removal
+
+The camshafts and cam chain tensioner can be re- 
+moved with the engine mounted in the frame. If per- 
+forming the valve clearance check and adjustment 
+(Chapter Three), the camshafts must be removed 
+only when valve clearance is incorrect.
+
+Refer to Figure 6.
+
+1. Remove the cylinder head cover as described in
+
+this chapter.
+
+2. Remove the timing plug (A, Figure 13) and the
+
+rotor nut plug (B).
+
+3. Set the engine at TDC (top dead center) as fol-
+
+lows:
+
+a. Fit a socket onto the rotor nut and turn the
+
+crankshaft counterclockwise until the T mark 
+on the rotor is aligned with the index mark in
+
+the timing hole (Figure 14).
+
+b. Verify the engine is at TDC by checking the
+
+camshaft lobes. If properly set, all camshaft 
+lobes will point away from the center of the 
+engine (Figure 15). If the lobes point toward
+
+the center of the engine, rotate the crankshaft 
+one full turn and realign the TDC T mark.
+
+NOTE 
+Before further disassembly, measure 
+and record the valve clearance (refer 
+to Chapter Three for valve clearance 
+check and adjustment procedures) for
+
+all valves. Incorrect clearances can 
+be adjusted during the reassembly
+
+process, preventing removal of the
+
+camshafts a second time.
+
+4. Remove the cam chain tensioner (Figure 16) 
+from the cam chain tunnel as follows:
+
+a. Loosen, but do not remove the center bolt
+
+(A).
+
+b. Remove the top and bottom bolts (B).
+
+c. Remove the tensioner and gasket.
+
+CAUTION 
+Anytime the tensioner mounting bolts
+
+are loosened, the tensioner must be

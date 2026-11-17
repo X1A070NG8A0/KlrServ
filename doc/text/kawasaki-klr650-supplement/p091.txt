@@ -1,0 +1,71 @@
+Precautions
+
+Refer to the Base Manual, noting the following. oBecause 
+of the large amount of current, never keep the starter button 
+pushed when the starter motor will not turn over, or the 
+current may burn out the starter motor windings.
+
+Charging System
+
+Charging System Wiring Diagram
+
+4. Fuse 20A 
+5. Battery 
+6. Loads
+
+1. Charging Coils (Magneto) 
+2. Regulator/Rectifier 
+3. Ignition Switch
+
+Measuring Stator Coil Resistance
+
+Refer to the Base Manual, noting the following.
+
+Stator Coil Resistance
+
+Meter Connections:
+
+Female magneto connector 
+(disconnected) 
+x 1 ft 
+One yellow lead 
+Other yellow lead 
+0.3- 1.0 ft 
+A. Regulator/Rectifier
+
+Lead location
+
+Meter range 
+One meter load 
+Another meter lead
+
+Meter Reading
+
+
+
+-----
+
+ELECTRICAL SYSTEM 14-5
+
+Battery
+
+Refer to the Base Manual, noting the following. •Refer to 
+Cable, Wire, and Hose Routing in the chapter 1 for the 
+battery vent hose routing.
+
+J-
+BR J
+
+W — 
+-W'
+
+® 
+-BR-
+
+©
+
+77T
+
+Regulator/Rectifier Inspection 
+Rectifier Circuit Test: 
+•Remove the regulator/rectifier.

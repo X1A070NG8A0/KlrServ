@@ -1,0 +1,141 @@
+70
+
+when removing and installing shims, 
+measure the shims with a caliper to 
+ensure their actual thickness.
+
+a. Refer to Table 3 for the intake and exhaust
+
+valve clearances.
+
+b. Find the difference between the specified
+
+clearance and the existing clearance. This dif- 
+ference is the amount that must be added
+
+(loose valve) or subtracted (tight valve) from
+
+the value of the shim removed in Step 7.
+
+c. For example: If the existing clearance for an
+
+exhaust valve is 0.14 mm, and the specified 
+clearance is 0.15-0.25 mm, the difference is 
+0.01-0.11 mm. In this example, the replace- 
+ment shim should be this much smaller than
+
+the removed shim. If the removed shim is
+
+2.55 mm thick (a No. 255 shim), the replace- 
+ment shim should be 2.45 mm thick (a No. 
+245 shim). This would increase clearance by
+
+0.10 mm and make clearance 0.24 mm, which
+
+is within the specification.
+
+9. Lubricate the replacement shim with engine oil, 
+then install the shim onto the valve lifter. Place the 
+shim number down so it does not get worn away by
+
+the camshaft lobe.
+
+10. Repeat the procedure for the remaining valves
+
+that are out of specification.
+
+11. Install the camshaft(s) as described in Chapter
+
+Four.
+
+12. Check valve clearance. If clearance is not cor-
+
+rect, remove the camshaft(s) and adjust the valves
+
+that are out of specification.
+
+13. Install the cylinder head cover as described in 
+Chapter Four.
+
+14. Install the timing plug (A, Figure 74) and the
+
+rotor nut plug (B).
+
+Carburetor Idle Speed and Mixture 
+Adjustment
+
+The carburetor must be adjusted so the idle speed 
+keeps the engine running, but is also low enough to 
+provide compression braking. Additionally, the pi-
+
+lot mixture screw must be adjusted so throttle re- 
+sponse is good from an idle to about 1/4 throttle.
+
+Use the following procedure to adjust the idle 
+speed and pilot mixture screw for the standard jets. 
+The jet needle is not adjustable for the CVK40 car- 
+buretor.
+
+1. Check the throttle cables for proper adjustment.
+
+
+
+-----
+
+CHAPTER THREE
+
+2. Check the air filter for cleanliness.
+
+3. Set the pilot mixture screw (A, Figure 80) as fol-
+
+lows:
+
+NOTE 
+Unless already removed, 
+the pilot 
+mixture screw will be blocked by a 
+plug. To remove the plug, it is neces-
+
+sary to remove the carburetor from 
+the engine and drill a hole in the plug 
+so itcan be pried out. Follow the steps
+
+in the carburetor disassembly proce- 
+dure in Chapter Eight. Also, if the 
+mixture screw is accessible, there is 
+minimal clearance between the pilot 
+screw bore and starter. Unless special 
+tools are available, a small, angled 
+screwdriver with a straight blade will 
+have to be fabricated. Kawasaki does 
+not offer a tool for making this adjust-
+
+ment.
+
+a. Lightly seat the screw, then turn it out 1 3/8
+
+turns. This is a starting point for adjustment.
+
+b. Start the engine and allow it to warm up.
+
+c. Set the engine idle speed to 1200-1400 rpm.
+
+Set the idle speed by turning the throttle stop 
+screw (B, Figure 80). Raise and lower the en- 
+gine speed a few times to ensure that it returns
+
+to the set idle speed.
+
+d. Mark the position of the pilot air screw or
+
+tool. From its initial setting, turn the pilot air 
+screw in and out in small increments to find
+
+the points where the engine speed begins to
+
+decrease. Set the pilot screw between the two 
+points.
+
+e. Reset the idle speed to bring it within its re-
+
+quired setting.

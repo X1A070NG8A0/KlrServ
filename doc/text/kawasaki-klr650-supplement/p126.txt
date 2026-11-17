@@ -1,0 +1,148 @@
+General Information
+
+General Specifications
+
+Items 
+KL650-A16
+
+Dimensions:
+
+Overall length 
+ 
+2205 mm
+
+Overall width 
+ 
+940 mm
+
+Overall height 
+ 
+1 345mm
+
+Wheelbase 
+ 
+1 495 mm
+
+Road clearance 
+ 
+240 mm
+
+Seat height 
+ 
+890 mm
+
+Dry weight 
+ 
+153 kg, (CA) 153.5 kg
+
+Curb weight: 
+Front 
+81 kg, (CA) 81.5 kg
+
+Rear 
+97 kg
+
+Fuel tank capacity 
+ 
+23 L
+
+Performance
+
+Minimum turning radius 
+2.4 m
+
+Engine
+
+Type 
+ 
+4-stroke, DOHC, 4-valve, 1-cylinder
+
+Cooling system 
+ 
+Liquid-cooled
+
+Bore and stroke 
+ 
+100.0 x 83.0 mm
+
+Displacement 
+ 
+651 mL
+
+Compression ratio 
+ 
+9.5 : 1
+
+Maximum horsepower 
+35.3 kW (48 ps) @6500 r/mln (rpm)
+
+Maximum torque 
+ 
+55 N-m (5.6 kgf-m. 40.5 ft-lb) @5500 r/min (rpm)
+
+Carburetion system 
+ 
+Carburetor, Keihin CVK40
+
+Starting system 
+ 
+Electric
+
+Ignition system 
+ 
+CDI
+
+Timing advance 
+ 
+Electronically advanced
+
+Ignition timing 
+ 
+from 10 BTDC @1300 r/mln (rpm) to 30 BTDC @3300 r/min (rpm)
+
+Spark plugs 
+ 
+NGK DPR8EA-9 or ND X 24 EPR-U9
+
+Valve timing:
+
+Inlet 
+Open 
+19 BTDC
+
+Close 
+69 ABDC
+
+Duration 
+268
+
+Exhaust 
+Open 
+57” BBDC
+
+Close 
+31 ATDC
+
+Duration 
+268
+
+Lubrication system 
+ 
+Forced lubrication (wet sump)
+
+Engine oil: 
+Type 
+API SE, SF or SG 
+API SH or SJ with JASO MA
+
+Viscosity 
+SAE10W40
+
+Capacity 
+2.5 L
+
+
+
+-----
+
+SUPPLEMENT - 2002 MODEL 17-3

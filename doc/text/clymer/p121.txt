@@ -1,0 +1,80 @@
+ENGINE TOP END 
+109
+
+ment. Repeat this step at other points around 
+b.
+
+the piston. Replace the rings if any measure- 
+ment exceeds the service limit in Table 2. If 
+excessive clearance remains after new rings
+
+are installed, replace the piston.
+
+d. Repeat substeps b and c for the second com-
+
+pression ring. The oil control ring is not mea-
+
+sured.
+
+2. Remove the top and second rings with a ring ex- 
+check for binding or snags (Figure 99). Repair mi- 
+pander (Figure 93) or by hand (Figure 94). 
+nor damage with a fine-cut file.
+
+
+
+-----
+
+Spread the rings only enough to clear the pis-
+
+a.
+
+ton. 
+As each ring is removed, check that the top 
+mark is visible. The top ring should be 
+marked with N and the second ring marked 
+with 2N (Figure 95). If necessary, mark the 
+rings on their top surface if they will be rein-
+
+b.
+
+stalled. The oil control ring rails are not 
+marked.
+
+3. Remove the oil ring assembly by first removing
+
+the top rail, followed by the bottom rail. Remove 
+(by hand) the expander ring last.
+
+4. Clean and inspect the piston as described under 
+Piston Inspection in this section.
+
+5. Measure the thickness of the top and second 
+rings (Figure 96). Replace all the rings if any mea- 
+surement exceeds the service limit listed in Table 2.
+
+6. Inspect the end gap of the top and second rings as
+
+follows:
+
+Insert a ring into the bottom of the cylinder. 
+Use the piston to square the ring to the cylin-
+
+a.
+
+der wall. Push the ring about 10 mm (0.4 in.)
+
+into the cylinder. 
+Measure the end gap with a feeler gauge (Fig- 
+ure 97). Replace all the rings if any measure- 
+ment exceeds the service limit listed in Table
+
+2. Always replace rings as a set. If new rings
+
+are to be installed, gap the new rings after the 
+cylinder has been serviced. If the new ring 
+gap is too narrow, carefully widen the gap us- 
+ing a fine-cut file as shown in Figure 98. 
+Work slow and measure often.
+
+7. Roll each ring around its piston groove and

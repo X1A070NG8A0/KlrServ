@@ -1,0 +1,26 @@
+411
+
+Clutch Hub Spline inspection
+
+@Visually inspect where the teeth on the steel plates
+wear against the splines of the clutch hub.
+
+*if there are notches worn into the splines, replace the
+clutch hub, Also, replace the steel plates if their teeth
+are damaged
+
+A. Magneto Holder: 57001-1184
+
+A. Clutch Hub Spline
+
+Primary Gear
+Kick Starter
+Removal or installation
+@Using the magneto holder (special tool) to hold the
+magneto, loosen of tighten the primary gear nut. Installation
+When installing the kick pedal, align the slot with the
+Tightening Torque shaft punch mark.
+
+| Primary Gear Nut 120 Nem (12 kg-m, 87 ft-tb) |
+
+A. Primary Gear Nut A. Punch Mark B, Slot

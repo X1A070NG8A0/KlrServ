@@ -1,0 +1,109 @@
+222 
+CHAPTER NINE
+
+Table 
+1 ELECTRICAL SYSTEM GENERAL SPECIFICATIONS (continued)
+
+Light bulbs
+
+Headlight 
+Taillight/brake light
+
+1987-2000 
+2001-on 
+Turn signals 
+Spark plug
+
+Type
+
+Table 2 ELECTRICAL SYSTEM TEST SPECIFICATIONS
+
+Exciter coil resistance (white—to—red wires) 
+Fan relay coil resistance 
+Ignition coil resistance
+
+Primary coil 
+Secondary coil (spark plug lead cap removed) 
+Pickup coil resistance (black/yellow—to—black wires) 
+Radiator fan switch resistance
+
+Ambient temperature 
+On position (above 94° C [201° F]) 
+Off position (below 91° C [196° F]) 
+Regulator/rectifier output voltage 
+Stator coil resistance (yellow-to—yellow wires) 
+Starter
+
+Brush length
+
+Service limit 
+Commutator outside diameter
+
+Service limit 
+Starter circuit relay coil resistance 
+Water temperature gauge resistance
+
+Black/yellow—to—yellow/white wires 
+Brown-to—yellow/white wires 
+Water temperature sender resistance
+
+At 80° C (176° F) 
+At 100° C (212° F)
+
+Table 3 ELECTRICAL SYSTEM TORQUE SPECIFICATIONS
+
+Neutral switch 
+Radiator fan switch 
+Rotor bolt*
+
+To seat
+
+Final 
+Spark plug 
+Starter clutch bolts 
+Starter motor mounting bolts 
+Upper engine mounting bolts 
+Water temperature sender
+
+*Refer to text
+
+
+
+-----
+
+12 volt, H4 55/60 watts
+
+12 volt, 8/27 watts 
+12 volt, 5/21 watts 
+12 volt, 23 watts
+
+NGK DP8EA-9 
+NGK DPR8EA-9 
+ND X24EP-U9 
+ND X24EPR-U9 
+0.8-0.9 mm (0.032-0.036 in.)
+
+100-200 ohms 
+65-85 ohms
+
+0.15-0.21 ohm 
+3.8-5.8K ohms 
+100-150 ohms
+
+Infinity 
+Infinity rising to 0.5 ohm 
+Declining to infinity 
+12-15 volts 
+0.3-1.0 ohm
+
+12-12.5 mm (0.47-0.49 in.) 
+6 mm (0.24 in.) 
+28 mm (1.1 in.) 
+27 mm (1.06 in.) 
+65-85 ohms
+
+80-100 ohms 
+95-120 ohms
+
+47-57 ohms 
+26-30 ohms

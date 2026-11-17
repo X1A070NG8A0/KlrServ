@@ -1,0 +1,51 @@
+7-4 ENGINE BOTTOM END/TRANSMISSION
+
+Service Data
+
+Item 
+Standard 
+Service Limit
+
+Transmission:
+
+Shift fork finger thickness 
+4.4 — 4.5 mm 
+4.3 mm
+
+Gear shift fork groove width 
+4.55 — 4.65 mm 
+4.8 mm
+
+Shift fork guide pin diameter 
+5.9 — 6.0 mm 
+5.8 mm
+
+Shift drum groove width 
+6.05 — 6.20 mm 
+6.3 mm
+
+Crankshaft:
+
+Connecting rod big end radial clearance 
+0.008 — 0.020 mm 
+0.07 mm
+
+Connecting rod side clearance 
+0.25 — 0.35 mm 
+0.60 mm
+
+Crankshaft runout: Left half 
+0.03 mm TIR 
+0.10 mm TIR
+
+Right half 
+0.04 mm TI R 
+0.10 mm TIR
+
+Cold-fitting tolerance between crankpin and flywheel 
+0.093 -0.122 mm 
+ --
+
+
+
+-----

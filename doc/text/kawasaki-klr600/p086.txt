@@ -1,0 +1,32 @@
+74
+
+Disassembly Flow Chart:
+
+Check that the following parts have been removed, prior
+to splitting the crankcase
+
+V
+
+Left Side Top Right Side
+OEngine sprocket oCylinder base gasket OF ront balancer weight
+OCamshaft chain OPrimary Gear
+OBalancer chain oClutch Assembly
+
+OFront balancer weight, sprocket
+ORear balancer sprocket
+
+OChange lever
+
+V
+
+Split the Crankcase Halves: requires engine removal.
+
+v
+
+Crankshaft Transmission Rear balancer
+Drive shaft assembly
+Output shaft assembly
+Shift drum
+
+Shift forks
+

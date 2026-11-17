@@ -1,0 +1,70 @@
+ELECTRICAL SYSTEM 
+195
+
+
+
+-----
+
+e. Install the alternator cover as described in this
+
+chapter.
+
+Inspection
+
+1. Inspect the clutch for proper operation as fol- 
+lows:
+
+a. With the clutch gear facing up, turn the gear
+
+counterclockwise. The gear should turn freely 
+and smoothly in that direction (Figure 18).
+
+b. Attempt to turn the gear clockwise. The gear
+
+should not turn.
+
+c. Ifthe gear turns in both directions or is always
+
+locked up, disassemble and inspect the clutch 
+assembly.
+
+2. Remove the clutch sprocket from the rotor. Turn
+
+the sprocket counterclockwise and twist it squarely 
+away from the rotor. Remove the washer from the
+
+clutch.
+
+3. Clean and inspect the clutch assembly (Figure
+
+19).
+
+a. Inspect the clutch gear teeth for wear or dam-
+
+age.
+
+b. Inspect the clutch gear bearing for wear or
+
+scoring.
+
+c. Inspect the washer for damage.
+
+d. Inspect the clutch rollers (Figure 20). The
+
+rollers should be undamaged and operate 
+smoothly.
+
+4. Ifthe clutch is damaged, remove the clutch from 
+the rotor as follows:
+
+a. Remove the six bolts (Figure 21), then re-
+
+move the clutch and coupling from the rotor.
+
+b. Install a new clutch and the coupling.
+
+c. Apply threadlocking compound to the bolts,
+
+then tighten the bolts equally in several
+
+passes to 34 Nem (25 ft.-lb.).

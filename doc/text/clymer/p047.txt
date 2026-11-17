@@ -1,0 +1,177 @@
+TROUBLESHOOTING
+
+commonly responsible 
+for poor engine perfor- 
+mance.
+
+It is recommended to review Chapter Eight (Fuel 
+System) and Chapter Nine (Electrical System) to 
+gain a working knowledge of each of 
+these systems. 
+Throughout the chapters, explanations, photos and 
+diagrams are provided to aid in learning the func-
+
+tion of the major components that make up each
+
+system.
+
+Engine Will Not Start or Starts and Dies
+
+1. Fuel system:
+
+NOTE 
+For California models, if the fuel tank
+
+is overfilled, heat can cause the fuel to 
+expand and overflow into the evapo- 
+rative emission control unit lines, lo- 
+cated near the filler neck. This can 
+cause hard starting and engine hesi- 
+tation until the fuel is cleared from the 
+system.
+
+. Fuel valve off.
+
+. Fuel tank near empty.
+
+Improper operation of choke lever.
+
+. Choke plunger stuck open.
+
+Idle speed too low. 
+Engine flooded.
+
+. Clogged fuel tank cap vent.
+
+. Contaminated fuel.
+
+Clogged fuel valve, fuel line or carburetor. 
+Clogged air filter.
+
+. Fuel tank diaphragm-valve vacuum hose dis-
+
+yo 
+SY 
+=n 
+Gey 
+ine 
+@ 
+fel 
+a) 
+ter
+
+connected or leaking. 
+Malfunctioning fuel tank diaphragm valve.
+
+—
+
+m. Pilot mixture screw misadjusted.
+
+
+
+-----
+
+n. Float valve clogged or sticking.
+
+Air leaks at intake duct. 
+Wrong pilot jet for altitude.
+
+O.
+
+p.
+
+. Ignition:
+
+Fouled/improperly gapped spark plug.
+
+. Damaged/shorted spark plug lead and cap.
+
+Loose connection in ignition system. 
+Damaged coil.
+
+. Damaged ignition switch.
+
+Dirty/shorted engine stop switch.
+
+. Damaged exciter coil or ignition pickup coil
+
+(check ignition timing).
+
+. Damaged CDI unit.
+
++ Engine:
+
+. Compression release malfunctioning.
+
+. No valve clearance.
+
+. Leaking cylinder head gasket.
+
+. Stuck/seized valve.
+
+. Worn piston and/or cylinder.
+
+Poor Idle and Low Speed Performance
+
+1. Fuel system:
+
+Improper operation of choke lever.
+
+a.
+
+. Choke plunger stuck open.
+
+. Idle speed too low.
+
+. Engine flooded.
+
+Clogged fuel tank cap vent. 
+Contaminated fuel.
+
+. Clogged fuel valve, fuel line or carburetor.
+
+. Clogged air filter.
+
+Fuel tank diaphragm-valve vacuum hose dis- 
+connected or leaking. 
+Malfunctioning fuel tank diaphragm valve.
+
+seh 
+eh 
+©) 
+GilGe 
+os
+
+. Pilot mixture screw misadjusted.
+
+' Float valve clogged or sticking.
+
+. Air leaks at intake duct.
+
+. Loose carburetor diaphragm cover.
+
+. Torn or damaged slide diaphragm.
+
+. Dragging carburetor slide.
+
+. Wrong pilot jet for altitude.
+
+Clogged muffler.
+
+2. Ignition:
+
+Fouled/improperly gapped spark plug.
+
+. Damaged/shorted spark plug lead and cap.
+
+Loose connection in ignition system.
+
+. Damaged coil.
+
+Damaged ignition switch. 
+Dirty/shorted engine stop switch.
+
+ho 
+f..0 
+co 
+©

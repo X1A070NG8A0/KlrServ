@@ -1,0 +1,65 @@
+# Clymer Chapter Six and Seven tables, transcribed from page images (PDF p167, p182).
+# `years` marks model-year-specific rows; the site highlights the rows that
+# apply to the owner's 2006 bike and greys out the others.
+chapter: "Clutch, Gearshift Linkage, Lubrication System and Transmission"
+tables:
+  - id: clutch
+    title: "Clutch specifications"
+    kind: limits
+    cite: {s: clymer, p: 167, ref: "Chapter Six, Table 1"}
+    rows:
+      - {group: "Friction plate quantities", item: "Friction plates", years: "1987-1995", std: "7"}
+      - {group: "Friction plate quantities", item: "Friction plates", years: "1996-on", std: "8"}
+      - {group: "Clutch plate (steel) quantities", item: "Steel plates", years: "1987-1995", std: "6"}
+      - {group: "Clutch plate (steel) quantities", item: "Steel plates", years: "1996-on", std: "7"}
+      - {item: "Friction plate thickness", std: "2.80-3.1 (0.110-0.122)", limit: "2.60 (0.102)"}
+      - {item: "Clutch plate (steel) warp", std: "0.0-0.2 (0.0-0.008)", limit: "0.3 (0.012)"}
+      - {group: "Spring free length", item: "Clutch spring", years: "1987-1995", std: "34.2 (1.35)", limit: "33.1 (1.30)"}
+      - {group: "Spring free length", item: "Clutch spring", years: "1996-on", std: "38.7 (1.52)", limit: "36.4 (1.43)"}
+
+  - id: oil-pump
+    title: "Oil pump specifications"
+    cite: {s: clymer, p: 167, ref: "Chapter Six, Table 2"}
+    rows:
+      - {item: "Lubrication system", value: "Troichoid pump, forced pressure, wet sump"}
+      - {item: "Oil pump pressure at 4000 rpm", value: "78-147 kPa (11-21 psi)"}
+      - {item: "Relief valve opening pressure", value: "430-590 kPa (62-85 psi)"}
+
+  - id: clutch-torque
+    title: "Clutch torque specifications"
+    kind: torque
+    cite: {s: clymer, p: 167, ref: "Chapter Six, Table 3"}
+    rows:
+      - {item: "Clutch hub locknut", nm: "130", ftlb: "96"}
+      - {group: "Clutch spring bolts", item: "Clutch spring bolts", years: "1987-1995", nm: "10", inlb: "88"}
+      - {group: "Clutch spring bolts", item: "Clutch spring bolts", years: "1996-on", nm: "9", inlb: "80"}
+      - {item: "Oil pressure relief valve", nm: "15", ftlb: "11"}
+      - {item: "Primary drive gear nut", nm: "120", ftlb: "89"}
+      - {item: "Shift cam bolt", nm: "12", inlb: "106"}
+
+  - id: transmission-general
+    title: "General transmission specifications"
+    cite: {s: clymer, p: 182, ref: "Chapter Seven, Table 1"}
+    rows:
+      - {item: "Transmission", value: "Five-speed constant mesh"}
+      - {group: "Primary reduction", item: "Type", value: "Gear"}
+      - {group: "Primary reduction", item: "Ratio", value: "2.272 (75/33)"}
+      - {item: "Final reduction ratio", value: "2.866 (43/15)"}
+      - {item: "Overall drive ratio", value: "5.157 (top gear)"}
+      - {group: "Gear ratios", item: "1st gear", value: "2.266 (34/15)"}
+      - {group: "Gear ratios", item: "2nd gear", years: "1987-1996 (to KL650AE032209)", value: "1.529 (26/17)"}
+      - {group: "Gear ratios", item: "2nd gear", years: "1996-on (from KL650AE032210)", value: "1.444 (26/18)"}
+      - {group: "Gear ratios", item: "3rd gear", years: "1987-1996 (to KL650AE032209)", value: "1.181 (26/22)"}
+      - {group: "Gear ratios", item: "3rd gear", years: "1996-on (from KL650AE032210)", value: "1.136 (25/22)"}
+      - {group: "Gear ratios", item: "4th gear", value: "0.954 (21/22)"}
+      - {group: "Gear ratios", item: "5th gear", value: "0.791 (19/24)"}
+
+  - id: transmission
+    title: "Transmission specifications"
+    kind: limits
+    cite: {s: clymer, p: 182, ref: "Chapter Seven, Table 2"}
+    rows:
+      - {item: "Shift drum groove width", std: "6.05-6.20 (0.238-0.244)", limit: "6.3 (0.248)"}
+      - {item: "Gear groove width", std: "4.55-4.65 (0.179-0.183)", limit: "4.8 (0.189)"}
+      - {item: "Shift fork claw thickness", std: "4.4-4.5 (0.173-0.177)", limit: "4.3 (0.169)"}
+      - {item: "Shift fork guide pin diameter", std: "5.9-6.0 (0.232-0.236)", limit: "5.8 (0.228)"}

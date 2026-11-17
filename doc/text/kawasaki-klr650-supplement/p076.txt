@@ -1,0 +1,93 @@
+•Using a socket wrench, turn the spring preload adjuster as 
+required. 
+oFor Californian vehicles, remove the liquid/vapor separator 
+from its bracket.
+
+A. Spring Preload Adjuster
+
+Setting Table for Spring Preload and Damper Adjusters
+
+Riding 
+^xÇondition
+
+An average- 
+build rider or 
+a rider with 
+load
+
+A rider and 
+a passenger
+
+A rider and 
+a passenger 
+with load
+
+Adjuster
+
+Spring preload 
+©or 2 
+@ or 3 
+© , 4, or 5
+
+Damper 
+(D orn 
+(g)orm 
+© or nn
+
+O: Standard setting (number) is identified with a circle
+
+marking.
+
+Damper Adjustment 
+Refer to the Base Manual, noting the following. 
+•See Setting Table in the Spring Preload Adjustment 
+paragraph to adjust the damper adjuster.
+
+Rear Shock Removal •Remove the following. 
+Side Covers Seat 
+Fuel Tank 
+Battery 
+Muffler 
+•Remove the mounting bolt of the rear brake master 
+cylinder reservoir. 
+•Remove the rear right footpeg bracket bolts. 
+•Loosen the clamp of the carburetor air duct. •Disconnect 
+the main harness connectors, and remove the clamps to 
+free rear frame from the harness. 
+•Loosen the rear frame lower bolts and remove the upper 
+bolts. 
+•Tilt the rear frame backwards.
+
+
+
+-----
+
+SUSPENSION/STEERING 11-7
+
+A. Carburetor Air Duct Clamp 
+B. Reservoir Mounting Bolt 
+C. Footpeg Bracket Bolts 
+D. Rear Frame Upper Bolt (remove) 
+E. Rear Frame Lower Bolt (loosen)
+
+A. Rear Frame 
+B. Rear Shock Absorber
+
+•Loosen the upper and lower shock absorber mounting 
+nuts. Do not remove them yet. 
+•Place a stand or block under the motorcycle so that the 
+rear wheel off the ground. 
+•Remove the rear shock absorber mounting bolts and nuts, 
+take out the rear shock absorber.
+
+Rear Shock Installation Point 
+•Tighten the following bolts to the specified torque.
+
+Tightening Torque 
+Rear Shock Mounting:
+
+Upper: 59 N-m (6.0 kg-m, 43 ft-lb) 
+Lower: 98 N-m (10.0 kg-m, 72 ft-lb) 
+Rear Frame Mounting Bolts:
+
+25 N-m (2.5 kg-m, 18.0 ft-lb)

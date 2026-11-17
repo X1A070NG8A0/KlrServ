@@ -1,0 +1,109 @@
+Fastener 
+ 
+Torque  
+Remarks
+
+Controls/I nstruments:
+
+Handlebar clamp bolts 
+24 
+2.4 
+17.5
+
+Frame:
+
+Rear frame mounting bolts 
+25 
+2.5 
+18.0
+
+Electrical System:
+
+Spark plug 
+14 
+1.4 
+10.0
+
+Magneto flywheel bolt 
+175 
+18.0 
+130
+
+Starter motor mounting bolts 
+9.8 
+1.0 
+87 in-lb
+
+Starter clutch bolts 
+34 
+3.5 
+25 
+L
+
+The table below, relating tightening torque to thread diameter, lists the basic torque for the bolts and nuts. 
+Use this table for only the bolts and nuts which do not require a specific torque value. All of the values are for 
+use with dry solvent-cleaned threads.
+
+General Fasteners:
+
+Threads dia. (mm) 
+Torque
+
+N-m 
+kg-m 
+ft-lb
+
+5 
+3.4 -4.9 
+0.35 - 0.50 
+30 - 43 in-lb
+
+6 
+5.9 - 7.8 
+0.60 - 0.80 
+52 - 69 in-lb
+
+8 
+14 - 19 
+1.4 - 1.9 
+10.0-13.5
+
+10 
+25-34 
+2.6 - 3.5 
+19.0-25
+
+12 
+44-61 
+4.5-6.2 
+33-45
+
+14 
+73-98 
+7.4 - 10.0 
+54-72
+
+16 
+115-155 
+11.5-16.0 
+83-115
+
+18 
+165 - 225 
+17.0-23 
+125- 165
+
+20 
+225 - 325 
+23-33 
+165-240
+
+
+
+-----
+
+GENERAL INFORMATION 1-9
+
+N-m 
+kg-m 
+ft-lb

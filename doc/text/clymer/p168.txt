@@ -1,0 +1,62 @@
+CHAPTER SEVEN
+
+TRANSMISSION AND INTERNAL
+
+SHIFT MECHANISM
+
+This chapter provides service procedures for the 
+transmission and internal shift mechanism. Read
+
+this chapter and become familiar with the proce- 
+dures, photos and illustrations to understand the
+
+skill and equipment required. Refer to 
+Chapter One
+
+for tool usage and techniques.
+
+TRANSMISSION OPERATION
+
+The machine is equipped with a five-speed con- 
+stant-mesh transmission. The gears on the input
+
+shaft (A, Figure 1) are meshed with the gears on the 
+output shaft (B). Each pair of meshed gears repre-
+
+sents one gear ratio. For each pair of gears, one of
+
+the gears is splined to its shaft, while the other gear 
+freewheels on its shaft.
+
+Next to each freewheeling gear is a gear that is 
+splined to the shaft. This locked gear can slide on
+
+the shaft and lock into the freewheeling gear, mak- 
+ing that gear ratio active. Anytime the transmission
+
+is in gear one pair of meshed gears are locked to
+
+their shafts, and that gear ratio is selected. All other 
+meshed gears have one freewheeling gear, making 
+those ratios inoperative.
+
+
+
+-----
+
+To engage and disengage the various gear ratios,
+
+the splined gears are moved by shift forks. The shift
+
+forks are guided by the shift drum, which is oper-
+
+ated by the shift lever. As the bike is upshifted and 
+downshifted, the shift drum rotates and guides the
+
+forks to engage and disengage pairs of gears on the 
+transmission shafts.
+
+SERVICE NOTES
+
+The engine crankcase must be split to remove the 
+transmission and shift assemblies (Figure 2). Re-

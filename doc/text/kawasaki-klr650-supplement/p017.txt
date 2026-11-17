@@ -1,0 +1,52 @@
+MO GENERAL INFORMATION
+
+Cable, Wire, and Hose Routing
+
+Control Cables
+
+9. Ground Lead 
+10. To Diode Assembly 
+11. To Turn Signal Relay 
+12. To Horn 
+13. ToCDI Unit 
+14. To Water Tempera 
+ture Sender 
+15. To Ignition Coil
+
+1. Choke Cable 
+2. Throttle Cable 
+3. Main Harness 
+4. Clutch Cable 
+5. To Meter Bracket 
+6. To Headlight 
+7. To Turn Signal Light 
+8. To City Light
+
+Electrical Wires
+
+
+
+-----
+
+16. To Magneto 
+17. To Neutral Switch 
+and Pickup Coil 
+18. To Radiator Fan 
+Relay 
+19. To Radiator Fan 
+20. To Radiator Fan 
+Switch 
+21. Harness Position 
+Mark 
+22. To Starter Relay 
+23. To Starter Circuit 
+Relay 
+24. To Side Stand Switch 
+25. To Rear Brake Light 
+Switch 
+26. To Fuses 
+27. To Battery 
+To Regulator/ 
+Rectifier 29. To Rear
+
+Harness

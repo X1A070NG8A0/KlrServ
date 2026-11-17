@@ -1,0 +1,132 @@
+3-4 ENGINE TOP END
+
+Service Data
+
+Item 
+Standard 
+Service Limit
+
+Camshafts, Chain:
+
+Cam height: 
+Inlet 
+36.75 — 36.85 mm 
+36.65 mm
+
+Exhaust 
+36.25 — 36.35 mm 
+36.15 mm
+
+Camshaft bearing oil clearance 
+ 
+0.030 — 0.064 mm 
+0.15 mm
+
+Camshaft journal diameter 
+ 
+22.949 - 22.970 mm 
+22.92 mm
+
+Camshaft bearing inside diameter 
+23.000-23.013 mm 
+23.07 mm
+
+Camshaft chain 20-link length 
+ 
+127.0 - 127.4 mm 
+128.9 mm
+
+Balancer chain 20-link length 
+ 
+190.5 — 190.9 mm 
+193.4 mm
+
+Valves:
+
+Valve clearance: 
+Inlet 
+0.10 — 0.20 mm 
+ ---
+
+Exhaust 
+0.15 — 0.25 mm 
+ ---
+
+Valve head thickness: 
+Inlet 
+1.0 mm 
+0.5 mm
+
+Exhaust 1.0 mm 
+0.7 mm
+
+Valve stem bend 
+ 
+Less than 0.01 mm TI R 
+0.05 mm TI R
+
+Valve stem diameter: 
+Inlet 
+6.965 — 6.980 mm 
+6.95 mm
+
+Exhaust 
+6.955 — 6.970 mm 
+6.94 mm
+
+Valve guide inside diameter 
+ 
+7.000 - 7.015 mm 
+7.08 mm
+
+Valve guide/valve clearance
+
+(wobble method): 
+Inlet 
+0.04 — 0.11 mm 
+0.24 mm
+
+Exhaust 
+0.05 — 0.12 mm 
+0.24 mm
+
+Valve seating area outside diameter
+
+Inlet 
+36.9 — 37.1 mm 
+ ---
+
+Exhaust 
+31.9 — 32.1 mm 
+ ---
+
+Valve seating area width 
+ 
+0.8 — 1.2 mm 
+ ---
+
+Valve spring free length: 
+Inner 
+37.6 mm 
+36.2 mm
+
+Outer 
+40.5 mm 
+39.0 mm
+
+Cylinder Head:
+
+Cylinder compression
+
+530 - 855 kPa (5.4 - 8.7 kg/cm*, 77 -
+
+Cylinder head warp 
+ 
+---  
+0.05 mm
+
+
+
+-----
+
+124 psi)

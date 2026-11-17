@@ -1,0 +1,103 @@
+FUEL SYSTEM
+
+3. Fuel flow. Check that fuel is adequately flowing 
+from the fuel tank to the carburetor. Inspect in-line
+
+filter screens for plugging.
+
+4. Ignition timing. Check that timing is correct.
+
+5. Choke. Check that the choke fully opens and 
+closes.
+
+6. Muffler. Check that the muffler is not restricting 
+flow.
+
+7. Brakes. Check that the brake pads are not drag- 
+ging on the discs.
+
+
+
+-----
+
+181
+
+Pilot Jet System
+
+The pilot system controls the air/fuel ratio from 
+closed throttle to about 1/4 throttle. Air enters the
+
+pilot air jet (A, Figure 42), where it passes to the pi-
+
+lot jet (A, Figure 43). The pilot 
+jet draws fuel from
+
+the float chamber and mixes it with the air from the
+
+pilot air jet. The atomized air/fuel mixture passes to
+
+the pilot mixture screw (B, Figure 43), where it is 
+regulated into the throat of the carburetor. The mix-
+
+ture is discharged from the pilot hole (A, Figure 
+44). Turning the pilot mixture screw in will /ean the
+
+air/fuel mixture entering the engine, while turning
+
+the screw out will enrich the mixture.
+
+The pilot hole and mixture screw affects idle and 
+low engine speeds. As the throttle plate is opened, it 
+uncovers the bypass pilot holes (B, Figure 44), 
+which then become effective. These holes are con- 
+nected to the passage between the pilot jet and pilot 
+mixture screw. They are not affected by the mixture
+
+screw. As engine speed increases, fuel is drawn 
+| 
+from these passages directly from the pilot jet.
+
+For high altitudes, the pilot jet is interchangeable 
+with a jet that provides a leaner air/fuel mixture. Re-
+
+fer to Table 1 for the recommended pilot jet sizes.
+
+Jet Needle System
+
+The jet needle is connected to the slide and con-
+
+trols the mixture from approximately 1/4 to 3/4
+
+throttle. Air enters the main air jet (B, Figure 42),
+
+where it passes to the needle jet holder and needle
+
+jet. These parts are located above the main jet (C,
+
+Figure 43). The needle jet holder mixes fuel from
+
+the float chamber with the air from the main air jet.
+
+The atomized air/fuel mixture passes to the needle
+
+jet, where it is regulated by the jet needle into the
+
+throat of the carburetor. As the throttle is opened,
+
+the needle rises and fuel is regulated by the needle
+
+taper. The vertical position of 
+the needle in the slide
+
+is not adjustable.
+
+Main Jet System
+
+The main jet (C, Figure 43) is screwed to the bot- 
+tom of 
+the needle jet holder and controls the mixture 
+from approximately 3/4 to full throttle. The main jet
+
+is numbered and is interchangeable with jets that 
+provide a leaner or richer air/fuel mixture. Re- 
+placing the standard jet with a larger numbered jet

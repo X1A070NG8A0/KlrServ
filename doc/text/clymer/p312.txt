@@ -1,0 +1,103 @@
+300
+
+1B. Remove the caliper mounting bolts (B, Figure
+
+56), then remove the caliper from the swing arm. 
+Avoid kinking the brake hose.
+
+2A. If the caliper will be left attached to the brake
+
+hose, but not disassembled and serviced:
+
+a. Attach a wire to the caliper and hang the cali-
+
+per on the motorcycle. Do not let the caliper 
+hang by the brake hose.
+
+b. Insert a small wooden block between the
+
+brake pads. This prevents the caliper piston 
+from extending out of the caliper, if inadver- 
+tently operating the brake pedal.
+
+2B. If the caliper will be disassembled, do the fol- 
+lowing:
+
+a. Remove the banjo bolt and seal washers from
+
+the brake hose. Have a shop cloth ready to ab- 
+sorb excess brake fluid that drips from the 
+hose.
+
+b. Wrap the hose end to prevent brake fluid from
+
+damaging other surfaces.
+
+c. Drain excess brake fluid from the caliper.
+
+3. Repair the caliper as described in this section.
+
+4. Reverse this procedure to install the caliper. 
+Note the following:
+
+a. Position the caliper over the brake disc and
+
+guide the disc between the pads.
+
+b. Install new seal washers on the banjo bolt (A;
+
+Figure 57).
+
+c. Position the brake hose fitting so it is behind
+
+the support (B,Figure 57).
+
+d. Install and tighten the caliper mounting bolts
+
+and banjo bolt to 25 Nem (18 ft.-lb.).
+
+NOTE 
+If the caliper was rebuilt, or the brake 
+hose disconnected from the caliper, 
+fill and bleed the brake system as de-
+
+scribed in this chapter.
+
+
+
+-----
+
+CHAPTER FOURTEEN
+
+5. Operate the brake pedal several times to seat the
+
+pads.
+
+6. Check the brake fluid reservoir and replenish or 
+remove fluid, as necessary.
+
+7. With the rear wheel raised, check that the wheel 
+spins freely and the brake operates properly.
+
+Repair
+
+Use the following procedure to disassemble, in-
+
+spect and assemble the brake caliper, using new
+
+seals. Refer to Figure 49.
+
+1. Remove the caliper as described in this section.
+
+2. Grasp the caliper and press the inner pad and cal- 
+iper holder (Figure 58) against the caliper. This 
+presses the piston into the bore, and compresses the 
+holder so the pads can be removed. Keep the caliper 
+holder compressed until the outer pad is removed.
+
+3. Tilt the outer pad toward the caliper, then disen- 
+gage the pad from the slide pins and pad spring 
+(Figure 59).
+
+4. Press down on the inner pad and disengage it 
+from the caliper holder and pad spring (Figure 60).

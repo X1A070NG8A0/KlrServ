@@ -1,0 +1,121 @@
+ENGINE LOWER END
+
+balancer chain. If the chain does not remain
+
+seated on the sprockets, balancer alignments 
+may be lost. Recheck balancer alignments af-
+
+ter installing the guides.
+
+c. Apply threadlocking compound to the bolt
+
+threads.
+
+d. Torque the bolts to the values listed in Table
+
+pa.
+
+
+
+-----
+
+125
+
+12. Install the balancer chain tensioner assembly 
+(Figure 33). Note the following:
+
+a. Install the sprocket with the wide shoulder
+
+facing out.
+
+b. Install the spring lever with the tensioner
+
+spring hole facing out.
+
+c. Ifpossible, install the spring by hand. If pliers
+
+must be used, prevent excessive stretching, 
+scoring or damage to the ends of the spring.
+
+d. Recheck balancer alignments after installing
+
+the tensioner.
+
+13. Install the right balancer weight as follows:
+
+a. Temporarily 
+install 
+the 
+rotor 
+and 
+fin- 
+ger-tighten the rotor nut.
+
+b. Install the spacer and weight onto the shaft.
+
+Check that the marks on the weight and shaft
+
+are aligned (Figure 34).
+
+c. Install a new lockwasher, engaging the tab on
+
+the washer with the weight.
+
+d. Hold the rotor with the rotor holder tool. The
+
+holder tool can be braced against the top of
+
+the left footpeg. Install and torque the locknut
+
+to 44 Nem (32 ft.-lb.).
+
+e. Lock one side of the washer against the nut
+
+(Figure 35).
+
+f. Remove the rotor and continue assembly.
+
+14. Install the left crankcase cover, tensioner bolt 
+and shaft lever as described in this chapter.
+
+15. Install the rotor, starter drive gears and alterna-
+
+tor cover (Chapter Nine). If the crankcase halves 
+were disassembled, also install the starter (Chapter
+
+Nine).
+
+16. Install the right crankcase cover (Chapter Six).
+
+CRANKCASE
+
+The following procedures detail the disassembly
+
+and reassembly of the crankcase. When the two
+
+halves 
+of the crankcase 
+are 
+disassembled—or
+
+split-the crankshaft, balancer shafts and transmis-
+
+sion assemblies can be removed for inspection and
+
+repair. Before proceeding with this procedure, re-
+
+move the engine from the frame as described in this
+
+chapter. All assemblies located in the crankcase
+
+covers must be removed. It may be easier to remove
+
+these assemblies with the engine in the frame. The
+
+engine will remain steady during the disassembly
+
+process.
+
+The crankcase halves are made of cast aluminum
+
+alloy. Do not hammer or pry on the cases. The cases

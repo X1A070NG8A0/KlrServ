@@ -1,0 +1,87 @@
+CHAPTER FOURTEEN
+
+BRAKES
+
+This chapter provides service procedures for the
+
+front and rear brake systems. This includes brake 
+pads, master cylinders, calipers and discs.
+
+Refer to Chapter Three for brake fluid level in- 
+spection, brake pad/disc inspection, brake light ad- 
+justment, and brake pedal and lever adjustment.
+
+DISC BRAKE FUNDAMENTALS
+
+The front and rear brakes are hydraulically actu-
+
+ated and therefore do not require cables and me- 
+chanical linkages to operate. When pressure is 
+applied to the brake pedal or lever, the brake fluid is 
+compressed in the brake line and pushes one brake 
+pad toward the brake disc. Since the caliper and sec- 
+ond brake pad are not locked in a stationary posi-
+
+tion, the assembly slides toward the disc when the
+
+first pad contacts the disc. This motion allows both 
+pads to contact the disc, as well as to center the cali- 
+per around the disc. When pressure is relieved, the
+
+first pad and the caliper assembly slightly retract 
+from the disc, allowing the wheel to spin freely. As
+
+the pads wear, the piston in the caliper extends, au- 
+tomatically keeping the pads adjusted and centered 
+around the disc. It is important to not only ensure
+
+that the piston can extend and retract, but that the 
+caliper is free to move.
+
+
+
+-----
+
+A hydraulic 
+brake 
+system 
+is not 
+mainte-
+
+nance-free, nor indestructible. Observe the follow- 
+ing practices when maintaining or working on a 
+hydraulic brake system:
+
+1. Keep brake fluid off painted surfaces, plastic and
+
+decals. The fluid will damage these surfaces. If fluid
+
+does contact these surfaces, flush the surface thor- 
+oughly with clean water.
+
+2. Keep the fluid reservoirs closed except when 
+changing the fluid.
+
+3. Replace brake fluid often. The fluid absorbs 
+moisture from the air and will cause internal corro-
+
+sion of the brake system. Fresh fluid is clear to
+
+slightly yellow. Ifthe fluid is obviously colored, it is 
+contaminated.
+
+4. Do not reuse brake fluid, or use new fluid that 
+has been in a partially-used container for any length 
+of time.
+
+5. When rebuilding brake system components, lu-
+
+bricate new parts with fresh fluid before assembly. 
+Do not use petroleum-based solvents. These can 
+swell and damage rubber components.
+
+6. Bleed the brake system whenever a banjo bolt or
+
+other connector in the brake line has been loosened. 
+Air will be in the system and brake action will be 
+spongy.

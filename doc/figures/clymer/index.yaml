@@ -1,0 +1,5920 @@
+- page: 16
+  figure: null
+  bbox_pt:
+  - 253.9
+  - 49.9
+  - 461.3
+  - 192.0
+  file: doc/figures/clymer/p016-r0.jpg
+- page: 17
+  figure: null
+  bbox_pt:
+  - 16.3
+  - 47.5
+  - 224.2
+  - 189.1
+  file: doc/figures/clymer/p017-r0.jpg
+- page: 18
+  figure: null
+  bbox_pt:
+  - 253.9
+  - 214.6
+  - 460.8
+  - 353.3
+  file: doc/figures/clymer/p018-r0.jpg
+- page: 22
+  figure: null
+  bbox_pt:
+  - 271.2
+  - 48.0
+  - 459.8
+  - 163.2
+  file: doc/figures/clymer/p022-r0.jpg
+- page: 22
+  figure: null
+  bbox_pt:
+  - 292.8
+  - 188.6
+  - 459.4
+  - 296.2
+  file: doc/figures/clymer/p022-r1.jpg
+- page: 23
+  figure: null
+  bbox_pt:
+  - 52.3
+  - 51.8
+  - 188.6
+  - 139.2
+  file: doc/figures/clymer/p023-r0.jpg
+- page: 24
+  figure: null
+  bbox_pt:
+  - 254.4
+  - 206.4
+  - 459.4
+  - 306.7
+  file: doc/figures/clymer/p024-r0.jpg
+- page: 25
+  figure: null
+  bbox_pt:
+  - 44.2
+  - 60.5
+  - 204.0
+  - 178.6
+  file: doc/figures/clymer/p025-r0.jpg
+- page: 27
+  figure: null
+  bbox_pt:
+  - 15.4
+  - 45.1
+  - 221.8
+  - 185.8
+  file: doc/figures/clymer/p027-r0.jpg
+- page: 27
+  figure: null
+  bbox_pt:
+  - 53.3
+  - 205.9
+  - 221.8
+  - 341.3
+  file: doc/figures/clymer/p027-r1.jpg
+- page: 27
+  figure: null
+  bbox_pt:
+  - 42.7
+  - 541.9
+  - 203.5
+  - 598.1
+  file: doc/figures/clymer/p027-r2.jpg
+- page: 28
+  figure: null
+  bbox_pt:
+  - 254.4
+  - 46.1
+  - 461.8
+  - 181.4
+  file: doc/figures/clymer/p028-r0.jpg
+- page: 28
+  figure: null
+  bbox_pt:
+  - 256.3
+  - 198.2
+  - 461.3
+  - 331.7
+  file: doc/figures/clymer/p028-r1.jpg
+- page: 29
+  figure: null
+  bbox_pt:
+  - 12.0
+  - 47.0
+  - 441.6
+  - 339.8
+  file: doc/figures/clymer/p029-r0.jpg
+- page: 30
+  figure: null
+  bbox_pt:
+  - 256.3
+  - 47.5
+  - 462.2
+  - 181.4
+  file: doc/figures/clymer/p030-r0.jpg
+- page: 31
+  figure: null
+  bbox_pt:
+  - 14.9
+  - 45.1
+  - 222.2
+  - 289.9
+  file: doc/figures/clymer/p031-r0.jpg
+- page: 31
+  figure: null
+  bbox_pt:
+  - 14.4
+  - 306.2
+  - 221.8
+  - 549.1
+  file: doc/figures/clymer/p031-r1.jpg
+- page: 32
+  figure: null
+  bbox_pt:
+  - 253.9
+  - 47.0
+  - 460.8
+  - 181.9
+  file: doc/figures/clymer/p032-r0.jpg
+- page: 32
+  figure: null
+  bbox_pt:
+  - 37.9
+  - 51.4
+  - 235.7
+  - 185.8
+  file: doc/figures/clymer/p032-r1.jpg
+- page: 32
+  figure: null
+  bbox_pt:
+  - 296.2
+  - 199.7
+  - 460.3
+  - 292.8
+  file: doc/figures/clymer/p032-r2.jpg
+- page: 33
+  figure: null
+  bbox_pt:
+  - 13.4
+  - 45.6
+  - 215.0
+  - 176.6
+  file: doc/figures/clymer/p033-r0.jpg
+- page: 33
+  figure: null
+  bbox_pt:
+  - 66.2
+  - 204.5
+  - 217.0
+  - 329.3
+  file: doc/figures/clymer/p033-r1.jpg
+- page: 33
+  figure: null
+  bbox_pt:
+  - 55.7
+  - 361.0
+  - 199.2
+  - 472.8
+  file: doc/figures/clymer/p033-r2.jpg
+- page: 45
+  figure: null
+  bbox_pt:
+  - 7.2
+  - 41.8
+  - 214.6
+  - 183.8
+  file: doc/figures/clymer/p045-r0.jpg
+- page: 45
+  figure: null
+  bbox_pt:
+  - 7.7
+  - 202.6
+  - 215.5
+  - 341.8
+  file: doc/figures/clymer/p045-r1.jpg
+- page: 45
+  figure: null
+  bbox_pt:
+  - 8.2
+  - 359.0
+  - 215.5
+  - 483.4
+  file: doc/figures/clymer/p045-r2.jpg
+- page: 45
+  figure: null
+  bbox_pt:
+  - 7.7
+  - 516.0
+  - 215.5
+  - 657.6
+  file: doc/figures/clymer/p045-r3.jpg
+- page: 46
+  figure: null
+  bbox_pt:
+  - 257.8
+  - 44.2
+  - 465.6
+  - 186.2
+  file: doc/figures/clymer/p046-r0.jpg
+- page: 47
+  figure: null
+  bbox_pt:
+  - 7.2
+  - 42.7
+  - 215.5
+  - 185.3
+  file: doc/figures/clymer/p047-r0.jpg
+- page: 56
+  figure: null
+  bbox_pt:
+  - 256.8
+  - 49.0
+  - 463.7
+  - 140.2
+  file: doc/figures/clymer/p056-r0.jpg
+- page: 56
+  figure: null
+  bbox_pt:
+  - 256.8
+  - 126.7
+  - 463.7
+  - 191.0
+  file: doc/figures/clymer/p056-r1.jpg
+- page: 56
+  figure: null
+  bbox_pt:
+  - 256.8
+  - 207.4
+  - 463.7
+  - 347.5
+  file: doc/figures/clymer/p056-r2.jpg
+- page: 57
+  figure: null
+  bbox_pt:
+  - 12.0
+  - 50.9
+  - 218.9
+  - 192.5
+  file: doc/figures/clymer/p057-r0.jpg
+- page: 57
+  figure: null
+  bbox_pt:
+  - 22.1
+  - 218.9
+  - 205.0
+  - 343.7
+  file: doc/figures/clymer/p057-r1.jpg
+- page: 58
+  figure: null
+  bbox_pt:
+  - 253.4
+  - 52.3
+  - 460.8
+  - 193.9
+  file: doc/figures/clymer/p058-r0.jpg
+- page: 58
+  figure: null
+  bbox_pt:
+  - 253.4
+  - 210.7
+  - 460.8
+  - 350.4
+  file: doc/figures/clymer/p058-r1.jpg
+- page: 59
+  figure: null
+  bbox_pt:
+  - 8.6
+  - 52.3
+  - 215.0
+  - 193.0
+  file: doc/figures/clymer/p059-r0.jpg
+- page: 60
+  figure: null
+  bbox_pt:
+  - 253.9
+  - 51.4
+  - 462.2
+  - 194.9
+  file: doc/figures/clymer/p060-r0.jpg
+- page: 60
+  figure: null
+  bbox_pt:
+  - 33.1
+  - 56.6
+  - 237.1
+  - 197.8
+  file: doc/figures/clymer/p060-r1.jpg
+- page: 60
+  figure: null
+  bbox_pt:
+  - 34.6
+  - 213.6
+  - 238.6
+  - 352.3
+  file: doc/figures/clymer/p060-r2.jpg
+- page: 60
+  figure: null
+  bbox_pt:
+  - 331.7
+  - 220.3
+  - 462.2
+  - 347.5
+  file: doc/figures/clymer/p060-r3.jpg
+- page: 60
+  figure: null
+  bbox_pt:
+  - 268.8
+  - 372.0
+  - 449.3
+  - 506.9
+  file: doc/figures/clymer/p060-r4.jpg
+- page: 61
+  figure: null
+  bbox_pt:
+  - 7.2
+  - 50.9
+  - 215.0
+  - 193.0
+  file: doc/figures/clymer/p061-r0.jpg
+- page: 61
+  figure: null
+  bbox_pt:
+  - 7.7
+  - 208.8
+  - 215.0
+  - 348.5
+  file: doc/figures/clymer/p061-r1.jpg
+- page: 61
+  figure: null
+  bbox_pt:
+  - 8.2
+  - 366.2
+  - 215.5
+  - 505.9
+  file: doc/figures/clymer/p061-r2.jpg
+- page: 61
+  figure: null
+  bbox_pt:
+  - 7.2
+  - 522.2
+  - 215.0
+  - 664.3
+  file: doc/figures/clymer/p061-r3.jpg
+- page: 62
+  figure: null
+  bbox_pt:
+  - 329.3
+  - 209.8
+  - 463.7
+  - 350.4
+  file: doc/figures/clymer/p062-r0.jpg
+- page: 63
+  figure: null
+  bbox_pt:
+  - 11.5
+  - 54.7
+  - 219.4
+  - 193.4
+  file: doc/figures/clymer/p063-r0.jpg
+- page: 63
+  figure: null
+  bbox_pt:
+  - 12.0
+  - 211.2
+  - 219.4
+  - 350.4
+  file: doc/figures/clymer/p063-r1.jpg
+- page: 63
+  figure: null
+  bbox_pt:
+  - 12.5
+  - 368.2
+  - 219.4
+  - 508.3
+  file: doc/figures/clymer/p063-r2.jpg
+- page: 64
+  figure: null
+  bbox_pt:
+  - 252.0
+  - 52.8
+  - 460.3
+  - 188.2
+  file: doc/figures/clymer/p064-r0.jpg
+- page: 64
+  figure: null
+  bbox_pt:
+  - 30.7
+  - 55.7
+  - 234.7
+  - 190.1
+  file: doc/figures/clymer/p064-r1.jpg
+- page: 64
+  figure: null
+  bbox_pt:
+  - 252.5
+  - 203.5
+  - 460.3
+  - 338.4
+  file: doc/figures/clymer/p064-r2.jpg
+- page: 65
+  figure: null
+  bbox_pt:
+  - 10.1
+  - 50.4
+  - 217.4
+  - 193.4
+  file: doc/figures/clymer/p065-r0.jpg
+- page: 65
+  figure: null
+  bbox_pt:
+  - 10.6
+  - 208.8
+  - 217.0
+  - 349.4
+  file: doc/figures/clymer/p065-r1.jpg
+- page: 65
+  figure: null
+  bbox_pt:
+  - 9.6
+  - 366.7
+  - 217.0
+  - 506.4
+  file: doc/figures/clymer/p065-r2.jpg
+- page: 66
+  figure: null
+  bbox_pt:
+  - 254.9
+  - 51.4
+  - 462.2
+  - 194.4
+  file: doc/figures/clymer/p066-r0.jpg
+- page: 66
+  figure: null
+  bbox_pt:
+  - 33.6
+  - 56.6
+  - 237.6
+  - 196.8
+  file: doc/figures/clymer/p066-r1.jpg
+- page: 66
+  figure: null
+  bbox_pt:
+  - 272.6
+  - 210.2
+  - 462.2
+  - 349.9
+  file: doc/figures/clymer/p066-r2.jpg
+- page: 67
+  figure: null
+  bbox_pt:
+  - 10.6
+  - 52.3
+  - 216.0
+  - 191.5
+  file: doc/figures/clymer/p067-r0.jpg
+- page: 67
+  figure: null
+  bbox_pt:
+  - 11.0
+  - 217.0
+  - 216.0
+  - 346.6
+  file: doc/figures/clymer/p067-r1.jpg
+- page: 67
+  figure: null
+  bbox_pt:
+  - 8.6
+  - 365.8
+  - 216.0
+  - 505.0
+  file: doc/figures/clymer/p067-r2.jpg
+- page: 68
+  figure: null
+  bbox_pt:
+  - 255.4
+  - 53.8
+  - 462.7
+  - 194.9
+  file: doc/figures/clymer/p068-r0.jpg
+- page: 68
+  figure: null
+  bbox_pt:
+  - 34.1
+  - 56.2
+  - 238.1
+  - 197.3
+  file: doc/figures/clymer/p068-r1.jpg
+- page: 68
+  figure: null
+  bbox_pt:
+  - 255.8
+  - 210.7
+  - 463.2
+  - 322.1
+  file: doc/figures/clymer/p068-r2.jpg
+- page: 69
+  figure: null
+  bbox_pt:
+  - 14.4
+  - 50.9
+  - 221.3
+  - 193.9
+  file: doc/figures/clymer/p069-r0.jpg
+- page: 69
+  figure: null
+  bbox_pt:
+  - 238.6
+  - 56.2
+  - 441.1
+  - 214.6
+  file: doc/figures/clymer/p069-r1.jpg
+- page: 69
+  figure: null
+  bbox_pt:
+  - 13.9
+  - 209.8
+  - 220.8
+  - 349.9
+  file: doc/figures/clymer/p069-r2.jpg
+- page: 69
+  figure: null
+  bbox_pt:
+  - 13.0
+  - 366.2
+  - 220.3
+  - 506.4
+  file: doc/figures/clymer/p069-r3.jpg
+- page: 70
+  figure: null
+  bbox_pt:
+  - 31.2
+  - 55.2
+  - 234.7
+  - 195.8
+  file: doc/figures/clymer/p070-r0.jpg
+- page: 71
+  figure: null
+  bbox_pt:
+  - 11.5
+  - 51.8
+  - 218.4
+  - 193.4
+  file: doc/figures/clymer/p071-r0.jpg
+- page: 73
+  figure: null
+  bbox_pt:
+  - 11.0
+  - 207.8
+  - 218.4
+  - 348.0
+  file: doc/figures/clymer/p073-r0.jpg
+- page: 73
+  figure: null
+  bbox_pt:
+  - 10.6
+  - 364.8
+  - 217.9
+  - 535.2
+  file: doc/figures/clymer/p073-r1.jpg
+- page: 74
+  figure: null
+  bbox_pt:
+  - 282.2
+  - 64.3
+  - 440.6
+  - 152.6
+  file: doc/figures/clymer/p074-r0.jpg
+- page: 74
+  figure: null
+  bbox_pt:
+  - 255.4
+  - 194.9
+  - 435.8
+  - 315.4
+  file: doc/figures/clymer/p074-r1.jpg
+- page: 74
+  figure: null
+  bbox_pt:
+  - 34.1
+  - 203.5
+  - 228.0
+  - 316.8
+  file: doc/figures/clymer/p074-r2.jpg
+- page: 74
+  figure: null
+  bbox_pt:
+  - 256.3
+  - 332.6
+  - 463.2
+  - 453.6
+  file: doc/figures/clymer/p074-r3.jpg
+- page: 75
+  figure: null
+  bbox_pt:
+  - 11.5
+  - 50.9
+  - 217.9
+  - 193.4
+  file: doc/figures/clymer/p075-r0.jpg
+- page: 75
+  figure: null
+  bbox_pt:
+  - 12.0
+  - 209.8
+  - 217.9
+  - 349.0
+  file: doc/figures/clymer/p075-r1.jpg
+- page: 75
+  figure: null
+  bbox_pt:
+  - 11.0
+  - 366.7
+  - 217.9
+  - 505.9
+  file: doc/figures/clymer/p075-r2.jpg
+- page: 76
+  figure: null
+  bbox_pt:
+  - 253.9
+  - 49.0
+  - 460.8
+  - 188.6
+  file: doc/figures/clymer/p076-r0.jpg
+- page: 76
+  figure: null
+  bbox_pt:
+  - 32.6
+  - 53.3
+  - 236.6
+  - 193.9
+  file: doc/figures/clymer/p076-r1.jpg
+- page: 76
+  figure: null
+  bbox_pt:
+  - 254.9
+  - 206.9
+  - 461.3
+  - 346.6
+  file: doc/figures/clymer/p076-r2.jpg
+- page: 77
+  figure: null
+  bbox_pt:
+  - 9.1
+  - 50.9
+  - 216.0
+  - 193.0
+  file: doc/figures/clymer/p077-r0.jpg
+- page: 77
+  figure: null
+  bbox_pt:
+  - 10.1
+  - 208.8
+  - 216.0
+  - 348.5
+  file: doc/figures/clymer/p077-r1.jpg
+- page: 77
+  figure: null
+  bbox_pt:
+  - 80.2
+  - 365.8
+  - 216.0
+  - 505.4
+  file: doc/figures/clymer/p077-r2.jpg
+- page: 77
+  figure: null
+  bbox_pt:
+  - 9.6
+  - 523.2
+  - 216.0
+  - 664.3
+  file: doc/figures/clymer/p077-r3.jpg
+- page: 78
+  figure: null
+  bbox_pt:
+  - 255.8
+  - 49.9
+  - 434.9
+  - 191.5
+  file: doc/figures/clymer/p078-r0.jpg
+- page: 78
+  figure: null
+  bbox_pt:
+  - 256.3
+  - 207.4
+  - 460.8
+  - 347.5
+  file: doc/figures/clymer/p078-r1.jpg
+- page: 79
+  figure: null
+  bbox_pt:
+  - 6.7
+  - 50.4
+  - 214.1
+  - 188.2
+  file: doc/figures/clymer/p079-r0.jpg
+- page: 79
+  figure: null
+  bbox_pt:
+  - 7.7
+  - 206.4
+  - 214.1
+  - 346.6
+  file: doc/figures/clymer/p079-r1.jpg
+- page: 79
+  figure: null
+  bbox_pt:
+  - 6.7
+  - 364.8
+  - 213.1
+  - 503.5
+  file: doc/figures/clymer/p079-r2.jpg
+- page: 80
+  figure: null
+  bbox_pt:
+  - 257.8
+  - 49.0
+  - 464.2
+  - 191.5
+  file: doc/figures/clymer/p080-r0.jpg
+- page: 80
+  figure: null
+  bbox_pt:
+  - 36.0
+  - 54.2
+  - 239.5
+  - 193.9
+  file: doc/figures/clymer/p080-r1.jpg
+- page: 80
+  figure: null
+  bbox_pt:
+  - 257.8
+  - 207.4
+  - 464.6
+  - 348.0
+  file: doc/figures/clymer/p080-r2.jpg
+- page: 81
+  figure: null
+  bbox_pt:
+  - 8.6
+  - 49.4
+  - 215.5
+  - 191.5
+  file: doc/figures/clymer/p081-r0.jpg
+- page: 81
+  figure: null
+  bbox_pt:
+  - 8.6
+  - 207.8
+  - 215.5
+  - 348.0
+  file: doc/figures/clymer/p081-r1.jpg
+- page: 81
+  figure: null
+  bbox_pt:
+  - 8.6
+  - 365.3
+  - 215.0
+  - 499.2
+  file: doc/figures/clymer/p081-r2.jpg
+- page: 82
+  figure: null
+  bbox_pt:
+  - 256.3
+  - 49.4
+  - 462.7
+  - 191.0
+  file: doc/figures/clymer/p082-r0.jpg
+- page: 83
+  figure: null
+  bbox_pt:
+  - 7.7
+  - 49.0
+  - 214.6
+  - 197.8
+  file: doc/figures/clymer/p083-r0.jpg
+- page: 84
+  figure: null
+  bbox_pt:
+  - 255.8
+  - 49.4
+  - 462.2
+  - 191.0
+  file: doc/figures/clymer/p084-r0.jpg
+- page: 84
+  figure: null
+  bbox_pt:
+  - 256.3
+  - 207.4
+  - 462.2
+  - 347.0
+  file: doc/figures/clymer/p084-r1.jpg
+- page: 85
+  figure: null
+  bbox_pt:
+  - 4.8
+  - 235.7
+  - 212.2
+  - 375.8
+  file: doc/figures/clymer/p085-r0.jpg
+- page: 86
+  figure: null
+  bbox_pt:
+  - 35.0
+  - 48.5
+  - 464.6
+  - 395.5
+  file: doc/figures/clymer/p086-r0.jpg
+- page: 91
+  figure: null
+  bbox_pt:
+  - 7.7
+  - 337.4
+  - 193.0
+  - 502.6
+  file: doc/figures/clymer/p091-r0.jpg
+- page: 92
+  figure: null
+  bbox_pt:
+  - 256.3
+  - 53.8
+  - 463.2
+  - 193.4
+  file: doc/figures/clymer/p092-r0.jpg
+- page: 92
+  figure: null
+  bbox_pt:
+  - 313.0
+  - 210.2
+  - 463.2
+  - 349.9
+  file: doc/figures/clymer/p092-r1.jpg
+- page: 92
+  figure: null
+  bbox_pt:
+  - 255.8
+  - 367.2
+  - 463.2
+  - 507.4
+  file: doc/figures/clymer/p092-r2.jpg
+- page: 92
+  figure: null
+  bbox_pt:
+  - 255.8
+  - 524.2
+  - 463.2
+  - 665.8
+  file: doc/figures/clymer/p092-r3.jpg
+- page: 94
+  figure: null
+  bbox_pt:
+  - 256.3
+  - 46.1
+  - 459.4
+  - 187.7
+  file: doc/figures/clymer/p094-r0.jpg
+- page: 94
+  figure: null
+  bbox_pt:
+  - 31.2
+  - 49.0
+  - 234.7
+  - 179.0
+  file: doc/figures/clymer/p094-r1.jpg
+- page: 94
+  figure: null
+  bbox_pt:
+  - 252.5
+  - 203.5
+  - 459.8
+  - 344.2
+  file: doc/figures/clymer/p094-r2.jpg
+- page: 94
+  figure: null
+  bbox_pt:
+  - 252.5
+  - 361.4
+  - 459.8
+  - 501.1
+  file: doc/figures/clymer/p094-r3.jpg
+- page: 94
+  figure: null
+  bbox_pt:
+  - 253.0
+  - 518.4
+  - 460.3
+  - 659.5
+  file: doc/figures/clymer/p094-r4.jpg
+- page: 95
+  figure: null
+  bbox_pt:
+  - 6.2
+  - 48.0
+  - 215.0
+  - 189.1
+  file: doc/figures/clymer/p095-r0.jpg
+- page: 95
+  figure: null
+  bbox_pt:
+  - 7.7
+  - 206.9
+  - 216.0
+  - 346.6
+  file: doc/figures/clymer/p095-r1.jpg
+- page: 95
+  figure: null
+  bbox_pt:
+  - 9.6
+  - 363.4
+  - 216.5
+  - 503.5
+  file: doc/figures/clymer/p095-r2.jpg
+- page: 95
+  figure: null
+  bbox_pt:
+  - 10.6
+  - 520.8
+  - 217.9
+  - 661.9
+  file: doc/figures/clymer/p095-r3.jpg
+- page: 96
+  figure: null
+  bbox_pt:
+  - 250.6
+  - 45.6
+  - 458.9
+  - 187.7
+  file: doc/figures/clymer/p096-r0.jpg
+- page: 96
+  figure: null
+  bbox_pt:
+  - 29.8
+  - 49.0
+  - 233.8
+  - 189.6
+  file: doc/figures/clymer/p096-r1.jpg
+- page: 96
+  figure: null
+  bbox_pt:
+  - 251.0
+  - 204.0
+  - 458.4
+  - 344.2
+  file: doc/figures/clymer/p096-r2.jpg
+- page: 97
+  figure: null
+  bbox_pt:
+  - 4.8
+  - 47.5
+  - 213.6
+  - 187.7
+  file: doc/figures/clymer/p097-r0.jpg
+- page: 97
+  figure: null
+  bbox_pt:
+  - 229.9
+  - 49.0
+  - 433.9
+  - 205.9
+  file: doc/figures/clymer/p097-r1.jpg
+- page: 97
+  figure: null
+  bbox_pt:
+  - 6.7
+  - 205.4
+  - 214.6
+  - 345.6
+  file: doc/figures/clymer/p097-r2.jpg
+- page: 99
+  figure: null
+  bbox_pt:
+  - 23.0
+  - 49.0
+  - 194.9
+  - 188.6
+  file: doc/figures/clymer/p099-r0.jpg
+- page: 99
+  figure: null
+  bbox_pt:
+  - 6.7
+  - 206.4
+  - 215.5
+  - 345.6
+  file: doc/figures/clymer/p099-r1.jpg
+- page: 99
+  figure: null
+  bbox_pt:
+  - 7.7
+  - 362.9
+  - 215.5
+  - 503.5
+  file: doc/figures/clymer/p099-r2.jpg
+- page: 99
+  figure: null
+  bbox_pt:
+  - 49.0
+  - 520.3
+  - 169.4
+  - 660.0
+  file: doc/figures/clymer/p099-r3.jpg
+- page: 100
+  figure: null
+  bbox_pt:
+  - 272.2
+  - 48.0
+  - 441.1
+  - 175.2
+  file: doc/figures/clymer/p100-r0.jpg
+- page: 100
+  figure: null
+  bbox_pt:
+  - 53.8
+  - 61.4
+  - 228.5
+  - 181.9
+  file: doc/figures/clymer/p100-r1.jpg
+- page: 100
+  figure: null
+  bbox_pt:
+  - 272.2
+  - 203.0
+  - 462.7
+  - 343.2
+  file: doc/figures/clymer/p100-r2.jpg
+- page: 101
+  figure: null
+  bbox_pt:
+  - 8.2
+  - 47.0
+  - 215.0
+  - 187.7
+  file: doc/figures/clymer/p101-r0.jpg
+- page: 101
+  figure: null
+  bbox_pt:
+  - 42.2
+  - 205.9
+  - 217.0
+  - 344.2
+  file: doc/figures/clymer/p101-r1.jpg
+- page: 101
+  figure: null
+  bbox_pt:
+  - 20.6
+  - 545.3
+  - 209.3
+  - 640.3
+  file: doc/figures/clymer/p101-r2.jpg
+- page: 102
+  figure: null
+  bbox_pt:
+  - 253.9
+  - 43.7
+  - 462.2
+  - 186.7
+  file: doc/figures/clymer/p102-r0.jpg
+- page: 102
+  figure: null
+  bbox_pt:
+  - 254.4
+  - 202.1
+  - 462.7
+  - 343.2
+  file: doc/figures/clymer/p102-r1.jpg
+- page: 103
+  figure: null
+  bbox_pt:
+  - 9.6
+  - 46.1
+  - 185.3
+  - 186.7
+  file: doc/figures/clymer/p103-r0.jpg
+- page: 103
+  figure: null
+  bbox_pt:
+  - 11.0
+  - 203.5
+  - 219.4
+  - 339.8
+  file: doc/figures/clymer/p103-r1.jpg
+- page: 104
+  figure: null
+  bbox_pt:
+  - 253.4
+  - 45.6
+  - 460.8
+  - 186.2
+  file: doc/figures/clymer/p104-r0.jpg
+- page: 104
+  figure: null
+  bbox_pt:
+  - 31.2
+  - 47.5
+  - 235.7
+  - 188.2
+  file: doc/figures/clymer/p104-r1.jpg
+- page: 104
+  figure: null
+  bbox_pt:
+  - 253.4
+  - 203.0
+  - 460.8
+  - 348.0
+  file: doc/figures/clymer/p104-r2.jpg
+- page: 105
+  figure: null
+  bbox_pt:
+  - 23.0
+  - 58.1
+  - 193.4
+  - 191.0
+  file: doc/figures/clymer/p105-r0.jpg
+- page: 105
+  figure: null
+  bbox_pt:
+  - 14.9
+  - 214.6
+  - 195.4
+  - 346.6
+  file: doc/figures/clymer/p105-r1.jpg
+- page: 105
+  figure: null
+  bbox_pt:
+  - 9.1
+  - 372.0
+  - 217.0
+  - 505.4
+  file: doc/figures/clymer/p105-r2.jpg
+- page: 106
+  figure: null
+  bbox_pt:
+  - 256.3
+  - 47.0
+  - 464.6
+  - 189.6
+  file: doc/figures/clymer/p106-r0.jpg
+- page: 106
+  figure: null
+  bbox_pt:
+  - 256.8
+  - 205.0
+  - 464.6
+  - 346.1
+  file: doc/figures/clymer/p106-r1.jpg
+- page: 107
+  figure: null
+  bbox_pt:
+  - 236.2
+  - 52.8
+  - 439.2
+  - 204.0
+  file: doc/figures/clymer/p107-r0.jpg
+- page: 107
+  figure: null
+  bbox_pt:
+  - 11.5
+  - 370.6
+  - 218.9
+  - 529.4
+  file: doc/figures/clymer/p107-r1.jpg
+- page: 109
+  figure: null
+  bbox_pt:
+  - 12.0
+  - 49.4
+  - 186.7
+  - 190.1
+  file: doc/figures/clymer/p109-r0.jpg
+- page: 109
+  figure: null
+  bbox_pt:
+  - 250.1
+  - 56.6
+  - 390.7
+  - 136.3
+  file: doc/figures/clymer/p109-r1.jpg
+- page: 109
+  figure: null
+  bbox_pt:
+  - 11.5
+  - 206.9
+  - 219.8
+  - 346.6
+  file: doc/figures/clymer/p109-r2.jpg
+- page: 110
+  figure: null
+  bbox_pt:
+  - 258.7
+  - 49.9
+  - 459.8
+  - 186.2
+  file: doc/figures/clymer/p110-r0.jpg
+- page: 111
+  figure: null
+  bbox_pt:
+  - 9.1
+  - 49.9
+  - 217.4
+  - 190.1
+  file: doc/figures/clymer/p111-r0.jpg
+- page: 111
+  figure: null
+  bbox_pt:
+  - 30.2
+  - 383.5
+  - 189.6
+  - 481.9
+  file: doc/figures/clymer/p111-r1.jpg
+- page: 112
+  figure: null
+  bbox_pt:
+  - 256.8
+  - 490.1
+  - 464.6
+  - 661.4
+  file: doc/figures/clymer/p112-r0.jpg
+- page: 114
+  figure: null
+  bbox_pt:
+  - 253.0
+  - 47.0
+  - 460.8
+  - 189.6
+  file: doc/figures/clymer/p114-r0.jpg
+- page: 114
+  figure: null
+  bbox_pt:
+  - 30.7
+  - 50.4
+  - 235.2
+  - 191.5
+  file: doc/figures/clymer/p114-r1.jpg
+- page: 114
+  figure: null
+  bbox_pt:
+  - 253.0
+  - 205.0
+  - 460.8
+  - 345.6
+  file: doc/figures/clymer/p114-r2.jpg
+- page: 114
+  figure: null
+  bbox_pt:
+  - 253.4
+  - 362.4
+  - 460.8
+  - 502.6
+  file: doc/figures/clymer/p114-r3.jpg
+- page: 114
+  figure: null
+  bbox_pt:
+  - 253.9
+  - 519.8
+  - 461.3
+  - 660.5
+  file: doc/figures/clymer/p114-r4.jpg
+- page: 115
+  figure: null
+  bbox_pt:
+  - 13.4
+  - 46.6
+  - 201.6
+  - 188.6
+  file: doc/figures/clymer/p115-r0.jpg
+- page: 115
+  figure: null
+  bbox_pt:
+  - 21.1
+  - 211.2
+  - 195.4
+  - 343.7
+  file: doc/figures/clymer/p115-r1.jpg
+- page: 116
+  figure: null
+  bbox_pt:
+  - 253.0
+  - 47.0
+  - 459.4
+  - 188.6
+  file: doc/figures/clymer/p116-r0.jpg
+- page: 116
+  figure: null
+  bbox_pt:
+  - 45.6
+  - 50.9
+  - 225.1
+  - 190.6
+  file: doc/figures/clymer/p116-r1.jpg
+- page: 116
+  figure: null
+  bbox_pt:
+  - 253.4
+  - 205.4
+  - 460.8
+  - 357.1
+  file: doc/figures/clymer/p116-r2.jpg
+- page: 118
+  figure: null
+  bbox_pt:
+  - 255.4
+  - 48.5
+  - 463.2
+  - 191.5
+  file: doc/figures/clymer/p118-r0.jpg
+- page: 118
+  figure: null
+  bbox_pt:
+  - 39.4
+  - 53.3
+  - 238.1
+  - 193.4
+  file: doc/figures/clymer/p118-r1.jpg
+- page: 119
+  figure: null
+  bbox_pt:
+  - 259.2
+  - 64.3
+  - 440.6
+  - 183.8
+  file: doc/figures/clymer/p119-r0.jpg
+- page: 119
+  figure: null
+  bbox_pt:
+  - 49.0
+  - 258.2
+  - 202.6
+  - 385.9
+  file: doc/figures/clymer/p119-r1.jpg
+- page: 119
+  figure: null
+  bbox_pt:
+  - 42.2
+  - 440.6
+  - 172.8
+  - 536.2
+  file: doc/figures/clymer/p119-r2.jpg
+- page: 120
+  figure: null
+  bbox_pt:
+  - 33.1
+  - 51.8
+  - 234.2
+  - 193.0
+  file: doc/figures/clymer/p120-r0.jpg
+- page: 120
+  figure: null
+  bbox_pt:
+  - 254.4
+  - 62.9
+  - 447.4
+  - 191.0
+  file: doc/figures/clymer/p120-r1.jpg
+- page: 120
+  figure: null
+  bbox_pt:
+  - 254.4
+  - 207.8
+  - 462.2
+  - 346.6
+  file: doc/figures/clymer/p120-r2.jpg
+- page: 120
+  figure: null
+  bbox_pt:
+  - 281.8
+  - 521.8
+  - 462.7
+  - 661.4
+  file: doc/figures/clymer/p120-r3.jpg
+- page: 121
+  figure: null
+  bbox_pt:
+  - 37.0
+  - 209.3
+  - 221.3
+  - 347.0
+  file: doc/figures/clymer/p121-r0.jpg
+- page: 121
+  figure: null
+  bbox_pt:
+  - 25.4
+  - 376.8
+  - 220.8
+  - 504.0
+  file: doc/figures/clymer/p121-r1.jpg
+- page: 122
+  figure: null
+  bbox_pt:
+  - 254.4
+  - 191.0
+  - 449.3
+  - 329.8
+  file: doc/figures/clymer/p122-r0.jpg
+- page: 127
+  figure: null
+  bbox_pt:
+  - 8.6
+  - 51.4
+  - 220.8
+  - 192.0
+  file: doc/figures/clymer/p127-r0.jpg
+- page: 127
+  figure: null
+  bbox_pt:
+  - 14.4
+  - 208.8
+  - 221.8
+  - 348.0
+  file: doc/figures/clymer/p127-r1.jpg
+- page: 127
+  figure: null
+  bbox_pt:
+  - 13.9
+  - 365.8
+  - 171.4
+  - 506.4
+  file: doc/figures/clymer/p127-r2.jpg
+- page: 128
+  figure: null
+  bbox_pt:
+  - 251.0
+  - 49.4
+  - 457.0
+  - 190.6
+  file: doc/figures/clymer/p128-r0.jpg
+- page: 128
+  figure: null
+  bbox_pt:
+  - 252.0
+  - 206.9
+  - 458.9
+  - 347.0
+  file: doc/figures/clymer/p128-r1.jpg
+- page: 129
+  figure: null
+  bbox_pt:
+  - 247.2
+  - 51.8
+  - 437.3
+  - 207.8
+  file: doc/figures/clymer/p129-r0.jpg
+- page: 129
+  figure: null
+  bbox_pt:
+  - 9.6
+  - 54.7
+  - 216.5
+  - 186.7
+  file: doc/figures/clymer/p129-r1.jpg
+- page: 129
+  figure: null
+  bbox_pt:
+  - 11.0
+  - 206.4
+  - 217.9
+  - 357.6
+  file: doc/figures/clymer/p129-r2.jpg
+- page: 131
+  figure: null
+  bbox_pt:
+  - 8.6
+  - 48.0
+  - 195.8
+  - 188.6
+  file: doc/figures/clymer/p131-r0.jpg
+- page: 131
+  figure: null
+  bbox_pt:
+  - 234.2
+  - 50.9
+  - 438.2
+  - 213.6
+  file: doc/figures/clymer/p131-r1.jpg
+- page: 131
+  figure: null
+  bbox_pt:
+  - 10.1
+  - 206.4
+  - 218.4
+  - 345.1
+  file: doc/figures/clymer/p131-r2.jpg
+- page: 132
+  figure: null
+  bbox_pt:
+  - 254.4
+  - 44.2
+  - 461.3
+  - 186.2
+  file: doc/figures/clymer/p132-r0.jpg
+- page: 132
+  figure: null
+  bbox_pt:
+  - 40.8
+  - 48.5
+  - 235.7
+  - 189.1
+  file: doc/figures/clymer/p132-r1.jpg
+- page: 132
+  figure: null
+  bbox_pt:
+  - 255.8
+  - 202.6
+  - 461.8
+  - 343.2
+  file: doc/figures/clymer/p132-r2.jpg
+- page: 132
+  figure: null
+  bbox_pt:
+  - 32.2
+  - 205.4
+  - 236.6
+  - 345.1
+  file: doc/figures/clymer/p132-r3.jpg
+- page: 132
+  figure: null
+  bbox_pt:
+  - 266.9
+  - 372.5
+  - 447.4
+  - 451.7
+  file: doc/figures/clymer/p132-r4.jpg
+- page: 132
+  figure: null
+  bbox_pt:
+  - 292.8
+  - 517.4
+  - 463.7
+  - 645.1
+  file: doc/figures/clymer/p132-r5.jpg
+- page: 133
+  figure: null
+  bbox_pt:
+  - 28.3
+  - 49.9
+  - 200.6
+  - 182.4
+  file: doc/figures/clymer/p133-r0.jpg
+- page: 133
+  figure: null
+  bbox_pt:
+  - 269.8
+  - 52.3
+  - 409.4
+  - 189.6
+  file: doc/figures/clymer/p133-r1.jpg
+- page: 133
+  figure: null
+  bbox_pt:
+  - 13.4
+  - 208.3
+  - 202.1
+  - 344.6
+  file: doc/figures/clymer/p133-r2.jpg
+- page: 133
+  figure: null
+  bbox_pt:
+  - 19.2
+  - 522.7
+  - 215.5
+  - 660.5
+  file: doc/figures/clymer/p133-r3.jpg
+- page: 134
+  figure: null
+  bbox_pt:
+  - 263.5
+  - 55.2
+  - 459.8
+  - 186.7
+  file: doc/figures/clymer/p134-r0.jpg
+- page: 134
+  figure: null
+  bbox_pt:
+  - 258.2
+  - 213.1
+  - 457.9
+  - 337.0
+  file: doc/figures/clymer/p134-r1.jpg
+- page: 134
+  figure: null
+  bbox_pt:
+  - 253.0
+  - 362.9
+  - 460.3
+  - 502.6
+  file: doc/figures/clymer/p134-r2.jpg
+- page: 134
+  figure: null
+  bbox_pt:
+  - 259.7
+  - 519.8
+  - 461.3
+  - 660.5
+  file: doc/figures/clymer/p134-r3.jpg
+- page: 136
+  figure: null
+  bbox_pt:
+  - 254.4
+  - 46.6
+  - 462.2
+  - 189.1
+  file: doc/figures/clymer/p136-r0.jpg
+- page: 136
+  figure: null
+  bbox_pt:
+  - 32.6
+  - 51.8
+  - 237.1
+  - 191.5
+  file: doc/figures/clymer/p136-r1.jpg
+- page: 136
+  figure: null
+  bbox_pt:
+  - 254.4
+  - 204.5
+  - 462.7
+  - 345.1
+  file: doc/figures/clymer/p136-r2.jpg
+- page: 137
+  figure: null
+  bbox_pt:
+  - 7.7
+  - 49.0
+  - 216.5
+  - 190.1
+  file: doc/figures/clymer/p137-r0.jpg
+- page: 137
+  figure: null
+  bbox_pt:
+  - 9.1
+  - 206.9
+  - 217.4
+  - 358.1
+  file: doc/figures/clymer/p137-r1.jpg
+- page: 137
+  figure: null
+  bbox_pt:
+  - 10.6
+  - 376.3
+  - 217.4
+  - 535.2
+  file: doc/figures/clymer/p137-r2.jpg
+- page: 138
+  figure: null
+  bbox_pt:
+  - 252.5
+  - 49.4
+  - 427.7
+  - 188.6
+  file: doc/figures/clymer/p138-r0.jpg
+- page: 138
+  figure: null
+  bbox_pt:
+  - 36.5
+  - 55.2
+  - 230.4
+  - 190.1
+  file: doc/figures/clymer/p138-r1.jpg
+- page: 138
+  figure: null
+  bbox_pt:
+  - 277.0
+  - 208.8
+  - 443.0
+  - 344.2
+  file: doc/figures/clymer/p138-r2.jpg
+- page: 138
+  figure: null
+  bbox_pt:
+  - 259.2
+  - 368.2
+  - 458.9
+  - 500.6
+  file: doc/figures/clymer/p138-r3.jpg
+- page: 138
+  figure: null
+  bbox_pt:
+  - 253.4
+  - 518.4
+  - 461.8
+  - 659.5
+  file: doc/figures/clymer/p138-r4.jpg
+- page: 139
+  figure: null
+  bbox_pt:
+  - 11.0
+  - 48.5
+  - 219.8
+  - 189.6
+  file: doc/figures/clymer/p139-r0.jpg
+- page: 139
+  figure: null
+  bbox_pt:
+  - 13.0
+  - 207.4
+  - 220.8
+  - 346.6
+  file: doc/figures/clymer/p139-r1.jpg
+- page: 139
+  figure: null
+  bbox_pt:
+  - 13.4
+  - 365.3
+  - 220.8
+  - 504.0
+  file: doc/figures/clymer/p139-r2.jpg
+- page: 139
+  figure: null
+  bbox_pt:
+  - 15.4
+  - 519.8
+  - 221.3
+  - 662.4
+  file: doc/figures/clymer/p139-r3.jpg
+- page: 140
+  figure: null
+  bbox_pt:
+  - 251.0
+  - 47.0
+  - 458.9
+  - 189.1
+  file: doc/figures/clymer/p140-r0.jpg
+- page: 140
+  figure: null
+  bbox_pt:
+  - 251.0
+  - 205.4
+  - 458.9
+  - 345.1
+  file: doc/figures/clymer/p140-r1.jpg
+- page: 141
+  figure: null
+  bbox_pt:
+  - 5.8
+  - 45.6
+  - 203.0
+  - 176.2
+  file: doc/figures/clymer/p141-r0.jpg
+- page: 141
+  figure: null
+  bbox_pt:
+  - 242.4
+  - 74.4
+  - 434.9
+  - 187.2
+  file: doc/figures/clymer/p141-r1.jpg
+- page: 141
+  figure: null
+  bbox_pt:
+  - 6.7
+  - 204.0
+  - 175.7
+  - 343.2
+  file: doc/figures/clymer/p141-r2.jpg
+- page: 142
+  figure: null
+  bbox_pt:
+  - 260.6
+  - 44.6
+  - 461.8
+  - 184.3
+  file: doc/figures/clymer/p142-r0.jpg
+- page: 142
+  figure: null
+  bbox_pt:
+  - 260.6
+  - 202.1
+  - 461.3
+  - 340.3
+  file: doc/figures/clymer/p142-r1.jpg
+- page: 143
+  figure: null
+  bbox_pt:
+  - 6.2
+  - 46.1
+  - 211.2
+  - 183.8
+  file: doc/figures/clymer/p143-r0.jpg
+- page: 143
+  figure: null
+  bbox_pt:
+  - 14.4
+  - 205.4
+  - 215.0
+  - 344.6
+  file: doc/figures/clymer/p143-r1.jpg
+- page: 143
+  figure: null
+  bbox_pt:
+  - 8.6
+  - 361.9
+  - 216.5
+  - 502.6
+  file: doc/figures/clymer/p143-r2.jpg
+- page: 144
+  figure: null
+  bbox_pt:
+  - 251.5
+  - 43.7
+  - 459.8
+  - 203.5
+  file: doc/figures/clymer/p144-r0.jpg
+- page: 144
+  figure: null
+  bbox_pt:
+  - 251.5
+  - 220.8
+  - 459.4
+  - 377.8
+  file: doc/figures/clymer/p144-r1.jpg
+- page: 145
+  figure: null
+  bbox_pt:
+  - 9.6
+  - 48.5
+  - 218.4
+  - 215.5
+  file: doc/figures/clymer/p145-r0.jpg
+- page: 146
+  figure: null
+  bbox_pt:
+  - 271.2
+  - 45.1
+  - 457.4
+  - 185.8
+  file: doc/figures/clymer/p146-r0.jpg
+- page: 146
+  figure: null
+  bbox_pt:
+  - 257.3
+  - 203.0
+  - 457.0
+  - 342.2
+  file: doc/figures/clymer/p146-r1.jpg
+- page: 147
+  figure: null
+  bbox_pt:
+  - 3.4
+  - 47.0
+  - 210.7
+  - 192.0
+  file: doc/figures/clymer/p147-r0.jpg
+- page: 147
+  figure: null
+  bbox_pt:
+  - 241.0
+  - 50.4
+  - 416.2
+  - 180.0
+  file: doc/figures/clymer/p147-r1.jpg
+- page: 149
+  figure: null
+  bbox_pt:
+  - 5.3
+  - 330.2
+  - 213.1
+  - 469.4
+  file: doc/figures/clymer/p149-r0.jpg
+- page: 150
+  figure: null
+  bbox_pt:
+  - 34.6
+  - 44.2
+  - 238.6
+  - 190.6
+  file: doc/figures/clymer/p150-r0.jpg
+- page: 150
+  figure: null
+  bbox_pt:
+  - 260.6
+  - 49.9
+  - 462.2
+  - 180.5
+  file: doc/figures/clymer/p150-r1.jpg
+- page: 150
+  figure: null
+  bbox_pt:
+  - 255.8
+  - 198.7
+  - 463.7
+  - 339.4
+  file: doc/figures/clymer/p150-r2.jpg
+- page: 150
+  figure: null
+  bbox_pt:
+  - 256.8
+  - 356.6
+  - 465.1
+  - 496.3
+  file: doc/figures/clymer/p150-r3.jpg
+- page: 150
+  figure: null
+  bbox_pt:
+  - 257.3
+  - 513.1
+  - 464.6
+  - 653.8
+  file: doc/figures/clymer/p150-r4.jpg
+- page: 151
+  figure: null
+  bbox_pt:
+  - 4.8
+  - 42.7
+  - 213.1
+  - 183.8
+  file: doc/figures/clymer/p151-r0.jpg
+- page: 151
+  figure: null
+  bbox_pt:
+  - 5.8
+  - 200.6
+  - 213.6
+  - 340.3
+  file: doc/figures/clymer/p151-r1.jpg
+- page: 151
+  figure: null
+  bbox_pt:
+  - 6.7
+  - 358.1
+  - 214.6
+  - 496.3
+  file: doc/figures/clymer/p151-r2.jpg
+- page: 151
+  figure: null
+  bbox_pt:
+  - 6.7
+  - 514.1
+  - 214.6
+  - 645.6
+  file: doc/figures/clymer/p151-r3.jpg
+- page: 152
+  figure: null
+  bbox_pt:
+  - 255.4
+  - 41.8
+  - 463.2
+  - 184.3
+  file: doc/figures/clymer/p152-r0.jpg
+- page: 153
+  figure: null
+  bbox_pt:
+  - 10.1
+  - 519.8
+  - 217.9
+  - 662.9
+  file: doc/figures/clymer/p153-r0.jpg
+- page: 154
+  figure: null
+  bbox_pt:
+  - 252.5
+  - 42.2
+  - 460.8
+  - 185.8
+  file: doc/figures/clymer/p154-r0.jpg
+- page: 154
+  figure: null
+  bbox_pt:
+  - 43.7
+  - 46.6
+  - 235.7
+  - 187.7
+  file: doc/figures/clymer/p154-r1.jpg
+- page: 154
+  figure: null
+  bbox_pt:
+  - 253.4
+  - 200.2
+  - 461.8
+  - 341.8
+  file: doc/figures/clymer/p154-r2.jpg
+- page: 154
+  figure: null
+  bbox_pt:
+  - 32.2
+  - 204.5
+  - 236.6
+  - 344.2
+  file: doc/figures/clymer/p154-r3.jpg
+- page: 154
+  figure: null
+  bbox_pt:
+  - 254.9
+  - 358.1
+  - 463.2
+  - 498.2
+  file: doc/figures/clymer/p154-r4.jpg
+- page: 154
+  figure: null
+  bbox_pt:
+  - 39.4
+  - 360.0
+  - 238.1
+  - 498.7
+  file: doc/figures/clymer/p154-r5.jpg
+- page: 154
+  figure: null
+  bbox_pt:
+  - 255.8
+  - 515.5
+  - 465.1
+  - 655.7
+  file: doc/figures/clymer/p154-r6.jpg
+- page: 155
+  figure: null
+  bbox_pt:
+  - 6.2
+  - 47.5
+  - 215.5
+  - 188.2
+  file: doc/figures/clymer/p155-r0.jpg
+- page: 155
+  figure: null
+  bbox_pt:
+  - 232.3
+  - 50.4
+  - 435.8
+  - 188.6
+  file: doc/figures/clymer/p155-r1.jpg
+- page: 155
+  figure: null
+  bbox_pt:
+  - 8.2
+  - 206.9
+  - 216.5
+  - 345.6
+  file: doc/figures/clymer/p155-r2.jpg
+- page: 155
+  figure: null
+  bbox_pt:
+  - 241.0
+  - 210.7
+  - 430.1
+  - 341.8
+  file: doc/figures/clymer/p155-r3.jpg
+- page: 155
+  figure: null
+  bbox_pt:
+  - 234.7
+  - 361.4
+  - 437.3
+  - 499.7
+  file: doc/figures/clymer/p155-r4.jpg
+- page: 155
+  figure: null
+  bbox_pt:
+  - 8.6
+  - 362.9
+  - 217.0
+  - 503.5
+  file: doc/figures/clymer/p155-r5.jpg
+- page: 155
+  figure: null
+  bbox_pt:
+  - 9.6
+  - 519.4
+  - 217.9
+  - 662.4
+  file: doc/figures/clymer/p155-r6.jpg
+- page: 156
+  figure: null
+  bbox_pt:
+  - 46.6
+  - 50.4
+  - 224.2
+  - 185.8
+  file: doc/figures/clymer/p156-r0.jpg
+- page: 156
+  figure: null
+  bbox_pt:
+  - 281.8
+  - 56.6
+  - 462.2
+  - 184.8
+  file: doc/figures/clymer/p156-r1.jpg
+- page: 156
+  figure: null
+  bbox_pt:
+  - 273.1
+  - 201.6
+  - 463.2
+  - 341.8
+  file: doc/figures/clymer/p156-r2.jpg
+- page: 156
+  figure: null
+  bbox_pt:
+  - 292.8
+  - 368.6
+  - 423.8
+  - 498.2
+  file: doc/figures/clymer/p156-r3.jpg
+- page: 156
+  figure: null
+  bbox_pt:
+  - 256.8
+  - 517.4
+  - 464.6
+  - 657.6
+  file: doc/figures/clymer/p156-r4.jpg
+- page: 157
+  figure: null
+  bbox_pt:
+  - 8.2
+  - 47.5
+  - 187.2
+  - 187.2
+  file: doc/figures/clymer/p157-r0.jpg
+- page: 157
+  figure: null
+  bbox_pt:
+  - 9.6
+  - 206.9
+  - 164.6
+  - 342.7
+  file: doc/figures/clymer/p157-r1.jpg
+- page: 157
+  figure: null
+  bbox_pt:
+  - 36.0
+  - 372.5
+  - 186.7
+  - 485.3
+  file: doc/figures/clymer/p157-r2.jpg
+- page: 157
+  figure: null
+  bbox_pt:
+  - 10.1
+  - 517.4
+  - 218.4
+  - 660.5
+  file: doc/figures/clymer/p157-r3.jpg
+- page: 158
+  figure: null
+  bbox_pt:
+  - 289.9
+  - 44.6
+  - 429.1
+  - 183.8
+  file: doc/figures/clymer/p158-r0.jpg
+- page: 158
+  figure: null
+  bbox_pt:
+  - 32.6
+  - 47.5
+  - 236.6
+  - 188.6
+  file: doc/figures/clymer/p158-r1.jpg
+- page: 158
+  figure: null
+  bbox_pt:
+  - 254.4
+  - 201.6
+  - 463.2
+  - 342.2
+  file: doc/figures/clymer/p158-r2.jpg
+- page: 158
+  figure: null
+  bbox_pt:
+  - 33.1
+  - 204.5
+  - 237.1
+  - 343.7
+  file: doc/figures/clymer/p158-r3.jpg
+- page: 159
+  figure: null
+  bbox_pt:
+  - 8.2
+  - 48.5
+  - 216.0
+  - 189.1
+  file: doc/figures/clymer/p159-r0.jpg
+- page: 159
+  figure: null
+  bbox_pt:
+  - 233.3
+  - 51.4
+  - 436.8
+  - 189.6
+  file: doc/figures/clymer/p159-r1.jpg
+- page: 159
+  figure: null
+  bbox_pt:
+  - 9.1
+  - 206.9
+  - 217.4
+  - 347.0
+  file: doc/figures/clymer/p159-r2.jpg
+- page: 159
+  figure: null
+  bbox_pt:
+  - 10.1
+  - 363.4
+  - 217.9
+  - 502.6
+  file: doc/figures/clymer/p159-r3.jpg
+- page: 159
+  figure: null
+  bbox_pt:
+  - 10.1
+  - 519.8
+  - 218.4
+  - 662.4
+  file: doc/figures/clymer/p159-r4.jpg
+- page: 160
+  figure: null
+  bbox_pt:
+  - 255.4
+  - 45.1
+  - 462.7
+  - 184.3
+  file: doc/figures/clymer/p160-r0.jpg
+- page: 160
+  figure: null
+  bbox_pt:
+  - 33.6
+  - 55.2
+  - 223.2
+  - 182.9
+  file: doc/figures/clymer/p160-r1.jpg
+- page: 160
+  figure: null
+  bbox_pt:
+  - 279.4
+  - 203.5
+  - 462.7
+  - 341.8
+  file: doc/figures/clymer/p160-r2.jpg
+- page: 160
+  figure: null
+  bbox_pt:
+  - 276.5
+  - 362.9
+  - 462.2
+  - 498.2
+  file: doc/figures/clymer/p160-r3.jpg
+- page: 160
+  figure: null
+  bbox_pt:
+  - 277.9
+  - 518.4
+  - 462.7
+  - 656.6
+  file: doc/figures/clymer/p160-r4.jpg
+- page: 161
+  figure: null
+  bbox_pt:
+  - 7.2
+  - 47.5
+  - 216.5
+  - 188.2
+  file: doc/figures/clymer/p161-r0.jpg
+- page: 161
+  figure: null
+  bbox_pt:
+  - 9.1
+  - 205.9
+  - 217.0
+  - 345.6
+  file: doc/figures/clymer/p161-r1.jpg
+- page: 161
+  figure: null
+  bbox_pt:
+  - 23.5
+  - 362.9
+  - 217.9
+  - 503.0
+  file: doc/figures/clymer/p161-r2.jpg
+- page: 161
+  figure: null
+  bbox_pt:
+  - 10.1
+  - 518.9
+  - 218.4
+  - 661.0
+  file: doc/figures/clymer/p161-r3.jpg
+- page: 162
+  figure: null
+  bbox_pt:
+  - 255.8
+  - 44.6
+  - 463.7
+  - 179.5
+  file: doc/figures/clymer/p162-r0.jpg
+- page: 162
+  figure: null
+  bbox_pt:
+  - 34.1
+  - 48.5
+  - 238.1
+  - 188.6
+  file: doc/figures/clymer/p162-r1.jpg
+- page: 162
+  figure: null
+  bbox_pt:
+  - 255.8
+  - 203.5
+  - 463.2
+  - 343.7
+  file: doc/figures/clymer/p162-r2.jpg
+- page: 162
+  figure: null
+  bbox_pt:
+  - 255.8
+  - 361.0
+  - 463.7
+  - 499.2
+  file: doc/figures/clymer/p162-r3.jpg
+- page: 162
+  figure: null
+  bbox_pt:
+  - 284.2
+  - 517.9
+  - 462.7
+  - 656.6
+  file: doc/figures/clymer/p162-r4.jpg
+- page: 163
+  figure: null
+  bbox_pt:
+  - 253.4
+  - 49.4
+  - 421.4
+  - 186.2
+  file: doc/figures/clymer/p163-r0.jpg
+- page: 163
+  figure: null
+  bbox_pt:
+  - 30.2
+  - 49.9
+  - 192.0
+  - 185.3
+  file: doc/figures/clymer/p163-r1.jpg
+- page: 163
+  figure: null
+  bbox_pt:
+  - 257.3
+  - 208.8
+  - 412.3
+  - 334.1
+  file: doc/figures/clymer/p163-r2.jpg
+- page: 163
+  figure: null
+  bbox_pt:
+  - 34.6
+  - 225.6
+  - 193.9
+  - 342.7
+  file: doc/figures/clymer/p163-r3.jpg
+- page: 163
+  figure: null
+  bbox_pt:
+  - 39.4
+  - 524.2
+  - 191.0
+  - 656.6
+  file: doc/figures/clymer/p163-r4.jpg
+- page: 164
+  figure: null
+  bbox_pt:
+  - 265.9
+  - 46.6
+  - 462.7
+  - 185.8
+  file: doc/figures/clymer/p164-r0.jpg
+- page: 164
+  figure: null
+  bbox_pt:
+  - 255.8
+  - 204.5
+  - 463.2
+  - 344.6
+  file: doc/figures/clymer/p164-r1.jpg
+- page: 164
+  figure: null
+  bbox_pt:
+  - 255.8
+  - 361.9
+  - 463.7
+  - 501.6
+  file: doc/figures/clymer/p164-r2.jpg
+- page: 164
+  figure: null
+  bbox_pt:
+  - 256.3
+  - 518.4
+  - 464.6
+  - 659.5
+  file: doc/figures/clymer/p164-r3.jpg
+- page: 165
+  figure: null
+  bbox_pt:
+  - 8.2
+  - 49.4
+  - 217.0
+  - 190.1
+  file: doc/figures/clymer/p165-r0.jpg
+- page: 165
+  figure: null
+  bbox_pt:
+  - 13.4
+  - 212.2
+  - 190.6
+  - 343.7
+  file: doc/figures/clymer/p165-r1.jpg
+- page: 165
+  figure: null
+  bbox_pt:
+  - 10.6
+  - 363.8
+  - 218.4
+  - 505.0
+  file: doc/figures/clymer/p165-r2.jpg
+- page: 165
+  figure: null
+  bbox_pt:
+  - 11.0
+  - 520.3
+  - 218.9
+  - 663.4
+  file: doc/figures/clymer/p165-r3.jpg
+- page: 166
+  figure: null
+  bbox_pt:
+  - 259.7
+  - 44.6
+  - 467.5
+  - 186.7
+  file: doc/figures/clymer/p166-r0.jpg
+- page: 166
+  figure: null
+  bbox_pt:
+  - 37.9
+  - 48.0
+  - 241.9
+  - 188.6
+  file: doc/figures/clymer/p166-r1.jpg
+- page: 166
+  figure: null
+  bbox_pt:
+  - 259.7
+  - 203.0
+  - 468.0
+  - 343.2
+  file: doc/figures/clymer/p166-r2.jpg
+- page: 168
+  figure: null
+  bbox_pt:
+  - 264.0
+  - 365.3
+  - 464.6
+  - 473.8
+  file: doc/figures/clymer/p168-r0.jpg
+- page: 169
+  figure: null
+  bbox_pt:
+  - 35.0
+  - 49.4
+  - 198.7
+  - 188.2
+  file: doc/figures/clymer/p169-r0.jpg
+- page: 169
+  figure: null
+  bbox_pt:
+  - 235.2
+  - 50.4
+  - 438.7
+  - 189.1
+  file: doc/figures/clymer/p169-r1.jpg
+- page: 169
+  figure: null
+  bbox_pt:
+  - 18.2
+  - 206.9
+  - 218.4
+  - 345.6
+  file: doc/figures/clymer/p169-r2.jpg
+- page: 170
+  figure: null
+  bbox_pt:
+  - 57.1
+  - 55.7
+  - 229.4
+  - 196.3
+  file: doc/figures/clymer/p170-r0.jpg
+- page: 170
+  figure: null
+  bbox_pt:
+  - 249.1
+  - 67.2
+  - 454.1
+  - 175.2
+  file: doc/figures/clymer/p170-r1.jpg
+- page: 172
+  figure: null
+  bbox_pt:
+  - 252.5
+  - 62.4
+  - 459.4
+  - 183.4
+  file: doc/figures/clymer/p172-r0.jpg
+- page: 172
+  figure: null
+  bbox_pt:
+  - 37.0
+  - 86.9
+  - 224.6
+  - 175.2
+  file: doc/figures/clymer/p172-r1.jpg
+- page: 172
+  figure: null
+  bbox_pt:
+  - 252.5
+  - 208.8
+  - 457.9
+  - 340.3
+  file: doc/figures/clymer/p172-r2.jpg
+- page: 172
+  figure: null
+  bbox_pt:
+  - 253.0
+  - 371.0
+  - 459.4
+  - 498.7
+  file: doc/figures/clymer/p172-r3.jpg
+- page: 172
+  figure: null
+  bbox_pt:
+  - 253.9
+  - 521.3
+  - 461.8
+  - 660.5
+  file: doc/figures/clymer/p172-r4.jpg
+- page: 173
+  figure: null
+  bbox_pt:
+  - 13.4
+  - 54.2
+  - 215.5
+  - 193.4
+  file: doc/figures/clymer/p173-r0.jpg
+- page: 173
+  figure: null
+  bbox_pt:
+  - 239.0
+  - 54.7
+  - 411.4
+  - 192.5
+  file: doc/figures/clymer/p173-r1.jpg
+- page: 173
+  figure: null
+  bbox_pt:
+  - 16.3
+  - 211.7
+  - 192.0
+  - 340.3
+  file: doc/figures/clymer/p173-r2.jpg
+- page: 173
+  figure: null
+  bbox_pt:
+  - 18.2
+  - 368.6
+  - 218.4
+  - 505.4
+  file: doc/figures/clymer/p173-r3.jpg
+- page: 173
+  figure: null
+  bbox_pt:
+  - 19.7
+  - 525.1
+  - 210.2
+  - 666.2
+  file: doc/figures/clymer/p173-r4.jpg
+- page: 174
+  figure: null
+  bbox_pt:
+  - 264.0
+  - 458.4
+  - 461.3
+  - 563.5
+  file: doc/figures/clymer/p174-r0.jpg
+- page: 176
+  figure: null
+  bbox_pt:
+  - 253.4
+  - 61.4
+  - 459.8
+  - 191.5
+  file: doc/figures/clymer/p176-r0.jpg
+- page: 176
+  figure: null
+  bbox_pt:
+  - 37.9
+  - 62.4
+  - 228.0
+  - 176.6
+  file: doc/figures/clymer/p176-r1.jpg
+- page: 176
+  figure: null
+  bbox_pt:
+  - 253.9
+  - 210.2
+  - 461.3
+  - 349.4
+  file: doc/figures/clymer/p176-r2.jpg
+- page: 177
+  figure: null
+  bbox_pt:
+  - 10.1
+  - 59.5
+  - 216.0
+  - 190.6
+  file: doc/figures/clymer/p177-r0.jpg
+- page: 177
+  figure: null
+  bbox_pt:
+  - 12.0
+  - 211.2
+  - 220.8
+  - 357.1
+  file: doc/figures/clymer/p177-r1.jpg
+- page: 178
+  figure: null
+  bbox_pt:
+  - 254.4
+  - 48.0
+  - 461.8
+  - 189.6
+  file: doc/figures/clymer/p178-r0.jpg
+- page: 178
+  figure: null
+  bbox_pt:
+  - 32.6
+  - 52.8
+  - 234.7
+  - 192.5
+  file: doc/figures/clymer/p178-r1.jpg
+- page: 178
+  figure: null
+  bbox_pt:
+  - 255.4
+  - 206.9
+  - 462.2
+  - 344.2
+  file: doc/figures/clymer/p178-r2.jpg
+- page: 178
+  figure: null
+  bbox_pt:
+  - 33.6
+  - 209.8
+  - 234.2
+  - 347.0
+  file: doc/figures/clymer/p178-r3.jpg
+- page: 178
+  figure: null
+  bbox_pt:
+  - 255.8
+  - 362.9
+  - 433.9
+  - 502.6
+  file: doc/figures/clymer/p178-r4.jpg
+- page: 178
+  figure: null
+  bbox_pt:
+  - 257.3
+  - 520.8
+  - 456.0
+  - 660.5
+  file: doc/figures/clymer/p178-r5.jpg
+- page: 179
+  figure: null
+  bbox_pt:
+  - 9.1
+  - 53.8
+  - 184.3
+  - 193.9
+  file: doc/figures/clymer/p179-r0.jpg
+- page: 179
+  figure: null
+  bbox_pt:
+  - 234.7
+  - 54.7
+  - 439.2
+  - 192.0
+  file: doc/figures/clymer/p179-r1.jpg
+- page: 179
+  figure: null
+  bbox_pt:
+  - 236.6
+  - 210.2
+  - 432.5
+  - 347.0
+  file: doc/figures/clymer/p179-r2.jpg
+- page: 179
+  figure: null
+  bbox_pt:
+  - 12.0
+  - 211.2
+  - 220.8
+  - 350.9
+  file: doc/figures/clymer/p179-r3.jpg
+- page: 179
+  figure: null
+  bbox_pt:
+  - 13.4
+  - 369.6
+  - 207.8
+  - 501.1
+  file: doc/figures/clymer/p179-r4.jpg
+- page: 179
+  figure: null
+  bbox_pt:
+  - 15.4
+  - 526.6
+  - 224.2
+  - 665.8
+  file: doc/figures/clymer/p179-r5.jpg
+- page: 180
+  figure: null
+  bbox_pt:
+  - 258.7
+  - 48.5
+  - 464.6
+  - 189.6
+  file: doc/figures/clymer/p180-r0.jpg
+- page: 180
+  figure: null
+  bbox_pt:
+  - 41.3
+  - 70.6
+  - 235.7
+  - 190.6
+  file: doc/figures/clymer/p180-r1.jpg
+- page: 180
+  figure: null
+  bbox_pt:
+  - 256.8
+  - 207.4
+  - 464.6
+  - 340.3
+  file: doc/figures/clymer/p180-r2.jpg
+- page: 181
+  figure: null
+  bbox_pt:
+  - 234.7
+  - 59.5
+  - 391.7
+  - 192.0
+  file: doc/figures/clymer/p181-r0.jpg
+- page: 181
+  figure: null
+  bbox_pt:
+  - 9.6
+  - 61.0
+  - 216.0
+  - 193.4
+  file: doc/figures/clymer/p181-r1.jpg
+- page: 181
+  figure: null
+  bbox_pt:
+  - 11.0
+  - 210.7
+  - 218.9
+  - 349.9
+  file: doc/figures/clymer/p181-r2.jpg
+- page: 181
+  figure: null
+  bbox_pt:
+  - 31.7
+  - 372.0
+  - 213.1
+  - 504.5
+  file: doc/figures/clymer/p181-r3.jpg
+- page: 183
+  figure: null
+  bbox_pt:
+  - 37.0
+  - 319.7
+  - 198.7
+  - 483.8
+  file: doc/figures/clymer/p183-r0.jpg
+- page: 184
+  figure: null
+  bbox_pt:
+  - 295.7
+  - 51.8
+  - 427.7
+  - 190.1
+  file: doc/figures/clymer/p184-r0.jpg
+- page: 184
+  figure: null
+  bbox_pt:
+  - 56.2
+  - 52.3
+  - 207.8
+  - 192.0
+  file: doc/figures/clymer/p184-r1.jpg
+- page: 185
+  figure: null
+  bbox_pt:
+  - 7.2
+  - 54.2
+  - 216.5
+  - 193.9
+  file: doc/figures/clymer/p185-r0.jpg
+- page: 185
+  figure: null
+  bbox_pt:
+  - 9.1
+  - 211.2
+  - 218.4
+  - 351.4
+  file: doc/figures/clymer/p185-r1.jpg
+- page: 185
+  figure: null
+  bbox_pt:
+  - 11.5
+  - 366.7
+  - 219.8
+  - 508.8
+  file: doc/figures/clymer/p185-r2.jpg
+- page: 185
+  figure: null
+  bbox_pt:
+  - 12.5
+  - 523.2
+  - 221.3
+  - 666.2
+  file: doc/figures/clymer/p185-r3.jpg
+- page: 186
+  figure: null
+  bbox_pt:
+  - 286.1
+  - 49.4
+  - 463.7
+  - 191.0
+  file: doc/figures/clymer/p186-r0.jpg
+- page: 186
+  figure: null
+  bbox_pt:
+  - 57.1
+  - 53.3
+  - 238.1
+  - 193.0
+  file: doc/figures/clymer/p186-r1.jpg
+- page: 186
+  figure: null
+  bbox_pt:
+  - 259.7
+  - 207.8
+  - 463.2
+  - 348.0
+  file: doc/figures/clymer/p186-r2.jpg
+- page: 186
+  figure: null
+  bbox_pt:
+  - 37.0
+  - 210.2
+  - 213.1
+  - 343.2
+  file: doc/figures/clymer/p186-r3.jpg
+- page: 186
+  figure: null
+  bbox_pt:
+  - 261.6
+  - 364.8
+  - 462.7
+  - 504.5
+  file: doc/figures/clymer/p186-r4.jpg
+- page: 186
+  figure: null
+  bbox_pt:
+  - 265.0
+  - 522.7
+  - 443.0
+  - 661.9
+  file: doc/figures/clymer/p186-r5.jpg
+- page: 187
+  figure: null
+  bbox_pt:
+  - 6.2
+  - 54.2
+  - 201.6
+  - 193.9
+  file: doc/figures/clymer/p187-r0.jpg
+- page: 187
+  figure: null
+  bbox_pt:
+  - 233.8
+  - 54.2
+  - 436.3
+  - 192.5
+  file: doc/figures/clymer/p187-r1.jpg
+- page: 187
+  figure: null
+  bbox_pt:
+  - 233.8
+  - 208.8
+  - 438.2
+  - 348.0
+  file: doc/figures/clymer/p187-r2.jpg
+- page: 187
+  figure: null
+  bbox_pt:
+  - 8.6
+  - 211.7
+  - 163.2
+  - 350.9
+  file: doc/figures/clymer/p187-r3.jpg
+- page: 187
+  figure: null
+  bbox_pt:
+  - 11.5
+  - 366.2
+  - 218.9
+  - 508.8
+  file: doc/figures/clymer/p187-r4.jpg
+- page: 187
+  figure: null
+  bbox_pt:
+  - 12.5
+  - 525.1
+  - 189.6
+  - 666.7
+  file: doc/figures/clymer/p187-r5.jpg
+- page: 188
+  figure: null
+  bbox_pt:
+  - 255.8
+  - 51.4
+  - 463.7
+  - 193.0
+  file: doc/figures/clymer/p188-r0.jpg
+- page: 188
+  figure: null
+  bbox_pt:
+  - 33.6
+  - 54.7
+  - 238.1
+  - 195.4
+  file: doc/figures/clymer/p188-r1.jpg
+- page: 188
+  figure: null
+  bbox_pt:
+  - 256.3
+  - 209.3
+  - 462.7
+  - 349.4
+  file: doc/figures/clymer/p188-r2.jpg
+- page: 188
+  figure: null
+  bbox_pt:
+  - 256.3
+  - 366.7
+  - 464.6
+  - 487.7
+  file: doc/figures/clymer/p188-r3.jpg
+- page: 189
+  figure: null
+  bbox_pt:
+  - 8.2
+  - 50.9
+  - 213.6
+  - 190.1
+  file: doc/figures/clymer/p189-r0.jpg
+- page: 189
+  figure: null
+  bbox_pt:
+  - 13.0
+  - 207.8
+  - 215.0
+  - 347.5
+  file: doc/figures/clymer/p189-r1.jpg
+- page: 189
+  figure: null
+  bbox_pt:
+  - 16.8
+  - 364.3
+  - 216.0
+  - 505.0
+  file: doc/figures/clymer/p189-r2.jpg
+- page: 189
+  figure: null
+  bbox_pt:
+  - 15.4
+  - 520.8
+  - 217.0
+  - 663.4
+  file: doc/figures/clymer/p189-r3.jpg
+- page: 190
+  figure: null
+  bbox_pt:
+  - 263.5
+  - 212.2
+  - 462.2
+  - 316.3
+  file: doc/figures/clymer/p190-r0.jpg
+- page: 190
+  figure: null
+  bbox_pt:
+  - 294.2
+  - 364.3
+  - 464.6
+  - 501.6
+  file: doc/figures/clymer/p190-r1.jpg
+- page: 190
+  figure: null
+  bbox_pt:
+  - 259.2
+  - 520.8
+  - 466.1
+  - 659.0
+  file: doc/figures/clymer/p190-r2.jpg
+- page: 191
+  figure: null
+  bbox_pt:
+  - 59.5
+  - 50.9
+  - 191.5
+  - 167.0
+  file: doc/figures/clymer/p191-r0.jpg
+- page: 191
+  figure: null
+  bbox_pt:
+  - 9.1
+  - 218.4
+  - 133.9
+  - 346.6
+  file: doc/figures/clymer/p191-r1.jpg
+- page: 191
+  figure: null
+  bbox_pt:
+  - 60.5
+  - 390.2
+  - 185.8
+  - 474.2
+  file: doc/figures/clymer/p191-r2.jpg
+- page: 191
+  figure: null
+  bbox_pt:
+  - 25.0
+  - 561.1
+  - 160.3
+  - 636.0
+  file: doc/figures/clymer/p191-r3.jpg
+- page: 192
+  figure: null
+  bbox_pt:
+  - 261.1
+  - 47.5
+  - 463.2
+  - 186.2
+  file: doc/figures/clymer/p192-r0.jpg
+- page: 192
+  figure: null
+  bbox_pt:
+  - 59.5
+  - 71.0
+  - 238.6
+  - 215.5
+  file: doc/figures/clymer/p192-r1.jpg
+- page: 192
+  figure: null
+  bbox_pt:
+  - 256.3
+  - 214.6
+  - 465.1
+  - 345.1
+  file: doc/figures/clymer/p192-r2.jpg
+- page: 193
+  figure: null
+  bbox_pt:
+  - 4.8
+  - 49.0
+  - 181.4
+  - 189.1
+  file: doc/figures/clymer/p193-r0.jpg
+- page: 193
+  figure: null
+  bbox_pt:
+  - 6.7
+  - 207.8
+  - 215.0
+  - 346.6
+  file: doc/figures/clymer/p193-r1.jpg
+- page: 193
+  figure: null
+  bbox_pt:
+  - 7.7
+  - 362.9
+  - 215.5
+  - 504.5
+  file: doc/figures/clymer/p193-r2.jpg
+- page: 194
+  figure: null
+  bbox_pt:
+  - 257.8
+  - 49.0
+  - 465.6
+  - 191.0
+  file: doc/figures/clymer/p194-r0.jpg
+- page: 194
+  figure: null
+  bbox_pt:
+  - 279.8
+  - 207.8
+  - 446.9
+  - 347.5
+  file: doc/figures/clymer/p194-r1.jpg
+- page: 194
+  figure: null
+  bbox_pt:
+  - 286.6
+  - 368.6
+  - 464.2
+  - 504.0
+  file: doc/figures/clymer/p194-r2.jpg
+- page: 194
+  figure: null
+  bbox_pt:
+  - 266.9
+  - 520.8
+  - 447.4
+  - 661.9
+  file: doc/figures/clymer/p194-r3.jpg
+- page: 196
+  figure: null
+  bbox_pt:
+  - 259.7
+  - 48.0
+  - 467.5
+  - 188.6
+  file: doc/figures/clymer/p196-r0.jpg
+- page: 196
+  figure: null
+  bbox_pt:
+  - 61.0
+  - 51.4
+  - 241.4
+  - 192.0
+  file: doc/figures/clymer/p196-r1.jpg
+- page: 196
+  figure: null
+  bbox_pt:
+  - 262.6
+  - 206.4
+  - 467.5
+  - 347.0
+  file: doc/figures/clymer/p196-r2.jpg
+- page: 196
+  figure: null
+  bbox_pt:
+  - 260.6
+  - 364.3
+  - 467.5
+  - 503.5
+  file: doc/figures/clymer/p196-r3.jpg
+- page: 196
+  figure: null
+  bbox_pt:
+  - 260.2
+  - 520.8
+  - 468.5
+  - 661.9
+  file: doc/figures/clymer/p196-r4.jpg
+- page: 197
+  figure: null
+  bbox_pt:
+  - 3.4
+  - 51.8
+  - 211.2
+  - 190.6
+  file: doc/figures/clymer/p197-r0.jpg
+- page: 197
+  figure: null
+  bbox_pt:
+  - 6.7
+  - 209.8
+  - 196.3
+  - 348.0
+  file: doc/figures/clymer/p197-r1.jpg
+- page: 197
+  figure: null
+  bbox_pt:
+  - 27.8
+  - 376.3
+  - 214.1
+  - 505.0
+  file: doc/figures/clymer/p197-r2.jpg
+- page: 197
+  figure: null
+  bbox_pt:
+  - 6.7
+  - 521.3
+  - 215.0
+  - 662.4
+  file: doc/figures/clymer/p197-r3.jpg
+- page: 199
+  figure: null
+  bbox_pt:
+  - 4.8
+  - 50.9
+  - 214.1
+  - 191.0
+  file: doc/figures/clymer/p199-r0.jpg
+- page: 199
+  figure: null
+  bbox_pt:
+  - 230.4
+  - 52.8
+  - 434.4
+  - 191.0
+  file: doc/figures/clymer/p199-r1.jpg
+- page: 199
+  figure: null
+  bbox_pt:
+  - 6.2
+  - 208.3
+  - 215.0
+  - 348.5
+  file: doc/figures/clymer/p199-r2.jpg
+- page: 199
+  figure: null
+  bbox_pt:
+  - 7.7
+  - 364.3
+  - 216.0
+  - 505.4
+  file: doc/figures/clymer/p199-r3.jpg
+- page: 199
+  figure: null
+  bbox_pt:
+  - 8.6
+  - 522.7
+  - 216.5
+  - 664.3
+  file: doc/figures/clymer/p199-r4.jpg
+- page: 202
+  figure: null
+  bbox_pt:
+  - 249.1
+  - 50.4
+  - 457.0
+  - 192.5
+  file: doc/figures/clymer/p202-r0.jpg
+- page: 202
+  figure: null
+  bbox_pt:
+  - 249.1
+  - 207.8
+  - 457.0
+  - 348.5
+  file: doc/figures/clymer/p202-r1.jpg
+- page: 202
+  figure: null
+  bbox_pt:
+  - 250.1
+  - 365.8
+  - 457.4
+  - 505.4
+  file: doc/figures/clymer/p202-r2.jpg
+- page: 203
+  figure: null
+  bbox_pt:
+  - 12.0
+  - 53.8
+  - 221.8
+  - 193.4
+  file: doc/figures/clymer/p203-r0.jpg
+- page: 203
+  figure: null
+  bbox_pt:
+  - 14.9
+  - 210.2
+  - 224.2
+  - 350.4
+  file: doc/figures/clymer/p203-r1.jpg
+- page: 203
+  figure: null
+  bbox_pt:
+  - 22.1
+  - 374.9
+  - 225.1
+  - 499.2
+  file: doc/figures/clymer/p203-r2.jpg
+- page: 205
+  figure: null
+  bbox_pt:
+  - 14.4
+  - 54.2
+  - 220.8
+  - 193.9
+  file: doc/figures/clymer/p205-r0.jpg
+- page: 205
+  figure: null
+  bbox_pt:
+  - 237.1
+  - 54.2
+  - 442.6
+  - 192.0
+  file: doc/figures/clymer/p205-r1.jpg
+- page: 205
+  figure: null
+  bbox_pt:
+  - 14.4
+  - 210.7
+  - 223.7
+  - 350.9
+  file: doc/figures/clymer/p205-r2.jpg
+- page: 206
+  figure: null
+  bbox_pt:
+  - 253.4
+  - 50.4
+  - 461.3
+  - 192.0
+  file: doc/figures/clymer/p206-r0.jpg
+- page: 206
+  figure: null
+  bbox_pt:
+  - 31.7
+  - 54.2
+  - 224.6
+  - 194.4
+  file: doc/figures/clymer/p206-r1.jpg
+- page: 206
+  figure: null
+  bbox_pt:
+  - 253.4
+  - 208.8
+  - 461.3
+  - 349.4
+  file: doc/figures/clymer/p206-r2.jpg
+- page: 206
+  figure: null
+  bbox_pt:
+  - 254.4
+  - 366.7
+  - 462.2
+  - 506.4
+  file: doc/figures/clymer/p206-r3.jpg
+- page: 206
+  figure: null
+  bbox_pt:
+  - 254.9
+  - 523.2
+  - 463.2
+  - 664.3
+  file: doc/figures/clymer/p206-r4.jpg
+- page: 207
+  figure: null
+  bbox_pt:
+  - 12.0
+  - 54.7
+  - 221.8
+  - 195.8
+  file: doc/figures/clymer/p207-r0.jpg
+- page: 207
+  figure: null
+  bbox_pt:
+  - 272.2
+  - 56.6
+  - 414.2
+  - 187.2
+  file: doc/figures/clymer/p207-r1.jpg
+- page: 207
+  figure: null
+  bbox_pt:
+  - 49.0
+  - 212.6
+  - 192.0
+  - 351.4
+  file: doc/figures/clymer/p207-r2.jpg
+- page: 207
+  figure: null
+  bbox_pt:
+  - 29.8
+  - 384.0
+  - 217.4
+  - 489.1
+  file: doc/figures/clymer/p207-r3.jpg
+- page: 207
+  figure: null
+  bbox_pt:
+  - 18.7
+  - 526.1
+  - 227.0
+  - 668.6
+  file: doc/figures/clymer/p207-r4.jpg
+- page: 209
+  figure: null
+  bbox_pt:
+  - 12.5
+  - 53.8
+  - 220.8
+  - 193.9
+  file: doc/figures/clymer/p209-r0.jpg
+- page: 209
+  figure: null
+  bbox_pt:
+  - 44.6
+  - 218.4
+  - 210.7
+  - 349.0
+  file: doc/figures/clymer/p209-r1.jpg
+- page: 210
+  figure: null
+  bbox_pt:
+  - 257.3
+  - 49.9
+  - 461.3
+  - 190.1
+  file: doc/figures/clymer/p210-r0.jpg
+- page: 210
+  figure: null
+  bbox_pt:
+  - 38.4
+  - 54.2
+  - 220.3
+  - 189.6
+  file: doc/figures/clymer/p210-r1.jpg
+- page: 210
+  figure: null
+  bbox_pt:
+  - 254.9
+  - 207.8
+  - 461.3
+  - 346.6
+  file: doc/figures/clymer/p210-r2.jpg
+- page: 210
+  figure: null
+  bbox_pt:
+  - 68.2
+  - 216.5
+  - 201.6
+  - 349.0
+  file: doc/figures/clymer/p210-r3.jpg
+- page: 210
+  figure: null
+  bbox_pt:
+  - 255.4
+  - 365.8
+  - 462.7
+  - 503.0
+  file: doc/figures/clymer/p210-r4.jpg
+- page: 211
+  figure: null
+  bbox_pt:
+  - 12.0
+  - 53.3
+  - 220.8
+  - 193.9
+  file: doc/figures/clymer/p211-r0.jpg
+- page: 211
+  figure: null
+  bbox_pt:
+  - 243.4
+  - 54.7
+  - 441.1
+  - 222.7
+  file: doc/figures/clymer/p211-r1.jpg
+- page: 211
+  figure: null
+  bbox_pt:
+  - 47.0
+  - 211.2
+  - 222.7
+  - 349.9
+  file: doc/figures/clymer/p211-r2.jpg
+- page: 212
+  figure: null
+  bbox_pt:
+  - 260.2
+  - 51.4
+  - 462.2
+  - 193.0
+  file: doc/figures/clymer/p212-r0.jpg
+- page: 212
+  figure: null
+  bbox_pt:
+  - 63.8
+  - 55.2
+  - 237.1
+  - 194.9
+  file: doc/figures/clymer/p212-r1.jpg
+- page: 212
+  figure: null
+  bbox_pt:
+  - 262.6
+  - 209.8
+  - 462.7
+  - 349.9
+  file: doc/figures/clymer/p212-r2.jpg
+- page: 212
+  figure: null
+  bbox_pt:
+  - 258.7
+  - 524.6
+  - 463.7
+  - 663.8
+  file: doc/figures/clymer/p212-r3.jpg
+- page: 213
+  figure: null
+  bbox_pt:
+  - 17.3
+  - 496.3
+  - 225.6
+  - 670.1
+  file: doc/figures/clymer/p213-r0.jpg
+- page: 215
+  figure: null
+  bbox_pt:
+  - 12.5
+  - 54.2
+  - 221.3
+  - 194.4
+  file: doc/figures/clymer/p215-r0.jpg
+- page: 215
+  figure: null
+  bbox_pt:
+  - 15.8
+  - 211.7
+  - 223.2
+  - 352.8
+  file: doc/figures/clymer/p215-r1.jpg
+- page: 216
+  figure: null
+  bbox_pt:
+  - 255.4
+  - 51.4
+  - 463.2
+  - 193.4
+  file: doc/figures/clymer/p216-r0.jpg
+- page: 218
+  figure: null
+  bbox_pt:
+  - 254.9
+  - 54.2
+  - 462.7
+  - 195.8
+  file: doc/figures/clymer/p218-r0.jpg
+- page: 221
+  figure: null
+  bbox_pt:
+  - 7.7
+  - 55.7
+  - 216.5
+  - 195.8
+  file: doc/figures/clymer/p221-r0.jpg
+- page: 221
+  figure: null
+  bbox_pt:
+  - 10.1
+  - 212.2
+  - 219.4
+  - 352.8
+  file: doc/figures/clymer/p221-r1.jpg
+- page: 221
+  figure: null
+  bbox_pt:
+  - 12.5
+  - 368.2
+  - 221.3
+  - 510.7
+  file: doc/figures/clymer/p221-r2.jpg
+- page: 221
+  figure: null
+  bbox_pt:
+  - 15.4
+  - 525.1
+  - 222.7
+  - 667.7
+  file: doc/figures/clymer/p221-r3.jpg
+- page: 222
+  figure: null
+  bbox_pt:
+  - 256.8
+  - 53.3
+  - 465.1
+  - 212.6
+  file: doc/figures/clymer/p222-r0.jpg
+- page: 222
+  figure: null
+  bbox_pt:
+  - 35.0
+  - 56.2
+  - 240.0
+  - 196.3
+  file: doc/figures/clymer/p222-r1.jpg
+- page: 222
+  figure: null
+  bbox_pt:
+  - 257.8
+  - 228.0
+  - 465.6
+  - 386.4
+  file: doc/figures/clymer/p222-r2.jpg
+- page: 223
+  figure: null
+  bbox_pt:
+  - 13.0
+  - 494.4
+  - 222.7
+  - 665.8
+  file: doc/figures/clymer/p223-r0.jpg
+- page: 225
+  figure: null
+  bbox_pt:
+  - 8.6
+  - 343.7
+  - 217.0
+  - 485.3
+  file: doc/figures/clymer/p225-r0.jpg
+- page: 226
+  figure: null
+  bbox_pt:
+  - 260.6
+  - 227.0
+  - 468.0
+  - 367.2
+  file: doc/figures/clymer/p226-r0.jpg
+- page: 227
+  figure: null
+  bbox_pt:
+  - 230.4
+  - 53.8
+  - 435.4
+  - 191.5
+  file: doc/figures/clymer/p227-r0.jpg
+- page: 228
+  figure: null
+  bbox_pt:
+  - 259.2
+  - 51.4
+  - 467.5
+  - 193.9
+  file: doc/figures/clymer/p228-r0.jpg
+- page: 230
+  figure: null
+  bbox_pt:
+  - 257.3
+  - 48.0
+  - 465.1
+  - 190.1
+  file: doc/figures/clymer/p230-r0.jpg
+- page: 230
+  figure: null
+  bbox_pt:
+  - 257.3
+  - 205.4
+  - 465.1
+  - 346.6
+  file: doc/figures/clymer/p230-r1.jpg
+- page: 231
+  figure: null
+  bbox_pt:
+  - 2.4
+  - 51.8
+  - 212.2
+  - 193.4
+  file: doc/figures/clymer/p231-r0.jpg
+- page: 232
+  figure: null
+  bbox_pt:
+  - 36.0
+  - 518.4
+  - 239.5
+  - 657.6
+  file: doc/figures/clymer/p232-r0.jpg
+- page: 232
+  figure: null
+  bbox_pt:
+  - 257.3
+  - 520.8
+  - 465.1
+  - 662.4
+  file: doc/figures/clymer/p232-r1.jpg
+- page: 233
+  figure: null
+  bbox_pt:
+  - 2.9
+  - 49.9
+  - 212.6
+  - 189.6
+  file: doc/figures/clymer/p233-r0.jpg
+- page: 233
+  figure: null
+  bbox_pt:
+  - 228.5
+  - 50.9
+  - 433.0
+  - 180.5
+  file: doc/figures/clymer/p233-r1.jpg
+- page: 235
+  figure: null
+  bbox_pt:
+  - 5.8
+  - 313.4
+  - 214.6
+  - 454.6
+  file: doc/figures/clymer/p235-r0.jpg
+- page: 236
+  figure: null
+  bbox_pt:
+  - 256.8
+  - 47.5
+  - 466.6
+  - 188.6
+  file: doc/figures/clymer/p236-r0.jpg
+- page: 236
+  figure: null
+  bbox_pt:
+  - 36.0
+  - 51.4
+  - 239.5
+  - 192.0
+  file: doc/figures/clymer/p236-r1.jpg
+- page: 236
+  figure: null
+  bbox_pt:
+  - 257.3
+  - 205.9
+  - 465.6
+  - 346.1
+  file: doc/figures/clymer/p236-r2.jpg
+- page: 237
+  figure: null
+  bbox_pt:
+  - 1.9
+  - 47.5
+  - 209.3
+  - 188.2
+  file: doc/figures/clymer/p237-r0.jpg
+- page: 237
+  figure: null
+  bbox_pt:
+  - 1.9
+  - 205.4
+  - 211.2
+  - 345.6
+  file: doc/figures/clymer/p237-r1.jpg
+- page: 238
+  figure: null
+  bbox_pt:
+  - 246.2
+  - 40.8
+  - 454.1
+  - 182.9
+  file: doc/figures/clymer/p238-r0.jpg
+- page: 238
+  figure: null
+  bbox_pt:
+  - 246.7
+  - 198.2
+  - 455.0
+  - 339.4
+  file: doc/figures/clymer/p238-r1.jpg
+- page: 238
+  figure: null
+  bbox_pt:
+  - 247.7
+  - 356.2
+  - 455.5
+  - 495.4
+  file: doc/figures/clymer/p238-r2.jpg
+- page: 239
+  figure: null
+  bbox_pt:
+  - 13.4
+  - 46.6
+  - 222.7
+  - 186.7
+  file: doc/figures/clymer/p239-r0.jpg
+- page: 239
+  figure: null
+  bbox_pt:
+  - 15.4
+  - 204.0
+  - 207.4
+  - 344.6
+  file: doc/figures/clymer/p239-r1.jpg
+- page: 239
+  figure: null
+  bbox_pt:
+  - 16.8
+  - 360.0
+  - 224.6
+  - 502.1
+  file: doc/figures/clymer/p239-r2.jpg
+- page: 239
+  figure: null
+  bbox_pt:
+  - 18.2
+  - 516.5
+  - 226.6
+  - 660.0
+  file: doc/figures/clymer/p239-r3.jpg
+- page: 240
+  figure: null
+  bbox_pt:
+  - 263.5
+  - 42.7
+  - 457.9
+  - 189.1
+  file: doc/figures/clymer/p240-r0.jpg
+- page: 240
+  figure: null
+  bbox_pt:
+  - 272.2
+  - 220.3
+  - 458.4
+  - 374.9
+  file: doc/figures/clymer/p240-r1.jpg
+- page: 240
+  figure: null
+  bbox_pt:
+  - 252.5
+  - 392.6
+  - 458.9
+  - 550.1
+  file: doc/figures/clymer/p240-r2.jpg
+- page: 241
+  figure: null
+  bbox_pt:
+  - 11.5
+  - 47.5
+  - 208.3
+  - 187.2
+  file: doc/figures/clymer/p241-r0.jpg
+- page: 242
+  figure: null
+  bbox_pt:
+  - 257.8
+  - 312.5
+  - 461.8
+  - 453.6
+  file: doc/figures/clymer/p242-r0.jpg
+- page: 243
+  figure: null
+  bbox_pt:
+  - 11.5
+  - 51.8
+  - 220.8
+  - 191.0
+  file: doc/figures/clymer/p243-r0.jpg
+- page: 243
+  figure: null
+  bbox_pt:
+  - 237.1
+  - 52.8
+  - 441.6
+  - 191.0
+  file: doc/figures/clymer/p243-r1.jpg
+- page: 243
+  figure: null
+  bbox_pt:
+  - 239.0
+  - 207.4
+  - 443.5
+  - 346.1
+  file: doc/figures/clymer/p243-r2.jpg
+- page: 243
+  figure: null
+  bbox_pt:
+  - 14.4
+  - 208.8
+  - 222.2
+  - 349.0
+  file: doc/figures/clymer/p243-r3.jpg
+- page: 243
+  figure: null
+  bbox_pt:
+  - 15.4
+  - 364.8
+  - 222.7
+  - 506.4
+  file: doc/figures/clymer/p243-r4.jpg
+- page: 243
+  figure: null
+  bbox_pt:
+  - 16.3
+  - 522.2
+  - 224.6
+  - 664.8
+  file: doc/figures/clymer/p243-r5.jpg
+- page: 244
+  figure: null
+  bbox_pt:
+  - 29.8
+  - 47.5
+  - 234.7
+  - 188.2
+  file: doc/figures/clymer/p244-r0.jpg
+- page: 244
+  figure: null
+  bbox_pt:
+  - 31.2
+  - 204.5
+  - 235.7
+  - 344.2
+  file: doc/figures/clymer/p244-r1.jpg
+- page: 244
+  figure: null
+  bbox_pt:
+  - 271.2
+  - 468.0
+  - 448.3
+  - 539.0
+  file: doc/figures/clymer/p244-r2.jpg
+- page: 245
+  figure: null
+  bbox_pt:
+  - 13.0
+  - 207.8
+  - 221.3
+  - 348.0
+  file: doc/figures/clymer/p245-r0.jpg
+- page: 245
+  figure: null
+  bbox_pt:
+  - 14.9
+  - 363.8
+  - 222.2
+  - 505.0
+  file: doc/figures/clymer/p245-r1.jpg
+- page: 245
+  figure: null
+  bbox_pt:
+  - 15.4
+  - 520.8
+  - 223.7
+  - 663.8
+  file: doc/figures/clymer/p245-r2.jpg
+- page: 246
+  figure: null
+  bbox_pt:
+  - 280.3
+  - 45.1
+  - 463.2
+  - 186.7
+  file: doc/figures/clymer/p246-r0.jpg
+- page: 246
+  figure: null
+  bbox_pt:
+  - 33.6
+  - 48.5
+  - 238.1
+  - 189.1
+  file: doc/figures/clymer/p246-r1.jpg
+- page: 246
+  figure: null
+  bbox_pt:
+  - 255.4
+  - 205.4
+  - 462.2
+  - 344.2
+  file: doc/figures/clymer/p246-r2.jpg
+- page: 246
+  figure: null
+  bbox_pt:
+  - 256.3
+  - 361.0
+  - 464.2
+  - 501.1
+  file: doc/figures/clymer/p246-r3.jpg
+- page: 246
+  figure: null
+  bbox_pt:
+  - 257.3
+  - 517.9
+  - 462.7
+  - 658.6
+  file: doc/figures/clymer/p246-r4.jpg
+- page: 247
+  figure: null
+  bbox_pt:
+  - 14.9
+  - 51.4
+  - 223.2
+  - 191.5
+  file: doc/figures/clymer/p247-r0.jpg
+- page: 247
+  figure: null
+  bbox_pt:
+  - 16.3
+  - 209.3
+  - 224.6
+  - 349.4
+  file: doc/figures/clymer/p247-r1.jpg
+- page: 247
+  figure: null
+  bbox_pt:
+  - 17.3
+  - 365.3
+  - 225.6
+  - 506.4
+  file: doc/figures/clymer/p247-r2.jpg
+- page: 248
+  figure: null
+  bbox_pt:
+  - 251.5
+  - 45.1
+  - 460.8
+  - 187.2
+  file: doc/figures/clymer/p248-r0.jpg
+- page: 248
+  figure: null
+  bbox_pt:
+  - 253.0
+  - 203.5
+  - 459.4
+  - 342.7
+  file: doc/figures/clymer/p248-r1.jpg
+- page: 249
+  figure: null
+  bbox_pt:
+  - 264.5
+  - 262.1
+  - 443.0
+  - 399.4
+  file: doc/figures/clymer/p249-r0.jpg
+- page: 249
+  figure: null
+  bbox_pt:
+  - 13.9
+  - 263.0
+  - 213.1
+  - 402.7
+  file: doc/figures/clymer/p249-r1.jpg
+- page: 251
+  figure: null
+  bbox_pt:
+  - 13.4
+  - 55.7
+  - 221.3
+  - 192.0
+  file: doc/figures/clymer/p251-r0.jpg
+- page: 252
+  figure: null
+  bbox_pt:
+  - 31.7
+  - 47.5
+  - 235.7
+  - 187.2
+  file: doc/figures/clymer/p252-r0.jpg
+- page: 254
+  figure: null
+  bbox_pt:
+  - 256.8
+  - 43.7
+  - 464.6
+  - 174.7
+  file: doc/figures/clymer/p254-r0.jpg
+- page: 254
+  figure: null
+  bbox_pt:
+  - 34.6
+  - 48.0
+  - 192.5
+  - 188.2
+  file: doc/figures/clymer/p254-r1.jpg
+- page: 254
+  figure: null
+  bbox_pt:
+  - 256.8
+  - 203.0
+  - 464.6
+  - 341.8
+  file: doc/figures/clymer/p254-r2.jpg
+- page: 254
+  figure: null
+  bbox_pt:
+  - 257.3
+  - 360.5
+  - 465.1
+  - 498.2
+  file: doc/figures/clymer/p254-r3.jpg
+- page: 254
+  figure: null
+  bbox_pt:
+  - 257.8
+  - 516.5
+  - 465.6
+  - 657.6
+  file: doc/figures/clymer/p254-r4.jpg
+- page: 255
+  figure: null
+  bbox_pt:
+  - 235.2
+  - 53.3
+  - 439.7
+  - 191.5
+  file: doc/figures/clymer/p255-r0.jpg
+- page: 255
+  figure: null
+  bbox_pt:
+  - 12.0
+  - 227.0
+  - 219.8
+  - 367.2
+  file: doc/figures/clymer/p255-r1.jpg
+- page: 255
+  figure: null
+  bbox_pt:
+  - 13.4
+  - 383.5
+  - 190.6
+  - 525.1
+  file: doc/figures/clymer/p255-r2.jpg
+- page: 256
+  figure: null
+  bbox_pt:
+  - 254.9
+  - 44.6
+  - 463.2
+  - 186.7
+  file: doc/figures/clymer/p256-r0.jpg
+- page: 256
+  figure: null
+  bbox_pt:
+  - 32.6
+  - 48.0
+  - 237.1
+  - 188.6
+  file: doc/figures/clymer/p256-r1.jpg
+- page: 256
+  figure: null
+  bbox_pt:
+  - 255.4
+  - 359.5
+  - 462.7
+  - 499.7
+  file: doc/figures/clymer/p256-r2.jpg
+- page: 256
+  figure: null
+  bbox_pt:
+  - 255.8
+  - 517.0
+  - 464.2
+  - 658.1
+  file: doc/figures/clymer/p256-r3.jpg
+- page: 257
+  figure: null
+  bbox_pt:
+  - 6.2
+  - 50.9
+  - 216.0
+  - 191.5
+  file: doc/figures/clymer/p257-r0.jpg
+- page: 257
+  figure: null
+  bbox_pt:
+  - 43.2
+  - 220.3
+  - 188.6
+  - 339.4
+  file: doc/figures/clymer/p257-r1.jpg
+- page: 257
+  figure: null
+  bbox_pt:
+  - 10.1
+  - 388.8
+  - 218.4
+  - 506.4
+  file: doc/figures/clymer/p257-r2.jpg
+- page: 257
+  figure: null
+  bbox_pt:
+  - 11.5
+  - 523.7
+  - 207.4
+  - 664.8
+  file: doc/figures/clymer/p257-r3.jpg
+- page: 258
+  figure: null
+  bbox_pt:
+  - 257.3
+  - 44.2
+  - 464.6
+  - 174.2
+  file: doc/figures/clymer/p258-r0.jpg
+- page: 258
+  figure: null
+  bbox_pt:
+  - 35.0
+  - 49.9
+  - 238.6
+  - 176.2
+  file: doc/figures/clymer/p258-r1.jpg
+- page: 258
+  figure: null
+  bbox_pt:
+  - 257.8
+  - 191.5
+  - 465.1
+  - 319.2
+  file: doc/figures/clymer/p258-r2.jpg
+- page: 258
+  figure: null
+  bbox_pt:
+  - 258.2
+  - 337.9
+  - 465.6
+  - 464.6
+  file: doc/figures/clymer/p258-r3.jpg
+- page: 259
+  figure: null
+  bbox_pt:
+  - 5.3
+  - 49.0
+  - 191.0
+  - 177.1
+  file: doc/figures/clymer/p259-r0.jpg
+- page: 259
+  figure: null
+  bbox_pt:
+  - 6.7
+  - 194.4
+  - 214.1
+  - 321.6
+  file: doc/figures/clymer/p259-r1.jpg
+- page: 259
+  figure: null
+  bbox_pt:
+  - 7.7
+  - 338.9
+  - 215.5
+  - 467.5
+  file: doc/figures/clymer/p259-r2.jpg
+- page: 261
+  figure: null
+  bbox_pt:
+  - 8.2
+  - 340.8
+  - 216.0
+  - 481.9
+  file: doc/figures/clymer/p261-r0.jpg
+- page: 262
+  figure: null
+  bbox_pt:
+  - 250.1
+  - 45.6
+  - 458.4
+  - 188.2
+  file: doc/figures/clymer/p262-r0.jpg
+- page: 262
+  figure: null
+  bbox_pt:
+  - 28.3
+  - 49.0
+  - 232.8
+  - 190.1
+  file: doc/figures/clymer/p262-r1.jpg
+- page: 262
+  figure: null
+  bbox_pt:
+  - 251.0
+  - 205.0
+  - 458.4
+  - 362.9
+  file: doc/figures/clymer/p262-r2.jpg
+- page: 263
+  figure: null
+  bbox_pt:
+  - 232.3
+  - 49.0
+  - 436.8
+  - 200.6
+  file: doc/figures/clymer/p263-r0.jpg
+- page: 263
+  figure: null
+  bbox_pt:
+  - 7.7
+  - 50.4
+  - 216.0
+  - 188.6
+  file: doc/figures/clymer/p263-r1.jpg
+- page: 263
+  figure: null
+  bbox_pt:
+  - 11.5
+  - 206.4
+  - 212.6
+  - 348.0
+  file: doc/figures/clymer/p263-r2.jpg
+- page: 264
+  figure: null
+  bbox_pt:
+  - 257.3
+  - 43.7
+  - 463.2
+  - 181.0
+  file: doc/figures/clymer/p264-r0.jpg
+- page: 264
+  figure: null
+  bbox_pt:
+  - 34.1
+  - 46.1
+  - 238.1
+  - 187.2
+  file: doc/figures/clymer/p264-r1.jpg
+- page: 264
+  figure: null
+  bbox_pt:
+  - 297.1
+  - 221.3
+  - 463.7
+  - 336.5
+  file: doc/figures/clymer/p264-r2.jpg
+- page: 264
+  figure: null
+  bbox_pt:
+  - 256.3
+  - 358.6
+  - 463.7
+  - 488.2
+  file: doc/figures/clymer/p264-r3.jpg
+- page: 264
+  figure: null
+  bbox_pt:
+  - 257.3
+  - 515.5
+  - 464.6
+  - 654.7
+  file: doc/figures/clymer/p264-r4.jpg
+- page: 266
+  figure: null
+  bbox_pt:
+  - 38.9
+  - 52.3
+  - 236.2
+  - 191.5
+  file: doc/figures/clymer/p266-r0.jpg
+- page: 266
+  figure: null
+  bbox_pt:
+  - 253.9
+  - 260.6
+  - 461.8
+  - 400.8
+  file: doc/figures/clymer/p266-r1.jpg
+- page: 267
+  figure: null
+  bbox_pt:
+  - 10.1
+  - 55.7
+  - 218.4
+  - 196.3
+  file: doc/figures/clymer/p267-r0.jpg
+- page: 267
+  figure: null
+  bbox_pt:
+  - 12.5
+  - 211.7
+  - 220.8
+  - 352.8
+  file: doc/figures/clymer/p267-r1.jpg
+- page: 268
+  figure: null
+  bbox_pt:
+  - 253.0
+  - 49.4
+  - 460.8
+  - 191.5
+  file: doc/figures/clymer/p268-r0.jpg
+- page: 268
+  figure: null
+  bbox_pt:
+  - 58.6
+  - 52.3
+  - 235.2
+  - 193.0
+  file: doc/figures/clymer/p268-r1.jpg
+- page: 268
+  figure: null
+  bbox_pt:
+  - 253.4
+  - 206.9
+  - 460.8
+  - 347.5
+  file: doc/figures/clymer/p268-r2.jpg
+- page: 268
+  figure: null
+  bbox_pt:
+  - 255.8
+  - 363.8
+  - 460.8
+  - 504.0
+  file: doc/figures/clymer/p268-r3.jpg
+- page: 268
+  figure: null
+  bbox_pt:
+  - 291.8
+  - 521.8
+  - 462.7
+  - 662.4
+  file: doc/figures/clymer/p268-r4.jpg
+- page: 269
+  figure: null
+  bbox_pt:
+  - 9.1
+  - 53.3
+  - 217.0
+  - 193.0
+  file: doc/figures/clymer/p269-r0.jpg
+- page: 269
+  figure: null
+  bbox_pt:
+  - 65.8
+  - 209.3
+  - 218.9
+  - 349.4
+  file: doc/figures/clymer/p269-r1.jpg
+- page: 269
+  figure: null
+  bbox_pt:
+  - 38.4
+  - 365.8
+  - 220.8
+  - 507.4
+  file: doc/figures/clymer/p269-r2.jpg
+- page: 269
+  figure: null
+  bbox_pt:
+  - 13.9
+  - 521.8
+  - 221.8
+  - 666.7
+  file: doc/figures/clymer/p269-r3.jpg
+- page: 270
+  figure: null
+  bbox_pt:
+  - 256.3
+  - 47.0
+  - 463.2
+  - 186.2
+  file: doc/figures/clymer/p270-r0.jpg
+- page: 272
+  figure: null
+  bbox_pt:
+  - 249.6
+  - 47.5
+  - 457.4
+  - 184.8
+  file: doc/figures/clymer/p272-r0.jpg
+- page: 272
+  figure: null
+  bbox_pt:
+  - 28.3
+  - 57.1
+  - 232.3
+  - 189.1
+  file: doc/figures/clymer/p272-r1.jpg
+- page: 272
+  figure: null
+  bbox_pt:
+  - 250.1
+  - 207.8
+  - 457.4
+  - 313.0
+  file: doc/figures/clymer/p272-r2.jpg
+- page: 272
+  figure: null
+  bbox_pt:
+  - 99.8
+  - 246.2
+  - 230.9
+  - 312.0
+  file: doc/figures/clymer/p272-r3.jpg
+- page: 272
+  figure: null
+  bbox_pt:
+  - 250.6
+  - 362.4
+  - 423.4
+  - 496.8
+  file: doc/figures/clymer/p272-r4.jpg
+- page: 272
+  figure: null
+  bbox_pt:
+  - 251.5
+  - 517.9
+  - 458.4
+  - 658.6
+  file: doc/figures/clymer/p272-r5.jpg
+- page: 273
+  figure: null
+  bbox_pt:
+  - 234.2
+  - 57.6
+  - 398.4
+  - 194.4
+  file: doc/figures/clymer/p273-r0.jpg
+- page: 273
+  figure: null
+  bbox_pt:
+  - 10.1
+  - 62.4
+  - 207.8
+  - 195.8
+  file: doc/figures/clymer/p273-r1.jpg
+- page: 273
+  figure: null
+  bbox_pt:
+  - 11.5
+  - 215.5
+  - 220.3
+  - 349.9
+  file: doc/figures/clymer/p273-r2.jpg
+- page: 273
+  figure: null
+  bbox_pt:
+  - 244.8
+  - 373.9
+  - 410.9
+  - 443.5
+  file: doc/figures/clymer/p273-r3.jpg
+- page: 273
+  figure: null
+  bbox_pt:
+  - 15.8
+  - 569.3
+  - 210.7
+  - 625.4
+  file: doc/figures/clymer/p273-r4.jpg
+- page: 274
+  figure: null
+  bbox_pt:
+  - 33.6
+  - 52.3
+  - 233.3
+  - 190.6
+  file: doc/figures/clymer/p274-r0.jpg
+- page: 274
+  figure: null
+  bbox_pt:
+  - 322.6
+  - 74.9
+  - 445.9
+  - 156.5
+  file: doc/figures/clymer/p274-r1.jpg
+- page: 274
+  figure: null
+  bbox_pt:
+  - 260.2
+  - 213.6
+  - 415.7
+  - 279.4
+  file: doc/figures/clymer/p274-r2.jpg
+- page: 274
+  figure: null
+  bbox_pt:
+  - 254.9
+  - 257.3
+  - 443.5
+  - 336.5
+  file: doc/figures/clymer/p274-r3.jpg
+- page: 274
+  figure: null
+  bbox_pt:
+  - 254.9
+  - 397.0
+  - 457.9
+  - 481.4
+  file: doc/figures/clymer/p274-r4.jpg
+- page: 274
+  figure: null
+  bbox_pt:
+  - 270.2
+  - 536.2
+  - 462.7
+  - 655.2
+  file: doc/figures/clymer/p274-r5.jpg
+- page: 275
+  figure: null
+  bbox_pt:
+  - 9.1
+  - 57.1
+  - 216.0
+  - 195.8
+  file: doc/figures/clymer/p275-r0.jpg
+- page: 275
+  figure: null
+  bbox_pt:
+  - 13.0
+  - 374.9
+  - 192.5
+  - 511.7
+  file: doc/figures/clymer/p275-r1.jpg
+- page: 275
+  figure: null
+  bbox_pt:
+  - 16.3
+  - 530.9
+  - 222.7
+  - 668.2
+  file: doc/figures/clymer/p275-r2.jpg
+- page: 276
+  figure: null
+  bbox_pt:
+  - 257.8
+  - 52.3
+  - 462.2
+  - 188.6
+  file: doc/figures/clymer/p276-r0.jpg
+- page: 276
+  figure: null
+  bbox_pt:
+  - 269.8
+  - 208.8
+  - 461.3
+  - 346.6
+  file: doc/figures/clymer/p276-r1.jpg
+- page: 276
+  figure: null
+  bbox_pt:
+  - 254.4
+  - 367.2
+  - 461.8
+  - 505.0
+  file: doc/figures/clymer/p276-r2.jpg
+- page: 276
+  figure: null
+  bbox_pt:
+  - 254.9
+  - 522.2
+  - 462.2
+  - 662.4
+  file: doc/figures/clymer/p276-r3.jpg
+- page: 277
+  figure: null
+  bbox_pt:
+  - 8.2
+  - 54.2
+  - 179.5
+  - 186.2
+  file: doc/figures/clymer/p277-r0.jpg
+- page: 277
+  figure: null
+  bbox_pt:
+  - 88.8
+  - 207.4
+  - 217.4
+  - 347.0
+  file: doc/figures/clymer/p277-r1.jpg
+- page: 281
+  figure: null
+  bbox_pt:
+  - 232.3
+  - 54.2
+  - 438.2
+  - 194.4
+  file: doc/figures/clymer/p281-r0.jpg
+- page: 281
+  figure: null
+  bbox_pt:
+  - 7.7
+  - 55.7
+  - 215.0
+  - 196.3
+  file: doc/figures/clymer/p281-r1.jpg
+- page: 281
+  figure: null
+  bbox_pt:
+  - 270.7
+  - 210.2
+  - 440.6
+  - 348.5
+  file: doc/figures/clymer/p281-r2.jpg
+- page: 281
+  figure: null
+  bbox_pt:
+  - 11.0
+  - 212.2
+  - 219.8
+  - 339.8
+  file: doc/figures/clymer/p281-r3.jpg
+- page: 281
+  figure: null
+  bbox_pt:
+  - 13.4
+  - 368.2
+  - 222.2
+  - 505.0
+  file: doc/figures/clymer/p281-r4.jpg
+- page: 281
+  figure: null
+  bbox_pt:
+  - 15.8
+  - 524.6
+  - 225.1
+  - 670.1
+  file: doc/figures/clymer/p281-r5.jpg
+- page: 282
+  figure: null
+  bbox_pt:
+  - 255.4
+  - 49.4
+  - 463.2
+  - 191.5
+  file: doc/figures/clymer/p282-r0.jpg
+- page: 282
+  figure: null
+  bbox_pt:
+  - 86.4
+  - 52.8
+  - 238.1
+  - 180.5
+  file: doc/figures/clymer/p282-r1.jpg
+- page: 282
+  figure: null
+  bbox_pt:
+  - 294.2
+  - 207.4
+  - 463.2
+  - 339.8
+  file: doc/figures/clymer/p282-r2.jpg
+- page: 282
+  figure: null
+  bbox_pt:
+  - 256.3
+  - 365.3
+  - 463.7
+  - 503.5
+  file: doc/figures/clymer/p282-r3.jpg
+- page: 282
+  figure: null
+  bbox_pt:
+  - 286.1
+  - 522.2
+  - 464.2
+  - 661.4
+  file: doc/figures/clymer/p282-r4.jpg
+- page: 283
+  figure: null
+  bbox_pt:
+  - 58.6
+  - 498.7
+  - 191.5
+  - 651.8
+  file: doc/figures/clymer/p283-r0.jpg
+- page: 284
+  figure: null
+  bbox_pt:
+  - 258.7
+  - 50.9
+  - 466.6
+  - 189.1
+  file: doc/figures/clymer/p284-r0.jpg
+- page: 284
+  figure: null
+  bbox_pt:
+  - 258.2
+  - 209.3
+  - 466.1
+  - 349.4
+  file: doc/figures/clymer/p284-r1.jpg
+- page: 284
+  figure: null
+  bbox_pt:
+  - 258.2
+  - 366.7
+  - 466.1
+  - 505.9
+  file: doc/figures/clymer/p284-r2.jpg
+- page: 284
+  figure: null
+  bbox_pt:
+  - 258.7
+  - 523.7
+  - 466.1
+  - 664.3
+  file: doc/figures/clymer/p284-r3.jpg
+- page: 285
+  figure: null
+  bbox_pt:
+  - 41.3
+  - 77.8
+  - 194.4
+  - 185.8
+  file: doc/figures/clymer/p285-r0.jpg
+- page: 285
+  figure: null
+  bbox_pt:
+  - 11.0
+  - 394.6
+  - 217.9
+  - 509.8
+  file: doc/figures/clymer/p285-r1.jpg
+- page: 286
+  figure: null
+  bbox_pt:
+  - 282.2
+  - 83.0
+  - 439.7
+  - 182.4
+  file: doc/figures/clymer/p286-r0.jpg
+- page: 286
+  figure: null
+  bbox_pt:
+  - 292.3
+  - 218.9
+  - 431.5
+  - 349.9
+  file: doc/figures/clymer/p286-r1.jpg
+- page: 286
+  figure: null
+  bbox_pt:
+  - 257.8
+  - 367.7
+  - 465.6
+  - 507.8
+  file: doc/figures/clymer/p286-r2.jpg
+- page: 286
+  figure: null
+  bbox_pt:
+  - 258.2
+  - 524.2
+  - 465.6
+  - 665.3
+  file: doc/figures/clymer/p286-r3.jpg
+- page: 287
+  figure: null
+  bbox_pt:
+  - 69.6
+  - 85.0
+  - 215.0
+  - 159.8
+  file: doc/figures/clymer/p287-r0.jpg
+- page: 287
+  figure: null
+  bbox_pt:
+  - 85.4
+  - 213.1
+  - 216.5
+  - 314.9
+  file: doc/figures/clymer/p287-r1.jpg
+- page: 287
+  figure: null
+  bbox_pt:
+  - 10.1
+  - 368.6
+  - 174.7
+  - 509.8
+  file: doc/figures/clymer/p287-r2.jpg
+- page: 287
+  figure: null
+  bbox_pt:
+  - 11.0
+  - 524.6
+  - 218.9
+  - 656.2
+  file: doc/figures/clymer/p287-r3.jpg
+- page: 289
+  figure: null
+  bbox_pt:
+  - 49.4
+  - 61.0
+  - 214.6
+  - 200.6
+  file: doc/figures/clymer/p289-r0.jpg
+- page: 289
+  figure: null
+  bbox_pt:
+  - 232.3
+  - 61.0
+  - 436.8
+  - 198.7
+  file: doc/figures/clymer/p289-r1.jpg
+- page: 289
+  figure: null
+  bbox_pt:
+  - 10.1
+  - 217.4
+  - 218.4
+  - 358.1
+  file: doc/figures/clymer/p289-r2.jpg
+- page: 289
+  figure: null
+  bbox_pt:
+  - 12.0
+  - 373.4
+  - 185.8
+  - 516.0
+  file: doc/figures/clymer/p289-r3.jpg
+- page: 289
+  figure: null
+  bbox_pt:
+  - 13.4
+  - 531.4
+  - 171.4
+  - 674.4
+  file: doc/figures/clymer/p289-r4.jpg
+- page: 290
+  figure: null
+  bbox_pt:
+  - 256.8
+  - 52.8
+  - 463.2
+  - 195.8
+  file: doc/figures/clymer/p290-r0.jpg
+- page: 290
+  figure: null
+  bbox_pt:
+  - 35.5
+  - 80.2
+  - 238.6
+  - 197.3
+  file: doc/figures/clymer/p290-r1.jpg
+- page: 290
+  figure: null
+  bbox_pt:
+  - 288.0
+  - 211.2
+  - 464.6
+  - 351.8
+  file: doc/figures/clymer/p290-r2.jpg
+- page: 290
+  figure: null
+  bbox_pt:
+  - 35.5
+  - 228.0
+  - 238.6
+  - 351.4
+  file: doc/figures/clymer/p290-r3.jpg
+- page: 290
+  figure: null
+  bbox_pt:
+  - 257.8
+  - 389.8
+  - 464.6
+  - 520.3
+  file: doc/figures/clymer/p290-r4.jpg
+- page: 291
+  figure: null
+  bbox_pt:
+  - 8.2
+  - 59.5
+  - 217.4
+  - 199.7
+  file: doc/figures/clymer/p291-r0.jpg
+- page: 291
+  figure: null
+  bbox_pt:
+  - 11.0
+  - 216.5
+  - 218.4
+  - 355.7
+  file: doc/figures/clymer/p291-r1.jpg
+- page: 291
+  figure: null
+  bbox_pt:
+  - 12.0
+  - 374.4
+  - 201.6
+  - 507.8
+  file: doc/figures/clymer/p291-r2.jpg
+- page: 291
+  figure: null
+  bbox_pt:
+  - 89.8
+  - 529.0
+  - 221.8
+  - 671.0
+  file: doc/figures/clymer/p291-r3.jpg
+- page: 292
+  figure: null
+  bbox_pt:
+  - 255.4
+  - 56.6
+  - 434.9
+  - 186.2
+  file: doc/figures/clymer/p292-r0.jpg
+- page: 292
+  figure: null
+  bbox_pt:
+  - 34.1
+  - 59.0
+  - 237.6
+  - 198.7
+  file: doc/figures/clymer/p292-r1.jpg
+- page: 292
+  figure: null
+  bbox_pt:
+  - 255.8
+  - 214.1
+  - 462.7
+  - 352.8
+  file: doc/figures/clymer/p292-r2.jpg
+- page: 292
+  figure: null
+  bbox_pt:
+  - 255.8
+  - 371.0
+  - 463.7
+  - 509.8
+  file: doc/figures/clymer/p292-r3.jpg
+- page: 292
+  figure: null
+  bbox_pt:
+  - 273.6
+  - 563.0
+  - 448.3
+  - 641.8
+  file: doc/figures/clymer/p292-r4.jpg
+- page: 293
+  figure: null
+  bbox_pt:
+  - 8.6
+  - 58.6
+  - 204.5
+  - 198.7
+  file: doc/figures/clymer/p293-r0.jpg
+- page: 293
+  figure: null
+  bbox_pt:
+  - 11.0
+  - 216.5
+  - 218.4
+  - 356.2
+  file: doc/figures/clymer/p293-r1.jpg
+- page: 293
+  figure: null
+  bbox_pt:
+  - 92.2
+  - 426.2
+  - 219.8
+  - 510.2
+  file: doc/figures/clymer/p293-r2.jpg
+- page: 293
+  figure: null
+  bbox_pt:
+  - 12.5
+  - 530.9
+  - 169.0
+  - 601.4
+  file: doc/figures/clymer/p293-r3.jpg
+- page: 294
+  figure: null
+  bbox_pt:
+  - 256.8
+  - 54.7
+  - 464.2
+  - 196.8
+  file: doc/figures/clymer/p294-r0.jpg
+- page: 294
+  figure: null
+  bbox_pt:
+  - 256.8
+  - 214.1
+  - 450.7
+  - 339.4
+  file: doc/figures/clymer/p294-r1.jpg
+- page: 294
+  figure: null
+  bbox_pt:
+  - 292.3
+  - 371.0
+  - 465.1
+  - 510.7
+  file: doc/figures/clymer/p294-r2.jpg
+- page: 295
+  figure: null
+  bbox_pt:
+  - 9.6
+  - 61.0
+  - 217.9
+  - 200.6
+  file: doc/figures/clymer/p295-r0.jpg
+- page: 298
+  figure: null
+  bbox_pt:
+  - 255.4
+  - 55.2
+  - 463.2
+  - 197.8
+  file: doc/figures/clymer/p298-r0.jpg
+- page: 298
+  figure: null
+  bbox_pt:
+  - 35.0
+  - 59.0
+  - 237.6
+  - 199.2
+  file: doc/figures/clymer/p298-r1.jpg
+- page: 298
+  figure: null
+  bbox_pt:
+  - 255.8
+  - 214.6
+  - 463.2
+  - 354.2
+  file: doc/figures/clymer/p298-r2.jpg
+- page: 298
+  figure: null
+  bbox_pt:
+  - 256.3
+  - 371.0
+  - 463.7
+  - 510.7
+  file: doc/figures/clymer/p298-r3.jpg
+- page: 298
+  figure: null
+  bbox_pt:
+  - 256.8
+  - 528.0
+  - 465.1
+  - 669.1
+  file: doc/figures/clymer/p298-r4.jpg
+- page: 299
+  figure: null
+  bbox_pt:
+  - 11.0
+  - 217.0
+  - 218.4
+  - 357.1
+  file: doc/figures/clymer/p299-r0.jpg
+- page: 299
+  figure: null
+  bbox_pt:
+  - 12.0
+  - 373.4
+  - 218.9
+  - 514.6
+  file: doc/figures/clymer/p299-r1.jpg
+- page: 299
+  figure: null
+  bbox_pt:
+  - 17.8
+  - 529.9
+  - 189.1
+  - 672.5
+  file: doc/figures/clymer/p299-r2.jpg
+- page: 300
+  figure: null
+  bbox_pt:
+  - 34.1
+  - 59.0
+  - 238.6
+  - 200.2
+  file: doc/figures/clymer/p300-r0.jpg
+- page: 300
+  figure: null
+  bbox_pt:
+  - 258.7
+  - 214.1
+  - 463.7
+  - 352.3
+  file: doc/figures/clymer/p300-r1.jpg
+- page: 301
+  figure: null
+  bbox_pt:
+  - 23.0
+  - 84.0
+  - 207.8
+  - 177.1
+  file: doc/figures/clymer/p301-r0.jpg
+- page: 301
+  figure: null
+  bbox_pt:
+  - 49.4
+  - 231.4
+  - 175.2
+  - 349.9
+  file: doc/figures/clymer/p301-r1.jpg
+- page: 301
+  figure: null
+  bbox_pt:
+  - 25.9
+  - 376.8
+  - 219.4
+  - 516.0
+  file: doc/figures/clymer/p301-r2.jpg
+- page: 301
+  figure: null
+  bbox_pt:
+  - 36.5
+  - 535.7
+  - 208.3
+  - 674.4
+  file: doc/figures/clymer/p301-r3.jpg
+- page: 302
+  figure: null
+  bbox_pt:
+  - 281.3
+  - 62.4
+  - 439.7
+  - 183.4
+  file: doc/figures/clymer/p302-r0.jpg
+- page: 302
+  figure: null
+  bbox_pt:
+  - 73.9
+  - 86.9
+  - 197.8
+  - 182.9
+  file: doc/figures/clymer/p302-r1.jpg
+- page: 302
+  figure: null
+  bbox_pt:
+  - 292.8
+  - 233.8
+  - 427.7
+  - 336.0
+  file: doc/figures/clymer/p302-r2.jpg
+- page: 302
+  figure: null
+  bbox_pt:
+  - 258.7
+  - 371.5
+  - 465.6
+  - 511.2
+  file: doc/figures/clymer/p302-r3.jpg
+- page: 302
+  figure: null
+  bbox_pt:
+  - 259.2
+  - 528.5
+  - 465.1
+  - 668.6
+  file: doc/figures/clymer/p302-r4.jpg
+- page: 303
+  figure: null
+  bbox_pt:
+  - 235.2
+  - 62.9
+  - 435.8
+  - 201.6
+  file: doc/figures/clymer/p303-r0.jpg
+- page: 303
+  figure: null
+  bbox_pt:
+  - 47.5
+  - 63.4
+  - 181.9
+  - 200.2
+  file: doc/figures/clymer/p303-r1.jpg
+- page: 303
+  figure: null
+  bbox_pt:
+  - 34.1
+  - 218.9
+  - 174.7
+  - 355.2
+  file: doc/figures/clymer/p303-r2.jpg
+- page: 303
+  figure: null
+  bbox_pt:
+  - 41.3
+  - 375.4
+  - 179.5
+  - 515.0
+  file: doc/figures/clymer/p303-r3.jpg
+- page: 303
+  figure: null
+  bbox_pt:
+  - 40.8
+  - 532.3
+  - 162.2
+  - 662.4
+  file: doc/figures/clymer/p303-r4.jpg
+- page: 305
+  figure: null
+  bbox_pt:
+  - 10.1
+  - 60.0
+  - 218.4
+  - 200.2
+  file: doc/figures/clymer/p305-r0.jpg
+- page: 305
+  figure: null
+  bbox_pt:
+  - 11.5
+  - 217.4
+  - 219.4
+  - 356.6
+  file: doc/figures/clymer/p305-r1.jpg
+- page: 305
+  figure: null
+  bbox_pt:
+  - 12.0
+  - 373.9
+  - 219.8
+  - 514.6
+  file: doc/figures/clymer/p305-r2.jpg
+- page: 306
+  figure: null
+  bbox_pt:
+  - 255.4
+  - 57.1
+  - 462.2
+  - 195.4
+  file: doc/figures/clymer/p306-r0.jpg
+- page: 306
+  figure: null
+  bbox_pt:
+  - 33.1
+  - 61.9
+  - 237.6
+  - 197.8
+  file: doc/figures/clymer/p306-r1.jpg
+- page: 306
+  figure: null
+  bbox_pt:
+  - 305.3
+  - 214.6
+  - 463.2
+  - 355.2
+  file: doc/figures/clymer/p306-r2.jpg
+- page: 306
+  figure: null
+  bbox_pt:
+  - 35.0
+  - 217.4
+  - 210.7
+  - 349.4
+  file: doc/figures/clymer/p306-r3.jpg
+- page: 306
+  figure: null
+  bbox_pt:
+  - 291.8
+  - 372.0
+  - 464.2
+  - 512.2
+  file: doc/figures/clymer/p306-r4.jpg
+- page: 306
+  figure: null
+  bbox_pt:
+  - 300.0
+  - 530.4
+  - 465.6
+  - 670.1
+  file: doc/figures/clymer/p306-r5.jpg
+- page: 307
+  figure: null
+  bbox_pt:
+  - 6.7
+  - 61.9
+  - 214.6
+  - 182.4
+  file: doc/figures/clymer/p307-r0.jpg
+- page: 307
+  figure: null
+  bbox_pt:
+  - 8.6
+  - 224.2
+  - 216.5
+  - 358.1
+  file: doc/figures/clymer/p307-r1.jpg
+- page: 307
+  figure: null
+  bbox_pt:
+  - 243.4
+  - 226.6
+  - 421.0
+  - 348.0
+  file: doc/figures/clymer/p307-r2.jpg
+- page: 307
+  figure: null
+  bbox_pt:
+  - 10.1
+  - 374.4
+  - 218.4
+  - 514.6
+  file: doc/figures/clymer/p307-r3.jpg
+- page: 307
+  figure: null
+  bbox_pt:
+  - 11.0
+  - 533.8
+  - 218.9
+  - 669.6
+  file: doc/figures/clymer/p307-r4.jpg
+- page: 308
+  figure: null
+  bbox_pt:
+  - 296.2
+  - 55.2
+  - 464.6
+  - 193.4
+  file: doc/figures/clymer/p308-r0.jpg
+- page: 308
+  figure: null
+  bbox_pt:
+  - 277.0
+  - 213.1
+  - 464.2
+  - 337.9
+  file: doc/figures/clymer/p308-r1.jpg
+- page: 309
+  figure: null
+  bbox_pt:
+  - 6.2
+  - 61.9
+  - 146.4
+  - 171.4
+  file: doc/figures/clymer/p309-r0.jpg
+- page: 309
+  figure: null
+  bbox_pt:
+  - 37.0
+  - 236.2
+  - 201.6
+  - 358.6
+  file: doc/figures/clymer/p309-r1.jpg
+- page: 311
+  figure: null
+  bbox_pt:
+  - 5.8
+  - 61.0
+  - 214.6
+  - 201.1
+  file: doc/figures/clymer/p311-r0.jpg
+- page: 311
+  figure: null
+  bbox_pt:
+  - 231.4
+  - 61.4
+  - 435.4
+  - 200.2
+  file: doc/figures/clymer/p311-r1.jpg
+- page: 311
+  figure: null
+  bbox_pt:
+  - 233.3
+  - 217.0
+  - 436.8
+  - 356.2
+  file: doc/figures/clymer/p311-r2.jpg
+- page: 311
+  figure: null
+  bbox_pt:
+  - 9.1
+  - 218.4
+  - 215.5
+  - 359.0
+  file: doc/figures/clymer/p311-r3.jpg
+- page: 311
+  figure: null
+  bbox_pt:
+  - 235.2
+  - 371.5
+  - 438.7
+  - 511.2
+  file: doc/figures/clymer/p311-r4.jpg
+- page: 311
+  figure: null
+  bbox_pt:
+  - 10.6
+  - 374.4
+  - 217.9
+  - 516.0
+  file: doc/figures/clymer/p311-r5.jpg
+- page: 311
+  figure: null
+  bbox_pt:
+  - 11.5
+  - 531.4
+  - 219.4
+  - 674.4
+  file: doc/figures/clymer/p311-r6.jpg
+- page: 312
+  figure: null
+  bbox_pt:
+  - 34.6
+  - 60.0
+  - 239.0
+  - 199.2
+  file: doc/figures/clymer/p312-r0.jpg
+- page: 312
+  figure: null
+  bbox_pt:
+  - 284.6
+  - 68.6
+  - 409.9
+  - 193.4
+  file: doc/figures/clymer/p312-r1.jpg
+- page: 312
+  figure: null
+  bbox_pt:
+  - 253.9
+  - 218.4
+  - 418.1
+  - 357.1
+  file: doc/figures/clymer/p312-r2.jpg
+- page: 313
+  figure: null
+  bbox_pt:
+  - 45.1
+  - 58.1
+  - 171.4
+  - 196.8
+  file: doc/figures/clymer/p313-r0.jpg
+- page: 313
+  figure: null
+  bbox_pt:
+  - 11.0
+  - 220.8
+  - 196.3
+  - 334.1
+  file: doc/figures/clymer/p313-r1.jpg
+- page: 313
+  figure: null
+  bbox_pt:
+  - 49.9
+  - 373.0
+  - 169.0
+  - 506.9
+  file: doc/figures/clymer/p313-r2.jpg
+- page: 313
+  figure: null
+  bbox_pt:
+  - 34.6
+  - 534.7
+  - 213.1
+  - 666.2
+  file: doc/figures/clymer/p313-r3.jpg
+- page: 314
+  figure: null
+  bbox_pt:
+  - 56.6
+  - 68.2
+  - 236.6
+  - 195.8
+  file: doc/figures/clymer/p314-r0.jpg
+- page: 314
+  figure: null
+  bbox_pt:
+  - 278.9
+  - 68.2
+  - 446.4
+  - 189.1
+  file: doc/figures/clymer/p314-r1.jpg
+- page: 314
+  figure: null
+  bbox_pt:
+  - 289.4
+  - 529.0
+  - 427.2
+  - 670.1
+  file: doc/figures/clymer/p314-r2.jpg
+- page: 315
+  figure: null
+  bbox_pt:
+  - 3.8
+  - 55.2
+  - 209.8
+  - 193.9
+  file: doc/figures/clymer/p315-r0.jpg
+- page: 315
+  figure: null
+  bbox_pt:
+  - 267.4
+  - 56.6
+  - 393.1
+  - 186.2
+  file: doc/figures/clymer/p315-r1.jpg
+- page: 315
+  figure: null
+  bbox_pt:
+  - 274.6
+  - 213.1
+  - 394.1
+  - 349.9
+  file: doc/figures/clymer/p315-r2.jpg
+- page: 315
+  figure: null
+  bbox_pt:
+  - 42.7
+  - 217.9
+  - 177.1
+  - 347.5
+  file: doc/figures/clymer/p315-r3.jpg
+- page: 315
+  figure: null
+  bbox_pt:
+  - 31.2
+  - 370.6
+  - 178.6
+  - 508.8
+  file: doc/figures/clymer/p315-r4.jpg
+- page: 315
+  figure: null
+  bbox_pt:
+  - 34.6
+  - 527.5
+  - 167.5
+  - 667.2
+  file: doc/figures/clymer/p315-r5.jpg
+- page: 317
+  figure: null
+  bbox_pt:
+  - 4.3
+  - 55.2
+  - 213.6
+  - 195.8
+  file: doc/figures/clymer/p317-r0.jpg
+- page: 317
+  figure: null
+  bbox_pt:
+  - 6.2
+  - 213.6
+  - 183.8
+  - 352.8
+  file: doc/figures/clymer/p317-r1.jpg
+- page: 317
+  figure: null
+  bbox_pt:
+  - 7.7
+  - 369.1
+  - 214.6
+  - 511.2
+  file: doc/figures/clymer/p317-r2.jpg
+- page: 317
+  figure: null
+  bbox_pt:
+  - 8.2
+  - 526.6
+  - 216.0
+  - 669.1
+  file: doc/figures/clymer/p317-r3.jpg
+- page: 318
+  figure: null
+  bbox_pt:
+  - 257.3
+  - 59.5
+  - 469.4
+  - 197.8
+  file: doc/figures/clymer/p318-r0.jpg
+- page: 318
+  figure: null
+  bbox_pt:
+  - 35.5
+  - 60.0
+  - 239.0
+  - 193.4
+  file: doc/figures/clymer/p318-r1.jpg
+- page: 318
+  figure: null
+  bbox_pt:
+  - 256.8
+  - 218.9
+  - 412.8
+  - 356.6
+  file: doc/figures/clymer/p318-r2.jpg
+- page: 318
+  figure: null
+  bbox_pt:
+  - 34.6
+  - 219.4
+  - 208.3
+  - 333.6
+  file: doc/figures/clymer/p318-r3.jpg
+- page: 318
+  figure: null
+  bbox_pt:
+  - 256.8
+  - 374.9
+  - 461.8
+  - 513.6
+  file: doc/figures/clymer/p318-r4.jpg
+- page: 318
+  figure: null
+  bbox_pt:
+  - 253.9
+  - 529.9
+  - 459.8
+  - 655.2
+  file: doc/figures/clymer/p318-r5.jpg
+- page: 319
+  figure: null
+  bbox_pt:
+  - 2.4
+  - 57.1
+  - 211.2
+  - 195.8
+  file: doc/figures/clymer/p319-r0.jpg
+- page: 319
+  figure: null
+  bbox_pt:
+  - 23.5
+  - 237.6
+  - 195.8
+  - 321.6
+  file: doc/figures/clymer/p319-r1.jpg
+- page: 319
+  figure: null
+  bbox_pt:
+  - 12.5
+  - 553.0
+  - 199.7
+  - 653.8
+  file: doc/figures/clymer/p319-r2.jpg
+- page: 320
+  figure: null
+  bbox_pt:
+  - 282.2
+  - 103.2
+  - 434.4
+  - 170.4
+  file: doc/figures/clymer/p320-r0.jpg
+- page: 320
+  figure: null
+  bbox_pt:
+  - 256.8
+  - 219.8
+  - 461.8
+  - 351.4
+  file: doc/figures/clymer/p320-r1.jpg
+- page: 320
+  figure: null
+  bbox_pt:
+  - 254.9
+  - 377.8
+  - 462.2
+  - 483.8
+  file: doc/figures/clymer/p320-r2.jpg
+- page: 320
+  figure: null
+  bbox_pt:
+  - 267.4
+  - 529.4
+  - 461.8
+  - 667.7
+  file: doc/figures/clymer/p320-r3.jpg
+- page: 321
+  figure: null
+  bbox_pt:
+  - 4.8
+  - 529.0
+  - 213.1
+  - 669.6
+  file: doc/figures/clymer/p321-r0.jpg
+- page: 322
+  figure: null
+  bbox_pt:
+  - 255.8
+  - 58.6
+  - 469.4
+  - 181.4
+  file: doc/figures/clymer/p322-r0.jpg
+- page: 323
+  figure: null
+  bbox_pt:
+  - 3.4
+  - 54.7
+  - 212.6
+  - 215.0
+  file: doc/figures/clymer/p323-r0.jpg
+- page: 323
+  figure: null
+  bbox_pt:
+  - 5.3
+  - 232.3
+  - 212.6
+  - 402.2
+  file: doc/figures/clymer/p323-r1.jpg
+- page: 324
+  figure: null
+  bbox_pt:
+  - 254.9
+  - 56.6
+  - 463.2
+  - 229.9
+  file: doc/figures/clymer/p324-r0.jpg
+- page: 324
+  figure: null
+  bbox_pt:
+  - 253.9
+  - 247.7
+  - 461.8
+  - 416.6
+  file: doc/figures/clymer/p324-r1.jpg
+- page: 325
+  figure: null
+  bbox_pt:
+  - 227.0
+  - 54.2
+  - 430.6
+  - 193.0
+  file: doc/figures/clymer/p325-r0.jpg
+- page: 326
+  figure: null
+  bbox_pt:
+  - 256.8
+  - 53.8
+  - 469.4
+  - 164.6
+  file: doc/figures/clymer/p326-r0.jpg
+- page: 326
+  figure: null
+  bbox_pt:
+  - 256.3
+  - 119.5
+  - 464.2
+  - 198.2
+  file: doc/figures/clymer/p326-r1.jpg
+- page: 327
+  figure: null
+  bbox_pt:
+  - 3.4
+  - 358.1
+  - 211.2
+  - 481.0
+  file: doc/figures/clymer/p327-r0.jpg
+- page: 328
+  figure: null
+  bbox_pt:
+  - 256.8
+  - 55.2
+  - 469.4
+  - 195.4
+  file: doc/figures/clymer/p328-r0.jpg
+- page: 328
+  figure: null
+  bbox_pt:
+  - 35.5
+  - 56.2
+  - 240.0
+  - 194.9
+  file: doc/figures/clymer/p328-r1.jpg
+- page: 328
+  figure: null
+  bbox_pt:
+  - 255.8
+  - 213.1
+  - 464.2
+  - 352.8
+  file: doc/figures/clymer/p328-r2.jpg
+- page: 328
+  figure: null
+  bbox_pt:
+  - 255.4
+  - 369.6
+  - 463.2
+  - 510.7
+  file: doc/figures/clymer/p328-r3.jpg
+- page: 328
+  figure: null
+  bbox_pt:
+  - 254.4
+  - 525.6
+  - 462.2
+  - 668.2
+  file: doc/figures/clymer/p328-r4.jpg
+- page: 329
+  figure: null
+  bbox_pt:
+  - 2.4
+  - 52.3
+  - 210.2
+  - 192.5
+  file: doc/figures/clymer/p329-r0.jpg
+- page: 329
+  figure: null
+  bbox_pt:
+  - 2.9
+  - 210.2
+  - 200.2
+  - 349.9
+  file: doc/figures/clymer/p329-r1.jpg
+- page: 329
+  figure: null
+  bbox_pt:
+  - 4.3
+  - 366.7
+  - 202.1
+  - 507.8
+  file: doc/figures/clymer/p329-r2.jpg
+- page: 329
+  figure: null
+  bbox_pt:
+  - 3.8
+  - 522.7
+  - 212.2
+  - 664.3
+  file: doc/figures/clymer/p329-r3.jpg
+- page: 330
+  figure: null
+  bbox_pt:
+  - 256.8
+  - 55.2
+  - 469.4
+  - 195.8
+  file: doc/figures/clymer/p330-r0.jpg
+- page: 330
+  figure: null
+  bbox_pt:
+  - 35.5
+  - 56.2
+  - 240.0
+  - 195.4
+  file: doc/figures/clymer/p330-r1.jpg
+- page: 330
+  figure: null
+  bbox_pt:
+  - 255.4
+  - 212.6
+  - 463.7
+  - 378.2
+  file: doc/figures/clymer/p330-r2.jpg

@@ -1,0 +1,48 @@
+11-12
+
+Uni-Trak Spring Preload Adjustment
+@Remove the left side cover, the battery and the reserve
+
+tank.
+@Using the hook wrenches, loosen the locknut and turn
+
+the adjusting nut as required.
+OTurning the adjusting nut down makes the spring
+preload stronger.
+
+A. Outer Tube C. Guide Bush
+B. Slit
+
+Uni-Trak
+
+The rear suspension system of this motorcycle is
+UNI-TRAK. It consists of a rear shock absorber,
+
+uni-trak arm, and link. A. Adjusting Nut C. Hook Wrench
+The rear shock absorber can be adjusted by changing B. Locknut
+the spring preload and the damping force, It is necessary
+to remove the rear shock absorber for spring eSet the adjusting nut to the specification.
+replacement. ®@Tighten the locknut to the specification.
+Damper Adjustment:
+The damper adjuster on the rear shock absorber has
+4 positions so that the damping force can be adjusted for Tightening Torque
+
+different road and loading conditions.
+xf the damper setting feels too soft or too stiff, adjust
+it in accordance with the following table:
+
+Adjusting Nut: 54 N-m (5.5 kg-m, 40 ft-lb)
+
+Damping Force
+
+Position 1 | 2 | 3 | 4 Spring Preload Setting
+Damping Force —_—§_-> Stronger Standard Adjusting 103 mm
+Standard 2 Nut Position:
+Nut Adjusting Range: 83 —113mm
+@Slide the dust cover off the bottom of the shock (Initial Spring Preload): 882 .N (90 kg, 199 Ib)
+absorber. (Preload change per 66 N per turn
+®Turn the damper adjuster to the desired number until turn of the nut): (6.75 kg, 14.9 |b)
+
+you feel a click,
+
+A. Damping Adjuster B. Dust Cover A. Adjusting Nut Position

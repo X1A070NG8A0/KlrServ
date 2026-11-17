@@ -1,0 +1,48 @@
+3-19
+
+Valve Guide Installation Valve Installation
+Apply oil to the valve guide outer surface before ‘Check to see. that the valve moves smoothly up and
+installation, down in the guide,
+Heat the area around the valve guide hole to about 120 Check to see that the valve seats properly in the valve
+150° (248 — 302°F), seat. If it does not, repair the valve seat. Check the
+Drive the valve guide in from the top of the head using valve installed height (See the chapter 3)
+the valve guide arbor. The circlip stops the guide from Apply a thin coat of molybdenum disulfide engine
+going in too far. , assembly grease to the valve stem before valve instal-
+Ream the valve guide with valve guide reamer lation.
+
+(special tool) even if the old guide is reused,
+
+Cylinder Head Warp
+
+‘@Lay a straightedge across the lower surface of the head
+at several different points, and measure warp by insert
+ing a thickness gauge between the straightedge and the
+head.
+
+if warp exceeds the service limit, repair the mating
+surface. Replace the cylinder head if the mating
+surface is badly damaged.
+
+A. Valve guide reamer : 57001-162
+Valves, Springs, Guides
+
+A. Straightedge B. Thickness Gauge
+
+Cylinder, Piston
+
+Removal Point of Piston
+
+@Remove the piston pin snap ring, and remove the
+piston by pushing its piston pin out the side that the
+snap ring was removed,
+
+1, Shim 7. Oil seal
+
+2. Valve lifter 8. Spring seat
+
+3. Split keeper 9. Valve, inlet
+
+4. Spring retainer 10. Valve, exhaust
+5. Valve spring outer 11. Closed coil end
+
+* 6. Valve spring, inner

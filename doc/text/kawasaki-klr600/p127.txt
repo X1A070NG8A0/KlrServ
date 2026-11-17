@@ -1,0 +1,69 @@
+11-9
+
+Fork Oil Level
+
+eWith the front wheel on the ground and the front brake
+fully applied, push down on the handlebar a few times
+to expel the air in the fork oil.
+
+ePlace a jack or stand under the engine so that the front
+wheel is raised off the ground. ;
+
+Release the front fork air pressure.
+
+@Remove the top plug and main spring in the fork leg.
+
+eWith the fork fully extended, insert a tape measure
+or thin rod in the fork inner tube, and measure the
+distance from the top end of the fork inner tube to the
+oil,
+
+xIf the oil is above or below the specified level, remove
+or add oil and recheck the oil level. j :
+
+eAfter assembling the removed parts, adjust the fork A. Drain Plug
+air pressure.
+
+@Apply a non-permanent locking agent to its threads,
+
+CAUTION and install the drain plug with a new gasket.
+: ; . ®Tighten the drain plug to the specification.
+
+OThe operation of an air front fork is especially @Remove the top plug and main spring in the fork leg,
+dependent upon correct oil level. Higher level than and fill the fork leg with the specified amount of oil.
+specified may cause oil leakage and seal breakage. Be eCheck the oil level in the fork leg.
+sure to maintain the specified level. @Change the fork oil in the other fork leg in the same
+
+manner.
+
+Front Fork Oil Level
+170 +2 mm below the top end of the inner
+
+tube
+Fork Oil Level Measurement Front Fork Oil
+Rating: KAYABA G40
+Viscosity: SAE 10W
+Amount per side
+when changing oil: 365 mL
+After disassembly and
+completely dry: 426 — 434 mL
+
+Tightening Torque
+Drain Plug: 1.5 N-m (0.15 kg-m, 13 in-Ib)
+Apply Locking Agent
+
+Front Fork Disassembly
+®Before removing the front fork from the frame, release
+the air and loosen the fork top bolts.
+
+@After assembling the removed parts, pressurize the fork @Remove the following parts.
+to the specified pressure. OCaliper, brake hose
+OFront wheel
+Fork Oil Changing ORubber boot
+@Release the front fork air pressure before draining out OFork tube
+the fork oil. OTop bolt, spring guides, main spring
+@Remove the drain plug to drain the oil. ODrain screw — pump out the oil into a container.
+To pump out the oil, with the front wheel on the @Push the inner tube all the way in, and remove the
+ground and the front brake fully applied, push down Allen bolt on the bottom of the outer tube using the
+
+on the handlebar a few times. cylinder holder handle *and adapter (special tools).

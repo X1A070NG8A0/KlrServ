@@ -1,0 +1,99 @@
+15-2 APPENDIX
+
+Troubleshooting Guide
+
+Refer to the Base Manual, adding the following.
+
+Engine Doesn't Start, Starting Difficulty:
+
+Starter motor not rotating:
+
+Starter motor damaged Battery 
+voltage low Relay not contacting or 
+operating Starter button not 
+contacting Wiring open or shorted 
+Ignition switch damaged Engine 
+stop switch damaged Engine stop 
+switch off Fuse blown 
+Starter lockout or neutral switch damaged Starter motor
+
+rotating but engine doesn't turn over: 
+Starter motor clutch damaged 
+Alternator rotor bolt loosened
+
+General Lubrication
+
+Lubrication
+
+•Before lubricating each part, clean off any rusty spots 
+with rust remover and wipe off any grease, oil, dirt, or 
+grime. 
+•Lubricate the points listed below with indicated lubricant.
+
+NOTE
+
+■ Whenever the vehicle has been operated under wet or 
+rainy conditions, or especially after using a high- pressure 
+spray water, perform the general lubrication.
+
+Pivots: 
+Lubricate with Motor Oil. 
+Side Stand Clutch Lever 
+Brake Lever Brake 
+Pedal Rear Brake Rod 
+Joint
+
+Points: Lubricate with Grease. 
+Throttle Inner Cable Lower Ends Clutch Inner 
+Cable Upper End Side Stand Switch Inner 
+Cable Lower End Speedometer Inner Cable* 
+*Grease the lower part of the inner cable sparingly.
+
+Cables: Lubricate with Rust Inhibitor. 
+Choke Cable Throttle 
+Cables Clutch Cable 
+Side Stand Switch Cable
+
+
+
+-----
+
+Cable Lubrication
+
+Nut, Bolt, and Fastener Tightness
+
+Tightness Inspection 
+•Check the tightness of the bolts and nuts listed here. Also, 
+check to see that each cotter pin Is In place and In good 
+condition.
+
+NOTE
+
+oFor the engine fasteners, check the tightness of them when 
+the engine is cold tat room temperature).
+
+*lf there are loose fasteners, retorque them to the specified 
+torque following the specified tightening sequence. Refer to 
+the appropriate chapter for torque specifications. If torque 
+specifications are not in the appropriate chapter, see the 
+basic torque table (see Torque and Locking Agent In the 
+General Information chapter). 
+For each fastener, first loosen It by '/i turn, then tighten it. 
+*lf cotter pins are damaged, replace them with new ones.
+
+Nut, Bolt, and Fastener to be checked
+
+Wheels:
+
+Front Axle Nut Front Axle 
+Nut Cotter Pin Rear Axle Nut 
+Rear Axle Nut Cotter Pin 
+Brakes:
+
+Front Master Cylinder Clamp Bolts 
+Front Caliper Mounting Bolts Rear 
+Master Cylinder Mounting Bolts Rear 
+Master Cylinder Bracket Bolts Rear 
+Caliper Mounting Bolts Brake Lever 
+Pivot Nut Brake Pedal Bolt Brake Rod 
+Joint Cotter Pin

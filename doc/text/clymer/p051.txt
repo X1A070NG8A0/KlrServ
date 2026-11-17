@@ -1,0 +1,175 @@
+TROUBLESHOOTING
+
+c. Crankcase breather tube. If there is leakage,
+
+the piston rings are leaking.
+
+8. Acylinder with a leakdown of 5 percent or less is
+
+ideal. A cylinder with more than 10 percent leakage 
+should be inspected to determine if leakage is 
+caused by normal wear or damage. Inspection of the 
+parts will then indicate what action should be taken.
+
+CLUTCH
+
+The two main clutch problems are clutch slip 
+(clutch does not fully engage) and clutch drag
+
+(clutch does not fully disengage). These problems
+
+are often caused by incorrect clutch adjustment or a
+
+damaged/unlubricated cable. Perform the following
+
+checks before removing the right crankcase cover to
+
+troubleshoot the clutch:
+
+1. Check the clutch cable routing from the handle- 
+bar to the engine. Check that the cable is free when
+
+the handlebar is turned lock to lock, and that the ca- 
+ble ends are installed correctly.
+
+2. With the engine off, pull and release the clutch
+
+lever. If the lever is hard to pull, or the action is 
+rough, check for the following:
+
+a. Damaged/kinked cable.
+
+b. Incorrect cable routing.
+
+c. Cable not lubricated.
+
+d. Worn/unlubricated lever at the handlebar.
+
+e. Damaged release lever at the engine.
+
+3. Ifno damage was detected in the previous steps, 
+and the lever moves without excessive roughness or 
+binding, check the clutch adjustment as described in 
+Chapter Three. Note the following:
+
+a. If the clutch cannot be adjusted to the specifi-
+
+cations in Chapter Three, the clutch cable is
+
+stretched or damaged.
+
+b. Ifthe clutch cable is in good condition and ad-
+
+justment is correct, the clutch plates may be
+
+worn or warped.
+
+Clutch Slipping
+
+When the clutch slips, the engine accelerates
+
+faster than what the actual forward speed indicates. 
+When continuous 
+slipping occurs between 
+the 
+clutch plates, excessive heat quickly builds up in the 
+assembly. This causes plate wear, warp and spring
+
+fatigue. One or more of the following can cause the
+
+clutch to slip:
+
+1. Clutch wear or damage:
+
+
+
+-----
+
+Incorrect clutch adjustment.
+
+. Weak or damaged clutch springs.
+
+Loose clutch springs. 
+Worn friction plates. 
+Warped clutch (steel) plates. 
+Worn/damaged release lever assembly.
+
+. Damaged pressure plate.
+
+mo 
+hoaoogp
+
+. Clutch housing and hub unevenly worn.
+
+2. Clutch/engine oil:
+
+a. Excessive oil in crankcase.
+
+b. Incorrect oil viscosity.
+
+c. Oil additives.
+
+Clutch Dragging
+
+When the clutch drags, the plates are not com- 
+pletely separating. This causes the motorcycle to 
+creep or lurch forward when the transmission is put
+
+into gear. Once underway, shifting is difficult. If this
+
+condition is not corrected, it can cause transmission 
+gear and shift fork damage, due to the abnormal 
+grinding and impacts on the parts. One or more of
+
+the following can cause the clutch to drag:
+
+1. Clutch wear or damage:
+
+a. Worn/damaged release lever assembly.
+
+b. Warped clutch (steel) plates.
+
+Swollen friction plates.
+
+. Warped pressure plate.
+
+Incorrect clutch spring tension. 
+Galled clutch housing bushing.
+
+. Uneven wear on clutch housing grooves or
+
+@ 
+hoe 
+An
+
+clutch hub splines.
+
+h. Incorrectly assembled clutch.
+
+2. Clutch/engine oil:
+
+a. Low oil level.
+
+b. Incorrect viscosity oil.
+
+c. Oil additives.
+
+Clutch Noise
+
+Clutch noise is usually caused by worn or dam-
+
+aged parts, and is more noticeable at idle or low en-
+
+gine speeds. Clutch noise can be caused by the
+
+following conditions:
+
+1. Wear in the clutch lifter bearing and/or lifter.
+
+2. Excessive axial play in the clutch housing.
+
+3. Excessive friction plate to clutch housing clear- 
+ance.
+
+4. Excessive wear between the clutch housing and 
+primary drive gear.

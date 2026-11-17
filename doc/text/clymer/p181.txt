@@ -1,0 +1,82 @@
+TRANSMISSION AND INTERNAL SHIFT MECHANISM 
+169
+
+can lead to premature wear of the gear dogs and 
+other parts.
+
+Inspection
+
+When inspecting the shift fork and drum assem- 
+bly, replace parts that are worn or not within the
+
+specifications in Table 2.
+
+1. Clean all parts in solvent and dry with com- 
+pressed air.
+
+2. Inspect the shift drum for the following:
+
+
+
+-----
+
+a. Worn shift drum grooves and cam points. The
+
+grooves should be a uniform width. Worn 
+grooves can prevent complete gear engage- 
+ment, which can cause rough shifting and al- 
+low the transmission to disengage. Measure
+
+the width of each groove in several locations
+
+to determine wear (Figure 42).
+
+b. Worn or damaged bearing surfaces. Besides
+
+wear, look for overheating discoloration and a 
+lack of lubrication. Fit the shift drum into the 
+crankcase bearings and check for play. Ifnec- 
+essary, replace the shift drum bearings as de- 
+scribed in Chapter Five.
+
+3. Inspect each shift fork for wear and damage. In- 
+spect the:
+
+a. Guide pin. The pin should be symmetrical
+
+and not flat on the side. Measure the diameter 
+of the guide pin (Figure 43).
+
+b. Shift fork thickness. Measure both claws at
+
+the end (Figure 44).
+
+4. Inspect the shift fork shafts for wear and obvious 
+damage.
+
+5. Install the No. 1, No. 2 and No. 3 shift forks onto
+
+the fork shafts (Figure 45). The forks should slide 
+and pivot smoothly with no excessive play or tight-
+
+ness. If necessary, the forks can be identified as fol-
+
+lows:
+
+a. Shift forks No. 1 and No. 2 can be identified
+
+by the casting around the guide pins (Figure
+
+46). These forks mate with the output shaft
+
+gears. Shift fork No. | mates with fourth gear 
+and shift fork No. 2 mates with fifth gear.
+
+b. Shift fork No. 3 has a smaller claw diameter
+
+and only mates with third gear on the input
+
+shaft.
+
+6. Install the shift drum, forks and transmission as- 
+sembly as described in Chapter Five.

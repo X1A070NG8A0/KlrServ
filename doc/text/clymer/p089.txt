@@ -1,0 +1,129 @@
+LUBRICATION, MAINTENANCE AND TUNE-UP
+
+Table 2 FUEL, LUBRICANTS AND FLUIDS
+
+Fuel type 
+Unleaded gasoline; 87 octane minimum 
+Fuel tank Capacity 
+23 liters (6.1 U.S. gal.) 
+Engine oil 
+SG rated, four-stroke engine oil 
+SAE 10W-40, 20W-40, 10W-50 or 20W-50 
+Engine oil capacity
+
+Without filter change 
+2.2 liters (2.3 U.S. qt.) 
+With filter change 
+2.5 liters (2.6 U.S. qt.) 
+Cooling system capacity 
+1.3 liters (1.4 U.S. qt.) 
+Coolant type 
+Ethylene glycol containing anti-corrosion
+
+inhibitors for aluminum engines 
+Coolant mixture 
+50/50 (antifreeze/distilled water)
+
+Drive chain 
+O-ring type chain lubricant 
+Fork oil grade 
+Kayaba G-10, or equivalent 10-weight fork oil
+
+Fork oil capacity (each leg)
+
+Oil change 
+355 cc (12.0 U.S. oz.) 
+Fork rebuild (all parts dry) 
+Fork tube oil level (from top edge
+
+416-424 cc (14.0-14.3 U.S. oz.)
+
+of inner tube) 
+188-192 mm (7.40-7.56 in.) 
+Brake fluid type 
+DOT 4 
+Control cables 
+Cable lube 
+Air filter 
+Foam air filter oil
+
+Table 3 TUNE-UP SPECIFICATIONS
+
+Battery 
+12 volt, 14 amp-hour 
+Compression 
+530-855 kPa (77-124 psi) 
+Compression ratio 
+9.5:1
+
+Idle speed 
+. 
+1200-1400 rpm 
+Ignition timing
+
+Idle 
+Advanced 
+Pilot mixture screw turns out 
+Spark plug
+
+Type
+
+Gap 
+Valve clearance
+
+0.10-0.20 mm (0.004-0.008 in.) 
+0.15-0.25 mm (0.006-0.010 in.)
+
+Intake 
+Exhaust
+
+Table 4 ROUTINE CHECKS AND ADJUSTMENTS
+
+Brake light switch 
+Brake pad lining minimum thickness 
+Brake pedal height 
+Choke lever free play 
+Clutch lever free play 
+Drive chain play 
+Drive chain length wear limit (20 links/21 pins) 
+Fork air pressure 
+Radiator cap relief pressure 
+Rim runout (radial and lateral) 
+Throttle grip free play 
+Tire pressure
+
+1.0 mm (0.040 in.) 
+At or near level with top of peg 
+2-3 mm (0.08-0.12 in.) 
+2-3 mm (0.08-0.12 in.) at pivot 
+50-60 mm (2.0-2.4 in.) 
+323 mm (12.7 in.) 
+0 (atmospheric pressure) 
+93-123 kPa (13.5-17.8 psi) 
+2.0 mm (0.08 in.) 
+2-3 mm (0.08-0.12 in.)
+
+Front 
+150 kPa (22 psi) 
+Rear
+
+Loads up to 97.5 kg (215 Ib.) 
+150 kPa (22 psi) 
+Loads 97.5-182 kg (215-400 Ib.) 
+200 kPa (29 psi)
+
+
+
+-----
+
+10° BTDC at 1300 rpm 
+30° BTDC at 3300 rpm 
+13/8
+
+NGK DP8EA-9 
+NGK DPR8EA-9 
+ND X24EP-U9 
+ND X24EPR-U9 
+0.8-0.9 mm (0.032-0.036 in.)
+
+On after 15 mm (0.6 in.) of pedal travel

@@ -1,0 +1,85 @@
+COOLING SYSTEM
+
+aN
+
+
+
+-----
+
+227
+
+WATER PUMP
+
+The water pump is located in the right crankcase
+
+cover. To inspect the condition of the.impeller, me- 
+chanical seal or water pump cover, the cover can be 
+removed without removing the right crankcase 
+cover (Figure 10). The cooling system must be 
+drained before removing the water pump cover.
+
+An inspection hole for the water pump (Figure
+
+11) is located at the bottom of the case. If there is 
+water leakage at this hole, the pump mechanical
+
+seal is leaking. If there is oil leakage, the oil seal is 
+leaking. Removal of the right crankcase cover is 
+necessary to replace the seals.
+
+Removal, Inspection and Installation
+
+Remove and install the water pump cover and
+
+right crankcase cover as follows. Inspect and repair
+
+the water pump as described in this section.
+
+1. Drain the cooling system (Chapter Three).
+
+2. If necessary, remove the hoses from the water 
+pump cover.
+
+3. Remove the water pump cover as follows:
+
+a. Remove the three bolts securing the water
+
+pump cover (Figure 12).
+
+b. Lightly tap the cover to loosen it from the
+
+crankcase cover.
+
+c. Pull the cover straight out. Remove the gasket
+
+and two dowels beneath the cover.
+
+4. Remove the nut and washer from the impeller 
+(Figure 13).
+
+5, Remove the impeller and the washer behind the 
+impeller (A, Figure 14).
+
+6. Inspect the parts.
+
+a. Inspect the impeller and cover for obvious
+
+damage.
+
+b. Inspect the face of the mechanical seal on the
+
+impeller and in the right crankcase cover (B, 
+Figure 14). In order to seal properly, both
+
+faces must be smooth and free of scoring or 
+damage. When installed, the impeller seal 
+should fit firmly against the seal in the crank-
+
+case cover. Since the seal in the crankcase 
+cover is spring loaded, it maintains pressure
+
+on the seals and compensates for wear. If nec-
+
+essary, replace the mechanical seal and oil
+
+seal as described in this section.

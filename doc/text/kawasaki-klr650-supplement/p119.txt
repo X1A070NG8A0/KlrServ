@@ -1,0 +1,10 @@
+Engine Bottom End/Transmission
+
+0: Engine Oil 
+T1: 9.8 N-m (10kg-m, 72 ft-lb)
+
+
+
+-----
+
+SUPPLEMENT - 2000 - 2001 MODELS 16-11

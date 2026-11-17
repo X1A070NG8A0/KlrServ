@@ -1,0 +1,70 @@
+# Clymer KLR650 1987-2006 table of contents, transcribed from the page images
+# of PDF p7-10 (section order: left column, then right column, as printed).
+# `printed` is the chapter's first printed page; PDF page = printed + 12.
+cite: {s: clymer, p: 7, ref: "Contents, PDF p7-10"}
+front:
+  - {title: "Quick Reference Data", pdf: [11, 12]}
+chapters:
+  - n: 1
+    title: "General Information"
+    printed: 1
+    sections: ["Manual organization", "Warnings, cautions and notes", "Safety", "Warning labels", "Serial numbers", "Fasteners", "Shop supplies", "Basic tools", "Precision measuring tools", "Storage"]
+  - n: 2
+    title: "Troubleshooting"
+    printed: 31
+    sections: ["Operating requirements", "Starting the engine", "Four-stroke operating principles", "Engine spark test", "Engine performance", "Electrical testing", "Starting system", "Engine noise", "Motorcycle noise", "Engine leakdown test", "Leak-down tester", "Clutch", "Gear shift linkage and transmission", "Brakes"]
+  - n: 3
+    title: "Lubrication, Maintenance and Tune-up"
+    printed: 43
+    sections: ["Pre-ride inspection", "Engine break-in", "Tune-up and service intervals", "Battery", "Fuel and lubricants", "Periodic lubrication", "Maintenance and inspection", "Engine tune-up", "Spark plugs"]
+  - n: 4
+    title: "Engine Top End"
+    printed: 79
+    sections: ["Shop cleanliness", "Exhaust system", "Cylinder head cover", "Camshafts and cam chain tensioner", "Cylinder head", "Valves", "Cylinder", "Piston and piston rings"]
+  - n: 5
+    title: "Engine Lower End"
+    printed: 114
+    sections: ["Shop cleanliness", "Engine", "Cam chain and lower guide", "Left crankcase cover", "Engine balancer", "Crankcase", "Seal replacement", "Crankcase bearing replacement", "Crankshaft"]
+  - n: 6
+    title: "Clutch, Gearshift Linkage and Lubrication System"
+    printed: 137
+    sections: ["Right crankcase cover", "Clutch", "External gearshift linkage", "Oil pump", "Primary drive gear", "Clutch cable replacement", "Kickstarter"]
+  - n: 7
+    title: "Transmission and Internal Shift Mechanism"
+    printed: 156
+    sections: ["Transmission operation", "Service notes", "Input shaft", "Output shaft", "Transmission inspection", "Shift drum and forks"]
+  - n: 8
+    title: "Fuel System"
+    printed: 171
+    sections: ["Carburetor", "Carburetor cleaning and inspection", "Float adjustment", "Carburetor systems", "Fuel valve", "Evaporative emissions control system (California models only)", "Throttle cable replacement", "Air filter housing"]
+  - n: 9
+    title: "Electrical System"
+    printed: 189
+    sections: ["Resistance testing guidelines", "Continuity testing guidelines", "Ignition and charging system operation", "Alternator cover", "Stator and pickup coil", "Rotor and starter clutch", "Starter", "Starting system", "Ignition system", "Charging system", "Fan system", "Water temperature gauge and sending unit", "Turn signal relay", "Headlight", "Left handlebar switches"]
+  - n: 10
+    title: "Cooling System"
+    printed: 223
+    sections: ["Safety precautions", "Radiator and fan", "Thermostat", "Water temperature sending unit", "Water pump"]
+  - n: 11
+    title: "Wheels, Tires and Drive Chain"
+    printed: 230
+    sections: ["Front wheel and speedometer drive unit", "Rear wheel", "Front and rear hubs", "Rim and spoke service", "Drive chain", "Sprockets", "Tire changing"]
+  - n: 12
+    title: "Front Suspension and Steering"
+    printed: 249
+    sections: ["Handlebar", "Steering stem and head", "Fork removal and installation", "Fork service"]
+  - n: 13
+    title: "Rear Suspension"
+    printed: 267
+    sections: ["Link-type suspension system", "Shock absorber", "Shock absorber linkage", "Swing arm", "Swing arm service", "Shock absorber adjustment"]
+  - n: 14
+    title: "Brakes"
+    printed: 284
+    sections: ["Disc brake fundamentals", "Front brake pads", "Front brake caliper", "Front master cylinder", "Rear brake pads", "Rear brake caliper", "Rear master cylinder", "Rear brake pedal", "Brake system draining", "Brake system bleeding", "Brake disc"]
+  - n: 15
+    title: "Body"
+    printed: 315
+    sections: ["Side covers", "Skid plate", "Seat", "Front fender", "Fuel tank", "Fairing", "Radiator covers", "Subframe"]
+back:
+  - {title: "Index", printed: 319}
+  - {title: "Wiring Diagrams", pdf: [339, 347]}

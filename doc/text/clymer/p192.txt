@@ -1,0 +1,96 @@
+10. Inspect the hose fittings for damage (Figure
+
+40). Replace the O-rings on both fittings.
+
+FLOAT ADJUSTMENT
+
+The float and float valve maintain a constant and 
+measured fuel level in the float bowl. As fuel is 
+used, the float lowers and allows more fuel past the
+
+valve. As the fuel level rises, the float closes the 
+valve when the required fuel level is reached. If the
+
+float is out of adjustment, the fuel level will be too 
+high or low. A low fuel level causes the engine to
+
+run as if the jetting is too lean. A high fuel level will 
+cause the engine to run as if the jetting is too rich. It 
+may also cause fuel overflow.
+
+1. Remove the carburetor as described in this chap-
+
+ter.
+
+2. Remove the float bowl.
+
+3. Lightly touch the float to ensure the float valve is
+
+seated.
+
+4. Hold the carburetor so the float valve remains
+
+seated, but the spring-loaded pin in the valve is not 
+being compressed by the tab on the float (Figure
+
+41). The tab should only touch the pin.
+
+5. Measure the distance from the carburetor body 
+gasket surface to the highest point on the float (Fig-
+
+ure 41). Refer to Table 1 for the required float
+
+height.
+
+6. If the float height is incorrect, do the following:
+
+a. Remove the float assembly from the carbure-
+
+tor.
+
+b. Remove the float valve and clip.
+
+c. Bend the float tab in the appropriate direction
+
+to raise or lower the float. Use care when
+
+
+
+-----
+
+CHAPTER EIGHT
+
+bending the tab to prevent breaking the plastic 
+lugs or float.
+
+d. Assemble the float and recheck the height.
+
+Adjust, if necessary.
+
+7. Install the float bowl.
+
+8. Install the carburetor as described in this chapter.
+
+CARBURETOR SYSTEMS
+
+Before disassembling the carburetor, understand
+
+the function of the pilot, needle and main jet sys-
+
+tems. When evaluating or troubleshooting these 
+systems, keep in mind that their operating ranges 
+overlap one another during the transition from 
+closed to fully open throttle.
+
+Common factors that affect carburetor perfor- 
+mance are altitude, temperature and engine load. If
+
+the engine is not running or performing up to expec-
+
+tations, check the following before adjusting or re- 
+placing the components in the carburetor:
+
+1. Throttle cables. Check that the cables are not 
+dragging and are correctly adjusted.
+
+2. Air filter. Check that the filter is clean.

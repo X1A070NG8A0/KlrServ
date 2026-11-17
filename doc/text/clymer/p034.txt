@@ -1,0 +1,111 @@
+22
+
+maining portion of the screw or bolt. Drill a small 
+hole in the screw and tap the extractor into the hole. 
+Back the screw out with a wrench on the extractor 
+(Figure 40).
+
+Repairing Damaged Threads
+
+Occasionally, threads are stripped through care- 
+lessness or impact damage. Often the threads can be 
+repaired by running a tap (for internal threads on 
+nuts) or die (for external threads on bolts) through
+
+the threads (Figure 41). To clean or repair spark 
+plug threads, use a spark plug tap.
+
+If an internal thread is damaged, it may be neces-
+
+sary to install a Helicoil or some other type of thread
+
+insert. Follow the manufacturer’s instructions when
+
+installing their insert.
+
+If it is necessary to drill and tap a hole, refer to Ta-
+
+ble 6 for metric tap and drill sizes.
+
+Stud Removal/Installation
+
+A stud removal tool is available from most tool
+
+suppliers. This tool makes the removal and installa-
+
+tion of studs easier. If one is not available, thread 
+two nuts onto the stud and tighten them against each
+
+other. Remove the stud by turning the lower nut 
+(Figure 42).
+
+1. Measure the height of the stud above the surface.
+
+2. Thread the stud removal tool onto the stud and 
+tighten it, or thread two nuts onto the stud.
+
+3. Remove the stud by turning the stud remover or
+
+the lower nut.
+
+4. Remove any threadlocking compound from the 
+threaded hole. Clean the threads with an aerosol
+
+parts cleaner.
+
+5. Install the stud removal tool onto the new stud or 
+thread two nuts onto the stud.
+
+6. Apply threadlocking compound to the threads of 
+the stud.
+
+7. Install the stud and tighten with the stud removal
+
+tool or the top nut.
+
+8. Install the stud to the height noted in Step 1 or its 
+torque specification.
+
+9. Remove the stud removal tool or the two nuts.
+
+Removing Hoses
+
+When removing stubborn hoses, do not exert ex- 
+cessive force on the hose or fitting. Remove the
+
+
+
+-----
+
+CHAPTER ONE
+
+REMOVING BROKEN 
+SCREWS AND BOLTS
+
+3. Tap in screw extractor 
+4. Remove broken stud
+
+hose clamp and carefully insert a small screwdriver
+
+or pick tool between the fitting and hose. Apply a 
+spray lubricant under the hose and carefully twist
+
+the hose off the fitting. Clean the fitting of any cor- 
+rosion or rubber hose material with a wire brush. 
+Clean the inside of the hose thoroughly. Do not use 
+any lubricant when installing the hose (new or old). 
+The lubricant may allow the hose to come off the fit-
+
+ting, even with the clamp secure.
+
+Bearings
+
+Bearings are used in the engine and transmission 
+assembly to reduce power loss, heat and noise re- 
+sulting from friction. Because bearings are preci-
+
+sion parts, they must be maintained by proper 
+lubrication and maintenance. If a bearing is dam- 
+aged, replace it immediately. When installing a new 
+bearing, take care to prevent damaging the part. 
+Many bearing replacement procedures are included

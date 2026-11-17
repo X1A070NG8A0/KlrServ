@@ -1,0 +1,66 @@
+id: engine-oil-and-filter
+title: "Engine oil level check, oil and filter change"
+system: "Engine lubrication"
+source: clymer
+chapter: 3
+section: "03/periodic-lubrication"
+summary:
+  t: "Make sure that the oil level is correct at the sight glass on the right side of the engine. Change the oil and filter at the Table 1 intervals. In extreme conditions (hot, cold, wet or dusty), change the oil more often."
+  cite: {p: 59}
+spec_refs:
+  - "fluids:Engine oil"
+  - "fluids:Engine oil capacity/Without filter change"
+  - "fluids:Engine oil capacity/With filter change"
+  - "maintenance-torque:Oil drain plug"
+parts:
+  - {name: "Oil filter", replace: always, cite: {p: 59}}
+  - {name: "Drain plug seal washer", replace: always, cite: {p: 60}, note: "Install a new seal washer on the drain plug."}
+  - {name: "Oil filter cover O-ring", replace: always, cite: {p: 60}, note: "Install a new O-ring on the filter cover. Lubricate the O-ring."}
+  - {name: "Drain plug", replace: inspect, cite: {p: 60}, note: "If the threads are damaged or worn, replace the drain plug."}
+  - {name: "Oil fill cap O-ring", replace: inspect, cite: {p: 59}, note: "If oil leaks around the cap, replace the O-ring."}
+  - {name: "Engine oil", replace: consumable, spec_ref: "fluids:Engine oil capacity/With filter change", cite: {p: 89}}
+sections:
+  - title: "Engine oil level check"
+    steps:
+      - {t: "Measure the oil level when the engine has been stopped for some time. The best time is before you start a cold engine.", cite: {p: 59}}
+      - {t: "If the engine was running, wait several minutes. The oil then drains to the crankcase.", cite: {p: 59}}
+      - {t: "If you just changed the oil, start the engine and let the oil circulate. Then stop the engine. If you do not do this, the reading is not correct.", cite: {p: 59}}
+      - {t: "Park the motorcycle on level ground.", cite: {p: 59}}
+      - {t: "Hold the motorcycle upright, off the sidestand, so that the engine is level.", cite: {p: 59}}
+      - {t: "Read the oil level at the center of the sight glass. Do not read it at the edges.", cite: {p: 59}, figs: [5, 7]}
+      - {t: "Make sure that the oil level is between the upper and lower level marks. The best level is near the upper mark.", cite: {p: 59}, figs: [7]}
+      - {t: "If the oil level is low, remove the cap on the right crankcase cover.", cite: {p: 59}, figs: [6]}
+      - {t: "Add the correct grade of oil in small quantities until the level is at the upper mark. Make sure that the level is correct often. Do not overfill the crankcase.", cite: {p: 59}}
+      - {t: "Install the cap.", cite: {p: 59}}
+      - {t: "If oil leaks around the cap, replace the O-ring on the cap.", cite: {p: 59}}
+  - title: "Engine oil and filter change"
+    steps:
+      - {kind: note, t: "Change the oil when the engine is warm. Contaminants stay in the oil, and the oil drains more completely and more quickly.", cite: {p: 59}}
+      - {kind: warning, t: "Prevent long contact with used engine oil. Long contact with used engine oil can cause skin cancer.", cite: {p: 59}}
+      - {t: "Support the motorcycle so that it is level and secure.", cite: {p: 59}}
+      - {t: "Wipe the area around the oil fill cap.", cite: {p: 59}}
+      - {t: "Remove the oil fill cap (A).", cite: {p: 59}, figs: [8]}
+      - {t: "Put a drain pan below the engine drain plug.", cite: {p: 59}}
+      - {t: "Remove the drain plug and let the oil drain.", cite: {p: 59}, figs: [9]}
+      - {t: "Remove the bolts from the oil filter cover (B).", cite: {p: 59}, figs: [8]}
+      - {t: "Remove the filter cover. An O-ring seals the cover. Hold the tab and pull the cover straight out. Do not use tools to pry the cover.", cite: {p: 59}}
+      - {t: "Remove the filter and the mounting pin.", cite: {p: 60}, figs: [10]}
+      - {t: "When you clean the mounting pin, make sure that the oil filter bypass valve inside the pin is clean and can open. The bypass valve has a spring.", cite: {p: 60}}
+      - {t: "Press the bypass valve open from the narrow (stepped) end of the pin.", cite: {p: 60}}
+      - {t: "Install a new seal washer on the drain plug. If the threads of the drain plug are damaged or worn, replace the drain plug.", cite: {p: 60}}
+      - {t: "Install a new O-ring on the filter cover. Lubricate the O-ring.", cite: {p: 60}}
+      - {t: "If oil leaks around the oil fill plug, replace the O-ring of the plug.", cite: {p: 60}}
+      - {t: "Wipe dirt and oil from around the drain plug hole.", cite: {p: 60}}
+      - {t: "Install the drain plug and tighten it to the specified torque.", cite: {p: 60}, spec_ref: "maintenance-torque:Oil drain plug"}
+      - {kind: caution, t: "Install the mounting pin in the correct direction. If you install it in the wrong direction, the oil filter does not work correctly.", cite: {p: 60}}
+      - {t: "Lubricate the grommets at the two ends of the new filter.", cite: {p: 60}}
+      - {t: "Put the mounting pin into the new filter. The filter grommets must be on the wide part of the pin, not on the narrow end.", cite: {p: 60}, figs: [12]}
+      - {t: "Put the filter and the pin into the filter housing. Put the narrow end of the pin in first.", cite: {p: 60}, figs: [13]}
+      - {t: "Push the pin fully into the collar at the back of the filter housing.", cite: {p: 60}, figs: [13]}
+      - {t: "Install the filter cover straight. Make sure that the arrow (C) on the cover points up and that the O-ring is not pinched.", cite: {p: 61}, figs: [8]}
+      - {t: "Tighten the cover bolts by hand. Then tighten them in several passes so that the cover does not bind.", cite: {p: 61}}
+      - {t: "Fill the crankcase with the specified quantity and grade of oil. The quantity is larger when you change the filter.", cite: {p: 61}, spec_ref: "fluids:Engine oil capacity/With filter change"}
+      - {t: "Install the fill cap.", cite: {p: 61}}
+      - {t: "Make sure that the oil level is correct, as described above.", cite: {p: 61}}
+      - {t: "Make sure that no fittings leak.", cite: {p: 61}}
+      - {t: "Dispose of the used engine oil in an environmentally safe manner.", cite: {p: 61}}

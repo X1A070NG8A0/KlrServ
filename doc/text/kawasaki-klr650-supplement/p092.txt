@@ -1,0 +1,117 @@
+14-6 ELECTRICAL SYSTEM
+
+•Zero the ohmmeter, and connect it to the regulator/ rectifier 
+terminals. 
+•Check the resistance between the terminals following the 
+table. 
+★The resistance should be low in one direction and more 
+than ten times as much in the other direction. If any two 
+leads are low or high in both directions, the rectifier is 
+defective and must be replaced.
+
+NOTE
+
+oThe actual meter reading varies with the meter used and the 
+individual rectifier, but, generally speaking the lower reading
+should be from zero to the first % of the scale.
+
+Regulator/Rectifier Terminal
+
+B (Battery) Terminal M (Monitor) Terminal
+
+Rectifier Circuit Inspection
+
+N
+o.
+
+Connections 
+Reading 
+Meter 
+Range 
+Meter (+) to 
+Meter (-) to
+
+1 
+Ml
+
+2 
+M2 
+B 
+OO
+
+3 
+M3
+
+4 
+Ml
+
+5 
+M2 
+G 
+ 
+x ion 
+6 
+M3 
+ 
+0 - 
+or
+
+7  
+Ml 
+Vz scale 
+x 100 Î2
+
+8 
+B 
+M2
+
+9  
+M3
+
+10  
+Ml
+
+11 
+G 
+M2 
+OO
+
+12  
+M3
+
+Regulator Circuit Test: 
+•Remove the regulator/rectifier. 
+•Prepare the test tools shown.
+
+Tools for Regulator Circuit Test
+
+Test light 
+-* Bulb rated 12 V and 3 — 6 W 
+Batteries 
+-*■ 12 V battery and 6 V battery 
+Test wires 
+-*• 5 auxiliary wires
+
+
+
+-----
+
+•Connect the test light and the 12 V battery to the 
+regulator/rectifier as shown. 
+•Check M1, M2, and M3 terminals respectively.
+
+Regulator Circuit Test-1 st Step
+
+C AU TI O
+N
+
+OThe test light limits the current flow through the regulator/ 
+rectifier. Do not use an ammeter or multimeter in its place.
+
+★If the test light turns on, the regulator/rectifier is defective. 
+Replace it. 
+★If the test light does not turn on, continue the test. 
+•Momentarily apply 12 V to the voltage monitoring terminal. 
+•Check Ml, M2, and M3 terminals respectively.
+
+Regulator Circuit Test-2nd Step

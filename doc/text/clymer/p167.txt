@@ -1,0 +1,56 @@
+CLUTCH, GEARSHIFT LINKAGE AND LUBRICATION SYSTEM 
+155
+
+Table 1 CLUTCH SPECIFICATIONS
+
+Friction plate quantities
+
+1987-1995 
+1996-on 
+Clutch plate (steel) quantities
+
+1987-1995 
+1996-on 
+if 
+Friction plate thickness 
+2.80-3.1 (0.110-0.122) 
+2.60 (0.102) 
+Clutch plate (steel) warp 
+0.0-0.2 (0.0-0.008) 
+0.3 (0.012) 
+Spring free length
+
+1987-1995 
+34.2 (1.35) 
+33.1 (1.30) 
+1996-on 
+38.7 (1.52) 
+36.4 (1.43)
+
+Table 2 OIL PUMP SPECIFICATIONS
+
+Lubrication system 
+Troichoid pump, forced pressure, wet sump 
+Oil pump pressure at 4000 rpm 
+78-147 kPa (11-21 psi) 
+Relief valve opening pressure 
+430-590 kPa (62-85 psi)
+
+Table 
+3 CLUTCH TORQUE SPECIFICATIONS
+
+Clutch hub locknut 
+Clutch spring bolts
+
+1987-1995 
+1996-on 
+Oil pressure relief valve 
+Primary drive gear nut 
+Shift cam bolt
+
+
+
+-----
+
+Service limit 
+mm (in.)

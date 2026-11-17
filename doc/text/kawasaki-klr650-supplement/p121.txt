@@ -1,0 +1,78 @@
+Electrical System
+
+Specifications
+
+Item 
+Standard 
+Service Limit
+
+Battery:
+
+Electrolyte level 
+Between upper and lower levels 
+ ---- 
+Specific gravity 
+1.280@20°C (68” F) 
+ ---- 
+Charging System:
+
+Regulator / rectifier output voltage 
+Battery - 15 V 
+ ---- 
+Magneto stator coil resistance 
+0.3 - i.on 
+ ---- 
+Ignition System:
+
+Spark plug: Type 
+NGK DPR8EA-9 or ND X24EPR-U9 
+ ---- 
+Gap 
+0.8 - 0.9 mm 
+ ---- 
+Ignition coil:
+
+Arcing distance 
+7mm or more (3-needle method) 
+ ---- 
+Primary winding resistance 
+0.15 -0.21 a 
+ __  
+Secondary winding resistance 
+3.8-5.8k O 
+ ---- 
+Exciter coil resistance 
+100 - 200il 
+ ---- 
+Pickup coil resistance 
+100- 150Q 
+ ---- 
+Electric Starter System:
+
+Starter motor: Carbon brush length 
+12.0 - 12.5 mm 
+6 mm 
+Commutatoy diameter 
+28 mm 
+27 mm
+
+Meter Unit:
+
+Water temperature sender resistance 
+47 - 57 Q @80t3 (176° F) 
+ ----
+
+26-30H @ lOOt (212° F)
+
+Radiator fan switch: ON 
+Above 94 - 100°C 201-212° F) 
+ ----
+
+OFF 
+Below 91 "C (196" F)
+
+
+
+-----
+
+SUPPLEMENT - 2000 - 2001 MODELS 16-13

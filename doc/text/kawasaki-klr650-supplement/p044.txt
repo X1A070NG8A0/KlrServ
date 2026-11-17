@@ -1,0 +1,62 @@
+Service Data
+
+Item 
+Standard
+
+Coolant: 
+Type (recommended)
+
+Mixed ratio (provided coolant when shipping)
+
+Freezing point (provided coolant when shipping) Total
+
+amount Radiator Cap: Relief pressure
+
+Thermostat: Valve opening temperature Valve full
+
+opening lift
+
+Coolant Flow Chart
+
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+3. 
+ 9.
+
+Radiator Cap 
+To Reservoir Tank 
+Radiator 
+Water Pump 
+To Cylinder Jacket 
+From Cylinder Head 
+Thermostat 
+Through Thermostat Air Bleeder Hole 
+Through Thermostat Valve
+
+
+
+-----
+
+COOLING SYSTEM 5-3
+
+Permanent type of antifreeze (soft water and
+
+ethylene glycol plus corrosion and rust inhibitor
+
+chemicals for aluminum engines and radiators)
+
+Soft water 50%, coolant 50%
+
+—35°C ( —310 F )
+
+1.3 L 
+93 - 123 kPa 
+(0.95 - 1.25 kg/cm2, 14-18 psi)
+
+69.5 - 72.5°C (157 - 162°F) 
+Not less than 3 mm @85°C (185° F)

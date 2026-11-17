@@ -1,0 +1,68 @@
+200
+
+i Check for continuity between each commuta-
+
+tor bar and the armature shaft (Figure 34). 
+There should be no continuity.
+
+5. Inspect and test the brush assembly. The positive 
+brushes have insulated leads.
+
+Check for continuity between the positive 
+brush and the cable terminal (Figure 35). 
+There should be continuity between the parts.
+
+a.
+
+. Check for continuity between the cable termi-
+
+nal and the starter housing. There should be
+
+no continuity between the parts.
+
+. Check for continuity between the positive
+
+brush and the starter housing (Figure 36). 
+There should be no continuity between the
+
+parts.
+
+. Check for continuity between the grounded
+
+brush and the brush plate (Figure 37). There 
+should be continuity between the parts.
+
+. Check for continuity between the brush plate
+
+and the positive brush holders. There should 
+be no continuity between the parts.
+
+Measure the length of each brush (Figure
+
+38). Refer to Table 2 for specifications.
+
+Inspect the condition of the brush springs.
+
+g.-
+
+6. Assemble the starter as described in this section.
+
+STARTING SYSTEM
+
+This section includes the relays and switches re- 
+quired to safely start and stop the engine. This in- 
+cludes the safety switches that prevent the engine 
+from starting when certain startup conditions are
+
+not met. Since some components have a function in
+
+the ignition and/or charging system, refer to those 
+sections if the component is not found in this sec-
+
+tion. Refer to Figure 39.
+
+
+
+-----
+
+CHAPTER NINE

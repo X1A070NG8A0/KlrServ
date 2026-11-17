@@ -1,0 +1,115 @@
+BRAKES
+
+pads when they are worn to within 1 mm (0.040 in.) 
+of the backing plate, or have been contaminated 
+with oil or other chemicals.
+
+Replacement
+
+The brake pads can only be replaced by removing
+
+the caliper from the swing arm. The brake hose does
+
+not have to be removed from the caliper. The caliper 
+can be hand held during the following procedure, 
+however, a small work surface placed next to the 
+wheel makes handling easier. Keep the caliper sup- 
+ported and do not allow it to hang by the brake hose.
+
+If the caliper will be rebuilt, or if other damage is 
+detected during this procedure, the pads can be re- 
+moved when the caliper is at the workbench. Refer
+
+to Rear Brake Caliper in this chapter for complete 
+removal, repair and installation. Refer to Figure 49
+
+as needed.
+
+1. Remove the caliper mounting bolts and hose 
+guide (Figure 50). Avoid kinking the brake hose.
+
+
+
+-----
+
+297
+
+CAUTION 
+In the following step, monitor the
+
+level of fluid in the master cylinder 
+reservoir. Brake fluid will back flow to 
+the reservoir when the caliper piston
+
+is pressed into the bore. Do not allow 
+brake fluid to spill from the reservoir, 
+or damage can occur to painted and 
+plastic surfaces. Immediately wash
+
+any spills with water.
+
+2. Grasp the caliper and press the inner pad and cal- 
+iper holder (Figure 51) against the caliper. This 
+presses the piston into the bore, and compresses the 
+holder so the pads can be removed. Keep the caliper 
+holder compressed until the outer pad is removed.
+
+3. Tilt the outer pad toward the caliper, then disen- 
+gage the pad from the slide pins and pad spring 
+(Figure 52).
+
+4. Press down on the inner pad and disengage it 
+from the caliper holder and pad spring.
+
+NOTE 
+Do not operate the brake lever with
+
+the pads removed. The caliper piston 
+can come out of the bore.
+
+5. Clean the interior of the caliper and inspect for
+
+the following:
+
+a. Leakage 
+or damage 
+around 
+the 
+piston, 
+bleeder valve and hose connection.
+
+b. Damaged or missing boots.
+
+c. Excessive drag of the caliper holder when it is
+
+moved in and out of the caliper. If there is cor-
+
+rosion or water around the slide pin boots, 
+clean and lubricate the parts with silicone 
+ggg»
+
+brake grease.
+
+d. Corroded or damaged pad spring. Check that
+
+all small tabs on the spring are not corroded or 
+missing. The spring must be slightly arched 
+and flexible.
+
+6. Inspect the pads for contamination, scoring and 
+wear.
+
+a. Replace the pads when they are worn to
+
+within 1 mm (0.040 in.) of the backing plate,
+
+or have been contaminated with oil or other 
+chemicals.
+
+b. If the pads are worn unevenly, the caliper is
+
+probably not sliding correctly on the slide
+
+pins. The caliper must be free to float on the
+
+pins. Buildup or corrosion on the pins can

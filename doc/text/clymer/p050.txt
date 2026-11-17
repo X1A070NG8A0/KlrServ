@@ -1,0 +1,118 @@
+LEAK-DOWN TESTER
+
+Cylinder 
+pressure
+
+To cylinder head
+
+. Incorrect valve clearance.
+
+. Broken or weak valve spring.
+
+Damaged compression release.
+
+. Loose cam chain/damaged tensioner.
+
+Worn piston pin or piston pin bore. 
+Worn connecting rod small end.
+
+. Worn piston, rings and/or cylinder.
+
+ngine bottom end:
+
+WS
+
+Loose balancer chain. 
+Worn connecting rod bearing. 
+Worn crankshaft bearings. 
+Worn balancer bearings. 
+Worn transmission bearings. 
+Worn or damaged transmission gears.
+
+. Incorrect installation of balancer.
+
+TW 
+mMoaocgcr 
+mmmoanosge
+
+MOTORCYCLE NOISE
+
+The following possible causes of 
+noise will likely 
+occur only when the bike is in motion.
+
+Excessively loose drive chain. 
+Worn chain sliders. 
+Loose exhaust system. 
+Loose/missing body fasteners. 
+Loose skid plate.
+
+. Loose shock absorber.
+
+. Loose engine mounting bolts.
+
+. Brake pads dragging on brake disc.
+
+. Worn/seized wheel bearings. 
+OO 
+NDARWN 
+SD
+
+
+
+-----
+
+CHAPTER TWO
+
+Supply pressure
+
+To air compressor
+
+ENGINE LEAKDOWN TEST
+
+The condition of the piston rings and valves can 
+accurately be checked with a leakdown tester. With
+
+all valves in the closed position, the tester is 
+screwed into the spark plug hole and air pressure is 
+applied to the combustion chamber. The gauge on
+
+the tester is then observed to determine the rate of 
+leakage from the combustion chamber. An air com- 
+pressor is required to use the leakdown tester (Fig-
+
+ure 8).
+
+1. Start the engine and allow it to warm up.
+
+2. Shut off the engine and remove the carburetor 
+and exhaust pipe.
+
+3. Remove the spark plug.
+
+4. Set the piston to TDC on the compression stroke.
+
+5. Install the leakdown tester following the manu-
+
+facturer’s instructions. The tester must not leak 
+around the spark plug threads.
+
+6. Make the test following the manufacturer’s in-
+
+structions for the tester. When pressure is applied to
+
+the cylinder, check that the engine remains at TDC.
+
+If necessary, put the transmission in gear.
+
+7. While the cylinder is under pressure, listen for
+
+air leakage at the following areas.
+
+‘a. Exhaust port. If there is leakage, the exhaust
+
+valves are leaking.
+
+b. Intake port. If there is leakage, the intake
+
+valves are leaking.

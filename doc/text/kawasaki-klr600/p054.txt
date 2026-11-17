@@ -1,0 +1,48 @@
+PeTIR TILT a)
+
+OThe following chart is intended to be an aid to proper removal. Select the component you wish to remove and follow
+the arrows to that point on the chart.
+
+Engine in motorcycle
+
+v v
+
+Chain cover Reserve tank Skid plate
+WV WY
+Sprocket cover Magneto connector, Change lever
+Neutral switch & }
+pickup coil connector
+W | WY
+Chain Neutral switch External shift
+: mechanism shaft
+yy
+
+Engine sprocket
+
+\
+
+Magneto cover
+
+VW \
+*Magneto flywheel Balancer chain Pickup coil
+tensioner bolt
+
+VW Vv v
+
+Balancer chain Balancer chain Magneto stator
+
+guides idler shaft
+Left engine cover
+
+Cam chain guides
+Tensioner spring Balancer weight (front)
+Balancer chain idler
+
+Balancer weight Balancer weight
+sprocket (front) sprocket (rear)
+
+: requires cylinder head
+y disassembly (chap. 3). Vv
+
+Camshaft chain Balancer chain
+

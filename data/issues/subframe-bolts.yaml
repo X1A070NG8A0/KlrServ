@@ -1,0 +1,21 @@
+id: subframe-bolts
+title: "Subframe bolts shearing or loosening"
+ops: [fasteners]
+summary:
+  - t: "Kawasaki's torque for the rear frame (subframe) mounting bolts."
+    cite: {s: kaw-supp, p: 16}
+  - t: "Owners report the gen 1 upper subframe bolts shearing after hard, heavily loaded riding, and the lower bolts working loose. Kawasaki enlarged the upper bolts on the gen 2."
+    cite: {s: forum, id: subframe-necessary, post: 7}
+sections:
+  - title: "What fails"
+    steps:
+      - {t: "Rear frame mounting bolts: 25 N·m (18.0 ft-lb).", cite: {s: kaw-supp, p: 16}}
+      - {t: "\"The upper subframe bolts have sheared after lots of riding, especially loaded heavy and lots of rough roads. Lower bolts can work loose and break.\"", cite: {s: forum, id: subframe-necessary, post: 7}}
+      - {t: "\"Specifically, the upper subframe bolts have been increased from 8 mm on the Gen I to 10 mm on the Gen II. The lower subframe bolts are still the same 8 mm bolts.\"", cite: {s: forum, id: subframe-necessary, post: 18}}
+      - {t: "Not everyone has the problem: \"I've never had a problem and it really depends on where and how you ride the bike. Going over the bike and checking for loose fittings is good maintenance.\"", cite: {s: forum, id: weak-doohickeys-frame-bolts, post: 2}}
+  - title: "What owners do about it"
+    steps:
+      - {t: "Heavily loaded or two-up riders fit stronger bolts: \"If you are going to load it real heavy with luggage, it is recommended to put higher strength bolts in the subframe.\"", cite: {s: forum, id: weak-doohickeys-frame-bolts, post: 8}}
+      - {t: "The common upgrade is Eagle Mike's drill-through upper bolt kit: \"My buddy broke his Gen1 subframe bolts riding 2-up in Baja....I didn't give mine the chance and installed EM's through bolt kit.\"", cite: {s: forum, id: subframe-necessary, post: 9}}
+      - {kind: caution, t: "Drilling the frame is easy to get wrong. One installer reports breaking drill bits and overheating drills: \"I broke two and I was being careful and going slow.\"", cite: {s: forum, id: subframe-necessary, post: 3}}
+      - {t: "Whatever you run, check subframe bolt tightness during the scheduled fastener inspection.", cite: {s: clymer, p: 67}, op: fasteners}

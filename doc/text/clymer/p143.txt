@@ -1,0 +1,102 @@
+ENGINE LOWER END
+
+10. Inspect the cases 
+for fractures 
+around 
+all 
+mounting and bearing bosses, stiffening ribs and 
+threaded holes. If repair is required, the case should 
+be taken to a dealership or machine shop that repairs 
+precision aluminum castings.
+
+11. Check all threaded holes for damage or sealant 
+buildup. Clean threads with the correct size metric
+
+tap. Lubricate the tap with oil or aluminum tap
+
+fluid.
+
+12. After the seals and any bearings are replaced:
+
+
+
+-----
+
+131
+
+a. Install the oil pickup tube. Install a new
+
+O-ring onto the tube. Apply threadlocking 
+compound to the bolt threads before install-
+
+ing.
+
+b. Install the breather tube.
+
+c. Install a new seal washer onto the neutral
+
+switch, then install and torque the switch to
+
+15 Nem (11 ft.-Ib.).
+
+SEAL REPLACEMENT
+
+Output Shaft
+
+1. Pry out the old seal (A, Figure 51). If necessary, 
+place a block of wood on the case to improve lever- 
+age and protect the case from damage.
+
+CAUTION 
+When prying, do not allow the end of 
+the tool to touch the seal bore or snag 
+the oil hole in the bore. Scratches in 
+the bore 
+will cause 
+leakage and 
+heavy-handed prying can break the 
+casting.
+
+2. If a new bearing will be installed, replace the 
+bearing before installing the new seal.
+
+3. Clean the oil seal bore.
+
+4. Apply grease to the lip and sides of the new seal.
+
+5. To help prevent the new seal from being driven
+
+too deep, pass a wire tie, or similar object, through
+
+the oil hole and leave it there until the new seal is in-
+
+stalled (Figure 54).
+
+6. Place the seal in the bore, with the closed side of
+
+the seal facing out. The seal must be square to the
+
+bore.
+
+7. Drive or press the seal into place. Use a driver 
+that fits at the perimeter of the seal.
+
+8. Move the object placed in the oil hole and verify
+
+that the hole is uncovered. Remove the object from
+
+the hole.
+
+Shift Shaft
+
+1. Pry out the old seal (B, Figure 51). If necessary, 
+place a block of wood on the case to improve lever-
+
+age and protect the case from damage.
+
+CAUTION 
+When prying, do not allow the end of
+
+the tool 
+to touch 
+the seal bore.

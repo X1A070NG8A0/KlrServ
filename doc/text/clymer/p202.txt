@@ -1,0 +1,92 @@
+190
+
+Refer to the wiring diagrams in this chapter and at
+
+the back of the manual to identify wires, plugs and 
+components.
+
+CONTINUITY TESTING GUIDELINES
+
+Circuits, switches, light bulbs and fuses on the 
+motorcycle can be checked for continuity (a com- 
+pleted circuit), using an ohmmeter connected to the 
+appropriate color-coded wires in the circuit. Tests
+
+can be made at the connector plug or at the part it-
+
+self. Use the following procedure as a guide in per- 
+forming general continuity tests.
+
+CAUTION 
+When performing general continuity 
+checks do not turn on the ignition 
+switch. Damage to parts and test 
+equipment could occur. Also, verify 
+that power from the battery is not 
+routed directly into the test circuit, re- 
+gardless of ignition switch position.
+
+1. Refer to the wiring diagram at the back of the 
+manual and find the part to be checked.
+
+2. Identify the wire colors leading to the part and 
+determine which pairs of wires should be checked. 
+For any check, the circuit should begin at the plug, 
+pass through the part, then return to the plug.
+
+3. Determine when continuity should exist.
+
+a. Typically, whenever a switch or button is
+
+turned on, it closes the circuit, and the meter 
+should indicate continuity.
+
+b. When the switch or button is turned off, it
+
+opens the circuit, and the meter should not in- 
+dicate continuity.
+
+c. Refer to the switch continuity diagrams
+
+within the wiring diagrams.
+
+4. On the motorcycle, trace the wires from the part
+
+to the nearest connector plug.
+
+5. Separate the connector plug.
+
+6. Connect an ohmmeter to the plug half that leads
+
+to the part being checked.
+
+7. If the test is being made at the terminals on the
+
+part, remove all other wires connected to the termi-
+
+nals so they do not influence the meter reading.
+
+8. Operate the switch/button and check for conti- 
+nuity.
+
+
+
+-----
+
+CHAPTER NINE
+
+IGNITION AND CHARGING SYSTEM
+
+OPERATION
+
+A permanent magnet alternator is located on the
+
+left end of the crankshaft, and is the source of en- 
+ergy for powering the ignition system and charging
+
+the battery. A capacitor discharge ignition (CDI) 
+system is used on this engine. When the engine is 
+running, the current produced by the exciter coil in 
+the alternator goes to the CDI unit and is stored ina 
+capacitor. When the rotor is in the correct position 
+for ignition, the ignition pickup coil signals the CDI

@@ -1,0 +1,92 @@
+REAR SUSPENSION
+
+Rebound Damping Adjustment
+
+Rebound damping controls the rate of extension 
+of the shock absorber after it has been compressed. 
+This setting has no affect on the compression rate of
+
+the shock. If rebound damping is set too high, the
+
+Table 1 REAR SUSPENSION SPECIFICATIONS
+
+Suspension 
+Suspension travel 
+Shock absorber
+
+Pivot spacer outside diameter
+
+(swing arm and linkage 
+assembly) 
+Small spacers
+
+Service limit 
+Large spacer
+
+Service limit
+
+Table 
+2 SHOCK ABSORBER SETTINGS
+
+Rider only
+
+Spring preload 
+Rebound damper
+
+Shock absorber mounting bolts
+
+Lower 
+Upper 
+Swing arm pivot bolt 
+Lever—to—frame bolt 
+Lever arm bolts
+
+
+
+-----
+
+283
+
+rear suspension will not extend quickly enough to 
+prevent bottoming on subsequent bumps. Rebound 
+damping that is set too low can cause the rear wheel
+
+to kick up and the handling to be unstable.
+
+1. Refer to Table 2 for the recommended settings. 
+Higher settings increase damping force.
+
+2. Atthe bottom right side of the shock, remove the 
+snap-on cover from the adjuster (Figure 58).
+
+3. Clean any dirt from the adjuster cavity.
+
+4. Turn the rebound damper adjuster to the desired 
+numerical setting. Only turn the adjuster to the
+
+right, as indicated by the arrow on the adjuster. Each
+
+setting should have a perceptible click.
+
+5. Install the cover so the arrow on the cover points 
+upward.
+
+Uni-Trak, link-type 
+230 mm (9.1 in.) 
+Nitrogen-charged, adjustable for preload and
+
+rebound damping
+
+19.979-20.0 mm (0.7866-0.7874) 
+19.95 mm (0.7854 in.) 
+27.979-28.0 mm (1.1015-1.1024) 
+27.95 mm (1.1004 in.)
+
+Rider, passenger 
+Rider and passenger 
+and load
+
+3,4o0r5 
+Wor Wl 
+2or3 
+or Il

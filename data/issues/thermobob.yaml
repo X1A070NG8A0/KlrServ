@@ -1,0 +1,24 @@
+id: thermobob
+title: "Cooling temperature swings (Thermo-Bob bypass)"
+ops: [coolant-replace]
+summary:
+  - t: "Stock thermostat: opens at 69.5-72.5° C (157-162° F), with at least 3 mm of lift at 85° C (185° F)."
+    cite: {s: clymer, p: 241}
+  - t: "The Thermo-Bob is an aftermarket bypass that keeps coolant circulating through the engine while the thermostat is closed, to hold a steadier, warmer minimum temperature, especially in cold weather."
+    cite: {s: forum, id: thermobob, post: 8}
+sections:
+  - title: "What owners say it does"
+    steps:
+      - {t: "\"To maintain a more consistent and more appropriate engine temperature than is possible with the stock setup, particularly in cold weather.\"", cite: {s: forum, id: thermobob, post: 2}}
+      - {t: "\"The Thermo-Bob WILL NOT make the bike run cooler under any conditions. It WILL make the coolant in the engine warmer, especially at start up.\"", cite: {s: forum, id: thermobob, post: 5}}
+      - {t: "\"The old stock thermostat is removed during the installation, and the new thermostat is housed in the Thermo-bob.\"", cite: {s: forum, id: thermobob, post: 8}}
+      - {t: "Stock and Thermo-Bob thermostat temperatures.", cite: {s: clymer, p: 241},
+         conflict: {
+           note: "A forum post puts the stock thermostat at 165° F; Clymer's specification is 157-162° F opening. Clymer's figure is shown in the summary.",
+           others: [
+             {t: "\"The stock thermostat is set for 165 degrees F and the thermo-bob stat is set at around 195 degrees F intentionally to maintain a higher minimum temperature.\"", cite: {s: forum, id: thermobob, post: 6}}
+           ]}}
+  - title: "Before fitting one"
+    steps:
+      - {kind: note, t: "This is an aftermarket modification, not a manual procedure. Installation follows the kit's own instructions; the coolant drain and refill is the manual procedure linked here.", cite: {s: clymer, p: 71}, op: coolant-replace,
+         gap: "No Thermo-Bob installation steps are transcribed. The saved video thread (doc/community/thermobob-video.md) has no written steps."}

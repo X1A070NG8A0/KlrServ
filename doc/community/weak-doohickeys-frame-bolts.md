@@ -1,0 +1,650 @@
+---
+title: Weak doohickeys, shavings, oil consumption, weak frame bolts
+url: https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-second-generation-klr-forum/77165-weak-doohickeys-shavings-oil-consumption-weak-frame-bolts
+fetched: '2026-11-16'
+pages: 3
+posts: 43
+---
+
+# Weak doohickeys, shavings, oil consumption, weak frame bolts
+
+## Post 1 — Norton 850, 2010-03-21
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-second-generation-klr-forum/77165-weak-doohickeys-shavings-oil-consumption-weak-frame-bolts#post77165>
+
+Wow, I was pretty excited about buying a new KLR in July and riding it from Connecticut down the Blue Ridge Parkway and on to Houston, Texas - some 2,000 miles total.
+
+That is until I read about some of the KLR's shortcomings. For instance, I discovered that the balancer chain tensioner is weak and may fail in less than 2,000 miles; the engine goes through oil quicker than I drink beer on a summer day; the sub frame bolts back out and sometimes shear off completely; and the cooling system needs some sort of modification in order to prevent 70^ F temperature swings. And I found those problems without even looking hard. And then to top it all off, I saw where someone had posted a picture of metal shavings in the oil filter of a bike that had less than 750 or so miles on it.
+
+Holy cow!!!
+
+I think what disturbs me most is the copious quantities of metal in the filter on the first oil change. This is a sure signal that something is bad wrong inside the engine - in my book anyway. Or, possibly sloppy assembly, whereby the machining swarf was left in the block and on parts.
+
+So what else should I be afraid of? Also, how do you fix a flat on the side of the road? I assume the spoked wheel requires tubes, so tire plugs are out of the question?
+
+Disillusioned,
+
+Jason
+
+## Post 2 — klr4evr, 2010-03-21
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-second-generation-klr-forum/77165-weak-doohickeys-shavings-oil-consumption-weak-frame-bolts?p=1311135#post1311135>
+
+Re: Weak doohickeys, shavings, oil consumption, weak frame b
+
+
+Don't believe everything you read on the net. You'll end up putting a gun to your head.
+
+Most of the things you talk about are modifications. Modifications are optional and usually make something better. In the case of the Doohickey that one is an optional must do. As to the cooling system adding a Thermo Bob will make a good bike better.
+
+Sub frame bolts. I've never had a problem and it really depends on where and how you ride the bike. Going over the bike and checking for loose fittings is good maintenance.
+
+Metal shavings. Again never had an issue with that. One picture shouldn't scare you. There are usually underlying factors, which you are not aware of, that result in this. Most times it's due to poor maintenance or neglect.
+
+Oil consumption has been an issue with the new models. If that is what you have keep an eye on it.
+
+Do some searching here on this site. You'll get answers to all the problems / questions. Tire changing is covered extensively.
+
+Enjoy the ride.
+
+## Post 3 — A9-NM, 2010-03-21
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-second-generation-klr-forum/77165-weak-doohickeys-shavings-oil-consumption-weak-frame-bolts?p=1311136#post1311136>
+
+Defeatist
+
+> Norton 850 wrote: Originally posted by Norton 850
+>
+> Wow, I was pretty excited about buying a new KLR in July and riding it from Connecticut down the Blue Ridge Parkway and on to Houston, Texas - some 2,000 miles total.
+>
+> That is until I read about some of the KLR's shortcomings. For instance, I discovered that the balancer chain tensioner is weak and may fail in less than 2,000 miles; the engine goes through oil quicker than I drink beer on a summer day; the sub frame bolts back out and sometimes shear off completely; and the cooling system needs some sort of modification in order to prevent 70^ F temperature swings. And I found those problems without even looking hard. And then to top it all off, I saw where someone had posted a picture of metal shavings in the oil filter of a bike that had less than 750 or so miles on it.
+>
+> Some do some don't, You found that info because of this community and others, most complex machines you buy have problems you just don't know about them. Research the KTM or BMW dualsport they have their issues too. Think of it this way now you know.
+>
+> Holy cow!!!
+>
+> I think what disturbs me most is the copious quantities of metal in the filter on the first oil change. This is a sure signal that something is bad wrong inside the engine - in my book anyway. Or, possibly sloppy assembly, whereby the machining swarf was left in the block and on parts.
+>
+> Any engine or gearbox looks like this when it is new, do you cut apart the oil filters of your new car? Doubt it so you don't see it. Thats why the first oil change is scheduled at like 500 miles on almost all vehicles. There are lots of sources for this metal most are normal.
+>
+> So what else should I be afraid of? Also, how do you fix a flat on the side of the road? I assume the spoked wheel requires tubes, so tire plugs are out of the question?
+>
+> You have to learn how to change tubes/tires and have the tools required with you. It is easy and done every day.
+>
+> Disillusioned,
+>
+> Jason
+
+~
+
+## Post 4 — Norton 850, 2010-03-21
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-second-generation-klr-forum/77165-weak-doohickeys-shavings-oil-consumption-weak-frame-bolts?p=1311141#post1311141>
+
+Re: Weak doohickeys, shavings, oil consumption, weak frame b
+
+You have to learn how to change tubes/tires and have the tools required with you. It is easy and done every day.
+
+Thanks for the replies there A9 and KLR.
+
+So how do you change the tube without a center stand?
+
+## Post 5 — A9-NM, 2010-03-21
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-second-generation-klr-forum/77165-weak-doohickeys-shavings-oil-consumption-weak-frame-bolts?p=1311145#post1311145>
+
+Re: Weak doohickeys, shavings, oil consumption, weak frame b
+
+
+Some folks lay the bike on it's side.
+
+
+You can high center on rocks or stumps.
+
+
+Quick jacks.
+
+
+Put rocks or ? under it and dig under the back wheel ( I have never had a flat front tire on any bike I have had- dunno know why).
+
+
+I have rode many miles from home by myself and it has never failed to bring me home with a little creativity, work and knowledge. I have had flats, buried the rear tire to the axle. Broken shifter lever, clutch cable and handles etc. It's just part of dirt riding.
+
+## Post 6 — spikespiegel, 2010-03-21
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-second-generation-klr-forum/77165-weak-doohickeys-shavings-oil-consumption-weak-frame-bolts?p=1311169#post1311169>
+
+Re: Weak doohickeys, shavings, oil consumption, weak frame b
+
+
+good on you for doing research b4 buying but what you will read problem wise are the handful of people having issues living with one of Kawasaki's most sold bikes... so if you know math, you will understand thats a minuscule fraction of people having issues bitching about it on the net.. Does the bike have issues? I'm sure it does, i havent found any.. What i HAVE done is read up and addressed any problems myself before they can become issues...
+
+As for tire changes, if you do any dirting, you WILL be changing your tires on your own, so get used to it.. Heres how I change my tires...
+
+Images: <https://lh6.ggpht.com/_rcGAMcWLPhE/S6Rej2g6ExI/AAAAAAAAQxY/39v6r0TGTwU/s1152/IMG_7101.jpg>, <https://lh3.ggpht.com/_rcGAMcWLPhE/S6ReGhts7BI/AAAAAAAAQw4/dEuiCYCECLU/s1152/IMG_7103.jpg>
+
+## Post 7 — mjake, 2010-03-21
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-second-generation-klr-forum/77165-weak-doohickeys-shavings-oil-consumption-weak-frame-bolts?p=1311178#post1311178>
+
+Re: Weak doohickeys, shavings, oil consumption, weak frame b
+
+
+I have almost 10k on my 08 and have had no issues. I changed the Doo and the lower subframe bolts, no biggy. It only uses a tad of oil if you run it all day over 5k rpm... If you want power, get a different bike. If you want a reliable, affordable, tractor that gets you there and back, the KLR is the ticket....well....affordable til you contract farklitis...then it gets spendy....but very fun to trick out...
+
+## Post 8 — bsheet2, 2010-03-21
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-second-generation-klr-forum/77165-weak-doohickeys-shavings-oil-consumption-weak-frame-bolts?p=1311267#post1311267>
+
+Re: Weak doohickeys, shavings, oil consumption, weak frame b
+
+
+Saw your post in the "Introductions Section". I see you want to fly to Connecticut, buy a new KLR and ride back to Houston.
+
+The Doohicky is improved on 2008 and later models. It will be fine for your 3000 mile trip.
+
+Shavings in the filter is normal for break in period for a KLR.
+
+It is possible to get one that uses some oil when you run at 70 mph for long periods of time. My 2008 uses a quart in 1500 miles. Not that big a deal. Not sure if that have corrected this for 2010 models. Just keep an eye on oil level.
+
+If you are going to load it real heavy with luggage, it is recommended to put higher strength bolts in the subframe. This takes 15 min if you have the bolts. If you will be staying in hotels and not carrying camping gear, you probably will not be heavy enough to worry about it.
+
+For long hiway miles most folks get an aftermarket seat for better comfort.
+
+You may be better off buying a used one that already has some good aftermarket stuff on it and the Doohicky taken care of. Save some $$ and may be set up better for your trip.
+
+## Post 9 — KLR STEVE, 2010-03-22
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-second-generation-klr-forum/77165-weak-doohickeys-shavings-oil-consumption-weak-frame-bolts?p=1311352#post1311352>
+
+Re: Weak doohickeys, shavings, oil consumption, weak frame b
+
+
+Ive got the '08-10,600 miles;1st oil change;VERY LITTLE metal in the filter,none in all the rest Ive done...DOOHICKEY??:Just as quiet now as when I first bought her....Subframe bolts???Still there.Oil drinker??NEIN-A teaspoon or so between oil changes.ALTHOUGH I WILL SAY there have been folks on here that have gotten defectiveKLR'S-ONE MORE THOUGHT:2 dealers I talked with-Where I bought her,and the one that does services-have told me out of all the KLRs they have sold,NOT ONE came in for a doohickey issue-in warranty,or out.They dont have any reason to lie to me,either.......
+
+## Post 10 — Norton 850, 2010-03-22
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-second-generation-klr-forum/77165-weak-doohickeys-shavings-oil-consumption-weak-frame-bolts?p=1311373#post1311373>
+
+Re: Weak doohickeys, shavings, oil consumption, weak frame b
+
+
+Thanks for the comments there bsheet and STEVE. I'm beginning to feel more comfortable about the counter balancer doohickey holding together for 2,000 miles or so. And I can keep a BIG eye on the frame bolts and oil and tighten/add as necessary.
+
+But the shavings are still scary to me. I've rebuilt many engines from Kawasaki to Triumph and have never seen shavings in the first oil change. I presume the shavings are coming from the gear box, as it's integral to the engine. I also assume the shavings are aluminum, which the gears could digest much more easily than steel. And if the shavings stay out of the oil pump, there should really be no harm done? At least that's what I keep telling myself.
+
+Laying the bike on its side to fix a flat looks doable; what about an aftermarket center stand as an alternative?
+
+## Post 11 — Norm Lunt, 2010-03-22
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-second-generation-klr-forum/77165-weak-doohickeys-shavings-oil-consumption-weak-frame-bolts?p=1311378#post1311378>
+
+Re: Weak doohickeys, shavings, oil consumption, weak frame b
+
+
+This is one of the inherent problems of forums ~ if you read forums on just about ANY product before buying you probably won't buy it. A very small # of people can make things sound out of proportion to reality. Yes, every product has a small % of problems. Every product. Even Toyotas. The other forums I read have a similar stream of frightening stories ...... but for some strange reason I don't seem to have hardly any of these problems.
+
+You don't need the Thermo-Bob (PM me for my take on this mod), or the Doo, or the frame bolts (unless you're riding it like a motocrosser or have a girlfriend that needs to loose a hundred pounds and she's riding with you over double jumps). And metal shavings are normal in every internal combustion engine during break-in.
+
+Just ride it. Enjoy it.
+
+## Post 12 — XDragRacer, 2010-03-22
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-second-generation-klr-forum/77165-weak-doohickeys-shavings-oil-consumption-weak-frame-bolts?p=1311389#post1311389>
+
+Re: Weak doohickeys, shavings, oil consumption, weak frame b
+
+
+Hey, Norton 850; even the SPACE SHUTTLE experiences mechanical failures, sometimes.
+
+
+I shall NOT attempt "selling" you on a KLR; absolutely no reason in the world you should clone MY perception of reliability or MY willingness to accept risk.
+
+
+If you're uncomfortable with the prospect of riding a KLR any distance (no need to invoke the hordes of round-the-world KLR jockeys known extant), DON'T DO IT!
+
+
+Get yourself transport you believe in.
+
+
+You, and you alone, must be satisfied.
+
+
+That said, FLATS HAPPEN! If you're unable or unwilling to learn how to repair tubed tires, other motorcycles have tubeless tires for your dining and dancing pleasure.
+
+
+Best wishes for a safe and enjoyable trip; a KLR is in no way MANDATORY for your motorcycling experience.
+
+## Post 13 — Dirt_Bag, 2010-03-22
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-second-generation-klr-forum/77165-weak-doohickeys-shavings-oil-consumption-weak-frame-bolts?p=1311398#post1311398>
+
+Re: Weak doohickeys, shavings, oil consumption, weak frame b
+
+
+Shavings seem to be first or second oil change. If your smart you bring bike home before riding and change to Rotella and filter. You will see shavings. that with all new motors. There is no way to get them all out at the factory. A couple quick oil/filter changes and they are gone.
+
+The Doo is one of those needed updates, The 08-10 bikes you could get away with just the spring. Torsion spring is best. But if your in there why not do it all.
+
+I think the Thermal Bob is also a needed update to the poor designed cooling system.
+
+The bolts have been upgraded on the 2nd gen bikes. But if you ride it hard, Why not do it.
+
+For the most part oil use amd rpm's go hand in hand. You run high rpm's you will burn oil. There are some ring probs but its a small number. If you want to run it like a true street bike you will burn oil. Buy a street bike.
+
+The 685 is a viable cheap upgrade. that small increase makes it a wheelie machine. Rode with one a couple weeks ago. That is in my future! All I can say is WOW!
+
+In all, The minor upgrades and cost of bike is alot less than alot of other bikes off the floor.
+
+## Post 14 — Norm Lunt, 2010-03-22
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-second-generation-klr-forum/77165-weak-doohickeys-shavings-oil-consumption-weak-frame-bolts?p=1311412#post1311412>
+
+Re: Weak doohickeys, shavings, oil consumption, weak frame b
+
+
+Sometimes I laugh out loud at the claims of some posters.
+
+For example, on the Corvette forums guys will go to an aftermarket air intake system and someone will post a "seat of the pants" claim that makes you think they've just added 100 HP. Dyno tests consistently show about 1% to 2% increase over stock and there's no one who can tell that kind of difference in performance by the seat-of-the-pants.
+
+The 2008 and later KLRs are slightly improved in a few areas and they're fine the way they come from the factory.
+
+Enjoy.
+
+## Post 15 — mjake, 2010-03-22
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-second-generation-klr-forum/77165-weak-doohickeys-shavings-oil-consumption-weak-frame-bolts?p=1311413#post1311413>
+
+Re: Weak doohickeys, shavings, oil consumption, weak frame b
+
+
+Um...yes, if you're that afraid of the mighty KLR, get a different bike that has no mechanical issues....a BMW.
+
+I have a buddy who just dumped his 650GS for a DR650....all bikes have "issues". The amplification of the few the KLR has on this forum is legendary...The few it has are fixed with a bit of mechanical knowledge, a few bucks and a few beers...
+
+## Post 16 — kawioops, 2010-03-22
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-second-generation-klr-forum/77165-weak-doohickeys-shavings-oil-consumption-weak-frame-bolts?p=1311422#post1311422>
+
+Re: Weak doohickeys, shavings, oil consumption, weak frame b
+
+
+'06' with 26000 miles, never had a problem that left me by the side of the road, per se. Did the Doo (unbroken) and have essentially ridden a near stock bike on some very tough and rough trails, still going stong. Only uses a little oil above 5200 rpm, and then the most I have ever added was 8 oz. between oil changes Have seen a couple of stockers with high mileage and no problems, so I believe the reliability is there. You must consider that with the great diversity of this forum, perceptions are just as diverse.
+
+## Post 17 — Norton 850, 2010-03-22
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-second-generation-klr-forum/77165-weak-doohickeys-shavings-oil-consumption-weak-frame-bolts?p=1311472#post1311472>
+
+Re: Weak doohickeys, shavings, oil consumption, weak frame b
+
+
+Well, it sounds as if the doohickey on an '09 or '10 should hold together long enough for me to ride home (2,000 miles). Once home I'll replace it with the torsion-spring-type.
+
+The last flat I had was on a tubeless tire and repair was a snap; I used a plug and two C02 cartridges for inflation. I've replaced tubes/tires many times over the past 40 years or so, but mostly from the comfort of my garage. The picture changes when you have to change tubes on the side of a freeway or busy street. And it gets even more interesting without a center stand. So, perhaps a center stand would be valuable accessory.
+
+Are there any recommended center stands?
+
+## Post 18 — XDragRacer, 2010-03-22
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-second-generation-klr-forum/77165-weak-doohickeys-shavings-oil-consumption-weak-frame-bolts?p=1311490#post1311490>
+
+Re: Weak doohickeys, shavings, oil consumption, weak frame b
+
+> Norton 850 wrote: Originally posted by Norton 850
+>
+> Are there any recommended center stands?
+
+HT adjustable uniquely in height and width; NOT a "ride-off" stand.
+
+
+Got one; works as advertised; wouldn't install it myself for maintenance purposes only; I like the parking flexibility and . . . nostalgia! My previous bikes had center-stands only . . .
+
+
+I think a side "helper" lever's and advantage in center stand design, but . . . some who have 'em without the lever claim, "not so."
+
+
+-------------
+
+
+No need for paranoia regarding flats; tie the casing on with some plastic zip-ties and ride 'er flat to where you can do a proper repair. The natives won't circle around you and jeer if you have a flat and are awkward in repairing it.
+
+## Post 19 — Zentropa, 2010-03-22
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-second-generation-klr-forum/77165-weak-doohickeys-shavings-oil-consumption-weak-frame-bolts?p=1311523#post1311523>
+
+Re: Weak doohickeys, shavings, oil consumption, weak frame b
+
+> Are there any recommended center stands?
+
+My own recommendation would be to not buy one at all.
+
+They mount to the footpeg bolts and can strip out the threads, I sold mine and use a stick, log or big rock instead. Also they can catch on things if you ride off road.
+
+As to the doohickey, you should replace it for peace of mind. I've replaced at least 10 doohickeys and have yet to find one broken (one cracked) but have discovered 4 broken springs. That being said, I've ridden to Northern Alaska (about 14000 miles) without replacing the doohickey and it was still in tact when it was finally taken apart back home. The spring was broken though.
+
+You don't have to modify the cooling system either, I never did and I've logged at least 100K miles on different klr's. I'd consider the thermo-bob mod but it's not vital by any means.
+
+Lot's of opinions out there. I think they are fine just the way they are but consider replacing that doohickey spring like I said, for peace of mind. Keep an eye on the oil too.
+
+## Post 20 — Norton 850, 2010-03-22
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-second-generation-klr-forum/77165-weak-doohickeys-shavings-oil-consumption-weak-frame-bolts?p=1311555#post1311555>
+
+Re: Weak doohickeys, shavings, oil consumption, weak frame b
+
+
+Ok, no center stand. If I have a flat, I'll simply heave the bike over on its port side and remove the rear wheel, like "spikespiegel". Notably, motorcycles are similar to bicycles in that the front tire never gets a flat, it's always the back and your forced to deal with a messy chain.
+
+## Post 21 — mjake, 2010-03-22
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-second-generation-klr-forum/77165-weak-doohickeys-shavings-oil-consumption-weak-frame-bolts?p=1311578#post1311578>
+
+Re: Weak doohickeys, shavings, oil consumption, weak frame b
+
+> Norton 850 wrote: Originally posted by Norton 850
+>
+> Ok, no center stand. If I have a flat, I'll simply heave the bike over on its port side and remove the rear wheel, like "spikespiegel". Notably, motorcycles are similar to bicycles in that the front tire never gets a flat, it's always the back and your forced to deal with a messy chain.
+
+Fronts go flat, trust me....and make sure you have a great seal on your gas tank lid or an empty tank and a sealed battery if you toss it over on the side of the road for more than a few minutes. Personally, I like my centerstand...I use it everyday. The bike takes up less room against the wall in the garage also....and yes I do about 50% of my riding on gravel and dirt roads...no issues with it or it's bolts after 10k. JMO...it's like an oil thread. There is no perfect answer. Do what works for you.
+
+## Post 22 — Norton 850, 2010-03-22
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-second-generation-klr-forum/77165-weak-doohickeys-shavings-oil-consumption-weak-frame-bolts?p=1311593#post1311593>
+
+Re: Weak doohickeys, shavings, oil consumption, weak frame b
+
+
+mjake - so, what's the name of the manufacturer of your centerstand?
+
+## Post 23 — XDragRacer, 2010-03-22
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-second-generation-klr-forum/77165-weak-doohickeys-shavings-oil-consumption-weak-frame-bolts?p=1311597#post1311597>
+
+Re: Weak doohickeys, shavings, oil consumption, weak frame b
+
+
+Well, Norton 850; your confidence appears easily established by forum members! You're willing now to chance a new KLR650 for a 2000-mile road ride, without center stand.
+
+
+How about break-in? 500-mile initial service? Oil-and-filter changes? On-board spares and tools? Luggage?
+
+
+Mind your oil level!
+
+
+Here's wishing you a safe and enjoyable trip.
+
+## Post 24 — Rajah, 2010-03-22
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-second-generation-klr-forum/77165-weak-doohickeys-shavings-oil-consumption-weak-frame-bolts?p=1311606#post1311606>
+
+Re: Weak doohickeys, shavings, oil consumption, weak frame b
+
+
+"Any engine or gearbox looks like this when it is new, do you cut apart the oil filters of your new car? Doubt it so you don't see it. Thats why the first oil change is scheduled at like 500 miles on almost all vehicles. There are lots of sources for this metal most are normal."
+
+I can't remember the last time I saw a car with less than a 3000 mile oil change interval recommended in severe condition driving including the first change?
+
+At least the KLR issues aren't generally issues that leave you walking.
+
+## Post 25 — mjake, 2010-03-22
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-second-generation-klr-forum/77165-weak-doohickeys-shavings-oil-consumption-weak-frame-bolts?p=1311621#post1311621>
+
+Re: Weak doohickeys, shavings, oil consumption, weak frame b
+
+> Norton 850 wrote: Originally posted by Norton 850
+>
+> mjake - so, what's the name of the manufacturer of your centerstand?
+
+Not exactly sure after so many farkles. I think it's a Happy Trail or Whitehorse? It DOES have a lever on it to step on to get the pig up. DO NOT buy one that doesn't. I have the shield that goes on it too so the entire underside of the bike is protected. I think it was about $150 complete 2 years ago. Like I say, it's a personal thing. I'm just lazy I guess, especially if I need to get things done on the side of the road.
+
+## Post 26 — bsheet2, 2010-03-22
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-second-generation-klr-forum/77165-weak-doohickeys-shavings-oil-consumption-weak-frame-bolts?p=1311738#post1311738>
+
+Re: Weak doohickeys, shavings, oil consumption, weak frame b
+
+
+He is thinking of doing a fly and drive. I was assuming he will not be in a position to add a bunch of aftermarket stuff once he flys to his destination. Please correct this assumption if it is not correct. If you will be staying at a relative or friend's house where you fly in, then our recommendations may change a bit. This lets you order stuff and have it delivered in advance. Plus you have a place to work on the bike. If you get a new one, you can do some break in and oil changes before you hit the long hiway.
+
+- Do a search in this forum on "quick jack". It is simply a bar you can use to hold the rear or the front up while you lube the chain or change a tire. This is cheap and avoids a center stand. You lean the bike over on the side stand and prop up the other side with the bar. Eager Mike sells one for about $30. Or you can make one from an aluminum crutch. You probably won't get the front up if you do not have an after market aluminum skid plate. I don't think there will be a place to set the quick jack.
+
+- If you want a center stand, I found the foot assist bar helps. Africa Single makes one for the KLR. But the easy way to get her up on a center stand is to lean the bike over on the side stand while deploying the center stand. It ends up laying on the side of one leg of the center stand. Then just tip the bike up onto the center stand. Very easy. The bike is too heavy for me to get it on the center stand the traditional way. The center stand is positioned very near the center of gravity of the bike. So you have to lift a good bit of the bike weight to get her up.
+
+If you get a center stand, be real careful tightening those foot peg bolts. They strip out real easy. Don't ask how I know this! Use blue Locktight! Just snug them up.
+
+- If you will stay on the hiway the odds of getting a flat are low. So just be prepared to fork out $$ to get a tow if you get a flat. Or, buy tire spoons and carry spare tubes. So you can change out. It is best to practice this before you get on the hiway. It is easy to pinch a new tube. You do not want that out in the middle of no where.
+
+- I have the ThermoBob. It does make the cooling system have a more consistent and uniform temperature, in my opinion. This is probably more of a longevity thing. I believe you are fine without it for this trip. You can read up on it and decide for yourself later.
+
+Most people find they need an after market seat to be comfortable. As a minimum, get an ATV seat pad from the Walmart web site. Cheap. And many say it helps the stock seat.
+
+Robot or human?
+
+http://www.walmart.com/ip/Stearns-Black-ATV-Seat-Cover/10727537
+
+Images: <https://www.klr650.net/forums/core/images/default/google-material/image_placeholder.svg>
+
+## Post 27 — Norton 850, 2010-03-23
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-second-generation-klr-forum/77165-weak-doohickeys-shavings-oil-consumption-weak-frame-bolts?p=1311897#post1311897>
+
+Re: Weak doohickeys, shavings, oil consumption, weak frame b
+
+
+bsheets is spot on - I plan on flying into Hartford, Conn., taking a cab to a Kawasaki dealership in Winsted, buying the KLR, riding it to Riverton, which is less than 20 miles away from the dealership, spending the night there and heading out the following AM. Unfortunately, I will not have a work-place or tools to make any modifications to the bike.
+
+Thanks for the tips on seat comfort, center stand and LockTight.
+
+Does the KLR tool kit contain several allen and combination wrenches?
+
+Best,
+
+Jason
+
+## Post 28 — XDragRacer, 2010-03-23
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-second-generation-klr-forum/77165-weak-doohickeys-shavings-oil-consumption-weak-frame-bolts?p=1311903#post1311903>
+
+Re: Weak doohickeys, shavings, oil consumption, weak frame b
+
+> How about break-in? 500-mile initial service? Oil-and-filter changes? On-board spares and tools? Luggage?
+
+I'd recommend you keep an eye on the oil level.
+
+
+Yes, you can overshoot your initial service; and . . . early oil changes; and . . . ignore break-in regimen. Yet any one of these could have significant down-the-road consequences, inclucing WARRANTY considerations . . .
+
+
+You seem somewhat seriously concerned about flats; might stash a front tube, a few tube patches, and a couple of tire irons or three, and a valve core tool, and an air source (and some liquid soap) in your kit.
+
+
+The OEM tool kit has open-end wrenches and Allen keys, IIRC; maybe a hex axle nut wrench . . . might check out whether you have anything to remove the fasteners for your side panels; old models needed a Phillips-head screwdriver; new ones (I think) require a 10 mm socket (NOT found in OEM tool kit, AFIK) . . . DISCLAIMER: No speeka '08 and later models).
+
+
+Just pruriently curious; what's so compelling about buying a new bike in Connecticut and immediately riding it to Texas?
+
+
+With a time-sensitive schedule, you might profit from having the dealership pre-break-in and initially service your bike prior to your arrival . . . just a thought, or you can creep along at break-in speeds (or bust 'em) 'til the stickers say you can let 'er out.
+
+## Post 29 — GoMotor, 2010-03-23
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-second-generation-klr-forum/77165-weak-doohickeys-shavings-oil-consumption-weak-frame-bolts?p=1312096#post1312096>
+
+Re: Weak doohickeys, shavings, oil consumption, weak frame b
+
+
+The new '08 and up balancer chain tensioner lever (doohicky) is not weak. The spring will likely use up its tension after several thousand miles, but you can ride for many thousands of miles without ever adjusting the chain. If the chain gets noisy, you can put in a shorter spring. Mine started getting noisy at around 10,00 to 15,000 miles. I just adjusted it by hand until I replace the spring at around 20,000 miles
+
+If you get an oil user, it can be fixed.
+
+I have 50,000 on my '08 with no cooling system modifications.
+
+About 20,000 of those miles were on dirt/potholes/wash boards/rocks with a big load on the rear. The new stock sub-frame bolts held up just fine. I did have to put some loctite on them and re-tighten them once.
+
+At the first and second oil change on any motor I always open up the oil filter. On the KLR I found a few metal specs not "shavings" that looked like they came from the rings and cylinder wearing in. No specs at the second oil change.
+
+I helped two different guys at two different times fix flats on tubeless BMWs up in Montana. In both cases they could not seat the beads on the rims with 12 Volt pumps or CO2 cartridges. The first was close to a town and we took the tire to a gas station for air. The second was an eighty mile round trip to town, but the guy had a tube "just in case" so we knocked out the valve stem and put in the tube.
+
+I carry a piece of 1-1/2" PVC pipe with a Tee on one end. The Tee is cut in half along it's long side making a cup. It works under the swing arm or the front motor mount bolts for tire changing/chain oiling and up on the handle bars as a lever to help pick the bike up in sand or mud.
+
+You know that they sell motorcycles in Houston don't you? Are you getting a brother-in-law deal up north? You will need to take a couple of oil filters in case you don't find a convenient Kawasaki shop that will drop everything and do an immediate oil change. While passing through Vermont a Chevy shop told me to come back in a week for an oil change. Also, 4000 RPM break-in for the first 600 miles is about 57 mph. Not a big problem on back roads, but some times hard on your mind when everybody is passing you. For long distance highway ridding a Cee Bailey tall windshield (not the Kawasaki 4" over) is very handy for comfort.
+
+## Post 30 — mjake, 2010-03-23
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-second-generation-klr-forum/77165-weak-doohickeys-shavings-oil-consumption-weak-frame-bolts?p=1312155#post1312155>
+
+Re: Weak doohickeys, shavings, oil consumption, weak frame b
+
+
+Get an AMA membership...
+
+## Post 31 — Norton 850, 2010-03-23
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-second-generation-klr-forum/77165-weak-doohickeys-shavings-oil-consumption-weak-frame-bolts?p=1312169#post1312169>
+
+Re: Weak doohickeys, shavings, oil consumption, weak frame b
+
+
+Hey GoMotor,
+
+Thanks for the feedback. Your T-stand sounds like it might do the trick in place of a center stand; what is the length from the bottom of the "cup" to the other end?
+
+No, I don't have a brother-in-law deal in Connecticut. My great gradmother owned the old Riverton Inn in Riverton, Conn. and I plan to spend the night there and visit a few relatives in the surrounding area. The Inn was built in the 1700s to serve weary stage coach travelers along the Farmington River; it's still in use today. I'm flying up and riding back to save time, otherwise I'd ride both ways. Thanks for the break-in RPM to MPH conversion; I'll try my best to mentally prepare myself for the snails-pace.
+
+Best,
+
+Jason
+
+## Post 32 — XDragRacer, 2010-03-23
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-second-generation-klr-forum/77165-weak-doohickeys-shavings-oil-consumption-weak-frame-bolts?p=1312184#post1312184>
+
+Re: Weak doohickeys, shavings, oil consumption, weak frame b
+
+
+Understand you'll maintain break-in discipline on the highway, Norton 850.
+
+
+500-mile initial service on the road? Previously, Kawasaki decreed valve clearance inspection and adjustment at this mileage; however--understand the procedure is slipped several thousand miles for the newer models (though I'd consider it a good idea, regardless).
+
+
+You might plan one or more oil-and-filter changes (those pesky metal shavings, you know), a spare front tube/patches and tire-changing tools, just in case. Luggage?
+
+
+Congratulations and best wishes on your great adventure.
+
+## Post 33 — bsheet2, 2010-03-23
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-second-generation-klr-forum/77165-weak-doohickeys-shavings-oil-consumption-weak-frame-bolts?p=1312206#post1312206>
+
+Re: Weak doohickeys, shavings, oil consumption, weak frame b
+
+
+2008 owners manual says 15k for first valve check.
+
+I agree it is a good idea to check them much sooner though. But I would think you will be fine for 2 or 3k. I am not an expert KLR guru though.
+
+My 2008 was a little hard to start when it was cold weather. At 3k the valves were in spec. But I adjusted them to the loose end. No starting issues after that.
+
+## Post 34 — Norton 850, 2010-03-24
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-second-generation-klr-forum/77165-weak-doohickeys-shavings-oil-consumption-weak-frame-bolts?p=1312309#post1312309>
+
+Re: Weak doohickeys, shavings, oil consumption, weak frame b
+
+
+Thanks for the well wishes XDragRacer.
+
+Yea, those pesky metal shavings; I should be able to dump the first batch somewhere in Pennsylvania or North Carolina. They must be coming from the gear box.
+
+Best,
+
+Jason
+
+## Post 35 — K-rad, 2010-03-24
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-second-generation-klr-forum/77165-weak-doohickeys-shavings-oil-consumption-weak-frame-bolts?p=1312340#post1312340>
+
+Re: Weak doohickeys, shavings, oil consumption, weak frame b
+
+
+My only concern for your return trip would be the break-in and oil and filter changes. I'm not trying to talk you out of your little adventure by any means, but driving a brand new bike off the floor and headding down a highway at long sustained speeds for half a week is something I personally wouldn't do or recommend to anyone. Besides the most recommended way to break in a KLR you are probably also looking at at least three oil and a couple of filter changes in the first 2000 miles that you need to find the means and ways to do on the road.
+
+just saying
+
+## Post 36 — XDragRacer, 2010-03-24
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-second-generation-klr-forum/77165-weak-doohickeys-shavings-oil-consumption-weak-frame-bolts?p=1312351#post1312351>
+
+Re: Weak doohickeys, shavings, oil consumption, weak frame b
+
+
+Timely 'Initial" (500 mile) service might be helpful sustaining future warranty claims, IMHO; or . . . maybe not.
+
+
+I had my dealer perform initial service (including valves, as required, back in "them days'), to bench-mark and record the event for future reference, should any warranty claim arise.
+
+
+I did not buy an extended warranty package, in hopes 20 years of continuous production might have ironed out systemic bugs; so far, so good!
+
+## Post 37 — fixer, 2010-03-24
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-second-generation-klr-forum/77165-weak-doohickeys-shavings-oil-consumption-weak-frame-bolts?p=1312354#post1312354>
+
+Re: Weak doohickeys, shavings, oil consumption, weak frame b
+
+> mjake wrote: Originally posted by mjake
+>
+> The few it has are fixed with a bit of mechanical knowledge, a few bucks and a few beers...
+
+
+tell the waitress i'd like a few more problems to fix, please!
+
+## Post 38 — Norton 850, 2010-03-24
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-second-generation-klr-forum/77165-weak-doohickeys-shavings-oil-consumption-weak-frame-bolts?p=1312407#post1312407>
+
+Re: Weak doohickeys, shavings, oil consumption, weak frame b
+
+
+K-rad,
+
+I'll plan for a 500-mile service/oil change on the road. And my plans are to take scenic back roads, not super-fast highways/freeways, so I should be able to adhere to the specified break-in RPMs.
+
+I see you're from Connecticut. If you're in the northwest corner of the state in
+
+early July, stop by the Riverton Inn for a drink; I'll buy the first one.
+
+## Post 39 — K-rad, 2010-03-24
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-second-generation-klr-forum/77165-weak-doohickeys-shavings-oil-consumption-weak-frame-bolts?p=1312415#post1312415>
+
+Re: Weak doohickeys, shavings, oil consumption, weak frame b
+
+> Norton 850 wrote: Originally posted by Norton 850
+>
+> K-rad,
+>
+> I'll plan for a 500-mile service/oil change on the road. And my plans are to take scenic back roads, not super-fast highways/freeways, so I should be able to adhere to the specified break-in RPMs.
+>
+> I see you're from Connecticut. If you're in the northwest corner of the state in
+>
+> early July, stop by the Riverton Inn for a drink; I'll buy the first one.
+
+I'd love to take you up on the offer, but I'm pleased to say that I should be tourturing myself across some Rocky Mountain passes about that time lol. Not sure what I'm gonna get into with the TAT but I got two months to live it and figure it out.
+
+cheers
+
+## Post 40 — GoMotor, 2010-03-25
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-second-generation-klr-forum/77165-weak-doohickeys-shavings-oil-consumption-weak-frame-bolts?p=1312912#post1312912>
+
+Re: Weak doohickeys, shavings, oil consumption, weak frame b
+
+> Norton 850 wrote: Originally posted by Norton 850
+>
+> Hey GoMotor,
+>
+> Thanks for the feedback. Your T-stand sounds like it might do the trick in place of a center stand; what is the length from the bottom of the "cup" to the other end?
+>
+> .......................................
+>
+> Jason
+
+In the next few days I am going to be making a few improvements to make the stand work better for the front tire. When done I'll post some pictures and dimensions here. It turns out I used 1" PVC not 1-1/2".
+
+On your way back to Houston, you could ride some of the Trans-America Trail in Tennessee, Arkansas and/or Oklahoma. Are you familiar with the TAT?
+
+## Post 41 — Norton 850, 2010-03-25
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-second-generation-klr-forum/77165-weak-doohickeys-shavings-oil-consumption-weak-frame-bolts?p=1312974#post1312974>
+
+Re: Weak doohickeys, shavings, oil consumption, weak frame b
+
+
+Look forward to info on the PVC stand. No, I'm not familiar with TAT; please expound.
+
+Jason
+
+## Post 42 — bsheet2, 2010-03-25
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-second-generation-klr-forum/77165-weak-doohickeys-shavings-oil-consumption-weak-frame-bolts?p=1312994#post1312994>
+
+Re: Weak doohickeys, shavings, oil consumption, weak frame b
+
+
+Trans America Trail info
+
+Page not found
+
+http://www.transamtrail.com/about/
+
+Images: <https://transamtrail.com/wp-content/uploads/2018/03/TransAm-FullCircle-Smaller-1.png>
+
+## Post 43 — notrailerqueens, 2010-03-28
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-second-generation-klr-forum/77165-weak-doohickeys-shavings-oil-consumption-weak-frame-bolts?p=1314122#post1314122>
+
+Re: Weak doohickeys, shavings, oil consumption, weak frame b
+
+
+Although I am new to the KLR world I did quite a bit of research, talking and tweeking with my bike before and since buying it. Although not ideal, the metal shavings once caught by the filter should remain there and not be a problem. You also are concerned with oil use, if you were to spend another 15k and buy a BMW you very well could be stuck with the same problem. I know a few people with BMW's that have had oil use problems, from new to 30,000 miles. Most flats are from off roading, you shouldn't have a problem with a flat but if you are concerned, a nice piece of mind is towing insurance. Keep in mind your current auto insurance will probably not pay to have a bike towed. There are many companies offering insurance, I think KOA is the best deal. Last, subframe bolts. The older models used sub standard 8mm bolts and people had problems with them breaking. The fix was to drill and through bolt with a 10mm. I bought the bolt and planned on doing this to my 09, when I removed the bolt I discovered they have been upgraded to 10mm, 12.9 grade bolts from the factory. No need to drill and replace but I would locktite them (and every other bolt on the bike) with blue locktite when you can. Last I would verify with the dealer that the bike you are buying is not under the recall notice and if it is, the repairs have been made. Unfortunately the stealership I am near has a worse than crappy service department. I won't mention names, Pro Caliber, but they sold me the bike and one week later I received a notice from Kawasaki that the bike was recalled so back into the shop it went. The notice is for exhaust bolts and elec harness.

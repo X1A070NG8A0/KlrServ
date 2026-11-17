@@ -1,0 +1,103 @@
+88 
+CHAPTER FOUR
+
+a. Check that the camshaft sprocket arrows
+
+point forward and are parallel with the top 
+edge of the cylinder head. If the camshafts are
+
+not properly aligned, disassemble the head 
+and realign the camshaft(s).
+
+b. Check valve clearances (Chapter Three). If
+
+necessary, remove the camshafts and install
+
+the proper size valve lifter shim(s).
+
+10. Install the timing plug and the rotor nut plug.
+
+11. Install the cylinder head cover as described in
+
+this chapter.
+
+Cam Chain Tensioner Inspection
+
+The tensioner 
+assembly 
+is a_ spring-loaded, 
+ratcheting-type tensioner. As the cam chain wears 
+and develops slack, the spring-loaded plunger ex-
+
+tends and locks itself against the back of the lower 
+chain guide. The guide then pivots forward and 
+retightens the chain.
+
+Since the tensioner is self-adjusting, there is no
+
+routine maintenance required. However, anytime
+
+the tensioner is loosened or removed the tensioner 
+must be reset. Do not partially remove, 
+then 
+retighten the bolts. The plunger will have extended 
+and locked itself. Retightening the bolts will cause
+
+the cam chain and tensioner to be too tight, possibly 
+causing engine damage if the engine is operated.
+
+1. Remove the center bolt and disassemble the 
+tensioner (Figure 27).
+
+a. Inspect the parts for obvious damage.
+
+b. Install a new gasket during installation.
+
+2. Reset the plunger as follows:
+
+a. Press and hold the ratchet release (A, Figure
+
+28).
+
+b. Press and seat the plunger (B, Figure 28) into
+
+the tensioner housing.
+
+
+
+-----
+
+c. Do not install the spring, washer and bolt until
+
+the tensioner housing has been mounted and
+
+the camshafts and chain have been installed 
+and timed.
+
+Camshaft and Compression Release Inspection
+
+The compression release is located at the right 
+end of the exhaust camshaft. The release slightly 
+opens the right exhaust valve during engine crank-
+
+ing. The reduction in compression makes starting
+
+easier. When the engine starts, the release is centrif- 
+ugally disengaged.
+
+In the following procedure, replace parts that are 
+obviously damaged or not within the specification
+
+as listed in Table 2.
+
+1. Clean the camshafts in solvent and dry thor- 
+oughly.
+
+2. Inspect the camshafts for obvious scoring or 
+damage.
+
+3. For each camshaft, do the following:
+
+a. Measure the cam lobe heights (Figure 29)
+
+with a micrometer.

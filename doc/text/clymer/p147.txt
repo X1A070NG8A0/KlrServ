@@ -1,0 +1,95 @@
+ENGINE LOWER END 
+135
+
+left crankshaft 
+bearing 
+and cam 
+specifications. 
+chain/balancer sprocket assembly are 
+available as replacement parts. On 
+d. Measure the connecting side clearance (Fig-
+
+later models, the parts are only avail- 
+ure 61). Refer to Table 1 for specifications. 
+able as part of the left crankshaft half.
+
+4. Inspect the connecting rod.
+
+a. Inspect the rod small end (A, Figure 60) for 
+the crankshaft. Measure at the two points shown in
+
+scoring, galling or heat damage. Refer to 
+Figure 62. The maximum difference in gauge read-
+
+Chapter Four for additional inspections of the 
+ings is the total runout. If the runout exceeds the
+
+rod bore, piston pin and piston. 
+specifications listed in Table 1, have a dealership 
+evaluate and possibly retrue the crankshaft.
+
+b. Inspect the rod big end and bearing for obvi-
+
+ous scoring, galling or heat damage. 
+NOTE 
+c. Inspect the rod for radial clearance (B, Figure 
+If it is known that the crankshaft was
+
+60). Mount the crankshaft in a set of V-blocks 
+dropped or damaged, or if the engine
+
+and accurately measure play. An acceptable 
+exhibited abnormal vibration, have 
+method is to grasp the rod and feel for radial 
+the crankshaft alignment checked be-
+
+play in all directions. There should be no per- 
+fore assembling the engine.
+
+Table 1 ENGINE LOWER END SPECIFICATIONS
+
+Balancer chain length
+
+(20 links/21pins) 
+190.0-190.5 
+(7.48-7.50) 
+Camshaft Chain length
+
+(20 links/21pins) 
+127.0-127.4 
+(5.0-5.02) 
+Connecting rod
+
+Side clearance 
+0.25-0.35 
+(0.010-0.014)
+
+Radial clearance 
+0.008-0.020 
+(0.0003-0.0008) 
+Crankpin-to-flywheel tolerance
+
+(cold) 
+0.093-0.122 
+(0.0037-0.0048)
+
+(continued)
+
+
+
+-----
+
+ceptible 
+play. 
+Refer 
+to 
+Table 
+1 
+for
+
+5. Place the crankshaft in a flywheel alignment jig 
+and measure crankshaft runout with a dial indicator. 
+The jig centers should be inserted into the ends of
+
+Service limit 
+mm (in.)

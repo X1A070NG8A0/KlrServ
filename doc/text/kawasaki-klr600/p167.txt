@@ -1,0 +1,72 @@
+15-4
+
+is : ; No valve clearance
+Troubleshooting Guide Cylinder, piston worn
+seeeeeee PTTTITIIILLI LL Piston rings bad (worn, weak, broken, or sticking)
+
+Piston ring/land clearance excessive
+Cylinder head gasket damaged
+
+“NOTE Cylinder head warped
+This is not an exhaustive list, giving every possible Valve spring broken or weak
+cause for each problem listed. It is meant simply as a Valve not seating properly (valve bent, worn, or
+rough guide to assist the troubleshooting for some of carbon accumulation on the seating surface)
+the more common difficulties. Electrical trouble- Compression release cam (K.A.C.R.) sticks open
+shooting is not covered here due to its complexity. For (Engine stalls when moving off).
+
+electrical problems, refer to the appropriate heading in
+the Chapter 14.
+
+Poor Running at Low Speed
+
+Spark weak
+Engine Doesn't Start; Starting Difficulty Battery voltage low
+
+Engine won't turn over Spark plug dirty, broken, or maladjusted
+Valve seizure Spark plug cap or high tension wiring trouble
+Valve lifter seizure Spark plug cap not in good contact
+Cylinder, piston seizure Spark plug incorrect
+Crankshaft seizure CDI unit broken
+Connecting rod small end seizure Pick-up coil broken
+Connecting rod big end seizure Ignition coil broken
+Transmission gear or bearing seizure Ignition coil resistor open
+Camshaft seizure Fuel/air mixture incorrect
+Compression release cam spring broken (K.A.C.R.) Pilot screw(s) maladjusted
+Compression release cam sticks close (K.A.C.R.) Pilot jet, or air passage clogged
+
+No fuel flow Air bleed pipe bleed holes clogged
+No fuel in tank Air cleaner clogged, poorly sealed, or missing
+Fuel tap turned off Air cleaner/carburetor poorly sealed
+Tank cap air vent obstructed Starter plunger stuck open
+Fuel tap clogged Fuel level too high or too low
+Fuel line clogged Fuel tank air vent obstructed
+Float valve clogged Carburetor holder loose
+
+Engine flooded Carburetor and carburetor holder not aligned
+Float level too high correctly
+Float valve worn or stuck open Compression low
+Starting technique faulty Spark plug loose
+(When flooded, crank the engine with the throttle Cylinder head not sufficiently tightened down
+
+fully opened to allow more air to reach the No valve clearance
+engine.) Cylinder, piston worn
+
+No spark; spark weak Piston rings bad (worn, weak, broken or sticking)
+Ignition switch not on Piston ring/land clearance excessive
+Engine stop switch turned off Cylinder head gasket damaged
+Clutch lever not pulled in or gear not in neutral Cylinder head warped
+Battery voltage low Valve spring broken or weak
+Spark plug dirty, broken, or maladjusted Valve not seating properly (valve bent, worn, or
+Spark plug cap or high tension wiring trouble carbon accumulation on the seating surface)
+Spark plug cap not in good contact Compression release cam (K.A.C.R.) stick open
+CDI unit broken (Engine stalls when moving off)
+Pick-up coil broken other
+Ignition coil broken Ignition timing incorrect
+Ignition coil resistor open Carburetor vacuum piston does not slide smoothly
+Ignition or engine stop switch shorted Engine oil viscosity too high
+Wiring shorted or open Brakes dragging
+
+Compression low Over heating
+Spark plug loose Clutch slipping
+
+Cylinder head not sufficiently tightened down Throttle valve does not open fully

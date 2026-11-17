@@ -1,0 +1,20 @@
+{
+  "name": "klrmanual",
+  "private": true,
+  "description": "Personal, locally served service wiki for a 2006 (gen 1) Kawasaki KLR650, built from cited manual pages.",
+  "type": "module",
+  "scripts": {
+    "build": "node site/build.ts && tsc -p site/client/tsconfig.json",
+    "check": "tsc -p tsconfig.json && tsc -p site/client/tsconfig.json --noEmit",
+    "serve": "node site/serve.ts",
+    "start": "npm run build && npm run serve"
+  },
+  "dependencies": {
+    "htmx.org": "2.0.4",
+    "yaml": "2.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.2",
+    "typescript": "5.7.2"
+  }
+}

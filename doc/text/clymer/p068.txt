@@ -1,0 +1,100 @@
+cloth over the end of the muffler to force exhaust
+
+pressure out of the plug openings.
+
+5. When no more carbon particles are purged, stop
+
+the engine and install the plugs.
+
+Balancer Chain Tensioner Adjustment
+
+As the balancer chain and guide wear, 
+the 
+tensioner assembly takes excess slack out of the
+
+chain. 
+Since 
+the 
+tensioner 
+assembly 
+is 
+spring-loaded, it automatically tightens the chain 
+when the tensioner bolt is loosened. When the bolt
+
+is tightened, it locks the tensioner into place until
+
+the bolt is again loosened, usually at the next sched-
+
+uled maintenance.
+
+1. If desired, remove the skid plate for easier access
+
+to the tensioner bolt. The bolt is located below the 
+alternator cover (left side of engine), near the frame 
+(Figure 39).
+
+2. Remove the rubber plug.
+
+3. Loosen the tensioner bolt by turning it no more 
+than two turns counterclockwise.
+
+4. Retighten the tensioner bolt.
+
+5. Install the rubber plug.
+
+6. Install the skid plate, if removed.
+
+CAUTION 
+When starting the engine after per- 
+forming the tensioner adjustment, lis-
+
+ten for any abnormal engine noise 
+coming from the balancer chain as- 
+sembly, Do not race the engine. If 
+noise is heard, immediately shut off 
+the engine and inspect the condition 
+of the tensioner assembly. It is possi- 
+ble for shaft lever or the tensioner 
+spring to break, prior to the adjust- 
+ment. The tensioner bolt will hold the
+
+
+
+-----
+
+CHAPTER THREE
+
+tensioner assembly in place, although 
+the part is broken. At the scheduled 
+maintenance interval, when the tensi- 
+oner bolt is loosened, the untensioned 
+assembly is free to create chain slack 
+or fall apart. This slack could cause 
+the chain to derail, causing engine 
+damage.
+
+Carburetor Float Chamber Drain
+
+The carburetor float chamber is equipped with a
+
+drain so moisture and sediment can be flushed from
+
+the chamber. Moisture and sediment can clog car- 
+buretor jets and cause poor engine performance. If
+
+the motorcycle is put into storage, or not started for
+
+an extended period, drain the float chamber.
+
+WARNING 
+Do not drain the float chamber while
+
+the engine is hot or running.
+
+1. Support the bike so it is vertical and level.
+
+2. Connect a length of 
+25 mm (1/4 in.) ID hose onto
+
+the drain (A, Figure 40). Route the end of the hose 
+into a suitable container.

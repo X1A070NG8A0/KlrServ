@@ -1,0 +1,74 @@
+14-16
+
+Arcing Distance Measurement CDI Unit Resistance
+Unit : kQ
+0 5 1015
+= Range Meter Positive (+) Lead Connection
+x 1kQ
+() w | R |BK|R/G | BL/R| BK/W|R/BK
+30} 15] 60 15 10
+W t 1 1 t co !
+S 120} 80] 250 | 80 50
+3 7 7|70| 7 60
+o R ' l 1 1 co '
+S 200 50| 400} 50 400
+= 2/2 10 15
+3S! BK \ l ' 0 °o f
+3 8 | 8 40 70
+(b) Measuring Coil Resistance: a 9 2 10 15
+If an Electrotester is not available, the coil can be %1BL/R 1 1 0 1 co i
+checked, for a broken or badly shorted winding with an 3 8 8 40 70
+ohmmeter. However, an ohmmeter cannot detect layer S|BK/W] © | o | | oo oo
+shorts and shorts resulting from insulation breakdown 2
+under high voltage. = R/BK 6 7 3 30 3 re
+@Remove the spark plug cap from the spark plug lead. 25 | 30} 12/130) 12
+@Zero the ohmmeter, and connect it to the ignition coil.
+*If either primary or secondary winding does not have CDI unit
+
+the correct resistance, replace the ignition coil.
+
+Measuring Ignition Coil Resistance a
+
+Ground
+
+Exciter or Pickup Coil Inspection
+
+eTurn off the ignition switch, and pull out the pickup
+coil connector and the magneto connector.
+
+Zero the ohmmeter, and connect it to the leads from
+the exciter coil or pickup coil to check the resistance.
+
+xIf the reading is not the specified value, replace the
+stator and/or pickup coils.
+
+e@Using the highest resistance range of the ohmmeter,
+check the resistance between the exciter coil leads
+
+Terminal
+
+[ and chassis ground, and between the pickup coil leads
+Plug Lead and chassis ground.
+Ignition Coil Resi *Any meter reading less than infinity indicates a short,
+i ae necessitating replacement of the stator and/or pickup
+Meter Connection Reading coil.
+x10 terminal —ground rl dae oe Pickup Coil
+(primary)
+3.2 — 4.8 kQ
+x1kQ _ .
+plug lead — ground (secondary)
+
+CDI Unit Inspection
+
+Turn off the ignition switch, and remove the CDI unit
+under the fuel tank. Resistance of Exciter and Pickup Coil
+
+Set the ohmmeter to the x 1 kQ range, and connect it
+
+to the leads from the CDI unit to check the internal Meter . x10 2 :
+pedistance-crthe' Cll unt. Connections : female connectors (disconnected)
+*If the readings do not correspond to the table, replace W— BK : 61 —114 & (Exciter Coil)
+? BK/Y — BK : 100 — 150 Q (Pickup Coil)
+
+the CDI unit.
+

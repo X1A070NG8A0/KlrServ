@@ -1,0 +1,130 @@
+ELECTRICAL SYSTEM
+
+5. Lubricate the clutch rollers and washer with en- 
+gine oil.
+
+6. Install the washer and clutch sprocket into the
+
+rotor. Turn the sprocket counterclockwise and twist
+
+it squarely into the rotor. When the sprocket is fully
+
+seated, check that it turns only in the counterclock- 
+wise direction.
+
+7. Clean and inspect the rotor components.
+
+a. Inspect the rotor for cracks and damage.
+
+WARNING 
+Replace the rotor if it is damaged. The
+
+rotor can fly apart at high crankshaft
+
+speeds, causing severe 
+injury and 
+damage to the engine.
+
+b. Inspect the taper in the bore of the rotor and
+
+on the crankshaft for damage.
+
+c. Inspect the Woodruff key, slot and spacers for
+
+damage (Figure 17).
+
+NOTE 
+If the Woodruff 
+key is bent or sheared,
+
+the rotor will not properly align on the
+
+crankshaft, which causes the engine
+
+to be out of time.
+
+
+
+-----
+
+197
+
+8. Install the parts as described in this section.
+
+STARTER
+
+Removal and Installation
+
+Refer to Figure 22.
+
+1. Remove the exhaust pipe (Chapter Four).
+
+2. Disconnect the ground (negative) cable from the 
+battery and from the starter (A, Figure 23).
+
+3. Disconnect the positive cable from the starter (B, 
+Figure 23).
+
+4. Remove the remaining mounting bolt, then twist
+
+the starter out of the left crankcase cover. The starter
+
+is sealed to the cover by an O-ring, which causes re-
+
+sistance during removal.
+
+5. Disassemble, inspect and test the starter as de- 
+scribed in this section.
+
+6. Reverse this procedure to install the starter. Note
+
+the following:
+
+a. Lubricate the O-ring on the front end cover
+
+a 
+(A, Figure 24) before inserting it into the a 
+crankcase cover. 
+oe 
+Waa 
+b. Check that the fiber washers (B, Figure 24)
+
+on the cable post are in good condition. The 
+washers must insulate the cable from the 
+housing.
+
+c. Clean all cable connections, then apply di-
+
+electric grease to fittings and connectors be- 
+fore tightening.
+
+d. Tighten the starter mounting bolts to 10 Nem
+
+(88 in.-Ib.).
+
+Disassembly and Assembly
+
+Refer to Figure 22.
+
+1. Remove the two housing screws, rear end cover
+
+and O-ring.
+
+NOTE 
+If disassembling the starter to only
+
+check brush condition, remove only
+
+the rear end cover. The brushes can be
+
+inspected and the cover reinstalled if
+
+further disassembly ts not required.
+
+2. Remove the front end cover and O-ring.
+
+3. Remove the armature, brush plate assembly and 
+insulator from the housing (Figure 25). Make note 
+of any shims and their location on the armature
+
+shaft.

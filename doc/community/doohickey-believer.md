@@ -1,0 +1,392 @@
+---
+title: I'm a doohickey adjustment believer!
+url: https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-first-generation-forums/48618-i-m-a-doohickey-adjustment-believer
+fetched: '2026-11-16'
+pages: 2
+posts: 29
+---
+
+# I'm a doohickey adjustment believer!
+
+## Post 1 — John37, 2008-07-25
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-first-generation-forums/48618-i-m-a-doohickey-adjustment-believer#post48618>
+
+For the last week or so I've been notice some strang noises and vibrations going on in the bike. They were pretty scary and one point I even started riding a different bike until I figure out what was going on. So after reading several noise and vibration threads here I just told myself it was normal and decided to ride it. This morning, I adjusted the doo and was amazed at the difference it made. The 'piston slap-ish' noise was gone, the rough vibration at my feet was gone, the drive chain was lubed and the fluids were topped off all by that simple adjustment. But seriously, if you haven't adjusted.... do it!
+
+I am a believer!
+
+## Post 2 — ripcuda, 2008-07-25
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-first-generation-forums/48618-i-m-a-doohickey-adjustment-believer?p=849022#post849022>
+
+Re: I'm a doohickey adjustment believer!
+
+
+What's the recommended adjustment interval on this?
+
+
+Adjusted mine like 7k miles ago... just wondering...
+
+## Post 3 — michaeln, 2008-07-25
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-first-generation-forums/48618-i-m-a-doohickey-adjustment-believer?p=849025#post849025>
+
+Re: I'm a doohickey adjustment believer!
+
+
+Dunno what's recommended, but I do it at each oil change, which is for me about 1,500 miles.
+
+## Post 4 — Dr.T, 2008-07-25
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-first-generation-forums/48618-i-m-a-doohickey-adjustment-believer?p=849096#post849096>
+
+Re: I'm a doohickey adjustment believer!
+
+
+I adjusted mine a couple of time but did not notice much difference but since I later found a broken spring, there wasn't any difference. A new Doo with torsion spring and I have a smooth engine!
+
+## Post 5 — holtwoodklr, 2008-07-30
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-first-generation-forums/48618-i-m-a-doohickey-adjustment-believer?p=855600#post855600>
+
+Re: I'm a doohickey adjustment believer!
+
+
+ALCON, Sometimes adjusting the Doo lets the broken pieces fly. The adjustment being snug holds it in place. So.... adjust on but listen for the possibility of the broken doo pieces. ...for those who hadn't upgraded.
+
+## Post 6 — nooner818, 2008-07-30
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-first-generation-forums/48618-i-m-a-doohickey-adjustment-believer?p=855608#post855608>
+
+Re: I'm a doohickey adjustment believer!
+
+> holtwoodklr wrote: Originally posted by holtwoodklr
+>
+> ALCON, Sometimes adjusting the Doo lets the broken pieces fly. The adjustment being snug holds it in place. So.... adjust on but listen for the possibility of the broken doo pieces. ...for those who hadn't upgraded.
+
+Good advice!
+
+
+Another bit of good advice would be to upgrade your doohickey with one from Eager Mike and adjust it regularly. Then you won't have to worry about it.
+
+
+Good Luck!
+
+## Post 7 — Sidecarflip, 2008-07-30
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-first-generation-forums/48618-i-m-a-doohickey-adjustment-believer?p=855610#post855610>
+
+Re: I'm a doohickey adjustment believer!
+
+
+The unwritten rule of thumb is every oil change. Just back off the adjuster bolt 1/2 turn and whack the side of the alternator cover with a wood mallet and then re-torque the bolt to 69 in Lbs.....Don't forget to replace the rubber plug.
+
+## Post 8 — KCL777, 2008-07-30
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-first-generation-forums/48618-i-m-a-doohickey-adjustment-believer?p=855618#post855618>
+
+Re: I'm a doohickey adjustment believer!
+
+> Sidecarflip wrote: Originally posted by Sidecarflip
+>
+> The unwritten rule of thumb is every oil change. Just back off the adjuster bolt 1/2 turn and whack the side of the alternator cover with a wood mallet and then re-torque the bolt to 69 in Lbs.....Don't forget to replace the rubber plug.
+
+Thats the first time I have heard about whacking it with a mallet. I checked mine last oil change and havent noticed any difference.
+
+## Post 9 — Pop03, 2008-07-30
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-first-generation-forums/48618-i-m-a-doohickey-adjustment-believer?p=855622#post855622>
+
+Re: I'm a doohickey adjustment believer!
+
+
++1 on adjusting every oil change.
+
+Just remember torque is in inch-pounds which is only 5.75 foot-pounds. Don't overtorque the bolt or you will be back in the motor fixing it rather than riding.
+
+## Post 10 — Andy H., 2008-07-30
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-first-generation-forums/48618-i-m-a-doohickey-adjustment-believer?p=855633#post855633>
+
+Re: I'm a doohickey adjustment believer!
+
+
+Generally, a balancer chain tensioner adjustment event is recommended at 3000 mile intervals.
+
+Loosen the bolt no more than two full turns and give a careful tap on the bolt head using a drift.
+
+KLRs are great!
+
+## Post 11 — Sidecarflip, 2008-07-31
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-first-generation-forums/48618-i-m-a-doohickey-adjustment-believer?p=855921#post855921>
+
+Re: I'm a doohickey adjustment believer!
+
+> KCL777 wrote: Originally posted by KCL777
+>
+> Thats the first time I have heard about whacking it with a mallet. I checked mine last oil change and havent noticed any difference.
+
+You whack the side of the alternator case with a wood mallet to 'jar' it a bit to make sure it adjusts...........
+
+> Andy H. wrote: Originally posted by Andy H.
+>
+> Generally, a balancer chain tensioner adjustment event is recommended at 3000 mile intervals.
+>
+> Loosen the bolt no more than two full turns and give a careful tap on the bolt head using a drift.
+>
+> KLRs are great!
+
+It might be recommended at 3K but is more convenient at every oil change. There is no need to back the bolt out anywhere near 2 turns. 1/2 turn is more than sufficient and the whack on the alternator case with a wood mallet does the same thing as a 'drift' on the bolt itself with much less chance of incurring any damage to the head from a misplaced blow. I'd not recommend the 'drift on the head method' as it would be too easy to damage the head of the bolt, the case itself or the sealing 'o' ring on the shank of the bolt.
+
+I would also highly recommend a replacement of the OEM Eccentric Shaft Adjustment Quadrant (Doohickey) with Eager Mike's improved model as well as Mike's Torsion spring. Even on the '08, the doo is deficient. While much improved over earlier designs, it is a sloppy fit on the eccentric shaft and, more importantly, the adjuster spring does not have enough adjustment from the factory. That basically allows very limited take-up on the Eccentric Shaft Adjuster Quadrant and then the OEM spring won't adjust anymore.
+
+Mike's doo fits tightly on the eccentric shaft and his torsion spring allows for a wide range of adjustment. Mike also supplies various lengths of helical springs with his kit for those who desire not to install the torsion spring, however, I personally recommend d the torsion spring for adjustment longevity.
+
+You'll find Eagle Manufacturing on the start page of this site.
+
+## Post 12 — Andy H., 2008-07-31
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-first-generation-forums/48618-i-m-a-doohickey-adjustment-believer?p=856063#post856063>
+
+Re: I'm a doohickey adjustment believer!
+
+
+Good information for sure.
+
+I use the drift method each time without issue. And I'm certain that whether you use a mallet on the case cover or a drift on the bolt head, it's important to be sensible and not use excess force.
+
+> Sidecarflip wrote: Originally posted by Sidecarflip
+>
+> I'd not recommend the 'drift on the head method' as it would be too easy to damage the head of the bolt, the case itself or the sealing 'o' ring on the shank of the bolt.
+>
+> I would also highly recommend a replacement of the OEM Eccentric Shaft Adjustment Quadrant (Doohickey) with Eager Mike's improved model as well as Mike's Torsion spring. Even on the '08, the doo is deficient. While much improved over earlier designs, it is a sloppy fit on the eccentric shaft and, more importantly, the adjuster spring does not have enough adjustment from the factory. That basically allows very limited take-up on the Eccentric Shaft Adjuster Quadrant and then the OEM spring won't adjust anymore.
+>
+> Mike's doo fits tightly on the eccentric shaft and his torsion spring allows for a wide range of adjustment. Mike also supplies various lengths of helical springs with his kit for those who desire not to install the torsion spring, however, I personally recommend d the torsion spring for adjustment longevity.
+>
+> You'll find Eagle Manufacturing on the start page of this site.
+
+## Post 13 — kidyslas, 2008-07-31
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-first-generation-forums/48618-i-m-a-doohickey-adjustment-believer?p=856180#post856180>
+
+Re: I'm a doohickey adjustment believer!
+
+
+I also adjusted the doo, at about 3K miles. I loosened it two turns and retorqued it, and didn't even hit it, either with a drift or a mallet. What a difference! The noise went away, and the engine sounds and runs the way it did after I broke it in. MPG has always been around 55-60. Still, I have the doohicky kit and tools, and plan to do the doo in September, when I'm riding again.
+
+## Post 14 — Scott_Rides_Again, 2008-07-31
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-first-generation-forums/48618-i-m-a-doohickey-adjustment-believer?p=856194#post856194>
+
+Re: I'm a doohickey adjustment believer!
+
+> Andy H. wrote: Originally posted by Andy H.
+>
+> Generally, a balancer chain tensioner adjustment event is recommended at 3000 mile intervals.
+>
+>
+> Loosen the bolt no more than two full turns and give a careful tap on the bolt head using a drift.
+>
+>
+> KLRs are great!
+
+NO! No more than ONE turn! 1/2 to 1 turn max.
+
+
+Mike recommends this, as well as whacking the case, not the bolt.
+
+
+My Clymer manual says adjust the Doo at 500 miles then every 3000 miles.
+
+## Post 15 — bigperm, 2008-07-31
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-first-generation-forums/48618-i-m-a-doohickey-adjustment-believer?p=856203#post856203>
+
+Re: I'm a doohickey adjustment believer!
+
+
+so where does one find a torque wrench in in/lbs?
+
+## Post 16 — kidyslas, 2008-07-31
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-first-generation-forums/48618-i-m-a-doohickey-adjustment-believer?p=856319#post856319>
+
+Re: I'm a doohickey adjustment believer!
+
+
+Thanks for that bit of info, Scott. No harm done, so I got away with it that time.
+
+
+Hey, BigPerm, try Sears for the wrench.
+
+## Post 17 — tig, 2008-07-31
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-first-generation-forums/48618-i-m-a-doohickey-adjustment-believer?p=856365#post856365>
+
+Re: I'm a doohickey adjustment believer!
+
+> bigperm wrote: Originally posted by bigperm
+>
+> so where does one find a torque wrench in in/lbs?
+
+Are you kidding? If you are serious, try http://www.sears.com/shc/s/s_10153_1...0070515x00001a
+
+Good luck.
+
+## Post 18 — Pop03, 2008-07-31
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-first-generation-forums/48618-i-m-a-doohickey-adjustment-believer?p=856390#post856390>
+
+Re: I'm a doohickey adjustment believer!
+
+> bigperm wrote: Originally posted by bigperm
+>
+> so where does one find a torque wrench in in/lbs?
+
+I got the pittsburgh brand from harbor freight ( I think it is made in china). I ordered all of mine from them because of low price.
+
+For those about to say that you get what you pay for. I got a torque wrench that when checked on a test bench (at work in cal lab) that meets the advertised specs for error. So it is good enough for me.
+
+Do a search on line for torque wrenches in inch pounds. I am sure it will give you multiple retailers. And prices from $20 to $200 or more.
+
+- Pop03 -
+
+## Post 19 — Andy H., 2008-07-31
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-first-generation-forums/48618-i-m-a-doohickey-adjustment-believer?p=856410#post856410>
+
+Re: I'm a doohickey adjustment believer!
+
+
+Caution is a good thing, for sure. I merely rely on the Clymer Manual for this sort of information. It recommends "loosen the tensioner bolt no more than two turns counterclockwise".
+
+When performing the operation (if I can call it that) on my KLR, I loosen it by around one turn.
+
+> Scott_Rides_Again wrote: Originally posted by Scott_Rides_Again
+>
+> NO! No more than ONE turn! 1/2 to 1 turn max. My Clymer manual says adjust the Doo at 500 miles then every 3000 miles.
+
+Images: <filedata/fetch?id=2231163&d=1788203208&type=thumb>
+
+## Post 20 — Erronous Monk, 2008-08-01
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-first-generation-forums/48618-i-m-a-doohickey-adjustment-believer?p=856542#post856542>
+
+Re: I'm a doohickey adjustment believer!
+
+> bigperm wrote: Originally posted by bigperm
+>
+> so where does one find a torque wrench in in/lbs?
+
+Sometimes the fine print on the handle does this for you in the form
+
+of a table. Otherwise divide by 12. 12in.lbs=1ft.lbs
+
+
+:-)
+
+## Post 21 — uglyprimate, 2008-08-01
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-first-generation-forums/48618-i-m-a-doohickey-adjustment-believer?p=856569#post856569>
+
+Re: I'm a doohickey adjustment believer!
+
+
+ok, stupid question time.
+
+8000 miles, never adjusted.
+
+Everyone talks about it, but how about a remedial tour. Search didn't show any "how to"
+
+"Which side of the bike is it on?" That kind of remedial.
+
+## Post 22 — ghotioutofh2o, 2008-08-01
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-first-generation-forums/48618-i-m-a-doohickey-adjustment-believer?p=856717#post856717>
+
+Re: I'm a doohickey adjustment believer!
+
+> uglyprimate wrote: Originally posted by uglyprimate
+>
+> ok, stupid question time.
+>
+> 8000 miles, never adjusted.
+>
+> Everyone talks about it, but how about a remedial tour. Search didn't show any "how to"
+>
+> "Which side of the bike is it on?" That kind of remedial.
+
+http://www.youtube.com/watch?v=941C79DgTco
+
+I thought I posted that one in its own how to thread. Hmm.
+
+Images: <https://www.klr650.net/forums/core/images/default/google-material/image_placeholder.svg>
+
+## Post 23 — Randy Bowers, 2008-08-01
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-first-generation-forums/48618-i-m-a-doohickey-adjustment-believer?p=856784#post856784>
+
+Re: I'm a doohickey adjustment believer!
+
+> Dr.T wrote: Originally posted by Dr.T
+>
+> I adjusted mine a couple of time but did not notice much difference but since I later found a broken spring, there wasn't any difference. A new Doo with torsion spring and I have a smooth engine!
+
++1 There, Mine was running fine (had never been touched) when I decided to do the Doo. The Doo was fine, but the spring was missing one end, which was found.
+
+## Post 24 — KLRgator, 2008-08-02
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-first-generation-forums/48618-i-m-a-doohickey-adjustment-believer?p=857328#post857328>
+
+Re: I'm a doohickey adjustment believer!
+
+
+Never done mine! My bike has 7K already (2005) and I have not felt any big difference along time. May be I got used to it.
+
+I'm afraid that loosing the balancer screw, the spring or the doo may get broken.
+
+Has anybody experienced this?
+
+I have the idea of replacing it in the next couple of months anyway....
+
+## Post 25 — nelgallan, 2008-08-02
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-first-generation-forums/48618-i-m-a-doohickey-adjustment-believer?p=857341#post857341>
+
+Re: I'm a doohickey adjustment believer!
+
+> ghotioutofh2o wrote: Originally posted by ghotioutofh2o
+>
+> http://www.youtube.com/watch?v=941C79DgTco
+>
+>
+> I thought I posted that one in its own how to thread. Hmm.
+
+great videos, as always.
+
+
+hey, does anyone have a spare cover thingy laying around they can let me have? didnt even know i was missing mine =D
+
+## Post 26 — jhampshire, 2009-08-21
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-first-generation-forums/48618-i-m-a-doohickey-adjustment-believer?p=1183779#post1183779>
+
+Re: I'm a doohickey adjustment believer!
+
+
+Last month I picked up a 2008 with 11,3xx miles. I have put 1000 miles on it and tomorrow I am taking a fast trip to Ohio and back (375 each way). I decided to adjust the doohickey but could not find a reference to it in the owner's manual and I don't have a service manual, so I followed all you all's advice.
+
+I heard a little thunk after about 3/4 of a turn, I am pretty sure it tensioned itself right there then I tapped the bolt head with a rubber mallet and a 3/8 socket extension just because I am anal retentive. Tightened to about 6 ft/lbs and started it up. WHAT A MAJOR DIFFERENCE. It sounds like a different bike. I took a little spin and the motor seems smoother off idle. I am a believer.
+
+Thanks for the help.
+
+## Post 27 — klrobert, 2009-08-22
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-first-generation-forums/48618-i-m-a-doohickey-adjustment-believer?p=1184063#post1184063>
+
+Re: I'm a doohickey adjustment believer!
+
+
+Just did the DOO on my 08. Big Difference, now much smoother. I used Eager Mikes setup with the torsion spring, gaskets came out clean and didnt need replacement. After 13xxxk I had never adjusted the thing, when I took it apart the spring had no tension right from the factory, why bother, they could of saved 2 cents by not even installing it ( I know I should of at least tried to adjust the thing before). I did notice the original doo was quite heavy duty looking, but since I was inside glad I put the new EM unit in so now I can forget about it, at least until adjustment time....
+
+Just DOO it.
+
+## Post 28 — sky44, 2009-08-23
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-first-generation-forums/48618-i-m-a-doohickey-adjustment-believer?p=1184385#post1184385>
+
+Re: I'm a doohickey adjustment believer!
+
+> bigperm wrote: Originally posted by bigperm
+>
+> so where does one find a torque wrench in in/lbs?
+
+you can just divide by 12 to get the reading in ft. lbs.
+
+or you can pay a lot for an inch-lb wrench.. though this is often wise, as ft lb wrenches are not precise animals..... ymmv
+
+anywho, i'm afraid to adjust my doo till i get an upgraded one in....
+
+it's pretty smooth right now... so i think everything is holding together. no sense tempting fate just yet.
+
+## Post 29 — trailride07, 2009-08-23
+<https://www.klr650.net/forums/forum/klr650-forums-klr650-net/klr650-first-generation-forums/48618-i-m-a-doohickey-adjustment-believer?p=1184551#post1184551>
+
+Re: I'm a doohickey adjustment believer!
+
+
+i'll probably have the bike shop work on mine sometime during late fall

@@ -1,0 +1,144 @@
+34 
+CHAPTER TWO
+
+2. Check that the engine stop switch is in the run 
+position.
+
+3. Turn the fuel valve lever from the off position 
+(Figure 3) to the on (vertical) position. An arrow on 
+the fuel valve points to the lever position.
+
+4, Turn on the ignition switch (A, Figure 5).
+
+5. Check that the neutral light (B, 
+Figure 5) comes
+
+on.
+
+6. Press the starter button (B, Figure 2) while keep-
+
+ing the throttle closed.
+
+Engine Is Flooded
+
+If the engine fails to start after several tries (par-
+
+ticularly if the choke has been used), it is probably 
+flooded. This occurs when too much fuel is drawn
+
+into the engine and the spark plug fails to ignite the
+
+air/fuel mixture. The smell of gasoline is often evi-
+
+dent when the engine is flooded. If there are no ob- 
+vious signs of fuel overflow from the carburetor, try
+
+starting the engine by fully opening the throttle (no 
+choke) and operating the starter. If the engine starts, 
+keep the engine running at a fast idle until it has 
+burned the excess fuel from the engine.
+
+If the engine does not start, perform the following 
+troubleshooting steps before making other checks:
+
+1. Check that the choke lever is fully to the right.
+
+2. Look for gasoline overflowing from the carbure-
+
+tor or overflow hose.
+
+a. If gasoline is evident, the float in the carbure-
+
+tor bowl is stuck or adjusted too high.
+
+b. Remove and repair the float assembly as de-
+
+scribed in Chapter Eight.
+
+3. Check the air filter for excessive buildup.
+
+4. Remove the spark plug and dry the electrodes.
+
+Reinstall the plug and try starting the engine as de- 
+scribed above.
+
+5. Perform an engine spark test.
+
+ENGINE SPARK TEST
+
+An engine spark test indicates whether the igni-
+
+tion system is providing power to the spark plug. It
+
+is a quick way to determine if a problem is in the
+
+electrical system or fuel system.
+
+CAUTION 
+When performing this test, the spark 
+plug lead must be grounded before
+
+cranking the engine. If it is not, it is
+
+
+
+-----
+
+possible to damage the CDI circuitry.
+
+A spark plug can be used for this test,
+
+but a spark tester (Figure 6) will 
+clearly show if spark is occurring, as 
+well as the strength of the spark. This 
+tester can be purchased at parts sup- 
+ply stores or suppliers of ignition test
+
+equipment.
+
+1. Remove the spark plug. Inspect the spark plug 
+by comparing its condition to the plugs shown in 
+Chapter Three.
+
+2. Connect the spark plug lead to the spark plug or
+
+to a spark tester.
+
+3. Ground the plug/tester to bare metal on the en-
+
+gine. Position the plug/tester so the firing end can be 
+viewed (Figure 7).
+
+4. Crank the engine and observe the spark. A fat, 
+blue spark should appear at the firing end. The spark 
+should fire consistently as the engine is cranked.
+
+5. Ifthe spark appears weak, or fires inconsistently, 
+check the following areas for the possible cause:
+
+a. Fouled/improperly gapped spark plug.
+
+. Damaged/shorted spark plug lead and cap.
+
+Loose connection in ignition system.
+
+. Damaged coil.
+
+Damaged ignition switch. 
+Dirty/shorted engine stop switch.
+
+. Damaged exciter coil or ignition pickup coil
+
+ico 
+oo
+
+(check ignition timing).
+
+h. Damaged CDI unit.
+
+ENGINE PERFORMANCE
+
+If the engine does not operate at peak perfor- 
+mance, the following lists of possible causes may 
+help isolate the problem. The easier checks for each 
+area are listed first. These checks represent what is

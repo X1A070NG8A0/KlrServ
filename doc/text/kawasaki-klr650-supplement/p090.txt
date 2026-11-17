@@ -1,0 +1,93 @@
+14-4 ELECTRICAL SYSTEM
+
+Service Data
+
+Item 
+Standard 
+Service Limit
+
+Battery:
+
+Electrolyte level 
+Between upper and lower levels 
+ ------- 
+Specific gravity 
+1.280 @20°C (68° F) 
+ -------
+
+Charging System:
+
+Regulator/rectifier output voltage 
+Battery - 15 V 
+ ------- 
+Magneto stator coil resistance 
+0.3 - 1.0 n 
+ -------
+
+Ignition System:
+
+Sparkplug: Type 
+NGK DPR8EA-9 or ND X24EPR-U9
+
+®(D©(Q> NGK DP8EA-9 or ND X24EP-U9
+
+Gap 
+0.8 — 0.9 mm 
+ ------- 
+Ignition coil:
+
+Arcing distance 
+7 mm or more (3-needle method) 
+ ------- 
+Primary winding resistance 
+0.15-0.21 n 
+ ------- 
+Secondary winding resistance 
+3.8 — 5.8 kii 
+ ------- 
+Exciter coil resistance 
+100- 200 n 
+ ------- 
+Pickup coil resistance 
+100- 150 12 
+ ------
+
+Electric Starter System:
+
+Starter motor: Carbon brush length 
+12.0- 12.5 mm 
+6 mm
+
+Commutator diamater 
+28 mm 
+27 mm
+
+Meter Unit:
+
+Water temperature sender resistance 
+47 — 57 Si @80°C(176°F) 26 -30fl
+
+@100°C (212°F)
+
+Radiator Fan:
+
+Radiator fan switch: ON 
+Above 94- 100°C (201 -212°F) 
+ ------  
+OFF 
+Below 91°C (196°F) 
+ -------
+
+@ : Australian Model 
+©: Italian Model
+
+© : South African Model 
+<0> : US Model
+
+
+
+-----
+
+-------
+
+-------

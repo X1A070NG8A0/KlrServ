@@ -1,0 +1,28 @@
+Item Standard See Page
+Battery:
+Electrolyte level Between upper and lower levels —-
+Electrolyte amount 40 mL per one cell eee
+Specific gravity of electrolyte 1.28 @20°C (68°F) 14-5
+Charging System: 14-6
+Regulator/rectifier output voltage Battery —15V 14-7
+Stator coil resistance 0.11 —0.72 14-7
+Ignition System
+Spark plug gap 0.6 — 0.7 mm 14-9
+Acring distance 7 mm or more (3-needle method) 14-15
+Primary winding resistance 0.17 — 0.25 2 14-16
+Secondary winding resistance 3.2 — 4.8 kQ
+CDI unit resistance —> 14-16
+Exciter coil resistance 61-1142 14-16
+Pickup coil resistance 100 — 150 2
+Meter Unit
+Tachometer resistance 65 — 105 2 14-21
+Water temperature gauge resistance —> 14-21
+Water temperature sender 47 — 57 Q @80°C (176°F) 14-22
+SS Spasnaboqeciaaesens
+57001-1184 57001-980 57001-983
+
+TS,
+
+Magneto Flywheel
+Puller: 57001-1185
+
