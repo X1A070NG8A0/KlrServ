@@ -1,0 +1,53 @@
+operations:
+  - id: c11-rim-inspection
+    title: "Rim and spoke inspection"
+    system: "Wheels, tires and drive chain"
+    source: clymer
+    chapter: 11
+    section: "11/rim-and-spoke-service"
+    summary: {t: "This procedure shows how to examine the rim and the spokes. For the scheduled spoke check, see the Chapter Three procedure.", cite: {p: 251}, op: spokes}
+    spec_refs: ["wheels:Wheel rim runout (radial and lateral)", "wheel-drive-torque:Spokes"]
+    parts:
+      - {name: "Spoke and nipple", replace: inspect, cite: {p: 252}, note: "Replace a spoke and its nipple if the spoke is seized and does not turn smoothly after you apply penetrating lubricant."}
+      - {name: "Wheel rim", replace: inspect, cite: {p: 252}}
+    sections:
+      - title: "Rim"
+        steps:
+          - {t: "Examine the rim for flat spots, dents and warping.", cite: {p: 252}}
+          - {t: "Examine the spoke holes for enlargement.", cite: {p: 252}}
+          - {kind: note, t: "Dents are common on this type of motorcycle. They cause too much runout. If you try to true a wheel that has large dents, the overtightened spokes can damage the hub and the rim. If the dent is minor and the runout is small, the rider can continue to use the rim.", cite: {p: 252}}
+      - title: "Spokes"
+        steps:
+          - {t: "Examine the spokes for damage and correct tightness.", cite: {p: 252}}
+          - {t: "For new or rebuilt wheels, examine the spokes often. After the tension is stable, examine the spokes at the intervals in the maintenance schedule.", cite: {p: 252}, op: spokes}
+          - {t: "Use a spoke wrench of the correct size that grips the spoke on three sides.", cite: {p: 252}, figs: [33]}
+          - {kind: caution, t: "Do not use other types of tool. They can round off or crush the spoke nipples.", cite: {p: 252}}
+          - {t: "Do not tighten a spoke more than the specified torque.", cite: {p: 252}, spec_ref: "wheel-drive-torque:Spokes"}
+          - {t: "If a spoke is broken, bent or damaged, do not true the wheel. Do not straighten a bent spoke by excessive tightening. The spoke can crack the hub fitting and enlarge the rim hole.", cite: {p: 252}}
+          - {t: "If a spoke is seized in its nipple, apply penetrating lubricant to the threads. If the spoke does not turn smoothly, replace the spoke and the nipple.", cite: {p: 252}}
+
+  - id: c11-wheel-truing
+    title: "Wheel truing"
+    system: "Wheels, tires and drive chain"
+    source: clymer
+    chapter: 11
+    section: "11/rim-and-spoke-service"
+    summary: {t: "Wheel truing changes the spoke tension, aligns the rim and the hub, and makes them concentric. You can true a wheel on or off the motorcycle.", cite: {p: 252}}
+    spec_refs: ["wheels:Wheel rim runout (radial and lateral)", "wheel-drive-torque:Spokes"]
+    sections:
+      - title: "Runout measurement"
+        steps:
+          - {t: "Examine the wheel bearings. Accurate truing is not possible with worn bearings.", cite: {p: 252}, op: c11-hub-bearing-inspection}
+          - {t: "Measure the runout with a wheel truing stand. Compare the value with the specification.", cite: {p: 253}, figs: [34], spec_ref: "wheels:Wheel rim runout (radial and lateral)"}
+          - {t: "If the runout is small, you can leave the wheel on the motorcycle. Raise the wheel so that it is level and turns freely.", cite: {p: 253}}
+          - {t: "Hold a pointer firmly against the fork or the swing arm. Turn the wheel. Move the pointer toward and away from the rim until you find the maximum runout.", cite: {p: 253}}
+          - {t: "Measure the gap from the rim to the pointer. For a more accurate measurement, install a dial indicator in the positions that the figure shows.", cite: {p: 253}, figs: [35]}
+          - {t: "If the wheel needs major truing, remove the tire and the tube. Install the rim on a truing stand. Measure the runout in both directions.", cite: {p: 253}, figs: [36]}
+      - title: "Lateral runout"
+        steps:
+          - {t: "To move the rim to the left or the right of the hub, loosen and tighten spokes as the figure shows. The rim moves in the direction of the tightened spokes.", cite: {p: 253}, figs: [37]}
+          - {kind: note, t: "Always loosen and tighten spokes equally. Loosen a minimum of three spokes. Then tighten the opposite three spokes. If the runout is over a large area, loosen and tighten more spokes.", cite: {p: 253}}
+      - title: "Radial runout"
+        steps:
+          - {t: "To make the rim concentric with the hub, loosen and tighten spokes as the figure shows. The rim moves in the direction of the tightened spokes.", cite: {p: 253}, figs: [38]}
+          - {kind: note, t: "Always loosen and tighten spokes equally. Loosen a minimum of three spokes. Then tighten the opposite three spokes. If the runout is over a large area, loosen and tighten more spokes.", cite: {p: 254}}

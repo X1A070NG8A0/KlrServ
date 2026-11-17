@@ -1,0 +1,96 @@
+operations:
+  - id: c11-tire-removal
+    title: "Tire removal"
+    system: "Wheels, tires and drive chain"
+    source: clymer
+    chapter: 11
+    section: "11/tire-changing"
+    summary: {t: "This procedure removes a tire and the inner tube from the rim. Work over a pad to prevent damage to the wheel assembly.", cite: {p: 257}}
+    parts:
+      - {name: "Inner tube", replace: inspect, cite: {p: 257}, note: "It is common practice to replace the tube when you install a new tire."}
+    sections:
+      - steps:
+          - {t: "Put the wheel on a pad. Do not let the wheel rest on the brake disc.", cite: {p: 257}}
+          - {t: "Remove the core from the valve stem. Let the air out of the tire.", cite: {p: 257}}
+          - {t: "Press the entire bead on both sides of the tire into the rim.", cite: {p: 257}}
+          - {t: "Lubricate the beads with soapy water.", cite: {p: 257}}
+          - {t: "Put a tire iron under the bead, next to the valve stem. Pry the bead over the rim. At the same time, force the bead on the opposite side of the tire into the rim.", cite: {p: 257}, figs: [57]}
+          - {t: "Put a second tire iron next to the first.", cite: {p: 257}, figs: [58]}
+          - {t: "Hold the tire with one iron. Work around the rim with the second iron and pry the tire over the rim.", cite: {p: 257}}
+          - {kind: note, t: "If you must use the inner tube again, do not pinch the tube when you remove the tire from the rim.", cite: {p: 257}}
+          - {t: "Remove the nut from the valve stem. Remove the inner tube from the tire.", cite: {p: 258}}
+          - {t: "Pry the second tire bead over the rim.", cite: {p: 258}, figs: [59]}
+
+  - id: c11-tire-inspection
+    title: "Tire, rim and rim band inspection"
+    system: "Wheels, tires and drive chain"
+    source: clymer
+    chapter: 11
+    section: "11/tire-changing"
+    summary: {t: "This procedure shows how to examine a tire that you will use again, the rim and the rim band, before you install the tire.", cite: {p: 258}}
+    parts:
+      - {name: "Rim band", replace: inspect, cite: {p: 258}, note: "If you install a new rim band, put the roughest side of the band against the rim."}
+    sections:
+      - steps:
+          - {t: "If you will use the tire again, examine the inside and the outside of the tire for damage and for objects that can cause a puncture.", cite: {p: 258}}
+          - {t: "Examine the rim for damage.", cite: {p: 258}, op: c11-rim-inspection}
+          - {t: "Make sure that the spokes do not go through the spoke nipples.", cite: {p: 258}}
+          - {t: "Examine the rim band for deterioration.", cite: {p: 258}}
+          - {t: "If water enters the rim, you can use duct tape instead of the rim band. Wrap the rim with two turns of duct tape. Punch a hole for the valve stem.", cite: {p: 258}}
+
+  - id: c11-tire-installation
+    title: "Tire installation"
+    system: "Wheels, tires and drive chain"
+    source: clymer
+    chapter: 11
+    section: "11/tire-changing"
+    summary: {t: "This procedure installs a tire and an inner tube on the rim and inflates the tire.", cite: {p: 258}}
+    spec_refs: ["wheels:Tire pressure (standard)/Front"]
+    parts:
+      - {name: "Talcum powder", replace: consumable, cite: {p: 258}}
+      - {name: "Inner tube", replace: inspect, cite: {p: 258}}
+    sections:
+      - steps:
+          - {kind: note, t: "The tire is easier to install if it is warm and flexible. Put the tire in the sun or in a closed vehicle.", cite: {p: 258}}
+          - {t: "Sprinkle talcum powder inside the tire casing. Put the powder on all surfaces that will touch the inner tube. The powder decreases chafing and helps the tube to spread when you inflate it.", cite: {p: 258}}
+          - {t: "Examine the sidewall to find if the tire must go in a specific direction. A direction arrow is often embossed in the sidewall.", cite: {p: 258}}
+          - {t: "Look for a dot or a mark that shows the light side of the tire. Align this mark with the valve stem.", cite: {p: 259}}
+          - {t: "Lubricate one tire bead. Push it onto the rim. Use a tire iron to lever the last section of the bead onto the rim.", cite: {p: 259}, figs: [60]}
+          - {t: "Install the core in the valve stem. Put the tube in the tire.", cite: {p: 259}}
+          - {t: "Make sure that the tube is not twisted when you tuck it into the tire. Install the valve stem nut loosely.", cite: {p: 259}}
+          - {t: "Inflate the tube until it is round and has no wrinkles. Too much air makes the installation difficult. Too little air increases the risk of a pinched tube.", cite: {p: 259}}
+          - {t: "Lubricate the second tire bead. Start the installation opposite the valve stem.", cite: {p: 260}}
+          - {t: "Fit as much of the tire as you can by hand.", cite: {p: 260}, figs: [61]}
+          - {t: "Before the final installation, make sure that the valve stem is straight and the inner tube is not pinched.", cite: {p: 260}}
+          - {t: "If it is necessary, lubricate the bead again.", cite: {p: 260}}
+          - {t: "Use tire irons to hold and pry the remaining section of bead onto the rim.", cite: {p: 260}, figs: [62]}
+          - {t: "Make sure that the bead fits evenly on both sides of the tire.", cite: {p: 260}}
+          - {t: "Lubricate both beads. Inflate the tire to seat the beads on the rim.", cite: {p: 260}}
+          - {t: "Look in the sidewall for a recommended seating pressure. If there is none, inflate the tire to 172-207 kPa (25-30 psi).", cite: {p: 259}}
+          - {kind: warning, t: "If the tire does not seat at the recommended pressure, do not continue to inflate it. Let the air out and inflate the tire to the recommended seating pressure again. This prevents damage and injury. If it is necessary, lubricate the beads again.", cite: {p: 260}}
+          - {t: "Tighten the valve stem nut with your fingers.", cite: {p: 260}}
+          - {t: "Let air out of the tire to the recommended pressure.", cite: {p: 260}, spec_ref: "wheels:Tire pressure (standard)/Front"}
+          - {t: "Install the valve stem cap.", cite: {p: 260}}
+          - {t: "Balance the wheel.", cite: {p: 260}, op: c11-wheel-balancing}
+          - {t: "For tire pressure checks and tire wear checks, see the Chapter Three procedure.", cite: {p: 260}, op: tires}
+
+  - id: c11-wheel-balancing
+    title: "Wheel balancing"
+    system: "Wheels, tires and drive chain"
+    source: clymer
+    chapter: 11
+    section: "11/tire-changing"
+    summary: {t: "Examine the balance of each new tire. An unbalanced wheel shortens the life of the tire and causes wear on the wheel bearings. For the longest tire life, examine the wheel balance each time that you remove the wheel. If you do not have the equipment, have a dealership balance the wheel.", cite: {p: 260}}
+    parts:
+      - {name: "Wheel balance weights", replace: consumable, cite: {p: 260}, note: "Available from a dealership."}
+    sections:
+      - steps:
+          - {kind: note, t: "Do not balance a wheel that has damaged bearings. The balance is not accurate. Replace the bearings before you balance the wheel.", cite: {p: 260}, op: c11-hub-bearing-replacement}
+          - {t: "Put the wheel and axle assembly in a truing stand, or a similar fixture. The axle must be level and the wheel must turn freely.", cite: {p: 260}, figs: [63]}
+          - {t: "Install the spacers that you need to prevent lateral movement of the wheel.", cite: {p: 260}}
+          - {t: "Spin the wheel. Let it come to a complete stop. Mark the sidewall at the top of the tire. This is the light side of the wheel.", cite: {p: 260}}
+          - {t: "Do this step again several times to get an accurate result. If the wheel consistently stops at a different location, the balance is acceptable. You do not need more weight.", cite: {p: 260}}
+          - {t: "When you know which side is light, clamp a weight lightly to the spoke nearest to the light mark. Start with the smallest weight.", cite: {p: 260}, figs: [64]}
+          - {t: "Continue to spin the wheel and make sure of the balance. Add or remove weight on the spokes until the wheel consistently stops at a different location.", cite: {p: 260}}
+          - {t: "When the wheel is balanced, clamp the weights tightly to the spokes.", cite: {p: 260}}
+          - {kind: note, t: "Do not use adhesive weights on this motorcycle. They can fall off during off-road operation.", cite: {p: 260}}

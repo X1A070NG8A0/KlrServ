@@ -1,0 +1,72 @@
+operations:
+  - id: c11-drive-sprocket
+    title: "Drive sprocket removal and installation"
+    system: "Wheels, tires and drive chain"
+    source: clymer
+    chapter: 11
+    section: "11/sprockets"
+    summary: {t: "Two methods have locked the drive sprocket to the output shaft. The 1987-1996 models, to engine serial number KL650AE032209, use a locking plate and two bolts. Later models, which include the bike in this wiki, use a lockwasher and a nut. This procedure is for the nut.", cite: {p: 255}}
+    spec_refs: ["wheel-drive-torque:Drive sprocket/Nut"]
+    parts:
+      - {name: "Drive sprocket lockwasher", replace: always, cite: {p: 256}}
+      - {name: "Output shaft spacer O-ring", replace: inspect, cite: {p: 256}, note: "If you removed it, install a new O-ring and lubricate it."}
+      - {name: "Drive sprocket", replace: inspect, cite: {p: 255}, note: "If the chain or the sprockets are worn, replace all drive components."}
+    sections:
+      - title: "Removal"
+        steps:
+          - {kind: note, t: "This bike uses the nut and the lockwasher. The bolts and the locking plate are for the earlier models. The torque table lists a different value for the bolts.", cite: {p: 255}}
+          - {t: "Support the motorcycle so that it is stable and secure. Keep the rear wheel on the ground.", cite: {p: 255}}
+          - {t: "Put the transmission in gear.", cite: {p: 255}}
+          - {t: "Remove the sprocket guard.", cite: {p: 255}, figs: [47]}
+          - {t: "Flatten the lockwasher before you remove the nut.", cite: {p: 255}, figs: [48]}
+          - {t: "Loosen the nut that holds the sprocket to the shaft.", cite: {p: 255}}
+          - {t: "If the rear wheel turns, have an assistant apply the brakes while you loosen the nut. The nut has a high torque and the wheel turns more easily on the later models.", cite: {p: 255}, ref: "14/rear-brake-pedal"}
+          - {t: "Raise the rear wheel. Loosen the rear axle and the chain adjusters.", cite: {p: 255}}
+          - {t: "Remove the chain from the rear sprocket.", cite: {p: 255}}
+          - {t: "Remove the nut and the lockwasher from the shaft.", cite: {p: 255}}
+          - {t: "Pull the chain forward. Lift the chain from the sprocket as you remove the sprocket.", cite: {p: 255}}
+      - title: "Output shaft spacer and seal"
+        steps:
+          - {t: "Clean the output shaft spacer and the seal. Examine them for damage and leaks.", cite: {p: 256}, figs: [49]}
+          - {t: "If there is damage or a leak, put the transmission in gear and twist the spacer from the shaft.", cite: {p: 256}, figs: [50]}
+          - {t: "If it is necessary, warm the seal with a heat gun. Hold the spacer near its outer edge, away from the seal surface, with locking pliers.", cite: {p: 256}}
+          - {t: "Remove the O-ring from the groove past the seal lip.", cite: {p: 256}}
+      - title: "Inspection"
+        steps:
+          - {t: "Examine the sprocket.", cite: {p: 256}, op: drive-chain-inspect}
+          - {t: "Examine the sprocket guard assembly for damage.", cite: {p: 256}, figs: [51]}
+          - {t: "Clean the output shaft and the seal area. Examine them for damage.", cite: {p: 256}}
+      - title: "Installation"
+        steps:
+          - {t: "If you removed the O-ring, install a new lubricated O-ring on the output shaft. The O-ring must seat in the groove past the seal lip.", cite: {p: 256}, figs: [52]}
+          - {t: "If you removed the output shaft spacer, install it with the notched edge in.", cite: {p: 256}, figs: [52]}
+          - {t: "Fit the sprocket into the chain before you slide the sprocket into position.", cite: {p: 256}}
+          - {t: "Install the sprocket with the cupped side out.", cite: {p: 256}}
+          - {t: "Install a new lockwasher with the cupped side out.", cite: {p: 256}, figs: [53]}
+          - {t: "Install the nut with the small diameter out.", cite: {p: 256}}
+          - {t: "Tighten the nut to the specified torque. This is the value for the 1996-on nut.", cite: {p: 260}, spec_ref: "wheel-drive-torque:Drive sprocket/Nut"}
+          - {t: "Flatten two sides of the lockwasher against the nut.", cite: {p: 256}, figs: [54]}
+          - {t: "Adjust the drive chain.", cite: {p: 256}, op: drive-chain-adjust}
+
+  - id: c11-driven-sprocket
+    title: "Driven sprocket removal and installation"
+    system: "Wheels, tires and drive chain"
+    source: clymer
+    chapter: 11
+    section: "11/sprockets"
+    summary: {t: "This procedure removes the driven sprocket from the sprocket hub and installs it again.", cite: {p: 257}}
+    spec_refs: ["wheel-drive-torque:Driven sprocket bolts"]
+    parts:
+      - {name: "Driven sprocket", replace: inspect, cite: {p: 257}, note: "If the chain or the sprockets are worn, replace all drive components."}
+    sections:
+      - steps:
+          - {t: "Remove the rear wheel.", cite: {p: 257}, op: c11-rear-wheel}
+          - {t: "Support the wheel so that it does not rest on the brake disc. You can also remove the sprocket hub from the wheel.", cite: {p: 257}, figs: [55]}
+          - {kind: note, t: "It can be easier to leave the sprocket hub in the wheel until you loosen the sprocket nuts.", cite: {p: 257}}
+          - {t: "Remove the nuts that hold the sprocket to the hub.", cite: {p: 257}}
+          - {t: "Examine the sprocket.", cite: {p: 257}, op: drive-chain-inspect}
+          - {t: "Examine the hub.", cite: {p: 257}, op: c11-rear-wheel-inspection}
+          - {t: "Install the sprocket so that the tooth identification number is out.", cite: {p: 257}, figs: [56]}
+          - {t: "Tighten the bolts in several passes in a crossing pattern. Tighten them to the specified torque.", cite: {p: 257}, spec_ref: "wheel-drive-torque:Driven sprocket bolts"}
+          - {t: "Install the rear wheel.", cite: {p: 257}, op: c11-rear-wheel}
+          - {t: "Adjust the drive chain.", cite: {p: 257}, op: drive-chain-adjust}

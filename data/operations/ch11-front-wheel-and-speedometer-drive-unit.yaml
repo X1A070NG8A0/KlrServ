@@ -1,0 +1,76 @@
+operations:
+  - id: c11-front-wheel
+    title: "Front wheel and speedometer drive unit removal and installation"
+    system: "Wheels, tires and drive chain"
+    source: clymer
+    chapter: 11
+    section: "11/front-wheel-and-speedometer-drive-unit"
+    summary: {t: "This procedure removes the front wheel, the axle, the speedometer drive unit and the axle spacer. It installs them again.", cite: {p: 242}}
+    spec_refs: ["wheel-drive-torque:Axle nut/Front"]
+    parts:
+      - {name: "Cotter pin, front axle nut", replace: always, cite: {p: 243}}
+      - {name: "Waterproof grease", replace: consumable, cite: {p: 243}}
+    sections:
+      - title: "Removal"
+        steps:
+          - {t: "Support the motorcycle so that it is stable and the front wheel is off the ground.", cite: {p: 242}}
+          - {t: "Disconnect the speedometer cable from the right side of the hub.", cite: {p: 242}, figs: [1]}
+          - {t: "Remove the cotter pin, the nut and the washer from the axle.", cite: {p: 242}, figs: [2]}
+          - {t: "Pull up on the wheel to take the weight off the axle. Remove the axle from the wheel.", cite: {p: 242}, figs: [3]}
+          - {t: "Roll the wheel forward and out of the fork.", cite: {p: 242}}
+          - {kind: note, t: "Do not operate the front brake lever while the wheel is removed. Put a wooden block between the pads until you install the wheel. This prevents the caliper piston from extending if the lever is operated.", cite: {p: 242}, ref: "14/front-brake-caliper"}
+          - {t: "Remove the speedometer drive unit from the right side of the hub. Tilt the unit upward as you remove it, so that parts do not fall from the housing.", cite: {p: 243}, figs: [4]}
+          - {t: "Remove the axle spacer from the left side of the hub.", cite: {p: 243}, figs: [5]}
+          - {t: "Examine and repair the wheel, the axle assembly and the speedometer drive unit.", cite: {p: 243}, op: c11-front-wheel-inspection}
+      - title: "Installation"
+        steps:
+          - {t: "If it is necessary, spread the brake pads so that the brake disc can go into the brake assembly.", cite: {p: 243}}
+          - {t: "Apply waterproof grease to the axle, the bearing seals, the spacer, the speedometer cable end, the speedometer drive unit seal and the tabbed washer of the speedometer drive unit.", cite: {p: 243}}
+          - {t: "Install the speedometer drive unit on the hub. Make sure that the tabbed washer engages with the slots in the hub.", cite: {p: 243}, figs: [6]}
+          - {t: "Install the speedometer cable. The slot in the cable must engage with the tab in the drive unit.", cite: {p: 243}, figs: [7]}
+          - {t: "If it is necessary, turn the front wheel slowly until the cable housing is fully seated in the drive unit. Tighten the cable.", cite: {p: 243}, figs: [8]}
+          - {t: "Tighten the axle nut to the specified torque.", cite: {p: 243}, spec_ref: "wheel-drive-torque:Axle nut/Front"}
+          - {t: "Make sure that the wheel turns freely and that the brake operates correctly.", cite: {p: 243}}
+          - {t: "Install a new cotter pin.", cite: {p: 243}}
+
+  - id: c11-front-wheel-inspection
+    title: "Front wheel, axle and speedometer drive unit inspection"
+    system: "Wheels, tires and drive chain"
+    source: clymer
+    chapter: 11
+    section: "11/front-wheel-and-speedometer-drive-unit"
+    summary: {t: "This procedure shows how to examine the front wheel seals and bearings, the axle and the speedometer drive unit. The bearing outer faces are sealed at the factory. If a bearing or a seal is damaged, replace the complete bearing assembly.", cite: {p: 243}}
+    parts:
+      - {name: "Front wheel bearings", replace: inspect, cite: {p: 244}, note: "Replace the bearings as a pair."}
+      - {name: "Speedometer drive unit seal", replace: inspect, cite: {p: 245}, note: "If there are leaks around the seal, clean the housing and install a new seal."}
+      - {name: "Waterproof grease", replace: consumable, cite: {p: 245}}
+    sections:
+      - title: "Seals and bearings"
+        steps:
+          - {t: "Examine the seal on each side of the wheel for nicked, damaged or missing rubber.", cite: {p: 244}, figs: [9]}
+          - {t: "Examine each seal for grease or water seepage.", cite: {p: 244}}
+          - {t: "Turn each bearing by hand. Make sure that it turns smoothly and quietly.", cite: {p: 244}}
+          - {t: "Push the bearing in and out to check for axial play. Push the bearing up and down to check for radial play.", cite: {p: 244}, figs: [10]}
+          - {t: "If you can feel play easily, the bearing is worn out. Replace the bearings as a pair.", cite: {p: 244}}
+          - {t: "If a seal or a bearing is damaged, replace the bearings.", cite: {p: 244}, ref: "11/front-and-rear-hubs", op: c11-hub-bearing-replacement}
+      - title: "Axle and speedometer drive unit"
+        steps:
+          - {t: "Clean the axle assembly and the speedometer drive unit.", cite: {p: 244}, figs: [11]}
+          - {t: "Make sure that the axle is straight.", cite: {p: 244}}
+          - {t: "Examine the threads of the axle and the nut for damage.", cite: {p: 244}}
+          - {t: "Examine the spacer and the washer for damage.", cite: {p: 244}}
+          - {t: "Examine the speedometer drive unit seal for damage.", cite: {p: 244}}
+          - {kind: note, t: "If the speedometer drive unit contains water, dirt or dry grease, disassemble and examine it.", cite: {p: 244}}
+      - title: "Speedometer drive unit service"
+        steps:
+          - {t: "Remove the tabbed washer and the drive gear from the housing.", cite: {p: 245}, figs: [12]}
+          - {t: "If there are leaks around the seal, clean the housing and install a new seal.", cite: {p: 245}}
+          - {t: "Clean all parts in solvent. Examine the parts for damage.", cite: {p: 245}}
+          - {kind: note, t: "The tabs on the tabbed washer bend if the washer is not seated correctly before you tighten the axle. Seat the washer correctly when you install the wheel.", cite: {p: 245}}
+          - {t: "Make sure that the driven gear in the housing turns smoothly.", cite: {p: 245}}
+          - {t: "Pack waterproof grease into the housing and around the driven gear.", cite: {p: 245}}
+          - {t: "Put the drive gear in the housing and engage it.", cite: {p: 245}}
+          - {t: "Pack waterproof grease around the drive gear. Install the tabbed washer.", cite: {p: 245}}
+      - title: "Rim"
+        steps:
+          - {t: "Examine and true the rim.", cite: {p: 245}, ref: "11/rim-and-spoke-service", op: c11-rim-inspection}

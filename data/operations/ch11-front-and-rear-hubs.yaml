@@ -1,0 +1,93 @@
+operations:
+  - id: c11-hub-bearing-inspection
+    title: "Wheel bearing and seal inspection"
+    system: "Wheels, tires and drive chain"
+    source: clymer
+    chapter: 11
+    section: "11/front-and-rear-hubs"
+    summary: {t: "The wheel hubs contain bearings and a hub spacer. Examine the bearings each time that you remove a wheel. You can also examine them with the wheels on the motorcycle.", cite: {p: 247}}
+    parts:
+      - {name: "Wheel bearings", replace: inspect, cite: {p: 248}, note: "Replace the bearings as a set."}
+    sections:
+      - title: "Bearings"
+        steps:
+          - {t: "Support the motorcycle so that the wheel that you examine is off the ground. The axle nut must be tight.", cite: {p: 248}}
+          - {t: "If you examine the rear wheel, remove the chain from the sprocket.", cite: {p: 248}}
+          - {t: "Hold the wheel with your hands 180 degrees apart. Lever the wheel up and down, and from side to side, to check for radial and axial play.", cite: {p: 248}}
+          - {t: "Do the test again while an assistant applies the brake. Excessive bearing wear shows as play even when the wheel is locked.", cite: {p: 248}}
+          - {t: "Spin the wheel and listen for bearing noise.", cite: {p: 248}}
+          - {t: "If the sound is sometimes rough and sometimes smooth, the bearing is damaged. If the sound is always rough, the bearing is worn out. Replace the bearing in each case.", cite: {p: 248}}
+          - {kind: note, t: "If the disc brake drags and you cannot hear the bearing, remove the wheel. Put the axle in the wheel. Support the axle so that the wheel turns freely.", cite: {p: 248}}
+          - {t: "If a bearing is damaged, replace the bearings as a set.", cite: {p: 248}, op: c11-hub-bearing-replacement}
+          - {kind: caution, t: "Do not remove the bearings to examine or lubricate them. Damage to the bearings is likely. If you remove the bearings, replace them.", cite: {p: 248}}
+      - title: "Seals"
+        steps:
+          - {t: "Examine the seals on the wheel bearings and on the sprocket hub.", cite: {p: 248}}
+          - {t: "If a seal is damaged, replace the bearing. The seals are permanent and you cannot replace them.", cite: {p: 248}}
+
+  - id: c11-hub-bearing-replacement
+    title: "Wheel bearing replacement"
+    system: "Wheels, tires and drive chain"
+    source: clymer
+    chapter: 11
+    section: "11/front-and-rear-hubs"
+    summary: {t: "This procedure removes the bearings from a wheel hub and installs new bearings. The book gives two methods to remove the bearings. One method uses a wheel bearing removal set. The other method uses common shop tools and heat.", cite: {p: 248}}
+    parts:
+      - {name: "Wheel bearings", replace: always, cite: {p: 248}, note: "Replace the bearings as a set."}
+      - {name: "Snap ring", replace: inspect, cite: {p: 248}, note: "Used on some hubs."}
+      - {name: "Waterproof grease", replace: consumable, cite: {p: 250}}
+    sections:
+      - title: "Preparation"
+        steps:
+          - {kind: caution, t: "Do not let the wheel rest on the brake disc. Support the wheel so that no pressure is on the disc.", cite: {p: 248}}
+          - {t: "If the hub has snap rings, remove them.", cite: {p: 248}, figs: [25]}
+          - {t: "Examine the bearings. Look for manufacturer marks on the sides of the bearings.", cite: {p: 248}}
+          - {t: "Mark each bearing to show its original location. Install the new bearings with the marks in the same direction.", cite: {p: 248}}
+          - {t: "If a bearing is damaged, find the bearing with the least damage. Remove this bearing first.", cite: {p: 249}}
+      - title: "Removal with the wheel bearing removal set"
+        steps:
+          - {kind: note, t: "The tools are part of the Kowa Seiki Wheel Bearing Remover Set. The remover head wedges against the inner bearing race. You then drive the bearing from the hub.", cite: {p: 249}, figs: [26, 27]}
+          - {t: "Select the remover head of the correct size. The small, split end of the remover head must fit inside the bearing race.", cite: {p: 249}}
+          - {t: "Put the split end of the remover head into the bearing. Seat the remover head against the bearing.", cite: {p: 249}, figs: [28]}
+          - {t: "Put the tapered end of the driver through the back of the hub. Fit the tapered end into the slot of the remover head.", cite: {p: 249}}
+          - {t: "Position the hub so that the remover head is against a solid surface, such as a concrete floor.", cite: {p: 249}}
+          - {t: "Strike the end of the driver so that it wedges firmly in the remover head. The remover head is now jammed tight against the inner bearing race.", cite: {p: 249}}
+          - {t: "Move the assembly so that the remover head is free to move and you can strike the driver.", cite: {p: 249}}
+          - {t: "Strike the driver to force the bearing and the hub spacer from the hub.", cite: {p: 249}, figs: [29]}
+          - {t: "Remove the driver from the remover head.", cite: {p: 249}}
+          - {t: "Do these steps again to remove the other bearing.", cite: {p: 250}}
+      - title: "Removal with a hammer, a drift and heat"
+        steps:
+          - {t: "Use heat to expand the hub bores slightly, so that you can remove the bearings with little resistance.", cite: {p: 250}}
+          - {kind: warning, t: "Work in a well-ventilated area and away from combustible materials. Wear protective clothing, eye protection and insulated gloves. A heat gun or a propane torch can burn finished or combustible surfaces.", cite: {p: 250}}
+          - {t: "Clean all lubricants from the wheel. For the rear wheel, remove the rubber damper.", cite: {p: 250}}
+          - {t: "Put a long drift into the hub. Tilt the hub spacer away from the bearing that you remove.", cite: {p: 250}, figs: [30]}
+          - {t: "Heat the hub around the bearing. Keep the heat source moving at a steady rate. Do not heat the bearing. A large washer over the bearing helps to protect it from the heat.", cite: {p: 250}}
+          - {t: "Turn the wheel over. Use the drift to tap around the inner bearing race. Make several passes until the bearing comes out of the hub.", cite: {p: 250}}
+          - {t: "Remove the hub spacer.", cite: {p: 250}}
+          - {t: "Heat the hub around the remaining bearing.", cite: {p: 250}}
+          - {t: "Drive out the remaining bearing with a large socket or a bearing driver that fits on the outer bearing race.", cite: {p: 250}}
+      - title: "Hub and spacer inspection"
+        steps:
+          - {t: "Clean and dry the inside of the hub.", cite: {p: 250}}
+          - {t: "Examine the hub for cracks, corrosion or other damage.", cite: {p: 250}}
+          - {t: "Make sure that the new bearings fit the hub bore as a driven fit. If a bearing is loose in the bore, replace the hub.", cite: {p: 250}}
+          - {t: "Examine the hub spacer for cracks, corrosion or other damage.", cite: {p: 250}}
+          - {t: "Make sure that the spacer fits flat against the back of the bearings.", cite: {p: 250}}
+          - {t: "Remove minor nicks and flaring with a file. Do not grind or shorten the spacer.", cite: {p: 250}}
+          - {kind: note, t: "The spacer must keep its full length. This prevents binding of the bearings when you tighten the axle.", cite: {p: 250}}
+      - title: "Installation"
+        steps:
+          - {t: "Examine each new bearing to find which side faces out. This is usually the side with the manufacturer marks and numbers.", cite: {p: 250}}
+          - {t: "Install a bearing that is sealed on one side with the sealed side out.", cite: {p: 250}}
+          - {t: "If a bearing is not lubricated by the manufacturer, or is not sealed on both sides, apply waterproof grease to it. Work the grease into the cavities between the balls and the races.", cite: {p: 250}}
+          - {t: "Always support the bottom of the hub near the bore when you install a bearing.", cite: {p: 250}}
+          - {t: "To help drive the bearings, chill them in a freezer. This temporarily decreases their diameter.", cite: {p: 250}}
+          - {t: "Heat the hub around the bearing bore.", cite: {p: 250}}
+          - {t: "Put a bearing squarely over the bearing bore.", cite: {p: 250}}
+          - {t: "Put a driver or a socket of the correct size over the bearing. The driver must seat against the outside diameter of the bearing.", cite: {p: 251}, figs: [31]}
+          - {kind: caution, t: "Do not press or strike the bearing directly. This causes damage to the bearing.", cite: {p: 251}}
+          - {t: "Hold the driver. Drive the bearing squarely into the hub until it is seated.", cite: {p: 251}, figs: [32]}
+          - {t: "If the hub has snap rings, install them.", cite: {p: 251}}
+          - {t: "Turn the hub over. Install the hub spacer.", cite: {p: 251}}
+          - {t: "Drive the remaining bearing into the hub until it is seated.", cite: {p: 251}}
