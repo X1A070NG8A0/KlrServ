@@ -2,7 +2,7 @@
 // `node site/build.ts --check` validates only and writes nothing.
 import { copyFileSync, mkdirSync, rmSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
-import type { BookChapter, BookSection, Cite, Figure, Operation, Part, Section, Step, Task } from "./lib/data.ts";
+import type { BookChapter, BookSection, Cite, Diagram, Figure, Operation, Part, Section, Step, Task } from "./lib/data.ts";
 import { ROOT, findSpec, load, printedLabel } from "./lib/data.ts";
 import { esc, layout, rowLabel, specValue, srcLabel, supplementCite, yearClass } from "./lib/html.ts";
 
@@ -164,6 +164,14 @@ const depLink = (d: Dep) => (d.kind === "op" ? opLink(d.id) : refLink(d.id));
 const figFor = (chapter: number | undefined, n: number): Figure | undefined => data.figures.find((f) => f.chapter === chapter && f.n === n);
 const photo = (f: Figure) => `<figure class="photo"><img src="/${f.file}" alt="Clymer Chapter ${f.chapter} figure ${f.n}" loading="lazy"><figcaption>Clymer fig. ${f.chapter}-${f.n}</figcaption></figure>`;
 
+// ---------- diagrams (HTML-native: SVG plus an ordered legend) ----------
+function diagramHtml(d: Diagram): string {
+  const shapes = (d.shapes ?? []).map((s) => `<rect x="${s.x}" y="${s.y}" width="${s.w}" height="${s.h}" rx="3" class="outline"/>${s.label ? `<text x="${s.x + s.w / 2}" y="${s.y + s.h + 6}" text-anchor="middle" class="cap">${esc(s.label)}</text>` : ""}`).join("");
+  const pts = d.points.map((p) => `<g class="pt"><title>${esc(p.n)}: ${esc(p.label)}</title><circle cx="${p.x}" cy="${p.y}" r="${p.n.length > 2 ? 6 : 4.2}"/><text x="${p.x}" y="${p.y + 1.6}" text-anchor="middle">${esc(p.n)}</text></g>`).join("");
+  const legend = d.points.map((p) => `<li><b>${esc(p.n)}</b> ${esc(p.label)}</li>`).join("");
+  return `<figure class="diagram"><svg viewBox="0 0 100 100" role="img" aria-label="${esc(d.title)}">${shapes}${pts}</svg><figcaption><b>${esc(d.title)}</b>${d.note ? ` ${esc(d.note)}` : ""}<ol class="legend">${legend}</ol><span class="src">${esc(srcLabel(data, d.cite))}</span></figcaption></figure>`;
+}
+
 // ---------- steps and operations ----------
 function stepHtml(st: Step, src: string, chapter?: number): string {
   const kind = st.kind ? ` class="${st.kind}"` : "";
@@ -172,10 +180,11 @@ function stepHtml(st: Step, src: string, chapter?: number): string {
   const figs = (st.figs ?? []).map((n) => figFor(st.chapter ?? chapter, n)).filter((f): f is Figure => !!f).map(photo).join("");
   const external = st.cite.s && st.cite.s !== "clymer" && st.cite.s !== src ? ` ${supplementCite(data, st.cite, src)}` : (src !== "clymer" ? ` ${supplementCite(data, st.cite, src)}` : "");
   const gap = st.gap ? `<p class="gap">Gap: ${esc(st.gap)}</p>` : "";
+  const diag = st.diagram && data.diagrams.has(st.diagram) ? diagramHtml(data.diagrams.get(st.diagram)!) : "";
   const conflict = st.conflict
     ? `<div class="conflict${st.conflict.agrees ? " agrees" : ""}"><p class="conflict-note">${st.conflict.agrees ? "Other sources agree." : "Sources disagree."} ${esc(st.conflict.note)}</p><div class="parallel">${st.conflict.others.map((o) => `<blockquote>${esc(o.t)} ${supplementCite(data, o.cite, src)}</blockquote>`).join("")}</div></div>`
     : "";
-  return `<li${kind} title="${esc(srcLabel(data, st.cite, src))}"><p>${label}${esc(st.t)}${external}${deps ? ` <span class="deps">${deps}</span>` : ""}</p>${conflict}${gap}${figs ? `<div class="figs">${figs}</div>` : ""}</li>`;
+  return `<li${kind} title="${esc(srcLabel(data, st.cite, src))}"><p>${label}${esc(st.t)}${external}${deps ? ` <span class="deps">${deps}</span>` : ""}</p>${conflict}${gap}${diag}${figs ? `<div class="figs">${figs}</div>` : ""}</li>`;
 }
 const sectionsHtml = (secs: Section[], src: string, chapter?: number) =>
   secs.map((s) => `${s.title ? `<h3>${esc(s.title)}</h3>` : ""}<ol class="steps">${s.steps.map((st) => stepHtml(st, src, chapter)).join("")}</ol>`).join("");

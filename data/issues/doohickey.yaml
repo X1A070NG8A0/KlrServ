@@ -1,22 +1,28 @@
 id: doohickey
 title: "Balancer chain tensioner lever and spring (the \"doohickey\")"
-ops: [balancer-chain-tensioner]
+ops: [balancer-chain-tensioner, c05-balancer-removal, c05-balancer-inspection, c05-balancer-installation]
 summary:
-  - t: "The balancer chain tensioner is spring-loaded and locked by a bolt. Clymer warns that the shaft lever or the tensioner spring can break before an adjustment; the bolt then holds the broken assembly until it is next loosened, when it can create slack or fall apart and derail the chain, damaging the engine."
+  - t: "A spring pushes the balancer chain tensioner, and a bolt locks it. Clymer warns that the shaft lever or the tensioner spring can break before an adjustment. The bolt then holds the broken assembly in position. When you loosen the bolt, the assembly can create slack or fall apart. The chain can then come off its sprockets and cause engine damage."
     cite: {s: clymer, p: 68}
-  - t: "Owners call the lever the \"doohickey\". Gen 1 means 2007 and earlier; Eagle Mike (who makes an aftermarket lever) describes the stock 1990-2007 lever as one that sometimes breaks."
+  - t: "Owners call the lever the \"doohickey\". Eagle Mike makes an aftermarket lever. He lists the stock lever for 1990-2007 as a part that sometimes breaks."
     cite: {s: forum, id: doohickey-wtf, post: 2}
 sections:
-  - title: "What fails"
+  - title: "Failure of the stock parts"
     steps:
-      - {t: "\"It's the balancer adjustment lever. Some years (stock parts) are worse than others.\"", cite: {s: forum, id: doohickey-wtf, post: 2}}
-      - {t: "\"Sometimes they don't break. Sometimes they do. No broken levers in the 2008 and later, but loose fit and occasional broken springs, nearly 100 percent ineffective springs.\"", cite: {s: forum, id: doohickey-wtf, post: 2}}
-      - {t: "\"The pre 08 spring had some sort of mfg process defect which cause one of the eyes to fail. The broken spring could then be collected by the balancer or cam chain and really reak some havok internally.\"", cite: {s: forum, id: doohickey-wtf, post: 18}}
-      - {t: "\"If NOT properly maintained, the balancer system's chain will start slapping around and wear more quickly.\"", cite: {s: forum, id: doohickey-explanation, post: 7}}
-  - title: "What owners do about it"
+      - {t: "One forum member says that the lever is the balancer adjustment lever. He says that some years of stock parts are worse than others.", cite: {s: forum, id: doohickey-wtf, post: 2}}
+      - {t: "The same member says that stock levers for 2008 and later do not break. He reports a loose fit and some broken springs on these bikes. He also reports that nearly all of these springs do not work.", cite: {s: forum, id: doohickey-wtf, post: 2}}
+      - {t: "Another member says that the spring on the early design had a manufacturing defect. One eye of the spring can fail. The balancer chain or the cam chain can then collect the broken spring and cause damage inside the engine.", cite: {s: forum, id: doohickey-wtf, post: 18}}
+      - {t: "The same member says that the redesigned spring does not have this defect. He reports that it is too long, so it does not put the correct tension on the system.", cite: {s: forum, id: doohickey-wtf, post: 18}}
+      - {t: "One owner reports that his lever was not broken, but the spring did not work and the lever was loose on the shaft.", cite: {s: forum, id: doohickey-wtf, post: 20}}
+      - {t: "A forum member says that the chain of the balancer system slaps and wears more quickly if the system has no correct maintenance.", cite: {s: forum, id: doohickey-explanation, post: 7}}
+  - title: "Owner replacement of the lever and spring"
     steps:
-      - {t: "The forum consensus fix is to replace the stock lever and spring with an aftermarket kit (Eagle Mike's lever with a torsion spring is the one named): \"The answer is to install a torsion spring.\"", cite: {s: forum, id: doohickey-wtf, post: 18}}
-      - {t: "One owner found the lever intact but the spring useless: \"Mine was not broken BUT the spring was just hagin out being usless and the doohickie was sloppy as hell on the shaft.\"", cite: {s: forum, id: doohickey-wtf, post: 20}}
-      - {t: "Routine adjustment stays on the schedule either way.", cite: {s: clymer, p: 88}, op: balancer-chain-tensioner}
-      - {kind: caution, t: "The lever and spring replacement itself (alternator cover removal) is not in the Chapter Three maintenance procedures, and its parts are aftermarket. Follow the kit maker's instructions together with the Clymer chapters for the alternator cover and balancer.", cite: {s: clymer, p: 68},
-         gap: "No replacement procedure is transcribed here yet."}
+      - {t: "Forum members recommend that you replace the stock lever and spring with an aftermarket kit. One member names the Eagle Mike lever and a torsion spring. He says that the torsion spring gives consistent pressure.", cite: {s: forum, id: doohickey-wtf, post: 18}}
+      - {t: "The same member says that the redesigned stock lever is stronger, but it does not fit the idler shaft as precisely as the aftermarket lever. The idler shaft can still rock in the lever.", cite: {s: forum, id: doohickey-wtf, post: 18}}
+      - {t: "One owner reports that the replacement gave him confidence on a trip of more than 2000 miles.", cite: {s: forum, id: doohickey-wtf, post: 20}}
+      - {t: "Do the routine adjustment on the schedule also when you install a new kit.", cite: {s: clymer, p: 88}, op: balancer-chain-tensioner}
+      - {t: "To remove the balancer parts, do the removal procedure.", cite: {s: clymer, p: 131}, op: c05-balancer-removal}
+      - {t: "To examine the balancer parts, do the inspection procedure.", cite: {s: clymer, p: 131}, op: c05-balancer-inspection}
+      - {t: "To install the balancer parts, do the installation procedure.", cite: {s: clymer, p: 131}, op: c05-balancer-installation}
+      - {kind: caution, t: "Do not use only the Clymer procedure for an aftermarket kit. The parts of the kit are not Kawasaki parts. Also use the instructions of the kit maker.", cite: {s: clymer, p: 68},
+         gap: "No source in this wiki gives a procedure to install an aftermarket lever kit."}

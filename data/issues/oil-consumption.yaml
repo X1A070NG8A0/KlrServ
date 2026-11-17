@@ -2,23 +2,24 @@ id: oil-consumption
 title: "Oil consumption at sustained high rpm"
 ops: [engine-oil-and-filter]
 summary:
-  - t: "Clymer: check the level at the sight glass with the bike upright and the engine settled; keep it near the upper mark, and do not overfill."
+  - t: "Clymer gives the correct oil level. The oil must be between the upper and lower marks at the sight glass, and preferably near the upper mark. Do not put too much oil in the crankcase."
     cite: {s: clymer, p: 59}
-  - t: "Owners report gen 1 engines using oil under long stretches at or above 5000 rpm (freeway speeds), so the forum advice is to check the level at every fuel stop."
+  - t: "One owner reports that a first generation engine uses oil at 5000 rpm or more, for example at freeway speed. He recommends that you make sure of the oil level at each fuel stop."
     cite: {s: forum, id: gen1-maintenance-opinions, post: 5}
 sections:
-  - title: "What owners report"
+  - title: "Owner reports of oil use"
     steps:
-      - {t: "\"Oil consumption has been a concern for some KLR650's especially under protracted 5,000 RPM running.\"", cite: {s: forum, id: oil-consumption-piston, post: 1}}
-      - {t: "\"It only uses a tad of oil if you run it all day over 5k rpm\"", cite: {s: forum, id: weak-doohickeys-frame-bolts, post: 7}}
-      - {t: "One investigation compares the KLR piston's oil drain-back holes with another engine's and suspects limited drain area; this is a hypothesis in the thread, not a confirmed cause.", cite: {s: forum, id: oil-consumption-piston, post: 1}}
-  - title: "Checking and topping up"
+      - {t: "One forum member says that oil consumption is a concern for some KLR650 engines, mainly when the engine runs at 5,000 rpm for a long time.", cite: {s: forum, id: oil-consumption-piston, post: 1}}
+      - {t: "One owner of a late model bike says that the engine uses a small quantity of oil when he runs it all day at more than 5k rpm.", cite: {s: forum, id: weak-doohickeys-frame-bolts, post: 7}}
+      - {t: "Another owner says that the engine uses a quart in 1500 miles at 70 mph for long periods. He says that this is not a big problem.", cite: {s: forum, id: weak-doohickeys-frame-bolts, post: 8}}
+      - {t: "One member compares the oil drain-back holes of a KLR piston with the holes of a GS400 piston. He suspects that the drain area is small. In his post, this is an idea and not a confirmed cause.", cite: {s: forum, id: oil-consumption-piston, post: 1}}
+  - title: "Oil level checks"
     steps:
-      - {t: "Check at every fuel stop, keeping the level high in the window.", cite: {s: forum, id: gen1-maintenance-opinions, post: 5},
+      - {t: "Make sure of the oil level at each fuel stop.", cite: {s: forum, id: gen1-maintenance-opinions, post: 5},
          conflict: {
-           note: "The forum advice is to fill to just above the sight glass window; Clymer says keep the level between the marks, preferably near the upper one, and not to overfill.",
+           note: "The forum advice is to fill to a level a little above the window of the sight glass. Clymer says to keep the level between the marks, preferably near the upper mark, and not to put too much oil in the crankcase.",
            others: [
-             {t: "\"keep the oil sight glass full to just slightly above the window. That is 2.5 liters just like Kawasaki states. Check it every gas stop.\"", cite: {s: forum, id: gen1-maintenance-opinions, post: 5}},
-             {t: "The oil level should be between the upper and lower level marks; preferably keep it near the upper mark. Do not overfill the crankcase.", cite: {s: clymer, p: 59}}
+             {t: "One owner says to keep the sight glass full to a level a little above the window. He says that this is 2.5 liters, the quantity that Kawasaki gives. He says that the engine can burn up if you run it with a low oil level on a trip.", cite: {s: forum, id: gen1-maintenance-opinions, post: 5}},
+             {t: "The oil level must be between the upper and lower marks. Preferably keep it near the upper mark. Do not put too much oil in the crankcase.", cite: {s: clymer, p: 59}}
            ]}}
-      - {t: "Use the procedure for an accurate reading.", cite: {s: clymer, p: 59}, op: engine-oil-and-filter}
+      - {t: "To get an accurate reading, use the oil and filter procedure.", cite: {s: clymer, p: 59}, op: engine-oil-and-filter}

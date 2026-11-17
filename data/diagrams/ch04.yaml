@@ -1,0 +1,42 @@
+# HTML-native recreations of Clymer Chapter 4 drawings. Positions are
+# approximate (0-100 box, as drawn in the figure). The order and the labels
+# are exact: a reviewer read them from the page image (image_checked).
+diagrams:
+  - id: c04-head-torque-sequence
+    title: "Cylinder head tightening sequence"
+    kind: bolt-sequence
+    cite: {s: clymer, p: 107, ref: "Figure 49"}
+    image_checked: true
+    note: "As drawn in Clymer Figure 4-49. The cam chain tunnel is on the left. Tighten each nut two times (5 then 7, 6 then 8) before you tighten bolt 9."
+    shapes:
+      - {kind: rect, x: 8, y: 6, w: 84, h: 88}
+      - {kind: rect, x: 34, y: 32, w: 50, h: 40}
+    points:
+      - {n: "1", x: 40, y: 38, label: "10 mm bolt"}
+      - {n: "2", x: 78, y: 66, label: "10 mm bolt"}
+      - {n: "3", x: 40, y: 66, label: "10 mm bolt"}
+      - {n: "4", x: 78, y: 38, label: "10 mm bolt"}
+      - {n: "5, 7", x: 59, y: 20, label: "Nut. Tighten it at step 5 and again at step 7."}
+      - {n: "6, 8", x: 59, y: 84, label: "Nut. Tighten it at step 6 and again at step 8."}
+      - {n: "9", x: 16, y: 12, label: "8 mm bolt"}
+      - {n: "10", x: 18, y: 40, label: "6 mm bolt in the cam chain tunnel. On 1996-on models this bolt also holds the upper chain guide."}
+      - {n: "11", x: 18, y: 64, label: "6 mm bolt in the cam chain tunnel. On 1996-on models this bolt also holds the upper chain guide."}
+
+  - id: c04-camshaft-cap-sequence
+    title: "Camshaft cap bolt sequence"
+    kind: bolt-sequence
+    cite: {s: clymer, p: 99, ref: "Figure 25"}
+    image_checked: true
+    note: "As shown in Clymer Figure 4-25. Each camshaft has its own sequence 1 to 4. To seat the camshafts, first lightly tighten bolts 1 and 2 on the left caps."
+    shapes:
+      - {kind: rect, x: 6, y: 18, w: 40, h: 64, label: "Left caps"}
+      - {kind: rect, x: 54, y: 18, w: 40, h: 64, label: "Right caps"}
+    points:
+      - {n: "1", x: 36, y: 32, label: "Left caps, bolt 1"}
+      - {n: "2", x: 16, y: 32, label: "Left caps, bolt 2"}
+      - {n: "3", x: 36, y: 68, label: "Left caps, bolt 3"}
+      - {n: "4", x: 16, y: 68, label: "Left caps, bolt 4"}
+      - {n: "1", x: 84, y: 32, label: "Right caps, bolt 1"}
+      - {n: "2", x: 64, y: 32, label: "Right caps, bolt 2"}
+      - {n: "3", x: 84, y: 68, label: "Right caps, bolt 3"}
+      - {n: "4", x: 64, y: 68, label: "Right caps, bolt 4"}

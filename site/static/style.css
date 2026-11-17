@@ -197,3 +197,14 @@ ul.secs li.unwritten a, ol.secs li .unwritten { color: var(--muted); }
 .popbody h2 { font-size: 1.05rem; }
 .popbody .figs figure.photo { max-width: 12rem; }
 .dep > a[data-pop], .cite > a[data-pop] { text-decoration-style: dotted; }
+
+/* HTML-native diagrams */
+figure.diagram { display: grid; grid-template-columns: minmax(10rem, 16rem) 1fr; gap: 1rem; margin: .6rem 0; border: 1px solid var(--rule); padding: .6rem; }
+@media (max-width: 640px) { figure.diagram { grid-template-columns: 1fr; } }
+figure.diagram svg { width: 100%; height: auto; }
+figure.diagram .outline { fill: none; stroke: var(--muted); stroke-width: .6; }
+figure.diagram .cap { font: 4px var(--mono); fill: var(--muted); }
+figure.diagram .pt circle { fill: var(--second-bg); stroke: var(--second); stroke-width: .6; }
+figure.diagram .pt text { font: 600 3.6px var(--mono); fill: var(--fg); }
+figure.diagram figcaption { font-size: .88rem; }
+figure.diagram .legend { padding-left: 1.2rem; margin: .4rem 0; }

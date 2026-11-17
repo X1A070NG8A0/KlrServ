@@ -15,7 +15,9 @@ export type SpecTable = { id: string; title: string; kind?: "torque" | "limits";
 export type Conflict = { note: string; agrees?: boolean; others: { t: string; cite: Cite }[] };
 // `chapter` overrides the operation's Clymer chapter for this step's `figs`.
 // `ref` is a dependency on a book section, "NN/section-id".
-export type Step = { t: string; kind?: "note" | "caution" | "warning"; cite: Cite; image_checked?: boolean; figs?: number[]; chapter?: number; op?: string; ref?: string; spec_ref?: string; conflict?: Conflict; gap?: string };
+export type Step = { t: string; kind?: "note" | "caution" | "warning"; cite: Cite; image_checked?: boolean; diagram?: string; figs?: number[]; chapter?: number; op?: string; ref?: string; spec_ref?: string; conflict?: Conflict; gap?: string };
+export type DiagramPoint = { n: string; x: number; y: number; label: string };
+export type Diagram = { id: string; title: string; kind: string; cite: Cite; image_checked?: boolean; note?: string; shapes?: { kind: string; x: number; y: number; w: number; h: number; label?: string }[]; points: DiagramPoint[] };
 export type BookSection = { id: string; title: string; pages: [number, number]; summary?: { t: string; cite: Cite }[]; ops?: string[]; written: boolean };
 export type BookChapter = { n: number; title: string; pages: [number, number]; sections: BookSection[]; file?: string };
 export type Section = { title?: string; steps: Step[] };
@@ -37,6 +39,7 @@ export type Data = {
   issues: Map<string, Issue>;
   threads: Map<string, Thread>;
   figures: Figure[];
+  diagrams: Map<string, Diagram>;
   book: BookChapter[];
   pageText: (src: string, p: number) => string | undefined;
   errors: string[];
@@ -147,6 +150,10 @@ export function load(): Data {
     }
   }
 
+  // Diagrams (HTML-native recreations of drawings)
+  const diagrams = new Map<string, Diagram>();
+  for (const file of yamlFiles(join(ROOT, "data", "diagrams"))) for (const d of (tryYaml(file, errors)?.diagrams ?? []) as Diagram[]) { if (diagrams.has(d.id)) errors.push(`duplicate diagram id "${d.id}"`); checkCite(d.cite, `diagram ${d.id}`); diagrams.set(d.id, d); }
+
   // Operations
   const ops = new Map<string, Operation>();
   for (const file of yamlFiles(join(ROOT, "data", "operations"))) {
@@ -212,6 +219,7 @@ export function load(): Data {
           if (!figures.some((f) => f.chapter === ch && f.n === n))
             warnings.push(`${w}: Clymer Ch.${ch} Fig. ${n} has no extracted photo (links to the page instead)`);
         if (st.op && !ops.has(st.op)) warnings.push(`${w}: links to operation "${st.op}" which is not written yet`);
+        if (st.diagram && !diagrams.has(st.diagram)) errors.push(`${w}: unknown diagram "${st.diagram}"`);
         if (st.ref && !sectionIds.has(st.ref)) errors.push(`${w}: ref "${st.ref}" is not a book section (use "NN/section-id")`);
       }),
     );
@@ -239,7 +247,7 @@ export function load(): Data {
       if (op && !op.parts?.some((p) => p.name === name)) errors.push(`schedule "${t.task}": part "${name}" is not in operation "${op.id}"`);
   }
 
-  return { sources, schedule, tables, ops, issues, threads, figures, book, pageText, errors, warnings };
+  return { sources, schedule, tables, ops, issues, threads, figures, diagrams, book, pageText, errors, warnings };
 }
 
 export function findSpec(data: Pick<Data, "tables">, ref: string): { table: SpecTable; row: SpecRow } | undefined {

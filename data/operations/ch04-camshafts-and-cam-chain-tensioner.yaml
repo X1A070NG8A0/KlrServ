@@ -96,7 +96,7 @@ operations:
           - {t: "Install the dowels and the caps for the right intake and exhaust valves. The arrows on the caps must point forward.", cite: {p: 99}}
           - {t: "Install the bolts and tighten them by hand.", cite: {p: 99}}
           - {t: "To seat the camshafts, lightly tighten bolts 1 and 2 on the left caps.", cite: {p: 99}, figs: [25]}
-          - {t: "For each camshaft, tighten the cap bolts in the numerical sequence in the figure. Do the work in several passes and increase the torque evenly on the caps.", cite: {p: 99}, figs: [25], spec_ref: "top-end-torque:Camshaft cap bolts"}
+          - {t: "For each camshaft, tighten the cap bolts in the numerical sequence in the figure. Do the work in several passes and increase the torque evenly on the caps.", cite: {p: 99}, figs: [25], spec_ref: "top-end-torque:Camshaft cap bolts", diagram: c04-camshaft-cap-sequence}
           - {kind: caution, t: "Tighten the camshaft caps evenly. If you do not, the cylinder head, the camshafts or the caps can have damage.", cite: {p: 99}}
           - {t: "Remove all shop cloths from the cylinder head.", cite: {p: 99}}
       - title: "Cam chain tensioner"
@@ -207,7 +207,7 @@ operations:
           - {t: "Install the cap and the dowels at each location. On the left journals, align the Plastigauge so that it touches a flat surface on the inside of the cap.", cite: {p: 102}}
           - {t: "Tighten the cap bolts by hand.", cite: {p: 102}}
           - {t: "To seat the camshafts, lightly tighten bolts 1 and 2 on the left caps.", cite: {p: 102}, figs: [25]}
-          - {t: "For each camshaft, tighten the cap bolts in the numerical sequence in the figure. Do the work in several passes and increase the torque evenly on the caps.", cite: {p: 102}, figs: [25], spec_ref: "top-end-torque:Camshaft cap bolts"}
+          - {t: "For each camshaft, tighten the cap bolts in the numerical sequence in the figure. Do the work in several passes and increase the torque evenly on the caps.", cite: {p: 102}, figs: [25], spec_ref: "top-end-torque:Camshaft cap bolts", diagram: c04-camshaft-cap-sequence}
           - {kind: caution, t: "Tighten the camshaft caps evenly. If you do not, the cylinder head, the camshafts or the caps can have damage.", cite: {p: 102}}
           - {kind: note, t: "Do not let the camshaft turn while the Plastigauge is between the parts.", cite: {p: 102}}
           - {t: "Loosen the cap bolts equally in several passes.", cite: {p: 102}}

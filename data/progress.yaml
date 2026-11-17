@@ -20,7 +20,7 @@ chapters:
   7: done
   2: done
   1: done
-  issues: in-progress
+  issues: done
 after_writers:
   - Rebuild (npm run build), update README, check the site in the browser.
 review:   # drawing-only values: read from the page image, recreate as an HTML diagram, set image_checked
