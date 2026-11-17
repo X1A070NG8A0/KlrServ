@@ -24,7 +24,7 @@ export function layout(title: string, nav: Nav, body: string): string {
 </head>
 <body>
 <header class="site">
-  <a class="brand" href="/">KLR <span class="sc">Service Explorer</span></a>
+  <a class="brand" href="/">KLR Service Explorer</a>
   <nav>
     ${link("maint", "/maintenance.html", "Routine maintenance")}
     ${link("repairs", "/repairs.html", "Common repairs")}

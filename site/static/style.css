@@ -1,3 +1,10 @@
+/* TeX Gyre Heros: a free (GUST Font License) Helvetica-style typeface,
+   self-hosted in /assets/fonts. Fallback: the browser's default sans-serif. */
+@font-face { font-family: "TeX Gyre Heros"; src: url("/assets/fonts/texgyreheros-regular.otf") format("opentype"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "TeX Gyre Heros"; src: url("/assets/fonts/texgyreheros-bold.otf") format("opentype"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "TeX Gyre Heros"; src: url("/assets/fonts/texgyreheros-italic.otf") format("opentype"); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: "TeX Gyre Heros"; src: url("/assets/fonts/texgyreheros-bolditalic.otf") format("opentype"); font-weight: 700; font-style: italic; font-display: swap; }
+
 /* Plain, readable, dense-with-links: "better motherfucking website" body
    text with gwern-style citations that transclude their source on hover. */
 :root {
@@ -13,7 +20,9 @@
   --note-bg: #eef3f8;
   --this-year: #e7f2e4;
   --pop-bg: #ffffff;
-  --mono: ui-monospace, "Cascadia Mono", Consolas, monospace;
+  --sans: "TeX Gyre Heros", sans-serif;
+  --mono: var(--sans);
+  --code: ui-monospace, "Cascadia Mono", Consolas, monospace;
   color-scheme: light dark;
 }
 @media (prefers-color-scheme: dark) {
@@ -33,7 +42,7 @@
 html { background: var(--bg); }
 body {
   margin: 0 auto; max-width: 52rem; padding: 0 16px 4rem;
-  font: 18px/1.6 Georgia, "Iowan Old Style", "Palatino Linotype", serif;
+  font: 17px/1.6 var(--sans);
   color: var(--fg); background: var(--bg);
 }
 body.wide { max-width: 82rem; }
@@ -44,7 +53,7 @@ h3 { font-size: 1.1rem; margin-top: 1.4rem; }
 a { color: var(--link); text-decoration-thickness: 1px; text-underline-offset: 2px; }
 .sc { font-variant: small-caps; letter-spacing: .03em; }
 .meta, .hint { color: var(--muted); font-size: .88rem; }
-code { font-family: var(--mono); font-size: .9em; }
+code { font-family: var(--code); font-size: .9em; }
 
 header.site { display: flex; flex-wrap: wrap; align-items: baseline; gap: .3rem 1.2rem; padding: .8rem 0; border-bottom: 1px solid var(--rule); }
 header.site .brand { font-weight: 700; text-decoration: none; color: var(--fg); }
@@ -67,7 +76,7 @@ footer.site { margin-top: 3rem; border-top: 1px solid var(--rule); padding-top: 
 .cite .pop { display: none; }
 .cite:hover .pop:not(:empty), .cite:focus-within .pop:not(:empty) {
   display: block; position: absolute; z-index: 20; left: 0; top: 1.3em; width: min(30rem, 86vw);
-  white-space: normal; font: .85rem/1.45 Georgia, serif; background: var(--pop-bg);
+  white-space: normal; font: .85rem/1.45 var(--sans); background: var(--pop-bg);
   border: 1px solid var(--rule); box-shadow: 0 6px 24px rgb(0 0 0 / .18); padding: .5rem;
 }
 .popcard img { width: 100%; height: auto; display: block; }
@@ -221,3 +230,14 @@ ul.errata > li p { margin: .2rem 0; }
 ul.toollist details { font-size: .88rem; }
 ul.toollist details ul { columns: 2 14rem; }
 .repair-cat h2 { font-size: 1.15rem; }
+
+/* Site name in the "Helvetica Diagonal" style: heavy, uppercase, steep oblique.
+   Heros has no black weight, so a thin text stroke makes the bold heavier. */
+.brand, .brandmark {
+  font-family: var(--sans); font-weight: 700; font-style: italic; text-transform: uppercase;
+  letter-spacing: -.02em; -webkit-text-stroke: .035em currentColor;
+  display: inline-block; transform: skewX(-7deg) scaleX(1.06); transform-origin: left center;
+}
+header.site .brand { font-size: 1.15rem; text-decoration: none; }
+h1.brandmark { font-size: 2.3rem; }
+h1, h2, h3, h4 { font-weight: 700; }

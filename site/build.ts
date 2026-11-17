@@ -1,6 +1,6 @@
 // Static site generator. Reads data/ and doc/, validates citations, writes dist/.
 // `node site/build.ts --check` validates only and writes nothing.
-import { copyFileSync, mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
+import { copyFileSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import YAML from "yaml";
 import { dirname, join } from "node:path";
 import type { BookChapter, BookSection, Cite, Diagram, Figure, Operation, Part, Section, Step, Task } from "./lib/data.ts";
@@ -405,7 +405,7 @@ ${groups}`);
 // ---------- home ----------
 function pageHome(): string {
   const frequent = ["engine-oil-and-filter", "drive-chain-adjust", "air-filter", "valve-clearance", "balancer-chain-tensioner", "c11-tire-removal", "c14-front-brake-pads", "coolant-replace", "spark-plug"].filter((o) => data.ops.has(o));
-  return layout("Home", "home", `<h1>KLR Service Explorer</h1>
+  return layout("Home", "home", `<h1 class="brandmark">KLR Service Explorer</h1>
 <p class="lede">Service and repair procedures for the Kawasaki KLR650, first generation (KL650A). Values are set for a 2006 model.</p>
 <form class="home-search" action="/search.html"><input type="search" name="q" placeholder="Find a procedure, a part or a torque value" aria-label="Search"></form>
 <ul class="cards">
@@ -490,4 +490,6 @@ write("verify.html", pageVerify());
 mkdirSync(join(DIST, "assets"), { recursive: true });
 copyFileSync(join(ROOT, "node_modules", "htmx.org", "dist", "htmx.min.js"), join(DIST, "assets", "htmx.min.js"));
 copyFileSync(join(ROOT, "site", "static", "style.css"), join(DIST, "assets", "style.css"));
+mkdirSync(join(DIST, "assets", "fonts"), { recursive: true });
+for (const f of readdirSync(join(ROOT, "site", "static", "fonts"))) copyFileSync(join(ROOT, "site", "static", "fonts", f), join(DIST, "assets", "fonts", f));
 console.log(`Built ${data.ops.size} procedures, ${sections.size} sections, ${toolIndex.size} tools, ${data.tables.size} spec tables. ${data.warnings.length} warnings, ${misses.length} number misses.`);
