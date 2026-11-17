@@ -248,3 +248,14 @@ header.site { column-gap: 1.6rem; }
 h1.brandmark { font-size: 2.3rem; }
 h1, h2, h3, h4 { font-weight: 700; }
 ul.subs li.warn { color: var(--fg); } ul.subs li.warn .lbl { color: var(--accent); }
+
+/* Tool variants: chips for sizes, a compact table for values */
+.chips { display: inline-flex; flex-wrap: wrap; gap: .25rem; vertical-align: middle; }
+.chip { font-size: .82rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0 .4rem; background: var(--bg); }
+table.vals { width: auto; max-width: 100%; margin: .3rem 0 .5rem; font-size: .84rem; }
+table.vals th, table.vals td { padding: .12rem .6rem .12rem 0; border-bottom: 1px solid var(--rule); }
+table.vals thead th { color: var(--muted); font-weight: 600; }
+table.vals th[scope="row"] { font-weight: 400; }
+details.vals { margin: .2rem 0 .4rem; font-size: .88rem; }
+details.vals > summary { cursor: pointer; color: var(--link); }
+ul.tools > li { margin: .25rem 0; }

@@ -284,10 +284,7 @@ function isToolPart(p: Part): boolean {
 }
 const plain = (html: string) => html.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
 // A spec row as a variant label, for example "new 0.10-0.20 (0.004-0.008): Valve clearance, Intake".
-const specVariant = (ref: string): string | undefined => {
-  const h = findSpec(data, ref);
-  return h ? `${plain(specValue(h.row, h.table.kind))}: ${h.row.group ? `${h.row.group}, ` : ""}${h.row.item}` : undefined;
-};
+const specVariant = (ref: string): string | undefined => (findSpec(data, ref) ? `spec:${ref}` : undefined);
 function toolsFor(op: Operation): ToolUse[] {
   const found = new Map<string, ToolUse>();
   const add = (id: string, name: string, group: string, why: string) => {
@@ -331,6 +328,25 @@ function toolsFor(op: Operation): ToolUse[] {
   return [...found.values()].sort((a, b) => toolGroups.indexOf(a.group) - toolGroups.indexOf(b.group) || a.name.localeCompare(b.name));
 }
 const sortVariants = (vs: string[]) => vs.sort((a, b) => (parseFloat(a) || 1e9) - (parseFloat(b) || 1e9) || a.localeCompare(b));
+// Variants: sizes and types as chips; values to measure as a table, folded
+// into an expandable section when there are more than `fold` rows.
+function variantsHtml(variants: Map<string, Set<string>>, fold: number): string {
+  const keys = [...variants.keys()];
+  const sizes = sortVariants(keys.filter((k) => !k.startsWith("spec:")));
+  const rows = keys.filter((k) => k.startsWith("spec:")).map((k) => ({ k, hit: findSpec(data, k.slice(5))! })).filter((r) => r.hit)
+    .map(({ k, hit }) => ({ k, label: `${hit.row.group ? `${hit.row.group}, ` : ""}${hit.row.item}`, row: hit.row, table: hit.table }))
+    .sort((a, b) => a.label.localeCompare(b.label));
+  const opsTitle = (k: string) => esc([...variants.get(k)!].join(", "));
+  let html = sizes.length ? `<p class="variants"><span class="lbl">Sizes and types:</span> <span class="chips">${sizes.map((v) => `<span class="chip" title="${opsTitle(v)}">${esc(v)}</span>`).join("")}</span></p>` : "";
+  if (rows.length) {
+    const limits = rows.some((r) => r.row.std !== undefined || r.row.limit !== undefined);
+    const head = limits ? "<tr><th>Measurement</th><th>New</th><th>Limit</th></tr>" : "<tr><th>Measurement</th><th>Value</th></tr>";
+    const body = rows.map((r) => `<tr title="${opsTitle(r.k)}"><th scope="row">${esc(r.label)}</th>${limits ? `<td>${esc(r.row.std ?? r.row.value ?? "")}</td><td>${esc(r.row.limit ?? "")}</td>` : `<td>${plain(specValue(r.row, r.table.kind))}</td>`}</tr>`).join("");
+    const table = `<table class="vals"><thead>${head}</thead><tbody>${body}</tbody></table>`;
+    html += rows.length > fold ? `<details class="vals"><summary>Values to measure (${rows.length})</summary>${table}</details>` : `<p class="variants"><span class="lbl">Values to measure:</span></p>${table}`;
+  }
+  return html;
+}
 const toolIndex = new Map<string, ToolUse & { ops: Operation[] }>();
 for (const op of data.ops.values())
   for (const t of toolsFor(op)) {
@@ -353,7 +369,7 @@ const subNotes = (kind: "tool" | "part", key: string, opId?: string): string => 
 const toolsBox = (op: Operation): string => {
   const ts = toolsFor(op);
   if (!ts.length) return "";
-  return `<section class="box"><h3>Tools</h3><ul class="tools">${ts.map((t) => `<li><a href="/tools.html#tool-${t.id}" title="${esc(t.why[0])}">${esc(t.name)}</a>${t.variants.size ? `: <span class="variants">${esc(sortVariants([...t.variants.keys()]).join("; "))}</span>` : ""}${subNotes("tool", t.id, op.id)}</li>`).join("")}</ul></section>`;
+  return `<section class="box"><h3>Tools</h3><ul class="tools">${ts.map((t) => `<li><a href="/tools.html#tool-${t.id}" title="${esc(t.why[0])}">${esc(t.name)}</a>${variantsHtml(t.variants, 3)}${subNotes("tool", t.id, op.id)}</li>`).join("")}</ul></section>`;
 };
 
 // ---------- full reference (book) ----------
@@ -446,7 +462,7 @@ function pageTools(): string {
   const groups = toolGroups.map((g) => {
     const list = [...toolIndex.values()].filter((t) => t.group === g).sort((a, b) => b.ops.length - a.ops.length || a.name.localeCompare(b.name));
     if (!list.length) return "";
-    return `<section><h2>${esc(g)}</h2><ul class="checklist toollist">${list.map((t) => `<li id="tool-${t.id}" data-key="tool:${t.id}" data-search="${esc(`${t.name} ${t.ops.map((o) => o.title).join(" ")}`.toLowerCase())}"><input type="checkbox" data-done-key="tool:${t.id}" aria-label="I have: ${esc(t.name)}"> <span class="name">${esc(t.name)}</span> <span class="meta">${t.ops.length} procedure${t.ops.length === 1 ? "" : "s"}</span>${g === KAW ? `<p class="meta">${esc(t.why[0])}</p>` : ""}${t.variants.size ? `<p class="variants"><span class="lbl">Sizes and values needed:</span> ${sortVariants([...t.variants.keys()]).map((v) => `<span title="${esc([...t.variants.get(v)!].join(", "))}">${esc(v)}</span>`).join("; ")}</p>` : ""}${subNotes("tool", t.id)}<details><summary>Used in</summary><ul>${t.ops.map((o) => `<li>${opLink(o.id)}</li>`).join("")}</ul></details></li>`).join("")}</ul></section>`;
+    return `<section><h2>${esc(g)}</h2><ul class="checklist toollist">${list.map((t) => `<li id="tool-${t.id}" data-key="tool:${t.id}" data-search="${esc(`${t.name} ${t.ops.map((o) => o.title).join(" ")}`.toLowerCase())}"><input type="checkbox" data-done-key="tool:${t.id}" aria-label="I have: ${esc(t.name)}"> <span class="name">${esc(t.name)}</span> <span class="meta">${t.ops.length} procedure${t.ops.length === 1 ? "" : "s"}</span>${g === KAW ? `<p class="meta">${esc(t.why[0])}</p>` : ""}${variantsHtml(t.variants, 4)}${subNotes("tool", t.id)}<details><summary>Used in</summary><ul>${t.ops.map((o) => `<li>${opLink(o.id)}</li>`).join("")}</ul></details></li>`).join("")}</ul></section>`;
   }).join("");
   return layout("Tool list", "tools", `<h1>Tool list</h1>
 <p>Each tool that a procedure names, with the procedures that use it. Tick the tools that you have. This browser keeps the ticks.</p>
