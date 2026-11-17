@@ -1,0 +1,40 @@
+chapter: 10
+title: "Cooling System"
+sections:
+  - id: safety-precautions
+    title: "Safety precautions"
+    pages: [235, 236]
+    summary:
+      - {t: "This chapter gives the service procedures for the radiator, fan, fan switch, thermostat, water temperature sending unit and water pump.", cite: {p: 235}}
+      - {t: "Do not remove the radiator cap when the engine is hot. The coolant is under pressure and can cause injury.", cite: {p: 235}}
+      - {t: "Always use an antifreeze solution. Antifreeze has lubricants and rust inhibitors that protect the cooling system parts. Replace the coolant at the intervals in Chapter Three.", cite: {p: 236}}
+    ops: [c10-radiator-cap-removal]
+  - id: radiator-and-fan
+    title: "Radiator and fan"
+    pages: [235, 237]
+    summary:
+      - {t: "The motorcycle has one radiator and a fan that the fan switch and the fan relay control. Hot coolant goes from the engine to the radiator through the upper hose. The coolant returns to the engine through the lower hose.", cite: {p: 236}}
+      - {t: "The fan switch is at the bottom of the radiator. It turns the fan on when the coolant temperature is 94-100° C (201-212° F). The fan stops when the coolant temperature is less than 91° C (196° F).", cite: {p: 236}}
+    ops: [c10-fan-removal, c10-radiator-removal, c10-radiator-inspection]
+  - id: thermostat
+    title: "Thermostat"
+    pages: [237, 238]
+    summary:
+      - {t: "The thermostat is in a housing on the right side of the cylinder head. It is a valve that opens and closes with the coolant temperature in the cylinder head.", cite: {p: 237}}
+      - {t: "At startup the thermostat is closed and keeps the coolant in the water jackets. When the coolant gets hot, the thermostat opens and lets the coolant go to the radiator.", cite: {p: 237}}
+      - {t: "Do not remove the thermostat to get more engine performance. The engine needs the thermostat to keep the correct heat around the cylinder and cylinder head.", cite: {p: 237}}
+    ops: [c10-thermostat-removal]
+  - id: water-temperature-sending-unit
+    title: "Water temperature sending unit"
+    pages: [238, 238]
+    summary:
+      - {t: "The water temperature sending unit is on top of the cylinder head. It sends an electrical signal to the water temperature gauge.", cite: {p: 238}}
+      - {t: "When the coolant is cold, the sending unit has high resistance and the gauge shows a cold reading. When the coolant gets hot, the resistance goes down and the gauge shows a hotter reading.", cite: {p: 238}}
+    ops: [c10-sending-unit-removal]
+  - id: water-pump
+    title: "Water pump"
+    pages: [239, 241]
+    summary:
+      - {t: "The water pump is in the right crankcase cover. To examine the impeller, the mechanical seal or the cover, remove the water pump cover. You do not have to remove the right crankcase cover.", cite: {p: 239}}
+      - {t: "The inspection hole at the bottom of the case shows seal leaks. Water at the hole means that the mechanical seal leaks. Oil at the hole means that the oil seal leaks.", cite: {p: 239}}
+    ops: [c10-water-pump-removal, c10-water-pump-seal-replacement]
