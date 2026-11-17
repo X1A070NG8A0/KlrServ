@@ -165,11 +165,14 @@ const figFor = (chapter: number | undefined, n: number): Figure | undefined => d
 const photo = (f: Figure) => `<figure class="photo"><img src="/${f.file}" alt="Clymer Chapter ${f.chapter} figure ${f.n}" loading="lazy"><figcaption>Clymer fig. ${f.chapter}-${f.n}</figcaption></figure>`;
 
 // ---------- diagrams (HTML-native: SVG plus an ordered legend) ----------
+const shownDiagrams = new Set<string>(); // reset for each procedure: a diagram shows once, later steps link to it
 function diagramHtml(d: Diagram): string {
+  if (shownDiagrams.has(d.id)) return `<p class="see"><a href="#diag-${d.id}">${esc(d.title)}: see the diagram above</a></p>`;
+  shownDiagrams.add(d.id);
   const shapes = (d.shapes ?? []).map((s) => `<rect x="${s.x}" y="${s.y}" width="${s.w}" height="${s.h}" rx="3" class="outline"/>${s.label ? `<text x="${s.x + s.w / 2}" y="${s.y + s.h + 6}" text-anchor="middle" class="cap">${esc(s.label)}</text>` : ""}`).join("");
   const pts = d.points.map((p) => `<g class="pt"><title>${esc(p.n)}: ${esc(p.label)}</title><circle cx="${p.x}" cy="${p.y}" r="${p.n.length > 2 ? 6 : 4.2}"/><text x="${p.x}" y="${p.y + 1.6}" text-anchor="middle">${esc(p.n)}</text></g>`).join("");
   const legend = d.points.map((p) => `<li><b>${esc(p.n)}</b> ${esc(p.label)}</li>`).join("");
-  return `<figure class="diagram"><svg viewBox="0 0 100 100" role="img" aria-label="${esc(d.title)}">${shapes}${pts}</svg><figcaption><b>${esc(d.title)}</b>${d.note ? ` ${esc(d.note)}` : ""}<ol class="legend">${legend}</ol><span class="src">${esc(srcLabel(data, d.cite))}</span></figcaption></figure>`;
+  return `<figure class="diagram" id="diag-${d.id}"><svg viewBox="0 0 100 100" role="img" aria-label="${esc(d.title)}">${shapes}${pts}</svg><figcaption><b>${esc(d.title)}</b>${d.note ? ` ${esc(d.note)}` : ""}<ol class="legend">${legend}</ol><span class="src">${esc(srcLabel(data, d.cite))}</span></figcaption></figure>`;
 }
 
 // ---------- steps and operations ----------
@@ -187,7 +190,7 @@ function stepHtml(st: Step, src: string, chapter?: number): string {
   return `<li${kind} title="${esc(srcLabel(data, st.cite, src))}"><p>${label}${esc(st.t)}${external}${deps ? ` <span class="deps">${deps}</span>` : ""}</p>${conflict}${gap}${diag}${figs ? `<div class="figs">${figs}</div>` : ""}</li>`;
 }
 const sectionsHtml = (secs: Section[], src: string, chapter?: number) =>
-  secs.map((s) => `${s.title ? `<h3>${esc(s.title)}</h3>` : ""}<ol class="steps">${s.steps.map((st) => stepHtml(st, src, chapter)).join("")}</ol>`).join("");
+  (shownDiagrams.clear(), secs).map((s) => `${s.title ? `<h3>${esc(s.title)}</h3>` : ""}<ol class="steps">${s.steps.map((st) => stepHtml(st, src, chapter)).join("")}</ol>`).join("");
 
 function partsHtml(parts: Part[], src: string, check?: string): string {
   const groups: [Part["replace"], string][] = [["always", "Replace"], ["inspect", "Replace if worn or damaged"], ["consumable", "Consumables"]];
