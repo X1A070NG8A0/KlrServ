@@ -23,10 +23,10 @@ chapters:
   issues: done
 after_writers:
   - Rebuild (npm run build), update README, check the site in the browser.
-review:   # drawing-only values: read from the page image, recreate as an HTML diagram, set image_checked
-  - "ch4 fig 25: camshaft cap bolt tightening sequence (PDF p99, p102)"
-  - "ch4 fig 49: cylinder head bolt and nut tightening sequence (PDF p106-107)"
-  - "ch4 figs 22-24: camshaft timing mark layout (PDF p97-98)"
-  - "ch5: rear balancer shaft snap ring sharp edge, p133 says faces in, p136 says faces out (writer followed p136); compare page images"
-  - "ch7 p178: later output shaft 2nd gear dog recess direction, text contradicts itself; read fig 36 / page image and fill the gap"
-  - "ch1 p25: torque adapter formula rebuilt from the worked example (TW = TA x L / (L + A)); compare with the page image"
+review:   # drawing-only and disputed readings; resolved items keep their result
+  - "DONE ch4 fig 25: camshaft cap bolt sequence read from p99, recreated as diagram c04-camshaft-cap-sequence"
+  - "DONE ch4 fig 49: cylinder head sequence read from p107, recreated as diagram c04-head-torque-sequence"
+  - "DONE ch4 figs 22-24: timing marks; the steps give the text rules (arrows forward, marks parallel to the head top edge)"
+  - "DONE ch5: rear balancer shaft snap ring, Clymer contradicts itself (p133 in, p136 out); shown as conflict plus gap"
+  - "DONE ch7 p178: second gear recesses face in = toward the middle of the shaft, away from the splined end; gap removed"
+  - "DONE ch1 p25: torque adapter formula TW = TA x L / (L + A) matches the text layer, the variable definitions and the worked example"

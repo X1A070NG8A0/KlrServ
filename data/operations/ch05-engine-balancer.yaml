@@ -130,7 +130,9 @@ operations:
           - {t: "Make sure that all sprocket alignments are correct. Move any sprocket that is not aligned at top dead center.", cite: {p: 136}}
       - title: "Snap rings, cam chain and guides"
         steps:
-          - {t: "Install the washer and a new snap ring on the rear balancer shaft. Install the snap ring so that the sharp edge faces out.", cite: {p: 136}}
+          - {t: "Install the washer and a new snap ring on the rear balancer shaft. Install the snap ring so that the sharp edge faces out.", cite: {p: 136},
+             gap: "Clymer gives two directions for this snap ring. No other source in this wiki gives the direction.",
+             conflict: {note: "The rear shaft inspection steps in Clymer give the opposite direction for the snap ring on the right end of the rear shaft.", others: [{t: "Install the snap ring on the right end of the rear shaft so that the sharp edge faces in, toward the balancer weight.", cite: {s: clymer, p: 133}}]}}
           - {t: "Install a new snap ring on the front balancer shaft. Install the snap ring so that the sharp edge faces in.", cite: {p: 136}}
           - {t: "Engage the cam chain with the crankshaft sprocket. Put the chain toward the top of the engine.", cite: {p: 136}}
           - {t: "Use wire to hold the cam chain and to decrease the slack.", cite: {p: 136}}
