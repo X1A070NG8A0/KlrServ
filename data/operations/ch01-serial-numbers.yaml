@@ -12,4 +12,4 @@ operations:
           - {t: "Find the frame number also on the sticker on the front frame tube, next to the radiator.", cite: {p: 17}, figs: [3]}
           - {t: "Find the engine number stamped on the right crankcase, below the exhaust pipe.", cite: {p: 17}, figs: [4]}
           - {t: "Record the numbers. Have the numbers available when you order parts.", cite: {p: 17}}
-          - {kind: note, t: "The model code for a 2006 motorcycle is KL650-A20. Table 1 does not give a starting frame serial number for this year.", cite: {p: 39}}
+          - {kind: note, t: "The model code for a 2006 motorcycle is KL650-A20.", cite: {p: 39}}

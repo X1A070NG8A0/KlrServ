@@ -67,7 +67,7 @@ sections:
       - {t: "The frame and the engine have stamped serial numbers. Record them in the Quick Reference Data section at the front of the manual. Have them available when you order parts.", cite: {p: 17}}
       - {t: "The frame number is on a decal and stamped on the frame at the steering head. It is also on a sticker on the front frame tube, next to the radiator.", cite: {p: 17}}
       - {t: "The engine number is stamped on the right crankcase, below the exhaust pipe.", cite: {p: 17}}
-      - {t: "The model code for 2006 is KL650-A20. Table 1 does not give a starting frame serial number for 2006.", cite: {p: 39}}
+      - {t: "The model code for 2006 is KL650-A20.", cite: {p: 39}}
     ops: [c01-find-serial-numbers]
   - id: fasteners
     title: "Fasteners"

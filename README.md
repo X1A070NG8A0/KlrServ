@@ -81,4 +81,3 @@ The KLR600 OCR also needs Tesseract.
 ## Known limits
 
 - 37 figures that a step cites have no crop. For these, no region was found, or the region does not show its circled number. The step names the figure. `labels-corners.yaml` holds the numbers that were read by eye from widened corners. Each of those labels matches a step on the same page or the next page that cites that figure.
-- No source in `doc/` gives the first 2006 frame number. Clymer Table 1 gives the model code (KL650-A20). The frame number table in the Kawasaki supplement stops at 2002 (KL650-A16).
