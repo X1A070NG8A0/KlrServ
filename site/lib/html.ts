@@ -31,7 +31,6 @@ export function layout(title: string, nav: Nav, body: string): string {
     ${link("book", "/book/", "Full reference")}
     ${link("tools", "/tools.html", "Tool list")}
   </nav>
-  <span class="bike" title="Values for this model year are highlighted">KLR650 · 2006</span>
 </header>
 <main>
 ${body}
