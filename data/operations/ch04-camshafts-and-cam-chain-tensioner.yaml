@@ -1,0 +1,217 @@
+operations:
+  - id: c04-camshaft-removal
+    title: "Camshaft and cam chain tensioner removal"
+    system: "Engine top end"
+    source: clymer
+    chapter: 4
+    section: "04/camshafts-and-cam-chain-tensioner"
+    summary: {t: "This procedure removes the cam chain tensioner, the camshaft caps and the camshafts with the engine in the frame. Remove the camshafts for a valve clearance adjustment only if the valve clearance is not correct.", cite: {p: 95}}
+    parts:
+      - {name: "Cam chain tensioner gasket", replace: always, cite: {p: 99}, note: "Install a new gasket when you install the tensioner."}
+      - {name: "Camshaft cap dowels", replace: inspect, cite: {p: 96}, note: "Each cap has two dowels. Keep them with their caps."}
+    sections:
+      - steps:
+          - {t: "Remove the cylinder head cover.", cite: {p: 95}, op: c04-cylinder-head-cover}
+          - {t: "Remove the timing plug and the rotor nut plug.", cite: {p: 95}, figs: [13]}
+          - {t: "Put a socket on the rotor nut. Turn the crankshaft counterclockwise until the T mark on the rotor aligns with the index mark in the timing hole. The engine is at TDC (top dead center).", cite: {p: 95}, figs: [14]}
+          - {t: "Make sure that the engine is at TDC. All the camshaft lobes must point away from the center of the engine.", cite: {p: 95}, figs: [15]}
+          - {t: "If the lobes point toward the center of the engine, turn the crankshaft one full turn. Align the T mark again.", cite: {p: 95}}
+          - {kind: note, t: "Before you disassemble more parts, measure and record the valve clearance of all valves. You can then adjust incorrect clearances during assembly. You do not remove the camshafts a second time.", cite: {p: 95}, op: valve-clearance}
+          - {t: "Loosen the center bolt of the cam chain tensioner. Do not remove it.", cite: {p: 95}, figs: [16]}
+          - {t: "Remove the top and bottom bolts of the tensioner.", cite: {p: 95}, figs: [16]}
+          - {t: "Remove the tensioner and the gasket.", cite: {p: 95}, figs: [16]}
+          - {kind: caution, t: "If you loosen the tensioner mounting bolts, you must remove the tensioner completely and reset it. Do not remove the bolts partially and tighten them again. The ratchet plunger extends and locks. If you tighten the bolts again, the cam chain and tensioner are too tight. The engine can have damage when it operates.", cite: {p: 96}}
+          - {kind: caution, t: "Do not turn the crankshaft when the tensioner is removed. The extra slack in the cam chain can change the camshaft timing. The engine can have damage when it operates.", cite: {p: 96}}
+          - {t: "Put clean shop cloths around the cam chain and in the cam chain tunnel. This prevents parts and debris from going into the engine.", cite: {p: 96}, figs: [17]}
+          - {kind: note, t: "The tunnel goes to the left end of the crankshaft in the left crankcase cover. Parts that fall into the tunnel do not go into the crankcase.", cite: {p: 96}}
+          - {t: "Loosen the eight camshaft cap bolts equally in several passes.", cite: {p: 96}, figs: [17]}
+          - {t: "Remove the bolt and cap sets from the right intake and exhaust valves. Raise the caps straight up and slowly.", cite: {p: 96}, figs: [17]}
+          - {t: "Keep the two dowels from under each cap. The dowels can be loose and fall from the cap. If a dowel is tight in the cap or the cylinder head, you can leave it in position.", cite: {p: 96}}
+          - {t: "Keep all sets of parts identified.", cite: {p: 96}}
+          - {kind: caution, t: "If the caps are tight, tap them lightly with a small soft mallet. Do not pry on the caps. This can damage the machined surfaces. Make sure that all caps have a mark for their position in the cylinder head.", cite: {p: 96}}
+          - {t: "Remove the bolt and cap sets from the left intake and exhaust valves. The oil supply pipe joins the two caps. Raise both caps straight up and slowly.", cite: {p: 96}}
+          - {t: "Keep the two dowels from under each cap and keep all sets of parts identified.", cite: {p: 96}}
+          - {t: "On 1996-on models, make sure that the cam chain tunnel has clean shop cloths in it.", cite: {p: 96}}
+          - {t: "On 1996-on models, loosen the three bolts that hold the upper cam chain guide.", cite: {p: 96}, figs: [18]}
+          - {t: "On 1996-on models, remove the single bolt on the inside of the guide.", cite: {p: 96}}
+          - {t: "On 1996-on models, remove the guide and the two remaining bolts from the engine.", cite: {p: 96}, figs: [19]}
+          - {t: "Attach a length of wire to the cam chain. Secure the wire so that the chain cannot fall into the engine when you remove the camshafts.", cite: {p: 96}, figs: [20]}
+          - {kind: note, t: "If you must turn the crankshaft while the cam chain is loose, keep tension on the chain. This prevents the chain from binding at the crankshaft sprocket.", cite: {p: 97}}
+          - {t: "Lift both camshafts out of the cylinder head. You do not have to remove the shims or the valve lifters.", cite: {p: 97}, figs: [21]}
+          - {t: "Make sure that the cylinder head openings are covered. This prevents parts and debris from going into the engine.", cite: {p: 97}}
+          - {t: "Examine the camshafts, the caps and the cam chain tensioner.", cite: {p: 97}, op: c04-camshaft-inspection}
+          - {t: "Reset the cam chain tensioner before you install it.", cite: {p: 97}, op: c04-cam-chain-tensioner-inspection}
+          - {t: "To examine the cam chain, refer to the chapter on the engine. You cannot remove the chain from the engine, but you can do a partial examination.", cite: {p: 97}, ref: "05/cam-chain-and-lower-guide"}
+
+  - id: c04-camshaft-installation
+    title: "Camshaft and cam chain tensioner installation"
+    system: "Engine top end"
+    source: clymer
+    chapter: 4
+    section: "04/camshafts-and-cam-chain-tensioner"
+    summary: {t: "This procedure installs and times the camshafts, the upper cam chain guide, the camshaft caps and the cam chain tensioner.", cite: {p: 97}}
+    spec_refs: ["top-end-torque:Camshaft cap bolts", "top-end-torque:Upper chain guide/Outer bolts", "top-end-torque:Upper chain guide/Inner bolt"]
+    parts:
+      - {name: "Cam chain tensioner gasket", replace: always, cite: {p: 99}}
+      - {name: "Engine oil", replace: consumable, cite: {p: 97}, note: "Lubricate the parts with engine oil during assembly."}
+      - {name: "Threadlocking compound", replace: consumable, cite: {p: 98}}
+    sections:
+      - title: "Preparation"
+        steps:
+          - {t: "Adjust all valves that are not in specification. If the valves were reconditioned, install the original shims.", cite: {p: 97}, op: valve-clearance}
+          - {kind: note, t: "Measure the valve clearance again after you install the camshafts. It is possible that you must remove the camshafts a second time to set the valves correctly.", cite: {p: 97}}
+          - {t: "Make sure that the cam chain tensioner is disassembled and reset.", cite: {p: 97}, op: c04-cam-chain-tensioner-inspection}
+          - {t: "Examine the cylinder head. Make sure that all surfaces are clean.", cite: {p: 97}}
+          - {t: "Remove all shop cloths from the cam chain tunnel.", cite: {p: 97}}
+          - {t: "Make sure that the engine is at TDC. If it is not, turn the crankshaft counterclockwise until the T mark on the rotor aligns with the index mark in the timing hole.", cite: {p: 97}, figs: [14]}
+          - {t: "Hold the engine at TDC while you install and time the camshafts.", cite: {p: 97}}
+      - title: "Camshaft timing"
+        steps:
+          - {t: "Identify the alignment marks on the exhaust camshaft sprocket.", cite: {p: 98}, figs: [23]}
+          - {t: "Pull up on the tension side (front side) of the cam chain. Install the exhaust camshaft (the camshaft with the compression release).", cite: {p: 98}, figs: [22]}
+          - {t: "Make sure that the shoulder at the left end of the camshaft seats in the cylinder head. Then seat the taut chain on the sprocket.", cite: {p: 98}}
+          - {t: "Make sure that the cam lobes point away from the center of the engine.", cite: {p: 98}}
+          - {t: "Make sure that the engine is still at TDC when the sprocket marks are aligned. If necessary, move the assembly to the correct position.", cite: {p: 98}}
+          - {t: "Identify the alignment marks on the intake camshaft sprocket.", cite: {p: 98}, figs: [23]}
+          - {t: "Keep the chain taut but seated on the exhaust cam sprocket. Install the intake camshaft.", cite: {p: 98}}
+          - {t: "Make sure that the shoulder at the left end of the camshaft seats in the cylinder head. Then seat the taut chain on the sprocket.", cite: {p: 98}}
+          - {t: "Make sure that the cam lobes point away from the center of the engine.", cite: {p: 98}}
+          - {t: "With the engine at TDC, make sure that the cam chain is taut at the front and across the cam sprockets.", cite: {p: 98}, figs: [24]}
+          - {kind: note, t: "The slack in the chain is at the rear, between the intake camshaft and the crankshaft sprocket. The cam chain tensioner takes up this slack.", cite: {p: 98}}
+          - {t: "Make sure that the arrows on both sprockets point forward.", cite: {p: 98}, figs: [24]}
+          - {t: "Make sure that the arrows and the alignment marks on both sprockets are parallel to the top edge of the cylinder head.", cite: {p: 98}, figs: [24]}
+      - title: "Upper cam chain guide (1996-on models)"
+        steps:
+          - {kind: note, t: "Install the guide before you install the camshaft caps. The oil pipe between the left caps prevents the installation of the guide.", cite: {p: 98}}
+          - {t: "Put the two long bolts into the outside holes in the guide.", cite: {p: 98}, figs: [19]}
+          - {t: "Lower the guide into the cam chain tunnel only far enough to start the bolts in their holes.", cite: {p: 98}}
+          - {t: "Tighten the bolts with a socket and an extension. Make sure that the socket and extension fit together tightly and cannot separate when you lower them into the tunnel.", cite: {p: 98}}
+          - {t: "Tighten the two outer bolts to the specified torque.", cite: {p: 98}, spec_ref: "top-end-torque:Upper chain guide/Outer bolts"}
+          - {t: "Put clean shop cloths in the cam chain tunnel to prevent parts from falling into the engine.", cite: {p: 98}}
+          - {t: "Apply threadlocking compound to the remaining guide bolt. Tighten the bolt to the specified torque.", cite: {p: 98}, spec_ref: "top-end-torque:Upper chain guide/Inner bolt", figs: [18]}
+      - title: "Camshaft caps"
+        steps:
+          - {t: "Install the dowels and the caps for the left intake and exhaust valves. The oil pipe joins the two caps. Lower both caps into position equally.", cite: {p: 99}, figs: [17]}
+          - {t: "Install the bolts and tighten them by hand.", cite: {p: 99}}
+          - {t: "Install the dowels and the caps for the right intake and exhaust valves. The arrows on the caps must point forward.", cite: {p: 99}}
+          - {t: "Install the bolts and tighten them by hand.", cite: {p: 99}}
+          - {t: "To seat the camshafts, lightly tighten bolts 1 and 2 on the left caps.", cite: {p: 99}, figs: [25]}
+          - {t: "For each camshaft, tighten the cap bolts in the numerical sequence in the figure. Do the work in several passes and increase the torque evenly on the caps.", cite: {p: 99}, figs: [25], spec_ref: "top-end-torque:Camshaft cap bolts"}
+          - {kind: caution, t: "Tighten the camshaft caps evenly. If you do not, the cylinder head, the camshafts or the caps can have damage.", cite: {p: 99}}
+          - {t: "Remove all shop cloths from the cylinder head.", cite: {p: 99}}
+      - title: "Cam chain tensioner"
+        steps:
+          - {t: "Turn the tensioner housing so that the arrow on the housing points down when you install it.", cite: {p: 99}, figs: [26]}
+          - {kind: note, t: "Later models also have a block cast into the housing.", cite: {p: 99}, figs: [26]}
+          - {t: "Install a new gasket, the housing, and the top and bottom bolts.", cite: {p: 99}, figs: [16]}
+          - {t: "Put the spring and the washer in position. Install and tighten the center bolt.", cite: {p: 99}, figs: [16]}
+          - {kind: caution, t: "If you loosen the tensioner mounting bolts for any reason, you must remove the tensioner completely and reset it. Do not remove the bolts partially and tighten them again. If you do, the cam chain and tensioner are too tight and the engine can have damage.", cite: {p: 99}}
+      - title: "Final checks"
+        steps:
+          - {t: "Turn the crankshaft slowly counterclockwise several times. Then put it at TDC.", cite: {p: 99}}
+          - {kind: caution, t: "If you feel abnormal resistance when you turn the crankshaft, stop. Make sure that the alignments are correct. Wrong alignment can cause damage to the engine.", cite: {p: 99}}
+          - {t: "Make sure that the camshaft sprocket arrows point forward and are parallel to the top edge of the cylinder head. If the camshafts are not aligned, disassemble the head and align the camshafts again.", cite: {p: 100}}
+          - {t: "Measure the valve clearances. If necessary, remove the camshafts and install the correct valve lifter shims.", cite: {p: 100}, op: valve-clearance}
+          - {t: "Install the timing plug and the rotor nut plug.", cite: {p: 100}}
+          - {t: "Install the cylinder head cover.", cite: {p: 100}, op: c04-cylinder-head-cover}
+
+  - id: c04-cam-chain-tensioner-inspection
+    title: "Cam chain tensioner inspection and reset"
+    system: "Engine top end"
+    source: clymer
+    chapter: 4
+    section: "04/camshafts-and-cam-chain-tensioner"
+    summary: {t: "The tensioner is a spring-loaded ratchet tensioner. When the chain wears, the plunger extends and locks against the back of the lower chain guide. This makes the chain tight again. The tensioner needs no routine maintenance, but you must reset it each time that you loosen or remove it.", cite: {p: 100}}
+    parts:
+      - {name: "Cam chain tensioner gasket", replace: always, cite: {p: 100}}
+    sections:
+      - steps:
+          - {t: "Remove the center bolt and disassemble the tensioner.", cite: {p: 100}, figs: [27]}
+          - {t: "Examine the parts for damage.", cite: {p: 100}}
+          - {t: "Install a new gasket when you install the tensioner.", cite: {p: 100}}
+          - {t: "Press and hold the ratchet release.", cite: {p: 100}, figs: [28]}
+          - {t: "Press the plunger into the tensioner housing until it seats.", cite: {p: 100}, figs: [28]}
+          - {t: "Do not install the spring, the washer and the bolt until you install the housing, install the camshafts and the chain, and time them.", cite: {p: 100}, op: c04-camshaft-installation}
+          - {kind: caution, t: "Do not remove the tensioner bolts partially and tighten them again. The plunger extends and locks. This makes the chain too tight and the engine can have damage.", cite: {p: 100}}
+
+  - id: c04-camshaft-inspection
+    title: "Camshaft and compression release inspection"
+    system: "Engine top end"
+    source: clymer
+    chapter: 4
+    section: "04/camshafts-and-cam-chain-tensioner"
+    summary: {t: "The compression release is at the right end of the exhaust camshaft. It opens the right exhaust valve a small amount during engine cranking, which makes starting easier. A centrifugal action disengages the release when the engine starts. Replace parts that have damage or are not in specification.", cite: {p: 100}}
+    spec_refs: ["top-end:Camshaft/Lobe height, intake", "top-end:Camshaft/Lobe height, exhaust", "top-end:Camshaft/Journal outside diameter"]
+    parts:
+      - {name: "Camshaft", replace: inspect, cite: {p: 100}}
+      - {name: "Camshaft sprockets and cam chain", replace: inspect, cite: {p: 101}, note: "If a sprocket is worn, replace both cam sprockets and the cam chain as a set."}
+      - {name: "Compression release spring", replace: inspect, cite: {p: 101}, note: "Replace the spring if it is fatigued."}
+    sections:
+      - steps:
+          - {t: "Clean the camshafts in solvent and dry them fully.", cite: {p: 100}}
+          - {t: "Examine the camshafts for scoring or other damage.", cite: {p: 100}}
+          - {t: "Measure the lobe height of the intake camshaft with a micrometer.", cite: {p: 100}, figs: [29], spec_ref: "top-end:Camshaft/Lobe height, intake"}
+          - {t: "Measure the lobe height of the exhaust camshaft with a micrometer.", cite: {p: 100}, figs: [29], spec_ref: "top-end:Camshaft/Lobe height, exhaust"}
+          - {t: "Measure the outside diameter of each camshaft journal, where the cap fits over the camshaft.", cite: {p: 101}, figs: [30], spec_ref: "top-end:Camshaft/Journal outside diameter"}
+          - {t: "Examine the teeth of the camshaft sprockets for wear or other damage. The profile of each tooth must be symmetrical.", cite: {p: 101}}
+          - {t: "If a sprocket is worn, replace both cam sprockets and the cam chain as a set. Also examine the crankshaft sprocket, the cam chain tensioner and the chain guides.", cite: {p: 101}}
+          - {t: "Examine the spring of the automatic compression release on the exhaust camshaft for damage.", cite: {p: 101}, figs: [31]}
+          - {t: "Turn the weights outward and examine the operation. The action must be smooth.", cite: {p: 101}}
+          - {t: "Release the weights. The spring must fully retract them. If it does not, replace the spring.", cite: {p: 101}}
+
+  - id: c04-camshaft-cap-inspection
+    title: "Camshaft cap and oil pipe inspection"
+    system: "Engine top end"
+    source: clymer
+    chapter: 4
+    section: "04/camshafts-and-cam-chain-tensioner"
+    summary: {t: "This procedure examines the camshaft caps, the oil pipe and the O-rings. A convenient time to replace the O-rings is during a valve adjustment, when the camshafts are removed.", cite: {p: 101}}
+    parts:
+      - {name: "Camshaft cap and cylinder head set", replace: inspect, cite: {p: 101}, note: "If the bearing surface of a cap or of the cylinder head has damage, replace the caps and the cylinder head as a set. They are available only as one part number."}
+      - {name: "Oil pipe O-rings", replace: inspect, cite: {p: 102}, note: "Replace the O-rings if the pipe is loose in the caps or if the O-rings have damage."}
+      - {name: "Engine oil", replace: consumable, cite: {p: 102}}
+    sections:
+      - steps:
+          - {t: "Clean the camshaft caps in solvent. Dry them with compressed air.", cite: {p: 101}}
+          - {t: "For the left intake and exhaust valve caps, pull the oil pipe out of the caps.", cite: {p: 101}}
+          - {t: "Do not cause damage to the bearing surfaces of the caps when you hold and examine them.", cite: {p: 101}}
+          - {t: "Make sure that all the oil passages are clean.", cite: {p: 101}, figs: [32]}
+          - {t: "Examine the bearing surface in each cap and the mating bearing in the cylinder head for scoring or damage.", cite: {p: 101}}
+          - {t: "If either part has damage, replace the caps and the cylinder head as a set.", cite: {p: 101}}
+          - {kind: note, t: "The caps are machined with the cylinder head. Their dimensions and alignments are unique to that cylinder head.", cite: {p: 101}}
+          - {t: "Examine the oil pipe and the O-rings of the left intake and exhaust valve caps. The O-ring in each cap holds and seals the pipe.", cite: {p: 101}, figs: [33]}
+          - {kind: note, t: "Leakage past the O-rings decreases the quantity of oil that gets to the exhaust camshaft.", cite: {p: 101}}
+          - {t: "Lubricate the ends of the oil pipe. Twist the pipe into the caps.", cite: {p: 102}}
+          - {t: "If the pipe is firm in both caps, you can use the O-rings again.", cite: {p: 102}}
+          - {t: "If the pipe is loose in the caps or the O-rings have damage, replace the O-rings. Use a small curved pick to remove them from the caps.", cite: {p: 102}}
+          - {t: "Lubricate the new O-rings before you install them.", cite: {p: 102}}
+          - {kind: caution, t: "Always lubricate the oil pipe and twist it into the caps. Do not push the pipe straight in. The O-rings can distort and roll out of the grooves.", cite: {p: 102}}
+
+  - id: c04-camshaft-oil-clearance
+    title: "Camshaft bearing oil clearance measurement"
+    system: "Engine top end"
+    source: clymer
+    chapter: 4
+    section: "04/camshafts-and-cam-chain-tensioner"
+    summary: {t: "This procedure uses a Plastigauge kit to measure the oil clearance between each camshaft and the cap bearing surface. You install the parts temporarily with a strip of Plastigauge under each cap.", cite: {p: 102}}
+    spec_refs: ["top-end:Camshaft/Bearing oil clearance", "top-end-torque:Camshaft cap bolts"]
+    parts:
+      - {name: "Plastigauge kit", replace: consumable, cite: {p: 102}}
+    sections:
+      - steps:
+          - {t: "Put clean shop cloths in the cam chain tunnel. This prevents parts from going into the engine.", cite: {p: 102}}
+          - {t: "Install the camshafts in the cylinder head. The compression release is on the exhaust camshaft.", cite: {p: 102}}
+          - {t: "Make sure that the shoulder at the left end of each camshaft seats in the head.", cite: {p: 102}}
+          - {t: "Turn the camshafts so that the cam lobes are horizontal and do not touch the valve lifters. You do not have to install the chain on the camshafts.", cite: {p: 102}}
+          - {t: "Put a strip of Plastigauge on each camshaft journal, parallel to the camshaft.", cite: {p: 102}}
+          - {t: "Install the cap and the dowels at each location. On the left journals, align the Plastigauge so that it touches a flat surface on the inside of the cap.", cite: {p: 102}}
+          - {t: "Tighten the cap bolts by hand.", cite: {p: 102}}
+          - {t: "To seat the camshafts, lightly tighten bolts 1 and 2 on the left caps.", cite: {p: 102}, figs: [25]}
+          - {t: "For each camshaft, tighten the cap bolts in the numerical sequence in the figure. Do the work in several passes and increase the torque evenly on the caps.", cite: {p: 102}, figs: [25], spec_ref: "top-end-torque:Camshaft cap bolts"}
+          - {kind: caution, t: "Tighten the camshaft caps evenly. If you do not, the cylinder head, the camshafts or the caps can have damage.", cite: {p: 102}}
+          - {kind: note, t: "Do not let the camshaft turn while the Plastigauge is between the parts.", cite: {p: 102}}
+          - {t: "Loosen the cap bolts equally in several passes.", cite: {p: 102}}
+          - {t: "Remove the caps, the dowels and the Plastigauge strips. Keep each strip with its cap.", cite: {p: 103}}
+          - {t: "Measure the width of each Plastigauge strip with the scale in the kit. This gives the oil clearance.", cite: {p: 103}, figs: [34], spec_ref: "top-end:Camshaft/Bearing oil clearance"}
+          - {t: "If the oil clearance is not in specification, measure the camshaft journal to find which parts are worn.", cite: {p: 103}, spec_ref: "top-end:Camshaft/Journal outside diameter"}
+          - {t: "Replace the camshaft, the cylinder head or, if necessary, both parts.", cite: {p: 103}}

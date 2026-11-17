@@ -14,8 +14,8 @@ chapters:
   9: done
   8: done
   10: done
-  4: in-progress
-  5: todo
+  4: done
+  5: in-progress
   6: todo
   7: todo
   2: todo
@@ -23,3 +23,7 @@ chapters:
   issues: todo   # data/issues/*.yaml rewrite in STE
 after_writers:
   - Rebuild (npm run build), update README, check the site in the browser.
+review:   # drawing-only values: read from the page image, recreate as an HTML diagram, set image_checked
+  - "ch4 fig 25: camshaft cap bolt tightening sequence (PDF p99, p102)"
+  - "ch4 fig 49: cylinder head bolt and nut tightening sequence (PDF p106-107)"
+  - "ch4 figs 22-24: camshaft timing mark layout (PDF p97-98)"
