@@ -57,6 +57,10 @@
   caption { text-align: left; font-weight: 600; padding: .3rem 0; }
   th, td { text-align: left; vertical-align: top; padding: .25rem .5rem; border-bottom: 1px solid var(--rule); }
   th[scope="row"] { font-weight: normal; }
+  /* Without JavaScript, the site is plain HTML. Hide the controls that need
+     JavaScript, and the text that only applies when it runs. */
+  list-filter:not(:defined), site-search:not(:defined) { display: none; }
+  body:has(check-list:not(:defined)) .ticks-hint { display: none; }
   input[type="search"] { width: 100%; font: inherit; padding: .4rem .6rem; border: 1px solid var(--rule); background: var(--bg); color: var(--fg); margin: .5rem 0 1rem; }
   .meta, .hint { color: var(--muted); font-size: .88rem; }
 }

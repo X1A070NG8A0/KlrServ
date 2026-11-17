@@ -1,7 +1,10 @@
 // @ts-check
 // <site-search> holds a search input and a results list. It loads
 // /search-index.json one time and shows the entries that contain each word.
-// A ?q= parameter in the address fills the input.
+// A ?q= parameter in the address fills the input. Without a results list
+// (the search form on the home page), it only shows the form.
+// The stylesheet hides this element until it is defined, so without
+// JavaScript no search box shows that cannot work.
 
 /** @typedef {{ k: string, t: string, x: string, u: string }} Entry */
 
@@ -13,7 +16,9 @@ class SiteSearch extends HTMLElement {
 
   async connectedCallback() {
     const input = this.querySelector("input");
-    if (!input) return;
+    // The element was hidden at load, so the browser did not apply autofocus.
+    if (input?.autofocus) input.focus();
+    if (!input || !this.querySelector("ol")) return;
     this.abort = new AbortController();
     const { signal } = this.abort;
     input.addEventListener("input", () => this.run(input.value), { signal });

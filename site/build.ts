@@ -425,7 +425,7 @@ function milestoneHtml(mi: number): string {
   const tasks = dueAt(mi);
   return `<section class="milestone"><h3>Service at ${mi.toLocaleString("en-US")} miles</h3>
   <check-list><ol class="due checklist">${tasks.map((t) => `<li><input type="checkbox" data-done-key="${mi}:task:${esc(t.task)}" aria-label="Done: ${esc(t.task)}"> <span class="name">${t.op ? opLink(t.op, t.task) : esc(t.task)}</span></li>`).join("")}</ol></check-list>
-  <p class="hint">Each procedure has its parts and tools. A ticked task moves to the bottom. This browser keeps the ticks.</p></section>`;
+  <p class="hint">Each procedure has its parts and tools. <span class="ticks-hint">A ticked task moves to the bottom. This browser keeps the ticks.</span></p></section>`;
 }
 function timelineSvg(current: number): string {
   const W = 760, x0 = 30, x1 = W - 20, max = MILESTONES[MILESTONES.length - 1];
@@ -477,7 +477,7 @@ function pageTools(): string {
     return `<section><h2>${esc(g)}</h2><check-list><ul class="checklist toollist">${list.map((t) => `<li id="tool-${t.id}" data-search="${esc(`${t.name} ${t.ops.map((o) => o.title).join(" ")}`.toLowerCase())}"><input type="checkbox" data-done-key="tool:${t.id}" aria-label="I have: ${esc(t.name)}"> <span class="name">${esc(t.name)}</span> <span class="meta">${t.ops.length} procedure${t.ops.length === 1 ? "" : "s"}</span>${g === KAW ? `<p class="meta">${esc(t.why[0])}</p>` : ""}${variantsHtml(t.variants, 4)}${subNotes("tool", t.id)}<details><summary>Used in</summary><ul>${t.ops.map((o) => `<li>${opLink(o.id)}</li>`).join("")}</ul></details></li>`).join("")}</ul></check-list></section>`;
   }).join("");
   return layout("Tool list", "tools", `<h1>Tool list</h1>
-<p>Each tool that a procedure names, with the procedures that use it. Tick the tools that you have. This browser keeps the ticks.</p>
+<p>Each tool that a procedure names, with the procedures that use it. Tick the tools that you have. <span class="ticks-hint">This browser keeps the ticks.</span></p>
 ${filterBox("ul.toollist > li", "Filter tools or jobs, for example micrometer, fork, tire")}
 ${groups}`);
 }
@@ -487,7 +487,7 @@ function pageHome(): string {
   const frequent = ["engine-oil-and-filter", "drive-chain-adjust", "air-filter", "valve-clearance", "balancer-chain-tensioner", "c11-tire-removal", "c14-front-brake-pads", "coolant-replace", "spark-plug"].filter((o) => data.ops.has(o));
   return layout("Home", "home", `<h1 class="brandmark">KLR Service Explorer</h1>
 <p class="lede">Service and repair procedures for the Kawasaki KLR650, first generation (KL650A). Values are set for a 2006 model.</p>
-<form class="home-search" action="/search.html"><input type="search" name="q" placeholder="Find a procedure, a part or a torque value" aria-label="Search"></form>
+<site-search><form class="home-search" action="/search.html"><input type="search" name="q" placeholder="Find a procedure, a part or a torque value" aria-label="Search"></form></site-search>
 <ul class="cards">
 <li><a href="/maintenance.html">Routine maintenance</a><span>The service schedule by mileage and time, with a checklist for each service.</span></li>
 <li><a href="/repairs.html">Common repairs</a><span>Flat tires, cables, brakes, bulbs, crash damage and other repairs off the schedule.</span></li>
@@ -564,7 +564,7 @@ write("specs.html", pageSpecs());
 write("figures.html", pageFigures());
 pagesIssues();
 pagesCommunity();
-write("search.html", layout("Search", "search", `<h1>Search</h1><site-search><input type="search" name="q" placeholder="For example front fork, drain plug, 23 N·m" aria-label="Search" autofocus><ol class="results"></ol></site-search>`));
+write("search.html", layout("Search", "search", `<h1>Search</h1><site-search><input type="search" name="q" placeholder="For example front fork, drain plug, 23 N·m" aria-label="Search" autofocus><ol class="results"></ol></site-search><noscript><p>Search needs JavaScript. Without it, use the chapter list in the <a href="/book/">Full reference</a>, the <a href="/specs.html">Specifications</a> or the <a href="/tools.html">Tool list</a>.</p></noscript>`));
 write("search-index.json", searchIndex());
 write("verify.html", pageVerify());
 mkdirSync(join(DIST, "assets"), { recursive: true });
