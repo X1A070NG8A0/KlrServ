@@ -17,8 +17,8 @@ chapters:
   4: done
   5: done
   6: done
-  7: in-progress
-  2: todo
+  7: done
+  2: in-progress
   1: todo
   issues: todo   # data/issues/*.yaml rewrite in STE
 after_writers:
@@ -28,3 +28,4 @@ review:   # drawing-only values: read from the page image, recreate as an HTML d
   - "ch4 fig 49: cylinder head bolt and nut tightening sequence (PDF p106-107)"
   - "ch4 figs 22-24: camshaft timing mark layout (PDF p97-98)"
   - "ch5: rear balancer shaft snap ring sharp edge, p133 says faces in, p136 says faces out (writer followed p136); compare page images"
+  - "ch7 p178: later output shaft 2nd gear dog recess direction, text contradicts itself; read fig 36 / page image and fill the gap"
