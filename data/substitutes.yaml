@@ -2,12 +2,14 @@
 # Each entry paraphrases a saved klr650.net post (ASD-STE100). `for.tool` is a
 # tool id from data/tools.yaml or kaw-57001-NNNN; `for.part` is a part name from
 # data/operations. `for.op` (optional) limits the note to one procedure.
+# `kind: warning` marks an owner warning about a substitute, not a recommendation.
 # Reviewed against the posts on 2026-11-17.
 substitutes:
   - for: {tool: kaw-57001-1184}
     t: "One owner makes a rotor holder from a 32mm open end wrench. He heats the handle and bends it to get around the rotor lip. He uses it to loosen the rotor bolt and to tighten it."
     cite: {s: forum, id: rotor-holder-necessary, post: 5}
   - for: {tool: kaw-57001-1184}
+    kind: warning
     t: "One forum member warns that a crowfoot with an extension and a ratchet has no good point to brace against and can come apart. He recommends a one-piece wrench braced on the footpeg."
     cite: {s: forum, id: poor-man-flywheel-wrench, post: 10}
   - for: {tool: holding-tool}
@@ -31,3 +33,79 @@ substitutes:
   - for: {tool: drift-punch, op: c12-steering-race-replacement}
     t: "One owner bent the tip of a large screwdriver over 90 degrees. He hooked it on the top edge of the outer race from the bottom. A helper tapped it down from the top."
     cite: {s: forum, id: steering-stem-bearing-adjustment, post: 36}
+  - for: {tool: valve-spring-compressor}
+    t: "One owner made a tool from a cylinder with a hole in the side for access to the keepers. He uses it with a C-clamp."
+    cite: {s: forum, id: valve-removal-tool, post: 4}
+  - for: {tool: valve-spring-compressor}
+    t: "One forum member uses a regular valve spring compressor and a magnet to remove the keepers."
+    cite: {s: forum, id: valve-removal-tool, post: 2}
+  - for: {tool: kaw-57001-910}
+    t: "Eagle Mike says to use all thread and a socket or two to install or remove the piston pin if it does not slide free."
+    cite: {s: forum, id: piston-pin-too-tight, post: 3}
+  - for: {tool: kaw-57001-1211}
+    t: "One forum member heats the piston and the rod end with a hair dryer or a heat gun before pin removal. The heat makes the holes a little larger."
+    cite: {s: forum, id: piston-pin-too-tight, post: 9}
+  - for: {tool: chain-tool}
+    t: "One owner broke the chain with a parallel pin punch and held a block of steel beside the pin. He closed the new pin with a ball-pein hammer. He says this is not a job for one person."
+    cite: {s: forum, id: chain-press-rivet-tool, post: 2}
+  - for: {tool: chain-tool}
+    t: "Forum members say that a clone of the D.I.D. tool breaks the chain, presses the master link and rivets it. They give a price of about 16 bucks."
+    cite: {s: forum, id: chain-press-rivet-tool, post: 3}
+  - for: {tool: fork-oil-gauge}
+    t: "One member uses a 20ml syringe with a short tube cut to length. He fills the fork too much and then sucks out oil down to the stated level."
+    cite: {s: forum, id: fork-oil-level-words, post: 14}
+  - for: {part: "Oil filter"}
+    t: "One owner compared the Hiflo Filtro HF123 with the K&N KN123 and found nearly the same parts. The K&N filter costs about twice as much and has more filter media."
+    cite: {s: forum, id: oil-filter-comparison, post: 1}
+  - for: {part: "Oil filter"}
+    t: "One forum member says the new NAPA Power Sport part number is PS4951."
+    cite: {s: forum, id: finding-oil-filters, post: 2}
+  - for: {part: "Engine oil filter"}
+    t: "One owner compared the Hiflo Filtro HF123 with the K&N KN123 and found nearly the same parts. The K&N filter costs about twice as much and has more filter media."
+    cite: {s: forum, id: oil-filter-comparison, post: 1}
+  - for: {part: "Engine oil filter"}
+    t: "One forum member says the new NAPA Power Sport part number is PS4951."
+    cite: {s: forum, id: finding-oil-filters, post: 2}
+  - for: {tool: truing-stand}
+    t: "One owner makes a truing stand from wood and clamps it in a bench vise. Two uprights with V notches hold the axle. A dial indicator or a bent wire shows the rim runout."
+    cite: {s: forum, id: truing-wheels, post: 4}
+  - for: {part: "Spark plug"}
+    t: "One forum member says the stock plug is the NGK dpr8ea-9. He says the NGK iridium plug is the dpr8eix-9."
+    cite: {s: forum, id: spark-plug-recommend, post: 3}
+  - for: {part: "Foam air filter"}
+    t: "One forum member lists these filters for all KLR650 years: UNI part NU-2378ST and TwinAir part 151602. Kawasaki OEM part is 16099-004."
+    cite: {s: forum, id: uni-air-filter-2022, post: 2}
+  - for: {part: "Foam air filter oil"}
+    t: "One forum member says the K&N oil tends to be too thin for a foam filter. He uses foam filter oil from another maker."
+    cite: {s: forum, id: air-filter-oil, post: 2}
+  - for: {part: "Foam air filter oil"}
+    t: "One owner uses PJ1 cleaner and Bel Ray foam filter oil. The oil is blue, so he can see the coverage."
+    cite: {s: forum, id: air-filter-oil, post: 4}
+  - for: {part: "Oil filter"}
+    t: "One forum member gives the HiFloFiltro part HF123 for all KLR650 years. The Kawasaki OEM part is 16099-004."
+    cite: {s: forum, id: uni-air-filter-2022, post: 2}
+  - for: {part: "Fork oil"}
+    t: "One owner uses Mobil 1 ATF for fork oil with good results. He says dirt bike riders used regular ATF for fork oil for years."
+    cite: {s: forum, id: fork-oil-change, post: 2}
+  - for: {part: "Brake pad set (per wheel)"}
+    t: "One owner uses EBC HH pads and Galfer pads in place of the OEM pads. He says he must bend the steel backing of the Galfer pads to make them fit the caliper."
+    cite: {s: forum, id: brake-pads-galfer-ebc-oem, post: 3}
+  - for: {tool: cooling-tester}
+    t: "One member finds radiator leaks with a regulated air source set to about 15 psi. He plugs one hose and blows air in the other with the cap on and the radiator under water. He looks for bubbles."
+    cite: {s: forum, id: radiator-coolant-issues, post: 3}
+  - for: {part: "Drive chain"}
+    t: "Eagle Mike quotes a KLR650 FAQ: any quality O-ring or X-ring chain is fine, for example the DID 520 VM gold. The size is 520 x 106 links. The manual specifies an endless chain, but most people run a clip-type master link with no problems."
+    cite: {s: forum, id: stock-chain-tooth-count, post: 2}
+  - for: {part: "Drive chain"}
+    t: "One owner buys the EK SRO 520X106 chain. He says the EK Screwstyle masterlink is an option if you do not have a riveting tool."
+    cite: {s: forum, id: best-chain, post: 5}
+  - for: {part: "Drive sprocket"}
+    t: "One owner recommends the OEM sprocket set. He says the OEM front sprocket has a rubber shoulder that quiets the chain. He likes the Sun front sprocket as an alternative."
+    cite: {s: forum, id: best-chain, post: 5}
+  - for: {part: "Driven sprocket"}
+    kind: warning
+    t: "One owner used a JT rear sprocket and saw visible hooking in less than 5K miles."
+    cite: {s: forum, id: best-chain, post: 7}
+  - for: {part: "Subframe mounting bolts"}
+    t: "One owner did the Eager Mike drill through bolt upgrade. He says the M10 bolt in that kit was hard to find at other sources."
+    cite: {s: forum, id: subframe-drill-through, post: 1}

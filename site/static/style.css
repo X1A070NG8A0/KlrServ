@@ -247,3 +247,4 @@ header.site .brand { font-size: 1.15rem; text-decoration: none; margin-right: 1.
 header.site { column-gap: 1.6rem; }
 h1.brandmark { font-size: 2.3rem; }
 h1, h2, h3, h4 { font-weight: 700; }
+ul.subs li.warn { color: var(--fg); } ul.subs li.warn .lbl { color: var(--accent); }

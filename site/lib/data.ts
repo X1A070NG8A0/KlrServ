@@ -19,7 +19,7 @@ export type Step = { t: string; kind?: "note" | "caution" | "warning"; cite: Cit
 export type DiagramPoint = { n: string; x: number; y: number; label: string };
 export type Diagram = { id: string; title: string; kind: string; cite: Cite; image_checked?: boolean; note?: string; shapes?: { kind: string; x: number; y: number; w: number; h: number; label?: string }[]; points: DiagramPoint[] };
 // A community-accepted substitute for a proprietary or unusual tool or part.
-export type Substitute = { for: { tool?: string; part?: string; op?: string }; t: string; cite: Cite };
+export type Substitute = { for: { tool?: string; part?: string; op?: string }; kind?: "warning"; t: string; cite: Cite };
 export type BookSection = { id: string; title: string; pages: [number, number]; summary?: { t: string; cite: Cite }[]; ops?: string[]; written: boolean };
 export type BookChapter = { n: number; title: string; pages: [number, number]; sections: BookSection[]; file?: string };
 export type Section = { title?: string; steps: Step[] };

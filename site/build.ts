@@ -348,7 +348,7 @@ for (const op of data.ops.values())
 const subNotes = (kind: "tool" | "part", key: string, opId?: string): string => {
   const list = data.substitutes.filter((x) => x.for[kind] === key && (!x.for.op || !opId || x.for.op === opId));
   const where = (x: (typeof list)[number]) => (!opId && x.for.op ? ` (for ${opLink(x.for.op)})` : "");
-  return list.length ? `<ul class="subs">${list.map((x) => `<li><span class="lbl">Substitute${where(x)}:</span> ${esc(x.t)} ${supplementCite(data, x.cite)}</li>`).join("")}</ul>` : "";
+  return list.length ? `<ul class="subs">${list.map((x) => `<li${x.kind === "warning" ? ' class="warn"' : ""}><span class="lbl">${x.kind === "warning" ? "Owner warning" : "Substitute"}${where(x)}:</span> ${esc(x.t)} ${supplementCite(data, x.cite)}</li>`).join("")}</ul>` : "";
 };
 const toolsBox = (op: Operation): string => {
   const ts = toolsFor(op);
