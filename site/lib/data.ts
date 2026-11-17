@@ -143,11 +143,10 @@ export function load(): Data {
     for (const f of labelFiles) for (const [k, v] of Object.entries(tryYaml(join(figDir, f), errors) ?? {})) labels[k] = { ...(labels[k] ?? {}), ...(v as Record<string, number>) };
     // index.yaml: dense regions (photos). index-drawings.yaml: framed line
     // drawings that the first pass misses (scripts/extract_drawings.py).
-    const drawingsIndex = join(figDir, "index-drawings.yaml");
-    const index = [
-      ...(readYaml(join(figDir, "index.yaml")) as { page: number; file: string }[]),
-      ...(existsSync(drawingsIndex) ? (readYaml(drawingsIndex) as { page: number; file: string }[]) : []),
-    ];
+    // index-manual.yaml: regions measured by hand.
+    const index = readdirSync(figDir)
+      .filter((f) => /^index.*\.yaml$/.test(f))
+      .flatMap((f) => readYaml(join(figDir, f)) as { page: number; file: string }[]);
     const byStem = new Map(index.map((e) => [e.file.split("/").pop()!.replace(/\.jpg$/, ""), e]));
     for (const [chapterKey, map] of Object.entries(labels)) {
       const chapter = Number(chapterKey.replace("chapter-", ""));
@@ -226,7 +225,7 @@ export function load(): Data {
         const ch = st.chapter ?? chapter;
         for (const n of st.figs ?? [])
           if (!figures.some((f) => f.chapter === ch && f.n === n))
-            warnings.push(`${w}: Clymer Ch.${ch} Fig. ${n} has no extracted photo (links to the page instead)`);
+            warnings.push(`${w}: Clymer Ch.${ch} Fig. ${n} (cited p${st.cite?.p ?? "?"}) has no extracted photo`);
         if (st.op && !ops.has(st.op)) warnings.push(`${w}: links to operation "${st.op}" which is not written yet`);
         if (st.diagram && !diagrams.has(st.diagram)) errors.push(`${w}: unknown diagram "${st.diagram}"`);
         if (st.ref && !sectionIds.has(st.ref)) errors.push(`${w}: ref "${st.ref}" is not a book section (use "NN/section-id")`);
