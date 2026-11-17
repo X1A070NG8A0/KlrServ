@@ -1,5 +1,5 @@
 // @ts-check
-// Gwern-style popup windows. If you point to a link that has data-pop, a
+// Gwern-style popup windows. If you point to a <pop-link>, a
 // <pop-window> opens with the content of that address. Links in a window open
 // child windows. A window closes when the pointer leaves it, its link and its
 // children, unless it is pinned. A pinned window stays in place, and you can
@@ -9,7 +9,7 @@
 // Anchor positioning puts it below its link, or above if there is no space.
 // Browsers without anchor positioning or invoker commands get a fallback.
 
-const SHOW_DELAY = 220;
+export const SHOW_DELAY = 220;
 const SWEEP_DELAY = 350;
 const NOT_FOUND = "<p class='meta'>Not found.</p>";
 const ANCHORS = CSS.supports("anchor-name: --a");
@@ -35,7 +35,7 @@ let topWin;
 /** @returns {PopWindow[]} */
 const windows = () => /** @type {PopWindow[]} */ ([...document.querySelectorAll("pop-window")]);
 
-class PopWindow extends HTMLElement {
+export class PopWindow extends HTMLElement {
   /** @type {HTMLAnchorElement | undefined} */
   link;
   /** @type {PopWindow | undefined} */
@@ -150,10 +150,8 @@ class PopWindow extends HTMLElement {
   async load(body) {
     const url = this.link?.dataset.pop;
     if (!url) return;
+    // Custom elements in the content (pop-link, check-list) start themselves.
     body.innerHTML = await fragment(url);
-    // Custom elements in the content start themselves. htmx does not see
-    // content that it did not insert, so tell it.
-    /** @type {any} */ (window).htmx?.process(body);
     if (!ANCHORS && !this.pinned) this.place();
   }
 
@@ -229,10 +227,8 @@ class PopWindow extends HTMLElement {
 
 customElements.define("pop-window", PopWindow);
 
-// ---------- Hover handling for the whole document ----------
+// ---------- Closing windows that the pointer left ----------
 
-/** @type {number | undefined} */
-let showTimer;
 /** @type {number | undefined} */
 let sweepTimer;
 
@@ -244,30 +240,12 @@ function sweep() {
   }
 }
 
-function scheduleSweep() {
+export function scheduleSweep() {
   clearTimeout(sweepTimer);
   sweepTimer = setTimeout(sweep, SWEEP_DELAY);
 }
 
-/** @param {EventTarget | null} t */
-const popLink = (t) => (t instanceof Element ? t.closest("a[data-pop]") : null);
-
-// Mouse only: a tap on a touch screen follows the link.
-document.addEventListener("pointerover", (e) => {
-  const a = popLink(e.target);
-  if (e.pointerType !== "mouse" || !(a instanceof HTMLAnchorElement)) return;
-  clearTimeout(showTimer);
-  showTimer = setTimeout(() => PopWindow.open(a), SHOW_DELAY);
-});
-
-document.addEventListener("pointerout", (e) => {
-  const a = popLink(e.target);
-  if (a && !(e.relatedTarget instanceof Node && a.contains(e.relatedTarget))) {
-    clearTimeout(showTimer);
-    scheduleSweep();
-  }
-});
-
+// Escape closes the windows that are not pinned, wherever the focus is.
 document.addEventListener("keydown", (e) => {
   if (e.key === "Escape") for (const w of windows().reverse()) if (!w.pinned) w.close();
 });

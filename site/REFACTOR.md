@@ -2,6 +2,12 @@
 
 Status: done on 2026-11-17 (all four passes, htmx 4.0.1, JavaScript with JSDoc).
 
+Later on 2026-11-17: htmx is removed. It did only the mileage swap, so a
+`<mileage-picker>` element (about 60 lines) replaces it and saves 13.3 KB
+gzipped on each page. `<pop-link>`, `<bolt-sequence>` and `<photo-zoom>`
+were added. JavaScript-only controls hide until their element is defined.
+The rest of this plan describes the htmx 4 state and is kept as a record.
+
 This plan maps the "Frameworkless Web Development: Modern Platform Features"
 document onto the site code. The goal is a light, readable, static hypermedia
 document. Each pass groups the features that change the same code, so that

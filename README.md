@@ -22,11 +22,22 @@ npm run serve      # http://127.0.0.1:4650
 type-checks the build (TypeScript, run by Node directly) and the browser code.
 
 The browser code in `site/client/` is plain JavaScript with JSDoc types, so
-the build copies it as written. Each module defines one custom element:
-`<check-list>`, `<list-filter>`, `<site-search>` and `<pop-window>`. htmx 4
-swaps the service checklist on the maintenance page. Each mileage also has its
-own page, `/maintenance/<miles>.html`, which works without JavaScript.
-`site/REFACTOR.md` gives the reasons for these choices.
+the build copies it as written. The site uses no libraries. Each module
+defines one custom element, and each element wraps HTML that works without
+JavaScript:
+
+| Element | With JavaScript | Without JavaScript |
+| --- | --- | --- |
+| `<pop-link>` | Pointing to the link opens a popup window (`<pop-window>`) | A link |
+| `<check-list>` | Keeps the ticks and moves ticked items down | Checkboxes |
+| `<list-filter>` | Filters the list on the page | Hidden |
+| `<site-search>` | Searches `search-index.json` | Hidden, with a note on the search page |
+| `<mileage-picker>` | Swaps the service checklist in place | Links to `/maintenance/<miles>.html` |
+| `<bolt-sequence>` | Steps through a tightening order in the drawing | Drawing and numbered list |
+| `<photo-zoom>` | Opens the photo large in a dialog | A link to the image file |
+
+Static content (procedures, steps, parts, specification tables) is native
+HTML. `site/REFACTOR.md` gives the reasons for these choices.
 
 ## What the site does
 

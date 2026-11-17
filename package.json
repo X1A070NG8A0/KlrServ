@@ -10,7 +10,6 @@
     "start": "npm run build && npm run serve"
   },
   "dependencies": {
-    "htmx.org": "4.0.1",
     "yaml": "2.6.1"
   },
   "devDependencies": {

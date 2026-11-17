@@ -60,6 +60,9 @@
   /* Without JavaScript, the site is plain HTML. Hide the controls that need
      JavaScript, and the text that only applies when it runs. */
   list-filter:not(:defined), site-search:not(:defined) { display: none; }
+  /* Custom elements are inline by default. These wrap blocks. */
+  check-list, list-filter, site-search, bolt-sequence, mileage-picker { display: block; }
+  photo-zoom { display: contents; }
   body:has(check-list:not(:defined)) .ticks-hint { display: none; }
   input[type="search"] { width: 100%; font: inherit; padding: .4rem .6rem; border: 1px solid var(--rule); background: var(--bg); color: var(--fg); margin: .5rem 0 1rem; }
   .meta, .hint { color: var(--muted); font-size: .88rem; }
@@ -177,6 +180,24 @@
     .pt text { font: 600 3.6px var(--mono); fill: var(--fg); }
     figcaption { font-size: .88rem; }
     .legend { padding-left: 1.2rem; margin: .4rem 0; }
+  }
+  /* <bolt-sequence>: the current step shows in the drawing and the legend. */
+  bolt-sequence {
+    .seqbar { font-size: .85rem; margin: .4rem 0; }
+    .seqbar button { font: inherit; color: var(--fg); background: var(--bg); border: 1px solid var(--rule); padding: 0 .5rem; cursor: pointer; }
+    .pt { cursor: default; }
+    .pt.on circle { fill: var(--accent); stroke: var(--accent); }
+    .pt.on text { fill: var(--bg); }
+    .legend li.on { background: var(--second-bg); outline: 1px solid var(--second); }
+  }
+  /* <photo-zoom>: a click opens the photo large in a dialog. */
+  photo-zoom a { cursor: zoom-in; }
+  dialog.zoom {
+    padding: .5rem; border: 1px solid var(--rule); background: var(--pop-bg); color: var(--fg);
+    max-width: 96vw; max-height: 96vh; cursor: zoom-out;
+    img { display: block; width: min(90vw, 56rem); max-height: 86vh; object-fit: contain; height: auto; }
+    figcaption { font: .8rem var(--mono); color: var(--muted); margin-top: .3rem; }
+    &::backdrop { background: rgb(0 0 0 / .6); }
   }
   @container (width < 38rem) {
     .fig-card, figure.diagram { grid-template-columns: 1fr; }

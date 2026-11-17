@@ -18,9 +18,7 @@ export function layout(title: string, nav: Nav, body: string): string {
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(title)} · KLR Service Explorer</title>
-<meta name="htmx-config" content='{"transitions": true}'>
 <link rel="stylesheet" href="/assets/style.css">
-<script src="/assets/htmx.min.js" defer></script>
 <script src="/assets/main.js" type="module"></script>
 </head>
 <body>
@@ -60,7 +58,7 @@ export function supplementCite(data: Data, c: Cite, defaultSrc?: string): string
   if (s === "clymer") return `<span class="src">${esc(srcLabel(data, c, s))}</span>`;
   if (s === "forum") {
     const t = data.threads.get(c.id!);
-    return `<span class="cite"><a href="/community/${c.id}.html#post-${c.post}" data-pop="/frag/post/${c.id}/${c.post}.html" title="${esc(t?.title)}">${esc(srcLabel(data, c))}</a></span>`;
+    return `<pop-link class="cite"><a href="/community/${c.id}.html#post-${c.post}" data-pop="/frag/post/${c.id}/${c.post}.html" title="${esc(t?.title)}">${esc(srcLabel(data, c))}</a></pop-link>`;
   }
   return `<span class="src src-ext" title="${esc(data.sources[s]?.title)}">${esc(srcLabel(data, c, s))}</span>`;
 }

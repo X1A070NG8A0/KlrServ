@@ -141,10 +141,10 @@ const neededByOp = (id: string): string[] => {
 };
 
 // ---------- link helpers (hover = preview of the dependency) ----------
-// Hovering a dependency opens a floating window with the full target
-// (site/client/main.ts). Clicking follows the link as usual.
+// <pop-link>: hovering a dependency opens a floating window with the full
+// target (site/client/pop-link.js). Clicking follows the link as usual.
 const preview = (href: string, frag: string, label: string, cls = "dep") =>
-  `<span class="${cls}"><a href="${href}" data-pop="${frag}">${label}</a></span>`;
+  `<pop-link class="${cls}"><a href="${href}" data-pop="${frag}">${label}</a></pop-link>`;
 const opLink = (id: string, label?: string): string => {
   const op = data.ops.get(id);
   return op ? preview(`/ops/${id}.html`, `/frag/op/${id}.html`, esc(label ?? op.title)) : `<span class="unwritten">${esc(label ?? id)}</span>`;
@@ -163,7 +163,7 @@ const depLink = (d: Dep) => (d.kind === "op" ? opLink(d.id) : refLink(d.id));
 
 // ---------- figures (demonstration photos cropped from Clymer) ----------
 const figFor = (chapter: number | undefined, n: number): Figure | undefined => data.figures.find((f) => f.chapter === chapter && f.n === n);
-const photo = (f: Figure) => `<figure class="photo"><img src="/${f.file}" alt="Clymer Chapter ${f.chapter} figure ${f.n}" loading="lazy"><figcaption>Clymer fig. ${f.chapter}-${f.n}</figcaption></figure>`;
+const photo = (f: Figure) => `<photo-zoom><figure class="photo"><a href="/${f.file}"><img src="/${f.file}" alt="Clymer Chapter ${f.chapter} figure ${f.n}" loading="lazy"></a><figcaption>Clymer fig. ${f.chapter}-${f.n}</figcaption></figure></photo-zoom>`;
 
 // ---------- diagrams (HTML-native: SVG plus an ordered legend) ----------
 const shownDiagrams = new Set<string>(); // reset for each procedure: a diagram shows once, later steps link to it
@@ -173,7 +173,7 @@ function diagramHtml(d: Diagram): string {
   const shapes = (d.shapes ?? []).map((s) => `<rect x="${s.x}" y="${s.y}" width="${s.w}" height="${s.h}" rx="3" class="outline"/>${s.label ? `<text x="${s.x + s.w / 2}" y="${s.y + s.h + 6}" text-anchor="middle" class="cap">${esc(s.label)}</text>` : ""}`).join("");
   const pts = d.points.map((p) => `<g class="pt"><title>${esc(p.n)}: ${esc(p.label)}</title><circle cx="${p.x}" cy="${p.y}" r="${p.n.length > 2 ? 6 : 4.2}"/><text x="${p.x}" y="${p.y + 1.6}" text-anchor="middle">${esc(p.n)}</text></g>`).join("");
   const legend = d.points.map((p) => `<li><b>${esc(p.n)}</b> ${esc(p.label)}</li>`).join("");
-  return `<figure class="diagram" id="diag-${d.id}"><svg viewBox="0 0 100 100" role="img" aria-label="${esc(d.title)}">${shapes}${pts}</svg><figcaption><b>${esc(d.title)}</b>${d.note ? ` ${esc(d.note)}` : ""}<ol class="legend">${legend}</ol><span class="src">${esc(srcLabel(data, d.cite))}</span></figcaption></figure>`;
+  return `<bolt-sequence><figure class="diagram" id="diag-${d.id}"><svg viewBox="0 0 100 100" role="img" aria-label="${esc(d.title)}">${shapes}${pts}</svg><figcaption><b>${esc(d.title)}</b>${d.note ? ` ${esc(d.note)}` : ""}<ol class="legend">${legend}</ol><span class="src">${esc(srcLabel(data, d.cite))}</span></figcaption></figure></bolt-sequence>`;
 }
 
 // ---------- steps and operations ----------
@@ -417,9 +417,8 @@ const MILESTONES = [500, ...Array.from({ length: 8 }, (_, i) => (i + 1) * 3000)]
 const dueAt = (mi: number): Task[] =>
   data.schedule.tasks.filter((t) => t.at.some((a) => (a === "initial-500" ? mi === 500 : (() => { const e = data.schedule.intervals.find((i) => i.id === a)?.every_mi; return e ? mi % e === 0 : false; })())) || (t.every_mi ? mi % t.every_mi === 0 : false));
 const timeOnly = () => data.schedule.tasks.filter((t) => !t.at.length && !t.every_mi);
-// Each mileage has a real page, /maintenance/<mi>.html. With htmx, a mileage
-// link gets its page and swaps only the #service section (the hx- attributes
-// on <nav class="milestones"> are inherited by each link).
+// Each mileage has a real page, /maintenance/<mi>.html. With JavaScript,
+// <mileage-picker> gets that page and swaps only the #service section.
 const milestoneUrl = (mi: number) => `/maintenance/${mi}.html`;
 function milestoneHtml(mi: number): string {
   const tasks = dueAt(mi);
@@ -430,15 +429,15 @@ function milestoneHtml(mi: number): string {
 function timelineSvg(current: number): string {
   const W = 760, x0 = 30, x1 = W - 20, max = MILESTONES[MILESTONES.length - 1];
   const x = (mi: number) => x0 + ((x1 - x0) * mi) / max;
-  const marks = MILESTONES.map((mi) => { const n = dueAt(mi).length, r = 6 + Math.min(n, 30) / 2.5; return `<a href="${milestoneUrl(mi)}" hx-get="${milestoneUrl(mi)}"${mi === current ? ' aria-current="page"' : ""}><g class="mark"><title>${mi} miles: ${n} tasks</title><circle cx="${x(mi)}" cy="50" r="${r}"/><text x="${x(mi)}" y="${50 + r + 16}" text-anchor="middle">${mi >= 1000 ? `${mi / 1000}k` : mi}</text><text class="n" x="${x(mi)}" y="54" text-anchor="middle">${n}</text></g></a>`; }).join("");
+  const marks = MILESTONES.map((mi) => { const n = dueAt(mi).length, r = 6 + Math.min(n, 30) / 2.5; return `<a href="${milestoneUrl(mi)}"${mi === current ? ' aria-current="page"' : ""}><g class="mark"><title>${mi} miles: ${n} tasks</title><circle cx="${x(mi)}" cy="50" r="${r}"/><text x="${x(mi)}" y="${50 + r + 16}" text-anchor="middle">${mi >= 1000 ? `${mi / 1000}k` : mi}</text><text class="n" x="${x(mi)}" y="54" text-anchor="middle">${n}</text></g></a>`; }).join("");
   return `<svg class="timeline" viewBox="0 0 ${W} 120" role="img" aria-labelledby="tl"><title id="tl">Services by odometer reading. The number in each circle is the quantity of tasks.</title><line x1="${x0}" y1="50" x2="${x1}" y2="50"/>${marks}</svg>`;
 }
 function serviceHtml(current: number): string {
   return `<section id="service">
-<nav class="milestones" aria-label="Service by mileage" hx-target:inherited="#service" hx-select:inherited="#service" hx-swap:inherited="outerHTML" hx-push-url:inherited="true">
+<mileage-picker><nav class="milestones" aria-label="Service by mileage">
 ${timelineSvg(current)}
-<p class="milestone-buttons">${MILESTONES.map((mi) => `<a class="button" href="${milestoneUrl(mi)}" hx-get="${milestoneUrl(mi)}"${mi === current ? ' aria-current="page"' : ""}>${mi.toLocaleString("en-US")}</a>`).join(" ")}</p>
-</nav>
+<p class="milestone-buttons">${MILESTONES.map((mi) => `<a class="button" href="${milestoneUrl(mi)}"${mi === current ? ' aria-current="page"' : ""}>${mi.toLocaleString("en-US")}</a>`).join(" ")}</p>
+</nav></mileage-picker>
 ${milestoneHtml(current)}
 </section>`;
 }
@@ -568,7 +567,6 @@ write("search.html", layout("Search", "search", `<h1>Search</h1><site-search><in
 write("search-index.json", searchIndex());
 write("verify.html", pageVerify());
 mkdirSync(join(DIST, "assets"), { recursive: true });
-copyFileSync(join(ROOT, "node_modules", "htmx.org", "dist", "htmx.min.js"), join(DIST, "assets", "htmx.min.js"));
 copyFileSync(join(ROOT, "site", "static", "style.css"), join(DIST, "assets", "style.css"));
 // The client is plain JavaScript with JSDoc types, served as written.
 for (const f of readdirSync(join(ROOT, "site", "client")).filter((f) => f.endsWith(".js"))) copyFileSync(join(ROOT, "site", "client", f), join(DIST, "assets", f));
