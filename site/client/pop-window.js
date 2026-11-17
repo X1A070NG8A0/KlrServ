@@ -166,12 +166,18 @@ export class PopWindow extends HTMLElement {
       this.classList.add("anchored");
       return;
     }
+    // Fallback: below if the window fits, else the side with more room. The
+    // window shrinks to that room, so it never covers its link.
     const r = link.getBoundingClientRect();
-    const w = this.offsetWidth, h = this.offsetHeight;
-    let top = r.bottom + 6;
-    if (top + h > innerHeight - 8) top = Math.max(8, r.top - h - 6);
+    const w = this.offsetWidth;
+    this.style.maxHeight = "";
+    const h = this.offsetHeight;
+    const below = innerHeight - r.bottom - 14, above = r.top - 14;
+    const down = h <= below || below >= above;
+    const room = Math.min(down ? below : above, innerHeight * 0.7);
+    this.style.maxHeight = `${room}px`;
     this.style.left = `${Math.max(8, Math.min(r.left, innerWidth - w - 8))}px`;
-    this.style.top = `${top}px`;
+    this.style.top = `${down ? r.bottom + 6 : r.top - 6 - Math.min(h, room)}px`;
   }
 
   // Fix the window at its current place and size in the viewport.
