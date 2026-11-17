@@ -1,6 +1,7 @@
 // Static site generator. Reads data/ and doc/, validates citations, writes dist/.
 // `node site/build.ts --check` validates only and writes nothing.
-import { copyFileSync, mkdirSync, rmSync, writeFileSync } from "node:fs";
+import { copyFileSync, mkdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
+import YAML from "yaml";
 import { dirname, join } from "node:path";
 import type { BookChapter, BookSection, Cite, Diagram, Figure, Operation, Part, Section, Step, Task } from "./lib/data.ts";
 import { ROOT, findSpec, load, printedLabel } from "./lib/data.ts";
@@ -241,6 +242,7 @@ function opBody(op: Operation, full: boolean): string {
   ${op.issue && data.issues.has(op.issue) ? `<p class="needs"><span class="lbl">Known issue:</span> <a href="/issues/${op.issue}.html">${esc(data.issues.get(op.issue)!.title)}</a></p>` : ""}
   ${specs}
   ${op.parts?.length ? `<section class="box"><h3>Parts and materials</h3>${partsHtml(op.parts, op.source)}</section>` : ""}
+  ${toolsBox(op)}
   ${full ? sectionsHtml(op.sections, op.source, op.chapter) : ""}
   ${full && users.length ? `<p class="needs"><span class="lbl">Needed by:</span> ${users.map((u) => opLink(u)).join(" ")}</p>` : ""}
   ${full ? `<p class="provenance">Paraphrased from ${esc(sourcePages(op))}.</p>` : ""}
@@ -252,104 +254,177 @@ function sectionBody(c: BookChapter, s: BookSection): string {
   const ops = (s.ops ?? []).map((o) => data.ops.get(o)).filter((o): o is Operation => !!o);
   const key = sectionKey(c, s);
   const users = [...(neededBy.get(`ref:${key}`) ?? [])];
-  const parts = new Map<string, Part>();
-  for (const op of ops) for (const p of op.parts ?? []) if (!parts.has(p.name)) parts.set(p.name, { ...p, cite: { s: op.source, ...p.cite } });
   return `${s.summary?.length ? s.summary.map((x) => `<p class="summary">${esc(x.t)}</p>`).join("") : ""}
   ${!s.written ? `<p class="gap">This section is not written yet.</p>` : ""}
-  ${ops.length ? `<p class="toc">Procedures: ${ops.map((o) => `<a href="#op-${o.id}">${esc(o.title)}</a>`).join(" · ")}</p>` : ""}
-  ${parts.size ? `<section class="box"><h3>Parts and materials in this section</h3>${partsHtml([...parts.values()], "clymer")}</section>` : ""}
-  ${ops.map((o) => `<article class="op" id="op-${o.id}"><h2><a href="/ops/${o.id}.html">${esc(o.title)}</a></h2>${o.summary ? `<p class="summary">${esc(o.summary.t)}</p>` : ""}${depsOf(o).length ? `<p class="needs"><span class="lbl">Do first or have ready:</span> ${depsOf(o).map(depLink).join(" ")}</p>` : ""}${sectionsHtml(o.sections, o.source, o.chapter)}</article>`).join("")}
+  ${ops.length > 1 ? `<p class="toc">Procedures: ${ops.map((o) => `<a href="#op-${o.id}">${esc(o.title)}</a>`).join(" · ")}</p>` : ""}
+  ${ops.map((o) => `<article class="op" id="op-${o.id}"><h2><a href="/ops/${o.id}.html">${esc(o.title)}</a></h2>${o.summary ? `<p class="summary">${esc(o.summary.t)}</p>` : ""}${depsOf(o).length ? `<p class="needs"><span class="lbl">Do first or have ready:</span> ${depsOf(o).map(depLink).join(" ")}</p>` : ""}${o.parts?.length ? `<section class="box"><h3>Parts and materials</h3>${partsHtml(o.parts, o.source)}</section>` : ""}${toolsBox(o)}${sectionsHtml(o.sections, o.source, o.chapter)}</article>`).join("")}
   ${users.length ? `<p class="needs"><span class="lbl">Other procedures need this section:</span> ${users.map((u) => opLink(u)).join(" ")}</p>` : ""}`;
 }
 
+// ---------- tools (found in the cited step text, see data/tools.yaml) ----------
+type ToolDef = { id: string; name: string; group: string; torque?: boolean; re: RegExp[] };
+type ToolUse = { id: string; name: string; group: string; why: string[] };
+const toolDefs: ToolDef[] = [];
+const toolGroups: string[] = [];
+for (const g of (YAML.parse(readFileSync(join(ROOT, "data", "tools.yaml"), "utf8")).groups ?? []) as { name: string; tools: { id: string; name: string; match: string[]; torque?: boolean }[] }[]) {
+  toolGroups.push(g.name);
+  for (const t of g.tools) toolDefs.push({ id: t.id, name: t.name, group: g.name, torque: t.torque, re: t.match.map((m) => new RegExp(m, "i")) });
+}
+const KAW = "Kawasaki special tools";
+toolGroups.push(KAW);
+const isTorqueRef = (ref?: string) => !!ref && findSpec(data, ref)?.table.kind === "torque";
+function toolsFor(op: Operation): ToolUse[] {
+  const found = new Map<string, ToolUse>();
+  const add = (id: string, name: string, group: string, why: string) => {
+    if (!found.has(id)) found.set(id, { id, name, group, why: [] });
+    const w = found.get(id)!.why;
+    if (!w.includes(why) && w.length < 3) w.push(why);
+  };
+  for (const sec of op.sections)
+    for (const st of sec.steps) {
+      for (const d of toolDefs) {
+        if (d.re.some((r) => r.test(st.t))) add(d.id, d.name, d.group, st.t);
+        else if (d.torque && isTorqueRef(st.spec_ref)) add(d.id, d.name, d.group, `${st.t} (torque value)`);
+      }
+      for (const m of st.t.matchAll(/57001-\d{3,4}/g)) add(`kaw-${m[0]}`, `Kawasaki special tool ${m[0]}`, KAW, st.t);
+    }
+  const torqueDef = toolDefs.find((d) => d.torque);
+  if (torqueDef && op.spec_refs?.some(isTorqueRef)) add(torqueDef.id, torqueDef.name, torqueDef.group, "This procedure has torque specifications.");
+  return [...found.values()].sort((a, b) => toolGroups.indexOf(a.group) - toolGroups.indexOf(b.group) || a.name.localeCompare(b.name));
+}
+const toolIndex = new Map<string, ToolUse & { ops: Operation[] }>();
+for (const op of data.ops.values())
+  for (const t of toolsFor(op)) {
+    if (!toolIndex.has(t.id)) toolIndex.set(t.id, { ...t, why: [...t.why], ops: [] });
+    toolIndex.get(t.id)!.ops.push(op);
+  }
+const toolsBox = (op: Operation): string => {
+  const ts = toolsFor(op);
+  if (!ts.length) return "";
+  return `<section class="box"><h3>Tools</h3><ul class="tools">${ts.map((t) => `<li><a href="/tools.html#tool-${t.id}" title="${esc(t.why[0])}">${esc(t.name)}</a></li>`).join("")}</ul></section>`;
+};
+
+// ---------- full reference (book) ----------
+const filterBox = (selector: string, placeholder: string) =>
+  `<input type="search" class="filter" data-filter="${selector}" placeholder="${esc(placeholder)}" aria-label="${esc(placeholder)}">`;
+const secLink = (c: BookChapter, s: BookSection) => refLink(sectionKey(c, s), s.title).replace(/ <span class="ch">.*?<\/span>/, "");
 function pagesBook(): void {
-  const chList = data.book.map((c) => `<li><a href="/book/ch${nn(c.n)}/">Chapter ${c.n}: ${esc(c.title)}</a> <span class="meta">${c.sections.filter((s) => s.written).length} of ${c.sections.length} sections written</span><ul class="secs">${c.sections.map((s) => `<li class="${s.written ? "" : "unwritten"}">${refLink(sectionKey(c, s), s.title).replace(/ <span class="ch">.*?<\/span>/, "")}</li>`).join("")}</ul></li>`).join("");
-  write("book/index.html", layout("Book", "book", `<h1>Book</h1><p>The chapters and sections of the Clymer manual, paraphrased in ASD-STE100 Simplified Technical English for a 2006 KLR650. Each procedure shows what you must do first and which parts you need.</p><ol class="chapters">${chList}</ol>`));
+  const chList = data.book.map((c) => `<li class="chap" data-search="${esc(`${c.title} ${c.sections.map((s) => `${s.title} ${(s.ops ?? []).map((o) => data.ops.get(o)?.title ?? "").join(" ")}`).join(" ")}`.toLowerCase())}"><a href="/book/ch${nn(c.n)}/">Chapter ${c.n}: ${esc(c.title)}</a><ul class="secs">${c.sections.map((s) => `<li>${secLink(c, s)}</li>`).join("")}</ul></li>`).join("");
+  write("book/index.html", layout("Full reference", "book", `<h1>Full reference</h1>
+<p>All procedures of the service manual, chapter by chapter. Point to a link to see the procedure, its parts and its tools.</p>
+${filterBox("li.chap", "Filter chapters, for example fork, clutch, stator")}
+<p class="toc"><a href="/specs.html">Specifications</a> · <a href="/book/errata.html">Errata</a> · <a href="/figures.html">Photos</a> · <a href="/search.html">Search all</a></p>
+<ol class="chapters">${chList}</ol>`));
   for (const c of data.book) {
-    write(`book/ch${nn(c.n)}/index.html`, layout(`Chapter ${c.n}`, "book", `<p class="crumb"><a href="/book/">Book</a></p><h1>Chapter ${c.n}: ${esc(c.title)}</h1><ol class="secs">${c.sections.map((s) => `<li>${refLink(sectionKey(c, s), s.title).replace(/ <span class="ch">.*?<\/span>/, "")}${s.summary?.[0] ? `<p class="meta">${esc(s.summary[0].t)}</p>` : ""}</li>`).join("")}</ol>`));
+    write(`book/ch${nn(c.n)}/index.html`, layout(`Chapter ${c.n}`, "book", `<p class="crumb"><a href="/book/">Full reference</a></p><h1>Chapter ${c.n}: ${esc(c.title)}</h1>${filterBox("ol.secs > li", "Filter this chapter")}<ol class="secs">${c.sections.map((s) => `<li data-search="${esc(`${s.title} ${(s.ops ?? []).map((o) => data.ops.get(o)?.title ?? "").join(" ")} ${s.summary?.[0]?.t ?? ""}`.toLowerCase())}">${secLink(c, s)}${s.summary?.[0] ? `<p class="meta">${esc(s.summary[0].t)}</p>` : ""}</li>`).join("")}</ol>`));
     c.sections.forEach((s, i) => {
       const prev = c.sections[i - 1], next = c.sections[i + 1];
       const pager = `<p class="pager">${prev ? `<a href="/book/ch${nn(c.n)}/${prev.id}.html" rel="prev">${esc(prev.title)}</a>` : ""} <a href="/book/ch${nn(c.n)}/">Chapter ${c.n}</a> ${next ? `<a href="/book/ch${nn(c.n)}/${next.id}.html" rel="next">${esc(next.title)}</a>` : ""}</p>`;
-      write(`book/ch${nn(c.n)}/${s.id}.html`, layout(s.title, "book", `<p class="crumb"><a href="/book/">Book</a> · <a href="/book/ch${nn(c.n)}/">Chapter ${c.n}: ${esc(c.title)}</a></p><h1>${esc(s.title)}</h1>${sectionBody(c, s)}${pager}`));
+      write(`book/ch${nn(c.n)}/${s.id}.html`, layout(s.title, "book", `<p class="crumb"><a href="/book/">Full reference</a> · <a href="/book/ch${nn(c.n)}/">Chapter ${c.n}: ${esc(c.title)}</a></p><h1>${esc(s.title)}</h1>${sectionBody(c, s)}${pager}`));
       write(`frag/section/${nn(c.n)}-${s.id}.html`, `<p class="crumb">Chapter ${c.n}: ${esc(c.title)}</p><h1>${esc(s.title)}</h1>${sectionBody(c, s)}`);
     });
   }
 }
 
-// ---------- schedule, parts, milestones ----------
+function pageErrata(): string {
+  const conflicts: string[] = [], gaps: string[] = [];
+  for (const op of data.ops.values())
+    for (const sec of op.sections)
+      for (const st of sec.steps) {
+        const item = (body: string) => `<li data-search="${esc(`${op.title} ${st.t} ${body.replace(/<[^>]+>/g, "")}`.toLowerCase())}">${opLink(op.id)}<p>${esc(st.t)}</p>${body}</li>`;
+        if (st.conflict) conflicts.push(item(`<p class="conflict-note">${st.conflict.agrees ? "Other sources agree." : "Sources disagree."} ${esc(st.conflict.note)}</p><div class="parallel">${st.conflict.others.map((o) => `<blockquote>${esc(o.t)} ${supplementCite(data, o.cite, op.source)}</blockquote>`).join("")}</div>`));
+        if (st.gap) gaps.push(item(`<p class="gap">${esc(st.gap)}</p>`));
+      }
+  return layout("Errata", "book", `<p class="crumb"><a href="/book/">Full reference</a></p><h1>Errata</h1>
+<p>Owner reports, places where the sources disagree, and values that no source gives.</p>
+${filterBox(".errata > li", "Filter errata, for example snap ring, torque, thermostat")}
+<h2>Owner reports from klr650.net</h2><ul class="errata">${[...data.issues.values()].map((i) => `<li data-search="${esc(`${i.title} ${i.summary.map((s) => s.t).join(" ")}`.toLowerCase())}"><a href="/issues/${i.id}.html">${esc(i.title)}</a><p class="meta">${esc(i.summary[0]?.t ?? "")}</p></li>`).join("")}</ul>
+<h2>Source disagreements (${conflicts.length})</h2><ul class="errata">${conflicts.join("")}</ul>
+<h2>Values that the sources do not give (${gaps.length})</h2><ul class="errata">${gaps.join("")}</ul>`);
+}
+
+// ---------- routine maintenance ----------
 const MILESTONES = [500, ...Array.from({ length: 8 }, (_, i) => (i + 1) * 3000)];
 const dueAt = (mi: number): Task[] =>
   data.schedule.tasks.filter((t) => t.at.some((a) => (a === "initial-500" ? mi === 500 : (() => { const e = data.schedule.intervals.find((i) => i.id === a)?.every_mi; return e ? mi % e === 0 : false; })())) || (t.every_mi ? mi % t.every_mi === 0 : false));
 const timeOnly = () => data.schedule.tasks.filter((t) => !t.at.length && !t.every_mi);
-function partsForTasks(tasks: Task[]): Part[] {
-  const seen = new Map<string, Part>();
-  for (const t of tasks) {
-    const op = t.op ? data.ops.get(t.op) : undefined;
-    for (const p of op?.parts ?? []) if ((!t.parts || t.parts.includes(p.name)) && !seen.has(p.name)) seen.set(p.name, { ...p, cite: { s: op!.source, ...p.cite } });
-  }
-  return [...seen.values()];
-}
 function milestoneFrag(mi: number): string {
   const tasks = dueAt(mi);
-  const parts = partsForTasks(tasks);
-  return `<section class="milestone"><h2>${mi.toLocaleString("en-US")} miles</h2>
+  return `<section class="milestone"><h2>Service at ${mi.toLocaleString("en-US")} miles</h2>
   <ol class="due checklist">${tasks.map((t) => `<li data-key="${mi}:task:${esc(t.task)}"><input type="checkbox" data-done-key="${mi}:task:${esc(t.task)}" aria-label="Done: ${esc(t.task)}"> <span class="name">${t.op ? opLink(t.op, t.task) : esc(t.task)}</span></li>`).join("")}</ol>
-  <h3>Parts and materials</h3>${parts.length ? partsHtml(parts, "clymer", String(mi)) : `<p class="gap">No parts are cited for these tasks yet.</p>`}
-  <p class="hint">A ticked item moves to the bottom of its list. This browser keeps the ticks.</p></section>`;
+  <p class="hint">Each procedure has its parts and tools. A ticked task moves to the bottom. This browser keeps the ticks.</p></section>`;
 }
 function timelineSvg(): string {
   const W = 760, x0 = 30, x1 = W - 20, max = MILESTONES[MILESTONES.length - 1];
   const x = (mi: number) => x0 + ((x1 - x0) * mi) / max;
-  const marks = MILESTONES.map((mi) => { const n = dueAt(mi).length, r = 6 + Math.min(n, 30) / 2.5; return `<a href="/parts.html?mi=${mi}" hx-get="/frag/milestone/${mi}.html" hx-target="#milestone" hx-push-url="/parts.html?mi=${mi}"><g class="mark"><title>${mi} miles: ${n} tasks</title><circle cx="${x(mi)}" cy="50" r="${r}"/><text x="${x(mi)}" y="${50 + r + 16}" text-anchor="middle">${mi >= 1000 ? `${mi / 1000}k` : mi}</text><text class="n" x="${x(mi)}" y="54" text-anchor="middle">${n}</text></g></a>`; }).join("");
-  return `<svg class="timeline" viewBox="0 0 ${W} 120" role="img" aria-labelledby="tl"><title id="tl">Service milestones by odometer reading. The number in each circle is the quantity of tasks.</title><line x1="${x0}" y1="50" x2="${x1}" y2="50"/>${marks}</svg>`;
+  const marks = MILESTONES.map((mi) => { const n = dueAt(mi).length, r = 6 + Math.min(n, 30) / 2.5; return `<a href="/maintenance.html?mi=${mi}" hx-get="/frag/milestone/${mi}.html" hx-target="#milestone" hx-push-url="/maintenance.html?mi=${mi}"><g class="mark"><title>${mi} miles: ${n} tasks</title><circle cx="${x(mi)}" cy="50" r="${r}"/><text x="${x(mi)}" y="${50 + r + 16}" text-anchor="middle">${mi >= 1000 ? `${mi / 1000}k` : mi}</text><text class="n" x="${x(mi)}" y="54" text-anchor="middle">${n}</text></g></a>`; }).join("");
+  return `<svg class="timeline" viewBox="0 0 ${W} 120" role="img" aria-labelledby="tl"><title id="tl">Services by odometer reading. The number in each circle is the quantity of tasks.</title><line x1="${x0}" y1="50" x2="${x1}" y2="50"/>${marks}</svg>`;
 }
-
-// ---------- other pages ----------
-function pageHome(): string {
-  const written = data.book.reduce((n, c) => n + c.sections.filter((s) => s.written).length, 0);
-  const total = data.book.reduce((n, c) => n + c.sections.length, 0);
-  return layout("Home", "home", `<h1>KLR650 service wiki</h1>
-<p class="lede">Service procedures for a 2006 Kawasaki KLR650 (KL650A). The text is a paraphrase of the Clymer manual in ASD-STE100 Simplified Technical English. The Kawasaki manuals and klr650.net threads supply corrections and additions.</p>
-<ul class="cards">
-<li><a href="/book/">Book</a><span>${written} of ${total} sections written. Each procedure shows what you must do first.</span></li>
-<li><a href="/schedule.html">Maintenance schedule</a><span>Each task links to its procedure.</span></li>
-<li><a href="/parts.html">Parts per service</a><span>The parts and materials for each mileage.</span></li>
-<li><a href="/specs.html">Specifications</a><span>${[...data.tables.values()].reduce((n, t) => n + t.rows.length, 0)} values from ${data.tables.size} tables, with torque values.</span></li>
-<li><a href="/issues/">Known issues</a><span>Gen 1 problems that owners report.</span></li>
-<li><a href="/search.html">Search</a><span>Procedures, specifications and photos.</span></li>
-</ul>
-<h2>Sources</h2>
-<p>If the sources disagree, the Clymer value is first because Clymer is the only manual for 2003 to 2006. The other value is shown next to it.</p>
-<ul class="sources">${Object.values(data.sources).map((s) => `<li>${esc(s.title)}${s.covers ? ` <span class="meta">(${esc(s.covers)})</span>` : ""}</li>`).join("")}<li>klr650.net: ${data.threads.size} threads, saved locally.</li></ul>`);
-}
-
-function pageSchedule(): string {
+function pageMaintenance(): string {
   const iv = data.schedule.intervals;
-  const rows = data.schedule.tasks.map((t) => `<tr><th scope="row">${t.op ? opLink(t.op, t.task) : esc(t.task)}</th>${iv.map((i) => `<td class="x">${t.at.includes(i.id) ? "✕" : ""}</td>`).join("")}<td>${esc(t.other ?? "")}</td></tr>`).join("");
-  return layout("Maintenance schedule", "schedule", `<h1>Maintenance schedule</h1>
-<p>From Clymer Table 1 (${esc(srcLabel(data, data.schedule.cite))}). Point to a task to see its procedure.</p>
-${timelineSvg()}
+  const rows = data.schedule.tasks.map((t) => `<tr class="task" data-search="${esc(`${t.task} ${t.op ? data.ops.get(t.op)?.title ?? "" : ""}`.toLowerCase())}"><th scope="row">${t.op ? opLink(t.op, t.task) : esc(t.task)}</th>${iv.map((i) => `<td class="x">${t.at.includes(i.id) ? "✕" : ""}</td>`).join("")}<td>${esc(t.other ?? "")}</td></tr>`).join("");
+  return layout("Routine maintenance", "maint", `<h1>Routine maintenance</h1>
+<p>Do each task at the odometer reading or the time interval in the table. Point to a task to see its procedure, its parts and its tools.</p>
+${filterBox("tr.task", "Filter tasks, for example chain, valve, coolant")}
 <table class="schedule"><thead><tr><th scope="col">Task</th>${iv.map((i) => `<th scope="col">${esc(i.label)}</th>`).join("")}<th scope="col">Other interval</th></tr></thead><tbody>${rows}</tbody></table>
 ${Object.entries(data.schedule.footnotes ?? {}).map(([k, v]) => `<p class="meta">${esc(k)} ${esc(v)}</p>`).join("")}
-<p class="meta">The maintenance chart of the Kawasaki 650 supplement is not used. In this copy of the PDF, the odometer columns of that chart are missing.</p>`);
-}
-
-function pageParts(): string {
-  return layout("Parts per service", "parts", `<h1>Parts and materials per service</h1>
-<p>Select a mileage. The tasks come from the maintenance schedule. The parts come from the procedure of each task.</p>
+<h2>Service by mileage</h2>
+<p>Select a mileage to get a checklist of the tasks for that service.</p>
 ${timelineSvg()}
-<p class="milestone-buttons">${MILESTONES.map((mi) => `<button hx-get="/frag/milestone/${mi}.html" hx-target="#milestone" hx-push-url="/parts.html?mi=${mi}">${mi.toLocaleString("en-US")}</button>`).join(" ")}</p>
-<div id="milestone">${milestoneFrag(6000)}</div>
+<p class="milestone-buttons">${MILESTONES.map((mi) => `<button hx-get="/frag/milestone/${mi}.html" hx-target="#milestone" hx-push-url="/maintenance.html?mi=${mi}">${mi.toLocaleString("en-US")}</button>`).join(" ")}</p>
+<div id="milestone">${milestoneFrag(500)}</div>
 <h2>Tasks by time</h2><ul>${timeOnly().map((t) => `<li>${t.op ? opLink(t.op, t.task) : esc(t.task)}: ${esc(t.other)}</li>`).join("")}</ul>`);
 }
 
+// ---------- common repairs ----------
+function pageRepairs(): string {
+  const doc = YAML.parse(readFileSync(join(ROOT, "data", "common-repairs.yaml"), "utf8")) as { categories: { title: string; ops: string[]; issues?: string[] }[] };
+  const missing = doc.categories.flatMap((c) => [...c.ops.filter((o) => !data.ops.has(o)), ...(c.issues ?? []).filter((i) => !data.issues.has(i))]);
+  if (missing.length) { console.error(`common-repairs.yaml: unknown ids: ${missing.join(", ")}`); process.exit(1); }
+  const firstSentence = (t?: string) => (t ?? "").split(/(?<=\.)\s/)[0];
+  const cats = doc.categories.map((c) => `<section class="repair-cat"><h2>${esc(c.title)}</h2><ul class="repairs">${c.ops.map((o) => { const op = data.ops.get(o)!; return `<li data-search="${esc(`${c.title} ${op.title} ${op.summary?.t ?? ""}`.toLowerCase())}">${opLink(o)}${op.summary ? `<span class="meta"> ${esc(firstSentence(op.summary.t))}</span>` : ""}</li>`; }).join("")}${(c.issues ?? []).map((i) => { const is = data.issues.get(i)!; return `<li data-search="${esc(`${c.title} ${is.title}`.toLowerCase())}"><a href="/issues/${i}.html">${esc(is.title)}</a><span class="meta"> Owner reports.</span></li>`; }).join("")}</ul></section>`).join("");
+  return layout("Common repairs", "repairs", `<h1>Common repairs</h1>
+<p>Repairs that are not on the maintenance schedule: parts that break, get damaged or wear out early. Each procedure has its parts and tools.</p>
+${filterBox("ul.repairs > li", "Filter repairs, for example flat, cable, bulb")}
+${cats}`);
+}
+
+// ---------- tool list ----------
+function pageTools(): string {
+  const groups = toolGroups.map((g) => {
+    const list = [...toolIndex.values()].filter((t) => t.group === g).sort((a, b) => b.ops.length - a.ops.length || a.name.localeCompare(b.name));
+    if (!list.length) return "";
+    return `<section><h2>${esc(g)}</h2><ul class="checklist toollist">${list.map((t) => `<li id="tool-${t.id}" data-key="tool:${t.id}" data-search="${esc(`${t.name} ${t.ops.map((o) => o.title).join(" ")}`.toLowerCase())}"><input type="checkbox" data-done-key="tool:${t.id}" aria-label="I have: ${esc(t.name)}"> <span class="name">${esc(t.name)}</span> <span class="meta">${t.ops.length} procedure${t.ops.length === 1 ? "" : "s"}</span>${g === KAW ? `<p class="meta">${esc(t.why[0])}</p>` : ""}<details><summary>Used in</summary><ul>${t.ops.map((o) => `<li>${opLink(o.id)}</li>`).join("")}</ul></details></li>`).join("")}</ul></section>`;
+  }).join("");
+  return layout("Tool list", "tools", `<h1>Tool list</h1>
+<p>Each tool that a procedure names, with the procedures that use it. Tick the tools that you have. This browser keeps the ticks.</p>
+${filterBox("ul.toollist > li", "Filter tools or jobs, for example micrometer, fork, tire")}
+${groups}`);
+}
+
+// ---------- home ----------
+function pageHome(): string {
+  const frequent = ["engine-oil-and-filter", "drive-chain-adjust", "air-filter", "valve-clearance", "balancer-chain-tensioner", "c11-tire-removal", "c14-front-brake-pads", "coolant-replace", "spark-plug"].filter((o) => data.ops.has(o));
+  return layout("Home", "home", `<h1>KLR Service Explorer</h1>
+<p class="lede">Service and repair procedures for the Kawasaki KLR650, first generation (KL650A). Values are set for a 2006 model.</p>
+<form class="home-search" action="/search.html"><input type="search" name="q" placeholder="Find a procedure, a part or a torque value" aria-label="Search"></form>
+<ul class="cards">
+<li><a href="/maintenance.html">Routine maintenance</a><span>The service schedule by mileage and time, with a checklist for each service.</span></li>
+<li><a href="/repairs.html">Common repairs</a><span>Flat tires, cables, brakes, bulbs, crash damage and other repairs off the schedule.</span></li>
+<li><a href="/book/">Full reference</a><span>Every procedure in the manual, the specifications and the errata.</span></li>
+<li><a href="/tools.html">Tool list</a><span>Every tool that the procedures name, with the jobs that need it.</span></li>
+</ul>
+<h2>Frequent jobs</h2><ul class="frequent">${frequent.map((o) => `<li>${opLink(o)}</li>`).join("")}</ul>`);
+}
+
+// ---------- other pages ----------
 function pageSpecs(): string {
   const byCh = new Map<string, typeof data.tables extends Map<string, infer T> ? T[] : never>();
   for (const t of data.tables.values()) byCh.set(t.chapter, [...(byCh.get(t.chapter) ?? []), t]);
   for (const t of data.tables.values()) write(`frag/spec/${t.id}.html`, `<h1>${esc(t.title)}</h1><table class="spec">${t.rows.map((r) => `<tr class="${yearClass(r).trim()}"><th>${rowLabel(r)}</th><td>${specValue(r, t.kind)}</td></tr>`).join("")}</table>`);
-  return layout("Specifications", "specs", `<h1>Specifications</h1>
-<p>Each table is a transcription from the page image. Rows for other model years are grey. Rows for 2006 are green.</p>
-<input type="search" class="filter" data-filter="tr.row" placeholder="Filter, for example axle, valve, spark plug" aria-label="Filter specifications">
+  return layout("Specifications", "book", `<p class="crumb"><a href="/book/">Full reference</a></p><h1>Specifications</h1>
+<p>Rows for other model years are grey. Rows for 2006 are green.</p>
+${filterBox("tr.row", "Filter, for example axle, valve, spark plug")}
 ${[...byCh.entries()].map(([ch, ts]) => `<h2>${esc(ch)}</h2>${ts.map((t) => `<table class="spec" id="${t.id}"><caption>${esc(t.title)} <span class="src">${esc(srcLabel(data, t.cite))}</span></caption>${t.note ? `<tbody><tr><td colspan="2" class="meta">${esc(t.note)}</td></tr></tbody>` : ""}<tbody>${t.rows.map((r) => `<tr class="row${yearClass(r)}" data-search="${esc(`${t.title} ${r.group ?? ""} ${r.item}`.toLowerCase())}"><th scope="row">${rowLabel(r)}${r.realigned ? ` <span class="flag" title="In this copy the value is on the heading line. It was moved down and compared with Clymer.">moved</span>` : ""}</th><td>${specValue(r, t.kind)}</td></tr>`).join("")}</tbody></table>`).join("")}`).join("")}`);
 }
 
@@ -360,29 +435,27 @@ function pageFigures(): string {
     return out;
   };
   const cards = data.figures.map((f) => ({ f, u: uses(f) })).filter((x) => x.u.length).sort((a, b) => a.f.chapter - b.f.chapter || a.f.n - b.f.n);
-  return layout("Photos", "figures", `<h1>Photos</h1><p>Demonstration photos from the Clymer manual, with the steps that use them. Type a part name to find its photos.</p>
-<input type="search" class="filter" data-filter=".fig-card" placeholder="For example drain plug, chain, caliper" aria-label="Filter photos">
+  return layout("Photos", "book", `<p class="crumb"><a href="/book/">Full reference</a></p><h1>Photos</h1><p>Photos from the Clymer manual, with the steps that use them.</p>
+${filterBox(".fig-card", "Filter photos, for example drain plug, chain, caliper")}
 <ul class="figures">${cards.map(({ f, u }) => `<li class="fig-card" data-search="${esc(u.map((x) => `${x.op.title} ${x.st.t}`).join(" ").toLowerCase())}">${photo(f)}<ul>${u.map((x) => `<li>${esc(x.st.t)} ${opLink(x.op.id)}</li>`).join("")}</ul></li>`).join("")}</ul>`);
 }
 
 function pagesIssues(): void {
-  const list = [...data.issues.values()];
-  write("issues/index.html", layout("Known issues", "issues", `<h1>Known issues</h1><p>Gen 1 problems that the manuals do not cover, or cover only in part. Most information comes from saved klr650.net threads. That information is owner experience, not factory data.</p><ul>${list.map((i) => `<li><a href="/issues/${i.id}.html">${esc(i.title)}</a></li>`).join("")}</ul>`));
-  for (const is of list)
-    write(`issues/${is.id}.html`, layout(is.title, "issues", `<article class="op"><h1>${esc(is.title)}</h1>${is.summary.map((s) => `<p class="summary">${esc(s.t)} ${supplementCite(data, s.cite)}</p>`).join("")}${is.ops?.length ? `<p class="needs"><span class="lbl">Procedures:</span> ${is.ops.map((o) => opLink(o)).join(" ")}</p>` : ""}${sectionsHtml(is.sections, "forum")}</article>`));
+  for (const is of data.issues.values())
+    write(`issues/${is.id}.html`, layout(is.title, "book", `<p class="crumb"><a href="/book/">Full reference</a> · <a href="/book/errata.html">Errata</a></p><article class="op"><h1>${esc(is.title)}</h1>${is.summary.map((s) => `<p class="summary">${esc(s.t)} ${supplementCite(data, s.cite)}</p>`).join("")}${is.ops?.length ? `<p class="needs"><span class="lbl">Procedures:</span> ${is.ops.map((o) => opLink(o)).join(" ")}</p>` : ""}${sectionsHtml(is.sections, "forum")}</article>`));
 }
 
 function pagesCommunity(): void {
   for (const t of data.threads.values()) {
-    write(`community/${t.slug}.html`, layout(t.title, "", `<h1>${esc(t.title)}</h1><p class="meta">Saved from <a href="${esc(t.url)}" rel="noreferrer">klr650.net</a> on ${esc(t.fetched)}.</p>${[...t.posts.values()].map((p) => `<article class="post" id="post-${p.n}"><h3>Post ${p.n}, ${esc(p.author)}, ${esc(p.date)}</h3><div class="post-text">${esc(p.text).replace(/\n/g, "<br>")}</div></article>`).join("")}`));
+    write(`community/${t.slug}.html`, layout(t.title, "book", `<p class="crumb"><a href="/book/errata.html">Errata</a></p><h1>${esc(t.title)}</h1><p class="meta">Saved from <a href="${esc(t.url)}" rel="noreferrer">klr650.net</a> on ${esc(t.fetched)}.</p>${[...t.posts.values()].map((p) => `<article class="post" id="post-${p.n}"><h3>Post ${p.n}, ${esc(p.author)}, ${esc(p.date)}</h3><div class="post-text">${esc(p.text).replace(/\n/g, "<br>")}</div></article>`).join("")}`));
     for (const p of t.posts.values()) write(`frag/post/${t.slug}/${p.n}.html`, `<p class="crumb">${esc(t.title)}</p><h1>Post ${p.n}, ${esc(p.author)}, ${esc(p.date)}</h1><div class="post-text">${esc(p.text).replace(/\n/g, "<br>")}</div>`);
   }
 }
 
 function pageVerify(): string {
-  return layout("Build checks", "verify", `<h1>Build checks</h1><p>The build stops if a value has no valid citation. This build had ${data.errors.length} such errors.</p>
+  return layout("Build checks", "", `<h1>Build checks</h1><p>The build stops if a value has no valid citation.</p>
 <h2>Warnings (${data.warnings.length})</h2><ul>${data.warnings.map((w) => `<li>${esc(w)}</li>`).join("")}</ul>
-<h2>Numbers not found on the cited page (${misses.length})</h2><p class="meta">The text layer of a scan can garble a number. Each item here needs a comparison with the page image.</p><ul>${misses.map((m) => `<li>${esc(m)}</li>`).join("")}</ul>`);
+<h2>Numbers not found on the cited page (${misses.length})</h2><ul>${misses.map((m) => `<li>${esc(m)}</li>`).join("")}</ul>`);
 }
 
 function searchIndex(): string {
@@ -390,20 +463,23 @@ function searchIndex(): string {
   for (const op of data.ops.values()) idx.push({ k: "Procedure", t: op.title, x: [op.summary?.t ?? "", ...op.sections.flatMap((s) => s.steps.map((st) => st.t))].join(" "), u: `/ops/${op.id}.html` });
   for (const [key, { s }] of sections) idx.push({ k: "Section", t: s.title, x: (s.summary ?? []).map((x) => x.t).join(" "), u: sectionHref(key) });
   for (const t of data.tables.values()) for (const r of t.rows) idx.push({ k: "Specification", t: `${t.title}: ${r.group ? r.group + ", " : ""}${r.item}${r.years ? ` (${r.years})` : ""}`, x: specValue(r, t.kind).replace(/<[^>]+>/g, ""), u: `/specs.html#${t.id}` });
-  for (const is of data.issues.values()) idx.push({ k: "Known issue", t: is.title, x: is.summary.map((s) => s.t).join(" "), u: `/issues/${is.id}.html` });
+  for (const t of toolIndex.values()) idx.push({ k: "Tool", t: t.name, x: t.ops.map((o) => o.title).join(" "), u: `/tools.html#tool-${t.id}` });
+  for (const is of data.issues.values()) idx.push({ k: "Owner report", t: is.title, x: is.summary.map((s) => s.t).join(" "), u: `/issues/${is.id}.html` });
   return JSON.stringify(idx);
 }
 
 // ---------- write ----------
 write("index.html", pageHome());
 pagesBook();
+write("book/errata.html", pageErrata());
 for (const op of data.ops.values()) {
   write(`ops/${op.id}.html`, layout(op.title, "book", opBody(op, true)));
   write(`frag/op/${op.id}.html`, opBody(op, true));
 }
-write("schedule.html", pageSchedule());
-write("parts.html", pageParts());
+write("maintenance.html", pageMaintenance());
 for (const mi of MILESTONES) write(`frag/milestone/${mi}.html`, milestoneFrag(mi));
+write("repairs.html", pageRepairs());
+write("tools.html", pageTools());
 write("specs.html", pageSpecs());
 write("figures.html", pageFigures());
 pagesIssues();
@@ -414,4 +490,4 @@ write("verify.html", pageVerify());
 mkdirSync(join(DIST, "assets"), { recursive: true });
 copyFileSync(join(ROOT, "node_modules", "htmx.org", "dist", "htmx.min.js"), join(DIST, "assets", "htmx.min.js"));
 copyFileSync(join(ROOT, "site", "static", "style.css"), join(DIST, "assets", "style.css"));
-console.log(`Built ${data.ops.size} procedures, ${sections.size} book sections, ${data.tables.size} spec tables, ${data.issues.size} issues. ${data.warnings.length} warnings, ${misses.length} number misses.`);
+console.log(`Built ${data.ops.size} procedures, ${sections.size} sections, ${toolIndex.size} tools, ${data.tables.size} spec tables. ${data.warnings.length} warnings, ${misses.length} number misses.`);

@@ -1,0 +1,24 @@
+# Repairs outside the maintenance schedule: parts that break, wear out early
+# or get damaged in use. Each entry is a procedure id or a known-issue id.
+categories:
+  - title: "Flat tire and wheel damage"
+    ops: [c11-front-wheel, c11-rear-wheel, c11-tire-removal, c11-tire-installation, c11-tire-inspection, tires, c11-rim-inspection, c11-wheel-truing, spokes, c11-wheel-balancing]
+  - title: "Drive chain and sprockets"
+    ops: [drive-chain-adjust, drive-chain-inspect, c11-drive-chain-master-link, c11-drive-chain-no-master-link, c11-drive-sprocket, c11-driven-sprocket]
+  - title: "Cables, levers and pedals"
+    ops: [c06-clutch-cable-replacement, c08-throttle-cable-replacement, choke-cable, c06-gearshift-linkage-removal, c14-rear-brake-pedal, c12-handlebar-removal]
+  - title: "Brakes"
+    ops: [c14-front-brake-pads, c14-rear-brake-pads, brake-fluid-replace, brake-hoses, c14-front-caliper-repair, c14-rear-caliper-repair, c14-brake-disc-replace]
+  - title: "Crash damage"
+    ops: [c15-fairing, c15-side-covers, c15-radiator-covers, c10-radiator-removal, c10-radiator-inspection, c12-handlebar-removal, c12-fork-removal, c15-subframe]
+  - title: "Lights, fuses and switches"
+    ops: [c09-headlight-bulb, c09-headlight-adjustment, c09-fuse-test, c09-fan-fuse-test, c09-turn-signal-relay-test, lights-switches, c09-sidestand-switch-test, c09-starter-lockout-switch-test]
+  - title: "Starting and charging faults"
+    ops: [c02-start-cold, c02-engine-spark-test, battery, c09-battery-voltage-unloaded, c09-starter-relay-test, c09-starter-clutch-test, c09-stator-charging-coil-test, c09-regulator-output-voltage-test]
+  - title: "Fuel and carburetor"
+    ops: [carb-float-drain, c08-carburetor-removal, c08-carburetor-cleaning-and-inspection, c08-float-adjustment, c08-fuel-valve, fuel-hose]
+  - title: "Leaks and seals"
+    ops: [c12-fork-disassembly, c12-fork-assembly, c10-water-pump-seal-replacement, c14-front-master-cylinder-repair, c14-rear-master-cylinder-repair]
+  - title: "First-generation weak points"
+    ops: [balancer-chain-tensioner, c05-balancer-removal, c05-balancer-inspection, c05-balancer-installation, c15-subframe]
+    issues: [doohickey, subframe-bolts, oil-consumption, thermobob]

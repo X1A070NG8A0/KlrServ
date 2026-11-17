@@ -1,6 +1,6 @@
-# KLR650 service wiki
+# KLR Service Explorer
 
-A local service wiki for a 2006 (first generation, KL650A) Kawasaki KLR650.
+A local service and repair reference for the Kawasaki KLR650 only, first generation (KL650A), set up for a 2006 model.
 The text is a paraphrase of the Clymer KLR650 1987-2006 manual in ASD-STE100
 Simplified Technical English. The Kawasaki manuals and saved klr650.net threads
 supply corrections and additions. Each step cites the page or post that it
@@ -23,12 +23,16 @@ type-checks the TypeScript.
 
 ## What the site does
 
-- The Book has the 15 Clymer chapters and their sections. Each section has its procedures.
-- If you hover a link to a section, a procedure, a torque value or a forum post, a window opens with the full content. Links in that window open more windows. Pin a window to keep it on the screen, and drag it by its title bar.
-- Each procedure shows what you must do first, which procedures need it, its specifications and its parts. The parts are in three groups: always replace, replace if worn or damaged, and consumables.
-- The schedule, the parts list for each mileage, the specification tables, the known-issue pages and search link to the same procedures.
-- Some sequences exist only in a drawing, for example the cylinder head tightening order. These are recreated as SVG diagrams with a numbered legend (`data/diagrams/`).
-- The site shows photos cropped from Clymer. It does not show scans of book pages.
+The site has four sections, each with a search bar:
+
+1. Routine maintenance: the service schedule, and a checklist for each mileage.
+2. Common repairs: repairs off the schedule (flats, cables, brakes, bulbs, crash damage, first-generation weak points), from `data/common-repairs.yaml`.
+3. Full reference: every chapter and procedure of the manual, the specifications, photos, and the errata (owner reports from klr650.net, source disagreements, and values that no source gives).
+4. Tool list: each tool that a procedure names, with the procedures that use it.
+
+Each procedure shows its specifications, its parts (always replace, replace if worn or damaged, consumables), its tools, what you must do first, and which procedures need it. The tool list comes from `data/tools.yaml`: the build finds each tool in the cited step text, and adds a torque wrench where a step has a torque value.
+
+If you hover a link to a section, a procedure, a torque value or a forum post, a window opens with the full content. Links in that window open more windows. Pin a window to keep it, and drag it by its title bar. Drawn sequences, for example the cylinder head tightening order, are SVG diagrams with a numbered legend (`data/diagrams/`). The site shows photos cropped from Clymer, but no scans of book pages.
 
 ## Data and rules
 

@@ -1,0 +1,66 @@
+# Tool dictionary. The build finds each tool in the step text of the
+# procedures (case-insensitive regular expressions), so a tool appears in a
+# procedure only where a cited step names it. `torque: true` also adds the
+# tool to each procedure that has a step with a torque specification.
+# Patterns are narrow on purpose: "press" is usually a verb, "socket" can be a
+# bulb socket, and "holder" is often a part.
+groups:
+  - name: "Hand tools"
+    tools:
+      - {id: torque-wrench, name: "Torque wrench", match: ['torque wrench'], torque: true}
+      - {id: socket-set, name: "Socket wrench set with extension", match: ['\bwith a socket\b', '\ba socket (and|with|on)\b', '\bsocket and (an )?extension\b', '\bdeep socket\b', '\b\d+ ?mm socket\b']}
+      - {id: wrench, name: "Open-end and box wrenches", match: ['\b(open-end|box-end|combination|\d+ ?mm) wrench\b', '\b(a|the|two) wrenche?s?\b(?! (to|on) the (spoke|plug))']}
+      - {id: crowfoot, name: "Crowfoot wrench", match: ['crowfoot']}
+      - {id: hex-keys, name: "Allen (hex) keys", match: ['\ballen\b', 'hex key', 'hex wrench', 't-handle']}
+      - {id: screwdriver, name: "Screwdrivers", match: ['screwdriver']}
+      - {id: pliers, name: "Pliers", match: ['(?<!snap ring )\bpliers\b']}
+      - {id: snap-ring-pliers, name: "Snap ring pliers", match: ['snap ring pliers']}
+      - {id: hammer, name: "Hammer and soft mallet", match: ['\bhammer\b', '\bmallet\b']}
+      - {id: drift-punch, name: "Drift and punch", match: ['\bdrift\b', '\bpunch\b']}
+      - {id: pick, name: "Small pick", match: ['\b(a|small|dental|the) pick\b']}
+      - {id: vise, name: "Vise with soft jaws", match: ['\bvise\b', 'soft jaws']}
+      - {id: drill, name: "Drill and bits", match: ['\bdrill\b']}
+      - {id: thread-chaser, name: "Thread chaser, tap and die", match: ['thread chaser', 'tap and die', '\ba tap\b(?! (on|with) the)', '\b(the|a) die\b']}
+      - {id: spark-plug-wrench, name: "Spark plug wrench", match: ['spark plug wrench', 'spark plug socket']}
+      - {id: spoke-wrench, name: "Spoke wrench", match: ['spoke wrench']}
+      - {id: tire-irons, name: "Tire irons and rim protectors", match: ['tire (iron|lever)s?', 'rim protector']}
+      - {id: cable-lubricator, name: "Cable lubricator", match: ['cable lubricator']}
+      - {id: chain-tool, name: "Chain breaker and riveting tool", match: ['chain breaker', 'rivet(ing)? tool', 'chain tool']}
+      - {id: stand, name: "Motorcycle stand or jack", match: ['\bjack\b', '(motorcycle|work|support|rear|center) stand\b']}
+  - name: "Measuring tools"
+    tools:
+      - {id: feeler-gauge, name: "Feeler gauge (flat and wire)", match: ['feeler gauge']}
+      - {id: micrometer, name: "Micrometer", match: ['micrometer']}
+      - {id: vernier-caliper, name: "Vernier caliper", match: ['vernier', 'with a caliper\b']}
+      - {id: dial-indicator, name: "Dial indicator", match: ['dial indicator', 'dial gauge']}
+      - {id: bore-gauge, name: "Telescoping and small-bore gauges", match: ['telescoping gauge', 'small[- ]bore gauge', 'bore gauge']}
+      - {id: plastigauge, name: "Plastigauge", match: ['plastigauge']}
+      - {id: v-blocks, name: "V-blocks", match: ['v-blocks?']}
+      - {id: straightedge, name: "Straightedge and surface plate", match: ['straight ?edge', 'surface plate']}
+      - {id: multimeter, name: "Multimeter (ohmmeter and voltmeter)", match: ['ohmmeter', 'voltmeter', 'ammeter', 'multimeter']}
+      - {id: hydrometer, name: "Battery hydrometer", match: ['hydrometer']}
+      - {id: thermometer, name: "Thermometer", match: ['thermometer']}
+      - {id: compression-gauge, name: "Compression gauge", match: ['compression gauge']}
+      - {id: leakdown-tester, name: "Leakdown tester", match: ['leak-?down tester']}
+      - {id: cooling-tester, name: "Cooling system pressure tester", match: ['cooling system tester', 'pressure tester']}
+      - {id: timing-light, name: "Timing light", match: ['timing light']}
+      - {id: fork-oil-gauge, name: "Fork oil level gauge", match: ['fork oil level (tool|gauge)']}
+      - {id: truing-stand, name: "Wheel truing stand", match: ['truing stand']}
+  - name: "Pullers, drivers and presses"
+    tools:
+      - {id: rotor-puller, name: "Rotor (flywheel) puller", match: ['(rotor|flywheel) puller']}
+      - {id: puller, name: "Bearing or gear puller", match: ['(?<!rotor )(?<!flywheel )\bpuller\b']}
+      - {id: bearing-driver, name: "Bearing and seal drivers", match: ['bearing driver', 'seal driver', 'a driver that fits']}
+      - {id: press, name: "Hydraulic press", match: ['hydraulic press', '\b(a|the) press\b']}
+      - {id: holding-tool, name: "Rotor or clutch holding tool", match: ['(rotor|clutch|universal|flywheel|sprocket) holder', 'holding tool']}
+      - {id: valve-spring-compressor, name: "Valve spring compressor", match: ['valve spring compressor']}
+      - {id: lapping-tool, name: "Valve lapping tool", match: ['lapping (tool|stick)']}
+      - {id: heat-gun, name: "Heat gun or torch", match: ['heat gun', '\btorch\b']}
+  - name: "Shop equipment"
+    tools:
+      - {id: battery-charger, name: "Battery charger", match: ['\bcharger\b']}
+      - {id: vacuum-bleeder, name: "Vacuum pump for brake bleeding", match: ['vacuum pump', 'mityvac', 'vacuum bleeder']}
+      - {id: compressed-air, name: "Compressed air", match: ['compressed air']}
+      - {id: drain-pan, name: "Drain pan", match: ['drain pan']}
+      - {id: syringe, name: "Syringe", match: ['\bsyringe\b']}
+# Kawasaki special tools are found by part number (57001-NNNN) in the steps.

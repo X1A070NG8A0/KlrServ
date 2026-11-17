@@ -7,7 +7,7 @@ export const esc = (s: unknown): string =>
 
 export const pad = (p: number): string => String(p).padStart(3, "0");
 
-export type Nav = "home" | "book" | "schedule" | "specs" | "parts" | "issues" | "figures" | "search" | "verify" | "";
+export type Nav = "home" | "maint" | "repairs" | "book" | "tools" | "search" | "";
 
 export function layout(title: string, nav: Nav, body: string): string {
   const link = (id: Nav, href: string, label: string) =>
@@ -17,31 +17,27 @@ export function layout(title: string, nav: Nav, body: string): string {
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>${esc(title)} · KLR650 service wiki</title>
+<title>${esc(title)} · KLR Service Explorer</title>
 <link rel="stylesheet" href="/assets/style.css">
 <script src="/assets/htmx.min.js" defer></script>
 <script src="/assets/main.js" type="module"></script>
 </head>
 <body>
 <header class="site">
-  <a class="brand" href="/">KLR650 <span class="sc">service wiki</span></a>
+  <a class="brand" href="/">KLR <span class="sc">Service Explorer</span></a>
   <nav>
-    ${link("book", "/book/", "Book")}
-    ${link("schedule", "/schedule.html", "Schedule")}
-    ${link("parts", "/parts.html", "Parts")}
-    ${link("specs", "/specs.html", "Specs")}
-    ${link("issues", "/issues/", "Known issues")}
-    ${link("figures", "/figures.html", "Photos")}
-    ${link("search", "/search.html", "Search")}
+    ${link("maint", "/maintenance.html", "Routine maintenance")}
+    ${link("repairs", "/repairs.html", "Common repairs")}
+    ${link("book", "/book/", "Full reference")}
+    ${link("tools", "/tools.html", "Tool list")}
   </nav>
-  <span class="bike" title="The values for this model year are highlighted">2006 KL650A</span>
+  <span class="bike" title="Values for this model year are highlighted">KLR650 · 2006</span>
 </header>
 <main>
 ${body}
 </main>
 <footer class="site">
-  Each step is a paraphrase of a cited source page. If no source gives a value, the page shows a gap.
-  <a href="/verify.html">Build checks</a>.
+  For the first-generation Kawasaki KLR650 (KL650A). Sources: Clymer KLR650 1987-2006 manual (M474-2), Kawasaki KLR600 and KLR650 service manuals, klr650.net. Each step names its source page.
 </footer>
 </body>
 </html>

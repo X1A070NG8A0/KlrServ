@@ -208,3 +208,16 @@ figure.diagram .pt circle { fill: var(--second-bg); stroke: var(--second); strok
 figure.diagram .pt text { font: 600 3.6px var(--mono); fill: var(--fg); }
 figure.diagram figcaption { font-size: .88rem; }
 figure.diagram .legend { padding-left: 1.2rem; margin: .4rem 0; }
+
+/* KLR Service Explorer layout additions */
+.popbar { user-select: none; }
+.poptitle { cursor: move; }
+.popopen { font: .75rem var(--mono); }
+.home-search input { font-size: 1.05rem; }
+ul.frequent { columns: 2 16rem; }
+ul.tools { columns: 2 14rem; margin: .3rem 0; padding-left: 1.1rem; font-size: .92rem; }
+ul.repairs > li, ul.errata > li { margin: .35rem 0; }
+ul.errata > li p { margin: .2rem 0; }
+ul.toollist details { font-size: .88rem; }
+ul.toollist details ul { columns: 2 14rem; }
+.repair-cat h2 { font-size: 1.15rem; }

@@ -192,10 +192,16 @@ async function openWin(a: HTMLAnchorElement): Promise<void> {
   el.style.zIndex = String(++zTop);
   const bar = document.createElement("div");
   bar.className = "popbar";
-  const title = document.createElement("a");
-  title.href = a.href;
+  // The title is plain text so the whole bar is a drag handle; "open" links to the page.
+  const title = document.createElement("span");
   title.className = "poptitle";
   title.textContent = a.textContent?.trim() ?? "";
+  title.title = "Drag to move";
+  const open = document.createElement("a");
+  open.href = a.href;
+  open.className = "popopen";
+  open.textContent = "open";
+  open.title = "Open the full page";
   const pin = document.createElement("button");
   pin.type = "button";
   pin.textContent = "pin";
@@ -204,7 +210,7 @@ async function openWin(a: HTMLAnchorElement): Promise<void> {
   close.type = "button";
   close.textContent = "×";
   close.title = "Close";
-  bar.append(title, pin, close);
+  bar.append(title, open, pin, close);
   const body = document.createElement("div");
   body.className = "popbody";
   body.textContent = "Loading…";
