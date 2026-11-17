@@ -34,7 +34,7 @@ function numberChecks(): string[] {
       if (!norm.includes(num)) misses.push(`${where}: "${num}" not found in ${s} ${s === "forum" ? `${c.id}#${c.post}` : `p${c.p}`}`);
   };
   walkSteps((st, src, w) => {
-    check(st.t, st.cite, src, w);
+    if (!st.image_checked) check(st.t, st.cite, src, w); // numbers compared with the page image by a reviewer
     st.conflict?.others.forEach((o) => check(o.t.replace(/^"|"$/g, ""), o.cite, src, `${w} (conflict)`));
   });
   return misses;
@@ -55,8 +55,31 @@ function quoteErrors(): string[] {
   for (const is of data.issues.values()) is.summary.forEach((s, i) => check(s.t, s.cite, `issue ${is.id} summary ${i + 1}`));
   return errs;
 }
+// ASD-STE100 lint: words and marks the standard rejects (AUTHORING.md §4).
+// Quoted forum text is exempt. Reported as warnings.
+const STE_BAD: [RegExp, string][] = [
+  [/\b(should|would|may|might|could)\b/i, "modal (use can, will or must)"],
+  [/\b(verify|verified|verifies|ensure|ensures|confirm|confirms|perform|performs|performed)\b/i, "rejected verb (make sure that, do)"],
+  [/\b(however|therefore|in order to)\b/i, "rejected connector"],
+  [/\b(has|have) been\b/i, "present perfect"],
+  [/[;—]/, "semicolon or em-dash"],
+  [/\b\w+n't\b/i, "contraction"],
+];
+function steLint(): string[] {
+  const out: string[] = [];
+  const lint = (text: string | undefined, where: string) => {
+    if (!text) return;
+    const plain = text.replace(/"[^"]*"/g, "");
+    for (const [re, why] of STE_BAD) { const m = plain.match(re); if (m) out.push(`${where}: STE ${why}: "${m[0]}"`); }
+  };
+  walkSteps((st, _src, w) => { lint(st.t, w); lint(st.gap, `${w} gap`); });
+  for (const op of data.ops.values()) { lint(op.summary?.t, `${op.id} summary`); op.parts?.forEach((p) => lint(p.note, `${op.id} part "${p.name}"`)); }
+  for (const c of data.book) for (const s of c.sections) s.summary?.forEach((x, i) => lint(x.t, `book ch${c.n} ${s.id} summary ${i + 1}`));
+  return out;
+}
 const qerr = quoteErrors();
 const misses = numberChecks();
+const ste = steLint();
 if (CHECK) {
   const show = (title: string, list: string[]) => {
     console.log(`${title} (${list.length})`);
@@ -64,6 +87,7 @@ if (CHECK) {
   };
   show("ERRORS", [...data.errors, ...qerr]);
   show("NUMBER MISSES", misses);
+  show("STE", ste);
   show("WARNINGS", data.warnings);
   process.exit(data.errors.length || qerr.length ? 1 : 0);
 }

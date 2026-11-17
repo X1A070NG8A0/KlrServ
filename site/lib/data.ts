@@ -15,7 +15,7 @@ export type SpecTable = { id: string; title: string; kind?: "torque" | "limits";
 export type Conflict = { note: string; agrees?: boolean; others: { t: string; cite: Cite }[] };
 // `chapter` overrides the operation's Clymer chapter for this step's `figs`.
 // `ref` is a dependency on a book section, "NN/section-id".
-export type Step = { t: string; kind?: "note" | "caution" | "warning"; cite: Cite; figs?: number[]; chapter?: number; op?: string; ref?: string; spec_ref?: string; conflict?: Conflict; gap?: string };
+export type Step = { t: string; kind?: "note" | "caution" | "warning"; cite: Cite; image_checked?: boolean; figs?: number[]; chapter?: number; op?: string; ref?: string; spec_ref?: string; conflict?: Conflict; gap?: string };
 export type BookSection = { id: string; title: string; pages: [number, number]; summary?: { t: string; cite: Cite }[]; ops?: string[]; written: boolean };
 export type BookChapter = { n: number; title: string; pages: [number, number]; sections: BookSection[]; file?: string };
 export type Section = { title?: string; steps: Step[] };

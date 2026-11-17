@@ -1,0 +1,144 @@
+operations:
+  - id: c09-cdi-unit-test
+    title: "CDI unit test"
+    system: "electrical system"
+    source: clymer
+    chapter: 9
+    section: "09/ignition-system"
+    summary: {t: "The CDI unit is on the right side of the motorcycle, under the fuel tank. Measure the resistance between pairs of wires. If the readings show that the unit is faulty, replace the unit.", cite: {p: 218}}
+    sections:
+      - title: "Precautions"
+        steps:
+          - {t: "Do not disconnect electrical connections while the engine runs or cranks. The CDI unit and other ignition parts can be damaged.", cite: {p: 218}}
+          - {t: "Turn off the ignition switch before you disconnect or connect electrical components.", cite: {p: 218}}
+          - {t: "Handle the parts with care.", cite: {p: 218}}
+          - {t: "Before you replace a component, examine the wiring for poor connections, corrosion and shorts.", cite: {p: 218}}
+          - {t: "Before you test components, make sure that the battery and the spark plug are in good condition. For battery replacement, charging and electrolyte checks, refer to Chapter Three.", cite: {p: 218}, op: battery}
+          - {t: "Work slowly and in order. Use test equipment in good condition. Record all measurements.", cite: {p: 218}}
+      - title: "Test"
+        steps:
+          - {kind: note, t: "Ohmmeter measurements are different from one meter to another. A measurement that is only slightly out of specification does not always mean that the CDI unit is faulty.", cite: {p: 218}}
+          - {t: "Remove the fuel tank.", cite: {p: 218}, ref: "15/fuel-tank", figs: [46]}
+          - {t: "Disconnect the connectors that go from the CDI unit. On 1990-on models, also disconnect the single yellow/black wire that goes from the CDI unit.", cite: {p: 218}, figs: [49]}
+          - {t: "Set the ohmmeter to the R x 1K scale.", cite: {p: 218}}
+          - {t: "Connect the positive probe and the negative probe to the wire colors that the CDI resistance table shows. Measure and record the reading. Do again for all wire combinations.", cite: {p: 218}}
+          - {kind: note, t: "The table for 1990-on models applies to this motorcycle. Values are approximate, in kilohms. The symbol for infinity is shown as INF. Wire colors are B black, B/W black with white tracer, L/R blue with red tracer, R red, R/G red with green tracer, W white and Y/B yellow with black tracer.", cite: {p: 220}, figs: [48]}
+          - {t: "Negative probe W: all positive probe readings are INF.", cite: {p: 220}, image_checked: true}
+          - {t: "Negative probe R: positive probe W 10-55, R/G 5-25, L/R 5-35, B/W INF, B 5-25, Y/B 20-90.", cite: {p: 220}, image_checked: true}
+          - {t: "Negative probe R/G: positive probe W 2-10, R 2-10, L/R 1-6, B/W INF, B 0, Y/B 10-50.", cite: {p: 220}, image_checked: true}
+          - {t: "Negative probe L/R: positive probe W 4-20, R 4-20, R/G 1-6, B/W INF, B 1-6, Y/B 10-55.", cite: {p: 220}, image_checked: true}
+          - {t: "Negative probe B/W: all positive probe readings are INF.", cite: {p: 220}, image_checked: true}
+          - {t: "Negative probe B: positive probe W 2-10, R 2-10, R/G 0, L/R 1-6, B/W INF, Y/B 10-50.", cite: {p: 220}, image_checked: true}
+          - {t: "Negative probe Y/B: positive probe W 15-80, R 15-80, R/G 10-50, L/R 10-55, B/W INF, B 10-50.", cite: {p: 220}, image_checked: true}
+
+  - id: c09-diode-unit-test
+    title: "Diode unit test"
+    system: "electrical system"
+    source: clymer
+    chapter: 9
+    section: "09/ignition-system"
+    summary: {t: "The diode unit is on the right side of the motorcycle, under the fuel tank. Its three diode circuits let power go in one direction only. The test finds low resistance in one direction and infinite resistance in the other direction.", cite: {p: 218}}
+    sections:
+      - steps:
+          - {t: "Remove the fuel tank.", cite: {p: 218}, ref: "15/fuel-tank", figs: [46]}
+          - {t: "Remove the unit from the mount. Then unplug the unit. Note the row of terminals that has the three red/black wires.", cite: {p: 218}}
+          - {t: "Set an ohmmeter to R x 1 ohm.", cite: {p: 218}}
+          - {t: "Connect one meter probe to a red/black terminal and the other probe to the opposite terminal on the plug.", cite: {p: 218}}
+          - {t: "Measure and record the reading.", cite: {p: 218}}
+          - {t: "Reverse the probes on the terminals. Measure again.", cite: {p: 218}}
+          - {t: "Measure the remaining pairs of terminals in the same way.", cite: {p: 218}}
+          - {t: "The resistance must be infinite in one direction and low in the other direction. If any pair of terminals has low or high resistance in both directions, the unit is faulty.", cite: {p: 219}}
+
+  - id: c09-ignition-coil-test
+    title: "Ignition coil test"
+    system: "electrical system"
+    source: clymer
+    chapter: 9
+    section: "09/ignition-system"
+    summary: {t: "The ignition coil is on the right side of the motorcycle. Measure the resistance of the primary and secondary coils.", cite: {p: 219}}
+    spec_refs: ["electrical-test:Ignition coil resistance/Primary coil", "electrical-test:Ignition coil resistance/Secondary coil (spark plug lead cap removed)"]
+    sections:
+      - steps:
+          - {t: "Remove the fuel tank.", cite: {p: 219}, ref: "15/fuel-tank"}
+          - {t: "Disconnect the black/yellow wire and the black wire at the coil.", cite: {p: 219}, figs: [50]}
+          - {t: "Remove the spark plug cap from the plug.", cite: {p: 219}}
+          - {t: "Connect the meter probes to the terminals on the coil.", cite: {p: 219}}
+          - {t: "Measure the primary coil resistance. Compare it with the specification.", cite: {p: 219}, spec_ref: "electrical-test:Ignition coil resistance/Primary coil"}
+          - {t: "Remove the spark plug cap from the spark plug lead.", cite: {p: 219}}
+          - {t: "Connect one meter probe to the spark plug lead and the other meter probe to the terminal for the black/yellow wire.", cite: {p: 219}}
+          - {t: "Measure the secondary coil resistance. Compare it with the specification.", cite: {p: 219}, spec_ref: "electrical-test:Ignition coil resistance/Secondary coil (spark plug lead cap removed)"}
+          - {kind: note, t: "If the coil and the spark plug lead pass the tests, the spark plug cap can be faulty. Kawasaki does not specify a resistance for the cap. The cap on the model that Clymer shows measures 5.5K ohms. You can use this value as a guide.", cite: {p: 220}}
+
+  - id: c09-exciter-coil-test
+    title: "Exciter coil test"
+    system: "electrical system"
+    source: clymer
+    chapter: 9
+    section: "09/ignition-system"
+    summary: {t: "The exciter coil is in the alternator cover. You can test it at the wire connector under the fuel tank.", cite: {p: 220}}
+    spec_refs: ["electrical-test:Exciter coil resistance (white-to-red wires)"]
+    sections:
+      - steps:
+          - {t: "Remove the fuel tank.", cite: {p: 220}, ref: "15/fuel-tank"}
+          - {t: "Disconnect the connector on the right side of the frame.", cite: {p: 220}, figs: [51]}
+          - {t: "Identify the connector half that goes to the stator.", cite: {p: 220}}
+          - {t: "Set the ohmmeter to R x 10 ohms.", cite: {p: 220}}
+          - {t: "Put the meter probes into the terminals of the white wire and the red wire. Compare the reading with the specification.", cite: {p: 220}, spec_ref: "electrical-test:Exciter coil resistance (white-to-red wires)"}
+          - {t: "If the exciter coil is not in specification, examine the plug and the wiring harness for damage and shorts.", cite: {p: 220}}
+          - {t: "If necessary, remove the alternator cover. Examine the wiring harness and the coil again.", cite: {p: 220}, op: c09-alternator-cover, figs: [52]}
+          - {t: "Test the full length of each harness wire for continuity. All wires must have near zero resistance. Flex the harness during the test to find erratic continuity.", cite: {p: 220}}
+          - {t: "If the harness has no short, measure the coil at the white and red wire connections on the stator.", cite: {p: 220}}
+          - {t: "If the coil fails the test, unsolder the harness connections and measure the coil again.", cite: {p: 221}}
+          - {t: "If the coil is in specification, a solder joint was poor or the wiring harness is shorted.", cite: {p: 221}}
+          - {t: "If the coil still fails the test, replace the stator.", cite: {p: 221}}
+          - {t: "Set the ohmmeter to R x 1 ohm.", cite: {p: 221}}
+          - {t: "Ground one meter probe to the engine, or to the alternator cover if you removed it. Touch the other probe to the white wire, then to the red wire. The resistance must be infinity.", cite: {p: 221}}
+          - {t: "If you get any other reading, there is a short. Replace the stator.", cite: {p: 221}}
+
+  - id: c09-pickup-coil-test
+    title: "Pickup coil test"
+    system: "electrical system"
+    source: clymer
+    chapter: 9
+    section: "09/ignition-system"
+    summary: {t: "The pickup coil is in the alternator cover. You can test it at the wire connector under the fuel tank.", cite: {p: 221}}
+    spec_refs: ["electrical-test:Pickup coil resistance (black/yellow-to-black wires)"]
+    sections:
+      - steps:
+          - {t: "Remove the fuel tank.", cite: {p: 221}, ref: "15/fuel-tank"}
+          - {t: "Disconnect the connector on the right side of the frame.", cite: {p: 221}, figs: [51]}
+          - {t: "Identify the connector half that goes to the pickup coil.", cite: {p: 221}}
+          - {t: "Set the ohmmeter to R x 10 ohms.", cite: {p: 221}}
+          - {t: "Put the meter probes into the terminals of the black/yellow wire and the black wire. Compare the reading with the specification.", cite: {p: 221}, spec_ref: "electrical-test:Pickup coil resistance (black/yellow-to-black wires)"}
+          - {t: "If the pickup coil is not in specification, examine the plug and the wiring harness for damage and shorts.", cite: {p: 221}}
+          - {t: "If necessary, remove the alternator cover. Examine the wiring harness and the coil again. Flex the harness during the test to find erratic continuity.", cite: {p: 221}, op: c09-alternator-cover, figs: [52]}
+          - {t: "If the coil fails the test, replace the pickup coil.", cite: {p: 221}}
+          - {t: "Set the ohmmeter to R x 1 ohm.", cite: {p: 221}}
+          - {t: "Ground one meter probe to the engine, or to the alternator cover if you removed it. Touch the other probe to the black/yellow wire, then to the black wire. The resistance must be infinity.", cite: {p: 221}}
+          - {t: "If you get any other reading, there is a short. Examine the area under the pickup coil for a pinched wire or damage that causes the short.", cite: {p: 221}}
+          - {t: "If you find no damage, replace the pickup coil.", cite: {p: 222}}
+
+  - id: c09-ignition-timing
+    title: "Ignition timing check"
+    system: "electrical system"
+    source: clymer
+    chapter: 9
+    section: "09/ignition-system"
+    summary: {t: "The CDI unit controls the ignition timing electronically. You cannot adjust the timing. Examine the timing to make sure that the CDI unit operates correctly.", cite: {p: 222}}
+    spec_refs: ["electrical-general:Ignition timing/Idle", "electrical-general:Ignition timing/Advanced"]
+    parts:
+      - {name: "Timing hole cap O-ring", replace: inspect, cite: {p: 222}}
+    sections:
+      - steps:
+          - {t: "Warm up the engine to operating temperature.", cite: {p: 222}}
+          - {t: "Remove the cap from the timing hole.", cite: {p: 222}, figs: [53]}
+          - {t: "Connect a timing light as the manufacturer instructs.", cite: {p: 222}}
+          - {t: "Start the engine and let it idle at the specified speed.", cite: {p: 222}, spec_ref: "electrical-general:Ignition timing/Idle"}
+          - {t: "Point the timing light into the timing hole. The F mark must align with the index mark in the hole.", cite: {p: 222}, figs: [54]}
+          - {t: "Increase the engine speed. The F mark must move clockwise.", cite: {p: 222}}
+          - {t: "At the specified speed, the timing is advanced. A single line must show in the timing hole.", cite: {p: 222}, spec_ref: "electrical-general:Ignition timing/Advanced"}
+          - {t: "If the timing is not correct, test the CDI unit.", cite: {p: 222}, op: c09-cdi-unit-test}
+          - {t: "If the CDI unit passes all tests, examine the Woodruff key that holds the rotor to the crankshaft.", cite: {p: 222}, figs: [55]}
+          - {t: "If the key is bent or sheared, the rotor does not align on the crankshaft and the engine is out of time. This small change can be hard to see in a timing check, but it is enough to cause poor engine performance.", cite: {p: 222}}
+          - {t: "Turn off the engine. Disconnect the test equipment.", cite: {p: 222}}
+          - {t: "Lubricate the O-ring on the cap. Screw the cap into the timing hole.", cite: {p: 222}}

@@ -149,6 +149,7 @@ Step fields:
 | `figs` | Clymer figure numbers in the operation's `chapter` (or the step's `chapter`). |
 | `chapter` | Override the Clymer chapter for `figs` in this step. |
 | `gap` | STE text: a value or step that no source gives. |
+| `image_checked` | `true` only after a reviewer compared every number in the step with the page image (for values that exist only in a drawing). The number check then skips the step. |
 | `conflict` | `{note: "...", agrees: false, others: [{t: "...", cite: {...}}]}` |
 
 Part `replace` values: `always` (the book says install a new one), `inspect`

@@ -22,7 +22,7 @@ parts:
 sections:
   - title: "Engine oil level check"
     steps:
-      - {t: "Measure the oil level when the engine has been stopped for some time. The best time is before you start a cold engine.", cite: {p: 59}}
+      - {t: "Measure the oil level after the engine stopped for some time. The best time is before you start a cold engine.", cite: {p: 59}}
       - {t: "If the engine was running, wait several minutes. The oil then drains to the crankcase.", cite: {p: 59}}
       - {t: "If you just changed the oil, start the engine and let the oil circulate. Then stop the engine. If you do not do this, the reading is not correct.", cite: {p: 59}}
       - {t: "Park the motorcycle on level ground.", cite: {p: 59}}

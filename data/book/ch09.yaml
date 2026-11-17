@@ -1,0 +1,98 @@
+chapter: 9
+title: "Electrical System"
+sections:
+  - id: resistance-testing-guidelines
+    title: "Resistance testing guidelines"
+    pages: [201, 202]
+    summary:
+      - {t: "Test results change with ambient temperature and with the quality of the meter. They also change with the condition of the wiring harness, the terminals and the connectors.", cite: {p: 201}}
+      - {t: "Use the specifications as a guide. If a part is only slightly out of specification, be careful before you replace it. Do a continuity test on the wiring harness first.", cite: {p: 201}}
+      - {t: "If you are not sure of the test results, take the component to a dealer. A comparison with a new part often shows the condition of the component.", cite: {p: 201}}
+    ops: []
+  - id: continuity-testing-guidelines
+    title: "Continuity testing guidelines"
+    pages: [202, 202]
+    summary:
+      - {t: "You can use an ohmmeter to test circuits, switches, light bulbs and fuses for continuity. The test is at the connector plug or at the part.", cite: {p: 202}}
+    ops: [c09-continuity-test]
+  - id: ignition-and-charging-system-operation
+    title: "Ignition and charging system operation"
+    pages: [202, 203]
+    summary:
+      - {t: "A permanent magnet alternator on the left end of the crankshaft supplies the ignition system and charges the battery. The engine has a capacitor discharge ignition (CDI) system.", cite: {p: 202}}
+      - {t: "The exciter coil sends current to the CDI unit, which stores it in a capacitor. When the rotor is in the correct position, the pickup coil signals the CDI unit to send the stored charge to the ignition coil.", cite: {p: 202}}
+      - {t: "Separate coils in the alternator charge the battery. The regulator/rectifier changes the current to direct current and regulates it. If the battery is full, the regulator/rectifier changes the extra current to heat.", cite: {p: 203}}
+    ops: []
+  - id: alternator-cover
+    title: "Alternator cover"
+    pages: [203, 203]
+    summary:
+      - {t: "The alternator cover holds the stator and the pickup coil. Remove it to get to the rotor.", cite: {p: 203}}
+    ops: [c09-alternator-cover]
+  - id: stator-and-pickup-coil
+    title: "Stator and pickup coil"
+    pages: [204, 204]
+    summary:
+      - {t: "The stator and the pickup coil are on the inside of the alternator cover. You can test them without removal.", cite: {p: 204}}
+    ops: [c09-stator-and-pickup-coil]
+  - id: rotor-and-starter-clutch
+    title: "Rotor and starter clutch"
+    pages: [205, 209]
+    summary:
+      - {t: "The starter clutch is on the back of the rotor. Use a rotor holder tool and a rotor puller to remove the rotor.", cite: {p: 205}}
+    ops: [c09-starter-clutch-test, c09-rotor-removal-installation, c09-starter-clutch-inspection]
+  - id: starter
+    title: "Starter"
+    pages: [208, 212]
+    summary:
+      - {t: "The starter is in the left crankcase cover. The pages show how to remove it, disassemble it and test the armature and the brushes.", cite: {p: 209}}
+    ops: [c09-starter-removal-installation, c09-starter-disassembly-assembly, c09-starter-inspection-testing]
+  - id: starting-system
+    title: "Starting system"
+    pages: [212, 217]
+    summary:
+      - {t: "The starting system has the relays and switches that start and stop the engine. The safety switches prevent engine start when the startup conditions are not correct.", cite: {p: 212}}
+    ops: [c09-starter-relay-test, c09-starter-circuit-relay-test, c09-starter-lockout-switch-test, c09-neutral-switch-test, c09-sidestand-switch-test, c09-starter-button-engine-stop-switch-test, c09-ignition-switch-test]
+  - id: ignition-system
+    title: "Ignition system"
+    pages: [217, 222]
+    summary:
+      - {t: "The ignition system has the parts that the engine needs to run. Some parts also work in the starting or charging system.", cite: {p: 218}}
+      - {t: "The CDI unit controls the ignition timing. You cannot adjust the timing.", cite: {p: 222}}
+    ops: [c09-cdi-unit-test, c09-diode-unit-test, c09-ignition-coil-test, c09-exciter-coil-test, c09-pickup-coil-test, c09-ignition-timing]
+  - id: charging-system
+    title: "Charging system"
+    pages: [222, 227]
+    summary:
+      - {t: "The charging system has the parts that charge the battery and regulate the power to it. The sections give the fuse, battery, regulator/rectifier and stator tests.", cite: {p: 222}}
+    ops: [c09-charging-system-precautions, c09-fuse-test, c09-battery-voltage-unloaded, c09-battery-voltage-loaded, c09-battery-current-draw-test, c09-regulator-output-voltage-test, c09-regulator-resistance-test, c09-stator-charging-coil-test]
+  - id: fan-system
+    title: "Fan system"
+    pages: [227, 230]
+    summary:
+      - {t: "The fan circuit has the fan, the fan relay, the fan switch and the battery. On 1990-on models it also has a fuse. The fan switch at the bottom of the radiator grounds the circuit when the coolant is hot.", cite: {p: 227}}
+    ops: [c09-fan-test, c09-fan-switch-test, c09-fan-relay-test, c09-fan-fuse-test]
+  - id: water-temperature-gauge-and-sending-unit
+    title: "Water temperature gauge and sending unit"
+    pages: [230, 231]
+    summary:
+      - {t: "The sending unit on top of the cylinder head sends a signal to the water temperature gauge. When the coolant gets hotter, the resistance of the sending unit decreases and the gauge shows a hotter reading.", cite: {p: 230}}
+    ops: [c09-water-temp-gauge-circuit-test, c09-water-temp-gauge-test, c09-water-temp-sender-test]
+  - id: turn-signal-relay
+    title: "Turn signal relay"
+    pages: [231, 231]
+    summary:
+      - {t: "The turn signal relay is on the right side of the motorcycle, under the fuel tank.", cite: {p: 231}}
+    ops: [c09-turn-signal-relay-test]
+  - id: headlight
+    title: "Headlight"
+    pages: [231, 233]
+    summary:
+      - {t: "The headlight section tells how to replace the bulb and how to adjust the aim.", cite: {p: 231}}
+    ops: [c09-headlight-bulb, c09-headlight-adjustment, lights-switches]
+  - id: left-handlebar-switches
+    title: "Left handlebar switches"
+    pages: [233, 233]
+    summary:
+      - {t: "The left handlebar switch unit has the headlight high/low switch, the turn signal switch and the horn button. Test them for continuity at the connector plug.", cite: {p: 233}}
+    ops: [c09-left-handlebar-switch-test]

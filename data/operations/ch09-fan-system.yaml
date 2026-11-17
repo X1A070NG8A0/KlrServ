@@ -1,0 +1,64 @@
+operations:
+  - id: c09-fan-test
+    title: "Fan test"
+    system: "electrical system"
+    source: clymer
+    chapter: 9
+    section: "09/fan-system"
+    summary: {t: "When the coolant gets to a set temperature, an electric fan turns on to increase the airflow through the radiator fins. The fan relay turns the fan on and off. The fan switch at the bottom of the radiator controls the fan relay.", cite: {p: 227}}
+    sections:
+      - steps:
+          - {kind: note, t: "On 1990-on models, examine the fan system fuse before you test individual components.", cite: {p: 228}, op: c09-fuse-test}
+          - {kind: note, t: "Make sure that all connections are clean and tight. When you assemble connections, apply dielectric grease to prevent corrosion and moisture.", cite: {p: 228}}
+          - {t: "If the fan does not turn on at high temperature, remove the connector from the switch terminal.", cite: {p: 228}, figs: [64]}
+          - {t: "Ground the connector to an engine fin or other unpainted ground.", cite: {p: 228}}
+          - {t: "If the fan turns on, test the fan switch.", cite: {p: 228}, op: c09-fan-switch-test}
+          - {t: "If the fan does not turn on, remove the fuel tank and continue.", cite: {p: 228}, ref: "15/fuel-tank"}
+          - {t: "Disconnect the connector on the frame (A in the figure) near the fan relay (B).", cite: {p: 228}, figs: [65]}
+          - {t: "Identify the connector half that goes to the fan.", cite: {p: 228}}
+          - {t: "Connect a 12-volt battery to the motor leads. Connect the positive lead to the blue wire and the negative lead to the black/yellow wire.", cite: {p: 228}}
+          - {t: "If the fan does not turn on, replace the fan. Replacement parts are not available for the fan.", cite: {p: 228}}
+          - {t: "If the fan turns on, test the fan relay.", cite: {p: 228}, op: c09-fan-relay-test}
+
+  - id: c09-fan-switch-test
+    title: "Fan switch test"
+    system: "electrical system"
+    source: clymer
+    chapter: 9
+    section: "09/fan-system"
+    summary: {t: "This test needs heated water to simulate operating conditions. Read the procedure first so that you have the correct equipment to do the test safely.", cite: {p: 228}}
+    spec_refs: ["electrical-test:Radiator fan switch resistance/Ambient temperature", "electrical-test:Radiator fan switch resistance/On position (above 94° C [201° F])", "electrical-test:Radiator fan switch resistance/Off position (below 91° C [196° F])", "electrical-torque:Radiator fan switch"]
+    sections:
+      - steps:
+          - {t: "Drain the cooling system.", cite: {p: 228}, op: coolant-replace}
+          - {t: "Remove the connector from the switch terminal. Remove the switch from the radiator.", cite: {p: 228}}
+          - {t: "Clean the switch. Examine it for damage.", cite: {p: 228}}
+          - {t: "At ambient temperature, connect an ohmmeter to the switch terminal and to the switch threads.", cite: {p: 228}}
+          - {t: "The reading must be infinity. If it is not, the switch is faulty. Low resistance can cause the fan to come on too soon or not turn off.", cite: {p: 228}, spec_ref: "electrical-test:Radiator fan switch resistance/Ambient temperature"}
+          - {t: "To test at operating temperature, connect an ohmmeter to the switch terminal and to the switch threads.", cite: {p: 228}}
+          - {t: "Suspend the switch and an accurate thermometer in a container of water. The temperature sensor and the threads must be under water. Do not let the parts touch the bottom or side of the container.", cite: {p: 228}, figs: [66]}
+          - {t: "Heat the water slowly. Read the thermometer and the ohmmeter. Do not overheat the switch.", cite: {p: 229}}
+          - {t: "Compare the readings with the specifications for the on position and the off position.", cite: {p: 229}, spec_ref: "electrical-test:Radiator fan switch resistance/On position (above 94° C [201° F])"}
+          - {t: "Compare the off position reading.", cite: {p: 229}, spec_ref: "electrical-test:Radiator fan switch resistance/Off position (below 91° C [196° F])"}
+          - {t: "If the switch does not operate in specification, replace the switch.", cite: {p: 229}}
+          - {t: "Install the switch into the radiator. Tighten the switch to the specified torque.", cite: {p: 229}, spec_ref: "electrical-torque:Radiator fan switch"}
+          - {t: "Fill and bleed the cooling system.", cite: {p: 229}, op: coolant-replace}
+
+  - id: c09-fan-relay-test
+    title: "Fan relay test"
+    system: "electrical system"
+    source: clymer
+    chapter: 9
+    section: "09/fan-system"
+    summary: {t: "The fan relay is on the right side of the motorcycle, under the fuel tank.", cite: {p: 229}}
+    spec_refs: ["electrical-test:Fan relay coil resistance"]
+    sections:
+      - steps:
+          - {t: "Remove the fuel tank.", cite: {p: 229}, ref: "15/fuel-tank", figs: [65]}
+          - {t: "Remove the relay from the mount. Then unplug the relay.", cite: {p: 229}}
+          - {t: "Connect a 12-volt battery and an ohmmeter to the relay terminals. Set the ohmmeter to R x 1 ohm.", cite: {p: 229}, figs: [67]}
+          - {kind: note, t: "Terminals 1 (red/white) and 2 (white) connect to the relay coil. Terminals 3 (blue) and 4 (white) connect to the relay switch.", cite: {p: 229}}
+          - {t: "With the battery connected, test for continuity through the relay switch, terminals 3 and 4. There must be continuity.", cite: {p: 229}}
+          - {t: "Disconnect the battery. Test for continuity through the relay switch, terminals 3 and 4. There must be no continuity.", cite: {p: 229}}
+          - {t: "With the battery disconnected, measure the relay coil resistance at terminals 1 and 2. Compare it with the specification.", cite: {p: 229}, spec_ref: "electrical-test:Fan relay coil resistance"}
+          - {t: "If the relay fails any test, replace the relay.", cite: {p: 229}}

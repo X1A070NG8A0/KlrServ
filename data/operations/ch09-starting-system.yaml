@@ -1,0 +1,136 @@
+operations:
+  - id: c09-starter-relay-test
+    title: "Starter relay test"
+    system: "electrical system"
+    source: clymer
+    chapter: 9
+    section: "09/starting-system"
+    summary: {t: "The starter relay is on the left side of the motorcycle, behind the plastic cover. It connects the battery to the starter and carries the high current during startup. A small current from the starter circuit relay operates it when you press the starter button.", cite: {p: 213}}
+    sections:
+      - steps:
+          - {t: "Remove the cover to get to the relay. If necessary, remove the fuel tank to get more access.", cite: {p: 213}, ref: "15/fuel-tank", figs: [40]}
+          - {t: "Disconnect the cables that go to the starter and to the battery.", cite: {p: 214}}
+          - {kind: caution, t: "Do not let the end of the battery cable touch the frame, the engine or any other grounded part. The cable connects to the positive battery terminal and the battery will short. Keep the cable end protected until you connect it again.", cite: {p: 214}}
+          - {t: "Connect an ohmmeter to the relay terminals. Set the meter to the R x 1 scale.", cite: {p: 214}}
+          - {t: "Make sure that the neutral switch is in the on position.", cite: {p: 214}}
+          - {t: "Make sure that the engine stop switch is in the run position.", cite: {p: 214}}
+          - {t: "Turn on the ignition switch and press the starter button. Listen to the relay and read the meter.", cite: {p: 214}}
+          - {t: "Turn off the ignition switch.", cite: {p: 214}}
+          - {t: "If the relay clicks when you press the button and the meter reads 0 (no resistance in the relay), the relay is in good condition. Examine the starter and the cables for damage.", cite: {p: 214}}
+          - {t: "If the relay clicks and the meter does not read 0 (resistance in the relay), the relay is faulty.", cite: {p: 214}}
+          - {t: "If the relay does not click when you press the button, the relay is faulty. Before you replace the relay, make sure that power goes to the relay wires when you press the starter button.", cite: {p: 214}}
+          - {t: "If power does not go to the relay wires, examine and test the starter circuit relay.", cite: {p: 214}, op: c09-starter-circuit-relay-test}
+
+  - id: c09-starter-circuit-relay-test
+    title: "Starter circuit relay test"
+    system: "electrical system"
+    source: clymer
+    chapter: 9
+    section: "09/starting-system"
+    summary: {t: "The starter circuit relay is on the left side of the motorcycle, behind the plastic cover. It sends current to the starter relay. It passes current only when the starter lockout switch or the neutral switch is in its safe startup position.", cite: {p: 214}}
+    spec_refs: ["electrical-test:Starter circuit relay coil resistance"]
+    sections:
+      - steps:
+          - {t: "Remove the cover to get to the relay.", cite: {p: 215}, figs: [40]}
+          - {t: "Remove the relay from the mount. Then unplug the relay.", cite: {p: 215}}
+          - {t: "Connect a 12-volt battery and an ohmmeter to the relay terminals. Set the ohmmeter to R x 1 ohm.", cite: {p: 215}, figs: [41]}
+          - {kind: note, t: "Terminals 1 (blue/red) and 2 (yellow/red) connect to the relay coil. Terminals 3 (black) and 4 (yellow/red) connect to the circuit relay switch.", cite: {p: 215}}
+          - {t: "With the battery connected, test for continuity through the circuit relay switch, terminals 3 and 4. There must be continuity.", cite: {p: 215}}
+          - {t: "Disconnect the battery. Test for continuity through the circuit relay switch, terminals 3 and 4. There must be no continuity.", cite: {p: 215}}
+          - {t: "With the battery disconnected, measure the circuit relay coil resistance at terminals 1 and 2. Compare it with the specification.", cite: {p: 215}, spec_ref: "electrical-test:Starter circuit relay coil resistance"}
+          - {t: "If the relay fails any test, replace the relay.", cite: {p: 215}}
+
+  - id: c09-starter-lockout-switch-test
+    title: "Starter lockout switch test"
+    system: "electrical system"
+    source: clymer
+    chapter: 9
+    section: "09/starting-system"
+    summary: {t: "The starter lockout switch is in the clutch lever assembly. Test it with an ohmmeter at the connector plug that is in front of the handlebar gauges, behind the cover.", cite: {p: 215}}
+    sections:
+      - steps:
+          - {t: "Remove the cover to get to the wiring. If necessary, remove the fairing.", cite: {p: 215}, figs: [43]}
+          - {t: "Disconnect the connector plug (E in the figure).", cite: {p: 215}, figs: [43]}
+          - {t: "Connect the ohmmeter to the plug half that goes to the switch. Connect it to the blue/red wire and the light green wire.", cite: {p: 215}}
+          - {t: "With the clutch lever out, there must be continuity.", cite: {p: 215}}
+          - {t: "With the clutch lever pulled in, there must be no continuity.", cite: {p: 215}}
+          - {t: "Connect the ohmmeter to the blue/red wire and the black/yellow wire.", cite: {p: 215}}
+          - {t: "With the clutch lever out, there must be no continuity.", cite: {p: 215}}
+          - {t: "With the clutch lever pulled in, there must be continuity.", cite: {p: 215}}
+          - {t: "If the switch fails any test, replace or repair the assembly.", cite: {p: 215}}
+
+  - id: c09-neutral-switch-test
+    title: "Neutral switch test"
+    system: "electrical system"
+    source: clymer
+    chapter: 9
+    section: "09/starting-system"
+    summary: {t: "The neutral switch is on the left side of the engine, next to the drive sprocket. Test it with an ohmmeter.", cite: {p: 215}}
+    spec_refs: ["electrical-torque:Neutral switch"]
+    sections:
+      - steps:
+          - {t: "Remove the chain sprocket guard. You do not have to remove the sprocket.", cite: {p: 215}, ref: "11/sprockets"}
+          - {t: "Put the transmission in neutral.", cite: {p: 215}}
+          - {t: "Remove the wire from the switch terminal.", cite: {p: 215}, figs: [44]}
+          - {t: "Connect an ohmmeter to the switch terminal and to ground (an unpainted part of the engine).", cite: {p: 215}}
+          - {t: "With the transmission in neutral, there must be continuity.", cite: {p: 215}}
+          - {t: "With the transmission in any gear, there must be no continuity.", cite: {p: 215}}
+          - {t: "If the switch fails either test, remove the switch.", cite: {p: 215}}
+          - {t: "Connect the ohmmeter to the terminal and to the threads on the switch.", cite: {p: 216}}
+          - {t: "Press the button on the bottom of the switch. If there is no continuity, the switch is faulty.", cite: {p: 216}}
+          - {t: "If there is continuity, the switch button can be worn. The shift drum then cannot fully operate the switch, although the switch operates correctly when it is out of the engine. Replace the switch.", cite: {p: 216}}
+          - {t: "When you install the switch, tighten it to the specified torque.", cite: {p: 216}, spec_ref: "electrical-torque:Neutral switch"}
+
+  - id: c09-sidestand-switch-test
+    title: "Sidestand stop switch test"
+    system: "electrical system"
+    source: clymer
+    chapter: 9
+    section: "09/starting-system"
+    summary: {t: "The sidestand stop switch is on the left side of the motorcycle, behind the plastic cover. It does not prevent engine start with the sidestand up or down. If the sidestand is down, the engine runs and the transmission is in gear, the switch stops the engine when you release the clutch.", cite: {p: 216}}
+    sections:
+      - steps:
+          - {t: "Remove the cover to get to the switch. If necessary, remove the fuel tank to get more access.", cite: {p: 216}, ref: "15/fuel-tank", figs: [40]}
+          - {t: "Follow the wire from the switch. Disconnect the connector plug.", cite: {p: 216}}
+          - {t: "Connect an ohmmeter to the brown wire and the green/white wire.", cite: {p: 216}, figs: [45]}
+          - {t: "With the sidestand down, there must be no continuity.", cite: {p: 216}}
+          - {t: "With the sidestand up, there must be continuity.", cite: {p: 216}}
+          - {t: "If the switch fails any test, replace or repair the assembly.", cite: {p: 216}}
+
+  - id: c09-starter-button-engine-stop-switch-test
+    title: "Starter button and engine stop switch test"
+    system: "electrical system"
+    source: clymer
+    chapter: 9
+    section: "09/starting-system"
+    summary: {t: "Test the starter button and the engine stop switch with an ohmmeter at the connector plug (A in the figure). The plug is in front of the handlebar gauges, behind the cover.", cite: {p: 216}}
+    sections:
+      - steps:
+          - {t: "Remove the cover to get to the wiring. If necessary, remove the fairing.", cite: {p: 216}, figs: [43]}
+          - {t: "Disconnect the connector plug.", cite: {p: 216}}
+          - {t: "Connect the ohmmeter to the plug half that goes to the switch and button. Connect it to the brown wire and the yellow/red wire.", cite: {p: 216}}
+          - {t: "With the engine stop switch in the off position, there must be no continuity.", cite: {p: 216}}
+          - {t: "With the engine stop switch in the off position, press the starter button. There must be no continuity.", cite: {p: 216}}
+          - {t: "With the engine stop switch in the run position, there must be no continuity.", cite: {p: 216}}
+          - {t: "With the engine stop switch in the run position, press the starter button. There must be continuity.", cite: {p: 216}}
+          - {t: "Connect the ohmmeter to the black/white wire and the black/yellow wire.", cite: {p: 216}}
+          - {t: "With the engine stop switch in the off position, there must be continuity.", cite: {p: 216}}
+          - {t: "With the engine stop switch in the off position, press the starter button. There must be no continuity.", cite: {p: 216}}
+          - {t: "If the assembly fails any test, replace or repair the assembly.", cite: {p: 216}}
+
+  - id: c09-ignition-switch-test
+    title: "Ignition switch test"
+    system: "electrical system"
+    source: clymer
+    chapter: 9
+    section: "09/starting-system"
+    summary: {t: "Test the ignition switch with an ohmmeter at the connector plug (C in the figure). The plug is in front of the handlebar gauges, behind the cover.", cite: {p: 216}}
+    sections:
+      - steps:
+          - {t: "Remove the cover to get to the wiring. If necessary, remove the fairing.", cite: {p: 216}, figs: [43]}
+          - {t: "Disconnect the connector plug.", cite: {p: 217}}
+          - {t: "Connect the ohmmeter to the plug half that goes to the switch. Connect it to the black/yellow wire and the black/white wire.", cite: {p: 217}}
+          - {t: "With the ignition switch in the lock, off or park position, there must be continuity.", cite: {p: 217}}
+          - {t: "Connect the ohmmeter to the white wire and the brown wire. With the ignition switch in the on position, there must be continuity.", cite: {p: 217}}
+          - {t: "Connect the ohmmeter to the red wire and the red/white wire. This is the light circuit. With the ignition switch in the on position, there must be continuity.", cite: {p: 217}}
+          - {t: "If the switch fails any test, replace or repair the assembly.", cite: {p: 217}}

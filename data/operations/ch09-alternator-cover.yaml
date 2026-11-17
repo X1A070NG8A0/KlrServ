@@ -1,0 +1,35 @@
+operations:
+  - id: c09-alternator-cover
+    title: "Alternator cover removal and installation"
+    system: "electrical system"
+    source: clymer
+    chapter: 9
+    section: "09/alternator-cover"
+    summary: {t: "You must remove the alternator cover to get to the rotor, the stator and the pickup coil. The stator and pickup coil are on the inside of the cover.", cite: {p: 203}}
+    spec_refs: ["electrical-torque:Upper engine mounting bolts"]
+    parts:
+      - {name: "Alternator cover gasket", replace: always, cite: {p: 203}}
+      - {name: "Dielectric grease", replace: consumable, cite: {p: 203}}
+    sections:
+      - title: "Removal"
+        steps:
+          - {t: "Remove the skid plate.", cite: {p: 203}, ref: "15/skid-plate"}
+          - {t: "Remove the chain sprocket guard. You do not have to remove the sprocket.", cite: {p: 203}, ref: "11/sprockets"}
+          - {t: "Disconnect the neutral switch wire.", cite: {p: 203}, figs: [1]}
+          - {t: "Remove the shift lever.", cite: {p: 203}, figs: [1]}
+          - {t: "If you will test the stator, remove the fuel tank.", cite: {p: 203}, ref: "15/fuel-tank"}
+          - {t: "Disconnect the stator and pickup coil connectors on the right side of the frame.", cite: {p: 203}, figs: [2]}
+          - {t: "If you must remove the stator and cover completely from the motorcycle, remove the upper engine mounting brackets.", cite: {p: 203}, figs: [3]}
+          - {t: "Then route the wires out of the frame and the engine.", cite: {p: 203}}
+          - {t: "Remove the 10 bolts from the edge of the cover.", cite: {p: 203}, figs: [4]}
+          - {t: "Pull the cover away from the engine. The magnets cause resistance when the cover comes off.", cite: {p: 203}}
+          - {kind: warning, t: "Keep your fingers away from the edge of the cover. The cover can pinch your fingers.", cite: {p: 203}}
+          - {t: "Remove the cover gasket.", cite: {p: 203}}
+          - {t: "Find the two cover dowels and the washer on each starter gear shaft.", cite: {p: 203}, figs: [5]}
+          - {t: "Remove or test the stator and pickup coil as this chapter describes.", cite: {p: 203}, figs: [6], op: c09-stator-and-pickup-coil}
+      - title: "Installation"
+        steps:
+          - {t: "Install a new cover gasket.", cite: {p: 203}}
+          - {t: "Make sure that all wires are in their correct routes and are secure.", cite: {p: 203}}
+          - {t: "Clean the electrical connections. Apply dielectric grease when you assemble them.", cite: {p: 203}}
+          - {t: "Tighten the upper engine mounting bolts to the specified torque.", cite: {p: 203}, spec_ref: "electrical-torque:Upper engine mounting bolts"}
