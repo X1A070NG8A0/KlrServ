@@ -1,0 +1,53 @@
+operations:
+  - id: c01-storage-preparation
+    title: "Storage preparation"
+    system: "General information"
+    source: clymer
+    chapter: 1
+    section: "01/storage"
+    summary: {t: "Several months of non-use can cause deterioration of the motorcycle. This list is the minimum preparation for storage. The amount of preparation depends on the length of non-use, the storage area and your preference.", cite: {p: 38}}
+    parts:
+      - {name: "Engine oil", replace: always, cite: {p: 38}, note: "Drain the engine oil and fill the engine with the recommended oil."}
+      - {name: "Commercial protectant", replace: consumable, cite: {p: 39}}
+    sections:
+      - title: "Storage area"
+        steps:
+          - {t: "Select a dry storage area. A heated area is best, but not necessary. Insulate it to reduce extreme temperature changes.", cite: {p: 38}}
+          - {t: "If the building has large windows, cover them to keep sunlight off the motorcycle.", cite: {p: 38}}
+          - {t: "Do not use a storage area close to saltwater.", cite: {p: 38}}
+          - {t: "Consider the risk of fire, theft or vandalism in the area. Ask an insurer about coverage while the motorcycle is in storage.", cite: {p: 38}}
+      - title: "Preparation"
+        steps:
+          - {t: "Wash the motorcycle. Remove all dirt, mud and road debris.", cite: {p: 38}}
+          - {t: "Make sure that the coolant level and the mix ratio are correct.", cite: {p: 38}, ref: "03/maintenance-and-inspection"}
+          - {t: "Start the engine and let it get to operating temperature.", cite: {p: 38}}
+          - {t: "Turn the fuel valve off. Run the engine until all the fuel is gone from the lines and the carburetor.", cite: {p: 38}}
+          - {t: "Open the drain on the float chamber to drain the remaining fuel.", cite: {p: 38}}
+          - {t: "Remove the fuel tank. Drain the fuel tank and the fuel valve.", cite: {p: 38}, ref: "15/fuel-tank"}
+          - {t: "Pour approximately 240 cc (8 oz.) of engine oil into the tank. Spread the oil on the inner wall of the tank to prevent corrosion.", cite: {p: 38}}
+          - {t: "Drain the engine oil, also if you changed it recently. Fill the engine with the recommended oil.", cite: {p: 38}, op: engine-oil-and-filter}
+          - {t: "Remove the spark plug.", cite: {p: 38}, ref: "03/spark-plugs"}
+          - {t: "Pour a teaspoon of engine oil into the cylinder.", cite: {p: 38}}
+          - {t: "Put a shop cloth over the opening. Turn the engine over to spread the oil.", cite: {p: 38}}
+          - {t: "Install the spark plug.", cite: {p: 38}}
+          - {t: "Remove the battery. Keep it in a cool, dry location.", cite: {p: 39}, ref: "03/battery"}
+          - {t: "Cover the exhaust and intake openings.", cite: {p: 39}}
+          - {t: "Reduce the normal tire pressure by 20%.", cite: {p: 39}}
+          - {t: "Apply a commercial protectant to the plastic and rubber parts, including the tires. Follow the instructions of the manufacturer for each product.", cite: {p: 39}}
+          - {t: "Put the motorcycle on a stand so that the tires are off the ground.", cite: {p: 39}}
+          - {t: "If you cannot lift the motorcycle, put a piece of plywood between the tires and the ground. Inflate the tires to the recommended pressure.", cite: {p: 39}}
+          - {t: "Cover the motorcycle with a drop cloth or a similar cover.", cite: {p: 39}}
+          - {kind: caution, t: "Do not use a plastic cover. Plastic traps moisture and causes corrosion.", cite: {p: 39}}
+
+  - id: c01-return-to-service
+    title: "Return to service after storage"
+    system: "General information"
+    source: clymer
+    chapter: 1
+    section: "01/storage"
+    summary: {t: "The service that the motorcycle needs depends on the length of non-use and the storage conditions.", cite: {p: 39}}
+    sections:
+      - steps:
+          - {t: "Install each part that you removed for storage. Examine each area that you prepared for storage.", cite: {p: 39}, op: c01-storage-preparation}
+          - {t: "Make sure that the brakes, the clutch, the throttle and the engine stop switch work correctly before you operate the motorcycle.", cite: {p: 39}}
+          - {t: "Use the maintenance and lubrication schedule to find the areas that need more service.", cite: {p: 39}, ref: "03/tune-up-and-service-intervals"}

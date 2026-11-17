@@ -19,8 +19,8 @@ chapters:
   6: done
   7: done
   2: done
-  1: in-progress
-  issues: todo   # data/issues/*.yaml rewrite in STE
+  1: done
+  issues: in-progress
 after_writers:
   - Rebuild (npm run build), update README, check the site in the browser.
 review:   # drawing-only values: read from the page image, recreate as an HTML diagram, set image_checked
@@ -29,3 +29,4 @@ review:   # drawing-only values: read from the page image, recreate as an HTML d
   - "ch4 figs 22-24: camshaft timing mark layout (PDF p97-98)"
   - "ch5: rear balancer shaft snap ring sharp edge, p133 says faces in, p136 says faces out (writer followed p136); compare page images"
   - "ch7 p178: later output shaft 2nd gear dog recess direction, text contradicts itself; read fig 36 / page image and fill the gap"
+  - "ch1 p25: torque adapter formula rebuilt from the worked example (TW = TA x L / (L + A)); compare with the page image"
