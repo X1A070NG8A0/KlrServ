@@ -54,8 +54,14 @@ class MileagePicker extends HTMLElement {
       if (push) history.pushState(null, "", href);
       document.title = page.title;
       const swap = () => current.replaceWith(next);
-      if (document.startViewTransition) await document.startViewTransition(swap).updateCallbackDone;
-      else swap();
+      if (document.startViewTransition) {
+        // On Back, two pickers can swap at the same time. The second
+        // transition skips the first one, which rejects its ready promise.
+        // The swap still happens, so ignore that rejection.
+        const t = document.startViewTransition(swap);
+        t.ready.catch(() => {});
+        await t.updateCallbackDone;
+      } else swap();
       // The clicked link is gone. Put focus on the new current mileage.
       if (document.activeElement === document.body) {
         const now = next.querySelector(".binder-tabs a[aria-current]");

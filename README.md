@@ -37,7 +37,13 @@ JavaScript:
 | `<photo-zoom>` | Opens the photo large in a dialog | A link to the image file |
 
 Static content (procedures, steps, parts, specification tables) is native
-HTML. `site/REFACTOR.md` gives the reasons for these choices.
+HTML.
+
+On 2026-11-17 a scripted test of each element passed in Chromium 156,
+Firefox 160 and WebKit 27.2 (the Playwright build of the Safari engine, on
+Windows). Firefox 143, which has no anchor positioning and no invoker
+commands, tested the JavaScript fallbacks. Real Safari on a Mac or an
+iPhone is not tested. `site/REFACTOR.md` gives the reasons for these choices.
 
 ## What the site does
 
