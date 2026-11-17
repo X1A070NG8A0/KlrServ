@@ -251,19 +251,26 @@
     li.warn { color: var(--fg); .lbl { color: var(--accent); } }
   }
 
-  /* Service by mileage: timeline and mileage links */
-  svg.timeline {
-    width: 100%; height: auto; max-width: 48rem; display: block; margin: 1rem 0;
-    line { stroke: var(--rule); stroke-width: 2; }
-    circle { fill: var(--second-bg); stroke: var(--second); stroke-width: 1.5; }
-    a:is(:hover, [aria-current]) circle { fill: var(--second); }
-    text { fill: var(--fg); font: 12px var(--mono); }
-    text.n { font-weight: 700; font-size: 11px; }
+  /* Service checklists: binder tabs over a page of task boxes */
+  .binder { margin: 1rem 0 1.5rem; max-width: 48rem; }
+  .binder-tabs {
+    display: flex; flex-wrap: wrap; gap: .25rem .2rem; align-items: flex-end;
+    a {
+      position: relative; top: 1px; font-size: .85rem; color: var(--fg); text-decoration: none;
+      background: var(--second-bg); border: 1px solid var(--rule); border-bottom: none;
+      border-radius: 6px 6px 0 0; padding: .25rem .7rem;
+      &:hover { border-color: var(--second); }
+      &[aria-current] { background: var(--bg); border-color: var(--rule); font-weight: 700; padding-block: .4rem .3rem; }
+    }
   }
-  .milestone-buttons a {
-    display: inline-block; font-size: .85rem; color: var(--fg); text-decoration: none;
-    background: var(--bg); border: 1px solid var(--rule); padding: .1rem .5rem;
-    &[aria-current] { background: var(--second-bg); border-color: var(--second); font-weight: 700; }
+  .binder-page {
+    border: 1px solid var(--rule); border-radius: 0 6px 6px 6px; background: var(--bg); padding: .2rem 1rem .6rem;
+    h3 { margin: .6rem 0 .4rem; }
+  }
+  .task-box {
+    border: 1px solid var(--rule); border-radius: 4px; padding: .1rem .7rem .3rem; margin: .6rem 0;
+    h4 { margin: .4rem 0 .2rem; font-size: .92rem; color: var(--muted); }
+    &.own { border-color: var(--second); h4 { color: var(--fg); } }
   }
 }
 

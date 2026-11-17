@@ -1,7 +1,8 @@
 // @ts-check
-// <mileage-picker> holds the links to the mileage pages (/maintenance/<miles>.html).
-// A click gets that page and puts its #service section in place of the
-// current one, with a cross-fade. The address changes, and the Back button
+// <mileage-picker> holds the binder tabs that link to the service pages
+// (/maintenance/<miles>.html and /maintenance/every-<miles>.html). A click
+// gets that page and puts its copy of the section that holds this picker in
+// place of the current one, with a cross-fade. The address changes, and the Back button
 // shows the earlier service. A modified click (Ctrl, Shift, Alt, Cmd) or a
 // failed request falls back to a normal page load. Without JavaScript, the
 // links open the mileage pages.
@@ -23,7 +24,11 @@ class MileagePicker extends HTMLElement {
   /** @param {Event} e */
   handleEvent(e) {
     if (e.type === "popstate") {
-      void this.show(location.pathname, false);
+      // Only the picker that links to the address swaps. If no picker links
+      // to it (the main maintenance page), each picker shows its first tab.
+      const path = location.pathname;
+      const linked = (/** @type {ParentNode} */ root) => [...root.querySelectorAll("mileage-picker a")].some((a) => a.getAttribute("href") === path);
+      if ([...this.querySelectorAll("a")].some((a) => a.getAttribute("href") === path) || !linked(document)) void this.show(path, false);
       return;
     }
     if (!(e instanceof MouseEvent) || e.button !== 0 || e.ctrlKey || e.metaKey || e.shiftKey || e.altKey) return;
@@ -43,9 +48,9 @@ class MileagePicker extends HTMLElement {
       const r = await fetch(href, { signal: this.request.signal });
       if (!r.ok) throw new Error(`HTTP ${r.status}`);
       const page = new DOMParser().parseFromString(await r.text(), "text/html");
-      const next = page.getElementById("service");
-      const current = document.getElementById("service");
-      if (!next || !current) throw new Error("no #service section");
+      const current = this.closest("section[id]");
+      const next = current ? page.getElementById(current.id) : null;
+      if (!next || !current) throw new Error("no section for this picker");
       if (push) history.pushState(null, "", href);
       document.title = page.title;
       const swap = () => current.replaceWith(next);
@@ -53,7 +58,7 @@ class MileagePicker extends HTMLElement {
       else swap();
       // The clicked link is gone. Put focus on the new current mileage.
       if (document.activeElement === document.body) {
-        const now = document.querySelector("#service .milestone-buttons a[aria-current]");
+        const now = next.querySelector(".binder-tabs a[aria-current]");
         if (now instanceof HTMLElement) now.focus();
       }
     } catch (err) {

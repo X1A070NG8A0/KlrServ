@@ -413,35 +413,47 @@ ${filterBox(".errata > li", "Filter errata, for example snap ring, torque, therm
 }
 
 // ---------- routine maintenance ----------
-const MILESTONES = [500, ...Array.from({ length: 8 }, (_, i) => (i + 1) * 3000)];
-const dueAt = (mi: number): Task[] =>
-  data.schedule.tasks.filter((t) => t.at.some((a) => (a === "initial-500" ? mi === 500 : (() => { const e = data.schedule.intervals.find((i) => i.id === a)?.every_mi; return e ? mi % e === 0 : false; })())) || (t.every_mi ? mi % t.every_mi === 0 : false));
+// A task belongs to one or more mileage categories: 500 (the initial
+// service) and each "every N miles" interval. One service lists its tasks in
+// one box per category, so the reader sees which tasks come from the shorter
+// intervals.
+const taskCats = (t: Task): number[] => [...t.at.map((a) => (a === "initial-500" ? 500 : data.schedule.intervals.find((i) => i.id === a)?.every_mi ?? 0)), t.every_mi ?? 0].filter((n) => n > 0);
+const EVERY = [...new Set(data.schedule.tasks.flatMap(taskCats))].filter((n) => n !== 500).sort((x, y) => x - y);
+// A new bike: the initial service, then the first time each interval comes due.
+const MILESTONES = [500, ...EVERY];
+const miles = (mi: number) => mi.toLocaleString("en-US");
+// Boxes for the service at odometer reading `mi`: its own category first, then
+// the shorter intervals that also come due. At 500 miles, only the initial tasks.
+function serviceBoxes(mi: number): { cat: number; tasks: Task[] }[] {
+  const cats = mi === 500 ? [500] : EVERY.filter((c) => mi % c === 0).reverse();
+  const done = new Set<Task>();
+  return cats.map((cat) => {
+    const tasks = data.schedule.tasks.filter((t) => !done.has(t) && taskCats(t).includes(cat));
+    tasks.forEach((t) => done.add(t));
+    return { cat, tasks };
+  }).filter((b) => b.tasks.length);
+}
 const timeOnly = () => data.schedule.tasks.filter((t) => !t.at.length && !t.every_mi);
-// Each mileage has a real page, /maintenance/<mi>.html. With JavaScript,
-// <mileage-picker> gets that page and swaps only the #service section.
-const milestoneUrl = (mi: number) => `/maintenance/${mi}.html`;
-function milestoneHtml(mi: number): string {
-  const tasks = dueAt(mi);
-  return `<section class="milestone"><h3>Service at ${mi.toLocaleString("en-US")} miles</h3>
-  <check-list><ol class="due checklist">${tasks.map((t) => `<li><input type="checkbox" data-done-key="${mi}:task:${esc(t.task)}" aria-label="Done: ${esc(t.task)}"> <span class="name">${t.op ? opLink(t.op, t.task) : esc(t.task)}</span></li>`).join("")}</ol></check-list>
-  <p class="hint">Each procedure has its parts and tools. <span class="ticks-hint">A ticked task moves to the bottom. This browser keeps the ticks.</span></p></section>`;
+// Each tab has a real page. With JavaScript, <mileage-picker> gets that page
+// and swaps only the section that holds the picker.
+type Binder = { id: string; label: string; tabs: number[]; url: (mi: number) => string; tab: (mi: number) => string; key: (mi: number) => string };
+const NEW_BIKE: Binder = { id: "new-bike", label: "New bike services", tabs: MILESTONES, url: (mi) => `/maintenance/${mi}.html`, tab: (mi) => `First ${miles(mi)} miles`, key: (mi) => `${mi}` };
+const GENERAL: Binder = { id: "general", label: "Services by interval", tabs: EVERY, url: (mi) => `/maintenance/every-${mi}.html`, tab: (mi) => `Every ${miles(mi)} miles`, key: (mi) => `every-${mi}` };
+function boxHtml(b: Binder, mi: number, box: { cat: number; tasks: Task[] }, own: boolean): string {
+  const h = box.cat === 500 ? "Initial 500 mile tasks" : own ? `Every ${miles(box.cat)} mile tasks` : `Also do: every ${miles(box.cat)} mile tasks`;
+  return `<div class="task-box${own ? " own" : ""}"><h4>${h}</h4>
+  <check-list><ol class="due checklist">${box.tasks.map((t) => `<li><input type="checkbox" data-done-key="${b.key(mi)}:task:${esc(t.task)}" aria-label="Done: ${esc(t.task)}"> <span class="name">${t.op ? opLink(t.op, t.task) : esc(t.task)}</span></li>`).join("")}</ol></check-list></div>`;
 }
-function timelineSvg(current: number): string {
-  const W = 760, x0 = 30, x1 = W - 20, max = MILESTONES[MILESTONES.length - 1];
-  const x = (mi: number) => x0 + ((x1 - x0) * mi) / max;
-  const marks = MILESTONES.map((mi) => { const n = dueAt(mi).length, r = 6 + Math.min(n, 30) / 2.5; return `<a href="${milestoneUrl(mi)}"${mi === current ? ' aria-current="page"' : ""}><g class="mark"><title>${mi} miles: ${n} tasks</title><circle cx="${x(mi)}" cy="50" r="${r}"/><text x="${x(mi)}" y="${50 + r + 16}" text-anchor="middle">${mi >= 1000 ? `${mi / 1000}k` : mi}</text><text class="n" x="${x(mi)}" y="54" text-anchor="middle">${n}</text></g></a>`; }).join("");
-  return `<svg class="timeline" viewBox="0 0 ${W} 120" role="img" aria-labelledby="tl"><title id="tl">Services by odometer reading. The number in each circle is the quantity of tasks.</title><line x1="${x0}" y1="50" x2="${x1}" y2="50"/>${marks}</svg>`;
-}
-function serviceHtml(current: number): string {
-  return `<section id="service">
-<mileage-picker><nav class="milestones" aria-label="Service by mileage">
-${timelineSvg(current)}
-<p class="milestone-buttons">${MILESTONES.map((mi) => `<a class="button" href="${milestoneUrl(mi)}"${mi === current ? ' aria-current="page"' : ""}>${mi.toLocaleString("en-US")}</a>`).join(" ")}</p>
-</nav></mileage-picker>
-${milestoneHtml(current)}
+function binderHtml(b: Binder, current: number): string {
+  const boxes = serviceBoxes(current);
+  return `<section id="${b.id}" class="binder">
+<mileage-picker><nav class="binder-tabs" aria-label="${b.label}">${b.tabs.map((mi) => `<a href="${b.url(mi)}"${mi === current ? ' aria-current="true"' : ""}>${b.tab(mi)}</a>`).join("")}</nav></mileage-picker>
+<div class="binder-page"><h3>${b.tab(current)}</h3>
+${boxes.map((box, i) => boxHtml(b, current, box, i === 0)).join("")}
+<p class="hint">Each procedure has its parts and tools. <span class="ticks-hint">A ticked task moves to the bottom of its box. This browser keeps the ticks.</span></p></div>
 </section>`;
 }
-function pageMaintenance(current = MILESTONES[0]): string {
+function pageMaintenance(newBike = MILESTONES[0], general = EVERY[0]): string {
   const iv = data.schedule.intervals;
   const rows = data.schedule.tasks.map((t) => `<tr class="task" data-search="${esc(`${t.task} ${t.op ? data.ops.get(t.op)?.title ?? "" : ""}`.toLowerCase())}"><th scope="row">${t.op ? opLink(t.op, t.task) : esc(t.task)}</th>${iv.map((i) => `<td class="x">${t.at.includes(i.id) ? "✕" : ""}</td>`).join("")}<td>${esc(t.other ?? "")}</td></tr>`).join("");
   return layout("Routine maintenance", "maint", `<h1>Routine maintenance</h1>
@@ -449,9 +461,12 @@ function pageMaintenance(current = MILESTONES[0]): string {
 ${filterBox("tr.task", "Filter tasks, for example chain, valve, coolant")}
 <table class="schedule"><thead><tr><th scope="col">Task</th>${iv.map((i) => `<th scope="col">${esc(i.label)}</th>`).join("")}<th scope="col">Other interval</th></tr></thead><tbody>${rows}</tbody></table>
 ${Object.entries(data.schedule.footnotes ?? {}).map(([k, v]) => `<p class="meta">${esc(k)} ${esc(v)}</p>`).join("")}
-<h2>Service by mileage</h2>
-<p>Select a mileage to get a checklist of the tasks for that service.</p>
-${serviceHtml(current)}
+<h2>Service by interval</h2>
+<p>Select an interval to get a checklist for that service. Each box holds the tasks of one interval. A longer service also includes the tasks of the shorter intervals that come due at the same time.</p>
+${binderHtml(GENERAL, general)}
+<h2>New bike services</h2>
+<p>Select a service to get a checklist for a new or rebuilt motorcycle. After the first 500 miles, each tab is the first time that interval comes due.</p>
+${binderHtml(NEW_BIKE, newBike)}
 <h2>Tasks by time</h2><ul>${timeOnly().map((t) => `<li>${t.op ? opLink(t.op, t.task) : esc(t.task)}: ${esc(t.other)}</li>`).join("")}</ul>`);
 }
 
@@ -556,7 +571,8 @@ for (const op of data.ops.values()) {
   write(`frag/op/${op.id}.html`, opBody(op, true));
 }
 write("maintenance.html", pageMaintenance());
-for (const mi of MILESTONES) write(milestoneUrl(mi).slice(1), pageMaintenance(mi));
+for (const mi of MILESTONES) write(NEW_BIKE.url(mi).slice(1), pageMaintenance(mi));
+for (const mi of EVERY) write(GENERAL.url(mi).slice(1), pageMaintenance(undefined, mi));
 write("repairs.html", pageRepairs());
 write("tools.html", pageTools());
 write("specs.html", pageSpecs());

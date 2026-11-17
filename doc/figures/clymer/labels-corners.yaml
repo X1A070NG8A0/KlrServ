@@ -3,7 +3,10 @@
 # Each label is accepted only if a step on the same page, or the next or
 # previous page, cites that figure number.
 # Regions named pNNN-dK come from scripts/extract_drawings.py.
+# Regions named pNNN-mK are measured by hand (index-manual.yaml).
 chapter-3:
+  p073-m0: 50
+  p077-r2: 66
   p074-r0: 55
   p070-d0: 45
   p072-d0: 48
@@ -13,6 +16,12 @@ chapter-3:
   p085-d0: 83
   p085-d1: 85
 chapter-4:
+  p101-m0: 32
+  p106-m0: 46
+  p112-m0: 65
+  p121-m0: 95
+  p092-r1: 3
+  p111-d1: 62
   p099-r0: 23
   p099-r3: 26
   p100-r0: 28
@@ -46,6 +55,7 @@ chapter-4:
   p122-d0: 99
   p119-r2: 88
 chapter-5:
+  p146-m0: 60
   p132-r5: 18
   p133-r0: 19
   p133-r1: 23
@@ -59,6 +69,7 @@ chapter-5:
   p134-d0: 24
   p135-d0: 29
 chapter-6:
+  p163-m0: 64
   p156-r1: 30
   p156-r2: 31
   p156-r3: 32
@@ -79,6 +90,11 @@ chapter-7:
   p170-r0: 6
   p169-d0: 4
 chapter-8:
+  p190-m0: 29
+  p190-m1: 30
+  p191-r0: 34
+  p191-r2: 36
+  p191-r3: 37
   p186-r0: 11
   p186-r1: 9
   p190-r1: 32
@@ -113,6 +129,11 @@ chapter-10:
   p240-r1: 16
   p238-d0: 7
 chapter-11:
+  p245-m0: 12
+  p251-m0: 33
+  p256-m0: 51
+  p244-r2: 11
+  p253-d1: 39
   p246-r0: 17
   p249-r0: 29
   p257-r1: 55
@@ -127,11 +148,20 @@ chapter-11:
   p253-d0: 37
   p253-d2: 38
 chapter-12:
+  p274-m0: 45
+  p277-m0: 60
+  p269-r1: 26
   p268-r1: 20
   p265-d0: 13
   p265-d1: 14
   p266-d0: 16
 chapter-13:
+  p285-m0: 22
+  p282-r1: 8
+  p287-r0: 27
+  p287-r1: 28
+  p291-r3: 45
+  p293-r2: 53
   p285-r0: 19
   p286-r0: 23
   p286-r1: 24
@@ -143,6 +173,13 @@ chapter-13:
   p285-d0: 20
   p292-r4: 50
 chapter-14:
+  p299-m0: 7
+  p302-m0: 19
+  p307-m0: 43
+  p319-m0: 88
+  p319-m1: 90
+  p306-r2: 36
+  p320-r0: 91
   p301-r0: 14
   p301-r1: 15
   p301-r3: 17
@@ -173,7 +210,8 @@ chapter-14:
   p319-r1: 87
   p319-r2: 89
   p300-d0: 12
-  p314-d0: 67
+  p314-d0: 66
+  p314-d1: 67
   p321-d0: 95
   p325-d0: 102
 chapter-1:

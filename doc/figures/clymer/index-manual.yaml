@@ -1,0 +1,163 @@
+# Regions measured by hand from 60 dpi page thumbnails, 2026-11-17.
+# Light photos on a white background that neither detector found.
+# Crops are 150 dpi. Labels are in labels-corners.yaml.
+- page: 73
+  figure: null
+  bbox_pt:
+  - 7.6
+  - 50.0
+  - 224.7
+  - 197.3
+  file: doc/figures/clymer/p073-m0.jpg
+- page: 101
+  figure: null
+  bbox_pt:
+  - 7.6
+  - 362.0
+  - 224.7
+  - 519.3
+  file: doc/figures/clymer/p101-m0.jpg
+- page: 106
+  figure: null
+  bbox_pt:
+  - 7.2
+  - 44
+  - 243.6
+  - 193.2
+  file: doc/figures/clymer/p106-m0.jpg
+- page: 112
+  figure: null
+  bbox_pt:
+  - 32.5
+  - 53.8
+  - 244.7
+  - 195
+  file: doc/figures/clymer/p112-m0.jpg
+- page: 121
+  figure: null
+  bbox_pt:
+  - 7.6
+  - 50.0
+  - 224.7
+  - 199.8
+  file: doc/figures/clymer/p121-m0.jpg
+- page: 146
+  figure: null
+  bbox_pt:
+  - 253.2
+  - 357.6
+  - 468.0
+  - 504.0
+  file: doc/figures/clymer/p146-m0.jpg
+- page: 163
+  figure: null
+  bbox_pt:
+  - 7.6
+  - 362.0
+  - 237.2
+  - 509.3
+  file: doc/figures/clymer/p163-m0.jpg
+- page: 190
+  figure: null
+  bbox_pt:
+  - 33.6
+  - 49.2
+  - 241.2
+  - 193.2
+  file: doc/figures/clymer/p190-m0.jpg
+- page: 190
+  figure: null
+  bbox_pt:
+  - 255.6
+  - 49.2
+  - 468.0
+  - 193.2
+  file: doc/figures/clymer/p190-m1.jpg
+- page: 245
+  figure: null
+  bbox_pt:
+  - 7.6
+  - 50.0
+  - 224.7
+  - 194.8
+  file: doc/figures/clymer/p245-m0.jpg
+- page: 251
+  figure: null
+  bbox_pt:
+  - 12.0
+  - 208.8
+  - 231.6
+  - 355.2
+  file: doc/figures/clymer/p251-m0.jpg
+- page: 256
+  figure: null
+  bbox_pt:
+  - 253.4
+  - 203.5
+  - 465.6
+  - 353.3
+  file: doc/figures/clymer/p256-m0.jpg
+- page: 274
+  figure: null
+  bbox_pt:
+  - 253.4
+  - 50.0
+  - 461.9
+  - 199.8
+  file: doc/figures/clymer/p274-m0.jpg
+- page: 277
+  figure: null
+  bbox_pt:
+  - 234.7
+  - 50.0
+  - 461.9
+  - 184.8
+  file: doc/figures/clymer/p277-m0.jpg
+- page: 285
+  figure: null
+  bbox_pt:
+  - 7.6
+  - 528.0
+  - 222.2
+  - 677.8
+  file: doc/figures/clymer/p285-m0.jpg
+- page: 299
+  figure: null
+  bbox_pt:
+  - 7.6
+  - 57.5
+  - 224.7
+  - 203.5
+  file: doc/figures/clymer/p299-m0.jpg
+- page: 302
+  figure: null
+  bbox_pt:
+  - 36.0
+  - 216.0
+  - 241.2
+  - 357.6
+  file: doc/figures/clymer/p302-m0.jpg
+- page: 307
+  figure: null
+  bbox_pt:
+  - 234.7
+  - 60.0
+  - 436.9
+  - 216.0
+  file: doc/figures/clymer/p307-m0.jpg
+- page: 319
+  figure: null
+  bbox_pt:
+  - 7.6
+  - 369.5
+  - 222.2
+  - 528.0
+  file: doc/figures/clymer/p319-m0.jpg
+- page: 319
+  figure: null
+  bbox_pt:
+  - 228.5
+  - 57.5
+  - 440.6
+  - 187.3
+  file: doc/figures/clymer/p319-m1.jpg

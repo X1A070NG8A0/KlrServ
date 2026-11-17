@@ -32,7 +32,7 @@ JavaScript:
 | `<check-list>` | Keeps the ticks and moves ticked items down | Checkboxes |
 | `<list-filter>` | Filters the list on the page | Hidden |
 | `<site-search>` | Searches `search-index.json` | Hidden, with a note on the search page |
-| `<mileage-picker>` | Swaps the service checklist in place | Links to `/maintenance/<miles>.html` |
+| `<mileage-picker>` | Swaps a service checklist in place from its binder tab | Links to `/maintenance/<miles>.html` and `/maintenance/every-<miles>.html` |
 | `<bolt-sequence>` | Steps through a tightening order in the drawing | Drawing and numbered list |
 | `<photo-zoom>` | Opens the photo large in a dialog | A link to the image file |
 
@@ -91,4 +91,4 @@ The KLR600 OCR also needs Tesseract.
 
 ## Known limits
 
-- 37 figures that a step cites have no crop. For these, no region was found, or the region does not show its circled number. The step names the figure. `labels-corners.yaml` holds the numbers that were read by eye from widened corners. Each of those labels matches a step on the same page or the next page that cites that figure.
+- Every figure that a step cites has a crop. Some figure numbers were read by eye, from widened corners of the detector crops or from page thumbnails. `labels-corners.yaml` holds these labels. Each label matches a step on the same page, the page before or the page after, that cites that figure. Light photos on a white background have no frame, so no detector finds them. Their boxes were measured by hand and are in `index-manual.yaml`.
