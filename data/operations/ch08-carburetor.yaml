@@ -1,0 +1,105 @@
+operations:
+  - id: c08-carburetor-removal
+    title: "Carburetor removal and installation"
+    system: "Fuel system"
+    source: clymer
+    chapter: 8
+    section: "08/carburetor"
+    summary: {t: "This procedure removes the Keihin CVK40 carburetor from the ducts and installs it again. The carburetor comes out on the right side of the engine.", cite: {p: 185}}
+    sections:
+      - title: "Removal"
+        steps:
+          - {t: "Support the motorcycle so that it is stable and secure.", cite: {p: 185}}
+          - {t: "Remove the fuel tank.", cite: {p: 185}, ref: "15/fuel-tank"}
+          - {t: "Remove the clamps from the air filter housing duct and from the intake duct.", cite: {p: 185}, figs: [5]}
+          - {t: "Remove the cable holder screw.", cite: {p: 185}, figs: [5]}
+          - {t: "If the screw is too tight, disconnect the throttle cables and leave the holder attached to the carburetor.", cite: {p: 185}, figs: [5]}
+          - {t: "If you disconnect the cables, mark them so that you can install them in the correct positions.", cite: {p: 185}}
+          - {t: "On the left side of the carburetor, remove the overflow hose from the fitting.", cite: {p: 185}, figs: [6]}
+          - {t: "Pry the air filter housing duct off the carburetor. Keep the carburetor upright.", cite: {p: 185}}
+          - {t: "If necessary, spray a small quantity of penetrating lubricant under the duct to loosen its grip on the carburetor.", cite: {p: 185}}
+          - {t: "Push the carburetor back. Pry the intake duct off the carburetor.", cite: {p: 185}}
+          - {t: "Tilt the carburetor to the left to get to the choke plunger. Remove the choke plunger.", cite: {p: 185}, figs: [6]}
+          - {t: "Remove the carburetor from the right side of the engine.", cite: {p: 185}, figs: [7]}
+          - {t: "Open the drain on the bottom of the float chamber. Drain the remaining fuel.", cite: {p: 185}, op: carb-float-drain}
+          - {t: "Push up on the choke plunger spring. Remove the cable from the plunger.", cite: {p: 185}, figs: [8]}
+      - title: "Installation"
+        steps:
+          - {t: "Install the carburetor in the opposite sequence to removal.", cite: {p: 185}}
+          - {t: "Clean the inside edges of the ducts. Lightly lubricate them so that the carburetor seats easily.", cite: {p: 185}}
+          - {t: "Align the tab on the carburetor with a slot in the intake duct. There are slots on both sides of the duct but only one tab on the carburetor.", cite: {p: 185}, figs: [9]}
+          - {t: "Make sure that the fuel hose and the overflow hose are in the correct routing.", cite: {p: 185}}
+          - {t: "Adjust the throttle cables.", cite: {p: 185}, op: throttle-cable}
+          - {t: "Make sure that the throttle operates correctly.", cite: {p: 185}}
+          - {t: "Examine the carburetor for leaks.", cite: {p: 186}}
+          - {t: "If you disassembled the carburetor, adjust the carburetor.", cite: {p: 186}, op: idle-speed}
+
+  - id: c08-carburetor-disassembly
+    title: "Carburetor disassembly and assembly"
+    system: "Fuel system"
+    source: clymer
+    chapter: 8
+    section: "08/carburetor"
+    summary: {t: "This procedure disassembles the carburetor into its parts and assembles it again. Clean and examine the parts before you assemble the carburetor.", cite: {p: 186}}
+    spec_refs: ["carburetor:Pilot mixture screw turns out", "carburetor:Float height"]
+    parts:
+      - {name: "Carburetor O-rings", replace: always, cite: {p: 188}, note: "Install new O-rings and lubricate them."}
+      - {name: "Pilot mixture screw plug", replace: inspect, cite: {p: 187}, note: "You must remove the plug by drilling if one is installed."}
+    sections:
+      - title: "Air cutoff valve"
+        steps:
+          - {t: "Remove the carburetor.", cite: {p: 186}, op: c08-carburetor-removal}
+          - {t: "Keep pressure on the holder. Remove the screws from the holder.", cite: {p: 186}, figs: [10]}
+          - {kind: note, t: "The holder is under spring pressure.", cite: {p: 186}}
+          - {t: "Remove the holder, the cover and the spring.", cite: {p: 186}, figs: [11]}
+          - {t: "Remove the diaphragm and the O-ring.", cite: {p: 186}, figs: [12]}
+          - {t: "Remove the hose fittings.", cite: {p: 186}, figs: [13]}
+      - title: "Diaphragm cover and slide"
+        steps:
+          - {t: "Hold the diaphragm cover in place. Remove the four screws. Lift off the cover.", cite: {p: 186}, figs: [14]}
+          - {kind: note, t: "The cover is under slight spring pressure.", cite: {p: 186}}
+          - {t: "Remove the spring.", cite: {p: 186}, figs: [15]}
+          - {t: "From the intake side, push up on the slide. Lift the slide from the carburetor.", cite: {p: 187}, figs: [16]}
+          - {kind: caution, t: "Do not lift or hold the slide by the diaphragm. Do not let the jet needle get damaged when you lift it from the carburetor.", cite: {p: 187}}
+          - {t: "Remove the spring seat.", cite: {p: 187}, figs: [17]}
+          - {t: "Tilt the slide. Remove the needle.", cite: {p: 187}}
+      - title: "Float chamber and float"
+        steps:
+          - {t: "Remove the float chamber.", cite: {p: 187}, figs: [18]}
+          - {t: "Remove the drain screw and the O-ring from the chamber.", cite: {p: 187}}
+          - {t: "Remove the pin from the float.", cite: {p: 187}, figs: [20]}
+          - {t: "Lift out the float and the float valve.", cite: {p: 187}, figs: [21]}
+          - {t: "Slide the clip and the float valve off the float tab.", cite: {p: 187}, figs: [22]}
+      - title: "Pilot mixture screw"
+        steps:
+          - {t: "If a plug is installed over the screw, drill through the plug with a small drill bit.", cite: {p: 187}, figs: [23]}
+          - {t: "Use a light touch so that the bit does not touch the screw when it breaks through the plug. A large drill bit can cause damage to the screw and to the internal threads.", cite: {p: 188}}
+          - {t: "Make the hole only large enough to put in a small sheet metal screw or a pick tool.", cite: {p: 188}}
+          - {t: "Pry out the plug.", cite: {p: 188}}
+          - {t: "Make a scratch on the edge of the bore, in line with the slot in the screw. Use it as a reference point when you install the screw.", cite: {p: 188}}
+          - {t: "Turn the screw clockwise until it seats. Count the number of turns accurately.", cite: {p: 188}}
+          - {t: "Record the number of turns.", cite: {p: 188}}
+          - {t: "Remove the pilot mixture screw, the spring, the washer and the O-ring.", cite: {p: 188}, figs: [24]}
+      - title: "Jets and stop screw"
+        steps:
+          - {t: "Remove the main jet.", cite: {p: 188}, figs: [25]}
+          - {t: "Remove the jet holder.", cite: {p: 188}, figs: [26]}
+          - {t: "Remove the needle jet. Unseat it from the carburetor venturi by hand.", cite: {p: 188}, figs: [27]}
+          - {kind: note, t: "The long end of the needle jet fits into the carburetor throat.", cite: {p: 188}}
+          - {t: "Remove the pilot jet.", cite: {p: 188}, figs: [28]}
+          - {t: "Remove the throttle stop screw, the spring and the washer.", cite: {p: 188}}
+          - {t: "Clean and examine the parts.", cite: {p: 188}, op: c08-carburetor-cleaning-and-inspection}
+      - title: "Assembly"
+        steps:
+          - {t: "Assemble the carburetor in the opposite sequence to disassembly.", cite: {p: 188}}
+          - {t: "Install new O-rings and lubricate them.", cite: {p: 188}}
+          - {t: "Install the small O-ring under the air cutoff valve with the round side out.", cite: {p: 188}}
+          - {t: "Attach the float valve and the clip to the float before you install the parts.", cite: {p: 189}}
+          - {t: "Measure the float height and adjust it.", cite: {p: 189}, op: c08-float-adjustment, spec_ref: "carburetor:Float height"}
+          - {t: "Lightly seat the pilot mixture screw. Turn it out the number of turns that you recorded.", cite: {p: 189}}
+          - {t: "Use the reference mark on the carburetor to find the original setting.", cite: {p: 189}}
+          - {t: "If you do not know the number of turns, use the basic setting.", cite: {p: 189}, spec_ref: "carburetor:Pilot mixture screw turns out"}
+          - {t: "Install the spring, the cover and the holder over the air cutoff valve diaphragm as a single assembly.", cite: {p: 189}, figs: [11]}
+          - {t: "Make sure that the spring is seated in the cover and that the hose fittings are installed before you assemble the valve.", cite: {p: 189}}
+          - {t: "When you install the slide and diaphragm, or the air cutoff valve diaphragm, seat the diaphragm at its edge before you install the cover.", cite: {p: 189}}
+          - {t: "Install the carburetor.", cite: {p: 189}, op: c08-carburetor-removal}

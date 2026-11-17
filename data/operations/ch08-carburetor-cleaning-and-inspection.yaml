@@ -1,0 +1,50 @@
+operations:
+  - id: c08-carburetor-cleaning-and-inspection
+    title: "Carburetor cleaning and inspection"
+    system: "Fuel system"
+    source: clymer
+    chapter: 8
+    section: "08/carburetor-cleaning-and-inspection"
+    summary: {t: "This procedure cleans the carburetor parts and shows how to examine each part for wear and damage. Replace worn or damaged parts.", cite: {p: 189}}
+    parts:
+      - {name: "Carburetor cleaner", replace: consumable, cite: {p: 189}, note: "Use a commercial carburetor cleaner that does not damage rubber and plastic parts."}
+      - {name: "Carburetor O-rings", replace: always, cite: {p: 189}, note: "Replace all O-rings and gaskets when you rebuild the carburetor."}
+      - {name: "Diaphragm and slide", replace: inspect, cite: {p: 190}, note: "The two parts are available only as one part."}
+      - {name: "Jet needle", replace: inspect, cite: {p: 190}}
+      - {name: "Float valve", replace: inspect, cite: {p: 191}}
+      - {name: "Float", replace: inspect, cite: {p: 191}}
+    sections:
+      - title: "Cleaning"
+        steps:
+          - {t: "Disassemble the carburetor.", cite: {p: 189}, op: c08-carburetor-disassembly}
+          - {kind: note, t: "Use the Carburetor Systems section to understand how the passages connect. This helps you make sure that the full length of each passage is clean.", cite: {p: 189}, ref: "08/carburetor-systems"}
+          - {kind: caution, t: "Do not clean the jet orifices or the seats with wire or drill bits. The bits can scratch the surfaces, change the flow rates or cause leaks.", cite: {p: 189}}
+          - {kind: note, t: "O-rings lose their flexibility from heat and age, and then they do not seal correctly.", cite: {p: 189}}
+          - {t: "Clean all the parts in carburetor cleaner. Obey the instructions of the manufacturer.", cite: {p: 189}}
+          - {t: "Use compressed air to clean all the passages, orifices and vents in the carburetor body.", cite: {p: 189}}
+      - title: "Inspection"
+        steps:
+          - {t: "Examine the main jet assembly and the pilot jet. Make sure that all the holes in the ends and the sides are clean and not damaged.", cite: {p: 189}, figs: [29]}
+          - {t: "Examine the tips of the pilot mixture screw and the choke plunger for dents and wear.", cite: {p: 189}, figs: [30]}
+          - {t: "Make sure that the springs of the screw and the plunger are resilient and not crushed.", cite: {p: 190}}
+          - {t: "Make sure that the choke plunger moves freely in its bore in the carburetor.", cite: {p: 190}}
+          - {t: "Examine the tip and the threads of the throttle stop screw for damage. Make sure that the spring is resilient and not crushed.", cite: {p: 190}, figs: [31]}
+          - {t: "Examine the slide for wear and scratches.", cite: {p: 190}, figs: [32]}
+          - {t: "Put the slide in the carburetor body. Make sure that it moves up and down freely, with minimal play from front to back.", cite: {p: 190}}
+          - {t: "Examine the diaphragm for dryness, tears and holes. Replace the diaphragm and slide if either part is damaged.", cite: {p: 190}}
+          - {kind: note, t: "A leaking diaphragm prevents the slide from reaching its normal level at any throttle position off idle. Engine performance becomes clearly worse.", cite: {p: 190}}
+          - {t: "Examine the diaphragm cover. If the cover is cracked or loose, replace it or tighten it.", cite: {p: 190}, figs: [33]}
+          - {kind: note, t: "A cracked or loose cover affects engine performance in the same way as a damaged diaphragm.", cite: {p: 190}}
+          - {t: "Examine the jet needle. If it is stepped, dented, worn or bent, replace it.", cite: {p: 190}, figs: [34]}
+          - {t: "Examine the tip of the float valve. If it is stepped or dented, replace the float valve.", cite: {p: 191}, figs: [36]}
+          - {t: "Lightly press the spring-loaded pin in the float valve. Make sure that the pin moves in and out easily.", cite: {p: 191}, figs: [37]}
+          - {t: "If the pin has varnish from fuel residue, replace the float valve.", cite: {p: 191}}
+          - {t: "Examine the float valve seat in the carburetor body. If the seat is not clean and free of scratches, the float valve will not seat and the carburetor will overflow.", cite: {p: 191}}
+          - {t: "Submerge the float in water. If water or fuel is in the float, replace the float.", cite: {p: 191}}
+          - {t: "Make sure that the float pin is straight and smooth. It must be a slip fit in the float.", cite: {p: 191}}
+          - {t: "Make sure that no residue is in the float bowl. Examine the threaded parts for damage.", cite: {p: 191}, figs: [38]}
+          - {t: "Replace the O-ring on the bowl and the O-ring on the drain screw.", cite: {p: 191}}
+          - {t: "Examine the air cutoff valve diaphragm for damage.", cite: {p: 191}, figs: [39]}
+          - {t: "Make sure that the plunger on the end of the diaphragm stem moves freely in its bore in the carburetor.", cite: {p: 191}}
+          - {t: "Make sure that the small air hole at the edge of the cover is clean.", cite: {p: 191}}
+          - {t: "Examine the hose fittings for damage. Replace the O-rings on both fittings.", cite: {p: 192}, figs: [40]}
