@@ -203,7 +203,8 @@ function partsHtml(parts: Part[], src: string, check?: string): string {
       const box = check ? `<input type="checkbox" data-done-key="${esc(key)}" aria-label="Done: ${esc(p.name)}"> ` : "";
       return `<li class="part part-${kind}" data-key="${esc(key)}" title="${esc(srcLabel(data, p.cite, src))}">${box}<span class="name">${esc(p.name)}</span>${p.spec_ref ? ` ${specLink(p.spec_ref)}` : ""}${p.note ? ` <span class="pnote">${esc(p.note)}</span>` : ""}${subNotes("part", p.name)}</li>`;
     }).join("");
-    return `<section class="parts parts-${kind}"><h4>${title}</h4><ul class="checklist">${items}</ul></section>`;
+    const ul = `<ul class="checklist">${items}</ul>`;
+    return `<section class="parts parts-${kind}"><h4>${title}</h4>${check ? `<check-list>${ul}</check-list>` : ul}</section>`;
   }).join("");
 }
 
@@ -374,7 +375,7 @@ const toolsBox = (op: Operation): string => {
 
 // ---------- full reference (book) ----------
 const filterBox = (selector: string, placeholder: string) =>
-  `<input type="search" class="filter" data-filter="${selector}" placeholder="${esc(placeholder)}" aria-label="${esc(placeholder)}">`;
+  `<list-filter items="${selector}"><input type="search" class="filter" placeholder="${esc(placeholder)}" aria-label="${esc(placeholder)}"></list-filter>`;
 const secLink = (c: BookChapter, s: BookSection) => refLink(sectionKey(c, s), s.title).replace(/ <span class="ch">.*?<\/span>/, "");
 function pagesBook(): void {
   const chList = data.book.map((c) => `<li class="chap" data-search="${esc(`${c.title} ${c.sections.map((s) => `${s.title} ${(s.ops ?? []).map((o) => data.ops.get(o)?.title ?? "").join(" ")}`).join(" ")}`.toLowerCase())}"><a href="/book/ch${nn(c.n)}/">Chapter ${c.n}: ${esc(c.title)}</a><ul class="secs">${c.sections.map((s) => `<li>${secLink(c, s)}</li>`).join("")}</ul></li>`).join("");
@@ -416,19 +417,32 @@ const MILESTONES = [500, ...Array.from({ length: 8 }, (_, i) => (i + 1) * 3000)]
 const dueAt = (mi: number): Task[] =>
   data.schedule.tasks.filter((t) => t.at.some((a) => (a === "initial-500" ? mi === 500 : (() => { const e = data.schedule.intervals.find((i) => i.id === a)?.every_mi; return e ? mi % e === 0 : false; })())) || (t.every_mi ? mi % t.every_mi === 0 : false));
 const timeOnly = () => data.schedule.tasks.filter((t) => !t.at.length && !t.every_mi);
-function milestoneFrag(mi: number): string {
+// Each mileage has a real page, /maintenance/<mi>.html. With htmx, a mileage
+// link gets its page and swaps only the #service section (the hx- attributes
+// on <nav class="milestones"> are inherited by each link).
+const milestoneUrl = (mi: number) => `/maintenance/${mi}.html`;
+function milestoneHtml(mi: number): string {
   const tasks = dueAt(mi);
-  return `<section class="milestone"><h2>Service at ${mi.toLocaleString("en-US")} miles</h2>
-  <ol class="due checklist">${tasks.map((t) => `<li data-key="${mi}:task:${esc(t.task)}"><input type="checkbox" data-done-key="${mi}:task:${esc(t.task)}" aria-label="Done: ${esc(t.task)}"> <span class="name">${t.op ? opLink(t.op, t.task) : esc(t.task)}</span></li>`).join("")}</ol>
+  return `<section class="milestone"><h3>Service at ${mi.toLocaleString("en-US")} miles</h3>
+  <check-list><ol class="due checklist">${tasks.map((t) => `<li><input type="checkbox" data-done-key="${mi}:task:${esc(t.task)}" aria-label="Done: ${esc(t.task)}"> <span class="name">${t.op ? opLink(t.op, t.task) : esc(t.task)}</span></li>`).join("")}</ol></check-list>
   <p class="hint">Each procedure has its parts and tools. A ticked task moves to the bottom. This browser keeps the ticks.</p></section>`;
 }
-function timelineSvg(): string {
+function timelineSvg(current: number): string {
   const W = 760, x0 = 30, x1 = W - 20, max = MILESTONES[MILESTONES.length - 1];
   const x = (mi: number) => x0 + ((x1 - x0) * mi) / max;
-  const marks = MILESTONES.map((mi) => { const n = dueAt(mi).length, r = 6 + Math.min(n, 30) / 2.5; return `<a href="/maintenance.html?mi=${mi}" hx-get="/frag/milestone/${mi}.html" hx-target="#milestone" hx-push-url="/maintenance.html?mi=${mi}"><g class="mark"><title>${mi} miles: ${n} tasks</title><circle cx="${x(mi)}" cy="50" r="${r}"/><text x="${x(mi)}" y="${50 + r + 16}" text-anchor="middle">${mi >= 1000 ? `${mi / 1000}k` : mi}</text><text class="n" x="${x(mi)}" y="54" text-anchor="middle">${n}</text></g></a>`; }).join("");
+  const marks = MILESTONES.map((mi) => { const n = dueAt(mi).length, r = 6 + Math.min(n, 30) / 2.5; return `<a href="${milestoneUrl(mi)}" hx-get="${milestoneUrl(mi)}"${mi === current ? ' aria-current="page"' : ""}><g class="mark"><title>${mi} miles: ${n} tasks</title><circle cx="${x(mi)}" cy="50" r="${r}"/><text x="${x(mi)}" y="${50 + r + 16}" text-anchor="middle">${mi >= 1000 ? `${mi / 1000}k` : mi}</text><text class="n" x="${x(mi)}" y="54" text-anchor="middle">${n}</text></g></a>`; }).join("");
   return `<svg class="timeline" viewBox="0 0 ${W} 120" role="img" aria-labelledby="tl"><title id="tl">Services by odometer reading. The number in each circle is the quantity of tasks.</title><line x1="${x0}" y1="50" x2="${x1}" y2="50"/>${marks}</svg>`;
 }
-function pageMaintenance(): string {
+function serviceHtml(current: number): string {
+  return `<section id="service">
+<nav class="milestones" aria-label="Service by mileage" hx-target:inherited="#service" hx-select:inherited="#service" hx-swap:inherited="outerHTML" hx-push-url:inherited="true">
+${timelineSvg(current)}
+<p class="milestone-buttons">${MILESTONES.map((mi) => `<a class="button" href="${milestoneUrl(mi)}" hx-get="${milestoneUrl(mi)}"${mi === current ? ' aria-current="page"' : ""}>${mi.toLocaleString("en-US")}</a>`).join(" ")}</p>
+</nav>
+${milestoneHtml(current)}
+</section>`;
+}
+function pageMaintenance(current = MILESTONES[0]): string {
   const iv = data.schedule.intervals;
   const rows = data.schedule.tasks.map((t) => `<tr class="task" data-search="${esc(`${t.task} ${t.op ? data.ops.get(t.op)?.title ?? "" : ""}`.toLowerCase())}"><th scope="row">${t.op ? opLink(t.op, t.task) : esc(t.task)}</th>${iv.map((i) => `<td class="x">${t.at.includes(i.id) ? "✕" : ""}</td>`).join("")}<td>${esc(t.other ?? "")}</td></tr>`).join("");
   return layout("Routine maintenance", "maint", `<h1>Routine maintenance</h1>
@@ -438,9 +452,7 @@ ${filterBox("tr.task", "Filter tasks, for example chain, valve, coolant")}
 ${Object.entries(data.schedule.footnotes ?? {}).map(([k, v]) => `<p class="meta">${esc(k)} ${esc(v)}</p>`).join("")}
 <h2>Service by mileage</h2>
 <p>Select a mileage to get a checklist of the tasks for that service.</p>
-${timelineSvg()}
-<p class="milestone-buttons">${MILESTONES.map((mi) => `<button hx-get="/frag/milestone/${mi}.html" hx-target="#milestone" hx-push-url="/maintenance.html?mi=${mi}">${mi.toLocaleString("en-US")}</button>`).join(" ")}</p>
-<div id="milestone">${milestoneFrag(500)}</div>
+${serviceHtml(current)}
 <h2>Tasks by time</h2><ul>${timeOnly().map((t) => `<li>${t.op ? opLink(t.op, t.task) : esc(t.task)}: ${esc(t.other)}</li>`).join("")}</ul>`);
 }
 
@@ -462,7 +474,7 @@ function pageTools(): string {
   const groups = toolGroups.map((g) => {
     const list = [...toolIndex.values()].filter((t) => t.group === g).sort((a, b) => b.ops.length - a.ops.length || a.name.localeCompare(b.name));
     if (!list.length) return "";
-    return `<section><h2>${esc(g)}</h2><ul class="checklist toollist">${list.map((t) => `<li id="tool-${t.id}" data-key="tool:${t.id}" data-search="${esc(`${t.name} ${t.ops.map((o) => o.title).join(" ")}`.toLowerCase())}"><input type="checkbox" data-done-key="tool:${t.id}" aria-label="I have: ${esc(t.name)}"> <span class="name">${esc(t.name)}</span> <span class="meta">${t.ops.length} procedure${t.ops.length === 1 ? "" : "s"}</span>${g === KAW ? `<p class="meta">${esc(t.why[0])}</p>` : ""}${variantsHtml(t.variants, 4)}${subNotes("tool", t.id)}<details><summary>Used in</summary><ul>${t.ops.map((o) => `<li>${opLink(o.id)}</li>`).join("")}</ul></details></li>`).join("")}</ul></section>`;
+    return `<section><h2>${esc(g)}</h2><check-list><ul class="checklist toollist">${list.map((t) => `<li id="tool-${t.id}" data-search="${esc(`${t.name} ${t.ops.map((o) => o.title).join(" ")}`.toLowerCase())}"><input type="checkbox" data-done-key="tool:${t.id}" aria-label="I have: ${esc(t.name)}"> <span class="name">${esc(t.name)}</span> <span class="meta">${t.ops.length} procedure${t.ops.length === 1 ? "" : "s"}</span>${g === KAW ? `<p class="meta">${esc(t.why[0])}</p>` : ""}${variantsHtml(t.variants, 4)}${subNotes("tool", t.id)}<details><summary>Used in</summary><ul>${t.ops.map((o) => `<li>${opLink(o.id)}</li>`).join("")}</ul></details></li>`).join("")}</ul></check-list></section>`;
   }).join("");
   return layout("Tool list", "tools", `<h1>Tool list</h1>
 <p>Each tool that a procedure names, with the procedures that use it. Tick the tools that you have. This browser keeps the ticks.</p>
@@ -545,19 +557,21 @@ for (const op of data.ops.values()) {
   write(`frag/op/${op.id}.html`, opBody(op, true));
 }
 write("maintenance.html", pageMaintenance());
-for (const mi of MILESTONES) write(`frag/milestone/${mi}.html`, milestoneFrag(mi));
+for (const mi of MILESTONES) write(milestoneUrl(mi).slice(1), pageMaintenance(mi));
 write("repairs.html", pageRepairs());
 write("tools.html", pageTools());
 write("specs.html", pageSpecs());
 write("figures.html", pageFigures());
 pagesIssues();
 pagesCommunity();
-write("search.html", layout("Search", "search", `<h1>Search</h1><input type="search" id="q" placeholder="For example front fork, drain plug, 23 N·m" aria-label="Search" autofocus><ol id="results"></ol>`));
+write("search.html", layout("Search", "search", `<h1>Search</h1><site-search><input type="search" name="q" placeholder="For example front fork, drain plug, 23 N·m" aria-label="Search" autofocus><ol class="results"></ol></site-search>`));
 write("search-index.json", searchIndex());
 write("verify.html", pageVerify());
 mkdirSync(join(DIST, "assets"), { recursive: true });
 copyFileSync(join(ROOT, "node_modules", "htmx.org", "dist", "htmx.min.js"), join(DIST, "assets", "htmx.min.js"));
 copyFileSync(join(ROOT, "site", "static", "style.css"), join(DIST, "assets", "style.css"));
+// The client is plain JavaScript with JSDoc types, served as written.
+for (const f of readdirSync(join(ROOT, "site", "client")).filter((f) => f.endsWith(".js"))) copyFileSync(join(ROOT, "site", "client", f), join(DIST, "assets", f));
 mkdirSync(join(DIST, "assets", "fonts"), { recursive: true });
 for (const f of readdirSync(join(ROOT, "site", "static", "fonts"))) copyFileSync(join(ROOT, "site", "static", "fonts", f), join(DIST, "assets", "fonts", f));
 console.log(`Built ${data.ops.size} procedures, ${sections.size} sections, ${toolIndex.size} tools, ${data.tables.size} spec tables. ${data.warnings.length} warnings, ${misses.length} number misses.`);

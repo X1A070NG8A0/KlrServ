@@ -19,7 +19,14 @@ npm run serve      # http://127.0.0.1:4650
 ```
 
 `node site/build.ts --check` validates and writes nothing. `npm run check`
-type-checks the TypeScript.
+type-checks the build (TypeScript, run by Node directly) and the browser code.
+
+The browser code in `site/client/` is plain JavaScript with JSDoc types, so
+the build copies it as written. Each module defines one custom element:
+`<check-list>`, `<list-filter>`, `<site-search>` and `<pop-window>`. htmx 4
+swaps the service checklist on the maintenance page. Each mileage also has its
+own page, `/maintenance/<miles>.html`, which works without JavaScript.
+`site/REFACTOR.md` gives the reasons for these choices.
 
 ## What the site does
 

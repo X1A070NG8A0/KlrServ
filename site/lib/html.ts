@@ -18,6 +18,7 @@ export function layout(title: string, nav: Nav, body: string): string {
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(title)} · KLR Service Explorer</title>
+<meta name="htmx-config" content='{"transitions": true}'>
 <link rel="stylesheet" href="/assets/style.css">
 <script src="/assets/htmx.min.js" defer></script>
 <script src="/assets/main.js" type="module"></script>
