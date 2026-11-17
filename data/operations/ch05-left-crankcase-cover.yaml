@@ -1,0 +1,23 @@
+operations:
+  - id: c05-left-crankcase-cover
+    title: "Left crankcase cover removal and installation"
+    system: "Engine lower end"
+    source: clymer
+    chapter: 5
+    section: "05/left-crankcase-cover"
+    summary: {t: "The left crankcase cover is between the alternator cover and the left crankcase. This procedure removes the cover with the tensioner bolt and the shaft lever, and installs them again.", cite: {p: 129}}
+    sections:
+      - title: "Removal"
+        steps:
+          - {t: "Remove the alternator cover, the starter drive gears and the rotor.", cite: {p: 129}, ref: "09/alternator-cover", op: c09-rotor-removal-installation}
+          - {t: "If you will separate the crankcase halves, also remove the starter.", cite: {p: 129}, ref: "09/starter"}
+          - {t: "Remove the tensioner bolt and the shaft lever from the balancer tensioner shaft.", cite: {p: 129}, figs: [7]}
+          - {t: "Remove the nine bolts from the perimeter of the crankcase cover.", cite: {p: 129}, figs: [8]}
+          - {t: "Remove the gasket and the two dowels from behind the cover.", cite: {p: 129}}
+          - {t: "Examine the parts for damage.", cite: {p: 129}}
+          - {t: "To examine the tensioner bolt and the shaft lever, do the inspection procedure for the engine balancer.", cite: {p: 129}, op: c05-balancer-inspection}
+      - title: "Installation"
+        steps:
+          - {t: "Install the cover, the tensioner bolt and the shaft lever in the reverse order of removal.", cite: {p: 129}}
+          - {t: "Install the shaft lever so that the weld joint faces in.", cite: {p: 129}}
+          - {t: "Tighten the cover bolts in several passes in a crossing pattern.", cite: {p: 129}}

@@ -1,0 +1,91 @@
+operations:
+  - id: c05-engine-removal
+    title: "Engine removal"
+    system: "Engine lower end"
+    source: clymer
+    chapter: 5
+    section: "05/engine"
+    summary: {t: "This procedure removes the engine from the frame. You must remove the engine to split the crankcase. Remove the top end and the parts in the crankcase covers before you start, or while the engine is in the frame.", cite: {p: 126}}
+    sections:
+      - title: "Preparation"
+        steps:
+          - {kind: note, t: "Tight nuts and bolts are easier to remove while the frame holds the engine steady. If you do not know the cause of the engine problem, you can find it in a different assembly.", cite: {p: 126}}
+          - {t: "Support the motorcycle so that it is stable and level and the rear wheel is off the ground.", cite: {p: 126}}
+          - {t: "If possible, do a compression test before you disassemble the engine.", cite: {p: 126}, op: c03-compression-check}
+          - {t: "If possible, do a leakdown test before you disassemble the engine.", cite: {p: 126}, ref: "02/engine-leakdown-test"}
+          - {t: "Drain the engine oil.", cite: {p: 127}, op: engine-oil-and-filter}
+          - {t: "Remove the skid plate.", cite: {p: 127}, ref: "15/skid-plate"}
+          - {t: "Remove the side covers.", cite: {p: 127}, ref: "15/side-covers"}
+          - {t: "Remove the seat.", cite: {p: 127}, ref: "15/seat"}
+          - {t: "Remove the fuel tank.", cite: {p: 127}, ref: "15/fuel-tank"}
+          - {t: "Remove the radiator covers.", cite: {p: 127}, ref: "15/radiator-covers"}
+          - {t: "Disconnect the battery leads.", cite: {p: 127}, op: battery}
+          - {t: "Drain the engine coolant.", cite: {p: 127}, op: coolant-replace}
+          - {t: "Disconnect the coolant hoses at the engine.", cite: {p: 127}}
+      - title: "Removal of the parts around the engine"
+        steps:
+          - {t: "Remove the footpegs.", cite: {p: 127}}
+          - {t: "Remove the shift lever.", cite: {p: 127}}
+          - {t: "Remove the rear brake pedal.", cite: {p: 127}, ref: "14/rear-brake-pedal"}
+          - {t: "Disconnect the clutch cable at the engine.", cite: {p: 127}, ref: "06/clutch-cable-replacement"}
+          - {t: "Remove the exhaust pipe.", cite: {p: 127}, ref: "04/exhaust-system"}
+          - {t: "Disconnect the starter motor leads.", cite: {p: 127}, ref: "09/starter"}
+          - {t: "Remove the carburetor.", cite: {p: 127}, ref: "08/carburetor"}
+          - {t: "Remove the spark plug lead and the water temperature sending unit lead.", cite: {p: 127}}
+          - {t: "Remove the coil.", cite: {p: 127}}
+          - {t: "Remove the sprocket guard and the drive chain.", cite: {p: 127}, ref: "11/drive-chain"}
+          - {t: "Disconnect the stator, pickup coil and neutral switch wiring harness connectors.", cite: {p: 127}, ref: "09/stator-and-pickup-coil"}
+          - {t: "Remove the crankcase breather hose.", cite: {p: 127}}
+          - {t: "Make sure that the engine is ready for removal. If you wish, remove more parts to make the removal and the handling of the engine easier.", cite: {p: 127}}
+      - title: "Engine removal from the frame"
+        steps:
+          - {kind: warning, t: "When you remove the bolts, be aware that the engine can move in the frame. Protect your hands. After you remove each set of bolts, make sure that the motorcycle and the engine are stable. Get an assistant to help you remove the engine from the frame.", cite: {p: 127}}
+          - {t: "Make a note of the direction of the mounting bolts. Make a note of the routing of the cables and the wire harnesses.", cite: {p: 126}}
+          - {t: "Remove the bolts and the upper mounting brackets.", cite: {p: 127}, figs: [1]}
+          - {t: "Remove the bolts and the lower mounting brackets.", cite: {p: 127}, figs: [2]}
+          - {t: "Remove the rear mounting bolt.", cite: {p: 127}, figs: [3]}
+          - {t: "Remove the swing arm pivot nut. Do not remove the pivot bolt at this time.", cite: {p: 127}, figs: [3]}
+          - {kind: warning, t: "Do not remove the swing arm pivot bolt completely from the frame. Pull the bolt out only far enough to remove the engine. If you remove the bolt completely, the swing arm can fall.", cite: {p: 127}, figs: [4]}
+          - {t: "Pull the swing arm pivot bolt out until it clears the engine.", cite: {p: 127}}
+          - {t: "Remove the engine from the frame.", cite: {p: 127}}
+          - {t: "Push the swing arm pivot bolt back into the frame.", cite: {p: 127}}
+          - {t: "Clean the frame in the engine bay. Examine the frame for cracks and damage, mostly at the welded joints.", cite: {p: 128}}
+
+  - id: c05-engine-installation
+    title: "Engine installation"
+    system: "Engine lower end"
+    source: clymer
+    chapter: 5
+    section: "05/engine"
+    summary: {t: "This procedure installs the engine in the frame. Install it in the reverse order of removal. Do the adjustments and the tests at the end of the procedure.", cite: {p: 128}}
+    spec_refs: ["lower-end-torque:Engine mounting bolts/8 mm", "lower-end-torque:Engine mounting bolts/10 mm", "lower-end-torque:Swing arm pivot bolt"]
+    parts:
+      - {name: "Dielectric grease", replace: consumable, cite: {p: 128}}
+    sections:
+      - title: "Installation"
+        steps:
+          - {t: "Install the engine in the reverse order of removal.", cite: {p: 128}, op: c05-engine-removal}
+          - {t: "If the drive chain is endless and has no master link, make sure that it goes over the swing arm pivot before you install the swing arm pivot bolt.", cite: {p: 128}}
+          - {t: "Install the engine mounting brackets, bolts and nuts. Make sure that each bolt has its original direction.", cite: {p: 128}}
+          - {t: "Tighten all nuts with your fingers before you tighten them to the specified torque.", cite: {p: 128}}
+          - {kind: note, t: "If the engine top end is not installed when you install the engine in the frame, do not tighten the mounting nuts. First install the upper mounting brackets and align them with their mounting points.", cite: {p: 128}}
+          - {t: "Tighten the 8 mm mounting bolts to the specified torque.", cite: {p: 128}, spec_ref: "lower-end-torque:Engine mounting bolts/8 mm"}
+          - {t: "Tighten the 10 mm mounting bolts to the specified torque.", cite: {p: 128}, spec_ref: "lower-end-torque:Engine mounting bolts/10 mm"}
+          - {t: "Tighten the swing arm pivot bolt to the specified torque.", cite: {p: 128}, spec_ref: "lower-end-torque:Swing arm pivot bolt"}
+          - {t: "Route the electrical wires so that they are not pinched and do not touch hot surfaces.", cite: {p: 128}}
+          - {t: "Apply dielectric grease to the electrical connections before you connect them.", cite: {p: 128}}
+          - {t: "If you removed parts from the top end or the crankcase covers, install them.", cite: {p: 128}}
+      - title: "Fluids and adjustments"
+        steps:
+          - {t: "Fill the engine with engine oil.", cite: {p: 128}, op: engine-oil-and-filter}
+          - {t: "Fill the cooling system with coolant.", cite: {p: 128}, op: coolant-replace}
+          - {t: "Adjust the clutch free play.", cite: {p: 128}, op: clutch-adjust}
+          - {t: "Adjust the throttle cable.", cite: {p: 128}, op: throttle-cable}
+          - {t: "Adjust the height of the rear brake pedal.", cite: {p: 128}, op: brake-pedal}
+          - {t: "Adjust the drive chain.", cite: {p: 128}, op: drive-chain-adjust-lube}
+      - title: "Engine start and tests"
+        steps:
+          - {t: "Start the engine. Look for leaks.", cite: {p: 128}}
+          - {t: "Make sure that the throttle and the clutch operate correctly.", cite: {p: 128}}
+          - {t: "If you rebuilt the engine top end, do a compression test. Record the result to compare it with later tests.", cite: {p: 128}, op: c03-compression-check}
+          - {t: "Read the engine break-in procedure.", cite: {p: 128}, op: c03-engine-break-in}

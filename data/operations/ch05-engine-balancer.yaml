@@ -1,0 +1,166 @@
+operations:
+  - id: c05-balancer-removal
+    title: "Engine balancer removal"
+    system: "Engine lower end"
+    source: clymer
+    chapter: 5
+    section: "05/engine-balancer"
+    issue: doohickey
+    summary: {t: "This procedure removes the balancer parts from the engine. The balancer chain tensioner lever, which owners call the doohickey, is part of this assembly. To remove the balancer shafts from between the crankcase halves, split the crankcase.", cite: {p: 131}}
+    parts:
+      - {name: "Balancer chain tensioner spring", replace: inspect, cite: {p: 134}, note: "Install a new spring when you remove the tensioner assembly, if possible."}
+    sections:
+      - title: "Removal"
+        steps:
+          - {kind: note, t: "The balancer parts of 1996-on engines (from engine serial number KL650AE032206) are different from the parts of the earlier engines. The differences do not change how you service the balancer.", cite: {p: 129}, figs: [9]}
+          - {t: "Remove the right crankcase cover.", cite: {p: 131}, ref: "06/right-crankcase-cover"}
+          - {t: "Remove the alternator cover.", cite: {p: 131}, ref: "09/alternator-cover"}
+          - {t: "Flatten the lockwasher so that you can remove the nut from the balancer shaft.", cite: {p: 131}}
+          - {t: "Use the rotor holder tool to hold the rotor. You can brace the tool against the bottom of the left footpeg.", cite: {p: 131}}
+          - {t: "Remove the nut and the lockwasher that hold the right balancer weight.", cite: {p: 131}, figs: [10]}
+          - {t: "Remove the weight and the spacer from the shaft.", cite: {p: 131}}
+          - {t: "Remove the left crankcase cover, the tensioner bolt and the shaft lever.", cite: {p: 131}, op: c05-left-crankcase-cover}
+          - {t: "Remove the balancer chain tensioner spring.", cite: {p: 131}, figs: [11], op: balancer-chain-tensioner}
+          - {t: "If you will use the spring again, do not score, scratch or bend the spring ends. The spring can break.", cite: {p: 131}}
+          - {t: "Turn the spring lever counterclockwise to release the tension on the chain.", cite: {p: 131}}
+          - {t: "Pull the tensioner shaft assembly from the crankcase. Keep the opposite end of the shaft tilted up so that the spacer behind the sprocket does not fall.", cite: {p: 131}, figs: [12]}
+          - {kind: caution, t: "If the spacer falls, it can roll into the crankcase opening under the tensioner shaft bore. If this occurs, use a magnetic tool or a wire to get the part.", cite: {p: 131}}
+          - {t: "Remove the snap ring from the left end of the front balancer shaft.", cite: {p: 131}, figs: [13]}
+          - {t: "Remove the weight and sprocket and the spacer from the front balancer shaft.", cite: {p: 131}}
+          - {t: "Remove the five bolts that hold the lower cam chain guide and the balancer chain guides.", cite: {p: 132}, figs: [14]}
+          - {t: "Remove the cam chain.", cite: {p: 132}, figs: [15]}
+          - {t: "Remove the snap ring, the washers, the rear balancer sprocket and the balancer chain.", cite: {p: 132}, figs: [15]}
+          - {t: "To remove the balancer shafts that are between the crankcase halves, split the crankcase.", cite: {p: 132}, figs: [16], op: c05-crankcase-disassembly}
+          - {t: "Examine the balancer assembly.", cite: {p: 133}, op: c05-balancer-inspection}
+
+  - id: c05-balancer-inspection
+    title: "Engine balancer inspection"
+    system: "Engine lower end"
+    source: clymer
+    chapter: 5
+    section: "05/engine-balancer"
+    issue: doohickey
+    summary: {t: "This procedure shows how to examine the balancer shafts, the balancer chain tensioner, the balancer chain and the chain guides. Replace parts that are obviously damaged or worn.", cite: {p: 132}}
+    spec_refs: ["lower-end:Balancer chain length (20 links/21 pins)"]
+    parts:
+      - {name: "Front balancer shaft snap ring", replace: always, cite: {p: 133}}
+      - {name: "Front balancer shaft lockwasher", replace: always, cite: {p: 133}}
+      - {name: "Rear balancer shaft snap ring", replace: always, cite: {p: 133}, note: "Replace the snap ring at the left end of the shaft and the snap ring at the right end."}
+      - {name: "Tensioner bolt O-ring", replace: always, cite: {p: 133}}
+      - {name: "Balancer chain tensioner spring", replace: inspect, cite: {p: 134}, note: "Install a new spring whenever you remove the tensioner assembly, if possible."}
+      - {name: "Balancer chain", replace: inspect, cite: {p: 134}, note: "Replace the chain if it is longer than the service limit."}
+    sections:
+      - title: "Front balancer shaft"
+        steps:
+          - {t: "Examine the spacers and the locknut.", cite: {p: 132}, figs: [17]}
+          - {t: "Examine the splines, the threads, the snap ring groove and the polished surfaces on the shaft and the right weight.", cite: {p: 132}, figs: [18]}
+          - {t: "Examine the splines, the sprocket teeth and the rubber mounting on the left sprocket.", cite: {p: 132}, figs: [19]}
+          - {t: "On early engines, examine the springs and the rollers in the sprocket. Replace parts that are worn, fatigued or missing.", cite: {p: 133}}
+          - {t: "During assembly, install a new snap ring and a new lockwasher.", cite: {p: 133}}
+      - title: "Rear balancer shaft"
+        steps:
+          - {t: "Examine the spacers and the locknut.", cite: {p: 133}, figs: [20]}
+          - {t: "Examine the splines, the snap ring grooves and the polished surface on the shaft.", cite: {p: 133}}
+          - {t: "Examine the splines in the weight.", cite: {p: 133}}
+          - {t: "Examine the splines, the sprocket teeth and the rubber mounting on the sprocket.", cite: {p: 133}}
+          - {t: "On early engines, examine the springs and the rollers in the sprocket. Replace parts that are worn, fatigued or missing.", cite: {p: 133}}
+          - {t: "During assembly, install a new snap ring at the left end of the shaft.", cite: {p: 133}}
+      - title: "Balancer chain tensioner"
+        steps:
+          - {t: "Examine the spacer and the washers.", cite: {p: 133}, figs: [21], op: balancer-chain-tensioner}
+          - {t: "During assembly, install a new O-ring on the tensioner bolt.", cite: {p: 133}}
+          - {t: "Examine how the bearing fits in the sprocket and on the tensioner shaft.", cite: {p: 133}, figs: [22]}
+          - {t: "Make sure that the shaft and the sprocket bore are smooth and that the bearing fits tightly between the parts.", cite: {p: 133}}
+          - {t: "Make sure that the sprocket teeth and the rubber mounting are in good condition.", cite: {p: 133}}
+          - {t: "Assemble the tensioner shaft, the bearing, the sprocket and the spring lever.", cite: {p: 133}, figs: [23]}
+          - {t: "Make sure that the lever fits flat and tight on the shaft.", cite: {p: 133}}
+          - {t: "Operate the lever. Make sure that the shaft turns freely and smoothly and that the sprocket spins freely and smoothly on the shaft.", cite: {p: 133}}
+      - title: "Spring lever, spring and shaft lever"
+        steps:
+          - {t: "Examine the spring lever, the spring and the shaft lever. If you find other damage, replace the damaged part.", cite: {p: 133}, figs: [24]}
+          - {t: "Examine the weld on the shaft lever for breaks.", cite: {p: 134}}
+          - {t: "Examine the spring hole in the spring lever. The hole must be smooth and have no sharp edges that can damage the spring ends.", cite: {p: 134}}
+          - {t: "Examine the spring ends and the coils for damage. A scratch, a score or an unusual bend in the spring wire can weaken the spring and cause it to break.", cite: {p: 134}}
+          - {t: "Preferably, install a new spring whenever you remove the tensioner assembly.", cite: {p: 134}}
+      - title: "Balancer chain and guides"
+        steps:
+          - {t: "Pull the balancer chain tight. Measure the length of a 20-link span (21 pins).", cite: {p: 134}, spec_ref: "lower-end:Balancer chain length (20 links/21 pins)", conflict: {note: "The Kawasaki KLR600 manual gives a different standard length and service limit.", agrees: false, others: [{t: "Standard 190.5-191.0 mm, service limit 193.5 mm.", cite: {s: kaw-600, p: 30}}]}}
+          - {t: "Do the measurement again on different lengths of the chain.", cite: {p: 134}}
+          - {t: "Find the silver links on the chain. Use them to position and synchronize the balancer shaft assemblies with the crankshaft.", cite: {p: 134}, figs: [25]}
+          - {t: "Examine the chain guides for wear.", cite: {p: 134}, figs: [26]}
+
+  - id: c05-balancer-installation
+    title: "Engine balancer installation and synchronization"
+    system: "Engine lower end"
+    source: clymer
+    chapter: 5
+    section: "05/engine-balancer"
+    issue: doohickey
+    summary: {t: "This procedure installs the balancer parts and synchronizes them with the crankshaft. The sprockets and the weights must be aligned on their shafts. The crankshaft and the balancer sprockets must engage the correct silver links of the balancer chain.", cite: {p: 134}}
+    spec_refs: ["lower-end-torque:Balancer shaft nut (right side)", "lower-end-torque:Balancer chain guide bolts/6 mm", "lower-end-torque:Balancer chain guide bolts/8 mm", "lower-end-torque:Cam chain guide bolt"]
+    parts:
+      - {name: "Rear balancer shaft snap ring", replace: always, cite: {p: 136}}
+      - {name: "Front balancer shaft snap ring", replace: always, cite: {p: 136}}
+      - {name: "Front balancer shaft lockwasher", replace: always, cite: {p: 137}}
+      - {name: "Balancer chain tensioner spring", replace: inspect, cite: {p: 135}, note: "Install a new spring if possible."}
+      - {name: "Engine oil", replace: consumable, cite: {p: 135}, note: "Lubricate all components with engine oil during assembly."}
+      - {name: "Threadlocking compound", replace: consumable, cite: {p: 137}}
+    sections:
+      - title: "Preparation"
+        steps:
+          - {t: "Follow the procedure closely. Make sure that all alignments are correct often while you assemble the balancer.", cite: {p: 135}}
+          - {t: "Lubricate all components with engine oil.", cite: {p: 135}}
+          - {t: "Assemble the crankcase halves.", cite: {p: 135}, op: c05-crankcase-assembly}
+          - {t: "Install the spacer on the left end of the front balancer shaft.", cite: {p: 135}}
+          - {t: "On late engines, install the washer on the rear balancer shaft.", cite: {p: 135}}
+          - {t: "On early engines, make sure that the marks on the left and rear sprockets are aligned with the marks on the weight and the coupling.", cite: {p: 135}}
+          - {t: "Put the crankshaft at top dead center. The alignment marks on the crankshaft sprocket must be parallel to the cylinder centerline.", cite: {p: 135}, figs: [27]}
+          - {t: "Put the balancer chain in position and find the silver links. There are two pairs of silver links with one silver link between the pairs. The silver links must face out when you install the chain.", cite: {p: 135}, figs: [28]}
+      - title: "Chain and sprocket alignment"
+        steps:
+          - {t: "Find the pair of silver links to the right of the single silver link. These links engage the rear sprocket.", cite: {p: 136}, figs: [29]}
+          - {t: "Find the alignment tooth mark on the rear sprocket.", cite: {p: 136}}
+          - {t: "Engage the alignment tooth mark of the rear sprocket with the chain. Install the sprocket on the shaft.", cite: {p: 136}}
+          - {t: "Make sure that the alignment mark is between the silver links. If the sprocket is correct, the shaft-to-sprocket alignment marks are also between the silver links.", cite: {p: 136}, figs: [30]}
+          - {t: "Put the chain under the crankshaft. Engage the single silver link with the alignment tooth mark on the crankshaft sprocket.", cite: {p: 136}, figs: [31]}
+          - {kind: note, t: "While you align the chain with the crankshaft and the front balancer shaft, the shafts can turn a small amount. The alignment is correct as long as the chain stays on the aligned sprockets.", cite: {p: 136}}
+          - {t: "Engage the alignment tooth mark of the front sprocket with the chain. The mark must be between the silver links.", cite: {p: 136}}
+          - {t: "Make sure that the weight alignment mark on top of the weight is also between the silver links. Do not use the marks that align the shaft and the weight.", cite: {p: 136}, figs: [32]}
+          - {t: "If necessary, slowly turn the crankshaft and the balancer shafts back to top dead center.", cite: {p: 136}}
+          - {t: "Make sure that all sprocket alignments are correct. Move any sprocket that is not aligned at top dead center.", cite: {p: 136}}
+      - title: "Snap rings, cam chain and guides"
+        steps:
+          - {t: "Install the washer and a new snap ring on the rear balancer shaft. Install the snap ring so that the sharp edge faces out.", cite: {p: 136}}
+          - {t: "Install a new snap ring on the front balancer shaft. Install the snap ring so that the sharp edge faces in.", cite: {p: 136}}
+          - {t: "Engage the cam chain with the crankshaft sprocket. Put the chain toward the top of the engine.", cite: {p: 136}}
+          - {t: "Use wire to hold the cam chain and to decrease the slack.", cite: {p: 136}}
+          - {t: "Install the lower cam chain guide and the balancer chain guides.", cite: {p: 136}}
+          - {t: "Make sure that the shouldered spacer is correctly seated in the cam chain guide. The guide must pivot on the spacer.", cite: {p: 136}}
+          - {t: "If you must turn the front balancer weight to install the chain guide and the bolt at the crankshaft, apply tension to the lower part of the balancer chain.", cite: {p: 136}}
+          - {t: "If the chain does not stay on the sprockets, you can lose the balancer alignments. Make sure that the balancer alignments are correct after you install the guides.", cite: {p: 137}}
+          - {t: "Apply threadlocking compound to the threads of the bolts.", cite: {p: 137}}
+          - {t: "Tighten the smaller balancer chain guide bolts to the specified torque.", cite: {p: 137}, spec_ref: "lower-end-torque:Balancer chain guide bolts/6 mm"}
+          - {t: "Tighten the larger balancer chain guide bolts to the specified torque.", cite: {p: 137}, spec_ref: "lower-end-torque:Balancer chain guide bolts/8 mm"}
+          - {t: "Tighten the cam chain guide bolt to the specified torque.", cite: {p: 137}, spec_ref: "lower-end-torque:Cam chain guide bolt"}
+      - title: "Balancer chain tensioner"
+        steps:
+          - {t: "Install the balancer chain tensioner assembly.", cite: {p: 137}, figs: [33], op: balancer-chain-tensioner}
+          - {t: "Install the sprocket so that the wide shoulder faces out.", cite: {p: 137}}
+          - {t: "Install the spring lever so that the tensioner spring hole faces out.", cite: {p: 137}}
+          - {t: "If possible, install the spring by hand. If you must use pliers, do not stretch the spring too much and do not score or damage the spring ends.", cite: {p: 137}}
+          - {t: "Make sure that the balancer alignments are correct after you install the tensioner.", cite: {p: 137}}
+      - title: "Right balancer weight"
+        steps:
+          - {t: "Temporarily install the rotor. Tighten the rotor nut with your fingers.", cite: {p: 137}, ref: "09/rotor-and-starter-clutch"}
+          - {t: "Install the spacer and the weight on the shaft.", cite: {p: 137}}
+          - {t: "Make sure that the marks on the weight and the shaft are aligned.", cite: {p: 137}, figs: [34]}
+          - {t: "Install a new lockwasher. Engage the tab on the washer with the weight.", cite: {p: 137}}
+          - {t: "Use the rotor holder tool to hold the rotor. You can brace the tool against the top of the left footpeg.", cite: {p: 137}}
+          - {t: "Install the locknut. Tighten it to the specified torque.", cite: {p: 137}, spec_ref: "lower-end-torque:Balancer shaft nut (right side)"}
+          - {t: "Bend one side of the lockwasher against the nut.", cite: {p: 137}, figs: [35]}
+          - {t: "Remove the rotor.", cite: {p: 137}}
+      - title: "Covers"
+        steps:
+          - {t: "Install the left crankcase cover, the tensioner bolt and the shaft lever.", cite: {p: 137}, op: c05-left-crankcase-cover}
+          - {t: "Install the rotor, the starter drive gears and the alternator cover. If you disassembled the crankcase halves, also install the starter.", cite: {p: 137}, ref: "09/rotor-and-starter-clutch"}
+          - {t: "Install the right crankcase cover.", cite: {p: 137}, ref: "06/right-crankcase-cover"}

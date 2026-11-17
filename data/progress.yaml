@@ -15,8 +15,8 @@ chapters:
   8: done
   10: done
   4: done
-  5: in-progress
-  6: todo
+  5: done
+  6: in-progress
   7: todo
   2: todo
   1: todo
@@ -27,3 +27,4 @@ review:   # drawing-only values: read from the page image, recreate as an HTML d
   - "ch4 fig 25: camshaft cap bolt tightening sequence (PDF p99, p102)"
   - "ch4 fig 49: cylinder head bolt and nut tightening sequence (PDF p106-107)"
   - "ch4 figs 22-24: camshaft timing mark layout (PDF p97-98)"
+  - "ch5: rear balancer shaft snap ring sharp edge, p133 says faces in, p136 says faces out (writer followed p136); compare page images"

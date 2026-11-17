@@ -1,0 +1,156 @@
+operations:
+  - id: c05-crankcase-disassembly
+    title: "Crankcase disassembly"
+    system: "Engine lower end"
+    source: clymer
+    chapter: 5
+    section: "05/crankcase"
+    summary: {t: "This procedure splits the crankcase. After you split the crankcase, you can remove the crankshaft, the balancer shafts and the transmission for inspection and repair. Before you start, remove the engine from the frame and remove all the assemblies in the crankcase covers.", cite: {p: 137}}
+    sections:
+      - title: "Preparation"
+        steps:
+          - {t: "Remove the engine from the frame.", cite: {p: 137}, op: c05-engine-removal}
+          - {t: "Remove all the assemblies that are in the crankcase covers. It can be easier to remove them while the engine is in the frame.", cite: {p: 137}}
+          - {kind: caution, t: "Do not hammer or pry on the crankcase halves. The cases are cast aluminum alloy and can break.", cite: {p: 137}}
+          - {kind: note, t: "The left and right sides of the engine are the sides when the engine is in the frame, not on the workbench.", cite: {p: 138}}
+          - {t: "Keep the parts clean and organized as you remove them. Keep the right case facing down until you remove all the assemblies from the case.", cite: {p: 138}}
+      - title: "Crankcase bolts"
+        steps:
+          - {t: "Put the engine on wooden blocks with the left side up.", cite: {p: 138}, figs: [36]}
+          - {t: "Loosen the 13 bolts at the perimeter of the crankcase and the six bolts in the left crankcase cover area. Loosen each bolt 1/4 turn in a crossing pattern. Loosen the bolts until you can remove them by hand.", cite: {p: 138}}
+          - {kind: note, t: "The bolts have different lengths. Make a drawing of the crankcase shape on cardboard and punch holes at the bolt locations. Put each bolt in its hole in the template when you remove it. You can write a reference number at each hole to show which of the three bolt sizes is at that location.", cite: {p: 138}, figs: [37]}
+          - {t: "After you clean the bolts, put them back in the template.", cite: {p: 139}}
+      - title: "Crankcase separation"
+        steps:
+          - {t: "With the left side of the engine up, lightly pry the cases at the notch at the back of the engine. The notch is between the bores for the swing arm bolt and the rear engine mounting bolt.", cite: {p: 139}}
+          - {t: "Pry slowly and only enough to break the seal between the cases.", cite: {p: 139}}
+          - {t: "If necessary, use a heat gun to make the joint sealant soft. This makes the separation easier.", cite: {p: 139}}
+          - {kind: caution, t: "Pry the cases only at the notch. Do not pry the cases on the mating surfaces. Damage to the cases will occur.", cite: {p: 139}}
+          - {t: "When the case seal breaks, raise and lower the left case until it is fully released. Lift the left case evenly from the right case.", cite: {p: 139}, figs: [38]}
+          - {t: "Find the two dowels between the cases.", cite: {p: 139}, figs: [39]}
+      - title: "Shaft and crankshaft removal"
+        steps:
+          - {t: "Remove the front balancer shaft.", cite: {p: 139}, figs: [40]}
+          - {t: "Remove the rear balancer shaft and the weight. Find the shaft washer between the bearing and the weight.", cite: {p: 139}, figs: [41]}
+          - {t: "Examine the balancer assembly.", cite: {p: 139}, op: c05-balancer-inspection}
+          - {t: "Remove the crankshaft assembly from the case. The crankshaft must come out of the right bearing without tools. Do not lift the crankshaft by the connecting rod.", cite: {p: 139}, figs: [42]}
+          - {kind: caution, t: "Be very careful when you remove, hold and store the crankshaft. Keep it away from dirt and where it can roll and fall. If the crankshaft falls, the crankpin can move out of alignment and the connecting rod can be damaged.", cite: {p: 139}}
+          - {t: "Examine the crankshaft assembly and the cases.", cite: {p: 139}, op: c05-crankshaft-inspection}
+      - title: "Transmission removal"
+        steps:
+          - {t: "Remove the two shift fork shafts.", cite: {p: 139}, figs: [43]}
+          - {t: "Remove the shift drum. Disengage it from the shift forks. If necessary, raise the transmission shafts a small amount to release the forks from the shift drum.", cite: {p: 139}, figs: [44], ref: "07/shift-drum-and-forks"}
+          - {t: "Remove the No. 1, No. 2 and No. 3 shift forks.", cite: {p: 140}, figs: [45]}
+          - {t: "Remove the input shaft and output shaft assemblies as one unit. Keep the gears meshed and the shafts upright.", cite: {p: 140}, figs: [46]}
+          - {t: "Disassemble and examine the transmission.", cite: {p: 140}, ref: "07/input-shaft"}
+          - {kind: caution, t: "Be very careful when you remove, hold and store the transmission. Wrap and store the assembly until you examine it. Keep it away from dirt and where it can roll and fall.", cite: {p: 140}}
+
+  - id: c05-crankcase-assembly
+    title: "Crankcase assembly"
+    system: "Engine lower end"
+    source: clymer
+    chapter: 5
+    section: "05/crankcase"
+    summary: {t: "This procedure installs the transmission, the crankshaft and the balancer shafts in the crankcase and joins the crankcase halves with liquid gasket sealant. Use the crankshaft installation jig to keep the flywheels aligned.", cite: {p: 140}}
+    spec_refs: ["lower-end-torque:Crankcase bolts/6 mm", "lower-end-torque:Crankcase bolts/8 mm"]
+    parts:
+      - {name: "Liquid gasket sealant (Kawabond 5 or Yamabond 4)", replace: consumable, cite: {p: 140}, note: "Do not use RTV silicone sealant."}
+      - {name: "Rear balancer shaft snap ring", replace: always, cite: {p: 141}}
+      - {name: "Engine oil", replace: consumable, cite: {p: 140}}
+      - {name: "Grease", replace: consumable, cite: {p: 140}, note: "Lubricate the seal lips with grease."}
+    sections:
+      - title: "Preparation"
+        steps:
+          - {t: "Read the complete procedure. Make sure that you have all the tools, parts and supplies.", cite: {p: 140}}
+          - {t: "Make sure that all mating surfaces are smooth, clean and dry. You can repair small irregularities with an oil stone.", cite: {p: 140}}
+          - {t: "Remove all the old sealant. Clean the mating surfaces with a solvent that evaporates fast, such as brake cleaner or electrical contact cleaner. The new sealant does not stay on oily surfaces.", cite: {p: 140}}
+          - {t: "Lubricate the crankshaft, the bearings and the transmission assembly with engine oil.", cite: {p: 140}}
+          - {t: "Lubricate the seal lips with grease.", cite: {p: 140}}
+          - {t: "Get the crankshaft installation jig, part No. 57001-1174, from a Kawasaki dealer. Adjust the jig to fit tightly between the flywheels, opposite the crankpin.", cite: {p: 140}, figs: [47]}
+          - {t: "Use liquid gasket sealant, Kawabond 5 or Yamabond 4, to seal the crankcase halves. Both sealants are durable and can be in oil.", cite: {p: 140}}
+          - {kind: caution, t: "Do not use RTV silicone sealant from an auto parts store. It does not seal the cases well. Oil can leak and the engine can be damaged.", cite: {p: 140}}
+          - {t: "Put the right crankcase on wooden blocks with the open side up.", cite: {p: 140}}
+      - title: "Transmission installation"
+        steps:
+          - {t: "Mesh the input shaft and output shaft assemblies. Keep the gears meshed and the shafts upright. Put the assembly in the case.", cite: {p: 140}, figs: [46]}
+          - {t: "Identify the shift forks. You can identify No. 1 and No. 2 by the casting around the guide pins. These forks mate with the output shaft gears.", cite: {p: 140}, figs: [45, 48]}
+          - {t: "Shift fork No. 1 mates with fourth gear. Shift fork No. 2 mates with fifth gear.", cite: {p: 140}}
+          - {t: "Shift fork No. 3 has a smaller claw diameter. It mates only with third gear on the input shaft.", cite: {p: 140}}
+          - {t: "Install the shift forks and engage them with the correct gears. Make sure that the guide pin on each fork points toward the shift drum area.", cite: {p: 141}}
+          - {t: "Install the shift drum and engage it with the shift forks. If necessary, raise the transmission shafts a small amount to engage the forks with the shift drum.", cite: {p: 141}, figs: [44]}
+          - {kind: note, t: "Shift forks No. 1 and No. 3 use the same groove in the shift drum.", cite: {p: 141}}
+          - {t: "Align the bores in the shift forks. Put the shift fork shafts through the forks and into the case.", cite: {p: 141}, figs: [43]}
+          - {t: "Make sure that the shafts are fully seated in the case.", cite: {p: 141}}
+          - {t: "Turn the shafts and the shift drum. Make sure that the shift drum turns through its complete rotation and that the forks operate smoothly.", cite: {p: 141}}
+          - {t: "Put the shift drum in the neutral position. Make sure that both shafts turn freely.", cite: {p: 141}}
+          - {t: "The neutral position is when the neutral switch indentation on the shift drum is at the 8 o'clock position. Leave the transmission in neutral during engine assembly.", cite: {p: 141}, figs: [43]}
+      - title: "Crankshaft installation"
+        steps:
+          - {t: "Put the crankshaft installation jig between the crankshaft flywheels. Install the jig opposite the crankpin so that it goes around the rod.", cite: {p: 141}, figs: [49]}
+          - {t: "Lubricate the crankshaft and the case bearing.", cite: {p: 141}}
+          - {t: "Put the crankshaft in position so that the installation jig is aligned between the cylinder studs.", cite: {p: 141}}
+          - {t: "Put the crankshaft in the case bearing. Press the crankshaft into place by hand.", cite: {p: 141}}
+          - {t: "If the crankshaft does not fully seat, put supports under the case and around the bearing before you apply more pressure.", cite: {p: 141}}
+          - {t: "After the crankshaft is seated, make sure that it moves freely. Temporarily remove the installation jig. Hold the connecting rod and turn the crankshaft.", cite: {p: 141}}
+          - {t: "Install the jig again.", cite: {p: 141}}
+      - title: "Balancer shafts"
+        steps:
+          - {t: "Install the rear balancer shaft and weight with the splined end facing out.", cite: {p: 141}, figs: [41]}
+          - {t: "At the smooth end of the shaft, make sure that a new snap ring is installed and that the washer is on the shaft. The washer goes between the snap ring and the bearing.", cite: {p: 141}, figs: [9]}
+          - {t: "Install the front balancer shaft.", cite: {p: 141}, figs: [40]}
+      - title: "Crankcase assembly"
+        steps:
+          - {t: "Make sure that all mating surfaces are clean and dry.", cite: {p: 141}}
+          - {t: "On the right crankcase, put the two dowels in position.", cite: {p: 141}}
+          - {t: "Use strong rubber bands to hold the crankshaft installation jig between the cylinder studs.", cite: {p: 142}, figs: [50]}
+          - {t: "Apply liquid gasket sealant to all the mating surfaces, also around all the bolt holes.", cite: {p: 142}}
+          - {t: "Use enough sealant to fill the voids and make a continuous seal on the complete joint. Do not use too much sealant.", cite: {p: 142}}
+          - {t: "Make sure that all the shafts are aligned vertically. Put the left case squarely on the right case.", cite: {p: 142}}
+          - {t: "If necessary, tap the left case with a mallet to seat the cases evenly. Do not force the cases.", cite: {p: 142}}
+          - {t: "If the cases do not seat, a shaft is probably not aligned with its bore. Lift the case and move it a small amount from side to side until the shafts go into their bores.", cite: {p: 142}}
+          - {t: "Remove each crankcase bolt from the template. Put the bolts in the correct holes. Tighten them with your fingers.", cite: {p: 142}}
+          - {t: "Tighten the bolts equally in several passes in a crossing pattern. Tighten the 6 mm bolts to the specified torque.", cite: {p: 142}, spec_ref: "lower-end-torque:Crankcase bolts/6 mm"}
+          - {t: "Tighten the 8 mm bolts to the specified torque.", cite: {p: 142}, spec_ref: "lower-end-torque:Crankcase bolts/8 mm"}
+          - {t: "Turn the crankshaft and the transmission shafts. Make sure that they turn smoothly. If they bind, separate the cases and correct the problem.", cite: {p: 142}}
+          - {t: "Let the sealant set for at least an hour before you move the crankcase.", cite: {p: 142}}
+          - {t: "Remove the installation jig from the crankshaft.", cite: {p: 142}}
+          - {t: "Cover the cylinder opening to keep parts and debris out.", cite: {p: 142}}
+          - {t: "If you wish, install the top end components and the components in the side covers at this time.", cite: {p: 142}}
+
+  - id: c05-crankcase-inspection
+    title: "Crankcase inspection"
+    system: "Engine lower end"
+    source: clymer
+    chapter: 5
+    section: "05/crankcase"
+    summary: {t: "This procedure shows how to clean and examine the crankcase halves, the bearings and the threaded holes, and how to install the parts that you removed from the cases.", cite: {p: 142}}
+    spec_refs: ["lower-end-torque:Neutral switch"]
+    parts:
+      - {name: "Oil pickup tube O-ring", replace: always, cite: {p: 143}}
+      - {name: "Neutral switch seal washer", replace: always, cite: {p: 143}}
+      - {name: "Crankcase bearings", replace: inspect, cite: {p: 142}, note: "Replace a bearing that is rough, pitted, galled, has play, or is loose in its bore. Always replace the opposing bearing at the same time."}
+      - {name: "Threadlocking compound", replace: consumable, cite: {p: 143}}
+    sections:
+      - title: "Cleaning and inspection"
+        steps:
+          - {t: "In the left crankcase, remove the oil seals from the output shaft bearing and the shift shaft bore.", cite: {p: 142}, figs: [51], op: c05-seal-replacement}
+          - {t: "Remove the neutral switch.", cite: {p: 142}, figs: [51]}
+          - {t: "In the right crankcase, remove the oil pickup tube and the breather tube.", cite: {p: 142}, figs: [52]}
+          - {t: "Do not remove the plugs from the oil passages. The plugs must stay seated in the case.", cite: {p: 142}, figs: [53]}
+          - {t: "Remove all sealant from the gasket surfaces. Do not gouge or scratch the surfaces.", cite: {p: 142}}
+          - {t: "Clean the crankcase halves with solvent. Flush all bearings last with clean solvent.", cite: {p: 142}}
+          - {t: "Dry the cases with compressed air.", cite: {p: 142}}
+          - {kind: warning, t: "When you dry the bearings with compressed air, do not spin them at high speed. The bearings are not lubricated and can be damaged.", cite: {p: 142}}
+          - {t: "Flush all passages with compressed air.", cite: {p: 142}}
+          - {t: "Put oil on the engine bearings before you examine them.", cite: {p: 142}}
+          - {t: "Examine the bearings for roughness, pitting, galling and play.", cite: {p: 142}}
+          - {t: "If a bearing is not in good condition or is loose in the crankcase bore, replace it. Always replace the opposing bearing at the same time.", cite: {p: 142}, op: c05-crankcase-bearing-replacement}
+          - {t: "Examine the cases for fractures around all the mounting and bearing bosses, the stiffening ribs and the threaded holes.", cite: {p: 143}}
+          - {t: "If a case needs repair, take it to a dealer or a machine shop that repairs precision aluminum castings.", cite: {p: 143}}
+          - {t: "Examine all threaded holes for damage or sealant. Clean the threads with the correct size metric tap. Lubricate the tap with oil or aluminum tap fluid.", cite: {p: 143}}
+      - title: "Installation of the parts"
+        steps:
+          - {t: "After you replace the seals and bearings, install the oil pickup tube with a new O-ring on the tube.", cite: {p: 143}}
+          - {t: "Apply threadlocking compound to the threads of the bolt before you install it.", cite: {p: 143}}
+          - {t: "Install the breather tube.", cite: {p: 143}}
+          - {t: "Install a new seal washer on the neutral switch. Install the switch and tighten it to the specified torque.", cite: {p: 143}, spec_ref: "lower-end-torque:Neutral switch"}

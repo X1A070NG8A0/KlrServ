@@ -1,0 +1,66 @@
+chapter: 5
+title: "Engine Lower End"
+sections:
+  - id: shop-cleanliness
+    title: "Shop cleanliness"
+    pages: [126, 126]
+    summary:
+      - {t: "Before you remove and disassemble the engine, clean the engine and the frame with degreaser. This makes the disassembly easier and keeps dirt out of the assemblies.", cite: {p: 126}}
+      - {t: "Keep the work area as clean as possible. Keep parts and assemblies in marked plastic bags and containers. Keep reconditioned parts wrapped and lubricated until you install them.", cite: {p: 126}}
+    ops: []
+  - id: engine
+    title: "Engine"
+    pages: [126, 129]
+    summary:
+      - {t: "This section tells how to remove the engine from the frame and how to install it. You must remove the engine to service some of the lower end parts.", cite: {p: 126}}
+      - {t: "Remove the parts of the top end and the crankcase covers as you need to. Look at the chapters for those parts.", cite: {p: 126}}
+    ops: [c05-engine-removal, c05-engine-installation]
+  - id: cam-chain-and-lower-guide
+    title: "Cam chain and lower guide"
+    pages: [128, 129]
+    summary:
+      - {t: "If you will remove the engine balancer, you can remove the cam chain and the lower guide during that procedure. Use this procedure when you must remove only the cam chain and the lower guide.", cite: {p: 128}}
+    ops: [c05-cam-chain-and-lower-guide]
+  - id: left-crankcase-cover
+    title: "Left crankcase cover"
+    pages: [129, 129]
+    summary:
+      - {t: "The left crankcase cover is between the alternator cover and the left crankcase. It holds the balancer chain tensioner shaft.", cite: {p: 129}}
+    ops: [c05-left-crankcase-cover]
+  - id: engine-balancer
+    title: "Engine balancer"
+    pages: [129, 137]
+    summary:
+      - {t: "The engine has a rotating balancer assembly that decreases the vibration of the single-cylinder engine. The three balancer weights are on shafts and are synchronized with the crankshaft.", cite: {p: 129}}
+      - {t: "The front balancer shaft has a weight at each end. The rear balancer shaft has one weight, between the crankcase halves. A sprocket on the left end of the crankshaft drives both shafts with a chain.", cite: {p: 129}}
+      - {t: "The left and rear balancer sprockets changed in 1996, from engine serial number KL650AE032206.", cite: {p: 129}}
+      - {t: "On the later design, the left sprocket has a rubber mount in its weight. The earlier design has springs and rollers.", cite: {p: 131}}
+      - {t: "The balancer chain tensioner has a spring and a spring lever. Chapter 3 gives the adjustment of this tensioner.", cite: {p: 131}, ref: "03/maintenance-and-inspection"}
+    ops: [c05-balancer-removal, c05-balancer-inspection, c05-balancer-installation]
+  - id: crankcase
+    title: "Crankcase"
+    pages: [137, 143]
+    summary:
+      - {t: "When you split the crankcase, you can remove the crankshaft, the balancer shafts and the transmission for inspection and repair. Before you split the crankcase, remove the engine from the frame.", cite: {p: 137}}
+      - {t: "The crankcase halves are cast aluminum alloy. Dowels align them and liquid sealant joins them. The crankshaft has a roller bearing at the left end and a ball bearing at the right end.", cite: {p: 138}}
+    ops: [c05-crankcase-disassembly, c05-crankcase-assembly, c05-crankcase-inspection]
+  - id: seal-replacement
+    title: "Seal replacement"
+    pages: [143, 144]
+    summary:
+      - {t: "The left crankcase has two oil seals that you can replace. They are the output shaft seal and the shift shaft seal.", cite: {p: 143}}
+    ops: [c05-seal-replacement]
+  - id: crankcase-bearing-replacement
+    title: "Crankcase bearing replacement"
+    pages: [144, 148]
+    summary:
+      - {t: "All the bearings in the crankcases have an interference fit. Preferably, use a press to remove them. Heat the case to make the removal and installation easier.", cite: {p: 144}}
+      - {t: "Record the size code and the orientation of each bearing before you remove it.", cite: {p: 144}}
+    ops: [c05-crankcase-bearing-replacement]
+  - id: crankshaft
+    title: "Crankshaft"
+    pages: [146, 147]
+    summary:
+      - {t: "The crankshaft is an assembly of two flywheels that are joined by a crankpin. The crankpin is hydraulically pressed into the flywheels and aligned with calibrated equipment.", cite: {p: 146}}
+      - {t: "If a part of the crankshaft assembly is worn or damaged, have a dealer evaluate all the parts to decide if a repair is practical.", cite: {p: 146}}
+    ops: [c05-crankshaft-inspection]

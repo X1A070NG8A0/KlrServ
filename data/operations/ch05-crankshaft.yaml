@@ -1,0 +1,43 @@
+operations:
+  - id: c05-crankshaft-inspection
+    title: "Crankshaft inspection"
+    system: "Engine lower end"
+    source: clymer
+    chapter: 5
+    section: "05/crankshaft"
+    summary: {t: "This procedure shows how to examine the crankshaft and the connecting rod, and how to measure the connecting rod clearances and the crankshaft runout. The crankpin is pressed into the flywheels and aligned with calibrated equipment. If a part of the crankshaft assembly is worn or damaged, have a dealer evaluate all the parts.", cite: {p: 146}}
+    spec_refs: ["lower-end:Connecting rod/Side clearance", "lower-end:Connecting rod/Radial clearance", "lower-end:Crankshaft runout (total indicator reading)/Left half", "lower-end:Crankshaft runout (total indicator reading)/Right half"]
+    parts:
+      - {name: "Crankshaft assembly", replace: inspect, cite: {p: 146}, note: "If a part is worn or damaged, have a dealer evaluate all the parts."}
+    sections:
+      - title: "Preparation"
+        steps:
+          - {t: "Handle the crankshaft assembly with care. Do not put it where it can roll off the workbench.", cite: {p: 146}}
+          - {t: "Clean the crankshaft with clean solvent. Dry it with compressed air.", cite: {p: 146}}
+          - {t: "Lubricate the rod bearing and the shaft bearing with engine oil.", cite: {p: 146}}
+      - title: "Right end"
+        steps:
+          - {t: "Examine the shaft threads. The primary drive gear nut is tightened on these threads. You can correct light damage with a thread file.", cite: {p: 146}, figs: [58]}
+          - {t: "Examine the keyway and the seating surfaces for the primary drive gear and the oil pump drive gear.", cite: {p: 146}}
+          - {t: "Examine the bearing surface for scoring, heat discoloration and other damage.", cite: {p: 146}}
+          - {t: "You can remove burnishing with 320-grit carborundum cloth.", cite: {p: 146}}
+      - title: "Left end"
+        steps:
+          - {t: "Examine the keyway and the seating surface for the rotor. You can remove burnishing with 320-grit carborundum cloth.", cite: {p: 146}, figs: [59]}
+          - {t: "Examine the cam chain sprocket and the balancer sprocket for wear and broken teeth.", cite: {p: 146}}
+          - {t: "Examine the bearing for heat discoloration and other damage. Make sure that the rollers turn freely and are tight in the bearing race.", cite: {p: 146}}
+          - {kind: note, t: "On 1987-1996 models, to engine serial number KL650AE032205, you can get the left crankshaft bearing and the cam chain and balancer sprocket assembly as replacement parts. On later models, these parts are only available as part of the left crankshaft half.", cite: {p: 146}}
+      - title: "Connecting rod"
+        steps:
+          - {t: "Examine the rod small end for scoring, galling and heat damage.", cite: {p: 147}, figs: [60], ref: "04/piston-and-piston-rings"}
+          - {t: "Examine the rod big end and the bearing for scoring, galling and heat damage.", cite: {p: 147}}
+          - {t: "Put the crankshaft in V-blocks. Measure the radial clearance of the rod.", cite: {p: 147}, spec_ref: "lower-end:Connecting rod/Radial clearance", figs: [60]}
+          - {t: "You can also hold the rod and feel for radial play in all directions. There must be no noticeable play.", cite: {p: 147}}
+          - {t: "Measure the connecting rod side clearance.", cite: {p: 147}, spec_ref: "lower-end:Connecting rod/Side clearance", figs: [61]}
+      - title: "Crankshaft runout"
+        steps:
+          - {t: "Put the crankshaft in a flywheel alignment jig. Put the jig centers in the ends of the crankshaft.", cite: {p: 147}}
+          - {t: "Use a dial indicator to measure the runout of the left half at the two points in the figure. The largest difference in the gauge readings is the total runout.", cite: {p: 147}, spec_ref: "lower-end:Crankshaft runout (total indicator reading)/Left half", figs: [62]}
+          - {t: "Measure the runout of the right half in the same way.", cite: {p: 147}, spec_ref: "lower-end:Crankshaft runout (total indicator reading)/Right half", figs: [62]}
+          - {t: "If the runout is more than the service limit, have a dealer evaluate the crankshaft and possibly true it again.", cite: {p: 147}}
+          - {kind: note, t: "If you know that the crankshaft fell or was damaged, or if the engine had unusual vibration, have the crankshaft alignment examined before you assemble the engine.", cite: {p: 147}}
