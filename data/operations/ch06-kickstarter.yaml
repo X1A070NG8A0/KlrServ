@@ -1,0 +1,15 @@
+operations:
+  - id: c06-kickstarter-idle-gear
+    title: "Kickstarter idle gear installation"
+    system: "Clutch, gearshift linkage and lubrication system"
+    source: clymer
+    chapter: 6
+    section: "06/kickstarter"
+    summary: {t: "The KLR650 does not have a kickstarter as standard equipment. This procedure gives the installation of the kickstarter idle gear if you removed it from the transmission output shaft.", cite: {p: 166}}
+    parts:
+      - {name: "Kickstarter kit (Kawasaki 99995-1007)", replace: consumable, cite: {p: 166}, note: "The kit has the lever assembly and the kickstarter idle gear."}
+    sections:
+      - steps:
+          - {kind: note, t: "The engine cases are bored and threaded for the kickstarter kit. Before engine serial number KL650AE032209, the idle gear is already installed behind the right crankcase cover.", cite: {p: 166}, ref: "06/right-crankcase-cover"}
+          - {t: "Install the idle gear on the end of the transmission output shaft with the shallow side out. The gear teeth are away from the crankcase.", cite: {p: 166}}
+          - {t: "Install the snap ring with the sharp inner edge out.", cite: {p: 166}}

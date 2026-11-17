@@ -1,0 +1,107 @@
+operations:
+  - id: c06-right-crankcase-cover
+    title: "Right crankcase cover removal and installation"
+    system: "Clutch, gearshift linkage and lubrication system"
+    source: clymer
+    chapter: 6
+    section: "06/right-crankcase-cover"
+    summary: {t: "This procedure removes the right crankcase cover from the engine and installs it again. The clutch, the gearshift linkage, the oil pump and the primary drive gear are behind this cover.", cite: {p: 149}}
+    parts:
+      - {name: "Right crankcase cover gasket", replace: always, cite: {p: 150}}
+      - {name: "Oil filter housing O-ring", replace: always, cite: {p: 150}, note: "Lubricate the new O-ring before you install it."}
+      - {name: "Engine oil filter", replace: always, cite: {p: 150}}
+      - {name: "Engine oil", replace: consumable, cite: {p: 150}}
+      - {name: "Engine coolant", replace: consumable, cite: {p: 150}}
+      - {name: "Molybdenum disulfide grease", replace: consumable, cite: {p: 150}}
+    sections:
+      - title: "Removal"
+        steps:
+          - {t: "Remove the skid plate.", cite: {p: 149}, ref: "15/skid-plate"}
+          - {t: "Drain the engine oil and remove the oil filter.", cite: {p: 149}, op: engine-oil-and-filter}
+          - {t: "Drain the cooling system.", cite: {p: 149}, op: coolant-replace}
+          - {t: "Remove the rear brake pedal.", cite: {p: 149}, ref: "14/rear-brake-pedal"}
+          - {t: "Remove the right footpeg.", cite: {p: 149}}
+          - {t: "Remove the clutch cable holder.", cite: {p: 149}}
+          - {t: "Remove the clutch cable from the release lever.", cite: {p: 149}, figs: [1]}
+          - {kind: note, t: "You do not have to remove the cable from the cable holder.", cite: {p: 149}}
+          - {t: "Remove the water pump cover and the impeller assembly.", cite: {p: 149}, ref: "10/water-pump"}
+          - {t: "Remove the 15 bolts from the edge of the crankcase cover.", cite: {p: 149}}
+          - {t: "Turn the clutch release lever to the rear. This disengages the lever from the clutch lifter behind the cover.", cite: {p: 149}}
+          - {t: "Hold the release lever in position and remove the cover.", cite: {p: 150}}
+          - {t: "If necessary, lightly tap the cover to loosen it from the engine.", cite: {p: 150}}
+          - {t: "Keep the two dowels that fit between the crankcase and the cover.", cite: {p: 150}, figs: [3]}
+          - {t: "Remove the O-ring at the oil filter housing.", cite: {p: 150}, figs: [3]}
+          - {t: "Remove the cover gasket.", cite: {p: 150}}
+          - {t: "Remove the crankcase oil strainer.", cite: {p: 150}, figs: [4]}
+          - {t: "Examine the cover assembly.", cite: {p: 150}, op: c06-right-crankcase-cover-inspection}
+      - title: "Installation"
+        steps:
+          - {t: "Clean all residue and oil from the gasket surface of the engine.", cite: {p: 150}}
+          - {t: "Make sure that the crankcase oil strainer is installed and seated.", cite: {p: 150}, figs: [5]}
+          - {t: "Apply molybdenum disulfide grease to the end of the crankshaft and to the impeller shaft.", cite: {p: 150}, figs: [5]}
+          - {kind: caution, t: "Do not plug the oil hole in the crankshaft. The crankpin and the connecting rod will not get oil.", cite: {p: 150}}
+          - {t: "Install a new cover gasket on the crankcase dowels.", cite: {p: 150}}
+          - {t: "Install a new, lubricated O-ring on the oil filter housing.", cite: {p: 150}}
+          - {t: "Apply molybdenum disulfide grease to the contact points of the clutch release lever and the clutch lifter.", cite: {p: 150}}
+          - {t: "Turn the clutch release lever to the rear and install the cover.", cite: {p: 150}}
+          - {t: "When the cover is in position, turn the release lever forward. This engages the lever with the clutch lifter.", cite: {p: 150}}
+          - {t: "Install the removed parts in the reverse order of removal.", cite: {p: 150}}
+          - {t: "Install a new oil filter and fill the engine with oil.", cite: {p: 150}, op: engine-oil-and-filter}
+          - {t: "Fill the engine with coolant.", cite: {p: 150}}
+          - {t: "Make sure that the clutch operates correctly. If necessary, adjust the clutch.", cite: {p: 150}, op: clutch-adjust}
+
+  - id: c06-right-crankcase-cover-inspection
+    title: "Right crankcase cover inspection and disassembly"
+    system: "Clutch, gearshift linkage and lubrication system"
+    source: clymer
+    chapter: 6
+    section: "06/right-crankcase-cover"
+    summary: {t: "This procedure shows how to examine the crankshaft oil seal, the clutch release lever, the release lever seal and bearing, the relief valve and the oil strainer in the right crankcase cover.", cite: {p: 151}}
+    parts:
+      - {name: "Crankshaft oil seal", replace: inspect, cite: {p: 151}, note: "Replace the seal if it leaks."}
+      - {name: "Clutch release lever seal", replace: inspect, cite: {p: 151}, note: "Replace the seal if oil leaks."}
+      - {name: "Clutch release lever bearing", replace: inspect, cite: {p: 151}, note: "Replace the bearing if it is damaged or worn."}
+      - {name: "Crankcase oil strainer", replace: inspect, cite: {p: 152}, note: "Replace the strainer or the grommet if it is distorted or damaged."}
+      - {name: "Threadlocking compound", replace: consumable, cite: {p: 152}}
+    sections:
+      - title: "Cleaning"
+        steps:
+          - {t: "Wipe the cover clean.", cite: {p: 151}}
+          - {t: "Do not put the cover in solvent unless you remove all the bearing and seal assemblies.", cite: {p: 151}}
+      - title: "Crankshaft oil seal"
+        steps:
+          - {t: "Examine the crankshaft oil seal in the cover.", cite: {p: 151}, figs: [6]}
+          - {kind: note, t: "The seal fits over the end of the crankshaft. Oil under pressure goes from the oil filter housing into the end of the crankshaft and to the crankpin and the connecting rod. If the seal leaks, the oil pressure to these parts decreases.", cite: {p: 151}}
+          - {t: "If the seal is not in good condition, replace it.", cite: {p: 151}}
+          - {t: "Remove the bolt and the seal retainer plate.", cite: {p: 151}}
+          - {t: "Pry the seal from its bore.", cite: {p: 151}, figs: [7]}
+          - {t: "Lubricate the new seal with grease.", cite: {p: 151}}
+          - {t: "Put the seal over the bore with the closed side up.", cite: {p: 151}}
+          - {t: "Put a driver or a socket on the seal. The driver must fit the edge of the seal.", cite: {p: 151}, figs: [8]}
+          - {t: "Drive the seal into position.", cite: {p: 151}}
+          - {t: "Install the seal retainer plate and the bolt. Note the correct orientation of the plate.", cite: {p: 151}, figs: [6]}
+      - title: "Clutch release lever, seal and bearing"
+        steps:
+          - {kind: note, t: "On 1987-1995 models, a retaining bolt holds the release lever.", cite: {p: 151}}
+          - {t: "Examine the lever for wear on the shaft. Examine the fit of the lever in the bearing.", cite: {p: 151}}
+          - {t: "Examine the seal. If oil leaks, replace the seal.", cite: {p: 151}}
+          - {t: "Pry the seal from its bore.", cite: {p: 151}, figs: [9]}
+          - {t: "Apply grease to the new seal.", cite: {p: 151}}
+          - {t: "Seat the seal with a driver that fits the edge of the seal.", cite: {p: 151}}
+          - {t: "Make sure that the wear ring of the seal is slightly above the case. The wear ring prevents contact between the release lever and the case.", cite: {p: 151}}
+          - {t: "Examine the bearing. If it is damaged or worn, remove the seal and drive the bearing out of the bore.", cite: {p: 151}, figs: [10]}
+          - {t: "Lubricate the new bearing.", cite: {p: 151}}
+          - {t: "Install the bearing with the marks of the manufacturer up. Use a driver that fits the edge of the bearing.", cite: {p: 151}}
+          - {t: "Drive the bearing into the bore. Do not drive it deeper than flush with the inside of the case.", cite: {p: 151}}
+          - {t: "Install a new seal.", cite: {p: 151}}
+      - title: "Relief valve and oil strainer"
+        steps:
+          - {t: "Examine the relief valve.", cite: {p: 151}, figs: [11]}
+          - {t: "If the engine or the oil pump has damage, remove the relief valve from the cover.", cite: {p: 151}}
+          - {t: "Remove the snap ring from the valve. Disassemble the valve and clean the parts.", cite: {p: 151}}
+          - {t: "Clean the oil passage in the cover.", cite: {p: 151}}
+          - {t: "Apply threadlocking compound to the relief valve threads. Install the valve.", cite: {p: 152}}
+          - {t: "Examine and clean the crankcase oil strainer each time you remove the cover.", cite: {p: 152}, figs: [4]}
+          - {kind: note, t: "Oil goes from the strainer to the oil pump. A plugged, damaged or missing strainer can cause engine damage.", cite: {p: 152}}
+          - {t: "If the strainer or the grommet is distorted or damaged, replace the parts.", cite: {p: 152}}
+          - {t: "Examine and clean the passage where the strainer seats.", cite: {p: 152}}

@@ -16,8 +16,8 @@ chapters:
   10: done
   4: done
   5: done
-  6: in-progress
-  7: todo
+  6: done
+  7: in-progress
   2: todo
   1: todo
   issues: todo   # data/issues/*.yaml rewrite in STE
