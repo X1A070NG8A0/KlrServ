@@ -18,8 +18,8 @@ chapters:
   5: done
   6: done
   7: done
-  2: in-progress
-  1: todo
+  2: done
+  1: in-progress
   issues: todo   # data/issues/*.yaml rewrite in STE
 after_writers:
   - Rebuild (npm run build), update README, check the site in the browser.

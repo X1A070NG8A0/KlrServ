@@ -1,0 +1,61 @@
+operations:
+  - id: c02-start-cold
+    title: "Engine start, cold engine"
+    system: "troubleshooting"
+    source: clymer
+    chapter: 2
+    section: "02/starting-the-engine"
+    summary: {t: "This procedure starts a cold engine. Do the pre-ride inspection first.", cite: {p: 45}}
+    sections:
+      - steps:
+          - {t: "Do the pre-ride inspection.", cite: {p: 43}, op: "c03-pre-ride-inspection"}
+          - {t: "Shift the transmission into neutral.", cite: {p: 45}}
+          - {t: "Make sure that the engine stop switch is in the run position.", cite: {p: 45}, op: "c09-starter-button-engine-stop-switch-test"}
+          - {t: "Turn the fuel valve lever from the off position to the on (vertical) position. An arrow on the fuel valve shows the lever position.", cite: {p: 45}, op: "c08-fuel-valve"}
+          - {t: "Move the choke lever fully to the left to make the air/fuel mixture richer.", cite: {p: 45}, op: "choke-cable"}
+          - {t: "Turn on the ignition switch.", cite: {p: 45}, op: "c09-ignition-switch-test"}
+          - {t: "Make sure that the neutral light comes on.", cite: {p: 45}, op: "c09-neutral-switch-test"}
+          - {t: "Press the starter button. Keep the throttle closed.", cite: {p: 45}}
+          - {kind: note, t: "The choke system on the KLR is most effective when the throttle stays completely closed during startup.", cite: {p: 45}}
+          - {t: "When the engine starts, move the choke lever gradually to the right as the engine becomes warm.", cite: {p: 45}}
+          - {t: "Let the engine idle for 1 minute, or until it responds smoothly and does not need the choke.", cite: {p: 45}}
+          - {kind: caution, t: "Do not race the engine during the warm-up period. When the engine is not at operating temperature, it can have excessive wear and damage.", cite: {p: 45}}
+
+  - id: c02-start-warm
+    title: "Engine start, warm or hot engine"
+    system: "troubleshooting"
+    source: clymer
+    chapter: 2
+    section: "02/starting-the-engine"
+    summary: {t: "This procedure starts a warm or hot engine. You do not use the choke.", cite: {p: 46}}
+    sections:
+      - steps:
+          - {t: "Shift the transmission into neutral.", cite: {p: 45}}
+          - {t: "Make sure that the engine stop switch is in the run position.", cite: {p: 46}, op: "c09-starter-button-engine-stop-switch-test"}
+          - {t: "Turn the fuel valve lever from the off position to the on (vertical) position.", cite: {p: 46}, op: "c08-fuel-valve"}
+          - {t: "Turn on the ignition switch.", cite: {p: 46}, op: "c09-ignition-switch-test"}
+          - {t: "Make sure that the neutral light comes on.", cite: {p: 46}, op: "c09-neutral-switch-test"}
+          - {t: "Press the starter button. Keep the throttle closed.", cite: {p: 46}}
+
+  - id: c02-flooded-engine
+    title: "Flooded engine"
+    system: "troubleshooting"
+    source: clymer
+    chapter: 2
+    section: "02/starting-the-engine"
+    summary: {t: "The engine is probably flooded when it does not start after several tries, mainly after you use the choke. Too much fuel enters the engine and the spark plug cannot ignite the mixture. The smell of gasoline is often present.", cite: {p: 46}}
+    sections:
+      - title: "Start with the throttle open"
+        steps:
+          - {t: "If there is no sign of fuel overflow from the carburetor, open the throttle fully (no choke) and operate the starter.", cite: {p: 46}}
+          - {t: "If the engine starts, keep it at a fast idle until it burns the extra fuel.", cite: {p: 46}}
+      - title: "The engine does not start"
+        steps:
+          - {t: "Make sure that the choke lever is fully to the right.", cite: {p: 46}, op: "choke-cable"}
+          - {t: "Look for gasoline that overflows from the carburetor or the overflow hose.", cite: {p: 46}}
+          - {t: "If gasoline overflows, the float in the carburetor bowl is stuck or set too high. Remove the float assembly and repair it.", cite: {p: 46}, op: "c08-float-adjustment"}
+          - {t: "Examine the air filter for too much buildup.", cite: {p: 46}, op: "air-filter"}
+          - {t: "Remove the spark plug and dry the electrodes.", cite: {p: 46}, op: "spark-plug"}
+          - {t: "Install the spark plug and try to start the engine again.", cite: {p: 46}, op: "c02-start-cold"}
+          - {t: "Do an engine spark test.", cite: {p: 46}, op: "c02-engine-spark-test"}
+

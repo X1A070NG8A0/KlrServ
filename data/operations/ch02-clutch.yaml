@@ -1,0 +1,59 @@
+operations:
+  - id: c02-clutch-troubleshooting
+    title: "Clutch troubleshooting"
+    system: "troubleshooting"
+    source: clymer
+    chapter: 2
+    section: "02/clutch"
+    summary: {t: "The two main clutch problems are clutch slip (the clutch does not fully engage) and clutch drag (the clutch does not fully disengage). Incorrect adjustment or a damaged or dry cable often causes them.", cite: {p: 51}}
+    sections:
+      - title: "Checks before you remove the right crankcase cover"
+        steps:
+          - {t: "Make sure that the clutch cable has the correct routing from the handlebar to the engine.", cite: {p: 51}, op: "c06-clutch-cable-replacement"}
+          - {t: "Turn the handlebar from lock to lock. Make sure that the cable is free.", cite: {p: 51}, op: "c06-clutch-cable-replacement"}
+          - {t: "Make sure that the cable ends are correctly installed.", cite: {p: 51}, op: "c06-clutch-cable-replacement"}
+          - {t: "With the engine off, pull and release the clutch lever.", cite: {p: 51}}
+          - {t: "If the lever is hard to pull or the action is rough, examine the cable for damage or kinks.", cite: {p: 51}, op: "c06-clutch-cable-replacement"}
+          - {t: "If the lever is hard to pull, examine the cable routing.", cite: {p: 51}, op: "c06-clutch-cable-replacement"}
+          - {t: "If the lever is hard to pull, lubricate the cable.", cite: {p: 51}, op: "control-cables-lube"}
+          - {t: "If the lever is hard to pull, examine the lever at the handlebar for wear or lack of lubricant.", cite: {p: 51}, op: "control-cables-lube"}
+          - {t: "If the lever is hard to pull, examine the release lever at the engine for damage.", cite: {p: 51}, op: "c06-clutch-inspection"}
+          - {t: "If the lever moves without roughness or binding, adjust the clutch.", cite: {p: 51}, op: "clutch-adjust"}
+          - {t: "If you cannot adjust the clutch to the specification, the clutch cable is stretched or damaged. Replace the cable.", cite: {p: 51}, op: "c06-clutch-cable-replacement"}
+          - {t: "If the cable is in good condition and the adjustment is correct, the clutch plates can be worn or warped.", cite: {p: 51}, op: "c06-clutch-inspection"}
+      - title: "Clutch slipping"
+        steps:
+          - {kind: note, t: "When the clutch slips, the engine accelerates faster than the forward speed shows. Continuous slip causes fast heat buildup in the assembly. This causes plate wear and warp and spring fatigue.", cite: {p: 51}}
+          - {t: "Make sure that the clutch adjustment is correct.", cite: {p: 52}, op: "clutch-adjust"}
+          - {t: "Examine the clutch springs for weakness, damage or looseness.", cite: {p: 52}, op: "c06-clutch-inspection"}
+          - {t: "Examine the friction plates for wear.", cite: {p: 52}, op: "c06-clutch-inspection"}
+          - {t: "Examine the clutch (steel) plates for warp.", cite: {p: 52}, op: "c06-clutch-inspection"}
+          - {t: "Examine the release lever assembly for wear or damage.", cite: {p: 52}, op: "c06-clutch-inspection"}
+          - {t: "Examine the pressure plate for damage.", cite: {p: 52}, op: "c06-clutch-inspection"}
+          - {t: "Examine the clutch housing and the clutch hub for uneven wear.", cite: {p: 52}, op: "c06-clutch-inspection"}
+          - {t: "Make sure that the crankcase does not have too much oil.", cite: {p: 52}, op: "engine-oil-and-filter"}
+          - {t: "Make sure that the engine oil has the correct viscosity.", cite: {p: 52}, op: "c03-fuel-and-lubricants"}
+          - {t: "Make sure that the engine oil has no additives.", cite: {p: 52}, op: "c03-fuel-and-lubricants"}
+      - title: "Clutch dragging"
+        steps:
+          - {kind: note, t: "When the clutch drags, the plates do not fully separate. The motorcycle creeps or lurches when you put the transmission in gear, and shifting is difficult. If you do not correct this, the grinding and impacts can damage the transmission gears and the shift forks.", cite: {p: 52}}
+          - {t: "Examine the release lever assembly for wear or damage.", cite: {p: 52}, op: "c06-clutch-inspection"}
+          - {t: "Examine the clutch (steel) plates for warp.", cite: {p: 52}, op: "c06-clutch-inspection"}
+          - {t: "Examine the friction plates for swelling.", cite: {p: 52}, op: "c06-clutch-inspection"}
+          - {t: "Examine the pressure plate for warp.", cite: {p: 52}, op: "c06-clutch-inspection"}
+          - {t: "Make sure that the clutch spring tension is correct.", cite: {p: 52}, op: "c06-clutch-inspection"}
+          - {t: "Examine the clutch housing bushing for galling.", cite: {p: 52}, op: "c06-clutch-inspection"}
+          - {t: "Examine the grooves of the clutch housing and the splines of the clutch hub for uneven wear.", cite: {p: 52}, op: "c06-clutch-inspection"}
+          - {t: "Make sure that the clutch is correctly assembled.", cite: {p: 52}, op: "c06-clutch-installation"}
+          - {t: "Make sure that the oil level is not low.", cite: {p: 52}, op: "engine-oil-and-filter"}
+          - {t: "Make sure that the engine oil has the correct viscosity.", cite: {p: 52}, op: "c03-fuel-and-lubricants"}
+          - {t: "Make sure that the engine oil has no additives.", cite: {p: 52}, op: "c03-fuel-and-lubricants"}
+      - title: "Clutch noise"
+        steps:
+          - {kind: note, t: "Clutch noise usually comes from worn or damaged parts. It is more noticeable at idle or at low engine speed.", cite: {p: 52}}
+          - {t: "Examine the clutch lifter bearing and the lifter for wear.", cite: {p: 52}, op: "c06-clutch-inspection"}
+          - {t: "Examine the clutch housing for too much axial play.", cite: {p: 52}, op: "c06-clutch-inspection"}
+          - {t: "Examine the clearance between the friction plates and the clutch housing. Too much clearance is a possible cause.", cite: {p: 52}, op: "c06-clutch-inspection"}
+          - {t: "Examine the clutch housing and the primary drive gear for wear.", cite: {p: 52}, op: "c06-clutch-inspection"}
+          - {t: "Examine the teeth of the clutch housing and the primary drive gear for wear or damage.", cite: {p: 53}, op: "c06-clutch-inspection", ref: "06/primary-drive-gear"}
+
