@@ -130,7 +130,7 @@
 
   /* Specification tables */
   table.schedule {
-    td.x { text-align: center; font-weight: 700; }
+    td.x { text-align: center; font-weight: 700; font-size: 1.25em; line-height: 1; }
     thead th { font-size: .8rem; vertical-align: bottom; }
   }
   tr.this-year { background: var(--this-year); }

@@ -1,6 +1,6 @@
 // Static site generator. Reads data/ and doc/, validates citations, writes dist/.
 // `node site/build.ts --check` validates only and writes nothing.
-import { copyFileSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
+import { copyFileSync, existsSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
 import YAML from "yaml";
 import { dirname, join } from "node:path";
 import type { BookChapter, BookSection, Cite, Diagram, Figure, Operation, Part, Section, Step, Task } from "./lib/data.ts";
@@ -99,10 +99,25 @@ if (qerr.length) {
 }
 
 rmSync(DIST, { recursive: true, force: true });
+
+// Font check: the site fonts hold only the characters in
+// site/fonts-src/charset.txt. Any other character on a page shows in a
+// fallback font, so the build lists it (see the summary at the end).
+const fontChars = new Set<number>();
+for (const line of readFileSync(join(ROOT, "site", "fonts-src", "charset.txt"), "utf8").split(/\r?\n/)) {
+  const m = line.match(/^U\+([0-9A-F]{4,6})(?:-([0-9A-F]{4,6}))?/i);
+  if (m) for (let c = parseInt(m[1], 16); c <= parseInt(m[2] ?? m[1], 16); c++) fontChars.add(c);
+}
+const notInFont = new Map<string, string>(); // character -> first page that uses it
 const write = (rel: string, html: string): void => {
   const path = join(DIST, rel);
   mkdirSync(dirname(path), { recursive: true });
   writeFileSync(path, html);
+  if (!/\.(html|json)$/.test(rel)) return;
+  for (const ch of html.replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>|<[^>]*>/g, " ")) {
+    const c = ch.codePointAt(0)!;
+    if (c > 0x7e && !fontChars.has(c) && !notInFont.has(ch)) notInFont.set(ch, rel);
+  }
 };
 
 // ---------- book index and dependency graph ----------
@@ -163,7 +178,12 @@ const depLink = (d: Dep) => (d.kind === "op" ? opLink(d.id) : refLink(d.id));
 
 // ---------- figures (demonstration photos cropped from Clymer) ----------
 const figFor = (chapter: number | undefined, n: number): Figure | undefined => data.figures.find((f) => f.chapter === chapter && f.n === n);
-const photo = (f: Figure) => `<photo-zoom><figure class="photo"><a href="/${f.file}"><img src="/${f.file}" alt="Clymer Chapter ${f.chapter} figure ${f.n}" loading="lazy"></a><figcaption>Clymer fig. ${f.chapter}-${f.n}</figcaption></figure></photo-zoom>`;
+// The WebP copy (scripts/make_webp.py) is about half the size of the JPEG.
+const photoFile = (f: Figure): string => {
+  const webp = f.file.replace(/\.jpg$/, ".webp");
+  return existsSync(join(ROOT, webp)) ? webp : f.file;
+};
+const photo = (f: Figure) => `<photo-zoom><figure class="photo"><a href="/${photoFile(f)}"><img src="/${photoFile(f)}" alt="Clymer Chapter ${f.chapter} figure ${f.n}" loading="lazy"></a><figcaption>Clymer fig. ${f.chapter}-${f.n}</figcaption></figure></photo-zoom>`;
 
 // ---------- diagrams (HTML-native: SVG plus an ordered legend) ----------
 const shownDiagrams = new Set<string>(); // reset for each procedure: a diagram shows once, later steps link to it
@@ -455,7 +475,7 @@ ${boxes.map((box, i) => boxHtml(b, current, box, i === 0)).join("")}
 }
 function pageMaintenance(newBike = MILESTONES[0], general = EVERY[0]): string {
   const iv = data.schedule.intervals;
-  const rows = data.schedule.tasks.map((t) => `<tr class="task" data-search="${esc(`${t.task} ${t.op ? data.ops.get(t.op)?.title ?? "" : ""}`.toLowerCase())}"><th scope="row">${t.op ? opLink(t.op, t.task) : esc(t.task)}</th>${iv.map((i) => `<td class="x">${t.at.includes(i.id) ? "✕" : ""}</td>`).join("")}<td>${esc(t.other ?? "")}</td></tr>`).join("");
+  const rows = data.schedule.tasks.map((t) => `<tr class="task" data-search="${esc(`${t.task} ${t.op ? data.ops.get(t.op)?.title ?? "" : ""}`.toLowerCase())}"><th scope="row">${t.op ? opLink(t.op, t.task) : esc(t.task)}</th>${iv.map((i) => `<td class="x">${t.at.includes(i.id) ? "×" : ""}</td>`).join("")}<td>${esc(t.other ?? "")}</td></tr>`).join("");
   return layout("Routine maintenance", "maint", `<h1>Routine maintenance</h1>
 <p>Do each task at the odometer reading or the time interval in the table. Point to a task to see its procedure, its parts and its tools.</p>
 ${filterBox("tr.task", "Filter tasks, for example chain, valve, coolant")}
@@ -589,3 +609,7 @@ for (const f of readdirSync(join(ROOT, "site", "client")).filter((f) => f.endsWi
 mkdirSync(join(DIST, "assets", "fonts"), { recursive: true });
 for (const f of readdirSync(join(ROOT, "site", "static", "fonts"))) copyFileSync(join(ROOT, "site", "static", "fonts", f), join(DIST, "assets", "fonts", f));
 console.log(`Built ${data.ops.size} procedures, ${sections.size} sections, ${toolIndex.size} tools, ${data.tables.size} spec tables. ${data.warnings.length} warnings, ${misses.length} number misses.`);
+if (notInFont.size) {
+  const list = [...notInFont].map(([ch, page]) => `${ch} U+${ch.codePointAt(0)!.toString(16).toUpperCase().padStart(4, "0")} (${page})`);
+  console.warn(`Font: ${notInFont.size} character(s) are not in site/fonts-src/charset.txt and show in a fallback font: ${list.join(", ")}`);
+}
