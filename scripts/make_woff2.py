@@ -3,8 +3,10 @@ site/fonts-src/charset.txt.
 
 WOFF2 is a lossless, compressed wrapper for a font. The cut keeps only the
 glyphs for the listed characters (and the glyphs that their layout features
-need), so each face goes from about 51 KB to about 15 KB. Hinting stays, so
-small text stays sharp on Windows. The sources (from CTAN, GUST Font License)
+need), so each face goes from about 51 KB to about 12 KB. The hinting is
+removed: an A/B on Windows (Chromium and Firefox, 1 pixel per CSS pixel)
+showed that the Heros hints merge the dot of "i" into its stem at 10 to 13 px,
+and the unhinted text was clearer. The sources (from CTAN, GUST Font License)
 are in site/fonts-src/. The output goes to site/static/fonts/, which the build
 copies to the site. The build warns if a page uses a character outside the list.
 
@@ -42,6 +44,8 @@ for face in FACES:
     options.flavor = "woff2"
     # Default features only (kerning, ligatures, marks). The site never asks
     # for small caps, old-style or tabular numbers, or stylistic sets.
+    options.hinting = False
+    options.desubroutinize = True
     cut = subset.Subsetter(options)
     cut.populate(unicodes=charset())
     cut.subset(font)
