@@ -91,6 +91,7 @@ The KLR600 OCR also needs Tesseract.
 | `scripts/ocr_klr600.py` | OCR of the scanned KLR600 manual |
 | `scripts/build_book.py` | Book sections from the Clymer text, `doc/book/clymer.json` |
 | `scripts/extract_figures.py` | Photo crops in `doc/figures/clymer/` |
+| `scripts/make_woff2.py` | WOFF2 fonts in `site/static/fonts/` from the OpenType sources in `site/fonts-src/` |
 | `scripts/extract_drawings.py` | Crops of framed line drawings that the first pass misses, `index-drawings.yaml` |
 | `scripts/figure_contact_sheet.py` | Contact sheet to read figure numbers into `labels-chNN.yaml` |
 | `scripts/save_forum_threads.py` | Saved threads in `doc/community/` |

@@ -10,6 +10,7 @@ const PORT = Number(process.env.PORT ?? 4650);
 const TYPES: Record<string, string> = {
   ".html": "text/html; charset=utf-8", ".css": "text/css; charset=utf-8", ".js": "text/javascript; charset=utf-8",
   ".json": "application/json", ".jpg": "image/jpeg", ".png": "image/png", ".svg": "image/svg+xml",
+  ".woff2": "font/woff2", ".txt": "text/plain; charset=utf-8",
 };
 
 function resolve(urlPath: string): string | undefined {
@@ -27,6 +28,20 @@ createServer((req, res) => {
     res.writeHead(404, { "content-type": "text/plain" }).end("not found");
     return;
   }
-  res.writeHead(200, { "content-type": TYPES[extname(file)] ?? "application/octet-stream" });
+  // Caching: the browser keeps each file and asks "changed since?" on each
+  // use (no-cache). If the file did not change, the answer is a short 304.
+  const modified = statSync(file).mtime;
+  modified.setMilliseconds(0); // HTTP dates have whole seconds
+  const headers = {
+    "content-type": TYPES[extname(file)] ?? "application/octet-stream",
+    "last-modified": modified.toUTCString(),
+    "cache-control": "no-cache",
+  };
+  const since = Date.parse(req.headers["if-modified-since"] ?? "");
+  if (since >= modified.getTime()) {
+    res.writeHead(304, headers).end();
+    return;
+  }
+  res.writeHead(200, headers);
   createReadStream(file).pipe(res);
 }).listen(PORT, "127.0.0.1", () => console.log(`KLR650 wiki on http://127.0.0.1:${PORT}`));
