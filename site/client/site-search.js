@@ -13,12 +13,19 @@ class SiteSearch extends HTMLElement {
   index = [];
   /** @type {AbortController | undefined} */
   abort;
+  /** @type {HTMLElement | undefined} */
+  status;
 
   async connectedCallback() {
     const input = this.querySelector("input");
     // The element was hidden at load, so the browser did not apply autofocus.
     if (input?.autofocus) input.focus();
     if (!input || !this.querySelector("ol")) return;
+    // Screen readers hear the number of results (a polite live region).
+    this.status = document.createElement("p");
+    this.status.className = "vh";
+    this.status.setAttribute("role", "status");
+    input.after(this.status);
     this.abort = new AbortController();
     const { signal } = this.abort;
     input.addEventListener("input", () => this.run(input.value), { signal });
@@ -42,6 +49,7 @@ class SiteSearch extends HTMLElement {
     if (!out) return;
     const terms = query.toLowerCase().split(/\s+/).filter(Boolean);
     out.replaceChildren();
+    if (this.status) this.status.textContent = "";
     if (!terms.length) return;
     const hits = this.index.filter((e) => {
       const hay = `${e.t} ${e.x}`.toLowerCase();
@@ -62,6 +70,7 @@ class SiteSearch extends HTMLElement {
       li.append(kind, " ", a, snip);
       out.append(li);
     }
+    if (this.status) this.status.textContent = hits.length ? `${hits.length} results${hits.length > 80 ? ", 80 shown" : ""}` : "No results";
     if (!hits.length) {
       const li = document.createElement("li");
       li.className = "meta";

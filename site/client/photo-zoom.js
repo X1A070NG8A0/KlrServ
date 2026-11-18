@@ -21,6 +21,7 @@ class PhotoZoom extends HTMLElement {
     e.preventDefault();
     const dialog = document.createElement("dialog");
     dialog.className = "zoom";
+    dialog.setAttribute("aria-label", `Enlarged photo: ${this.querySelector("figcaption")?.textContent ?? img.alt}`);
     const big = document.createElement("img");
     big.src = a.href;
     big.alt = img.alt;

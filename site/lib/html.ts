@@ -22,6 +22,7 @@ export function layout(title: string, nav: Nav, body: string): string {
 <script src="/assets/main.js" type="module"></script>
 </head>
 <body>
+<a class="skip" href="#main">Skip to content</a>
 <header class="site">
   <a class="brand" href="/">KLR Service Explorer</a>
   <nav>
@@ -31,7 +32,7 @@ export function layout(title: string, nav: Nav, body: string): string {
     ${link("tools", "/tools.html", "Tool list")}
   </nav>
 </header>
-<main>
+<main id="main">
 ${body}
 </main>
 <footer class="site">

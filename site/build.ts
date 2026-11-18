@@ -210,10 +210,12 @@ function stepHtml(st: Step, src: string, chapter?: number): string {
     : "";
   return `<li${kind} title="${esc(srcLabel(data, st.cite, src))}"><p>${label}${esc(st.t)}${external}${deps ? ` <span class="deps">${deps}</span>` : ""}</p>${conflict}${gap}${diag}${figs ? `<div class="figs">${figs}</div>` : ""}</li>`;
 }
-const sectionsHtml = (secs: Section[], src: string, chapter?: number) =>
-  (shownDiagrams.clear(), secs).map((s) => `${s.title ? `<h3>${esc(s.title)}</h3>` : ""}<ol class="steps">${s.steps.map((st) => stepHtml(st, src, chapter)).join("")}</ol>`).join("");
+// Headings at `level`. A level-2 subheading has class "sub" and the look of an h3.
+const hx = (level: number, text: string) => `<h${level}${level === 2 ? ' class="sub"' : ""}>${text}</h${level}>`;
+const sectionsHtml = (secs: Section[], src: string, chapter?: number, level = 3) =>
+  (shownDiagrams.clear(), secs).map((s) => `${s.title ? hx(level, esc(s.title)) : ""}<ol class="steps">${s.steps.map((st) => stepHtml(st, src, chapter)).join("")}</ol>`).join("");
 
-function partsHtml(parts: Part[], src: string, check?: string): string {
+function partsHtml(parts: Part[], src: string, check?: string, level = 4): string {
   const groups: [Part["replace"], string][] = [["always", "Replace"], ["inspect", "Replace if worn or damaged"], ["consumable", "Consumables"]];
   return groups.map(([kind, title]) => {
     const list = parts.filter((p) => p.replace === kind && !isToolPart(p));
@@ -221,10 +223,11 @@ function partsHtml(parts: Part[], src: string, check?: string): string {
     const items = list.map((p) => {
       const key = `${check ?? ""}:${p.name}`;
       const box = check ? `<input type="checkbox" data-done-key="${esc(key)}" aria-label="Done: ${esc(p.name)}"> ` : "";
-      return `<li class="part part-${kind}" data-key="${esc(key)}" title="${esc(srcLabel(data, p.cite, src))}">${box}<span class="name">${esc(p.name)}</span>${p.spec_ref ? ` ${specLink(p.spec_ref)}` : ""}${p.note ? ` <span class="pnote">${esc(p.note)}</span>` : ""}${subNotes("part", p.name)}</li>`;
+      const name = `<span class="name">${esc(p.name)}</span>`;
+      return `<li class="part part-${kind}" data-key="${esc(key)}" title="${esc(srcLabel(data, p.cite, src))}">${check ? `<label>${box}${name}</label>` : name}${p.spec_ref ? ` ${specLink(p.spec_ref)}` : ""}${p.note ? ` <span class="pnote">${esc(p.note)}</span>` : ""}${subNotes("part", p.name)}</li>`;
     }).join("");
     const ul = `<ul class="checklist">${items}</ul>`;
-    return `<section class="parts parts-${kind}"><h4>${title}</h4>${check ? `<check-list>${ul}</check-list>` : ul}</section>`;
+    return `<section class="parts parts-${kind}">${hx(level, title)}${check ? `<check-list>${ul}</check-list>` : ul}</section>`;
   }).join("");
 }
 
@@ -251,7 +254,7 @@ function opBody(op: Operation, full: boolean): string {
   const users = neededByOp(op.id);
   const sched = tasksFor(op.id);
   const specs = op.spec_refs?.length
-    ? `<section class="box"><h3>Specifications</h3><dl>${op.spec_refs.map((r) => { const h = findSpec(data, r); return h ? `<dt>${rowLabel(h.row)}</dt><dd>${specLink(r)}</dd>` : ""; }).join("")}</dl></section>`
+    ? `<section class="box">${hx(full ? 2 : 3, "Specifications")}<dl>${op.spec_refs.map((r) => { const h = findSpec(data, r); return h ? `<dt>${rowLabel(h.row)}</dt><dd>${specLink(r)}</dd>` : ""; }).join("")}</dl></section>`
     : "";
   const H = full ? "h1" : "h2";
   return `<article class="op" id="op-${op.id}">
@@ -262,9 +265,9 @@ function opBody(op: Operation, full: boolean): string {
   ${deps.length ? `<p class="needs"><span class="lbl">Do first or have ready:</span> ${deps.map(depLink).join(" ")}</p>` : ""}
   ${op.issue && data.issues.has(op.issue) ? `<p class="needs"><span class="lbl">Known issue:</span> <a href="/issues/${op.issue}.html">${esc(data.issues.get(op.issue)!.title)}</a></p>` : ""}
   ${specs}
-  ${op.parts?.some((p) => !isToolPart(p)) ? `<section class="box"><h3>Parts and materials</h3>${partsHtml(op.parts!, op.source)}</section>` : ""}
-  ${toolsBox(op)}
-  ${full ? sectionsHtml(op.sections, op.source, op.chapter) : ""}
+  ${op.parts?.some((p) => !isToolPart(p)) ? `<section class="box">${hx(full ? 2 : 3, "Parts and materials")}${partsHtml(op.parts!, op.source, undefined, full ? 3 : 4)}</section>` : ""}
+  ${toolsBox(op, full ? 2 : 3)}
+  ${full ? sectionsHtml(op.sections, op.source, op.chapter, 2) : ""}
   ${full && users.length ? `<p class="needs"><span class="lbl">Needed by:</span> ${users.map((u) => opLink(u)).join(" ")}</p>` : ""}
   ${full ? `<p class="provenance">Paraphrased from ${esc(sourcePages(op))}.</p>` : ""}
 </article>`;
@@ -278,7 +281,7 @@ function sectionBody(c: BookChapter, s: BookSection): string {
   return `${s.summary?.length ? s.summary.map((x) => `<p class="summary">${esc(x.t)}</p>`).join("") : ""}
   ${!s.written ? `<p class="gap">This section is not written yet.</p>` : ""}
   ${ops.length > 1 ? `<p class="toc">Procedures: ${ops.map((o) => `<a href="#op-${o.id}">${esc(o.title)}</a>`).join(" · ")}</p>` : ""}
-  ${ops.map((o) => `<article class="op" id="op-${o.id}"><h2><a href="/ops/${o.id}.html">${esc(o.title)}</a></h2>${o.summary ? `<p class="summary">${esc(o.summary.t)}</p>` : ""}${depsOf(o).length ? `<p class="needs"><span class="lbl">Do first or have ready:</span> ${depsOf(o).map(depLink).join(" ")}</p>` : ""}${o.parts?.some((p) => !isToolPart(p)) ? `<section class="box"><h3>Parts and materials</h3>${partsHtml(o.parts!, o.source)}</section>` : ""}${toolsBox(o)}${sectionsHtml(o.sections, o.source, o.chapter)}</article>`).join("")}
+  ${ops.map((o) => `<article class="op" id="op-${o.id}"><h2><a href="/ops/${o.id}.html">${esc(o.title)}</a></h2>${o.summary ? `<p class="summary">${esc(o.summary.t)}</p>` : ""}${depsOf(o).length ? `<p class="needs"><span class="lbl">Do first or have ready:</span> ${depsOf(o).map(depLink).join(" ")}</p>` : ""}${o.parts?.some((p) => !isToolPart(p)) ? `<section class="box">${hx(3, "Parts and materials")}${partsHtml(o.parts!, o.source)}</section>` : ""}${toolsBox(o)}${sectionsHtml(o.sections, o.source, o.chapter)}</article>`).join("")}
   ${users.length ? `<p class="needs"><span class="lbl">Other procedures need this section:</span> ${users.map((u) => opLink(u)).join(" ")}</p>` : ""}`;
 }
 
@@ -387,10 +390,10 @@ const subNotes = (kind: "tool" | "part", key: string, opId?: string): string => 
   const where = (x: (typeof list)[number]) => (!opId && x.for.op ? ` (for ${opLink(x.for.op)})` : "");
   return list.length ? `<ul class="subs">${list.map((x) => `<li${x.kind === "warning" ? ' class="warn"' : ""}><span class="lbl">${x.kind === "warning" ? "Owner warning" : "Substitute"}${where(x)}:</span> ${esc(x.t)} ${supplementCite(data, x.cite)}</li>`).join("")}</ul>` : "";
 };
-const toolsBox = (op: Operation): string => {
+const toolsBox = (op: Operation, level = 3): string => {
   const ts = toolsFor(op);
   if (!ts.length) return "";
-  return `<section class="box"><h3>Tools</h3><ul class="tools">${ts.map((t) => `<li><a href="/tools.html#tool-${t.id}" title="${esc(t.why[0])}">${esc(t.name)}</a>${variantsHtml(t.variants, 3)}${subNotes("tool", t.id, op.id)}</li>`).join("")}</ul></section>`;
+  return `<section class="box">${hx(level, "Tools")}<ul class="tools">${ts.map((t) => `<li><a href="/tools.html#tool-${t.id}" title="${esc(t.why[0])}">${esc(t.name)}</a>${variantsHtml(t.variants, 3)}${subNotes("tool", t.id, op.id)}</li>`).join("")}</ul></section>`;
 };
 
 // ---------- full reference (book) ----------
@@ -475,11 +478,11 @@ ${boxes.map((box, i) => boxHtml(b, current, box, i === 0)).join("")}
 }
 function pageMaintenance(newBike = MILESTONES[0], general = EVERY[0]): string {
   const iv = data.schedule.intervals;
-  const rows = data.schedule.tasks.map((t) => `<tr class="task" data-search="${esc(`${t.task} ${t.op ? data.ops.get(t.op)?.title ?? "" : ""}`.toLowerCase())}"><th scope="row">${t.op ? opLink(t.op, t.task) : esc(t.task)}</th>${iv.map((i) => `<td class="x">${t.at.includes(i.id) ? "×" : ""}</td>`).join("")}<td>${esc(t.other ?? "")}</td></tr>`).join("");
+  const rows = data.schedule.tasks.map((t) => `<tr class="task" data-search="${esc(`${t.task} ${t.op ? data.ops.get(t.op)?.title ?? "" : ""}`.toLowerCase())}"><th scope="row">${t.op ? opLink(t.op, t.task) : esc(t.task)}</th>${iv.map((i) => `<td class="x">${t.at.includes(i.id) ? '<span aria-hidden="true">×</span><span class="vh">due</span>' : ""}</td>`).join("")}<td>${esc(t.other ?? "")}</td></tr>`).join("");
   return layout("Routine maintenance", "maint", `<h1>Routine maintenance</h1>
 <p>Do each task at the odometer reading or the time interval in the table. Point to a task to see its procedure, its parts and its tools.</p>
 ${filterBox("tr.task", "Filter tasks, for example chain, valve, coolant")}
-<table class="schedule"><thead><tr><th scope="col">Task</th>${iv.map((i) => `<th scope="col">${esc(i.label)}</th>`).join("")}<th scope="col">Other interval</th></tr></thead><tbody>${rows}</tbody></table>
+<div class="table-scroll"><table class="schedule"><thead><tr><th scope="col">Task</th>${iv.map((i) => `<th scope="col">${esc(i.label)}</th>`).join("")}<th scope="col">Other interval</th></tr></thead><tbody>${rows}</tbody></table></div>
 ${Object.entries(data.schedule.footnotes ?? {}).map(([k, v]) => `<p class="meta">${esc(k)} ${esc(v)}</p>`).join("")}
 <h2>Service by interval</h2>
 <p>Select an interval to get a checklist for that service. Each box holds the tasks of one interval. A longer service also includes the tasks of the shorter intervals that come due at the same time.</p>
@@ -508,7 +511,7 @@ function pageTools(): string {
   const groups = toolGroups.map((g) => {
     const list = [...toolIndex.values()].filter((t) => t.group === g).sort((a, b) => b.ops.length - a.ops.length || a.name.localeCompare(b.name));
     if (!list.length) return "";
-    return `<section><h2>${esc(g)}</h2><check-list><ul class="checklist toollist">${list.map((t) => `<li id="tool-${t.id}" data-search="${esc(`${t.name} ${t.ops.map((o) => o.title).join(" ")}`.toLowerCase())}"><input type="checkbox" data-done-key="tool:${t.id}" aria-label="I have: ${esc(t.name)}"> <span class="name">${esc(t.name)}</span> <span class="meta">${t.ops.length} procedure${t.ops.length === 1 ? "" : "s"}</span>${g === KAW ? `<p class="meta">${esc(t.why[0])}</p>` : ""}${variantsHtml(t.variants, 4)}${subNotes("tool", t.id)}<details><summary>Used in</summary><ul>${t.ops.map((o) => `<li>${opLink(o.id)}</li>`).join("")}</ul></details></li>`).join("")}</ul></check-list></section>`;
+    return `<section><h2>${esc(g)}</h2><check-list><ul class="checklist toollist">${list.map((t) => `<li id="tool-${t.id}" data-search="${esc(`${t.name} ${t.ops.map((o) => o.title).join(" ")}`.toLowerCase())}"><label><input type="checkbox" data-done-key="tool:${t.id}" aria-label="I have: ${esc(t.name)}"> <span class="name">${esc(t.name)}</span></label> <span class="meta">${t.ops.length} procedure${t.ops.length === 1 ? "" : "s"}</span>${g === KAW ? `<p class="meta">${esc(t.why[0])}</p>` : ""}${variantsHtml(t.variants, 4)}${subNotes("tool", t.id)}<details><summary>Used in</summary><ul>${t.ops.map((o) => `<li>${opLink(o.id)}</li>`).join("")}</ul></details></li>`).join("")}</ul></check-list></section>`;
   }).join("");
   return layout("Tool list", "tools", `<h1>Tool list</h1>
 <p>Each tool that a procedure names, with the procedures that use it. Tick the tools that you have. <span class="ticks-hint">This browser keeps the ticks.</span></p>
@@ -535,11 +538,11 @@ function pageHome(): string {
 function pageSpecs(): string {
   const byCh = new Map<string, typeof data.tables extends Map<string, infer T> ? T[] : never>();
   for (const t of data.tables.values()) byCh.set(t.chapter, [...(byCh.get(t.chapter) ?? []), t]);
-  for (const t of data.tables.values()) write(`frag/spec/${t.id}.html`, `<h1>${esc(t.title)}</h1><table class="spec">${t.rows.map((r) => `<tr class="${yearClass(r).trim()}"><th>${rowLabel(r)}</th><td>${specValue(r, t.kind)}</td></tr>`).join("")}</table>`);
+  for (const t of data.tables.values()) write(`frag/spec/${t.id}.html`, `<h1>${esc(t.title)}</h1><div class="table-scroll"><table class="spec">${t.rows.map((r) => `<tr class="${yearClass(r).trim()}"><th>${rowLabel(r)}</th><td>${specValue(r, t.kind)}</td></tr>`).join("")}</table></div>`);
   return layout("Specifications", "book", `<p class="crumb"><a href="/book/">Full reference</a></p><h1>Specifications</h1>
 <p>Rows for other model years are grey. Rows for 2006 are green.</p>
 ${filterBox("tr.row", "Filter, for example axle, valve, spark plug")}
-${[...byCh.entries()].map(([ch, ts]) => `<h2>${esc(ch)}</h2>${ts.map((t) => `<table class="spec" id="${t.id}"><caption>${esc(t.title)} <span class="src">${esc(srcLabel(data, t.cite))}</span></caption>${t.note ? `<tbody><tr><td colspan="2" class="meta">${esc(t.note)}</td></tr></tbody>` : ""}<tbody>${t.rows.map((r) => `<tr class="row${yearClass(r)}" data-search="${esc(`${t.title} ${r.group ?? ""} ${r.item}`.toLowerCase())}"><th scope="row">${rowLabel(r)}${r.realigned ? ` <span class="flag" title="In this copy the value is on the heading line. It was moved down and compared with Clymer.">moved</span>` : ""}</th><td>${specValue(r, t.kind)}</td></tr>`).join("")}</tbody></table>`).join("")}`).join("")}`);
+${[...byCh.entries()].map(([ch, ts]) => `<h2>${esc(ch)}</h2>${ts.map((t) => `<div class="table-scroll"><table class="spec" id="${t.id}"><caption>${esc(t.title)} <span class="src">${esc(srcLabel(data, t.cite))}</span></caption>${t.note ? `<tbody><tr><td colspan="2" class="meta">${esc(t.note)}</td></tr></tbody>` : ""}<tbody>${t.rows.map((r) => `<tr class="row${yearClass(r)}" data-search="${esc(`${t.title} ${r.group ?? ""} ${r.item}`.toLowerCase())}"><th scope="row">${rowLabel(r)}${r.realigned ? ` <span class="flag" title="In this copy the value is on the heading line. It was moved down and compared with Clymer.">moved</span>` : ""}</th><td>${specValue(r, t.kind)}</td></tr>`).join("")}</tbody></table></div>`).join("")}`).join("")}`);
 }
 
 function pagesIssues(): void {

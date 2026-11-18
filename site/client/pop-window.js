@@ -65,11 +65,15 @@ export class PopWindow extends HTMLElement {
     const { signal } = this.abort;
     this.id = `pw-${++serial}`;
     this.popover = "manual";
+    // A non-modal dialog, named by its title bar.
+    this.setAttribute("role", "dialog");
+    this.setAttribute("aria-labelledby", `${this.id}-title`);
 
     const bar = document.createElement("div");
     bar.className = "popbar";
     const title = document.createElement("span");
     title.className = "poptitle";
+    title.id = `${this.id}-title`;
     title.textContent = link.textContent?.trim() ?? "";
     title.title = "Drag to move";
     const open = document.createElement("a");
@@ -77,7 +81,7 @@ export class PopWindow extends HTMLElement {
     open.href = link.href;
     open.textContent = "open";
     open.title = "Open the full page";
-    bar.append(title, open, this.button("--pin", "pin", "Keep this window open"), this.button("--close", "×", "Close"));
+    bar.append(title, open, this.button("--pin", "pin", "Keep this window open"), this.button("--close", "×", "Close window"));
     const body = document.createElement("div");
     body.className = "popbody";
     body.textContent = "Loading…";
@@ -128,6 +132,9 @@ export class PopWindow extends HTMLElement {
     b.setAttribute("commandfor", this.id);
     b.textContent = text;
     b.title = tip;
+    // The visible text can be a symbol (×), so the name comes from the tip.
+    b.setAttribute("aria-label", tip);
+    if (command === "--pin") b.setAttribute("aria-pressed", "false");
     return b;
   }
 
@@ -143,7 +150,10 @@ export class PopWindow extends HTMLElement {
     this.classList.toggle("pinned", on);
     if (on) this.unanchor();
     const pin = this.querySelector('button[command="--pin"]');
-    if (pin) pin.textContent = on ? "unpin" : "pin";
+    if (pin) {
+      pin.textContent = on ? "unpin" : "pin";
+      pin.setAttribute("aria-pressed", String(on));
+    }
   }
 
   /** @param {HTMLElement} body */

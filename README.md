@@ -43,7 +43,9 @@ On 2026-11-17 a scripted test of each element passed in Chromium 156,
 Firefox 160 and WebKit 27.2 (the Playwright build of the Safari engine, on
 Windows). Firefox 143, which has no anchor positioning and no invoker
 commands, tested the JavaScript fallbacks. Real Safari on a Mac or an
-iPhone is not tested. `site/REFACTOR.md` gives the reasons for these choices.
+iPhone is not tested.
+
+Accessibility, checked on 2026-11-18 with scripted checks in Chromium (light and dark, and 320 px wide): text contrast is at least 4.5:1, nothing scrolls sideways at 320 px, controls have names and states, procedure headings do not skip a level, and search and filter results are announced. There is a skip link. Photo alt text names the figure but does not describe it. A screen reader test and an axe-core run are not done. `site/REFACTOR.md` gives the reasons for these choices.
 
 ## What the site does
 
