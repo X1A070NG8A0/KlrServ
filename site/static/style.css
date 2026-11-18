@@ -170,8 +170,6 @@
     img { width: 100%; height: auto; display: block; border: 1px solid var(--rule); }
     figcaption { font: .72rem var(--mono); color: var(--muted); }
   }
-  ul.figures { list-style: none; padding: 0; }
-  .fig-card { display: grid; grid-template-columns: 17rem 1fr; gap: 1rem; border-bottom: 1px solid var(--rule); padding: .8rem 0; }
   figure.diagram {
     display: grid; grid-template-columns: minmax(10rem, 16rem) 1fr; gap: 1rem; margin: .6rem 0; border: 1px solid var(--rule); padding: .6rem;
     svg { width: 100%; height: auto; }
@@ -201,7 +199,7 @@
     &::backdrop { background: rgb(0 0 0 / .6); }
   }
   @container (width < 38rem) {
-    .fig-card, figure.diagram { grid-template-columns: 1fr; }
+    figure.diagram { grid-template-columns: 1fr; }
   }
 
   /* Community posts */

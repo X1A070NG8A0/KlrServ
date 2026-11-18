@@ -402,7 +402,7 @@ function pagesBook(): void {
   write("book/index.html", layout("Full reference", "book", `<h1>Full reference</h1>
 <p>All procedures of the service manual, chapter by chapter. Point to a link to see the procedure, its parts and its tools.</p>
 ${filterBox("li.chap", "Filter chapters, for example fork, clutch, stator")}
-<p class="toc"><a href="/specs.html">Specifications</a> · <a href="/book/errata.html">Errata</a> · <a href="/figures.html">Photos</a> · <a href="/search.html">Search all</a></p>
+<p class="toc"><a href="/specs.html">Specifications</a> · <a href="/book/errata.html">Errata</a> · <a href="/search.html">Search all</a></p>
 <ol class="chapters">${chList}</ol>`));
   for (const c of data.book) {
     write(`book/ch${nn(c.n)}/index.html`, layout(`Chapter ${c.n}`, "book", `<p class="crumb"><a href="/book/">Full reference</a></p><h1>Chapter ${c.n}: ${esc(c.title)}</h1>${filterBox("ol.secs > li", "Filter this chapter")}<ol class="secs">${c.sections.map((s) => `<li data-search="${esc(`${s.title} ${(s.ops ?? []).map((o) => data.ops.get(o)?.title ?? "").join(" ")} ${s.summary?.[0]?.t ?? ""}`.toLowerCase())}">${secLink(c, s)}${s.summary?.[0] ? `<p class="meta">${esc(s.summary[0].t)}</p>` : ""}</li>`).join("")}</ol>`));
@@ -542,18 +542,6 @@ ${filterBox("tr.row", "Filter, for example axle, valve, spark plug")}
 ${[...byCh.entries()].map(([ch, ts]) => `<h2>${esc(ch)}</h2>${ts.map((t) => `<table class="spec" id="${t.id}"><caption>${esc(t.title)} <span class="src">${esc(srcLabel(data, t.cite))}</span></caption>${t.note ? `<tbody><tr><td colspan="2" class="meta">${esc(t.note)}</td></tr></tbody>` : ""}<tbody>${t.rows.map((r) => `<tr class="row${yearClass(r)}" data-search="${esc(`${t.title} ${r.group ?? ""} ${r.item}`.toLowerCase())}"><th scope="row">${rowLabel(r)}${r.realigned ? ` <span class="flag" title="In this copy the value is on the heading line. It was moved down and compared with Clymer.">moved</span>` : ""}</th><td>${specValue(r, t.kind)}</td></tr>`).join("")}</tbody></table>`).join("")}`).join("")}`);
 }
 
-function pageFigures(): string {
-  const uses = (f: Figure) => {
-    const out: { op: Operation; st: Step }[] = [];
-    for (const op of data.ops.values()) for (const s of op.sections) for (const st of s.steps) if ((st.chapter ?? op.chapter) === f.chapter && st.figs?.includes(f.n)) out.push({ op, st });
-    return out;
-  };
-  const cards = data.figures.map((f) => ({ f, u: uses(f) })).filter((x) => x.u.length).sort((a, b) => a.f.chapter - b.f.chapter || a.f.n - b.f.n);
-  return layout("Photos", "book", `<p class="crumb"><a href="/book/">Full reference</a></p><h1>Photos</h1><p>Photos from the Clymer manual, with the steps that use them.</p>
-${filterBox(".fig-card", "Filter photos, for example drain plug, chain, caliper")}
-<ul class="figures">${cards.map(({ f, u }) => `<li class="fig-card" data-search="${esc(u.map((x) => `${x.op.title} ${x.st.t}`).join(" ").toLowerCase())}">${photo(f)}<ul>${u.map((x) => `<li>${esc(x.st.t)} ${opLink(x.op.id)}</li>`).join("")}</ul></li>`).join("")}</ul>`);
-}
-
 function pagesIssues(): void {
   for (const is of data.issues.values())
     write(`issues/${is.id}.html`, layout(is.title, "book", `<p class="crumb"><a href="/book/">Full reference</a> · <a href="/book/errata.html">Errata</a></p><article class="op"><h1>${esc(is.title)}</h1>${is.summary.map((s) => `<p class="summary">${esc(s.t)} ${supplementCite(data, s.cite)}</p>`).join("")}${is.ops?.length ? `<p class="needs"><span class="lbl">Procedures:</span> ${is.ops.map((o) => opLink(o)).join(" ")}</p>` : ""}${sectionsHtml(is.sections, "forum")}</article>`));
@@ -596,7 +584,6 @@ for (const mi of EVERY) write(GENERAL.url(mi).slice(1), pageMaintenance(undefine
 write("repairs.html", pageRepairs());
 write("tools.html", pageTools());
 write("specs.html", pageSpecs());
-write("figures.html", pageFigures());
 pagesIssues();
 pagesCommunity();
 write("search.html", layout("Search", "search", `<h1>Search</h1><site-search><input type="search" name="q" placeholder="For example front fork, drain plug, 23 N·m" aria-label="Search" autofocus><ol class="results"></ol></site-search><noscript><p>Search needs JavaScript. Without it, use the chapter list in the <a href="/book/">Full reference</a>, the <a href="/specs.html">Specifications</a> or the <a href="/tools.html">Tool list</a>.</p></noscript>`));

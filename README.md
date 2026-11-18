@@ -51,12 +51,12 @@ The site has four sections, each with a search bar:
 
 1. Routine maintenance: the service schedule, and a checklist for each mileage.
 2. Common repairs: repairs off the schedule (flats, cables, brakes, bulbs, crash damage, first-generation weak points), from `data/common-repairs.yaml`.
-3. Full reference: every chapter and procedure of the manual, the specifications, photos, and the errata (owner reports from klr650.net, source disagreements, and values that no source gives).
+3. Full reference: every chapter and procedure of the manual, the specifications and the errata (owner reports from klr650.net, source disagreements, and values that no source gives).
 4. Tool list: each tool that a procedure names, with the procedures that use it.
 
 Each procedure shows its specifications, its parts (always replace, replace if worn or damaged, consumables), its tools, what you must do first, and which procedures need it. The tool list comes from `data/tools.yaml`: the build finds each tool in the cited step text, and adds a torque wrench where a step has a torque value.
 
-If you hover a link to a section, a procedure, a torque value or a forum post, a window opens with the full content. Links in that window open more windows. Pin a window to keep it, and drag it by its title bar. Drawn sequences, for example the cylinder head tightening order, are SVG diagrams with a numbered legend (`data/diagrams/`). The site shows photos cropped from Clymer, but no scans of book pages.
+If you hover a link to a section, a procedure, a torque value or a forum post, a window opens with the full content. Links in that window open more windows. Pin a window to keep it, and drag it by its title bar. Drawn sequences, for example the cylinder head tightening order, are SVG diagrams with a numbered legend (`data/diagrams/`). Each step shows its photos, cropped from Clymer, but no scans of book pages.
 
 ## Data and rules
 
