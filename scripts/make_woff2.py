@@ -14,8 +14,11 @@ from fontTools.ttLib import TTFont
 ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "site" / "fonts-src"
 OUT = ROOT / "site" / "static" / "fonts"
+# Only the faces that the site uses. The logo slants the bold face with CSS,
+# so the italic sources stay in fonts-src but are not converted.
+FACES = ["regular", "bold"]
 
-for otf in sorted(SRC.glob("*.otf")):
+for otf in [SRC / f"texgyreheros-{face}.otf" for face in FACES]:
     font = TTFont(otf)
     font.flavor = "woff2"
     out = OUT / (otf.stem + ".woff2")
