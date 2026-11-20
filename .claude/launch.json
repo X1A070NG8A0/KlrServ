@@ -4,7 +4,7 @@
     {
       "name": "klr-wiki",
       "runtimeExecutable": "C:\\Program Files\\nodejs\\node.exe",
-      "runtimeArgs": ["site/serve.ts"],
+      "runtimeArgs": ["build.ts", "--serve"],
       "port": 4650
     }
   ]

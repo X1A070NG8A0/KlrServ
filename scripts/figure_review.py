@@ -1,6 +1,6 @@
 """Contact sheets for labelling Clymer figures by eye.
 
-Input on stdin: the output of `node site/build.ts --check`. The script reads
+Input on stdin: the output of `node build.ts --check`. The script reads
 each warning "Clymer Ch.C Fig. N (cited pP) has no extracted photo".
 
 Modes:
@@ -17,8 +17,8 @@ doc/figures/clymer/labels-corners.yaml under "chapter-C". Only add a label if
 a step on the same page, or the next or previous page, cites that figure.
 
 Usage:
-  node site/build.ts --check | .venv/Scripts/python.exe -I scripts/figure_review.py corners --out DIR [--left 70] [--up 20]
-  node site/build.ts --check | .venv/Scripts/python.exe -I scripts/figure_review.py pages --out DIR
+  node build.ts --check | .venv/Scripts/python.exe -I scripts/figure_review.py corners --out DIR [--left 70] [--up 20]
+  node build.ts --check | .venv/Scripts/python.exe -I scripts/figure_review.py pages --out DIR
 """
 import argparse
 import json

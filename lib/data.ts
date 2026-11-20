@@ -4,7 +4,7 @@ import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
 import YAML from "yaml";
 
-export const ROOT = join(import.meta.dirname, "..", "..");
+export const ROOT = join(import.meta.dirname, "..");
 export const BIKE_YEAR = 2006;
 
 export type Cite = { s?: string; p?: number; ref?: string; id?: string; post?: number };

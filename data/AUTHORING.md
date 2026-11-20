@@ -186,7 +186,7 @@ a stop loses at most one section:
 
 ## 8. Check your work
 
-Run `"C:\Program Files\nodejs\node.exe" site/build.ts --check` from the repo
+Run `"C:\Program Files\nodejs\node.exe" build.ts --check` from the repo
 root. It validates without writing `dist/`. Fix every error and every number
 miss that names your ids or files. A figure that has no label is a warning
 only.

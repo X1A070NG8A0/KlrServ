@@ -5,7 +5,7 @@
 set -e
 cd "$(dirname "$0")/.."
 done_ch="$1"; next_ch="$2"
-"/c/Program Files/nodejs/node.exe" site/build.ts --check | grep -E "^(ERRORS|NUMBER MISSES|WARNINGS)"
+"/c/Program Files/nodejs/node.exe" build.ts --check | grep -E "^(ERRORS|NUMBER MISSES|WARNINGS)"
 sed -i -E "s/^(  ${done_ch}): .*/\1: done/" data/progress.yaml
 [ -n "$next_ch" ] && sed -i -E "s/^(  ${next_ch}): .*/\1: in-progress/" data/progress.yaml
 git add -A data doc/figures scripts site README.md 2>/dev/null

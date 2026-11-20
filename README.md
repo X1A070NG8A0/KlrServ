@@ -12,40 +12,52 @@ the site, and keep the GitHub repository private.
 
 ## Run the site
 
+The site is built with [GGASS](../ggass), a static site generator that a
+site uses as a library. You need Node 24 or later, and the GGASS repository
+beside this one (`../ggass`), because `package.json` links it as a folder.
+
 ```sh
 npm install
 npm run build      # validate all citations, then write dist/
-npm run serve      # http://127.0.0.1:4650
+npm run serve      # build, then http://127.0.0.1:4650
+npm run lint       # list the data checks and the link errors, write nothing
+npm run check      # type-check the build
 ```
 
-`node site/build.ts --check` validates and writes nothing. `npm run check`
-type-checks the build (TypeScript, run by Node directly) and the browser code.
+The build has two parts:
 
-The browser code in `site/client/` is plain JavaScript with JSDoc types, so
-the build copies it as written. The site uses no libraries. Each module
-defines one custom element, and each element wraps HTML that works without
-JavaScript:
+1. `lib/pages.ts` reads `data/` and `doc/`, validates the citations,
+   and writes each page as an HTML file with a YAML header into `content/`.
+   It also copies the cited figure crops there. `content/` is generated, so
+   Git ignores it. Do not edit it.
+2. GGASS (`build.ts`) builds `content/` into `dist/`. It adds the layout,
+   the table of contents, the popup fragments under `/frag/`, the search
+   index, and the link check. It also processes `style.css`, cuts the TeX
+   Gyre Heros fonts in `fonts/` to the characters that the pages use, and
+   writes AVIF and WebP copies of the figure crops.
 
-| Element | With JavaScript | Without JavaScript |
-| --- | --- | --- |
-| `<pop-link>` | Pointing to the link opens a popup window (`<pop-window>`) | A link |
-| `<check-list>` | Keeps the ticks and moves ticked items down | Checkboxes |
-| `<list-filter>` | Filters the list on the page | Hidden |
-| `<site-search>` | Searches `search-index.json` | Hidden, with a note on the search page |
-| `<mileage-picker>` | Swaps a service checklist in place from its binder tab | Links to `/maintenance/<miles>.html` and `/maintenance/every-<miles>.html` |
-| `<bolt-sequence>` | Steps through a tightening order in the drawing | Drawing and numbered list |
-| `<photo-zoom>` | Opens the photo large in a dialog | A link to the image file |
+| Path | What it holds |
+| --- | --- |
+| `build.ts` | The GGASS site configuration and the build command |
+| `lib/data.ts` | Loads `data/` and `doc/` and checks the references |
+| `lib/html.ts` | HTML helpers: citations, spec values |
+| `lib/pages.ts` | The page generator and the data checks |
+| `style.css` | The rules that this site adds to the GGASS stylesheet |
+| `fonts/` | TeX Gyre Heros (GUST Font License) |
 
-Static content (procedures, steps, parts, specification tables) is native
-HTML.
+The browser code comes from GGASS. Each element wraps HTML that works without
+JavaScript. The pages use `<pop-link>` (popup windows for procedures,
+sections, spec tables and forum posts), `<check-list>`, `<list-filter>`,
+`<site-search>`, `<section-tabs>` (the service checklist tabs),
+`<step-sequence>` (tightening orders) and `<photo-zoom>`. The GGASS README
+describes each one.
 
-On 2026-11-17 a scripted test of each element passed in Chromium 156,
-Firefox 160 and WebKit 27.2 (the Playwright build of the Safari engine, on
-Windows). Firefox 143, which has no anchor positioning and no invoker
-commands, tested the JavaScript fallbacks. Real Safari on a Mac or an
-iPhone is not tested.
+Each spec table has its own page under `/specs/`, and each cited forum post
+has its own page under `/threads/<thread>/`, so that a popup window shows
+only that table or post. The full threads are under `/threads/`.
 
-Accessibility, checked on 2026-11-18 with scripted checks in Chromium (light and dark, and 320 px wide): text contrast is at least 4.5:1, nothing scrolls sideways at 320 px, controls have names and states, procedure headings do not skip a level, and search and filter results are announced. There is a skip link. Photo alt text names the figure but does not describe it. A screen reader test and an axe-core run are not done. `site/REFACTOR.md` gives the reasons for these choices.
+The element tests of 2026-11-17 and the accessibility checks of 2026-11-18
+were done on the site code before GGASS. They are not repeated on this build.
 
 ## What the site does
 
@@ -93,8 +105,6 @@ The KLR600 OCR also needs Tesseract.
 | `scripts/ocr_klr600.py` | OCR of the scanned KLR600 manual |
 | `scripts/build_book.py` | Book sections from the Clymer text, `doc/book/clymer.json` |
 | `scripts/extract_figures.py` | Photo crops in `doc/figures/clymer/` |
-| `scripts/make_woff2.py` | WOFF2 fonts in `site/static/fonts/` from the OpenType sources in `site/fonts-src/`, cut to the characters in `site/fonts-src/charset.txt`. The build lists any character on a page that is not in that file. |
-| `scripts/make_webp.py` | A WebP copy of each figure crop, about half the size. The build uses the WebP copy when it exists. |
 | `scripts/extract_drawings.py` | Crops of framed line drawings that the first pass misses, `index-drawings.yaml` |
 | `scripts/figure_contact_sheet.py` | Contact sheet to read figure numbers into `labels-chNN.yaml` |
 | `scripts/save_forum_threads.py` | Saved threads in `doc/community/` |

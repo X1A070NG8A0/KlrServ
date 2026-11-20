@@ -1,4 +1,4 @@
-// Small HTML helpers shared by the page builders.
+// Small HTML helpers shared by the page generator.
 import type { Cite, Data, SpecRow, SpecTable } from "./data.ts";
 import { appliesToBike, printedLabel } from "./data.ts";
 
@@ -7,41 +7,9 @@ export const esc = (s: unknown): string =>
 
 export const pad = (p: number): string => String(p).padStart(3, "0");
 
-export type Nav = "home" | "maint" | "repairs" | "book" | "tools" | "search" | "";
-
-export function layout(title: string, nav: Nav, body: string): string {
-  const link = (id: Nav, href: string, label: string) =>
-    `<a href="${href}"${nav === id ? ' aria-current="page"' : ""}>${label}</a>`;
-  return `<!doctype html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>${esc(title)} · KLR Service Explorer</title>
-<link rel="stylesheet" href="/assets/style.css">
-<script src="/assets/main.js" type="module"></script>
-</head>
-<body>
-<a class="skip" href="#main">Skip to content</a>
-<header class="site">
-  <a class="brand" href="/">KLR Service Explorer</a>
-  <nav>
-    ${link("maint", "/maintenance.html", "Routine maintenance")}
-    ${link("repairs", "/repairs.html", "Common repairs")}
-    ${link("book", "/book/", "Full reference")}
-    ${link("tools", "/tools.html", "Tool list")}
-  </nav>
-</header>
-<main id="main">
-${body}
-</main>
-<footer class="site">
-  For the first-generation Kawasaki KLR650 (KL650A). Sources: Clymer KLR650 1987-2006 manual (M474-2), Kawasaki KLR600 and KLR650 service manuals, klr650.net. Each step names its source page.
-</footer>
-</body>
-</html>
-`;
-}
+// Each forum post that a page cites gets its own page, for its popup.
+export const citedPosts = new Set<string>();
+export const postHref = (thread: string, post: number): string => `/threads/${thread}/${post}.html`;
 
 // Plain-text provenance label, for example "Clymer p76" or "klr650.net, post 14".
 export function srcLabel(data: Data, c: Cite, defaultSrc?: string): string {
@@ -59,7 +27,8 @@ export function supplementCite(data: Data, c: Cite, defaultSrc?: string): string
   if (s === "clymer") return `<span class="src">${esc(srcLabel(data, c, s))}</span>`;
   if (s === "forum") {
     const t = data.threads.get(c.id!);
-    return `<pop-link class="cite"><a href="/community/${c.id}.html#post-${c.post}" data-pop="/frag/post/${c.id}/${c.post}.html" title="${esc(t?.title)}">${esc(srcLabel(data, c))}</a></pop-link>`;
+    citedPosts.add(`${c.id}/${c.post}`);
+    return `<a class="cite" href="${postHref(c.id!, c.post!)}" data-pop title="${esc(t?.title)}">${esc(srcLabel(data, c))}</a>`;
   }
   return `<span class="src src-ext" title="${esc(data.sources[s]?.title)}">${esc(srcLabel(data, c, s))}</span>`;
 }

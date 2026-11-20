@@ -11,5 +11,5 @@
     "verbatimModuleSyntax": true,
     "skipLibCheck": true
   },
-  "include": ["site/*.ts", "site/lib/*.ts"]
+  "include": ["build.ts", "lib/*.ts"]
 }

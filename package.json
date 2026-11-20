@@ -1,19 +1,23 @@
 {
   "name": "klrmanual",
   "private": true,
-  "description": "Personal, locally served service wiki for a 2006 (gen 1) Kawasaki KLR650, built from cited manual pages.",
+  "description": "Personal, locally served service wiki for a 2006 (gen 1) Kawasaki KLR650, built from cited manual pages with GGASS.",
   "type": "module",
   "scripts": {
-    "build": "node site/build.ts",
-    "check": "tsc -p tsconfig.json && tsc -p site/client/tsconfig.json",
-    "serve": "node site/serve.ts",
-    "start": "npm run build && npm run serve"
+    "build": "node build.ts",
+    "check": "tsc -p tsconfig.json",
+    "lint": "node build.ts --check",
+    "serve": "node build.ts --serve"
   },
   "dependencies": {
+    "ggass": "file:../ggass",
     "yaml": "2.6.1"
   },
   "devDependencies": {
-    "@types/node": "22.10.2",
-    "typescript": "5.7.2"
+    "@types/node": "24.19.2",
+    "esbuild": "0.28.2",
+    "sharp": "0.35.5",
+    "subset-font": "2.9.0",
+    "typescript": "5.9.3"
   }
 }

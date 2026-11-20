@@ -4,5 +4,8 @@ node_modules/
 .venv/
 __pycache__/
 
+# lib/pages.ts writes the pages from data/ and doc/ on each build
+content/
+
 # rendered page images are regenerated from the PDFs by scripts/render_pages.py
 doc/pages/

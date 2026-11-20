@@ -1,0 +1,116 @@
+/* KLR Service Explorer: the rules that this site adds to the GGASS
+   stylesheet. GGASS gives the layout, the type scale, the colors, the
+   steps and callouts, checklists, tabs, step sequences, photos and popup
+   windows. Each rule goes in the GGASS layer of its kind. */
+
+@layer base {
+  :root {
+    /* TeX Gyre Heros: a free (GUST Font License) Helvetica-style typeface.
+       GGASS cuts it to the characters that the pages use. */
+    --sans: "TeX Gyre Heros", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --this-year: light-dark(#e7f2e4, #1c2a1a);
+  }
+  h2.sub { font-size: 1.1rem; margin-top: 1.4rem; border-bottom: 0; padding-bottom: 0; }
+}
+
+@layer layout {
+  ul.frequent { columns: 2 16rem; }
+  .provenance, .when { color: var(--muted); font-size: .85rem; }
+  .jump { font-size: .92rem; }
+  ol.chapters > li { margin: .6rem 0; }
+  ul.secs, ol.secs { font-size: .92rem; }
+  ul.repairs > li, ul.errata > li { margin: .35rem 0; }
+  ul.errata > li p { margin: .2rem 0; }
+  .repair-cat h2 { font-size: 1.15rem; }
+}
+
+@layer content {
+  /* Citations and dependency links. A link with data-pop opens a popup window. */
+  a.cite {
+    white-space: nowrap; font: .72rem/1 var(--mono);
+    color: var(--muted); text-decoration: none; border-bottom: 1px dotted var(--muted);
+    &::before { content: "["; }
+    &::after { content: "]"; }
+    &:hover { color: var(--link); }
+  }
+  .src, .ch, .years { font: .72rem var(--mono); color: var(--muted); }
+  a.dep { text-decoration-style: dotted; }
+  .deps { font-size: .88rem; }
+  .deps pop-link:has(> a.dep)::before { content: "→ "; color: var(--muted); }
+  .needs { font-size: .92rem; pop-link:has(> a.dep) { margin-right: .6rem; } }
+  .lbl { color: var(--muted); }
+
+  /* Specification tables */
+  table.schedule {
+    td.x { text-align: center; font-weight: 700; font-size: 1.25em; line-height: 1; }
+    thead th { font-size: .8rem; vertical-align: bottom; }
+  }
+  tr.this-year { background: var(--this-year); }
+  /* Other model years: the muted color (about 5:1), not opacity, so the text stays readable. */
+  tr.other-year, tr.other-year *, .spec.other-year, .spec.other-year * { color: var(--muted); }
+  .flag { font: .7rem var(--mono); color: var(--second); border: 1px solid var(--second); padding: 0 .25rem; }
+  .std { white-space: nowrap; }
+  .limit { white-space: nowrap; color: var(--accent); }
+  .spec b { font-weight: 600; }
+
+  /* Procedures */
+  .op .when { padding-left: 1.2rem; font-size: .92rem; }
+  .summary { font-size: 1.02rem; }
+  .see { font-size: .9rem; }
+  .gap { border: 1px dashed var(--second); padding: .3rem .6rem; font-size: .88rem; color: var(--muted); }
+  .conflict { margin: .4rem 0; }
+  .conflict-note { font-size: .9rem; margin: .2rem 0; }
+  .parallel {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: .6rem;
+    blockquote { margin: 0; padding: .4rem .6rem; border: 1px solid var(--rule); border-top: 3px solid var(--second); font-size: .88rem; }
+  }
+  .conflict.agrees .parallel blockquote { border-top-color: var(--link); }
+
+  /* Forum posts */
+  .post { border-bottom: 1px solid var(--rule); }
+  .post h3 { font-size: .9rem; font-family: var(--mono); }
+  .post-text { font-size: .92rem; }
+}
+
+@layer components {
+  /* Boxes for specifications, parts and tools */
+  .box {
+    border: 1px solid var(--rule); padding: .2rem .9rem .6rem; margin: 1rem 0;
+    dl { display: grid; grid-template-columns: auto 1fr; gap: .2rem 1rem; margin: .3rem 0; font-size: .92rem; }
+    dt { color: var(--muted); }
+  }
+  .parts :is(h3, h4) { margin: .6rem 0 .2rem; font-size: .95rem; }
+  .parts-always :is(h3, h4) { color: var(--accent); }
+  .parts-inspect :is(h3, h4) { color: var(--second); }
+  .pnote { color: var(--muted); font-size: .85rem; }
+  .checklist {
+    li.part-always { border-left-color: var(--accent); background: var(--accent-bg); }
+    li.part-inspect { border-left-color: var(--second); background: var(--second-bg); }
+  }
+
+  /* Tools */
+  ul.tools { margin: .3rem 0; padding-left: 1.1rem; font-size: .92rem; > li { margin: .25rem 0; } }
+  ul.toollist details { font-size: .88rem; ul { columns: 2 14rem; } }
+  .variants { font-size: .9em; }
+  .chips { display: inline-flex; flex-wrap: wrap; gap: .25rem; vertical-align: middle; }
+  .chip { font-size: .82rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0 .4rem; background: var(--bg); }
+  table.vals {
+    width: auto; max-width: 100%; margin: .3rem 0 .5rem; font-size: .84rem;
+    th, td { padding: .12rem .6rem .12rem 0; border-bottom: 1px solid var(--rule); }
+    thead th { color: var(--muted); font-weight: 600; }
+    th[scope="row"] { font-weight: 400; }
+  }
+  details.vals { margin: .2rem 0 .4rem; font-size: .88rem; > summary { cursor: pointer; color: var(--link); } }
+  ul.subs {
+    list-style: none; padding-left: .6rem; margin: .15rem 0; font-size: .86rem; border-left: 2px solid var(--link);
+    li.warn { color: var(--fg); .lbl { color: var(--accent); } }
+  }
+
+  /* Service checklists: tabs over a page of task boxes */
+  .binder { margin: 1rem 0 1.5rem; }
+  .task-box {
+    border: 1px solid var(--rule); border-radius: 4px; padding: .1rem .7rem .3rem; margin: .6rem 0;
+    h4 { margin: .4rem 0 .2rem; font-size: .92rem; color: var(--muted); }
+    &.own { border-color: var(--second); h4 { color: var(--fg); } }
+  }
+}
