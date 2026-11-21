@@ -3,7 +3,6 @@ system: "General information"
 source: clymer
 chapter: 1
 section: "01/repair-methods"
-summary: {t: "This procedure removes the remaining part of a screw or bolt when the head breaks off.", cite: {p: 33}}
 sections:
   - title: "Part of the fastener projects"
     steps:

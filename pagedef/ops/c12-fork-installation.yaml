@@ -3,7 +3,7 @@ system: "Front suspension and steering"
 source: clymer
 chapter: 12
 section: "12/fork-removal-and-installation"
-summary: {t: "This procedure installs the fork legs in the fork bridges. The left fork leg has the brake caliper mount.", cite: {p: 269}}
+summary: {t: "The left fork leg has the brake caliper mount.", cite: {p: 269}}
 spec_refs:
   - "front-suspension-torque:Bridge pinch bolts"
   - "front-suspension-torque:Fork caps"

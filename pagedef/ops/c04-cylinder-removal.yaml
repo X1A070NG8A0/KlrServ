@@ -3,7 +3,7 @@ system: "Engine top end"
 source: clymer
 chapter: 4
 section: "04/cylinder"
-summary: {t: "This procedure removes the cylinder and the piston with the engine in the frame. Read all the procedures fully before you start.", cite: {p: 113}}
+summary: {t: "You can remove the cylinder and the piston with the engine in the frame. Read all the procedures fully before you start.", cite: {p: 113}}
 parts:
   - {name: "Cylinder base gasket", replace: always, cite: {p: 114}, note: "Install a new gasket."}
   - {name: "Cylinder dowels", replace: inspect, cite: {p: 114}, note: "There are two dowels under the cylinder."}

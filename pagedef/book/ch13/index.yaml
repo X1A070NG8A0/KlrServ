@@ -7,7 +7,6 @@ pages:
     summary:
       - {t: "The link suspension has a swing arm, one shock absorber and a linkage of three parts. The linkage connects the lower end of the shock absorber to the swing arm.", cite: {p: 279}}
       - {t: "When the swing arm moves more, the linkage pivots and increases its leverage on the shock absorber. The damping action becomes progressively firmer.", cite: {p: 279}}
-      - {t: "This chapter gives the service procedures for the shock absorber, the swing arm and the linkage. The tables at the end give the specifications, the shock absorber settings and the torque values.", cite: {p: 279}}
     ops: []
   - id: shock-absorber
     title: "Shock absorber"
@@ -45,5 +44,5 @@ pages:
     kind: Section
     pdf_pages: [294, 295]
     summary:
-      - {t: "You can adjust the spring preload and the rebound damping with the shock absorber on the motorcycle. Table 2 gives the recommended settings.", cite: {p: 294}}
+      - {t: "You can adjust the spring preload and the rebound damping with the shock absorber on the motorcycle.", cite: {p: 294}}
     ops: [c13-shock-preload-adjustment, c13-rebound-damping-adjustment]

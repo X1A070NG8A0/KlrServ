@@ -3,7 +3,7 @@ system: "Engine lower end"
 source: clymer
 chapter: 5
 section: "05/crankshaft"
-summary: {t: "This procedure shows how to examine the crankshaft and the connecting rod, and how to measure the connecting rod clearances and the crankshaft runout. The crankpin is pressed into the flywheels and aligned with calibrated equipment. If a part of the crankshaft assembly is worn or damaged, have a dealer evaluate all the parts.", cite: {p: 146}}
+summary: {t: "The crankpin is pressed into the flywheels and aligned with calibrated equipment. If a part of the crankshaft assembly is worn or damaged, have a dealer evaluate all the parts.", cite: {p: 146}}
 spec_refs: ["lower-end:Connecting rod/Side clearance", "lower-end:Connecting rod/Radial clearance", "lower-end:Crankshaft runout (total indicator reading)/Left half", "lower-end:Crankshaft runout (total indicator reading)/Right half"]
 parts:
   - {name: "Crankshaft assembly", replace: inspect, cite: {p: 146}, note: "If a part is worn or damaged, have a dealer evaluate all the parts."}

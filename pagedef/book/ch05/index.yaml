@@ -13,15 +13,15 @@ pages:
     kind: Section
     pdf_pages: [126, 129]
     summary:
-      - {t: "This section tells how to remove the engine from the frame and how to install it. You must remove the engine to service some of the lower end parts.", cite: {p: 126}}
-      - {t: "Remove the parts of the top end and the crankcase covers as you need to. Look at the chapters for those parts.", cite: {p: 126}}
+      - {t: "You must remove the engine to service some of the lower end parts.", cite: {p: 126}}
+      - {t: "Remove the parts of the top end and the crankcase covers as you need to.", cite: {p: 126}}
     ops: [c05-engine-removal, c05-engine-installation]
   - id: cam-chain-and-lower-guide
     title: "Cam chain and lower guide"
     kind: Section
     pdf_pages: [128, 129]
     summary:
-      - {t: "If you will remove the engine balancer, you can remove the cam chain and the lower guide during that procedure. Use this procedure when you must remove only the cam chain and the lower guide.", cite: {p: 128}}
+      - {t: "If you will remove the engine balancer, you can remove the cam chain and the lower guide during that procedure.", cite: {p: 128}}
     ops: [c05-cam-chain-and-lower-guide]
   - id: left-crankcase-cover
     title: "Left crankcase cover"
@@ -39,7 +39,7 @@ pages:
       - {t: "The front balancer shaft has a weight at each end. The rear balancer shaft has one weight, between the crankcase halves. A sprocket on the left end of the crankshaft drives both shafts with a chain.", cite: {p: 129}}
       - {t: "The left and rear balancer sprockets changed in 1996, from engine serial number KL650AE032206.", cite: {p: 129}}
       - {t: "On the later design, the left sprocket has a rubber mount in its weight. The earlier design has springs and rollers.", cite: {p: 131}}
-      - {t: "The balancer chain tensioner has a spring and a spring lever. Chapter 3 gives the adjustment of this tensioner.", cite: {p: 131}, ref: "03/maintenance-and-inspection"}
+      - {t: "The balancer chain tensioner has a spring and a spring lever. To adjust it, do the balancer chain tensioner procedure.", cite: {p: 131}, op: balancer-chain-tensioner}
     ops: [c05-balancer-removal, c05-balancer-inspection, c05-balancer-installation]
   - id: crankcase
     title: "Crankcase"

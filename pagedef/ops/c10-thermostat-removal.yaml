@@ -3,7 +3,7 @@ system: "Cooling system"
 source: clymer
 chapter: 10
 section: "10/thermostat"
-summary: {t: "This procedure removes the thermostat, examines it, tests it in hot water and installs it again. The thermostat is in a housing on the right side of the cylinder head.", cite: {p: 237}}
+summary: {t: "The thermostat is in a housing on the right side of the cylinder head.", cite: {p: 237}}
 spec_refs: ["cooling:Thermostat valve opening temperature", "cooling:Thermostat minimum full open lift"]
 parts:
   - {name: "Thermostat", replace: inspect, cite: {p: 238}, note: "Replace the thermostat if it does not pass the test."}

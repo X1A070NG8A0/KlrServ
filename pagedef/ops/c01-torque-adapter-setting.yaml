@@ -3,7 +3,7 @@ system: "General information"
 source: clymer
 chapter: 1
 section: "01/basic-tools"
-summary: {t: "A torque adapter can change the effective lever length of a torque wrench. If it does, the reading on the wrench is not the torque on the fastener. This procedure gives the setting to use.", cite: {p: 25}}
+summary: {t: "A torque adapter can change the effective lever length of a torque wrench. If it does, the reading on the wrench is not the torque on the fastener.", cite: {p: 25}}
 sections:
   - steps:
       - {t: "If the torque adapter is at a right angle to the drive head, do not change the torque setting. The effective length does not change.", cite: {p: 25}}

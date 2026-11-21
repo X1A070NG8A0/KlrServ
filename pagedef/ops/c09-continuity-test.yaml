@@ -3,7 +3,7 @@ system: "electrical system"
 source: clymer
 chapter: 9
 section: "09/continuity-testing-guidelines"
-summary: {t: "This procedure checks a circuit, switch, light bulb or fuse for continuity (a complete circuit) with an ohmmeter. You can do the test at the connector plug or at the part.", cite: {p: 202}}
+summary: {t: "An ohmmeter shows if a circuit, switch, light bulb or fuse has continuity (a complete circuit). You can do the test at the connector plug or at the part.", cite: {p: 202}}
 sections:
   - steps:
       - {kind: caution, t: "Do not turn on the ignition switch during a general continuity test. Parts and test equipment can be damaged.", cite: {p: 202}}

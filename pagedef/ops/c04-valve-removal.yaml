@@ -3,7 +3,7 @@ system: "Engine top end"
 source: clymer
 chapter: 4
 section: "04/valves"
-summary: {t: "This procedure removes the valves from the cylinder head with a valve spring compressor. Do the procedure for each valve.", cite: {p: 108}}
+summary: {t: "Do the procedure for each valve.", cite: {p: 108}}
 parts:
   - {name: "Valve spring compressor, part No. 57001-241 or equivalent", replace: consumable, cite: {p: 108}, note: "Special tool."}
   - {name: "Valve spring compressor adapter, part No. 57001-243 or equivalent", replace: consumable, cite: {p: 108}, note: "Special tool."}

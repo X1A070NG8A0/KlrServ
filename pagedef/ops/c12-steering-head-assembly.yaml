@@ -3,7 +3,6 @@ system: "Front suspension and steering"
 source: clymer
 chapter: 12
 section: "12/steering-stem-and-head"
-summary: {t: "This procedure installs the steering stem in the steering head and sets the bearing adjustment.", cite: {p: 266}}
 spec_refs:
   - "front-suspension-torque:Steering stem nut"
   - "front-suspension-torque:Bridge pinch bolts"

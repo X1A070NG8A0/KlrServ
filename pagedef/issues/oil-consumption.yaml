@@ -1,7 +1,7 @@
 title: "Oil consumption at sustained high rpm"
 ops: [engine-oil-and-filter]
 summary:
-  - t: "Clymer gives the correct oil level. The oil must be between the upper and lower marks at the sight glass, and preferably near the upper mark. Do not put too much oil in the crankcase."
+  - t: "The oil must be between the upper and lower marks at the sight glass, and preferably near the upper mark. Do not put too much oil in the crankcase."
     cite: {s: clymer, p: 59}
   - t: "One owner reports that a first generation engine uses oil at 5000 rpm or more, for example at freeway speed. He recommends that you make sure of the oil level at each fuel stop."
     cite: {s: forum, id: gen1-maintenance-opinions, post: 5}

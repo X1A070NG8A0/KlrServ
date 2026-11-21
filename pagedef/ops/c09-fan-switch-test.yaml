@@ -3,7 +3,7 @@ system: "electrical system"
 source: clymer
 chapter: 9
 section: "09/fan-system"
-summary: {t: "This test needs heated water to simulate operating conditions. Read the procedure first so that you have the correct equipment to do the test safely.", cite: {p: 228}}
+summary: {t: "You need heated water to simulate operating conditions. Read all the steps first, so that you have the correct equipment to do the test safely.", cite: {p: 228}}
 spec_refs: ["electrical-test:Radiator fan switch resistance/Ambient temperature", "electrical-test:Radiator fan switch resistance/On position (above 94° C [201° F])", "electrical-test:Radiator fan switch resistance/Off position (below 91° C [196° F])", "electrical-torque:Radiator fan switch"]
 sections:
   - steps:

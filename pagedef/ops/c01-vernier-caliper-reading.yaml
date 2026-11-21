@@ -3,7 +3,7 @@ system: "General information"
 source: clymer
 chapter: 1
 section: "01/precision-measuring-tools"
-summary: {t: "A caliper measures outside and depth dimensions, usually to within 0.05 mm (0.001 in.). This procedure shows how to read a vernier caliper in millimeters.", cite: {p: 28}}
+summary: {t: "A caliper measures outside and depth dimensions, usually to within 0.05 mm (0.001 in.).", cite: {p: 28}}
 sections:
   - title: "Use"
     steps:
@@ -12,6 +12,6 @@ sections:
       - {kind: caution, t: "Do not force the caliper closed around an object.", cite: {p: 28}}
   - title: "Reading"
     steps:
-      - {t: "Look at where the 0 line on the movable scale is in relation to the first line to the left on the fixed scale. This gives the first number. In the book example it is 10 mm.", cite: {p: 28}}
+      - {t: "Look at where the 0 line on the movable scale is in relation to the first line to the left on the fixed scale. This gives the first number. For example, the first number can be 10 mm.", cite: {p: 28}}
       - {t: "Find the line on the movable scale that aligns exactly with a mark on the fixed scale. Several lines can seem close, but only one aligns exactly.", cite: {p: 28}}
-      - {t: "Add the value of that line to the first number. The movable scale has 0.05 mm increments. In the book example the value is 0.50 mm and the reading is 10.50 mm.", cite: {p: 28}}
+      - {t: "Add the value of that line to the first number. The movable scale has 0.05 mm increments. For example, if that line has the value 0.50 mm and the first number is 10 mm, the reading is 10.50 mm.", cite: {p: 28}}

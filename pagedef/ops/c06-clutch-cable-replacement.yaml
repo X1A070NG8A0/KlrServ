@@ -3,7 +3,7 @@ system: "Clutch, gearshift linkage and lubrication system"
 source: clymer
 chapter: 6
 section: "06/clutch-cable-replacement"
-summary: {t: "This procedure removes the clutch cable and installs a new cable. Adjust the clutch cable after you install it.", cite: {p: 166}}
+summary: {t: "Adjust the clutch cable after you install it.", cite: {p: 166}}
 parts:
   - {name: "Clutch cable", replace: inspect, cite: {p: 166}}
   - {name: "Aerosol cable lubricant", replace: consumable, cite: {p: 166}}

@@ -3,7 +3,7 @@ system: "body"
 source: clymer
 chapter: 15
 section: "15/side-covers"
-summary: {t: "This procedure removes and installs a side cover. A friction barb holds the cover in a grommet.", cite: {p: 327}}
+summary: {t: "A friction barb holds the cover in a grommet.", cite: {p: 327}}
 sections:
   - title: "Removal"
     steps:

@@ -3,7 +3,7 @@ system: "Wheels, tires and drive chain"
 source: clymer
 chapter: 11
 section: "11/front-wheel-and-speedometer-drive-unit"
-summary: {t: "This procedure shows how to examine the front wheel seals and bearings, the axle and the speedometer drive unit. The bearing outer faces are sealed at the factory. If a bearing or a seal is damaged, replace the complete bearing assembly.", cite: {p: 243}}
+summary: {t: "The bearing outer faces are sealed at the factory. If a bearing or a seal is damaged, replace the complete bearing assembly.", cite: {p: 243}}
 parts:
   - {name: "Front wheel bearings", replace: inspect, cite: {p: 244}, note: "Replace the bearings as a pair."}
   - {name: "Speedometer drive unit seal", replace: inspect, cite: {p: 245}, note: "If there are leaks around the seal, clean the housing and install a new seal."}

@@ -51,7 +51,10 @@ The reader:
 
 1. Write for the rider who works on the motorcycle. Each sentence tells the rider about the motorcycle, the work or the tools.
 2. Do not write about this wiki, its files, the transcription (text layer, OCR, page images), what is not written yet, or the build. Such a note is for writers: put it in a YAML comment.
-3. Do not report how the manual is organized, for example "Clymer gives no separate procedure for X". Say what the rider does instead. A missing value that changes the work stays, for example "Kawasaki gives no service limit for the spring".
+3. Do not report how the manual is organized, for example "Clymer gives no separate procedure for X" or "The tables at the end of the chapter give ...". Say what the rider does instead. A missing value that changes the work stays, for example "Kawasaki gives no service limit for the spring".
+4. Do not describe the page, the procedure or the site, for example "This procedure removes the rear wheel", "This section has the procedures for ...", "Point to a task", "Select an interval" or "This browser keeps the ticks". The title and the steps already say it.
+5. A summary gives facts that the title does not give: where a part is, what to do first, what to look out for. If there are no such facts, leave out the summary.
+6. Leave out a book section that only describes the book, for example its organization or its chapter list.
 
 Procedural text (steps):
 
@@ -115,7 +118,8 @@ pages:
 ```
 
 Every TOC section of the chapter must be in this file, also a section without
-procedures (give it a summary). If `doc/book/clymer.json` missed a section,
+procedures (give it a summary). Leave out a section that only describes the
+book (see section 4). If `doc/book/clymer.json` missed a section,
 add it with its id (lowercase title, hyphens) and pages. A summary can link
 to a section or an operation with `ref` or `op`, as a step does.
 
@@ -133,7 +137,7 @@ system: "Engine top end"          # use the chapter title in lowercase
 source: clymer
 chapter: 4                         # Clymer chapter, for figure numbers
 section: "04/cylinder-head-cover"  # book section that holds it
-summary: {t: "STE description of what the procedure does.", cite: {p: 92}}
+summary: {t: "The cover comes off to the left side of the engine.", cite: {p: 92}}  # optional: facts that the title does not give
 spec_refs: ["top-end-torque:Cylinder head cover bolts"]
 parts:
   - {name: "Cylinder head cover gasket", replace: always, cite: {p: 94}, note: "STE note."}

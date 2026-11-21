@@ -24,7 +24,7 @@ sections:
       - {kind: warning, t: "Keep your fingers away from the edge of the cover. The cover can pinch your fingers.", cite: {p: 203}}
       - {t: "Remove the cover gasket.", cite: {p: 203}}
       - {t: "Find the two cover dowels and the washer on each starter gear shaft.", cite: {p: 203}, figs: [5]}
-      - {t: "Remove or test the stator and pickup coil as this chapter describes.", cite: {p: 203}, figs: [6], op: c09-stator-and-pickup-coil}
+      - {t: "Remove or test the stator and the pickup coil.", cite: {p: 203}, figs: [6], op: c09-stator-and-pickup-coil}
   - title: "Installation"
     steps:
       - {t: "Install a new cover gasket.", cite: {p: 203}}

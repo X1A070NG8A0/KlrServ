@@ -3,7 +3,7 @@ system: "body"
 source: clymer
 chapter: 15
 section: "15/seat"
-summary: {t: "This procedure removes and installs the seat. The seat engages the fuel tank at the front.", cite: {p: 328}}
+summary: {t: "The seat engages the fuel tank at the front.", cite: {p: 328}}
 sections:
   - title: "Removal"
     steps:

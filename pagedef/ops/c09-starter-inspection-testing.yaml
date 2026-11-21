@@ -3,7 +3,7 @@ system: "electrical system"
 source: clymer
 chapter: 9
 section: "09/starter"
-summary: {t: "Use an ohmmeter for all electrical tests in this procedure. If a test result is not correct, the part is shorted or there is an open circuit between the test points. Replace or recondition parts that are worn or damaged.", cite: {p: 211}}
+summary: {t: "Use an ohmmeter for all the electrical tests. If a test result is not correct, the part is shorted or there is an open circuit between the test points. Replace or recondition parts that are worn or damaged.", cite: {p: 211}}
 spec_refs: ["electrical-test:Starter/Commutator outside diameter", "electrical-test:Starter/Commutator outside diameter, service limit", "electrical-test:Starter/Brush length", "electrical-test:Starter/Brush length, service limit"]
 sections:
   - title: "Housing and armature"

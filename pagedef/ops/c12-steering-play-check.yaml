@@ -3,7 +3,7 @@ system: "Front suspension and steering"
 source: clymer
 chapter: 12
 section: "12/steering-stem-and-head"
-summary: {t: "This procedure checks the steering stem and the bearings for play and for binding. It then adjusts them. Too much play or roughness makes the steering imprecise and causes bearing damage. Do this check before you disassemble the steering head.", cite: {p: 267}}
+summary: {t: "Too much play or roughness makes the steering imprecise and causes bearing damage. Do this check before you disassemble the steering head.", cite: {p: 267}}
 spec_refs:
   - "front-suspension-torque:Steering stem nut"
   - "front-suspension-torque:Bridge pinch bolts"

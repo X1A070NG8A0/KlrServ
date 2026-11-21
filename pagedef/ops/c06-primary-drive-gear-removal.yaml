@@ -3,7 +3,7 @@ system: "Clutch, gearshift linkage and lubrication system"
 source: clymer
 chapter: 6
 section: "06/primary-drive-gear"
-summary: {t: "This procedure removes the primary drive gear, the oil pump drive gear, the shaft key and the spacer from the crankshaft. The primary drive gear nut is very tight. Hold the crankshaft with a rotor holder tool or with a jam gear.", cite: {p: 164}}
+summary: {t: "The primary drive gear nut is very tight. Hold the crankshaft with a rotor holder tool or with a jam gear.", cite: {p: 164}}
 parts:
   - {name: "Primary drive gear lockwasher", replace: always, cite: {p: 165}, note: "Install a new lockwasher with the cupped side out."}
 sections:

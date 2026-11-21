@@ -3,7 +3,6 @@ system: "Engine lower end"
 source: clymer
 chapter: 5
 section: "05/crankcase"
-summary: {t: "This procedure shows how to clean and examine the crankcase halves, the bearings and the threaded holes, and how to install the parts that you removed from the cases.", cite: {p: 142}}
 spec_refs: ["lower-end-torque:Neutral switch"]
 parts:
   - {name: "Oil pickup tube O-ring", replace: always, cite: {p: 143}}

@@ -3,7 +3,6 @@ system: "Wheels, tires and drive chain"
 source: clymer
 chapter: 11
 section: "11/front-wheel-and-speedometer-drive-unit"
-summary: {t: "This procedure removes the front wheel, the axle, the speedometer drive unit and the axle spacer. It installs them again.", cite: {p: 242}}
 spec_refs: ["wheel-drive-torque:Axle nut/Front"]
 parts:
   - {name: "Cotter pin, front axle nut", replace: always, cite: {p: 243}}

@@ -3,7 +3,7 @@ system: "Transmission and internal shift mechanism"
 source: clymer
 chapter: 7
 section: "07/output-shaft"
-summary: {t: "This procedure removes the parts from the output shaft. The early shaft has a shoulder outside second gear, and you remove all parts from one end. The later shaft is stepped inside second gear, and you remove parts from both ends. This bike has the later shaft.", cite: {p: 174}}
+summary: {t: "The early shaft has a shoulder outside second gear, and you remove all parts from one end. The later shaft is stepped inside second gear, and you remove parts from both ends. This bike has the later shaft.", cite: {p: 174}}
 parts:
   - {name: "Snap rings", replace: always, cite: {p: 169}}
 sections:
@@ -30,7 +30,7 @@ sections:
       - {t: "Examine each part. Put it back in its position until assembly.", cite: {p: 176}, op: c07-shaft-inspection}
   - title: "Early shaft (to KL650AE032209)"
     steps:
-      - {kind: note, t: "This shaft does not fit this bike. The steps are for reference. Remove all parts from the smooth end of the shaft.", cite: {p: 175}}
+      - {kind: note, t: "This shaft does not fit this bike. Remove all parts from the smooth end of the shaft.", cite: {p: 175}}
       - {t: "Remove the bearing.", cite: {p: 175}}
       - {t: "Remove the thrust washer.", cite: {p: 175}}
       - {t: "Remove first gear.", cite: {p: 175}}

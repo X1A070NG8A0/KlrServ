@@ -3,7 +3,7 @@ system: "Clutch, gearshift linkage and lubrication system"
 source: clymer
 chapter: 6
 section: "06/clutch"
-summary: {t: "This procedure shows how to measure and examine the friction plates, the clutch plates, the springs, the clutch housing, the clutch hub and the pressure plate. Replace plates and springs as a set if they do not meet the specifications.", cite: {p: 152}}
+summary: {t: "Replace plates and springs as a set if they do not meet the specifications.", cite: {p: 152}}
 spec_refs: ["clutch:Friction plate thickness", "clutch:Clutch plate (steel) warp", "clutch:Clutch spring"]
 parts:
   - {name: "Friction plates", replace: inspect, cite: {p: 152}, note: "Replace all plates as a set if one is out of limit."}

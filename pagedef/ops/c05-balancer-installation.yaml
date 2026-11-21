@@ -4,7 +4,7 @@ source: clymer
 chapter: 5
 section: "05/engine-balancer"
 issue: doohickey
-summary: {t: "This procedure installs the balancer parts and synchronizes them with the crankshaft. The sprockets and the weights must be aligned on their shafts. The crankshaft and the balancer sprockets must engage the correct silver links of the balancer chain.", cite: {p: 134}}
+summary: {t: "The sprockets and the weights must be aligned on their shafts. The crankshaft and the balancer sprockets must engage the correct silver links of the balancer chain.", cite: {p: 134}}
 spec_refs: ["lower-end-torque:Balancer shaft nut (right side)", "lower-end-torque:Balancer chain guide bolts/6 mm", "lower-end-torque:Balancer chain guide bolts/8 mm", "lower-end-torque:Cam chain guide bolt"]
 parts:
   - {name: "Rear balancer shaft snap ring", replace: always, cite: {p: 136}}

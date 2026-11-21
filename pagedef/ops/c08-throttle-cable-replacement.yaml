@@ -3,7 +3,7 @@ system: "Fuel system"
 source: clymer
 chapter: 8
 section: "08/throttle-cable-replacement"
-summary: {t: "The throttle has two cables. One cable pulls the throttle open and the other pulls it closed. The two cables always move in opposite directions. This procedure replaces both cables.", cite: {p: 199}}
+summary: {t: "The throttle has two cables. One cable pulls the throttle open and the other pulls it closed. The two cables always move in opposite directions.", cite: {p: 199}}
 parts:
   - {name: "Throttle cables", replace: always, cite: {p: 199}}
   - {name: "Aerosol cable lubricant", replace: consumable, cite: {p: 199}}

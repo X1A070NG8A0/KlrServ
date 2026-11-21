@@ -3,7 +3,6 @@ system: "Wheels, tires and drive chain"
 source: clymer
 chapter: 11
 section: "11/rear-wheel"
-summary: {t: "This procedure shows how to examine the rear wheel seals, bearings, damper and axle assembly.", cite: {p: 246}}
 parts:
   - {name: "Rear wheel bearings", replace: inspect, cite: {p: 247}, note: "Replace the bearings as a set."}
   - {name: "Rubber damper", replace: inspect, cite: {p: 247}}

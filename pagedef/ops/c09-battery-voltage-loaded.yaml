@@ -3,7 +3,7 @@ system: "electrical system"
 source: clymer
 chapter: 9
 section: "09/charging-system"
-summary: {t: "This test is for a conventional (original equipment) battery. A load test makes the battery discharge current. It shows if the battery is good enough to operate the motorcycle.", cite: {p: 224}}
+summary: {t: "The load test is for a conventional (original equipment) battery. A load test makes the battery discharge current. It shows if the battery is good enough to operate the motorcycle.", cite: {p: 224}}
 sections:
   - steps:
       - {t: "Connect a voltmeter to the negative and positive battery terminals.", cite: {p: 224}, figs: [58]}

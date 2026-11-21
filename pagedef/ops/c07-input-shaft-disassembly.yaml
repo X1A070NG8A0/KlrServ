@@ -3,7 +3,7 @@ system: "Transmission and internal shift mechanism"
 source: clymer
 chapter: 7
 section: "07/input-shaft"
-summary: {t: "This procedure removes the parts from the input shaft. The procedure is the same for the early and the later input shaft gears. The photos show the later assembly.", cite: {p: 171}}
+summary: {t: "The procedure is the same for the early and the later input shaft gears. The photos show the later assembly.", cite: {p: 171}}
 parts:
   - {name: "Snap rings", replace: always, cite: {p: 169}}
 sections:

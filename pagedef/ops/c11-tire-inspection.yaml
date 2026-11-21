@@ -3,7 +3,7 @@ system: "Wheels, tires and drive chain"
 source: clymer
 chapter: 11
 section: "11/tire-changing"
-summary: {t: "This procedure shows how to examine a tire that you will use again, the rim and the rim band, before you install the tire.", cite: {p: 258}}
+summary: {t: "Examine a tire that you will use again, the rim and the rim band, before you install the tire.", cite: {p: 258}}
 parts:
   - {name: "Rim band", replace: inspect, cite: {p: 258}, note: "If you install a new rim band, put the roughest side of the band against the rim."}
 sections:

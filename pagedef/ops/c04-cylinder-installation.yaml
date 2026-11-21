@@ -3,7 +3,7 @@ system: "Engine top end"
 source: clymer
 chapter: 4
 section: "04/cylinder"
-summary: {t: "This procedure installs the cylinder on the crankcase. Install the base gasket before you install the piston when the piston is out. This is easier because you must also route the cam chain through the gasket. The gasket is then less likely to bend or have damage.", cite: {p: 116}}
+summary: {t: "Install the base gasket before you install the piston when the piston is out. This is easier because you must also route the cam chain through the gasket. The gasket is then less likely to bend or have damage.", cite: {p: 116}}
 spec_refs: ["top-end-torque:Cylinder mounting nuts", "top-end-torque:Cylinder mounting bolt", "top-end-torque:Oil pipe/Retainer bolt"]
 parts:
   - {name: "Cylinder base gasket", replace: always, cite: {p: 116}}

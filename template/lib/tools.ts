@@ -97,7 +97,7 @@ export function tools(m: Model): Tools {
         }
     }
     const torqueDef = defs.find((d) => d.torque);
-    if (torqueDef && op.spec_refs?.some(isTorqueRef)) add(torqueDef.id, torqueDef.name, torqueDef.group, "This procedure has torque specifications.");
+    if (torqueDef && op.spec_refs?.some(isTorqueRef)) add(torqueDef.id, torqueDef.name, torqueDef.group, "For the torque values.");
     return [...found.values()].sort((a, b) => groups.indexOf(a.group) - groups.indexOf(b.group) || a.name.localeCompare(b.name));
   }
 

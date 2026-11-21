@@ -4,7 +4,7 @@ source: clymer
 chapter: 5
 section: "05/engine-balancer"
 issue: doohickey
-summary: {t: "This procedure shows how to examine the balancer shafts, the balancer chain tensioner, the balancer chain and the chain guides. Replace parts that are obviously damaged or worn.", cite: {p: 132}}
+summary: {t: "Replace parts that are obviously damaged or worn.", cite: {p: 132}}
 spec_refs: ["lower-end:Balancer chain length (20 links/21 pins)"]
 parts:
   - {name: "Front balancer shaft snap ring", replace: always, cite: {p: 133}}

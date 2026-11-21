@@ -10,7 +10,7 @@ spec_refs:
 sections:
   - steps:
       - {t: "Examine all fasteners on the motorcycle. Make sure that they are tight and in good condition.", cite: {p: 67}}
-      - {t: "Tighten nuts, bolts and screws to the torque in the tables at the end of each chapter (see the Specs page).", cite: {p: 67}}
+      - {t: "Tighten nuts, bolts and screws to their specified torque.", cite: {p: 67}}
       - {t: "If no torque value is specified, use the general torque values in Chapter One, Table 4.", cite: {p: 67}, ref: "01/fasteners"}
       - {t: "Make sure that all cotter pins are secure and not damaged.", cite: {p: 67}}
       - {t: "Make sure that the tie straps on the cables and wiring are not broken or missing.", cite: {p: 67}}

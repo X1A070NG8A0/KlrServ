@@ -3,7 +3,7 @@ system: "body"
 source: clymer
 chapter: 15
 section: "15/fairing"
-summary: {t: "This procedure removes and installs the fairing. The fairing contains the headlight and the turn signals.", cite: {p: 329}}
+summary: {t: "The fairing contains the headlight and the turn signals.", cite: {p: 329}}
 parts:
   - {name: "Dielectric grease", replace: consumable, cite: {p: 329}, note: "Apply a thin layer to the electrical connectors at installation."}
 sections:

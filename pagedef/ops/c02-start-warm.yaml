@@ -3,7 +3,7 @@ system: "troubleshooting"
 source: clymer
 chapter: 2
 section: "02/starting-the-engine"
-summary: {t: "This procedure starts a warm or hot engine. You do not use the choke.", cite: {p: 46}}
+summary: {t: "Do not use the choke to start a warm or hot engine.", cite: {p: 46}}
 sections:
   - steps:
       - {t: "Shift the transmission into neutral.", cite: {p: 45}}

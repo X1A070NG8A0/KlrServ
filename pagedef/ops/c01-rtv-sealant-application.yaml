@@ -3,7 +3,7 @@ system: "General information"
 source: clymer
 chapter: 1
 section: "01/shop-supplies"
-summary: {t: "RTV (room temperature vulcanizing) sealant cures at room temperature. This procedure prepares the surfaces and applies the sealant.", cite: {p: 21}}
+summary: {t: "RTV (room temperature vulcanizing) sealant cures at room temperature.", cite: {p: 21}}
 parts:
   - {name: "RTV sealant", replace: consumable, cite: {p: 21}, note: "Discard a partial tube that is past its expiration date."}
   - {name: "Aerosol parts cleaner", replace: consumable, cite: {p: 22}}

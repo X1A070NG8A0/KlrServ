@@ -3,7 +3,7 @@ system: "General information"
 source: clymer
 chapter: 1
 section: "01/serial-numbers"
-summary: {t: "This procedure shows where the frame number and the engine number are on the motorcycle. You need these numbers when you order parts.", cite: {p: 17}}
+summary: {t: "You need the frame number and the engine number when you order parts.", cite: {p: 17}}
 sections:
   - steps:
       - {t: "Find the frame number on the decal and stamped on the frame at the steering head.", cite: {p: 17}, figs: [2]}

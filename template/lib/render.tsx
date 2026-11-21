@@ -523,7 +523,7 @@ export function OpBody({ m, op }: { m: Model; op: Operation }): Html {
           <span class="lbl">Needed by:</span> {join(users.map((u) => opLink(m, u)), " ")}
         </p>
       )}
-      <p class="provenance">Paraphrased from {sourcePages(m, op)}.</p>
+      <p class="provenance">Source: {sourcePages(m, op)}.</p>
     </article>
   );
 }

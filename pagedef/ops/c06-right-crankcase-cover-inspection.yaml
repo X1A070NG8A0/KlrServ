@@ -3,7 +3,6 @@ system: "Clutch, gearshift linkage and lubrication system"
 source: clymer
 chapter: 6
 section: "06/right-crankcase-cover"
-summary: {t: "This procedure shows how to examine the crankshaft oil seal, the clutch release lever, the release lever seal and bearing, the relief valve and the oil strainer in the right crankcase cover.", cite: {p: 151}}
 parts:
   - {name: "Crankshaft oil seal", replace: inspect, cite: {p: 151}, note: "Replace the seal if it leaks."}
   - {name: "Clutch release lever seal", replace: inspect, cite: {p: 151}, note: "Replace the seal if oil leaks."}

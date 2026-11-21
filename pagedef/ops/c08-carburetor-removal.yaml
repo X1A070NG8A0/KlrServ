@@ -3,7 +3,7 @@ system: "Fuel system"
 source: clymer
 chapter: 8
 section: "08/carburetor"
-summary: {t: "This procedure removes the Keihin CVK40 carburetor from the ducts and installs it again. The carburetor comes out on the right side of the engine.", cite: {p: 185}}
+summary: {t: "The carburetor comes out on the right side of the engine.", cite: {p: 185}}
 sections:
   - title: "Removal"
     steps:

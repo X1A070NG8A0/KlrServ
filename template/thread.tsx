@@ -18,11 +18,9 @@ export default template({
       </p>
       <h1>{page.title}</h1>
       <p class="meta">
-        Saved from{" "}
         <a href={page.link} rel="noreferrer">
-          klr650.net
-        </a>{" "}
-        on {page.fetched}.
+          The thread on klr650.net
+        </a>
       </p>
       {(page.pages ?? []).map((p) => (
         <article class="post" id={`post-${p.id}`}>

@@ -3,7 +3,7 @@ system: "Cooling system"
 source: clymer
 chapter: 10
 section: "10/water-pump"
-summary: {t: "This procedure replaces the two-piece mechanical seal and the oil seal of the water pump. Do this procedure when coolant or oil leaks from the inspection hole at the bottom of the case.", cite: {p: 240}}
+summary: {t: "Replace the seals when coolant or oil leaks from the inspection hole at the bottom of the case.", cite: {p: 240}}
 parts:
   - {name: "Mechanical seal", replace: always, cite: {p: 240}, note: "The seal has two pieces. One piece is in the impeller and one piece is in the right crankcase cover."}
   - {name: "Oil seal", replace: always, cite: {p: 240}}

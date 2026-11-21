@@ -3,7 +3,7 @@ system: "Wheels, tires and drive chain"
 source: clymer
 chapter: 11
 section: "11/drive-chain"
-summary: {t: "If the endless chain was replaced with a chain that has a master link and a spring clip, use this procedure. You do not need to disassemble the swing arm.", cite: {p: 253}}
+summary: {t: "If a chain with a master link and a spring clip replaced the endless chain, you do not need to disassemble the swing arm.", cite: {p: 253}}
 parts:
   - {name: "Master link spring clip", replace: always, cite: {p: 255}}
   - {name: "Master link O-rings", replace: inspect, cite: {p: 254}, note: "Two O-rings are under the side plates."}

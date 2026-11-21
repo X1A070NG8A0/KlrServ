@@ -6,6 +6,6 @@ cards:
   - {href: /maintenance.html, label: Routine maintenance, text: "The service schedule by mileage and time, with a checklist for each service."}
   - {href: /repairs.html, label: Common repairs, text: "Flat tires, cables, brakes, bulbs, crash damage and other repairs off the schedule."}
   - {href: /book/, label: Full reference, text: "Every procedure in the manual, the specifications and the errata."}
-  - {href: /tools.html, label: Tool list, text: "Every tool that the procedures name, with the jobs that need it."}
+  - {href: /tools.html, label: Tool list, text: "Hand tools, measuring tools and special tools, with the jobs that need them."}
 # Procedure ids for the "Frequent jobs" list.
 frequent: [engine-oil-and-filter, drive-chain-adjust, air-filter, valve-clearance, balancer-chain-tensioner, c11-tire-removal, c14-front-brake-pads, coolant-replace, spark-plug]

@@ -3,7 +3,7 @@ system: "Engine top end"
 source: clymer
 chapter: 4
 section: "04/cylinder-head-cover"
-summary: {t: "This procedure removes the cylinder head cover from the left side of the engine and installs it again. The cover goes over the cam chain and the sprockets.", cite: {p: 94}}
+summary: {t: "The cylinder head cover comes off to the left side of the engine. The cover goes over the cam chain and the sprockets.", cite: {p: 94}}
 spec_refs: ["top-end-torque:Cylinder head cover bolts", "top-end-torque:Upper engine mounting bolts"]
 parts:
   - {name: "Cylinder head cover gasket", replace: inspect, cite: {p: 94}, note: "Clean the gasket. The gasket has plugs that seal the left side of the cylinder head."}

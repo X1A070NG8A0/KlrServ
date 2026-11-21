@@ -3,7 +3,7 @@ system: "Rear suspension"
 source: clymer
 chapter: 13
 section: "13/shock-absorber-linkage"
-summary: {t: "This procedure removes the lever and the lever arms of the shock linkage and installs them again. You do not need to remove the swing arm or the rear wheel.", cite: {p: 283}}
+summary: {t: "You do not need to remove the swing arm or the rear wheel.", cite: {p: 283}}
 spec_refs: ["rear-suspension-torque:Lever arm bolts", "rear-suspension-torque:Lever-to-frame bolt"]
 parts:
   - {name: "Molydisulfide grease or waterproof grease", replace: consumable, cite: {p: 282}, note: "Kawasaki recommends molydisulfide grease for all linkage bearings. Waterproof grease is also correct."}

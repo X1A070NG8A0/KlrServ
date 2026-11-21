@@ -5,7 +5,7 @@ pages:
     kind: Section
     pdf_pages: [327, 328]
     summary:
-      - {t: "This chapter gives the removal and installation procedures for the body parts. Do not use too much force on the bodywork. It is flexible, but it changes color when it is bent or pinched too much.", cite: {p: 327}}
+      - {t: "Do not use too much force on the bodywork. It is flexible, but it changes color when it is bent or pinched too much.", cite: {p: 327}}
       - {t: "A friction barb on each side cover goes into a grommet. Screws hold the front and rear of the cover.", cite: {p: 327}}
     ops: [c15-side-covers]
   - id: seat

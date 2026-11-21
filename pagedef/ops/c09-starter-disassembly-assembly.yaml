@@ -3,7 +3,7 @@ system: "electrical system"
 source: clymer
 chapter: 9
 section: "09/starter"
-summary: {t: "This procedure disassembles the starter for inspection and assembles it again. To examine only the brushes, remove only the rear end cover.", cite: {p: 209}}
+summary: {t: "To examine only the brushes, remove only the rear end cover.", cite: {p: 209}}
 parts:
   - {name: "Starter housing O-ring (rear end cover)", replace: always, cite: {p: 210}}
   - {name: "Starter housing O-ring (front end cover)", replace: always, cite: {p: 211}}

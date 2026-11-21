@@ -3,7 +3,7 @@ system: "electrical system"
 source: clymer
 chapter: 9
 section: "09/charging-system"
-summary: {t: "This test is for a conventional (original equipment) battery. The unloaded voltage shows the basic state of charge. For battery replacement, charging and electrolyte checks, refer to Chapter Three.", cite: {p: 224}}
+summary: {t: "The unloaded voltage test is for a conventional (original equipment) battery. The unloaded voltage shows the basic state of charge. For battery replacement, charging and electrolyte checks, refer to Chapter Three.", cite: {p: 224}}
 sections:
   - steps:
       - {t: "Connect a voltmeter to the negative and positive battery terminals. If you do not have a voltmeter, use a syringe hydrometer to measure the specific gravity of the electrolyte.", cite: {p: 224}, figs: [58]}

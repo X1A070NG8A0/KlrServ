@@ -3,7 +3,6 @@ system: "Wheels, tires and drive chain"
 source: clymer
 chapter: 11
 section: "11/rear-wheel"
-summary: {t: "This procedure removes the rear wheel and axle from the swing arm and installs them again.", cite: {p: 245}}
 spec_refs: ["wheel-drive-torque:Axle nut/Rear", "wheel-drive-torque:Rear brake caliper holder bolts"]
 parts:
   - {name: "Cotter pin, rear axle nut", replace: inspect, cite: {p: 246}}

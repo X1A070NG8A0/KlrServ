@@ -3,7 +3,7 @@ system: "Wheels, tires and drive chain"
 source: clymer
 chapter: 11
 section: "11/front-and-rear-hubs"
-summary: {t: "This procedure removes the bearings from a wheel hub and installs new bearings. There are two methods to remove the bearings. One method uses a wheel bearing removal set. The other method uses common shop tools and heat.", cite: {p: 248}}
+summary: {t: "There are two methods to remove the bearings. One method uses a wheel bearing removal set. The other method uses common shop tools and heat.", cite: {p: 248}}
 parts:
   - {name: "Wheel bearings", replace: always, cite: {p: 248}, note: "Replace the bearings as a set."}
   - {name: "Snap ring", replace: inspect, cite: {p: 248}, note: "Used on some hubs."}

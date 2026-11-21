@@ -37,7 +37,6 @@ export default template({
           <a href="/specs.html">Specifications</a> · <a href={group.url}>{group.title}</a>
         </p>
         <h1>{page.title}</h1>
-        <p class="meta">Rows for other model years are grey. Rows for 2006 are green.</p>
         <SpecTableHtml m={{ sources: site.data.sources }} t={t} filter={false} />
       </>
     );

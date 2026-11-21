@@ -3,7 +3,7 @@ system: "Front suspension and steering"
 source: clymer
 chapter: 12
 section: "12/fork-service"
-summary: {t: "This procedure assembles one fork leg and fills it with fork oil. Have a new oil seal, a new dust seal, new O-rings and other replacement parts on hand. The work area and all parts must be clean.", cite: {p: 275}}
+summary: {t: "Have a new oil seal, a new dust seal, new O-rings and other replacement parts on hand. The work area and all parts must be clean.", cite: {p: 275}}
 spec_refs:
   - "fork-oil:Fork oil grade"
   - "fork-oil:Fork oil capacity (each leg)/Oil change"

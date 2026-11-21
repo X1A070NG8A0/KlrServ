@@ -5,7 +5,6 @@ pages:
     kind: Section
     pdf_pages: [149, 152]
     summary:
-      - {t: "This chapter gives the service procedures for the parts on the right side of the engine crankcase. These are the right crankcase cover, the clutch, the gearshift linkage, the oil pump and the primary drive gear.", cite: {p: 149}}
       - {t: "The right crankcase cover holds the crankshaft oil seal, the clutch release lever, the relief valve and the oil filter housing.", cite: {p: 151}}
     ops: [c06-right-crankcase-cover, c06-right-crankcase-cover-inspection]
   - id: clutch

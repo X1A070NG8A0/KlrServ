@@ -3,7 +3,6 @@ system: "electrical system"
 source: clymer
 chapter: 9
 section: "09/rotor-and-starter-clutch"
-summary: {t: "This procedure examines the starter clutch, the clutch components and the rotor after removal. It also tells how to replace a damaged clutch.", cite: {p: 207}}
 spec_refs: ["electrical-torque:Starter clutch bolts"]
 parts:
   - {name: "Starter clutch", replace: inspect, cite: {p: 207}, note: "Replace the clutch and the coupling if the clutch is damaged."}

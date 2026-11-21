@@ -1,18 +1,17 @@
 // Common repairs: the procedures and known issues of data/common-repairs.yaml, by category.
-import { html, template } from "ggass";
+import { template } from "ggass";
 import { FilterBox, lower, opLink } from "./lib/render.tsx";
 import { siteModel } from "./lib/site.ts";
 
 const firstSentence = (t?: string) => (t ?? "").split(/(?<=\.)\s/)[0];
 
 export default template({
-  fields: { intro: html() },
+  fields: {},
   render: (page, site) => {
     const m = siteModel(site);
     return (
       <>
         <h1>{page.title}</h1>
-        <p>{page.intro}</p>
         <FilterBox items="ul.repairs > li" label="Filter the repairs" placeholder="for example flat, cable, bulb" />
         {m.repairs.map((c) => (
           <section class="repair-cat">

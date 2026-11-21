@@ -5,7 +5,7 @@ system: "lubrication, maintenance and tune-up"
 source: clymer
 chapter: 3
 section: "03/tune-up-and-service-intervals"
-summary: {t: "Table 1 gives the maintenance and lubrication intervals. The intervals are for equal use on and off the road.", cite: {p: 56}}
+summary: {t: "The intervals are for equal use on and off the road.", cite: {p: 56}}
 sections:
   - steps:
       - {t: "If you operate the motorcycle in extreme weather, or in water or sand, do the service procedures more often.", cite: {p: 56}}

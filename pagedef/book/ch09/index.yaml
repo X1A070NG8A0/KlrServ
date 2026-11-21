@@ -51,7 +51,7 @@ pages:
     kind: Section
     pdf_pages: [208, 212]
     summary:
-      - {t: "The starter is in the left crankcase cover. The pages show how to remove it, disassemble it and test the armature and the brushes.", cite: {p: 209}}
+      - {t: "The starter is in the left crankcase cover.", cite: {p: 209}}
     ops: [c09-starter-removal-installation, c09-starter-disassembly-assembly, c09-starter-inspection-testing]
   - id: starting-system
     title: "Starting system"
@@ -73,7 +73,7 @@ pages:
     kind: Section
     pdf_pages: [222, 227]
     summary:
-      - {t: "The charging system has the parts that charge the battery and regulate the power to it. The sections give the fuse, battery, regulator/rectifier and stator tests.", cite: {p: 222}}
+      - {t: "The charging system has the parts that charge the battery and regulate the power to it.", cite: {p: 222}}
     ops: [c09-charging-system-precautions, c09-fuse-test, c09-battery-voltage-unloaded, c09-battery-voltage-loaded, c09-battery-current-draw-test, c09-regulator-output-voltage-test, c09-regulator-resistance-test, c09-stator-charging-coil-test]
   - id: fan-system
     title: "Fan system"

@@ -3,7 +3,7 @@ system: "body"
 source: clymer
 chapter: 15
 section: "15/fuel-tank"
-summary: {t: "This procedure removes and installs the fuel tank. You move the tank toward the rear of the motorcycle.", cite: {p: 328}}
+summary: {t: "The fuel tank comes off toward the rear of the motorcycle.", cite: {p: 328}}
 sections:
   - title: "Removal"
     steps:

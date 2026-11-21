@@ -4,7 +4,7 @@ source: clymer
 chapter: 5
 section: "05/engine-balancer"
 issue: doohickey
-summary: {t: "This procedure removes the balancer parts from the engine. The balancer chain tensioner lever, which owners call the doohickey, is part of this assembly. To remove the balancer shafts from between the crankcase halves, split the crankcase.", cite: {p: 131}}
+summary: {t: "The balancer chain tensioner lever, which owners call the doohickey, is part of this assembly. To remove the balancer shafts from between the crankcase halves, split the crankcase.", cite: {p: 131}}
 parts:
   - {name: "Balancer chain tensioner spring", replace: inspect, cite: {p: 134}, note: "Install a new spring when you remove the tensioner assembly, if possible."}
 sections:

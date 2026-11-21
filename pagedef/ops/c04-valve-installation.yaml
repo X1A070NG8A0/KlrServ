@@ -3,7 +3,7 @@ system: "Engine top end"
 source: clymer
 chapter: 4
 section: "04/valves"
-summary: {t: "This procedure installs the valves in the cylinder head. Do the procedure for each set of valve components. All components must be clean and dry.", cite: {p: 111}}
+summary: {t: "Do the procedure for each set of valve components. All components must be clean and dry.", cite: {p: 111}}
 parts:
   - {name: "Valve oil seal", replace: always, cite: {p: 112}}
   - {name: "Valve oil seal circlip", replace: always, cite: {p: 109}}

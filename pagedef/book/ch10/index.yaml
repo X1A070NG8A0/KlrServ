@@ -5,9 +5,8 @@ pages:
     kind: Section
     pdf_pages: [235, 236]
     summary:
-      - {t: "This chapter gives the service procedures for the radiator, fan, fan switch, thermostat, water temperature sending unit and water pump.", cite: {p: 235}}
       - {t: "Do not remove the radiator cap when the engine is hot. The coolant is under pressure and can cause injury.", cite: {p: 235}}
-      - {t: "Always use an antifreeze solution. Antifreeze has lubricants and rust inhibitors that protect the cooling system parts. Replace the coolant at the intervals in Chapter Three.", cite: {p: 236}}
+      - {t: "Always use an antifreeze solution. Antifreeze has lubricants and rust inhibitors that protect the cooling system parts. Replace the coolant at the scheduled intervals.", cite: {p: 236}}
     ops: [c10-radiator-cap-removal]
   - id: radiator-and-fan
     title: "Radiator and fan"

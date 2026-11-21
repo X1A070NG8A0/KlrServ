@@ -1,13 +1,5 @@
 title: "Chapter 14: Brakes"
 pages:
-  - id: introduction
-    title: "Introduction"
-    kind: Section
-    pdf_pages: [296, 296]
-    summary:
-      - {t: "This chapter gives the service procedures for the front and rear brake systems. It covers the brake pads, the master cylinders, the calipers and the discs.", cite: {p: 296}}
-      - {t: "For brake fluid level inspection, pad and disc inspection, brake light adjustment, and brake pedal and lever adjustment, see Chapter Three.", cite: {p: 296}}
-    ops: []
   - id: disc-brake-fundamentals
     title: "Disc brake fundamentals"
     kind: Section
@@ -33,7 +25,6 @@ pages:
     kind: Section
     pdf_pages: [299, 303]
     summary:
-      - {t: "This section gives the procedures to remove and install the front caliper, and to disassemble, examine and assemble it with new seals.", cite: {p: 299}}
       - {t: "If you rebuild the caliper or disconnect the brake hose from it, fill and bleed the brake system.", cite: {p: 300}}
     ops: [c14-front-caliper-remove, c14-front-caliper-repair]
   - id: front-master-cylinder
@@ -43,7 +34,6 @@ pages:
     summary:
       - {t: "The front brake lever does not need adjustment. If the system is bled correctly, the lever adjusts itself.", cite: {p: 305}}
       - {t: "The piston, the seals and the spring are only available as a complete assembly.", cite: {p: 305}}
-      - {t: "This section also collects the steps to replace the brake hose.", cite: {p: 305}}
     ops: [c14-front-master-cylinder-remove, c14-front-master-cylinder-repair, brake-hoses]
   - id: rear-brake-pads
     title: "Rear brake pads"
@@ -58,7 +48,6 @@ pages:
     kind: Section
     pdf_pages: [310, 317]
     summary:
-      - {t: "This section gives the procedures to remove and install the rear caliper, and to disassemble, examine and assemble it with new seals.", cite: {p: 311}}
       - {t: "If you rebuild the caliper or disconnect the brake hose from it, fill and bleed the brake system.", cite: {p: 312}}
     ops: [c14-rear-caliper-remove, c14-rear-caliper-repair]
   - id: rear-master-cylinder
@@ -66,7 +55,6 @@ pages:
     kind: Section
     pdf_pages: [316, 320]
     summary:
-      - {t: "This section gives the procedures to remove and install the rear master cylinder and reservoir, and to repair the master cylinder.", cite: {p: 317}}
       - {t: "The piston, the seals and the spring are only available as a complete assembly.", cite: {p: 317}}
     ops: [c14-rear-master-cylinder-remove, c14-rear-master-cylinder-repair]
   - id: rear-brake-pedal
@@ -74,7 +62,7 @@ pages:
     kind: Section
     pdf_pages: [320, 322]
     summary:
-      - {t: "This section gives the procedure to remove and install the rear brake pedal. The pushrod position in the clevis sets the pedal height.", cite: {p: 320}}
+      - {t: "The pushrod position in the clevis sets the pedal height.", cite: {p: 320}}
     ops: [c14-rear-brake-pedal]
   - id: brake-system-draining
     title: "Brake system draining"
@@ -82,7 +70,7 @@ pages:
     pdf_pages: [322, 322]
     summary:
       - {t: "To drain the front or rear brake, connect clear tubing to the bleeder valve and open the valve. Pump the lever or pedal until no more fluid drips from the system.", cite: {p: 322}}
-      - {t: "The procedure is in the brake fluid replacement operation.", cite: {p: 322}}
+      - {t: "To drain and fill the system, do the brake fluid replacement procedure.", cite: {p: 322}, op: brake-fluid-replace}
     ops: []
   - id: brake-system-bleeding
     title: "Brake system bleeding"

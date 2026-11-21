@@ -3,7 +3,7 @@ system: "Engine top end"
 source: clymer
 chapter: 4
 section: "04/cylinder-head"
-summary: {t: "This procedure examines the cylinder head for thread damage, cracks, wear and warp. Each time that you remove the cylinder head, do the solvent test on the valves.", cite: {p: 104}}
+summary: {t: "Each time that you remove the cylinder head, do the solvent test on the valves.", cite: {p: 104}}
 spec_refs: ["top-end:Cylinder head warp limit"]
 parts:
   - {name: "Cylinder head and camshaft cap set", replace: inspect, cite: {p: 105}, note: "If the camshaft bearing surfaces or the caps have damage, replace the caps and the cylinder head as a set. If the head has cracks and a shop cannot repair it, replace the head and the camshaft cap set."}

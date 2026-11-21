@@ -3,7 +3,7 @@ system: "Engine lower end"
 source: clymer
 chapter: 5
 section: "05/engine"
-summary: {t: "This procedure installs the engine in the frame. Install it in the reverse order of removal. Do the adjustments and the tests at the end of the procedure.", cite: {p: 128}}
+summary: {t: "Install the engine in the reverse order of removal. Do the adjustments and the tests at the end of the procedure.", cite: {p: 128}}
 spec_refs: ["lower-end-torque:Engine mounting bolts/8 mm", "lower-end-torque:Engine mounting bolts/10 mm", "lower-end-torque:Swing arm pivot bolt"]
 parts:
   - {name: "Dielectric grease", replace: consumable, cite: {p: 128}}

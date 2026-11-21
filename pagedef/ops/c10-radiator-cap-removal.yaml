@@ -3,7 +3,6 @@ system: "Cooling system"
 source: clymer
 chapter: 10
 section: "10/safety-precautions"
-summary: {t: "This procedure removes the radiator cap and releases the pressure in the cooling system safely.", cite: {p: 235}}
 sections:
   - steps:
       - {kind: warning, t: "Do not remove the radiator cap during engine operation or immediately after. The coolant is scalding hot and under pressure. It can spray from the radiator opening and cause injury.", cite: {p: 235}, figs: [1]}

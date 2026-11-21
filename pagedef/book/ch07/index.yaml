@@ -1,12 +1,5 @@
 title: "Chapter 7: Transmission and Internal Shift Mechanism"
 pages:
-  - id: introduction
-    title: "Introduction"
-    kind: Section
-    pdf_pages: [168, 168]
-    summary:
-      - {t: "This chapter gives the service procedures for the transmission and the internal shift mechanism.", cite: {p: 168}}
-    ops: []
   - id: transmission-operation
     title: "Transmission operation"
     kind: Section
@@ -43,7 +36,7 @@ pages:
     kind: Section
     pdf_pages: [179, 180]
     summary:
-      - {t: "These procedures show how to examine the shaft assemblies for all models. Some examinations do not apply to some shaft designs.", cite: {p: 179}}
+      - {t: "Some examinations do not apply to some shaft designs.", cite: {p: 179}}
     ops: [c07-shaft-inspection]
   - id: shift-drum-and-forks
     title: "Shift drum and forks"

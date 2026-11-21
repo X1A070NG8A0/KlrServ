@@ -13,7 +13,6 @@ export default template({
           <a href="/specs.html">Specifications</a>
         </p>
         <h1>{page.title}</h1>
-        <p class="meta">Rows for other model years are grey. Rows for 2006 are green.</p>
         {(page.pages ?? []).map((t) => (
           <SpecTableHtml m={m} t={specTableOf(t as AnyPage, page)} filter={false} />
         ))}

@@ -3,7 +3,7 @@ system: "Clutch, gearshift linkage and lubrication system"
 source: clymer
 chapter: 6
 section: "06/kickstarter"
-summary: {t: "The KLR650 does not have a kickstarter as standard equipment. This procedure gives the installation of the kickstarter idle gear if you removed it from the transmission output shaft.", cite: {p: 166}}
+summary: {t: "The KLR650 does not have a kickstarter as standard equipment. Install the kickstarter idle gear again if you removed it from the transmission output shaft.", cite: {p: 166}}
 parts:
   - {name: "Kickstarter kit (Kawasaki 99995-1007)", replace: consumable, cite: {p: 166}, note: "The kit has the lever assembly and the kickstarter idle gear."}
 sections:

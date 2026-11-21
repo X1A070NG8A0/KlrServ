@@ -3,7 +3,6 @@ system: "Fuel system"
 source: clymer
 chapter: 8
 section: "08/fuel-valve"
-summary: {t: "This procedure removes the fuel valve from the fuel tank, cleans and examines the parts, and installs the valve again.", cite: {p: 195}}
 parts:
   - {name: "Fuel valve O-rings", replace: always, cite: {p: 197}, note: "Replace all O-rings."}
   - {name: "Fuel gasket", replace: inspect, cite: {p: 197}, note: "Replace the gasket if fuel leaked past it."}

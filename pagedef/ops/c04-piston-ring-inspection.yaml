@@ -3,7 +3,7 @@ system: "Engine top end"
 source: clymer
 chapter: 4
 section: "04/piston-and-piston-rings"
-summary: {t: "The piston has two compression rings and an oil control ring assembly. The oil ring assembly has two side rails and an expander ring. This procedure measures the rings and removes them from the piston.", cite: {p: 120}}
+summary: {t: "The piston has two compression rings and an oil control ring assembly. The oil ring assembly has two side rails and an expander ring.", cite: {p: 120}}
 spec_refs: ["top-end:Piston rings/Ring-to-groove clearance, top and second ring", "top-end:Piston rings/Thickness (top and second)", "top-end:Piston rings/End gap, top and second ring", "top-end:Piston rings/Top mark identification, top ring", "top-end:Piston rings/Top mark identification, second ring"]
 parts:
   - {name: "Piston rings", replace: inspect, cite: {p: 121}, note: "Replace the rings as a set. If the clearance is too large after you install new rings, replace the piston."}

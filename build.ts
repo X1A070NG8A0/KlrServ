@@ -34,7 +34,7 @@ export const site = defineSite({
     { href: "/book/", label: "Full reference" },
     { href: "/tools.html", label: "Tool list" },
   ],
-  footer: "For the first-generation Kawasaki KLR650 (KL650A). Sources: Clymer KLR650 1987-2006 manual (M474-2), Kawasaki KLR600 and KLR650 service manuals, klr650.net. Each step names its source page.",
+  footer: "For the first-generation Kawasaki KLR650 (KL650A). Sources: Clymer KLR650 1987-2006 manual (M474-2), Kawasaki KLR600 and KLR650 service manuals, klr650.net.",
   css: { entry: "style.css" },
   fonts: [
     { family: "TeX Gyre Heros", src: "fonts/texgyreheros-regular.otf", weight: 400, preload: true },

@@ -3,7 +3,6 @@ system: "Front suspension and steering"
 source: clymer
 chapter: 12
 section: "12/steering-stem-and-head"
-summary: {t: "This procedure shows how to examine the steering head, the steering stem, the seals, the bearings and the races.", cite: {p: 264}}
 parts:
   - {name: "Steering stem bearings", replace: inspect, cite: {p: 264}, note: "If a race is worn or damaged, replace both races and both bearings."}
   - {name: "Steering head bearing races", replace: inspect, cite: {p: 264}}

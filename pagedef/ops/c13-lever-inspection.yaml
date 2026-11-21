@@ -3,7 +3,7 @@ system: "Rear suspension"
 source: clymer
 chapter: 13
 section: "13/shock-absorber-linkage"
-summary: {t: "This procedure cleans and examines the lever and its needle bearings, replaces worn bearings and installs the seals and pivot spacers. Remove the lever first.", cite: {p: 285}}
+summary: {t: "Remove the lever first.", cite: {p: 285}}
 parts:
   - {name: "Needle bearings (lever)", replace: inspect, cite: {p: 286}, note: "In a bore with two bearings, replace both bearings and the pivot spacer."}
   - {name: "Lever seals", replace: inspect, cite: {p: 286}}

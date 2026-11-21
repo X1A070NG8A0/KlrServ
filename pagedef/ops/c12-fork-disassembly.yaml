@@ -3,7 +3,7 @@ system: "Front suspension and steering"
 source: clymer
 chapter: 12
 section: "12/fork-service"
-summary: {t: "This procedure disassembles one fork leg. Rebuild one fork leg before you rebuild the other. Do not mix the parts of the two legs.", cite: {p: 270}}
+summary: {t: "Rebuild one fork leg before you rebuild the other. Do not mix the parts of the two legs.", cite: {p: 270}}
 parts:
   - {name: "Fork seal driver, 38 mm (Kawasaki part No. 57001-1219, or equivalent)", replace: consumable, cite: {p: 270}, note: "Special tool."}
   - {name: "Handle and adapter (Kawasaki part No. 57001-183 and part No. 57001-1057, or equivalent)", replace: consumable, cite: {p: 270}, note: "Special tool. You can make an optional tool."}

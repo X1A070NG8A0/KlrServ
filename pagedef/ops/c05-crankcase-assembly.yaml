@@ -3,7 +3,7 @@ system: "Engine lower end"
 source: clymer
 chapter: 5
 section: "05/crankcase"
-summary: {t: "This procedure installs the transmission, the crankshaft and the balancer shafts in the crankcase and joins the crankcase halves with liquid gasket sealant. Use the crankshaft installation jig to keep the flywheels aligned.", cite: {p: 140}}
+summary: {t: "You join the crankcase halves with liquid gasket sealant. Use the crankshaft installation jig to keep the flywheels aligned.", cite: {p: 140}}
 spec_refs: ["lower-end-torque:Crankcase bolts/6 mm", "lower-end-torque:Crankcase bolts/8 mm"]
 parts:
   - {name: "Liquid gasket sealant (Kawabond 5 or Yamabond 4)", replace: consumable, cite: {p: 140}, note: "Do not use RTV silicone sealant."}

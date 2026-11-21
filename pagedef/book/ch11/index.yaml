@@ -5,7 +5,6 @@ pages:
     kind: Section
     pdf_pages: [242, 245]
     summary:
-      - {t: "This chapter gives the service procedures for the wheels, the speedometer drive unit, the drive chain, the sprockets and the tires. The routine maintenance procedures for these parts are in Chapter Three.", cite: {p: 242}}
       - {t: "The speedometer drive unit is on the right side of the front hub. Remove it with the wheel.", cite: {p: 243}}
     ops: [c11-front-wheel, c11-front-wheel-inspection]
   - id: rear-wheel
@@ -35,7 +34,7 @@ pages:
     kind: Section
     pdf_pages: [253, 255]
     summary:
-      - {t: "The motorcycle comes new with an endless O-ring chain. This type of chain is lubricated inside and needs little maintenance. Chapter Three gives the chain cleaning, lubrication, adjustment and measurement procedures.", cite: {p: 253}}
+      - {t: "The motorcycle comes new with an endless O-ring chain. This type of chain is lubricated inside and needs little maintenance.", cite: {p: 253}}
     ops: [c11-drive-chain-no-master-link, c11-drive-chain-master-link]
   - id: sprockets
     title: "Sprockets"
@@ -50,5 +49,5 @@ pages:
     pdf_pages: [257, 260]
     summary:
       - {t: "Work over a pad when you change a tire. Do not let the wheel rest on the brake disc.", cite: {p: 257}}
-      - {t: "Balance the wheel each time that you install a new tire. The tables at the end of the chapter give the tire, chain and torque specifications.", cite: {p: 260}}
+      - {t: "Balance the wheel each time that you install a new tire.", cite: {p: 260}}
     ops: [c11-tire-removal, c11-tire-inspection, c11-tire-installation, c11-wheel-balancing]

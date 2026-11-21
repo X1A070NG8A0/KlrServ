@@ -3,7 +3,7 @@ system: "Clutch, gearshift linkage and lubrication system"
 source: clymer
 chapter: 6
 section: "06/oil-pump"
-summary: {t: "This procedure removes the oil pump from the right side of the crankcase and installs it again. A gear on the end of the crankshaft drives the pump.", cite: {p: 161}}
+summary: {t: "A gear on the end of the crankshaft drives the pump.", cite: {p: 161}}
 spec_refs: ["oil-pump:Oil pump pressure at 4000 rpm", "oil-pump:Relief valve opening pressure"]
 parts:
   - {name: "Oil pump gasket", replace: always, cite: {p: 162}}

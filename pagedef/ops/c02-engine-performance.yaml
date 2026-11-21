@@ -3,7 +3,7 @@ system: "troubleshooting"
 source: clymer
 chapter: 2
 section: "02/engine-performance"
-summary: {t: "These lists give the possible causes of poor engine performance. The easier checks are first. Each cause links to the procedure that finds or fixes it.", cite: {p: 46}}
+summary: {t: "Start with the easier checks.", cite: {p: 46}}
 sections:
   - title: "Engine does not start or starts and dies: fuel system"
     steps:

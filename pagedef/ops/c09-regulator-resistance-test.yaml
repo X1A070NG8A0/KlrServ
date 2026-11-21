@@ -3,7 +3,7 @@ system: "electrical system"
 source: clymer
 chapter: 9
 section: "09/charging-system"
-summary: {t: "This test checks the directional resistance of the regulator/rectifier. No specific resistance is specified. The purpose is to find low resistance in one direction and infinite resistance in the other direction.", cite: {p: 226}}
+summary: {t: "No resistance value is specified for the regulator/rectifier. Look for low resistance in one direction and infinite resistance in the other direction.", cite: {p: 226}}
 sections:
   - steps:
       - {t: "Use an analog ohmmeter set to the R x 10 or R x 100 scale.", cite: {p: 226}}

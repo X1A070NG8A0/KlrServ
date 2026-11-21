@@ -3,7 +3,7 @@ system: "body"
 source: clymer
 chapter: 15
 section: "15/radiator-covers"
-summary: {t: "This procedure removes and installs the radiator covers. The left cover shrouds the radiator. The right cover shrouds the coolant reserve tank.", cite: {p: 328}}
+summary: {t: "The left cover shrouds the radiator. The right cover shrouds the coolant reserve tank.", cite: {p: 328}}
 sections:
   - title: "Removal"
     steps:

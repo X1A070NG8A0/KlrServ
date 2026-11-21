@@ -3,7 +3,7 @@ system: "General information"
 source: clymer
 chapter: 1
 section: "01/fasteners"
-summary: {t: "Use the general torque table as a guide for a fastener that has no specification. Torque specifications for specific parts are in the chapter for that part. Use an accurate torque wrench.", cite: {p: 41}}
+summary: {t: "Use the general torque table as a guide for a fastener that has no specification. Use an accurate torque wrench.", cite: {p: 41}}
 spec_refs: ["general-torque:5 mm thread", "general-torque:6 mm thread", "general-torque:8 mm thread", "general-torque:10 mm thread", "general-torque:12 mm thread", "general-torque:14 mm thread", "general-torque:16 mm thread", "general-torque:18 mm thread", "general-torque:20 mm thread"]
 sections:
   - steps:

@@ -3,7 +3,7 @@ system: "Engine lower end"
 source: clymer
 chapter: 5
 section: "05/left-crankcase-cover"
-summary: {t: "The left crankcase cover is between the alternator cover and the left crankcase. This procedure removes the cover with the tensioner bolt and the shaft lever, and installs them again.", cite: {p: 129}}
+summary: {t: "The left crankcase cover is between the alternator cover and the left crankcase. The tensioner bolt and the shaft lever come off with the cover.", cite: {p: 129}}
 sections:
   - title: "Removal"
     steps:

@@ -3,7 +3,7 @@ system: "electrical system"
 source: clymer
 chapter: 9
 section: "09/headlight"
-summary: {t: "This procedure replaces the headlight bulb. You do not have to remove the fairing to remove the cowl or to replace the bulb.", cite: {p: 231}}
+summary: {t: "You do not have to remove the fairing to remove the cowl or to replace the bulb.", cite: {p: 231}}
 spec_refs: ["electrical-general:Light bulbs/Headlight"]
 parts:
   - {name: "Headlight bulb (H4 55/60 W)", replace: inspect, cite: {p: 231}, spec_ref: "electrical-general:Light bulbs/Headlight"}

@@ -3,7 +3,6 @@ system: "Wheels, tires and drive chain"
 source: clymer
 chapter: 11
 section: "11/sprockets"
-summary: {t: "This procedure removes the driven sprocket from the sprocket hub and installs it again.", cite: {p: 257}}
 spec_refs: ["wheel-drive-torque:Driven sprocket bolts"]
 parts:
   - {name: "Driven sprocket", replace: inspect, cite: {p: 257}, note: "If the chain or the sprockets are worn, replace all drive components."}

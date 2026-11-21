@@ -3,7 +3,6 @@ system: "Wheels, tires and drive chain"
 source: clymer
 chapter: 11
 section: "11/tire-changing"
-summary: {t: "This procedure installs a tire and an inner tube on the rim and inflates the tire.", cite: {p: 258}}
 spec_refs: ["wheels:Tire pressure (standard)/Front"]
 parts:
   - {name: "Talcum powder", replace: consumable, cite: {p: 258}}

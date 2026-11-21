@@ -5,7 +5,7 @@ pages:
     kind: Section
     pdf_pages: [91, 91]
     summary:
-      - {t: "This chapter gives the procedures to remove, examine and replace the parts of the engine top end. These are the exhaust system, the cylinder head, the camshafts, the valves, the cylinder and the piston. You can do all of this work with the engine in the frame.", cite: {p: 91}}
+      - {t: "You can do all the work on the engine top end with the engine in the frame.", cite: {p: 91}}
       - {t: "Clean the engine before you start. Keep the work area clean and do not let dirt get into the engine. Keep parts in marked plastic bags or containers.", cite: {p: 91}}
     ops: []
   - id: exhaust-system
@@ -44,7 +44,7 @@ pages:
     kind: Section
     pdf_pages: [108, 113]
     summary:
-      - {t: "The valve procedures start with a solvent test. The test shows if the valves seat fully. Do the test each time that you remove the cylinder head.", cite: {p: 108}}
+      - {t: "The solvent test shows if the valves seat fully. Do the test each time that you remove the cylinder head.", cite: {p: 108}}
       - {t: "A dealership must do the replacement or reconditioning of valves, valve guides and valve seats.", cite: {p: 109}}
     ops: [c04-valve-solvent-test, c04-valve-removal, c04-valve-inspection, c04-valve-installation, c04-valve-lapping]
   - id: cylinder

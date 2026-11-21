@@ -5,7 +5,6 @@ system: "lubrication, maintenance and tune-up"
 source: clymer
 chapter: 3
 section: "03/fuel-and-lubricants"
-summary: {t: "This procedure lists the fuel and the lubricants that the engine and the chassis need.", cite: {p: 58}}
 spec_refs:
   - "fluids:Fuel type"
   - "fluids:Engine oil"
@@ -37,7 +36,7 @@ sections:
   - title: "Chain lubricant"
     steps:
       - {t: "Use a good-quality chain lubricant that is compatible with the type of chain on the motorcycle.", cite: {p: 58}}
-      - {t: "An O-ring chain was standard equipment for the years that the manual covers. Use chain lubricant made for O-ring chains.", cite: {p: 58}, spec_ref: "fluids:Drive chain"}
+      - {t: "An O-ring chain is standard equipment on this motorcycle. Use chain lubricant made for O-ring chains.", cite: {p: 58}, spec_ref: "fluids:Drive chain"}
       - {t: "The links of an O-ring chain are permanently lubricated and sealed. O-ring chain lubricant prevents corrosion on the outside of the chain and conditions the O-rings. It is not tacky and does not hold dirt.", cite: {p: 59}}
       - {t: "Do not use tacky lubricants or lubricants for conventional chains. They attract dirt and cause unnecessary wear on the O-rings.", cite: {p: 59}}
   - title: "Control cable lubricant and air filter oil"

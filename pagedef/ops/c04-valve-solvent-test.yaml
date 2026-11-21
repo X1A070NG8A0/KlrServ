@@ -3,7 +3,7 @@ system: "Engine top end"
 source: clymer
 chapter: 4
 section: "04/valves"
-summary: {t: "This test shows if the valves seat fully. It can also show cracks in the cylinder head that you did not find before. Do the test with the valve assembly in the cylinder head.", cite: {p: 108}}
+summary: {t: "The solvent test shows if the valves seat fully. It can also show cracks in the cylinder head that you did not find before. Do the test with the valve assembly in the cylinder head.", cite: {p: 108}}
 parts:
   - {name: "Solvent or kerosene", replace: consumable, cite: {p: 108}}
 sections:

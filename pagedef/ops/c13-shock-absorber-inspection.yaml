@@ -3,7 +3,7 @@ system: "Rear suspension"
 source: clymer
 chapter: 13
 section: "13/shock-absorber"
-summary: {t: "This procedure examines the shock absorber for wear and leaks. The damper is not available as a separate part and you cannot rebuild it.", cite: {p: 281}}
+summary: {t: "The damper is not available as a separate part and you cannot rebuild it.", cite: {p: 281}}
 parts:
   - {name: "Shock absorber", replace: inspect, cite: {p: 281}, note: "If the damper leaks, replace the complete shock absorber."}
   - {name: "Upper bushing", replace: inspect, cite: {p: 281}, note: "If the bushing is worn, install a new bushing and a new mounting bolt."}

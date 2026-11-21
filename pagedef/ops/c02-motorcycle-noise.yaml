@@ -3,7 +3,7 @@ system: "troubleshooting"
 source: clymer
 chapter: 2
 section: "02/motorcycle-noise"
-summary: {t: "The causes in this list usually make noise only when the motorcycle is in motion.", cite: {p: 50}}
+summary: {t: "These causes usually make noise only when the motorcycle is in motion.", cite: {p: 50}}
 sections:
   - steps:
       - {t: "Make sure that the drive chain is not too loose.", cite: {p: 50}, op: "drive-chain-adjust"}

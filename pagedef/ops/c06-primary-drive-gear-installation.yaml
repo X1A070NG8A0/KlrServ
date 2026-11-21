@@ -3,7 +3,7 @@ system: "Clutch, gearshift linkage and lubrication system"
 source: clymer
 chapter: 6
 section: "06/primary-drive-gear"
-summary: {t: "This procedure installs the primary drive gear on the crankshaft and tightens the nut. Hold the crankshaft with a rotor holder tool or with a jam gear.", cite: {p: 165}}
+summary: {t: "Hold the crankshaft with a rotor holder tool or with a jam gear.", cite: {p: 165}}
 spec_refs: ["clutch-torque:Primary drive gear nut"]
 parts:
   - {name: "Primary drive gear lockwasher", replace: always, cite: {p: 165}}

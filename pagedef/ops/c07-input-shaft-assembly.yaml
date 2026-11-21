@@ -3,7 +3,7 @@ system: "Transmission and internal shift mechanism"
 source: clymer
 chapter: 7
 section: "07/input-shaft"
-summary: {t: "This procedure installs the parts on the input shaft, in order, from fifth gear to the snap ring at the end. The direction of each part is given in relation to first gear on the shaft.", cite: {p: 172}}
+summary: {t: "Install the parts in order, from fifth gear to the snap ring at the end. The direction of each part is in relation to first gear on the shaft.", cite: {p: 172}}
 parts:
   - {name: "Snap rings", replace: always, cite: {p: 172}, note: "Have new snap rings ready before you start."}
   - {name: "Engine oil", replace: consumable, cite: {p: 173}}

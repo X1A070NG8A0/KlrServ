@@ -3,7 +3,7 @@ system: "Engine top end"
 source: clymer
 chapter: 4
 section: "04/piston-and-piston-rings"
-summary: {t: "This procedure cleans and examines the piston and the piston pin and measures the clearance between the piston and the cylinder. Record and identify all measurements for each part.", cite: {p: 117}}
+summary: {t: "Record and identify all measurements for each part.", cite: {p: 117}}
 spec_refs: ["top-end:Piston/Ring groove width, top and second ring", "top-end:Piston/Ring groove width, oil ring", "top-end:Piston/Outside diameter", "top-end:Piston-to-cylinder clearance"]
 parts:
   - {name: "Piston", replace: inspect, cite: {p: 118}, note: "If there is damage, replace the piston."}

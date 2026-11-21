@@ -3,7 +3,7 @@ system: "Engine top end"
 source: clymer
 chapter: 4
 section: "04/valves"
-summary: {t: "This procedure examines and measures the valves, the valve guides, the valve springs and the valve seats. Do not mix the sets of parts. Work with one set at a time and put each set in its container after the inspection.", cite: {p: 109}}
+summary: {t: "Do not mix the sets of parts. Work with one set at a time and put each set in its container after the inspection.", cite: {p: 109}}
 spec_refs: ["top-end:Valve head thickness (margin above seat)/Intake", "top-end:Valve head thickness (margin above seat)/Exhaust", "top-end:Valve stem/Intake outside diameter", "top-end:Valve stem/Exhaust outside diameter", "top-end:Valve stem/Runout (total indicator reading)", "top-end:Valve guide inside diameter/Intake and exhaust", "top-end:Valve spring free length/Inner intake and exhaust", "top-end:Valve spring free length/Outer intake and exhaust", "top-end:Valve seat/Width"]
 parts:
   - {name: "Valve", replace: inspect, cite: {p: 110}, note: "If the valve has damage, replace it."}

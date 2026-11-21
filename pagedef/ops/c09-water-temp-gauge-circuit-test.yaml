@@ -3,7 +3,7 @@ system: "electrical system"
 source: clymer
 chapter: 9
 section: "09/water-temperature-gauge-and-sending-unit"
-summary: {t: "The water temperature sending unit is on top of the cylinder head. It sends a signal to the water temperature gauge. At low coolant temperature the sending unit has high resistance and the gauge shows cold. This test shows if you must test the gauge or the sending unit.", cite: {p: 230}}
+summary: {t: "The water temperature sending unit is on top of the cylinder head. It sends a signal to the water temperature gauge. At low coolant temperature the sending unit has high resistance and the gauge shows cold. The result shows if you must test the gauge or the sending unit.", cite: {p: 230}}
 sections:
   - steps:
       - {t: "Remove the fuel tank.", cite: {p: 230}, ref: "15/fuel-tank", figs: [69]}

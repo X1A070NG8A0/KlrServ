@@ -3,7 +3,6 @@ system: "Front suspension and steering"
 source: clymer
 chapter: 12
 section: "12/handlebar"
-summary: {t: "This procedure shows how to examine the handlebar, the holders and the mounting bolts for damage.", cite: {p: 262}}
 parts:
   - {name: "Handlebar", replace: inspect, cite: {p: 262}, note: "Replace the handlebar if it has cracks, scores, bends or other damage."}
   - {name: "Handlebar holder bolts", replace: inspect, cite: {p: 263}}

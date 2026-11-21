@@ -3,7 +3,6 @@ system: "Engine top end"
 source: clymer
 chapter: 4
 section: "04/exhaust-system"
-summary: {t: "This procedure removes the muffler and the exhaust pipe from the motorcycle and installs them again.", cite: {p: 91}}
 parts:
   - {name: "Exhaust pipe gasket", replace: always, cite: {p: 92}, note: "Install a new gasket."}
   - {name: "Antiseize compound", replace: consumable, cite: {p: 92}}

@@ -3,7 +3,6 @@ system: "Engine lower end"
 source: clymer
 chapter: 5
 section: "05/seal-replacement"
-summary: {t: "This procedure replaces the oil seal of the output shaft bearing and the oil seal of the shift shaft bore in the left crankcase.", cite: {p: 143}}
 parts:
   - {name: "Output shaft oil seal", replace: always, cite: {p: 143}}
   - {name: "Shift shaft oil seal", replace: always, cite: {p: 143}}

@@ -3,7 +3,6 @@ system: "Clutch, gearshift linkage and lubrication system"
 source: clymer
 chapter: 6
 section: "06/external-gearshift-linkage"
-summary: {t: "This procedure installs the external gearshift linkage and tests the shifting action.", cite: {p: 161}}
 spec_refs: ["clutch-torque:Shift cam bolt"]
 parts:
   - {name: "Threadlocking compound", replace: consumable, cite: {p: 161}}

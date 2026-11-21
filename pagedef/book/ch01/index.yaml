@@ -1,21 +1,5 @@
 title: "Chapter 1: General Information"
 pages:
-  - id: introduction
-    title: "Introduction"
-    kind: Section
-    pdf_pages: [13, 13]
-    summary:
-      - {t: "The Clymer manual covers the 1987-2006 Kawasaki KLR650. It gives maintenance, tune-up, repair and overhaul procedures in step-by-step form.", cite: {p: 13}}
-      - {t: "Chapter One gives general information on shop safety, tools and their use, service fundamentals and shop supplies.", cite: {p: 13}}
-      - {t: "Chapter Two gives methods to find the cause of a problem. Chapter Three gives the routine maintenance and the tune-up procedures.", cite: {p: 13}, ref: "03/introduction"}
-  - id: manual-organization
-    title: "Manual organization"
-    kind: Section
-    pdf_pages: [13, 13]
-    summary:
-      - {t: "The tables at the end of each chapter give specifications and capacities in U.S. standard and metric units. The most used values are also in the Quick Reference Data section at the front of the manual.", cite: {p: 13}}
-      - {t: "A step can name a heading in another chapter or section. If a sub-heading is in this section, it is in the same main heading.", cite: {p: 13}}
-      - {t: "The tables at the end of Chapter One are: Table 1, year and model code numbers. Table 2, general dimensions and weight. Table 3, technical abbreviations. Table 4, general torque specifications. Table 5, conversion formulas. Table 6, metric tap and drill sizes. Table 7, decimal and metric equivalents.", cite: {p: 13}}
   - id: warnings-cautions-and-notes
     title: "Warnings, cautions and notes"
     kind: Section
@@ -80,11 +64,11 @@ pages:
     kind: Section
     pdf_pages: [17, 20]
     summary:
-      - {t: "Most threaded fasteners have right-hand threads. The text notes a left-hand thread. Two systems specify thread dimensions, U.S. Standard and metric. Mismatched threads can damage the threads.", cite: {p: 17}}
+      - {t: "Most threaded fasteners have right-hand threads. Two systems specify thread dimensions, U.S. Standard and metric. Mismatched threads can damage the threads.", cite: {p: 17}}
       - {t: "Start all fasteners by hand to prevent cross-threading. If a fastener is hard to start or turn, find the cause before you use a wrench.", cite: {p: 17}}
-      - {t: "A metric bolt is identified by its diameter, thread pitch and length. For example, 8-1.25 X 130 is a bolt with 8 mm diameter, 1.25 mm pitch and 130 mm length. Measure bolt length as the manual shows.", cite: {p: 17}}
+      - {t: "A metric bolt is identified by its diameter, thread pitch and length. For example, 8-1.25 X 130 is a bolt with 8 mm diameter, 1.25 mm pitch and 130 mm length.", cite: {p: 17}}
       - {t: "The numbers on the top of a metric fastener show its strength. A higher number is a stronger fastener. Do not install a fastener of lower strength than the original.", cite: {p: 18}}
-      - {t: "Use an accurate torque wrench with the torque specifications. Use the general torque table for a fastener that has no specification. Torque specifications for specific parts are at the end of the chapter for that part.", cite: {p: 18}}
+      - {t: "Use an accurate torque wrench with the torque specifications. Use the general torque table for a fastener that has no specification.", cite: {p: 18}}
       - {t: "Self-locking fasteners, such as nylon insert nuts, resist vibration. Most cannot be reused. Replace them with new ones after you remove them.", cite: {p: 18}}
       - {t: "Washers are flat washers or lockwashers. Use replacement washers of the same design and quality. A cotter pin with a castellated nut secures some fasteners, for example the rear axle.", cite: {p: 19}}
       - {t: "Snap rings are machined or stamped. A machined snap ring can go in either direction. A stamped snap ring has a sharp edge and a round edge. E-clips are used where a snap ring is not practical.", cite: {p: 19}}
@@ -147,7 +131,6 @@ pages:
     summary:
       - {t: "Several months of non-use can cause deterioration of the motorcycle, mainly where temperatures change a lot. Good preparation reduces this and makes the return to service easier.", cite: {p: 38}}
       - {t: "The storage area must be dry. Keep sunlight off the motorcycle. Do not store it close to saltwater. Consider the risk of fire, theft and vandalism.", cite: {p: 38}}
-      - {t: "The storage preparation list is the minimum. It includes: wash the motorcycle, drain the fuel, change the engine oil, put oil in the cylinder, remove the battery and cover the openings.", cite: {p: 38}}
+      - {t: "At a minimum, wash the motorcycle, drain the fuel, change the engine oil, put oil in the cylinder, remove the battery and cover the openings.", cite: {p: 38}}
       - {t: "Put the motorcycle on a stand. Cover it with a cloth cover and not a plastic cover. Before you operate it again, make sure that the brakes, clutch, throttle and engine stop switch work correctly.", cite: {p: 39}}
-      - {t: "The tables at the end of the chapter give the model codes, the general torque values, conversion formulas and tap and drill sizes.", cite: {p: 41}}
     ops: [c01-storage-preparation, c01-return-to-service]

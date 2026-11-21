@@ -3,7 +3,7 @@ system: "Clutch, gearshift linkage and lubrication system"
 source: clymer
 chapter: 6
 section: "06/clutch"
-summary: {t: "This procedure installs the clutch assembly on the transmission input shaft. Lubricate the parts and the transmission shaft with engine oil during assembly, unless the step says otherwise.", cite: {p: 157}}
+summary: {t: "Lubricate the parts and the transmission shaft with engine oil during assembly, unless the step says otherwise.", cite: {p: 157}}
 spec_refs: ["clutch-torque:Clutch hub locknut", "clutch-torque:Clutch spring bolts"]
 parts:
   - {name: "Clutch hub locknut", replace: always, cite: {p: 157}}

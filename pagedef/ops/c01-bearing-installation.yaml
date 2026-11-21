@@ -3,7 +3,7 @@ system: "General information"
 source: clymer
 chapter: 1
 section: "01/repair-methods"
-summary: {t: "This procedure installs a bearing in a housing or on a shaft. Unless the instructions tell you differently, install the bearing with the mark or number of the manufacturer toward the outside.", cite: {p: 35}}
+summary: {t: "Unless the instructions tell you differently, install the bearing with the mark or number of the manufacturer toward the outside.", cite: {p: 35}}
 sections:
   - steps:
       - {t: "To install a bearing in a housing, apply pressure to the outer bearing race.", cite: {p: 36}}

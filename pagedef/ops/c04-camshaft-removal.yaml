@@ -3,7 +3,7 @@ system: "Engine top end"
 source: clymer
 chapter: 4
 section: "04/camshafts-and-cam-chain-tensioner"
-summary: {t: "This procedure removes the cam chain tensioner, the camshaft caps and the camshafts with the engine in the frame. Remove the camshafts for a valve clearance adjustment only if the valve clearance is not correct.", cite: {p: 95}}
+summary: {t: "You can remove the camshafts with the engine in the frame. Remove the camshafts for a valve clearance adjustment only if the valve clearance is not correct.", cite: {p: 95}}
 parts:
   - {name: "Cam chain tensioner gasket", replace: always, cite: {p: 99}, note: "Install a new gasket when you install the tensioner."}
   - {name: "Camshaft cap dowels", replace: inspect, cite: {p: 96}, note: "Each cap has two dowels. Keep them with their caps."}

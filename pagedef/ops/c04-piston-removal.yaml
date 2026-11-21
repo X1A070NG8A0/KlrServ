@@ -3,7 +3,7 @@ system: "Engine top end"
 source: clymer
 chapter: 4
 section: "04/piston-and-piston-rings"
-summary: {t: "This procedure removes the piston from the connecting rod. The piston is aluminum alloy with three rings. A chrome-plated steel piston pin and two circlips hold it on the small end of the connecting rod.", cite: {p: 117}}
+summary: {t: "The piston is aluminum alloy with three rings. A chrome-plated steel piston pin and two circlips hold it on the small end of the connecting rod.", cite: {p: 117}}
 parts:
   - {name: "Piston pin circlips", replace: always, cite: {p: 118}, note: "Discard the circlips. Install new circlips during assembly."}
   - {name: "Piston pin puller, part No. 57001-910", replace: consumable, cite: {p: 118}, note: "Special tool. Available from a Kawasaki dealership."}

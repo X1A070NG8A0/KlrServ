@@ -5,7 +5,6 @@ pages:
     kind: Section
     pdf_pages: [261, 263]
     summary:
-      - {t: "This chapter gives the service procedures for the front suspension and steering parts. These are the handlebar, the steering head and the fork.", cite: {p: 261}}
       - {t: "To change the riding position only, loosen the lower holder cap bolts. Tilt the handlebar and tighten the bolts again.", cite: {p: 261}}
     ops: [c12-handlebar-removal, c12-handlebar-disassembly, c12-handlebar-inspection]
   - id: steering-stem-and-head
@@ -30,5 +29,4 @@ pages:
     pdf_pages: [270, 278]
     summary:
       - {t: "The fork service procedures need special tools. Rebuild one fork leg before you rebuild the other. Do not mix the parts of the two legs.", cite: {p: 270}}
-      - {t: "The tables at the end of the chapter give the specifications, the fork oil data and the torque values.", cite: {p: 278}}
     ops: [c12-fork-disassembly, c12-fork-inspection, c12-fork-assembly]

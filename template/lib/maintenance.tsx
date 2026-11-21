@@ -66,9 +66,6 @@ function BinderHtml({ m, b, current, every }: { m: Model; b: Binder; current: nu
             </div>
           );
         })}
-        <p class="hint">
-          Each procedure has its parts and tools. <span class="ticks-hint">This browser keeps the ticks.</span>
-        </p>
       </div>
     </section>
   );

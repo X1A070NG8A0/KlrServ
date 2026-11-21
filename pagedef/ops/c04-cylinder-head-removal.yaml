@@ -3,7 +3,7 @@ system: "Engine top end"
 source: clymer
 chapter: 4
 section: "04/cylinder-head"
-summary: {t: "This procedure removes the cylinder head with the engine in the frame. The cylinder head comes out of the left side of the engine.", cite: {p: 103}}
+summary: {t: "You can remove the cylinder head with the engine in the frame. The cylinder head comes out of the left side of the engine.", cite: {p: 103}}
 parts:
   - {name: "Cylinder head gasket", replace: always, cite: {p: 106}, note: "Install a new gasket."}
   - {name: "Valve lifter shims", replace: inspect, cite: {p: 103}, note: "Mark the location of each shim. The shims can have different thickness."}

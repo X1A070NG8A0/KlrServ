@@ -3,7 +3,6 @@ system: "Engine top end"
 source: clymer
 chapter: 4
 section: "04/cylinder-head"
-summary: {t: "This procedure installs the cylinder head, tightens the head fasteners and installs the parts that you removed from the head.", cite: {p: 106}}
 spec_refs: ["top-end-torque:Cylinder head bolts (sequence in text)/10 mm, first stage", "top-end-torque:Cylinder head bolts (sequence in text)/10 mm, second stage", "top-end-torque:Cylinder head nuts", "top-end-torque:Cylinder head bolts (sequence in text)/8 mm", "top-end-torque:Cylinder head bolts (sequence in text)/6 mm", "top-end-torque:Oil pipe/Banjo bolts", "top-end-torque:Oil pipe/Retainer bolt"]
 parts:
   - {name: "Cylinder head gasket", replace: always, cite: {p: 106}}

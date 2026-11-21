@@ -3,7 +3,7 @@ system: "Cooling system"
 source: clymer
 chapter: 10
 section: "10/water-temperature-sending-unit"
-summary: {t: "This procedure removes the water temperature sending unit from the top of the cylinder head and installs it again.", cite: {p: 238}}
+summary: {t: "The water temperature sending unit is on top of the cylinder head.", cite: {p: 238}}
 spec_refs: ["cooling-torque:Water temperature sending unit"]
 parts:
   - {name: "Waterproof sealant", replace: consumable, cite: {p: 238}}

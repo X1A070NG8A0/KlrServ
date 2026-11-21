@@ -3,7 +3,6 @@ system: "electrical system"
 source: clymer
 chapter: 9
 section: "09/headlight"
-summary: {t: "This procedure adjusts the vertical and horizontal alignment of the headlight.", cite: {p: 233}}
 sections:
   - steps:
       - {t: "To adjust the vertical alignment, loosen the bolt at the rear of the light, inside the fairing.", cite: {p: 233}, figs: [73]}

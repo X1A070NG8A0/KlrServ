@@ -4,7 +4,7 @@ source: clymer
 chapter: 3
 section: "03/periodic-lubrication"
 summary:
-  t: "Make sure that the oil level is correct at the sight glass on the right side of the engine. Change the oil and filter at the Table 1 intervals. In extreme conditions (hot, cold, wet or dusty), change the oil more often."
+  t: "Make sure that the oil level is correct at the sight glass on the right side of the engine. Change the oil and filter at the scheduled intervals. In extreme conditions (hot, cold, wet or dusty), change the oil more often."
   cite: {p: 59}
 spec_refs:
   - "fluids:Engine oil"

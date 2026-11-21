@@ -3,7 +3,7 @@ system: "Engine top end"
 source: clymer
 chapter: 4
 section: "04/camshafts-and-cam-chain-tensioner"
-summary: {t: "This procedure uses a Plastigauge kit to measure the oil clearance between each camshaft and the cap bearing surface. You install the parts temporarily with a strip of Plastigauge under each cap.", cite: {p: 102}}
+summary: {t: "You measure the oil clearance between each camshaft and the cap bearing surface with a Plastigauge kit. You install the parts temporarily with a strip of Plastigauge under each cap.", cite: {p: 102}}
 spec_refs: ["top-end:Camshaft/Bearing oil clearance", "top-end-torque:Camshaft cap bolts"]
 parts:
   - {name: "Plastigauge kit", replace: consumable, cite: {p: 102}}

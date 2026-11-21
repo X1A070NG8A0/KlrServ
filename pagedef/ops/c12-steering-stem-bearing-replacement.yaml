@@ -3,7 +3,7 @@ system: "Front suspension and steering"
 source: clymer
 chapter: 12
 section: "12/steering-stem-and-head"
-summary: {t: "The steering stem bearing is a press fit on the steering stem. Use this procedure to replace it.", cite: {p: 265}}
+summary: {t: "The steering stem bearing is a press fit on the steering stem.", cite: {p: 265}}
 parts:
   - {name: "Steering stem bearing", replace: always, cite: {p: 266}}
   - {name: "Steering stem bearing seal", replace: always, cite: {p: 266}}

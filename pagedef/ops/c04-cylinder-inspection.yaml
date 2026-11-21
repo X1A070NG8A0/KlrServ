@@ -3,7 +3,7 @@ system: "Engine top end"
 source: clymer
 chapter: 4
 section: "04/cylinder"
-summary: {t: "This procedure examines the cylinder for damage and measures the bore for wear. If the bore is not in the service limit, a dealership or machine shop must rebore and hone the cylinder.", cite: {p: 115}}
+summary: {t: "If the bore is not in the service limit, a dealership or machine shop must rebore and hone the cylinder.", cite: {p: 115}}
 spec_refs: ["top-end:Cylinder/Inside diameter"]
 parts:
   - {name: "Cylinder", replace: inspect, cite: {p: 115}, note: "If the bore is damaged or out of limit, rebore the cylinder. If the wear is more than the largest replacement piston size, replace the cylinder liner. Use a standard piston and ring set."}

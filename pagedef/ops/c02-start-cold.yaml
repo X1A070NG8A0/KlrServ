@@ -3,7 +3,7 @@ system: "troubleshooting"
 source: clymer
 chapter: 2
 section: "02/starting-the-engine"
-summary: {t: "This procedure starts a cold engine. Do the pre-ride inspection first.", cite: {p: 45}}
+summary: {t: "Do the pre-ride inspection first.", cite: {p: 45}}
 sections:
   - steps:
       - {t: "Do the pre-ride inspection.", cite: {p: 43}, op: "c03-pre-ride-inspection"}

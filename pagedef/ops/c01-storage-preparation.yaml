@@ -3,7 +3,7 @@ system: "General information"
 source: clymer
 chapter: 1
 section: "01/storage"
-summary: {t: "Several months of non-use can cause deterioration of the motorcycle. This list is the minimum preparation for storage. The amount of preparation depends on the length of non-use, the storage area and your preference.", cite: {p: 38}}
+summary: {t: "Several months of non-use can cause deterioration of the motorcycle. The amount of preparation depends on the length of non-use, the storage area and your preference.", cite: {p: 38}}
 parts:
   - {name: "Engine oil", replace: always, cite: {p: 38}, note: "Drain the engine oil and fill the engine with the recommended oil."}
   - {name: "Commercial protectant", replace: consumable, cite: {p: 39}}

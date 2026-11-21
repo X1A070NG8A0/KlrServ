@@ -3,7 +3,7 @@ system: "Engine top end"
 source: clymer
 chapter: 4
 section: "04/camshafts-and-cam-chain-tensioner"
-summary: {t: "This procedure examines the camshaft caps, the oil pipe and the O-rings. A convenient time to replace the O-rings is during a valve adjustment, when the camshafts are removed.", cite: {p: 101}}
+summary: {t: "A convenient time to replace the O-rings is during a valve adjustment, when the camshafts are removed.", cite: {p: 101}}
 parts:
   - {name: "Camshaft cap and cylinder head set", replace: inspect, cite: {p: 101}, note: "If the bearing surface of a cap or of the cylinder head has damage, replace the caps and the cylinder head as a set. They are available only as one part number."}
   - {name: "Oil pipe O-rings", replace: inspect, cite: {p: 102}, note: "Replace the O-rings if the pipe is loose in the caps or if the O-rings have damage."}

@@ -3,7 +3,7 @@ system: "General information"
 source: clymer
 chapter: 1
 section: "01/repair-methods"
-summary: {t: "This procedure removes a hose that is difficult to remove. Do not use too much force on the hose or the fitting.", cite: {p: 34}}
+summary: {t: "Do not use too much force on a hose or on its fitting.", cite: {p: 34}}
 sections:
   - steps:
       - {t: "Remove the hose clamp.", cite: {p: 34}}

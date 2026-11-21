@@ -3,7 +3,7 @@ system: "Rear suspension"
 source: clymer
 chapter: 13
 section: "13/swing-arm-service"
-summary: {t: "This procedure replaces the needle bearings in the swing arm. Use a press or use hand tools with a drawbolt. Read both methods to find the best one. If you are not sure, let a dealer or a machine shop replace the bearings.", cite: {p: 292}}
+summary: {t: "Use a press or use hand tools with a drawbolt. Read both methods to find the best one. If you are not sure, let a dealer or a machine shop replace the bearings.", cite: {p: 292}}
 parts:
   - {name: "Swing arm needle bearings", replace: always, cite: {p: 292}, note: "For the lever arm bore, replace both bearings. For the swing arm pivot bores, replace the bearing in each bore. Do not mix new and worn bearings on the same pivot bolt."}
   - {name: "Penetrating oil", replace: consumable, cite: {p: 293}}

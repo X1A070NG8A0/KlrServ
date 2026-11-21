@@ -3,7 +3,7 @@ system: "Cooling system"
 source: clymer
 chapter: 10
 section: "10/water-pump"
-summary: {t: "This procedure removes the water pump cover and the impeller, examines the parts and installs them again. You can remove the cover without removal of the right crankcase cover.", cite: {p: 239}}
+summary: {t: "You can remove the cover without removal of the right crankcase cover.", cite: {p: 239}}
 spec_refs: ["cooling-torque:Impeller nut"]
 parts:
   - {name: "Water pump cover gasket", replace: always, cite: {p: 240}}

@@ -3,7 +3,7 @@ system: "Engine top end"
 source: clymer
 chapter: 4
 section: "04/piston-and-piston-rings"
-summary: {t: "This procedure installs the piston on the connecting rod with new circlips. The arrow on the piston crown must point forward.", cite: {p: 122}}
+summary: {t: "Install the piston with new circlips. The arrow on the piston crown must point forward.", cite: {p: 122}}
 parts:
   - {name: "Piston pin circlips", replace: always, cite: {p: 122}, note: "Use new circlips."}
   - {name: "Engine oil", replace: consumable, cite: {p: 122}}

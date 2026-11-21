@@ -3,7 +3,7 @@ system: "Clutch, gearshift linkage and lubrication system"
 source: clymer
 chapter: 6
 section: "06/external-gearshift-linkage"
-summary: {t: "This procedure removes the complete external gearshift linkage. The linkage is behind the right side cover and the clutch partly covers it. You can examine the shift shaft assembly without removal of the clutch.", cite: {p: 159}}
+summary: {t: "The linkage is behind the right side cover and the clutch partly covers it. You can examine the shift shaft assembly without removal of the clutch.", cite: {p: 159}}
 sections:
   - steps:
       - {t: "Remove the right crankcase cover.", cite: {p: 159}, op: c06-right-crankcase-cover, figs: [43]}

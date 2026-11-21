@@ -3,7 +3,7 @@ system: "Fuel system"
 source: clymer
 chapter: 8
 section: "08/carburetor"
-summary: {t: "This procedure disassembles the carburetor into its parts and assembles it again. Clean and examine the parts before you assemble the carburetor.", cite: {p: 186}}
+summary: {t: "Clean and examine the parts before you assemble the carburetor.", cite: {p: 186}}
 spec_refs: ["carburetor:Pilot mixture screw turns out", "carburetor:Float height"]
 parts:
   - {name: "Carburetor O-rings", replace: always, cite: {p: 188}, note: "Install new O-rings and lubricate them."}

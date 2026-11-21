@@ -3,7 +3,6 @@ system: "Cooling system"
 source: clymer
 chapter: 10
 section: "10/radiator-and-fan"
-summary: {t: "This procedure shows how to examine the radiator for damaged fins, corrosion and restricted flow.", cite: {p: 237}}
 parts:
   - {name: "Radiator", replace: inspect, cite: {p: 237}, note: "Replace the radiator if more than 20 percent of the cooling area is damaged."}
 sections:

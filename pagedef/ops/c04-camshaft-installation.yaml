@@ -3,7 +3,6 @@ system: "Engine top end"
 source: clymer
 chapter: 4
 section: "04/camshafts-and-cam-chain-tensioner"
-summary: {t: "This procedure installs and times the camshafts, the upper cam chain guide, the camshaft caps and the cam chain tensioner.", cite: {p: 97}}
 spec_refs: ["top-end-torque:Camshaft cap bolts", "top-end-torque:Upper chain guide/Outer bolts", "top-end-torque:Upper chain guide/Inner bolt"]
 parts:
   - {name: "Cam chain tensioner gasket", replace: always, cite: {p: 99}}

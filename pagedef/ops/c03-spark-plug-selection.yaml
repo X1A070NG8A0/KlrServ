@@ -5,7 +5,7 @@ system: "lubrication, maintenance and tune-up"
 source: clymer
 chapter: 3
 section: "03/spark-plugs"
-summary: {t: "Table 3 gives the standard or resistor-type spark plug and the gap. The heat range and the reach of the plug must be correct for the engine.", cite: {p: 85}}
+summary: {t: "The heat range and the reach of the plug must be correct for the engine.", cite: {p: 85}}
 spec_refs:
   - "tune-up:Spark plug/Type"
   - "tune-up:Spark plug/Gap"

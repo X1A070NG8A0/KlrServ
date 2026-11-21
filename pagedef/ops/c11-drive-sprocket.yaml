@@ -3,7 +3,7 @@ system: "Wheels, tires and drive chain"
 source: clymer
 chapter: 11
 section: "11/sprockets"
-summary: {t: "Two methods have locked the drive sprocket to the output shaft. The 1987-1996 models, to engine serial number KL650AE032209, use a locking plate and two bolts. Later models, which include the 2006 model, use a lockwasher and a nut. This procedure is for the nut.", cite: {p: 255}}
+summary: {t: "Two methods have locked the drive sprocket to the output shaft. The 1987-1996 models, to engine serial number KL650AE032209, use a locking plate and two bolts. Later models, which include the 2006 model, use a lockwasher and a nut.", cite: {p: 255}}
 spec_refs: ["wheel-drive-torque:Drive sprocket/Nut"]
 parts:
   - {name: "Drive sprocket lockwasher", replace: always, cite: {p: 256}}

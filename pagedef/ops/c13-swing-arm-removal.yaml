@@ -3,7 +3,7 @@ system: "Rear suspension"
 source: clymer
 chapter: 13
 section: "13/swing-arm"
-summary: {t: "This procedure removes the swing arm from the frame and installs it again. To remove the linkage parts for service, loosen all pivot bolts before you remove the swing arm.", cite: {p: 287}}
+summary: {t: "To remove the linkage parts for service, loosen all pivot bolts before you remove the swing arm.", cite: {p: 287}}
 spec_refs: ["rear-suspension-torque:Swing arm pivot bolt"]
 parts:
   - {name: "Molydisulfide grease or waterproof grease", replace: consumable, cite: {p: 289}}

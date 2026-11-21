@@ -3,7 +3,7 @@ system: "Wheels, tires and drive chain"
 source: clymer
 chapter: 11
 section: "11/tire-changing"
-summary: {t: "This procedure removes a tire and the inner tube from the rim. Work over a pad to prevent damage to the wheel assembly.", cite: {p: 257}}
+summary: {t: "Work over a pad to prevent damage to the wheel assembly.", cite: {p: 257}}
 parts:
   - {name: "Inner tube", replace: inspect, cite: {p: 257}, note: "It is common practice to replace the tube when you install a new tire."}
 sections:

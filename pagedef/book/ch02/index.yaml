@@ -59,7 +59,7 @@ pages:
     kind: Section
     pdf_pages: [49, 49]
     summary:
-      - {t: "Chapter Nine gives the tests for the starting system, the ignition system, the charging system, the fan system and the switches. Do the starting system checks in this chapter before you disassemble and bench test components.", cite: {p: 49}}
+      - {t: "Do the starting system checks before you disassemble and bench test components.", cite: {p: 49}}
       - {t: "Before you test a component, examine its electrical connections for corrosion and for bent or loose connectors. Most connectors have a lock. If the lock is not fully closed, the connection can fail.", cite: {p: 49}}
       - {t: "If a connector is not locked, pull it apart and clean the fittings before you connect it again. Use the wiring diagrams in Chapter Nine and at the back of the manual.", cite: {p: 49}}
     ops: []

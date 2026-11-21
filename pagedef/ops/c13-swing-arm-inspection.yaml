@@ -3,7 +3,7 @@ system: "Rear suspension"
 source: clymer
 chapter: 13
 section: "13/swing-arm-service"
-summary: {t: "This procedure cleans and examines the swing arm, the guides and the pivot bearings. It also installs the seals and pivot spacers. Remove the swing arm first.", cite: {p: 290}}
+summary: {t: "Remove the swing arm first.", cite: {p: 290}}
 parts:
   - {name: "Molydisulfide grease or waterproof grease", replace: consumable, cite: {p: 289}, note: "Kawasaki recommends molydisulfide grease for all swing arm bearings. Waterproof grease is durable and resists washout. Which one to use is the choice of the rider."}
   - {name: "Swing arm pivot bolt and nut", replace: inspect, cite: {p: 291}, note: "Replace them if they have rounded flats."}

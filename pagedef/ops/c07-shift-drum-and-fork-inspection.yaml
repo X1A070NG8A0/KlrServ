@@ -3,7 +3,7 @@ system: "Transmission and internal shift mechanism"
 source: clymer
 chapter: 7
 section: "07/shift-drum-and-forks"
-summary: {t: "This procedure shows how to examine the shift drum, the shift forks and the fork shafts. Replace parts that are worn or not within the specification.", cite: {p: 181}}
+summary: {t: "Replace parts that are worn or not within the specification.", cite: {p: 181}}
 spec_refs: ["transmission:Shift drum groove width", "transmission:Shift fork guide pin diameter", "transmission:Shift fork claw thickness"]
 parts:
   - {name: "Shift drum, shift forks and fork shafts", replace: inspect, cite: {p: 181}, note: "Replace parts that are worn or out of limit."}

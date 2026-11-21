@@ -3,7 +3,7 @@ system: "General information"
 source: clymer
 chapter: 1
 section: "01/repair-methods"
-summary: {t: "This procedure loosens a fastener that does not turn. Do not apply heat unless the instructions tell you to do so.", cite: {p: 33}}
+summary: {t: "Do not apply heat to a fastener that does not turn, unless the instructions tell you to do so.", cite: {p: 33}}
 parts:
   - {name: "Penetrating oil", replace: consumable, cite: {p: 33}, note: "For example Liquid Wrench or WD-40."}
 sections:

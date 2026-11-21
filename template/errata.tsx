@@ -1,10 +1,10 @@
 // The errata: owner reports, source disagreements, and values that the manuals leave out or misprint.
-import { html, template, type Html } from "ggass";
+import { template, type Html } from "ggass";
 import { FilterBox, lower, opLink, supplementCite } from "./lib/render.tsx";
 import { siteModel } from "./lib/site.ts";
 
 export default template({
-  fields: { intro: html() },
+  fields: {},
   render: (page, site) => {
     const m = siteModel(site);
     const conflicts: Html[] = [];
@@ -45,7 +45,6 @@ export default template({
           <a href="/book/">Full reference</a>
         </p>
         <h1>{page.title}</h1>
-        <p>{page.intro}</p>
         <FilterBox items=".errata > li" label="Filter the errata" placeholder="for example snap ring, torque, thermostat" />
         <h2>Owner reports from klr650.net</h2>
         <ul class="errata">

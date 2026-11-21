@@ -3,7 +3,7 @@ system: "electrical system"
 source: clymer
 chapter: 9
 section: "09/water-temperature-gauge-and-sending-unit"
-summary: {t: "This test needs heated water to simulate operating conditions. Read the procedure first so that you have the correct equipment to do the test safely.", cite: {p: 231}}
+summary: {t: "You need heated water to simulate operating conditions. Read all the steps first, so that you have the correct equipment to do the test safely.", cite: {p: 231}}
 spec_refs: ["electrical-test:Water temperature sender resistance/At 80° C (176° F)", "electrical-test:Water temperature sender resistance/At 100° C (212° F)", "electrical-torque:Water temperature sender"]
 sections:
   - steps:

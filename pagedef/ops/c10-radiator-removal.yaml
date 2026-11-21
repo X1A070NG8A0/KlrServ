@@ -3,7 +3,7 @@ system: "Cooling system"
 source: clymer
 chapter: 10
 section: "10/radiator-and-fan"
-summary: {t: "This procedure removes the radiator and the fan switch, and installs them again. The fan switch is at the bottom of the radiator.", cite: {p: 236}}
+summary: {t: "The fan switch is at the bottom of the radiator.", cite: {p: 236}}
 spec_refs: ["cooling-torque:Radiator fan switch"]
 parts:
   - {name: "Radiator hoses", replace: inspect, cite: {p: 236}, note: "Replace hoses that are hard, cracked or deteriorated. Replace hoses that you cut to remove them."}

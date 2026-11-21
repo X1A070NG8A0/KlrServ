@@ -3,7 +3,7 @@ system: "Front suspension and steering"
 source: clymer
 chapter: 12
 section: "12/fork-removal-and-installation"
-summary: {t: "This procedure removes the fork legs from the motorcycle. Removal of the fairing, fender, fuel tank and radiator covers is not necessary. But when you remove some of these parts, it is easier to get to and to handle the fork.", cite: {p: 268}}
+summary: {t: "Removal of the fairing, fender, fuel tank and radiator covers is not necessary. But when you remove some of these parts, it is easier to get to and to handle the fork.", cite: {p: 268}}
 parts:
   - {name: "Fork leg drain screw O-ring", replace: inspect, cite: {p: 268}}
   - {name: "Bridge pinch bolts", replace: inspect, cite: {p: 269}, note: "Replace damaged bolts."}

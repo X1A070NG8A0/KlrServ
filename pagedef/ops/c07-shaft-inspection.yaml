@@ -3,7 +3,7 @@ system: "Transmission and internal shift mechanism"
 source: clymer
 chapter: 7
 section: "07/transmission-inspection"
-summary: {t: "This procedure shows how to examine the shafts and the parts on them. It applies to all models. Some examinations do not apply to some shaft designs.", cite: {p: 179}}
+summary: {t: "The examinations apply to all models. Some examinations do not apply to some shaft designs.", cite: {p: 179}}
 spec_refs: ["transmission:Gear groove width"]
 parts:
   - {name: "Gears, washers, bearings and shafts", replace: inspect, cite: {p: 180}, note: "Replace a worn or damaged gear and also the gear that it meshes with on the other shaft."}

@@ -3,7 +3,7 @@ system: "Wheels, tires and drive chain"
 source: clymer
 chapter: 11
 section: "11/rim-and-spoke-service"
-summary: {t: "This procedure shows how to examine the rim and the spokes. For the scheduled spoke check, see the Chapter Three procedure.", cite: {p: 251}, op: spokes}
+summary: {t: "For the scheduled spoke check, do the spoke tension procedure.", cite: {p: 251}, op: spokes}
 spec_refs: ["wheels:Wheel rim runout (radial and lateral)", "wheel-drive-torque:Spokes"]
 parts:
   - {name: "Spoke and nipple", replace: inspect, cite: {p: 252}, note: "Replace a spoke and its nipple if the spoke is seized and does not turn smoothly after you apply penetrating lubricant."}

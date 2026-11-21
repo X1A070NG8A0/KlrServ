@@ -3,7 +3,7 @@ system: "troubleshooting"
 source: clymer
 chapter: 2
 section: "02/engine-spark-test"
-summary: {t: "This test shows if the ignition system sends power to the spark plug. It shows quickly if the problem is in the electrical system or the fuel system.", cite: {p: 46}}
+summary: {t: "A spark test shows if the ignition system sends power to the spark plug. It shows quickly if the problem is in the electrical system or the fuel system.", cite: {p: 46}}
 sections:
   - steps:
       - {kind: caution, t: "Ground the spark plug lead before you crank the engine. If you do not, you can cause damage to the CDI circuitry.", cite: {p: 46}}

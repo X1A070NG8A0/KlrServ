@@ -3,7 +3,7 @@ system: "Fuel system"
 source: clymer
 chapter: 8
 section: "08/carburetor-cleaning-and-inspection"
-summary: {t: "This procedure cleans the carburetor parts and shows how to examine each part for wear and damage. Replace worn or damaged parts.", cite: {p: 189}}
+summary: {t: "Replace worn or damaged parts.", cite: {p: 189}}
 parts:
   - {name: "Carburetor cleaner", replace: consumable, cite: {p: 189}, note: "Use a commercial carburetor cleaner that does not damage rubber and plastic parts."}
   - {name: "Carburetor O-rings", replace: always, cite: {p: 189}, note: "Replace all O-rings and gaskets when you rebuild the carburetor."}

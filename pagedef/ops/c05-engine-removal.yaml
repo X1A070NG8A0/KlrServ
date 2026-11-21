@@ -3,7 +3,7 @@ system: "Engine lower end"
 source: clymer
 chapter: 5
 section: "05/engine"
-summary: {t: "This procedure removes the engine from the frame. You must remove the engine to split the crankcase. Remove the top end and the parts in the crankcase covers before you start, or while the engine is in the frame.", cite: {p: 126}}
+summary: {t: "You must remove the engine to split the crankcase. Remove the top end and the parts in the crankcase covers before you start, or while the engine is in the frame.", cite: {p: 126}}
 sections:
   - title: "Preparation"
     steps:

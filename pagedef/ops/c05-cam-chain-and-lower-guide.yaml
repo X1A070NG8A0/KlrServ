@@ -3,7 +3,7 @@ system: "Engine lower end"
 source: clymer
 chapter: 5
 section: "05/cam-chain-and-lower-guide"
-summary: {t: "This procedure removes the cam chain and the lower guide, examines them and installs them again. If you will remove the engine balancer, you can remove the cam chain and the lower guide during the balancer procedure.", cite: {p: 128}}
+summary: {t: "If you will remove the engine balancer, you can remove the cam chain and the lower guide during the balancer procedure.", cite: {p: 128}}
 spec_refs: ["lower-end:Camshaft chain length (20 links/21 pins)", "lower-end-torque:Cam chain guide bolt"]
 parts:
   - {name: "Cam chain", replace: inspect, cite: {p: 129}, note: "Replace the chain if it is longer than the service limit."}

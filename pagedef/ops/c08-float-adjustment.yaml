@@ -3,7 +3,7 @@ system: "Fuel system"
 source: clymer
 chapter: 8
 section: "08/float-adjustment"
-summary: {t: "This procedure measures the float height and adjusts it. A low float height gives a low fuel level and a lean mixture. A high float height gives a high fuel level and a rich mixture.", cite: {p: 192}}
+summary: {t: "A low float height gives a low fuel level and a lean mixture. A high float height gives a high fuel level and a rich mixture.", cite: {p: 192}}
 spec_refs: ["carburetor:Float height"]
 sections:
   - steps:

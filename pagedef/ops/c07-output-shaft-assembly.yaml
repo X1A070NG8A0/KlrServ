@@ -3,7 +3,7 @@ system: "Transmission and internal shift mechanism"
 source: clymer
 chapter: 7
 section: "07/output-shaft"
-summary: {t: "This procedure installs the parts on the output shaft. The direction of each part is given in relation to the splined end of the shaft, where the drive sprocket is installed.", cite: {p: 177}}
+summary: {t: "The direction of each part is in relation to the splined end of the shaft, where the drive sprocket is installed.", cite: {p: 177}}
 parts:
   - {name: "Snap rings", replace: always, cite: {p: 177}, note: "Have new snap rings ready before you start."}
   - {name: "Engine oil", replace: consumable, cite: {p: 177}}
@@ -33,7 +33,7 @@ sections:
       - {t: "Wrap the assembly and store it until you install it in the crankcase.", cite: {p: 178}, ref: "05/crankcase"}
   - title: "Early shaft (to KL650AE032209)"
     steps:
-      - {kind: note, t: "This shaft does not fit this bike. The steps are for reference.", cite: {p: 176}}
+      - {kind: note, t: "This shaft does not fit this bike.", cite: {p: 176}}
       - {t: "If you wish, hold the splined end of the shaft in a padded vise. Do not let the vise damage the shaft.", cite: {p: 177}}
       - {t: "Clean and dry all parts. Lubricate all parts with engine oil.", cite: {p: 177}}
       - {t: "Install second gear. Put the side with the gear dog recesses out, away from the splined end.", cite: {p: 176}}
