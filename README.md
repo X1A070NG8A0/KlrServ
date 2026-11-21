@@ -68,7 +68,7 @@ layout.
 | --- | --- | --- |
 | `index.yaml` | `home` | `/` |
 | `maintenance.yaml`, with one child page for each service tab | `maintenance`, `service` | `/maintenance.html`, `/maintenance/500.html`, `/maintenance/every-3000.html` |
-| `repairs.yaml`, `tools.yaml`, `specs.yaml`, `verify.yaml` | `repairs`, `tools`, `specs`, `page` | `/repairs.html`, `/tools.html`, `/specs.html`, `/verify.html` |
+| `repairs.yaml`, `tools.yaml`, `specs.yaml` | `repairs`, `tools`, `specs` | `/repairs.html`, `/tools.html`, `/specs.html` |
 | `book/index.yaml`, `book/errata.yaml` | `book`, `errata` | `/book/`, `/book/errata.html` |
 | `book/chNN/index.yaml`, with one child page for each section | `chapter`, `section` | `/book/ch04/`, `/book/ch04/cylinder-head-cover.html` |
 | `ops/<id>.yaml` | `procedure` | `/ops/<id>.html` |

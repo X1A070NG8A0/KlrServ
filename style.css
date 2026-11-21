@@ -48,7 +48,6 @@
   tr.this-year { background: var(--this-year); }
   /* Other model years: the muted color (about 5:1), not opacity, so the text stays readable. */
   tr.other-year, tr.other-year *, .spec.other-year, .spec.other-year * { color: var(--muted); }
-  .flag { font: .7rem var(--mono); color: var(--second); border: 1px solid var(--second); padding: 0 .25rem; }
   .std { white-space: nowrap; }
   .limit { white-space: nowrap; color: var(--accent); }
   .spec b { font-weight: 600; }

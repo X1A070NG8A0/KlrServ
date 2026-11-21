@@ -47,5 +47,4 @@ sections:
       - {t: "Set the meter to DC volts (25-50 volt range). Connect the negative probe to the orange wire and the positive probe to the brown wire of the relay plug.", cite: {p: 231}}
       - {t: "Turn the ignition on. Move the signal switch to the left position and then to the right position. The meter must show battery voltage (12 volts) in both positions.", cite: {p: 231}}
       - {t: "If the meter does not show battery voltage, examine the switch and the wiring.", cite: {p: 231}}
-      - {t: "The left handlebar switch unit holds the high/low beam switch, the turn signal switch and the horn button. Do a continuity test on the color-coded wires in the connector. The connector is in front of the gauges, behind the cover.", cite: {p: 233}, figs: [75],
-         gap: "The Continuity Testing Guidelines and the switch continuity charts in Chapter Nine are not transcribed yet."}
+      - {t: "The left handlebar switch unit holds the high/low beam switch, the turn signal switch and the horn button. Do a continuity test on the color-coded wires in the connector. The connector is in front of the gauges, behind the cover.", cite: {p: 233}, figs: [75], op: c09-left-handlebar-switch-test}

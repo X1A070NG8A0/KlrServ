@@ -100,15 +100,7 @@ export function SpecTableHtml({ m, t, filter }: { m: Pick<Model, "sources">; t: 
         <tbody>
           {t.rows.map((r) => (
             <tr class={`row${yearClass(r)}`} data-search={filter ? lower(`${t.title} ${r.group ?? ""} ${r.item}`) : undefined}>
-              <th scope="row">
-                {raw(rowLabel(r))}
-                {r.realigned && (
-                  <>
-                    {" "}
-                    <span class="flag" title="In this copy the value is on the heading line. It was moved down and compared with Clymer.">moved</span>
-                  </>
-                )}
-              </th>
+              <th scope="row">{raw(rowLabel(r))}</th>
               <td>{raw(specValue(r, t.format))}</td>
             </tr>
           ))}
@@ -265,7 +257,7 @@ function StepHtml({ m, st, src, chapter, shown }: { m: Model; st: Step; src: str
         <Deps m={m} x={st} />
       </p>
       {st.conflict && <Conflict m={m} st={st} src={src} />}
-      {st.gap && <p class="gap">Gap: {st.gap}</p>}
+      {st.gap && <p class="gap">{st.gap}</p>}
       {diagram && <DiagramHtml m={m} d={diagram} shown={shown} />}
       {figs.length > 0 && <div class="figs">{figs.map((f) => photo(f.chapter, f.n, f.url))}</div>}
     </li>

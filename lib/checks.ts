@@ -6,7 +6,6 @@
 // ASD-STE100.
 import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { basename, dirname, join, relative, sep } from "node:path";
-import { esc } from "ggass";
 import YAML from "yaml";
 import { findSpec, makeModel, nn, pad, serviceMiles, type Cite, type Model, type PageInput, type Section, type Step } from "./model.ts";
 
@@ -334,9 +333,3 @@ export function printReport(r: Report, full: boolean): void {
   }
   if (r.summary) console.log(r.summary);
 }
-
-// The lists for the page /verify.html. GGASS gives IDs to headings before
-// the step adds this HTML, so the headings bring their own.
-export const reportHtml = (r: Report): string =>
-  `<h2 id="warnings">Warnings (${r.warnings.length})</h2><ul>${r.warnings.map((w) => `<li>${esc(w)}</li>`).join("")}</ul>
-  <h2 id="number-misses">Numbers not found on the cited page (${r.misses.length})</h2><ul>${r.misses.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>`;

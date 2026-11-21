@@ -22,6 +22,5 @@ sections:
            ]}}
   - title: "Installation of the Thermo-Bob"
     steps:
-      - {kind: note, t: "The Thermo-Bob is an aftermarket modification. It is not a manual procedure. Use the instructions of the kit for the installation. To remove the stock thermostat, do the thermostat procedure. To drain and fill the cooling system, do the coolant procedure.", cite: {s: clymer, p: 71}, op: c10-thermostat-removal,
-         gap: "No source in this wiki gives written steps to install the Thermo-Bob. The saved video thread (pagedef/threads/thermobob-video.yaml) has no written steps."}
+      - {kind: note, t: "The Thermo-Bob is an aftermarket modification. It is not a manual procedure. Use the instructions of the kit for the installation. To remove the stock thermostat, do the thermostat procedure. To drain and fill the cooling system, do the coolant procedure.", cite: {s: clymer, p: 71}, op: c10-thermostat-removal,}
       - {t: "To drain and fill the cooling system, do the coolant procedure.", cite: {s: clymer, p: 71}, op: coolant-replace}

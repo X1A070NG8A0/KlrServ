@@ -22,7 +22,7 @@ sections:
              {t: "\"Just back off the adjuster bolt 1/2 turn and whack the side of the alternator cover with a wood mallet and then re-torque the bolt to 69 in Lbs\"", cite: {s: forum, id: doohickey-believer, post: 7}}
            ]}}
       - {t: "Tighten the tensioner bolt.", cite: {p: 68},
-         gap: "Chapter Three of Clymer and the Kawasaki KLR600 procedure do not give a torque for the tensioner bolt here. The 69 in-lb value above is from a forum post. It is not a manual value."}
+         gap: "No manual gives a torque for this bolt. The 69 in-lb value above comes from a forum post."}
       - {t: "Install the rubber plug.", cite: {p: 68}}
       - {t: "If you removed the skid plate, install it.", cite: {p: 68}, ref: "15/skid-plate"}
       - {kind: caution, t: "When you start the engine after the adjustment, listen for abnormal noise from the balancer chain assembly. Do not race the engine.", cite: {p: 68}}

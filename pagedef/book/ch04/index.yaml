@@ -37,7 +37,7 @@ pages:
     pdf_pages: [103, 108]
     summary:
       - {t: "You can remove the cylinder head with the engine in the frame. The head comes out of the left side of the engine.", cite: {p: 103}}
-      - {t: "Tighten the cylinder head bolts and nuts in the sequence and in the stages that the book gives. After you start the engine and it cools completely, tighten the nuts and the 8 mm bolt again.", cite: {p: 107}}
+      - {t: "Tighten the cylinder head bolts and nuts in the sequence and in the stages of the installation procedure. After you start the engine and it cools completely, tighten the nuts and the 8 mm bolt again.", cite: {p: 107}}
     ops: [c04-cylinder-head-removal, c04-cylinder-head-inspection, c04-cylinder-head-installation]
   - id: valves
     title: "Valves"

@@ -14,5 +14,4 @@ sections:
       - {t: "Support the motorcycle so that the front wheel is off the ground.", cite: {p: 78}}
       - {t: "Turn the handlebar in both directions. Feel for roughness or binding.", cite: {p: 78}}
       - {t: "Hold the fork legs near the axle. Examine for front-to-back play.", cite: {p: 78}}
-      - {t: "If there is roughness, binding or play, adjust the steering head.", cite: {p: 78}, ref: "12/steering-stem-and-head",
-         gap: "The adjustment and the 12,000-mile bearing lubrication are in Chapter Twelve. That chapter is not yet written in this wiki."}
+      - {t: "If there is roughness, binding or play, adjust the steering head.", cite: {p: 78}, ref: "12/steering-stem-and-head"}

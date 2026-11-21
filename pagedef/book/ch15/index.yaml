@@ -36,7 +36,7 @@ pages:
     pdf_pages: [329, 329]
     summary:
       - {t: "Three bolts and collars attach the skid plate to the frame. In rough terrain, examine the skid plate often.", cite: {p: 329}}
-      - {t: "Clymer gives no separate removal procedure for the skid plate. Clymer suggests a metal aftermarket skid plate for rough conditions.", cite: {p: 329}}
+      - {t: "For rough conditions, Clymer suggests a metal aftermarket skid plate.", cite: {p: 329}}
     ops: []
   - id: front-fender
     title: "Front fender"
@@ -44,7 +44,6 @@ pages:
     pdf_pages: [329, 329]
     summary:
       - {t: "Four bolts and washers attach the front fender to the fork.", cite: {p: 329}}
-      - {t: "Clymer gives no separate removal procedure for the front fender.", cite: {p: 329}}
     ops: []
   - id: fairing
     title: "Fairing"

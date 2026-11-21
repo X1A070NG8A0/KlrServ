@@ -14,5 +14,5 @@ sections:
       - {t: "Support the motorcycle so that the rear wheel is off the ground.", cite: {p: 79}}
       - {t: "Ask an assistant to hold the motorcycle steady.", cite: {p: 79}}
       - {t: "Hold the ends of the swing arm. Move the swing arm from side to side.", cite: {p: 79}}
-      - {t: "If you can feel play, service the swing arm.", cite: {p: 79}, ref: "13/swing-arm-service",
-         gap: "Table 1 calls this \"Inspect/lubricate swing arm linkage\". The lubrication procedure is in Chapter Thirteen. That chapter is not yet written in this wiki."}
+      - {t: "If you can feel play, service the swing arm.", cite: {p: 79}, ref: "13/swing-arm-service"}
+      - {t: "At the same service, lubricate the swing arm linkage.", cite: {p: 88}, op: c13-linkage-lubrication}

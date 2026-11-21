@@ -22,7 +22,8 @@ export default template({
       inlb: optional(text()),
       ftlb: optional(text()),
       remarks: optional(text()),
-      // In this copy the value is on the heading line. It was moved down.
+      // For writers only: in the source copy, the value was on the heading
+      // line, and it was moved down. The site does not show it.
       realigned: optional(boolean()),
       cite: optional(cite),
     }),

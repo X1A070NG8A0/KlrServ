@@ -1,4 +1,4 @@
-// The errata: owner reports, source disagreements and values that no source gives.
+// The errata: owner reports, source disagreements, and values that the manuals leave out or misprint.
 import { html, template, type Html } from "ggass";
 import { FilterBox, lower, opLink, supplementCite } from "./lib/render.tsx";
 import { siteModel } from "./lib/site.ts";
@@ -58,7 +58,7 @@ export default template({
         </ul>
         <h2>Source disagreements ({conflicts.length})</h2>
         <ul class="errata">{conflicts}</ul>
-        <h2>Values that the sources do not give ({gaps.length})</h2>
+        <h2>Missing and misprinted values ({gaps.length})</h2>
         <ul class="errata">{gaps}</ul>
       </>
     );

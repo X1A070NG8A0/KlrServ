@@ -35,7 +35,7 @@ Always cite the PDF page number (`p`), not the printed page number.
 
 ## 3. The rules for facts
 
-1. Do not write a fact unless the cited page states it. If a step needs a value that no source gives, write a `gap:` that says so. Do not fill it in from memory.
+1. Do not write a fact unless the cited page states it. If a step needs a value that no source gives, write a `gap:` that says so, and say what the rider can do without it. Do not fill it in from memory.
 2. Every number in a step must appear in the text layer of the cited page. The build reports each miss. If the OCR garbled the number, look at the page image, and keep the correct value only if the image shows it.
 3. Torque values and specifications: use `spec_ref` to a row in `pagedef/specs/*.yaml` where the row exists. Read those files for the table ids and row names. If the value is not in a table, write it in the step with its citation.
 4. When sources disagree, the Clymer value comes first, because Clymer is the only manual that covers 2003-2006. Put the other values in `conflict:`. If another source agrees and adds detail, use `conflict:` with `agrees: true`.
@@ -46,6 +46,12 @@ Always cite the PDF page number (`p`), not the printed page number.
 
 No tool can guarantee ASD-STE100 compliance. The full approved dictionary is a
 free download at asd-ste100.org. Apply these rules.
+
+The reader:
+
+1. Write for the rider who works on the motorcycle. Each sentence tells the rider about the motorcycle, the work or the tools.
+2. Do not write about this wiki, its files, the transcription (text layer, OCR, page images), what is not written yet, or the build. Such a note is for writers: put it in a YAML comment.
+3. Do not report how the manual is organized, for example "Clymer gives no separate procedure for X". Say what the rider does instead. A missing value that changes the work stays, for example "Kawasaki gives no service limit for the spring".
 
 Procedural text (steps):
 

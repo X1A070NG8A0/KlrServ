@@ -23,5 +23,4 @@ sections:
       - {t: "To remove the balancer parts, do the removal procedure.", cite: {s: clymer, p: 131}, op: c05-balancer-removal}
       - {t: "To examine the balancer parts, do the inspection procedure.", cite: {s: clymer, p: 131}, op: c05-balancer-inspection}
       - {t: "To install the balancer parts, do the installation procedure.", cite: {s: clymer, p: 131}, op: c05-balancer-installation}
-      - {kind: caution, t: "Do not use only the Clymer procedure for an aftermarket kit. The parts of the kit are not Kawasaki parts. Also use the instructions of the kit maker.", cite: {s: clymer, p: 68},
-         gap: "No source in this wiki gives a procedure to install an aftermarket lever kit."}
+      - {kind: caution, t: "Do not use only the Clymer procedure for an aftermarket kit. The parts of the kit are not Kawasaki parts. Also use the instructions of the kit maker.", cite: {s: clymer, p: 68}}

@@ -33,5 +33,5 @@ sections:
       - {t: "If it is necessary, spread the brake pads so that the brake disc can go into the brake assembly.", cite: {p: 246}}
       - {t: "Tighten the caliper holder bolts to the specified torque.", cite: {p: 246}, spec_ref: "wheel-drive-torque:Rear brake caliper holder bolts"}
       - {t: "Adjust the drive chain.", cite: {p: 246}, op: drive-chain-adjust}
-      - {t: "Tighten the axle nut to the specified torque.", cite: {p: 260}, spec_ref: "wheel-drive-torque:Axle nut/Rear", gap: "The rear wheel procedure does not tell you when to tighten the axle nut. The torque table gives the value."}
+      - {t: "Tighten the axle nut to the specified torque.", cite: {p: 260}, spec_ref: "wheel-drive-torque:Axle nut/Rear"}
       - {t: "Make sure that the wheel turns freely and that the brake operates correctly.", cite: {p: 246}}

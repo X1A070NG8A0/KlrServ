@@ -7,26 +7,21 @@
 // The pages are YAML files in pagedef/, and the TSX templates in template/
 // render them. The data checks in lib/checks.ts run first.
 import { defineSite, run, type BuildContext, type Step } from "ggass";
-import { dataChecks, printReport, reportHtml, type Report } from "./lib/checks.ts";
+import { dataChecks, printReport } from "./lib/checks.ts";
 
 const root = import.meta.dirname;
-let report: Report | undefined;
 
 // The checks run before the first build. In a watch build, this step runs
-// them again, and an error stops the build. It also puts the lists on the
-// page /verify.html.
+// them again on the first page of the build, and an error stops the build.
 let seen: BuildContext | undefined;
 const dataStep: Step = {
   name: "data checks",
-  page(body, page, ctx) {
+  page(body, _page, ctx) {
     if (ctx !== seen) {
-      if (seen) {
-        report = dataChecks(root);
-        ctx.errors.push(...report.errors);
-      }
+      if (seen) ctx.errors.push(...dataChecks(root).errors);
       seen = ctx;
     }
-    return page.url === "/verify.html" && report ? body.replace("<!--data-checks-->", reportHtml(report)) : body;
+    return body;
   },
 };
 
@@ -60,7 +55,7 @@ if (import.meta.main) {
     process.exit(2);
   }
   const check = args.includes("--check");
-  report = dataChecks(root);
+  const report = dataChecks(root);
   printReport(report, check);
   if (report.errors.length) {
     process.exitCode = 1;

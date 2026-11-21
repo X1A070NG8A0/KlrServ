@@ -8,4 +8,4 @@ sections:
   - steps:
       - {t: "Remove the cover to get to the wiring. If necessary, remove the fairing.", cite: {p: 233}, ref: "15/fairing", figs: [75, 70]}
       - {t: "Do the continuity test as the continuity testing guidelines describe. Use the plug half that goes to the switches.", cite: {p: 233}, op: c09-continuity-test}
-      - {t: "Use the wiring diagram at the back of the manual to find the correct wires and switch positions.", cite: {p: 233}, gap: "The book gives no list of wire colors or switch positions for the left handlebar switches. Use the wiring diagram."}
+      - {t: "Use the wiring diagram at the back of the manual to find the correct wires and switch positions.", cite: {p: 233}}

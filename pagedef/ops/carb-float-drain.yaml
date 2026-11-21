@@ -11,7 +11,7 @@ sections:
       - {kind: warning, t: "Do not drain the float chamber when the engine is hot or when it runs. The fuel can ignite.", cite: {p: 68}}
       - {t: "Support the motorcycle so that it is vertical and level.", cite: {p: 68}}
       - {t: "Connect a hose with a 1/4 in. inside diameter to the drain (A).", cite: {p: 68}, figs: [40],
-         gap: "The manual prints \"25 mm (1/4 in.)\". 1/4 in. is 6.35 mm (Clymer Chapter One Table 5 conversion, PDF p41). 25 mm is probably a misprint for about 6 mm."}
+         gap: "The manual prints \"25 mm (1/4 in.)\". 1/4 in. is 6.35 mm, so 25 mm is probably a misprint."}
       - {t: "Put the other end of the hose in a suitable container.", cite: {p: 68}, figs: [40]}
       - {t: "Turn the drain screw (B) out two turns. Let all the fuel in the chamber flow into the container.", cite: {p: 69}, figs: [40]}
       - {t: "Close the drain screw.", cite: {p: 69}}

@@ -34,7 +34,7 @@ sections:
       - {t: "Remove the bearing.", cite: {p: 175}}
       - {t: "Remove the thrust washer.", cite: {p: 175}}
       - {t: "Remove first gear.", cite: {p: 175}}
-      - {t: "Remove the thrust washer.", cite: {p: 175}, gap: "The text layer of the page lost the list items between first gear and third gear. The next two steps follow the reverse of the assembly order."}
+      - {t: "Remove the thrust washer.", cite: {p: 175}}
       - {t: "Remove fifth gear.", cite: {p: 175}}
       - {t: "Remove the snap ring.", cite: {p: 175}}
       - {t: "Remove the spline washer.", cite: {p: 175}}
