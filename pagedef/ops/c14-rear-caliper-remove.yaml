@@ -1,0 +1,35 @@
+title: "Rear brake caliper removal and installation"
+system: "brakes"
+source: clymer
+chapter: 14
+section: "14/rear-brake-caliper"
+summary: {t: "Remove the rear caliper from the swing arm. If you will disassemble the caliper, drain the brake system first.", cite: {p: 311}}
+spec_refs:
+  - "brake-torque:Caliper mounting bolts"
+  - "brake-torque:Brake hose banjo bolts"
+parts:
+  - {name: "Banjo bolt seal washers", replace: always, cite: {p: 312}, note: "Install new seal washers on the banjo bolt."}
+sections:
+  - title: "Removal"
+    steps:
+      - {t: "If you will disassemble the caliper, drain the brake system.", cite: {p: 311}, op: brake-fluid-replace}
+      - {t: "Loosen the brake hose banjo bolt while the caliper is on the swing arm. Leave the bolt finger-tight.", cite: {p: 311}, figs: [56]}
+      - {t: "Remove the caliper mounting bolts. Then remove the caliper from the swing arm. Do not kink the brake hose.", cite: {p: 312}, figs: [56]}
+      - {t: "If you leave the hose on the caliper and do not disassemble it, attach a wire to the caliper. Hang the caliper on the motorcycle.", cite: {p: 312}}
+      - {t: "Do not let the caliper hang by the brake hose.", cite: {p: 312}}
+      - {t: "Put a small wooden block between the brake pads. This prevents the piston from coming out of the caliper if the brake pedal is operated.", cite: {p: 312}}
+      - {t: "If you will disassemble the caliper, remove the banjo bolt and the seal washers from the brake hose. Keep a shop cloth ready for fluid that drips from the hose.", cite: {p: 312}}
+      - {t: "Wrap the end of the hose. This prevents damage to other surfaces from brake fluid.", cite: {p: 312}}
+      - {t: "Drain the extra brake fluid from the caliper.", cite: {p: 312}}
+      - {t: "Repair the caliper if necessary.", cite: {p: 312}, op: c14-rear-caliper-repair}
+  - title: "Installation"
+    steps:
+      - {t: "Put the caliper over the brake disc. Guide the disc between the pads.", cite: {p: 312}}
+      - {t: "Install new seal washers on the banjo bolt.", cite: {p: 312}, figs: [57]}
+      - {t: "Put the brake hose fitting behind the support.", cite: {p: 312}, figs: [57]}
+      - {t: "Install the caliper mounting bolts. Tighten them to the specified torque.", cite: {p: 312}, spec_ref: "brake-torque:Caliper mounting bolts"}
+      - {t: "Install the banjo bolt. Tighten it to the specified torque.", cite: {p: 312}, spec_ref: "brake-torque:Brake hose banjo bolts"}
+      - {t: "If you rebuilt the caliper or disconnected the brake hose from it, fill and bleed the brake system.", cite: {p: 312}, op: brake-fluid-replace}
+      - {t: "Operate the brake pedal several times to seat the pads.", cite: {p: 312}}
+      - {t: "Examine the brake fluid level in the reservoir. Add or remove fluid as necessary.", cite: {p: 312}, op: brake-fluid-level}
+      - {t: "Raise the rear wheel. Make sure that the wheel turns freely and that the brake operates correctly.", cite: {p: 312}}

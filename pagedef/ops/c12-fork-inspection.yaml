@@ -1,0 +1,40 @@
+title: "Fork inspection"
+system: "Front suspension and steering"
+source: clymer
+chapter: 12
+section: "12/fork-service"
+summary: {t: "This procedure shows how to clean and examine each set of fork parts.", cite: {p: 272}}
+parts:
+  - {name: "Drain screw O-ring", replace: always, cite: {p: 274}}
+  - {name: "Fork cap O-ring", replace: always, cite: {p: 274}}
+  - {name: "Damper bolt seal washer", replace: always, cite: {p: 274}}
+  - {name: "Slide bushing and guide bushing", replace: inspect, cite: {p: 275}, note: "Replace both bushings as a set."}
+  - {name: "Fork boot", replace: inspect, cite: {p: 275}}
+  - {name: "Fork damper assembly", replace: inspect, cite: {p: 274}, note: "The damper bushing, the valve stop ring and the damper are not available separately."}
+sections:
+  - steps:
+      - {t: "Clean all parts in solvent. Make sure that the solvent is safe for the painted tube, the rubber parts and the coating on the bushings.", cite: {p: 272}}
+      - {t: "Wash the parts again with soap and water. Rinse them with clean water. Dry them with compressed air.", cite: {p: 273}}
+      - {kind: caution, t: "Do not use harsh cleaning methods or some solvents on the bushings. They can remove or damage the coating.", cite: {p: 273}}
+      - {t: "Examine the inner tube for nicks, rust, chrome flaking or creases along its length. These conditions damage the dust seal and the oil seal.", cite: {p: 274}, figs: [43]}
+      - {t: "Repair minor roughness with 600 grit sandpaper and solvent.", cite: {p: 274}}
+      - {t: "Examine the bore of the outer tube for pitting or abrasion.", cite: {p: 274}, figs: [44]}
+      - {t: "Examine the axle holder for wear and stress cracks.", cite: {p: 274}}
+      - {t: "Examine the seal and bushing areas for damage.", cite: {p: 274}}
+      - {t: "Examine the threads for damage.", cite: {p: 274}}
+      - {t: "Examine the fork cap and the threaded fasteners for damaged threads and a damaged air valve and cap.", cite: {p: 274}, figs: [45]}
+      - {t: "Install new O-rings on the drain screw and the fork cap.", cite: {p: 274}}
+      - {t: "Install a new seal washer on the damper bolt.", cite: {p: 274}}
+      - {t: "Examine the spring, the spring seat and the spring spacer for damage. Kawasaki gives no service limits for the spring.", cite: {p: 274}, figs: [46]}
+      - {t: "Examine the rebound spring and the top of the fork damper. Make sure that the small holes in the damper are clean.", cite: {p: 274}}
+      - {t: "Examine the damper bushing for damage. Do not remove it. If it is damaged, replace the complete fork damper assembly.", cite: {p: 274}}
+      - {t: "Examine the rebound spring for damage.", cite: {p: 274}}
+      - {t: "Examine the valve, the collar and the lower end of the fork damper. Make sure that the holes in the damper and the valve are clean.", cite: {p: 274}}
+      - {t: "Examine the valve for dents. Put the valve on the damper. Make sure that it seats smoothly and fully.", cite: {p: 274}}
+      - {t: "Make sure that the valve stop ring is tight and fully seated. Do not try to remove it. If it is damaged, replace the complete fork damper assembly.", cite: {p: 275}}
+      - {t: "Examine the collar for damage. The open side of the collar must fully seat against the stop ring on the valve.", cite: {p: 275}, figs: [49]}
+      - {t: "Examine the slide bushing and the guide bushing for scoring, scratches and excessive wear.", cite: {p: 275}}
+      - {t: "Remove minor metallic buildup from the exterior of the slide bushing and the interior of the guide bushing with fork oil and a nylon brush.", cite: {p: 275}}
+      - {t: "If a bushing has a different color, or if the coating is worn and the metal base is visible below it, replace both bushings as a set.", cite: {p: 275}}
+      - {t: "Examine the backup ring and the stop ring for damage.", cite: {p: 275}}
+      - {t: "Examine the fork boot. If it is damaged, replace it.", cite: {p: 275}, figs: [51]}

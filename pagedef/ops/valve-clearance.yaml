@@ -1,0 +1,45 @@
+# Clymer Chapter Three: chassis checks and engine tune-up (PDF p79-82).
+title: "Valve clearance check and shim adjustment"
+system: "Engine top end"
+source: clymer
+chapter: 3
+section: "03/engine-tune-up"
+summary:
+  t: "The engine has two intake valves and two exhaust valves. Shims on top of each lifter, under the camshaft, adjust the clearance. If the valve clearance is not correct, performance is poor and the engine can get damage. Valve clearance more often decreases than increases. Adjust toward the larger end of the range, but not past it."
+  cite: {p: 80}
+spec_refs:
+  - "tune-up:Valve clearance/Intake"
+  - "tune-up:Valve clearance/Exhaust"
+  - "top-end-torque:Cylinder head cover bolts"
+parts:
+  - {name: "Valve shims (as measured)", replace: inspect, cite: {p: 81}, note: "Kawasaki shims are available in steps of 0.05 mm, from 2.00 mm (No. 200) to 3.20 mm (No. 320)."}
+sections:
+  - steps:
+      - {t: "Read the complete procedure before you start.", cite: {p: 81}}
+      - {t: "Measure the valve clearance when the engine temperature is less than 35° C (95° F).", cite: {p: 81}}
+      - {t: "Support the motorcycle so that it is stable.", cite: {p: 81}}
+      - {t: "Remove the cylinder head cover.", cite: {p: 81}, ref: "04/cylinder-head-cover"}
+      - {t: "Remove the timing plug (A) and the rotor nut plug (B).", cite: {p: 81}, figs: [74]}
+      - {t: "Put a socket on the rotor nut.", cite: {p: 81}, figs: [75, 76]}
+      - {t: "Turn the crankshaft counterclockwise until the T mark on the rotor aligns with the index mark in the timing hole.", cite: {p: 81}, figs: [75, 76]}
+      - {t: "Make sure that the engine is at TDC. All the cam lobes must face away from the center of the engine (B).", cite: {p: 81}, figs: [73]}
+      - {t: "If the cam lobes point toward the center of the engine, turn the crankshaft one full turn. Align the T mark again.", cite: {p: 81}, figs: [73]}
+      - {t: "For each valve, measure the gap between the shim and the cam lobe with a flat feeler gauge.", cite: {p: 81}, figs: [77]}
+      - {t: "The gap is correct when you feel a small resistance as you put in and pull out the gauge.", cite: {p: 81}, figs: [77]}
+      - {t: "Write down each measurement and the location of each valve.", cite: {p: 81}}
+      - {t: "If adjustment is necessary, remove the camshafts.", cite: {p: 81}, ref: "04/camshafts-and-cam-chain-tensioner"}
+      - {t: "Turn the lifter so that the notch on its edge is accessible.", cite: {p: 81}, figs: [78]}
+      - {t: "Put a tool with a small tip between the shim and the lifter. Tilt the tool to break the oil adhesion.", cite: {p: 81}, figs: [78]}
+      - {t: "Remove the shim and write down its location.", cite: {p: 81}, figs: [78]}
+      - {kind: note, t: "The number on the shim is its original thickness. A shim with the number 255 is 2.55 mm thick. The next sizes are 2.60 mm and 2.50 mm.", cite: {p: 81}, figs: [79]}
+      - {t: "Measure each shim with a caliper to get its actual thickness.", cite: {p: 81}, figs: [79]}
+      - {t: "Find the difference between the specified clearance and the measured clearance.", cite: {p: 82}}
+      - {t: "If the valve is loose, add this difference to the thickness of the removed shim. If the valve is tight, subtract it.", cite: {p: 82}}
+      - {kind: note, t: "Example from the manual: an exhaust valve has a clearance of 0.14 mm. The specified clearance is 0.15-0.25 mm. The difference is 0.01-0.11 mm, so the new shim must be this much thinner. The removed shim is No. 255 (2.55 mm). Install a No. 245 (2.45 mm) shim. This increases the clearance by 0.10 mm to 0.24 mm.", cite: {p: 82}}
+      - {t: "Lubricate the new shim with engine oil.", cite: {p: 82}}
+      - {t: "Install the shim on the lifter with the number side down. The cam lobe then does not wear away the number.", cite: {p: 82}}
+      - {t: "Do the same for each other valve that is not in specification.", cite: {p: 82}}
+      - {t: "Install the camshafts.", cite: {p: 82}, ref: "04/camshafts-and-cam-chain-tensioner"}
+      - {t: "Measure the valve clearance again. If a clearance is not correct, remove the camshafts and adjust the valves that are not in specification.", cite: {p: 82}}
+      - {t: "Install the cylinder head cover.", cite: {p: 82}, ref: "04/cylinder-head-cover"}
+      - {t: "Install the timing plug (A) and the rotor nut plug (B).", cite: {p: 82}, figs: [74]}

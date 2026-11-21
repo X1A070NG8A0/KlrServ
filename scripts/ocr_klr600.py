@@ -3,7 +3,7 @@
 The PDF has no text layer. Each page is rendered at 300 dpi and run through
 Tesseract (--psm 4: one column of variable-size text, which handles the
 manual's two-column body better than auto mode on these scans). The output
-is a search aid only: values cited in data/ are checked against the page
+is a search aid only: values cited in pagedef/ are checked against the page
 image, never taken from OCR alone.
 
 Usage: .venv/Scripts/python.exe -I scripts/ocr_klr600.py

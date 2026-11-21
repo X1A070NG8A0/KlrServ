@@ -1,0 +1,24 @@
+title: "Exciter coil test"
+system: "electrical system"
+source: clymer
+chapter: 9
+section: "09/ignition-system"
+summary: {t: "The exciter coil is in the alternator cover. You can test it at the wire connector under the fuel tank.", cite: {p: 220}}
+spec_refs: ["electrical-test:Exciter coil resistance (white-to-red wires)"]
+sections:
+  - steps:
+      - {t: "Remove the fuel tank.", cite: {p: 220}, ref: "15/fuel-tank"}
+      - {t: "Disconnect the connector on the right side of the frame.", cite: {p: 220}, figs: [51]}
+      - {t: "Identify the connector half that goes to the stator.", cite: {p: 220}}
+      - {t: "Set the ohmmeter to R x 10 ohms.", cite: {p: 220}}
+      - {t: "Put the meter probes into the terminals of the white wire and the red wire. Compare the reading with the specification.", cite: {p: 220}, spec_ref: "electrical-test:Exciter coil resistance (white-to-red wires)"}
+      - {t: "If the exciter coil is not in specification, examine the plug and the wiring harness for damage and shorts.", cite: {p: 220}}
+      - {t: "If necessary, remove the alternator cover. Examine the wiring harness and the coil again.", cite: {p: 220}, op: c09-alternator-cover, figs: [52]}
+      - {t: "Test the full length of each harness wire for continuity. All wires must have near zero resistance. Flex the harness during the test to find erratic continuity.", cite: {p: 220}}
+      - {t: "If the harness has no short, measure the coil at the white and red wire connections on the stator.", cite: {p: 220}}
+      - {t: "If the coil fails the test, unsolder the harness connections and measure the coil again.", cite: {p: 221}}
+      - {t: "If the coil is in specification, a solder joint was poor or the wiring harness is shorted.", cite: {p: 221}}
+      - {t: "If the coil still fails the test, replace the stator.", cite: {p: 221}}
+      - {t: "Set the ohmmeter to R x 1 ohm.", cite: {p: 221}}
+      - {t: "Ground one meter probe to the engine, or to the alternator cover if you removed it. Touch the other probe to the white wire, then to the red wire. The resistance must be infinity.", cite: {p: 221}}
+      - {t: "If you get any other reading, there is a short. Replace the stator.", cite: {p: 221}}

@@ -1,0 +1,31 @@
+title: "Shock absorber removal and installation"
+system: "Rear suspension"
+source: clymer
+chapter: 13
+section: "13/shock-absorber"
+summary: {t: "This procedure removes the rear shock absorber from the motorcycle and installs it again. Read all of the procedure before you start.", cite: {p: 279}}
+spec_refs: ["rear-suspension-torque:Shock absorber mounting bolts/Lower", "rear-suspension-torque:Shock absorber mounting bolts/Upper"]
+parts:
+  - {name: "Waterproof grease", replace: consumable, cite: {p: 281}}
+sections:
+  - title: "Removal"
+    steps:
+      - {t: "Remove the rear wheel.", cite: {p: 280}, ref: "11/rear-wheel"}
+      - {t: "Remove the brake hose guide from the swing arm.", cite: {p: 280}, figs: [2]}
+      - {t: "Remove the lever arms from the swing arm.", cite: {p: 280}, figs: [3], op: c13-lever-removal}
+      - {t: "Use wire to hold the swing arm in the up position. The swing arm pivots freely when the bolt is out.", cite: {p: 280}}
+      - {t: "Remove the nut from the lower shock absorber mounting bolt. Do not remove the bolt now.", cite: {p: 280}, figs: [4]}
+      - {t: "Remove the left side cover.", cite: {p: 280}, ref: "15/side-covers"}
+      - {t: "Remove the breather hose near the top of the shock absorber.", cite: {p: 281}, figs: [5]}
+      - {t: "On California models, remove the liquid/vapor separator first.", cite: {p: 281}}
+      - {t: "Remove the upper mounting bolt.", cite: {p: 281}, figs: [6]}
+      - {t: "Remove the lower mounting bolt.", cite: {p: 281}}
+      - {t: "Remove the shock absorber from the motorcycle.", cite: {p: 281}}
+      - {t: "Examine the shock absorber.", cite: {p: 281}, op: c13-shock-absorber-inspection}
+  - title: "Installation"
+    steps:
+      - {t: "Lubricate the bores and the mounting bolts with waterproof grease.", cite: {p: 281}}
+      - {t: "Install the shock absorber so that the preload adjuster is on the left side of the motorcycle.", cite: {p: 281}}
+      - {t: "Tighten the mounting bolts to the specified torque.", cite: {p: 281}, spec_ref: "rear-suspension-torque:Shock absorber mounting bolts/Upper"}
+      - {t: "Tighten the lower bolt to the specified torque.", cite: {p: 281}, spec_ref: "rear-suspension-torque:Shock absorber mounting bolts/Lower"}
+      - {t: "Install the removed parts in the reverse order.", cite: {p: 281}}

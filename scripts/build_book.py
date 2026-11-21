@@ -5,9 +5,10 @@ steps and NOTE/CAUTION/WARNING callouts, each tagged with its PDF page.
 Input:  the Clymer PDF, doc/book/clymer-toc.yaml, doc/figures/clymer/index.yaml
 Output: doc/book/clymer.json
 
-The text is the scan's OCR layer, re-flowed. It is shown in the site next to
-the page image it came from, and is never the source of a spec value: those
-come from the hand-transcribed tables in data/specs/. Lines inside detected
+The text is the scan's OCR layer, re-flowed. Writers read it when they
+paraphrase a chapter into pagedef/book/chNN/index.yaml, and the data checks
+take the section ids from it. It is never the source of a spec value: those
+come from the hand-transcribed tables in pagedef/specs/. Lines inside detected
 photo regions (callout letters, labels) and the running header are dropped.
 Chapter-end spec tables are replaced by references to the transcribed tables.
 
@@ -26,7 +27,7 @@ import pymupdf
 import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
-SOURCES = yaml.safe_load((ROOT / "doc/sources.yaml").read_text(encoding="utf-8"))
+SOURCES = yaml.safe_load((ROOT / "data/sources.yaml").read_text(encoding="utf-8"))
 TOC = yaml.safe_load((ROOT / "doc/book/clymer-toc.yaml").read_text(encoding="utf-8"))
 FIG_INDEX = yaml.safe_load((ROOT / "doc/figures/clymer/index.yaml").read_text(encoding="utf-8")) or []
 OFFSET = 12  # PDF page = printed page + 12

@@ -1,0 +1,26 @@
+title: "Camshaft cap and oil pipe inspection"
+system: "Engine top end"
+source: clymer
+chapter: 4
+section: "04/camshafts-and-cam-chain-tensioner"
+summary: {t: "This procedure examines the camshaft caps, the oil pipe and the O-rings. A convenient time to replace the O-rings is during a valve adjustment, when the camshafts are removed.", cite: {p: 101}}
+parts:
+  - {name: "Camshaft cap and cylinder head set", replace: inspect, cite: {p: 101}, note: "If the bearing surface of a cap or of the cylinder head has damage, replace the caps and the cylinder head as a set. They are available only as one part number."}
+  - {name: "Oil pipe O-rings", replace: inspect, cite: {p: 102}, note: "Replace the O-rings if the pipe is loose in the caps or if the O-rings have damage."}
+  - {name: "Engine oil", replace: consumable, cite: {p: 102}}
+sections:
+  - steps:
+      - {t: "Clean the camshaft caps in solvent. Dry them with compressed air.", cite: {p: 101}}
+      - {t: "For the left intake and exhaust valve caps, pull the oil pipe out of the caps.", cite: {p: 101}}
+      - {t: "Do not cause damage to the bearing surfaces of the caps when you hold and examine them.", cite: {p: 101}}
+      - {t: "Make sure that all the oil passages are clean.", cite: {p: 101}, figs: [32]}
+      - {t: "Examine the bearing surface in each cap and the mating bearing in the cylinder head for scoring or damage.", cite: {p: 101}}
+      - {t: "If either part has damage, replace the caps and the cylinder head as a set.", cite: {p: 101}}
+      - {kind: note, t: "The caps are machined with the cylinder head. Their dimensions and alignments are unique to that cylinder head.", cite: {p: 101}}
+      - {t: "Examine the oil pipe and the O-rings of the left intake and exhaust valve caps. The O-ring in each cap holds and seals the pipe.", cite: {p: 101}, figs: [33]}
+      - {kind: note, t: "Leakage past the O-rings decreases the quantity of oil that gets to the exhaust camshaft.", cite: {p: 101}}
+      - {t: "Lubricate the ends of the oil pipe. Twist the pipe into the caps.", cite: {p: 102}}
+      - {t: "If the pipe is firm in both caps, you can use the O-rings again.", cite: {p: 102}}
+      - {t: "If the pipe is loose in the caps or the O-rings have damage, replace the O-rings. Use a small curved pick to remove them from the caps.", cite: {p: 102}}
+      - {t: "Lubricate the new O-rings before you install them.", cite: {p: 102}}
+      - {kind: caution, t: "Always lubricate the oil pipe and twist it into the caps. Do not push the pipe straight in. The O-rings can distort and roll out of the grooves.", cite: {p: 102}}

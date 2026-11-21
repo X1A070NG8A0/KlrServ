@@ -1,0 +1,19 @@
+title: "Wheel balancing"
+system: "Wheels, tires and drive chain"
+source: clymer
+chapter: 11
+section: "11/tire-changing"
+summary: {t: "Examine the balance of each new tire. An unbalanced wheel shortens the life of the tire and causes wear on the wheel bearings. For the longest tire life, examine the wheel balance each time that you remove the wheel. If you do not have the equipment, have a dealership balance the wheel.", cite: {p: 260}}
+parts:
+  - {name: "Wheel balance weights", replace: consumable, cite: {p: 260}, note: "Available from a dealership."}
+sections:
+  - steps:
+      - {kind: note, t: "Do not balance a wheel that has damaged bearings. The balance is not accurate. Replace the bearings before you balance the wheel.", cite: {p: 260}, op: c11-hub-bearing-replacement}
+      - {t: "Put the wheel and axle assembly in a truing stand, or a similar fixture. The axle must be level and the wheel must turn freely.", cite: {p: 260}, figs: [63]}
+      - {t: "Install the spacers that you need to prevent lateral movement of the wheel.", cite: {p: 260}}
+      - {t: "Spin the wheel. Let it come to a complete stop. Mark the sidewall at the top of the tire. This is the light side of the wheel.", cite: {p: 260}}
+      - {t: "Do this step again several times to get an accurate result. If the wheel consistently stops at a different location, the balance is acceptable. You do not need more weight.", cite: {p: 260}}
+      - {t: "When you know which side is light, clamp a weight lightly to the spoke nearest to the light mark. Start with the smallest weight.", cite: {p: 260}, figs: [64]}
+      - {t: "Continue to spin the wheel and make sure of the balance. Add or remove weight on the spokes until the wheel consistently stops at a different location.", cite: {p: 260}}
+      - {t: "When the wheel is balanced, clamp the weights tightly to the spokes.", cite: {p: 260}}
+      - {kind: note, t: "Do not use adhesive weights on this motorcycle. They can fall off during off-road operation.", cite: {p: 260}}

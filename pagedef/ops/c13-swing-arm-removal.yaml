@@ -1,0 +1,33 @@
+title: "Swing arm removal and installation"
+system: "Rear suspension"
+source: clymer
+chapter: 13
+section: "13/swing-arm"
+summary: {t: "This procedure removes the swing arm from the frame and installs it again. To remove the linkage parts for service, loosen all pivot bolts before you remove the swing arm.", cite: {p: 287}}
+spec_refs: ["rear-suspension-torque:Swing arm pivot bolt"]
+parts:
+  - {name: "Molydisulfide grease or waterproof grease", replace: consumable, cite: {p: 289}}
+sections:
+  - title: "Removal"
+    steps:
+      - {kind: note, t: "The bolts are easier to loosen while the linkage is on the motorcycle. Note the direction of each pivot bolt that you remove.", cite: {p: 287}}
+      - {t: "Remove the rear wheel.", cite: {p: 288}, ref: "11/rear-wheel"}
+      - {t: "Remove the brake hose guide from the swing arm.", cite: {p: 288}, figs: [32]}
+      - {t: "Remove the pivot bolt from the swing arm and the lever arms.", cite: {p: 288}, figs: [30]}
+      - {t: "Remove the hose guide.", cite: {p: 288}, figs: [33]}
+      - {t: "Remove the sprocket guard.", cite: {p: 288}, figs: [34]}
+      - {t: "Remove the nut and the washer from the swing arm pivot bolt.", cite: {p: 288}, figs: [35]}
+      - {t: "Ask an assistant to hold the swing arm. Pull the pivot bolt out of the swing arm.", cite: {p: 288}}
+      - {t: "If you use a drift to drive out the bolt, do not cause damage to the bearing assemblies.", cite: {p: 288}}
+      - {t: "Move the chain from behind the guards. Pull the swing arm out of the frame.", cite: {p: 288}, figs: [36]}
+      - {t: "Examine and lubricate the swing arm.", cite: {p: 288}, op: c13-swing-arm-inspection}
+      - {t: "If necessary, examine and repair the linkage.", cite: {p: 288}, ref: "13/shock-absorber-linkage", op: c13-lever-inspection}
+  - title: "Installation"
+    steps:
+      - {t: "Lubricate all bearings, seals and pivot bolts with grease.", cite: {p: 289}}
+      - {t: "Install the swing arm in the frame.", cite: {p: 289}}
+      - {t: "Make sure that the chain goes over and under the swing arm pivot bolt.", cite: {p: 289}}
+      - {t: "Install the pivot bolts in their correct direction.", cite: {p: 289}}
+      - {t: "Tighten the pivot bolt to the specified torque.", cite: {p: 289}, spec_ref: "rear-suspension-torque:Swing arm pivot bolt"}
+      - {t: "To install the complete shock linkage, lift the swing arm and hold it in position with wire. This gives more space for the linkage.", cite: {p: 289}}
+      - {t: "As an option, install the linkage before you install the swing arm.", cite: {p: 289}, op: c13-lever-removal}

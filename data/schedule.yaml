@@ -1,7 +1,7 @@
 # Maintenance and lubrication schedule.
 # Transcribed from the page image of Clymer Table 1 (PDF p88, printed p76).
 # Every row inherits the table citation unless it carries its own `cite`.
-# `op` links to data/operations/<op>.yaml. Rows whose op does not exist yet
+# `op` links to pagedef/ops/<op>.yaml. Rows whose op does not exist yet
 # render without a link rather than with an invented procedure.
 
 cite: {s: clymer, p: 88, ref: "Table 1, Maintenance and Lubrication Schedule"}

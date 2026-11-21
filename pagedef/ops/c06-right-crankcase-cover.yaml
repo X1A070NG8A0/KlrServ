@@ -1,0 +1,49 @@
+title: "Right crankcase cover removal and installation"
+system: "Clutch, gearshift linkage and lubrication system"
+source: clymer
+chapter: 6
+section: "06/right-crankcase-cover"
+summary: {t: "This procedure removes the right crankcase cover from the engine and installs it again. The clutch, the gearshift linkage, the oil pump and the primary drive gear are behind this cover.", cite: {p: 149}}
+parts:
+  - {name: "Right crankcase cover gasket", replace: always, cite: {p: 150}}
+  - {name: "Oil filter housing O-ring", replace: always, cite: {p: 150}, note: "Lubricate the new O-ring before you install it."}
+  - {name: "Engine oil filter", replace: always, cite: {p: 150}}
+  - {name: "Engine oil", replace: consumable, cite: {p: 150}}
+  - {name: "Engine coolant", replace: consumable, cite: {p: 150}}
+  - {name: "Molybdenum disulfide grease", replace: consumable, cite: {p: 150}}
+sections:
+  - title: "Removal"
+    steps:
+      - {t: "Remove the skid plate.", cite: {p: 149}, ref: "15/skid-plate"}
+      - {t: "Drain the engine oil and remove the oil filter.", cite: {p: 149}, op: engine-oil-and-filter}
+      - {t: "Drain the cooling system.", cite: {p: 149}, op: coolant-replace}
+      - {t: "Remove the rear brake pedal.", cite: {p: 149}, ref: "14/rear-brake-pedal"}
+      - {t: "Remove the right footpeg.", cite: {p: 149}}
+      - {t: "Remove the clutch cable holder.", cite: {p: 149}}
+      - {t: "Remove the clutch cable from the release lever.", cite: {p: 149}, figs: [1]}
+      - {kind: note, t: "You do not have to remove the cable from the cable holder.", cite: {p: 149}}
+      - {t: "Remove the water pump cover and the impeller assembly.", cite: {p: 149}, ref: "10/water-pump"}
+      - {t: "Remove the 15 bolts from the edge of the crankcase cover.", cite: {p: 149}}
+      - {t: "Turn the clutch release lever to the rear. This disengages the lever from the clutch lifter behind the cover.", cite: {p: 149}}
+      - {t: "Hold the release lever in position and remove the cover.", cite: {p: 150}}
+      - {t: "If necessary, lightly tap the cover to loosen it from the engine.", cite: {p: 150}}
+      - {t: "Keep the two dowels that fit between the crankcase and the cover.", cite: {p: 150}, figs: [3]}
+      - {t: "Remove the O-ring at the oil filter housing.", cite: {p: 150}, figs: [3]}
+      - {t: "Remove the cover gasket.", cite: {p: 150}}
+      - {t: "Remove the crankcase oil strainer.", cite: {p: 150}, figs: [4]}
+      - {t: "Examine the cover assembly.", cite: {p: 150}, op: c06-right-crankcase-cover-inspection}
+  - title: "Installation"
+    steps:
+      - {t: "Clean all residue and oil from the gasket surface of the engine.", cite: {p: 150}}
+      - {t: "Make sure that the crankcase oil strainer is installed and seated.", cite: {p: 150}, figs: [5]}
+      - {t: "Apply molybdenum disulfide grease to the end of the crankshaft and to the impeller shaft.", cite: {p: 150}, figs: [5]}
+      - {kind: caution, t: "Do not plug the oil hole in the crankshaft. The crankpin and the connecting rod will not get oil.", cite: {p: 150}}
+      - {t: "Install a new cover gasket on the crankcase dowels.", cite: {p: 150}}
+      - {t: "Install a new, lubricated O-ring on the oil filter housing.", cite: {p: 150}}
+      - {t: "Apply molybdenum disulfide grease to the contact points of the clutch release lever and the clutch lifter.", cite: {p: 150}}
+      - {t: "Turn the clutch release lever to the rear and install the cover.", cite: {p: 150}}
+      - {t: "When the cover is in position, turn the release lever forward. This engages the lever with the clutch lifter.", cite: {p: 150}}
+      - {t: "Install the removed parts in the reverse order of removal.", cite: {p: 150}}
+      - {t: "Install a new oil filter and fill the engine with oil.", cite: {p: 150}, op: engine-oil-and-filter}
+      - {t: "Fill the engine with coolant.", cite: {p: 150}}
+      - {t: "Make sure that the clutch operates correctly. If necessary, adjust the clutch.", cite: {p: 150}, op: clutch-adjust}

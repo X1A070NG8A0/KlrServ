@@ -1,0 +1,22 @@
+title: "Drive chain removal and installation, chain with clip master link"
+system: "Wheels, tires and drive chain"
+source: clymer
+chapter: 11
+section: "11/drive-chain"
+summary: {t: "If the endless chain was replaced with a chain that has a master link and a spring clip, use this procedure. You do not need to disassemble the swing arm.", cite: {p: 253}}
+parts:
+  - {name: "Master link spring clip", replace: always, cite: {p: 255}}
+  - {name: "Master link O-rings", replace: inspect, cite: {p: 254}, note: "Two O-rings are under the side plates."}
+sections:
+  - steps:
+      - {t: "Support the motorcycle so that it is stable and the rear wheel is off the ground.", cite: {p: 254}}
+      - {t: "Shift the transmission into neutral.", cite: {p: 254}}
+      - {t: "Find the master link on the chain.", cite: {p: 254}, figs: [39]}
+      - {t: "Remove the spring clip with pliers.", cite: {p: 254}}
+      - {t: "Press the link out of the chain. Keep the O-rings from under the side plates.", cite: {p: 254}, figs: [43]}
+      - {t: "Remove the chain from the motorcycle.", cite: {p: 254}}
+      - {t: "Clean the chain and examine it.", cite: {p: 254}, op: drive-chain-inspect}
+      - {t: "To install the chain, do the removal steps in reverse order.", cite: {p: 255}}
+      - {t: "Install the O-rings under both side plates.", cite: {p: 255}}
+      - {t: "Install a new spring clip on the master link. The closed end of the clip must point in the direction of travel.", cite: {p: 255}, figs: [44]}
+      - {t: "Adjust the drive chain.", cite: {p: 255}, op: drive-chain-adjust}

@@ -1,0 +1,54 @@
+title: "Chapter 7: Transmission and Internal Shift Mechanism"
+pages:
+  - id: introduction
+    title: "Introduction"
+    kind: Section
+    pdf_pages: [168, 168]
+    summary:
+      - {t: "This chapter gives the service procedures for the transmission and the internal shift mechanism.", cite: {p: 168}}
+    ops: []
+  - id: transmission-operation
+    title: "Transmission operation"
+    kind: Section
+    pdf_pages: [168, 169]
+    summary:
+      - {t: "The transmission has five speeds and is of the constant-mesh type. The gears on the input shaft mesh with the gears on the output shaft. Each pair of meshed gears is one gear ratio.", cite: {p: 168}}
+      - {t: "In each pair, one gear is splined to its shaft and the other gear turns freely on its shaft. A splined gear slides on the shaft and locks into the free gear. This makes that gear ratio active.", cite: {p: 168}}
+      - {t: "Shift forks move the splined gears. The shift drum guides the forks. The shift lever turns the shift drum.", cite: {p: 169}}
+    ops: []
+  - id: service-notes
+    title: "Service notes"
+    kind: Section
+    pdf_pages: [168, 169]
+    summary:
+      - {t: "You must split the crankcase to remove the transmission and the shift assemblies. After you remove the transmission, you can disassemble, examine and assemble it.", cite: {p: 168}, ref: "05/crankcase"}
+      - {t: "Install the gears, washers and snap rings in the same direction as before disassembly. Always install new snap rings.", cite: {p: 169}}
+    ops: [c07-snap-ring-installation]
+  - id: input-shaft
+    title: "Input shaft"
+    kind: Section
+    pdf_pages: [169, 174]
+    summary:
+      - {t: "The input shaft gears changed after engine serial number KL650AE032209. The procedures apply to all models. The photos show the later input shaft.", cite: {p: 171}}
+    ops: [c07-input-shaft-disassembly, c07-input-shaft-assembly]
+  - id: output-shaft
+    title: "Output shaft"
+    kind: Section
+    pdf_pages: [174, 178]
+    summary:
+      - {t: "The design of the output shaft changed after engine serial number KL650AE032209. The early shaft has a shoulder outside second gear, and you remove all parts from one end. The later shaft is stepped inside second gear, and you remove parts from both ends.", cite: {p: 174}}
+    ops: [c07-output-shaft-disassembly, c07-output-shaft-assembly]
+  - id: transmission-inspection
+    title: "Transmission inspection"
+    kind: Section
+    pdf_pages: [179, 180]
+    summary:
+      - {t: "These procedures show how to examine the shaft assemblies for all models. Some examinations do not apply to some shaft designs.", cite: {p: 179}}
+    ops: [c07-shaft-inspection]
+  - id: shift-drum-and-forks
+    title: "Shift drum and forks"
+    kind: Section
+    pdf_pages: [180, 182]
+    summary:
+      - {t: "The shift forks move the gears on the shafts. Cam grooves in the shift drum guide the forks. Too much wear on these parts causes poor engagement of the gears and early wear of the gear dogs.", cite: {p: 180}}
+    ops: [c07-shift-drum-and-fork-inspection]

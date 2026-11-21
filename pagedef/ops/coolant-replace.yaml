@@ -1,0 +1,54 @@
+title: "Coolant draining and replacement"
+system: "Cooling system"
+source: clymer
+chapter: 3
+section: "03/maintenance-and-inspection"
+spec_refs:
+  - "cooling:Antifreeze type"
+  - "cooling:Coolant mixture"
+  - "cooling:Cooling system capacity"
+  - "maintenance-torque:Coolant drain plug"
+parts:
+  - {name: "Coolant drain plug seal washer", replace: always, cite: {p: 71}, note: "Install a new seal washer on the coolant drain plug."}
+  - {name: "Coolant (50/50 antifreeze/distilled water)", replace: consumable, spec_ref: "cooling:Cooling system capacity", cite: {p: 71}}
+  - {name: "Radiator hoses and clamps", replace: inspect, cite: {p: 71}, note: "Examine for leaks, cracks and loose clamps."}
+sections:
+  - steps:
+      - {kind: warning, t: "Replace the coolant only when the engine and the coolant are cold. If you drain the system when it is hot, severe injury can occur.", cite: {p: 71}}
+      - {kind: caution, t: "Do not let coolant touch painted surfaces. If coolant touches a painted surface, wash it with water immediately.", cite: {p: 71}}
+      - {t: "Remove the skid plate.", cite: {p: 71}, ref: "15/skid-plate"}
+      - {t: "Support the motorcycle so that it is vertical and level.", cite: {p: 71}}
+      - {t: "Remove the fuel tank.", cite: {p: 71}, ref: "15/fuel-tank"}
+      - {t: "Remove the radiator covers.", cite: {p: 71}, ref: "15/radiator-covers"}
+      - {t: "Put a drain pan under the right side of the engine, below the water pump.", cite: {p: 71}, figs: [44]}
+      - {t: "Remove the drain plug from the bottom of the water pump (B).", cite: {p: 71}, figs: [44]}
+      - {t: "When the coolant starts to drain, loosen the radiator cap slowly and remove it. The flow then increases.", cite: {p: 71}}
+      - {t: "Be ready to move the drain pan.", cite: {p: 71}}
+      - {t: "Remove the reserve tank cover.", cite: {p: 71}}
+      - {t: "Remove the bolts at the corners of the reserve tank.", cite: {p: 71}}
+      - {t: "Remove the upper and lower hoses from the reserve tank.", cite: {p: 71}}
+      - {t: "Turn the reserve tank over to drain it.", cite: {p: 71}}
+      - {t: "Flush the cooling system and the reserve tank with clean water.", cite: {p: 71}}
+      - {t: "Make sure that all the water drains out.", cite: {p: 71}}
+      - {t: "Examine the radiator hoses for leaks, cracks and loose clamps.", cite: {p: 71}}
+      - {t: "Examine the radiator core for leaks and debris. Make sure that the mounting bolts are tight.", cite: {p: 71}}
+      - {t: "Examine the radiator fan for damaged wiring. Make sure that the connections are tight.", cite: {p: 71}}
+      - {t: "Install a new seal washer on the coolant drain plug.", cite: {p: 71}}
+      - {t: "Install the drain plug and tighten it to the specified torque.", cite: {p: 71}, spec_ref: "maintenance-torque:Coolant drain plug"}
+      - {t: "Connect the hoses to the reserve tank.", cite: {p: 71}}
+      - {t: "Install the reserve tank.", cite: {p: 71}}
+      - {t: "Fill the radiator with the specified coolant mixture.", cite: {p: 71}, figs: [43]}
+      - {t: "Tilt the motorcycle from side to side. The coolant then flows through the engine and pushes air out of the water jackets.", cite: {p: 71}}
+      - {t: "When the level drops, add more coolant. Continue until the level does not drop.", cite: {p: 71}}
+      - {t: "Fill the radiator to the bottom of the filler neck. Install the cap.", cite: {p: 71}}
+      - {t: "Fill the reserve tank to the full mark.", cite: {p: 71}}
+      - {t: "Install the fuel tank.", cite: {p: 71}, ref: "15/fuel-tank"}
+      - {t: "Start the engine. Let the coolant circulate for about 30 seconds. Then stop the engine.", cite: {p: 71}}
+      - {kind: warning, t: "Do not remove the radiator cap until all pressure is released. Put shop cloths over the cap and open it slowly.", cite: {p: 71}}
+      - {t: "Make sure that the coolant level in the radiator is at the bottom of the filler neck. If it is low, add coolant.", cite: {p: 71}}
+      - {t: "Make sure that the reserve tank is at the full mark. If it is low, fill it to the full mark.", cite: {p: 71}}
+      - {t: "Rinse and dry the frame and the engine where coolant splashed.", cite: {p: 71}}
+      - {t: "Start the engine and let it get to operating temperature.", cite: {p: 71}}
+      - {t: "Make sure that the drain plug, the hoses and the reserve tank do not leak.", cite: {p: 71}}
+      - {t: "Install the reserve tank cover and the bodywork.", cite: {p: 71}}
+      - {t: "Dispose of the old coolant in an environmentally safe manner.", cite: {p: 71}}

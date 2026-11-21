@@ -1,0 +1,41 @@
+title: "Fork disassembly"
+system: "Front suspension and steering"
+source: clymer
+chapter: 12
+section: "12/fork-service"
+summary: {t: "This procedure disassembles one fork leg. Rebuild one fork leg before you rebuild the other. Do not mix the parts of the two legs.", cite: {p: 270}}
+parts:
+  - {name: "Fork seal driver, 38 mm (Kawasaki part No. 57001-1219, or equivalent)", replace: consumable, cite: {p: 270}, note: "Special tool."}
+  - {name: "Handle and adapter (Kawasaki part No. 57001-183 and part No. 57001-1057, or equivalent)", replace: consumable, cite: {p: 270}, note: "Special tool. You can make an optional tool."}
+  - {name: "10 mm Allen socket", replace: consumable, cite: {p: 270}, note: "Use it to loosen and to tighten the damper bolt."}
+sections:
+  - title: "Cap, spring and oil"
+    steps:
+      - {t: "Loosen the fork boot clamp. Remove the boot from the outer tube.", cite: {p: 270}, figs: [31]}
+      - {t: "Clean the fork tubes and the fork cap area.", cite: {p: 270}}
+      - {kind: note, t: "The removed parts are oily. Put them on absorbent paper or cloth that you can discard.", cite: {p: 270}}
+      - {t: "Hold the fork leg upright. Remove the cap, the spring spacer, the spring seat and the spring.", cite: {p: 270}}
+      - {t: "If the spring is progressively wound, make a note of which end of the spring is up.", cite: {p: 270}}
+      - {t: "Drain the oil from the fork tubes. Pump the fork tubes to help drain the oil.", cite: {p: 270}}
+  - title: "Damper"
+    steps:
+      - {kind: note, t: "The Kawasaki adapter is tapered and square. The tapered end seats into the damper. The edges of the adapter must wedge into the damper to hold it steady.", cite: {p: 270}, figs: [33]}
+      - {kind: note, t: "An alternative is to use the 12-point hex at the top of the damper. A 24 mm nut locks into the fitting. You can weld the nut to a T-handle approximately 460 mm (18 in.) long.", cite: {p: 270}, figs: [34]}
+      - {t: "Push the fork tubes together. Seat the damper tool into the damper.", cite: {p: 270}, figs: [35]}
+      - {t: "If you use the Kawasaki adapter without the nut, tap the handle to seat the tool.", cite: {p: 270}}
+      - {t: "Lock the axle holder in a vise with soft jaws. Or turn the fork upside down and lock the tool handle into a floor joint or other stable device.", cite: {p: 270}}
+      - {t: "Make sure that the handle cannot turn.", cite: {p: 270}}
+      - {kind: caution, t: "If you use a vise, do not tighten it too much. The axle holder can crack.", cite: {p: 270}}
+      - {t: "Remove the damper bolt with a 10 mm Allen socket.", cite: {p: 270}, figs: [36]}
+      - {t: "Remove the fork damper and the rebound spring.", cite: {p: 270}, figs: [37]}
+  - title: "Tubes"
+    steps:
+      - {t: "Remove the stop ring from the top of the outer tube.", cite: {p: 270}, figs: [38]}
+      - {t: "Slide the tubes together. Feel for roughness and binding. If the action is not smooth, examine the tubes for damage when you disassemble them.", cite: {p: 270}}
+      - {t: "Pull the fork tubes apart quickly and firmly. The guide bushing and the seals have an interference fit in the outer tube.", cite: {p: 270}}
+      - {t: "Do this again until the parts separate.", cite: {p: 270}}
+      - {t: "Remove the valve and the collar. They can fall from the inner tube when the tubes separate.", cite: {p: 272}}
+      - {t: "Carefully spread open the slide bushing. Remove it from the fork tube. Do not spread it more than necessary.", cite: {p: 272}}
+      - {t: "Remove the remaining parts from the fork leg.", cite: {p: 272}}
+      - {kind: caution, t: "Do not disassemble the remaining parts in the inner fork tube and the fork damper. The parts are integral to the tube and the damper. Attempts to remove them can cause damage.", cite: {p: 272}}
+      - {t: "Clean and examine the parts.", cite: {p: 272}, op: c12-fork-inspection}

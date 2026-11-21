@@ -1,0 +1,3 @@
+# Each file in this folder is one procedure. The file name is its id.
+template: procedure
+kind: Procedure

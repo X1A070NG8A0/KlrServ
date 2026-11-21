@@ -1,0 +1,20 @@
+title: "Micrometer adjustment check and care"
+system: "General information"
+source: clymer
+chapter: 1
+section: "01/precision-measuring-tools"
+summary: {t: "Make sure that the micrometer is in adjustment before you use it. A micrometer is a precision instrument. Store and clean it with care.", cite: {p: 31}}
+sections:
+  - title: "Adjustment check"
+    steps:
+      - {t: "Clean the anvil and spindle faces.", cite: {p: 31}}
+      - {t: "To check a 0-1 in. or 0-25 mm micrometer, turn the thimble until the spindle touches the anvil. If the micrometer has a ratchet stop, use it.", cite: {p: 31}}
+      - {t: "To check a larger micrometer, put the standard gauge from the manufacturer between the spindle and the anvil. If the micrometer has a ratchet stop, use it.", cite: {p: 31}}
+      - {t: "Make sure that the 0 mark on the thimble aligns exactly with the 0 mark on the sleeve line.", cite: {p: 31}}
+      - {t: "If the marks do not align, the micrometer is out of adjustment. Adjust it as the manufacturer instructs.", cite: {p: 31}}
+  - title: "Care"
+    steps:
+      - {t: "Store the micrometer in a protective case or a separate padded drawer in a toolbox.", cite: {p: 31}}
+      - {t: "In storage, make sure that the spindle and anvil faces do not touch each other or another object. Temperature changes and corrosion can damage the faces.", cite: {p: 31}}
+      - {t: "Do not clean a micrometer with compressed air. Dirt forced into the tool causes wear.", cite: {p: 31}}
+      - {t: "Lubricate the micrometer with WD-40 to prevent corrosion.", cite: {p: 32}}

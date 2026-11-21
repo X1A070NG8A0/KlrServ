@@ -1,0 +1,130 @@
+title: "Chapter 2: Troubleshooting"
+pages:
+  - id: introduction
+    title: "Introduction"
+    kind: Section
+    pdf_pages: [43, 43]
+    summary:
+      - {t: "To find a problem, define the symptoms first. Then find the areas that can cause the symptoms, test the suspect area and isolate the problem.", cite: {p: 43}}
+      - {t: "Do not assume too early that a certain area is at fault. This can cause more problems, lost time and unnecessary parts replacement.", cite: {p: 43}}
+      - {t: "Start with the simple checks: the engine stop switch, the fuel level, the fuel valve position and the spark plug cap. If you cannot find the problem, stop and think about all conditions before the problem started.", cite: {p: 43}}
+    ops: []
+  - id: operating-requirements
+    title: "Operating requirements"
+    kind: Section
+    pdf_pages: [43, 43]
+    summary:
+      - {t: "An engine needs three things to run correctly. These are the correct air/fuel mixture, compression and correctly timed spark.", cite: {p: 43}}
+      - {t: "If one of these is not correct, the engine does not run or runs poorly.", cite: {p: 43}}
+    ops: []
+  - id: starting-the-engine
+    title: "Starting the engine"
+    kind: Section
+    pdf_pages: [43, 46]
+    summary:
+      - {t: "Do the pre-ride inspection before you start the engine. Safety switches prevent the engine from starting or running in some conditions.", cite: {p: 43}}
+      - {t: "The neutral switch stops the engine from starting when the transmission is in gear and the clutch is engaged (clutch lever out).", cite: {p: 43}}
+      - {t: "The starter lockout switch is in the clutch lever assembly. With the transmission in gear, the engine does not start if the clutch is engaged. If the clutch is disengaged, the engine starts.", cite: {p: 43}}
+      - {t: "If the side stand is down with the engine in gear and running, the engine stops when you release the clutch lever.", cite: {p: 45}}
+      - {t: "The engine stop switch prevents the engine from starting and stops a running engine when it is off (left or right of vertical). The engine starts and runs only when the switch is in the run position (vertical).", cite: {p: 45}}
+    ops: [c02-start-cold, c02-start-warm, c02-flooded-engine]
+  - id: four-stroke-operating-principles
+    title: "Four-stroke operating principles"
+    kind: Section
+    pdf_pages: [44, 46]
+    summary:
+      - {t: "A four-stroke engine has four strokes: intake, compression, power and exhaust.", cite: {p: 44}}
+      - {t: "On the intake stroke, the intake valve opens and the piston moves down. The piston pulls the air/fuel mixture from the carburetor into the cylinder.", cite: {p: 44}}
+      - {t: "On the compression stroke, the intake valve closes and the piston moves up. The piston compresses the air/fuel mixture.", cite: {p: 44}}
+      - {t: "On the power stroke, the spark plug ignites the compressed mixture. The mixture pushes the piston down and the force turns the crankshaft.", cite: {p: 44}}
+      - {t: "On the exhaust stroke, the exhaust valve opens and the piston moves up. The piston pushes the spent gases out through the valve.", cite: {p: 44}}
+    ops: []
+  - id: engine-spark-test
+    title: "Engine spark test"
+    kind: Section
+    pdf_pages: [46, 46]
+    summary:
+      - {t: "The engine spark test shows if the ignition system sends power to the spark plug. It shows quickly if the problem is in the electrical system or the fuel system.", cite: {p: 46}}
+    ops: [c02-engine-spark-test]
+  - id: engine-performance
+    title: "Engine performance"
+    kind: Section
+    pdf_pages: [46, 49]
+    summary:
+      - {t: "The lists of possible causes help to isolate a poor engine performance problem. The easier checks are first.", cite: {p: 46}}
+      - {t: "Read Chapter Eight (fuel system) and Chapter Nine (electrical system) to learn how these systems operate.", cite: {p: 47}}
+    ops: [c02-engine-performance]
+  - id: electrical-testing
+    title: "Electrical testing"
+    kind: Section
+    pdf_pages: [49, 49]
+    summary:
+      - {t: "Chapter Nine gives the tests for the starting system, the ignition system, the charging system, the fan system and the switches. Do the starting system checks in this chapter before you disassemble and bench test components.", cite: {p: 49}}
+      - {t: "Before you test a component, examine its electrical connections for corrosion and for bent or loose connectors. Most connectors have a lock. If the lock is not fully closed, the connection can fail.", cite: {p: 49}}
+      - {t: "If a connector is not locked, pull it apart and clean the fittings before you connect it again. Use the wiring diagrams in Chapter Nine and at the back of the manual.", cite: {p: 49}}
+    ops: []
+  - id: starting-system
+    title: "Starting system"
+    kind: Section
+    pdf_pages: [49, 49]
+    summary:
+      - {t: "The starting system problems are a slow starter, a starter that turns but does not crank the engine, and a starter that does not operate.", cite: {p: 49}}
+    ops: [c02-starting-system]
+  - id: engine-noise
+    title: "Engine noise"
+    kind: Section
+    pdf_pages: [49, 50]
+    summary:
+      - {t: "Noise is often the first sign that something is wrong with the engine. If you stop the motorcycle at once and find the cause, you can prevent or reduce damage.", cite: {p: 49}}
+    ops: [c02-engine-noise]
+  - id: leak-down-tester
+    title: "Leak-down tester"
+    kind: Section
+    pdf_pages: [50, 50]
+    summary:
+      - {t: "A leak-down tester has an air supply connection that goes to an air compressor and a connection that goes to the cylinder head. A gauge shows the cylinder pressure.", cite: {p: 50}}
+    ops: []
+  - id: motorcycle-noise
+    title: "Motorcycle noise"
+    kind: Section
+    pdf_pages: [50, 50]
+    summary:
+      - {t: "The causes of this noise usually occur only when the motorcycle is in motion.", cite: {p: 50}}
+    ops: [c02-motorcycle-noise]
+  - id: engine-leakdown-test
+    title: "Engine leakdown test"
+    kind: Section
+    pdf_pages: [50, 51]
+    summary:
+      - {t: "A leakdown tester shows the condition of the piston rings and the valves. You screw the tester into the spark plug hole and apply air pressure to the combustion chamber with all valves closed.", cite: {p: 50}}
+    ops: [c02-engine-leakdown-test]
+  - id: clutch
+    title: "Clutch"
+    kind: Section
+    pdf_pages: [51, 53]
+    summary:
+      - {t: "The two main clutch problems are slip and drag. Incorrect adjustment or a damaged or dry cable often causes them.", cite: {p: 51}}
+      - {t: "Do the cable and adjustment checks before you remove the right crankcase cover.", cite: {p: 51}}
+    ops: [c02-clutch-troubleshooting]
+  - id: gear-shift-linkage-and-transmission
+    title: "Gear shift linkage and transmission"
+    kind: Section
+    pdf_pages: [53, 54]
+    summary:
+      - {t: "It is hard to tell transmission problems from clutch and gear shift linkage problems. Start with the easy checks before you disassemble the engine.", cite: {p: 53}}
+    ops: [c02-transmission-troubleshooting]
+  - id: brakes
+    title: "Brakes"
+    kind: Section
+    pdf_pages: [53, 54]
+    summary:
+      - {t: "The disc brakes are critical to riding performance and safety. Examine them often and replace worn or damaged parts at once.", cite: {p: 54}}
+      - {t: "Both brakes use DOT 4 brake fluid. Use new fluid from a sealed container.", cite: {p: 54}}
+    ops: [c02-disc-brake-troubleshooting]
+  - id: steering-and-handling
+    title: "Steering and handling"
+    kind: Section
+    pdf_pages: [53, 54]
+    summary:
+      - {t: "Correct poor steering and handling at once because loss of control is possible.", cite: {p: 53}}
+    ops: [c02-steering-handling-troubleshooting]

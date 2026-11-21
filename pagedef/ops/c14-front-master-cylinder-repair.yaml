@@ -1,0 +1,60 @@
+title: "Front master cylinder disassembly, inspection and assembly"
+system: "brakes"
+source: clymer
+chapter: 14
+section: "14/front-master-cylinder"
+summary: {t: "Disassemble the front master cylinder, examine the parts and assemble it with new parts. The piston, the seals and the spring are only available as a complete assembly.", cite: {p: 305}}
+spec_refs:
+  - "brake-torque:Brake lever pivot nut"
+parts:
+  - {name: "Master cylinder piston, seals and spring assembly", replace: always, cite: {p: 305}, note: "These parts are only available as a complete assembly."}
+  - {name: "DOT 4 brake fluid (sealed container)", replace: consumable, spec_ref: "fluids:Brake fluid type", cite: {p: 308}}
+  - {name: "Silicone brake grease", replace: consumable, cite: {p: 308}}
+  - {name: "Waterproof grease", replace: consumable, cite: {p: 308}, note: "For the lever pivot point."}
+sections:
+  - title: "Disassembly"
+    steps:
+      - {t: "Remove the master cylinder.", cite: {p: 306}, op: c14-front-master-cylinder-remove}
+      - {t: "Remove the nut and the bolt that hold the hand guard. Flex the guard carefully to remove it from the master cylinder.", cite: {p: 306}, figs: [33]}
+      - {t: "Remove the brake switch.", cite: {p: 306}, figs: [34]}
+      - {t: "Remove the pivot bolt and the lever.", cite: {p: 306}, figs: [35]}
+      - {t: "Remove the cap and the diaphragm from the reservoir. Drain the reservoir and wipe out the extra fluid.", cite: {p: 306}}
+      - {t: "Remove the boot from the piston. The boot is a friction fit. To prevent damage, put penetrating lubricant around the boot. Pull the bottom edge back carefully so that the lubricant can loosen the boot.", cite: {p: 306}, figs: [36]}
+      - {t: "Hold the cylinder in a vise with soft jaws. Put a shop cloth between the jaws to absorb drips.", cite: {p: 306}}
+      - {kind: caution, t: "Do not tighten the vise too much. This can damage the cylinder.", cite: {p: 306}}
+      - {t: "Press down on the piston to release the pressure on the snap ring. Remove the snap ring.", cite: {p: 306}, figs: [37, 38]}
+      - {t: "Release the pressure on the piston slowly.", cite: {p: 307}}
+      - {t: "Remove the piston assembly from the bore.", cite: {p: 307}, figs: [39]}
+  - title: "Inspection"
+    steps:
+      - {t: "Clean the parts that you will use again with fresh brake fluid or isopropyl (rubbing) alcohol.", cite: {p: 307}}
+      - {t: "Examine the cylinder bore for wear, pitting and corrosion.", cite: {p: 307}, figs: [40]}
+      - {t: "Clean the threads and the orifices in the reservoir with compressed air. Examine them.", cite: {p: 307}, figs: [41]}
+      - {t: "Examine the lever bore and the pivot bolt for wear.", cite: {p: 307}, figs: [42]}
+      - {t: "Examine the diaphragm and the reservoir cap for damage.", cite: {p: 307}, figs: [43]}
+      - {t: "Examine the boot, the snap ring and the mounting hardware for corrosion and damage.", cite: {p: 307}, figs: [44]}
+      - {t: "Clean the brake switch with electrical contact cleaner. Spray into the holes in the switch case. Operate the switch while you flush the contacts.", cite: {p: 307}, figs: [45]}
+      - {t: "If you do not know the condition of the switch, connect an ohmmeter to the switch terminals. With the switch not pressed, the meter must show continuity. With the switch pressed, the meter must show no continuity.", cite: {p: 308}}
+  - title: "Assembly"
+    steps:
+      - {t: "Soak the primary seal and the secondary seal in fresh DOT 4 brake fluid for 15 minutes. This softens and lubricates the seals.", cite: {p: 308}, figs: [46]}
+      - {t: "Put brake fluid on the piston so that the seals can slide over the ends.", cite: {p: 308}}
+      - {t: "Find the wide (open) side of the primary seal. Install the seal on the piston so that the wide side faces in the direction of the arrow.", cite: {p: 308}, figs: [46]}
+      - {t: "Find the wide (open) side of the secondary seal. Install the seal on the piston so that the wide side faces in the direction of the arrow.", cite: {p: 308}, figs: [46]}
+      - {t: "Install the small end of the spring on the piston. Seat it.", cite: {p: 308}}
+      - {t: "Hold the cylinder in a vise with soft jaws.", cite: {p: 308}, figs: [47]}
+      - {kind: caution, t: "Do not tighten the vise too much. This can damage the cylinder.", cite: {p: 308}}
+      - {t: "Lubricate the cylinder bore and the piston assembly with brake fluid.", cite: {p: 308}}
+      - {t: "Put the piston assembly in the cylinder.", cite: {p: 308}}
+      - {t: "Put the snap ring over the end of the piston. Rest it on the edge of the bore. The flat side of the snap ring must face out.", cite: {p: 308}}
+      - {t: "Put a screwdriver on the end of the piston. Compress the snap ring with snap ring pliers.", cite: {p: 308}}
+      - {kind: note, t: "After the piston seals enter the cylinder, hold the piston in position until you install the snap ring. If the seals come out of the cylinder, the seal lips can be damaged when you put them in again.", cite: {p: 308}}
+      - {t: "Press the piston into the cylinder. Guide the snap ring into position.", cite: {p: 308}}
+      - {t: "If the snap ring does not seat easily, release it. Use the tip of the pliers to press it into the groove. Keep the screwdriver in position until the snap ring seats.", cite: {p: 308}}
+      - {t: "Remove the cylinder from the vise.", cite: {p: 308}}
+      - {t: "Put silicone brake grease on the end of the piston and inside the boot. Seat the boot in the cylinder.", cite: {p: 308}}
+      - {t: "Screw the brake switch to the master cylinder. Seat the contact points of the switch on the points of the cylinder.", cite: {p: 308}, figs: [48]}
+      - {t: "Install the lever and the pivot bolt. Lubricate the pivot point with waterproof grease.", cite: {p: 308}, figs: [35]}
+      - {t: "Screw the diaphragm and the cap loosely on the reservoir.", cite: {p: 308}}
+      - {t: "Install the hand guard. Flex it carefully onto the pivot bolt. Install the nut and the bolt that hold the guard.", cite: {p: 308}, figs: [33]}
+      - {t: "Install the master cylinder.", cite: {p: 308}, op: c14-front-master-cylinder-remove}

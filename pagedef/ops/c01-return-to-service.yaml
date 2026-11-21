@@ -1,0 +1,11 @@
+title: "Return to service after storage"
+system: "General information"
+source: clymer
+chapter: 1
+section: "01/storage"
+summary: {t: "The service that the motorcycle needs depends on the length of non-use and the storage conditions.", cite: {p: 39}}
+sections:
+  - steps:
+      - {t: "Install each part that you removed for storage. Examine each area that you prepared for storage.", cite: {p: 39}, op: c01-storage-preparation}
+      - {t: "Make sure that the brakes, the clutch, the throttle and the engine stop switch work correctly before you operate the motorcycle.", cite: {p: 39}}
+      - {t: "Use the maintenance and lubrication schedule to find the areas that need more service.", cite: {p: 39}, ref: "03/tune-up-and-service-intervals"}

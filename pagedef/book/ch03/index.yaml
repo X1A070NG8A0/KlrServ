@@ -1,0 +1,82 @@
+title: "Chapter 3: Lubrication, Maintenance and Tune-up"
+pages:
+  - id: introduction
+    title: "Introduction"
+    kind: Section
+    pdf_pages: [55, 55]
+    summary:
+      - {t: "This chapter gives the procedures to lubricate, fuel and adjust the motorcycle.", cite: {p: 55}}
+      - {t: "Table 1 lists the service intervals and the components that need inspection, lubrication or adjustment. For service that needs much disassembly, see the chapter for that component.", cite: {p: 55}}
+    ops: []
+  - id: pre-ride-inspection
+    title: "Pre-ride inspection"
+    kind: Section
+    pdf_pages: [55, 55]
+    summary:
+      - {t: "Do the pre-ride checks before each ride, with the engine cold. On extended travel and on rough terrain, do the checks at least once each day.", cite: {p: 55}}
+    ops: [c03-pre-ride-inspection]
+  - id: engine-break-in
+    title: "Engine break-in"
+    kind: Section
+    pdf_pages: [55, 56]
+    summary:
+      - {t: "Do the break-in procedure after service of the engine bearings, crankshaft, piston, piston rings or cylinder. The break-in period is 1000 miles (1600 km).", cite: {p: 55}}
+      - {t: "For the first 500 miles (800 km), do not operate the engine at more than 4000 rpm. For the second 500 miles (800 km), do not operate it at more than 6000 rpm.", cite: {p: 56}}
+    ops: [c03-engine-break-in]
+  - id: tune-up-and-service-intervals
+    title: "Tune-up and service intervals"
+    kind: Section
+    pdf_pages: [56, 56]
+    summary:
+      - {t: "The intervals in Table 1 are for equal use on and off the road. In extreme weather, or in water or sand, do the services more often.", cite: {p: 56}}
+      - {t: "Write down each service in the maintenance log at the end of the manual.", cite: {p: 56}}
+    ops: [c03-service-intervals]
+  - id: battery
+    title: "Battery"
+    kind: Section
+    pdf_pages: [56, 58]
+    summary:
+      - {t: "A new motorcycle has a 12 volt, 14 amp-hour battery. If the motorcycle is not used for at least two weeks, charge the battery. This prevents sulfation of the plates.", cite: {p: 56}}
+      - {t: "This section has the procedures to remove and install the battery, to measure the electrolyte level and the voltage, and to charge the battery.", cite: {p: 56}}
+    ops: [battery]
+  - id: fuel-and-lubricants
+    title: "Fuel and lubricants"
+    kind: Section
+    pdf_pages: [58, 59]
+    summary:
+      - {t: "The engine operates on unleaded pump-grade gasoline with an octane rating of 87 (R + M/2) or 91 RON.", cite: {p: 58}}
+      - {t: "The engine needs a multigrade SG oil. The engine oil also lubricates the transmission. Do not use oil additives that contain graphite or molybdenum.", cite: {p: 58}}
+      - {t: "The chassis needs 10-weight fork oil, lithium-base grease, O-ring chain lubricant, cable lubricant and foam air filter oil.", cite: {p: 59}}
+    ops: [c03-fuel-and-lubricants]
+  - id: periodic-lubrication
+    title: "Periodic lubrication"
+    kind: Section
+    pdf_pages: [59, 67]
+    summary:
+      - {t: "This section has the procedures for the engine oil and filter, the fork oil, the control cables, the drive chain and the air filter.", cite: {p: 59}}
+      - {t: "In extreme conditions (hot, cold, wet or dusty), change the engine oil more often.", cite: {p: 59}}
+    ops: [engine-oil-and-filter, fork-oil, control-cables-lube, drive-chain-adjust-lube, air-filter]
+  - id: maintenance-and-inspection
+    title: "Maintenance and inspection"
+    kind: Section
+    pdf_pages: [67, 80]
+    summary:
+      - {t: "This section has the inspection and adjustment procedures for the fuel system, cooling system, drive chain, controls, brakes, steering, suspension and wheels.", cite: {p: 67}}
+      - {t: "Use Table 1 to find the interval for each procedure.", cite: {p: 88}}
+    ops: [evap-system, muffler-clean, fasteners, balancer-chain-tensioner, carb-float-drain, cooling-system-inspect, coolant-replace, drive-chain-inspect, drive-chain-adjust, throttle-cable, clutch-adjust, choke-cable, brake-pedal, brake-light-switch, brake-fluid-level, brake-pads, steering-bearings, swingarm-linkage, fork-air-release, tires, spokes, general-lubrication]
+  - id: engine-tune-up
+    title: "Engine tune-up"
+    kind: Section
+    pdf_pages: [80, 84]
+    summary:
+      - {t: "The engine tune-up has the valve clearance check, the carburetor idle speed and pilot mixture adjustment, the engine timing check and the compression check.", cite: {p: 80}}
+      - {t: "The CDI unit controls the ignition timing. You cannot adjust the timing.", cite: {p: 83}}
+    ops: [valve-clearance, idle-speed, c03-engine-timing-check, c03-compression-check]
+  - id: spark-plugs
+    title: "Spark plugs"
+    kind: Section
+    pdf_pages: [84, 90]
+    summary:
+      - {t: "Remove the spark plug with care so that grit does not get into the combustion chamber. Set the electrode gap before you install the plug.", cite: {p: 84}}
+      - {t: "The spark plug shows how the engine operates. This section also gives the rules for the heat range and the reach of a plug.", cite: {p: 85}}
+    ops: [spark-plug, c03-spark-plug-selection, c03-spark-plug-reading]

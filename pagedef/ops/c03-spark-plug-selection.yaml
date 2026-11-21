@@ -1,0 +1,25 @@
+# Clymer Chapter Three: pre-ride inspection, break-in, service intervals, fuel and
+# lubricants, timing and compression checks, spark plug selection and reading.
+title: "Spark plug selection"
+system: "lubrication, maintenance and tune-up"
+source: clymer
+chapter: 3
+section: "03/spark-plugs"
+summary: {t: "Table 3 gives the standard or resistor-type spark plug and the gap. The heat range and the reach of the plug must be correct for the engine.", cite: {p: 85}}
+spec_refs:
+  - "tune-up:Spark plug/Type"
+  - "tune-up:Spark plug/Gap"
+sections:
+  - steps:
+      - {kind: caution, t: "Before you change to a plug that Kawasaki does not recommend, ask the spark plug manufacturer for the part numbers that apply to this motorcycle. A plug that is not compatible can cause poor performance or engine damage.", cite: {p: 85}}
+      - {t: "Use the recommended standard or resistor-type spark plug and gap.", cite: {p: 85}, spec_ref: "tune-up:Spark plug/Type"}
+      - {t: "The standard plug has a medium heat range. It operates well over a wide range of engine speeds. If the engine speed changes, this plug stays relatively clean.", cite: {p: 85}}
+      - {t: "If you operate the engine in hot climates, at high speed or under heavy loads for a long time, use a colder plug. A colder plug has a short path up the ceramic insulator and moves heat quickly from the firing tip to the cylinder head.", cite: {p: 85}, figs: [85]}
+      - {t: "If you operate the engine slowly for a long time, a colder plug can foul and cause poor performance.", cite: {p: 86}}
+      - {t: "If you operate the engine in cold climates or at slow speed for a long time, use a hotter plug. A hotter plug has a long path up the insulator and moves heat slowly from the firing tip.", cite: {p: 86}, figs: [85]}
+      - {t: "If you operate the engine in hot climates or fast for a long time, a hotter plug can overheat. It can cause preignition and melt the electrode. Damage to the piston and cylinder assembly is possible.", cite: {p: 86}}
+      - {t: "If you change the heat range, go one step hotter or one step colder than the recommended plug.", cite: {p: 86}}
+      - {t: "Do not use different spark plugs to correct poor carburetor or ignition problems. This makes the problems worse and can cause severe engine damage.", cite: {p: 86}}
+      - {t: "Use a plug with the correct reach. The reach is the length of the threaded portion of the plug.", cite: {p: 86}}
+      - {t: "If the reach is too short, deposits can form or the exposed threads in the cylinder head can burn. The engine can misfire because the tip of the plug is shrouded and not in the fuel mixture.", cite: {p: 86}}
+      - {t: "If the reach is too long, the exposed plug threads can burn and cause preignition. The piston can also touch the plug on the upstroke and cause severe engine damage.", cite: {p: 86}}

@@ -1,0 +1,36 @@
+title: "Primary drive gear installation"
+system: "Clutch, gearshift linkage and lubrication system"
+source: clymer
+chapter: 6
+section: "06/primary-drive-gear"
+summary: {t: "This procedure installs the primary drive gear on the crankshaft and tightens the nut. Hold the crankshaft with a rotor holder tool or with a jam gear.", cite: {p: 165}}
+spec_refs: ["clutch-torque:Primary drive gear nut"]
+parts:
+  - {name: "Primary drive gear lockwasher", replace: always, cite: {p: 165}}
+  - {name: "Engine oil", replace: consumable, cite: {p: 165}}
+sections:
+  - title: "Gear installation"
+    steps:
+      - {t: "Lubricate the crankshaft with engine oil.", cite: {p: 165}}
+      - {t: "Install the spacer, the shaft key, the primary drive gear and the oil pump drive gear.", cite: {p: 165}}
+      - {t: "Install a new lockwasher so that the cupped side faces out.", cite: {p: 165}}
+      - {t: "Apply engine oil to the crankshaft threads and to the primary drive gear nut.", cite: {p: 165}}
+      - {t: "Tighten the nut with your fingers.", cite: {p: 165}}
+  - title: "Tightening the nut with a rotor holder tool"
+    steps:
+      - {t: "Fit the rotor holder tool on the rotor.", cite: {p: 165}}
+      - {t: "Tighten the nut to the specified torque.", cite: {p: 165}, spec_ref: "clutch-torque:Primary drive gear nut", conflict: {note: "The Kawasaki supplement and the KLR600 manual give the same torque with a different ft-lb value.", agrees: true, others: [{t: "120 N-m (87 ft-lb).", cite: {s: kaw-supp, p: 14}}, {t: "120 N-m (12 kg-m, 87 ft-lb).", cite: {s: kaw-600, p: 60}}]}}
+      - {t: "Flatten one side of the lockwasher against the nut.", cite: {p: 165}, figs: [75]}
+      - {t: "Install the alternator cover.", cite: {p: 165}, ref: "09/alternator-cover"}
+      - {t: "Install the clutch.", cite: {p: 165}, op: c06-clutch-installation}
+  - title: "Tightening the nut with a jam gear"
+    steps:
+      - {t: "Install the clutch.", cite: {p: 165}, op: c06-clutch-installation}
+      - {t: "Mesh the jam gear with the clutch housing gear and the primary drive gear.", cite: {p: 165}}
+      - {kind: caution, t: "Do not jam the gears with screwdrivers or other tools. This can cause breakage of the gear teeth.", cite: {p: 165}}
+      - {t: "Tighten the nut to the specified torque.", cite: {p: 165}, spec_ref: "clutch-torque:Primary drive gear nut"}
+      - {t: "Flatten one side of the lockwasher against the nut.", cite: {p: 165}, figs: [75]}
+  - title: "Final installation"
+    steps:
+      - {t: "Install the oil pump.", cite: {p: 165}, op: c06-oil-pump-removal}
+      - {t: "Install the right crankcase cover.", cite: {p: 165}, op: c06-right-crankcase-cover}

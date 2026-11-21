@@ -1,0 +1,14 @@
+title: "Engine start, warm or hot engine"
+system: "troubleshooting"
+source: clymer
+chapter: 2
+section: "02/starting-the-engine"
+summary: {t: "This procedure starts a warm or hot engine. You do not use the choke.", cite: {p: 46}}
+sections:
+  - steps:
+      - {t: "Shift the transmission into neutral.", cite: {p: 45}}
+      - {t: "Make sure that the engine stop switch is in the run position.", cite: {p: 46}, op: "c09-starter-button-engine-stop-switch-test"}
+      - {t: "Turn the fuel valve lever from the off position to the on (vertical) position.", cite: {p: 46}, op: "c08-fuel-valve"}
+      - {t: "Turn on the ignition switch.", cite: {p: 46}, op: "c09-ignition-switch-test"}
+      - {t: "Make sure that the neutral light comes on.", cite: {p: 46}, op: "c09-neutral-switch-test"}
+      - {t: "Press the starter button. Keep the throttle closed.", cite: {p: 46}}

@@ -1,0 +1,16 @@
+# Clymer Chapter Three: chassis checks and engine tune-up (PDF p79-82).
+title: "Fork air release"
+system: "Front suspension"
+source: clymer
+chapter: 3
+section: "03/maintenance-and-inspection"
+summary:
+  t: "While you ride, the air at the top of each fork leg gets warm and expands. This makes the fork stiff. Kawasaki recommends that you do not add air pressure before you ride, because it increases the risk of seal leaks. Release the pressure regularly. On very rough terrain, release it at least once a day."
+  cite: {p: 79}
+spec_refs:
+  - "routine-checks:Fork air pressure"
+sections:
+  - steps:
+      - {t: "Remove the cap from each air release valve.", cite: {p: 79}, figs: [71]}
+      - {t: "Push the valve core in to release the pressure.", cite: {p: 79}, figs: [71]}
+      - {t: "Install the caps.", cite: {p: 79}, figs: [71]}

@@ -13,7 +13,7 @@ Modes:
 
 Output: PNG sheets in --out, plus corners.json (tile number -> region stem,
 page) for corners mode. Read the sheets, then add labels to
-doc/figures/clymer/labels-corners.yaml under "chapter-C". Only add a label if
+data/figures/labels-corners.yaml under "chapter-C". Only add a label if
 a step on the same page, or the next or previous page, cites that figure.
 
 Usage:
@@ -31,7 +31,8 @@ import yaml
 from PIL import Image, ImageDraw
 
 ROOT = Path(__file__).resolve().parent.parent
-FIG = ROOT / "doc" / "figures" / "clymer"
+FIG = ROOT / "doc" / "figures" / "clymer"  # index.yaml and index-drawings.yaml
+LABELS = ROOT / "data" / "figures"
 
 
 def load():
@@ -40,10 +41,10 @@ def load():
     if extra.exists():
         idx += yaml.safe_load(extra.read_text(encoding="utf-8"))
     labels = {}
-    for f in FIG.glob("labels*.yaml"):
+    for f in LABELS.glob("labels*.yaml"):
         for m in (yaml.safe_load(f.read_text(encoding="utf-8")) or {}).values():
             labels.update(m)
-    src = yaml.safe_load((ROOT / "doc" / "sources.yaml").read_text(encoding="utf-8"))["clymer"]
+    src = yaml.safe_load((ROOT / "data" / "sources.yaml").read_text(encoding="utf-8"))["clymer"]
     return idx, labels, pymupdf.open(ROOT / src["file"])
 
 

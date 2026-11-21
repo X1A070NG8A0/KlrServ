@@ -1,0 +1,31 @@
+title: "Subframe removal and installation"
+system: "body"
+source: clymer
+chapter: 15
+section: "15/subframe"
+issue: subframe-bolts
+summary: {t: "This procedure removes and installs the subframe, the rear part of the frame. An assistant must hold the subframe when you remove the upper bolts.", cite: {p: 330}}
+spec_refs: ["kaw-torque:Frame/Rear frame mounting bolts"]
+parts:
+  - {name: "Subframe mounting bolts", replace: inspect, cite: {p: 330}, note: "Replace a bolt that is corroded or damaged."}
+sections:
+  - title: "Removal"
+    steps:
+      - {t: "Remove the side covers.", cite: {p: 330}, op: c15-side-covers}
+      - {t: "Remove the seat.", cite: {p: 330}, op: c15-seat}
+      - {t: "Remove the muffler from the exhaust pipe and the frame.", cite: {p: 330}, ref: "04/exhaust-system"}
+      - {t: "Remove the right passenger footpeg (A).", cite: {p: 330}, figs: [11]}
+      - {t: "Loosen the carburetor clamp (A).", cite: {p: 330}, figs: [12]}
+      - {t: "Remove the battery.", cite: {p: 330}, op: battery}
+      - {t: "Disconnect all the hoses and wires that go from the front to the rear of the motorcycle.", cite: {p: 330}, figs: [13]}
+      - {t: "Route the hoses and wires out of the subframe.", cite: {p: 330}}
+      - {t: "Remove the lower subframe bolts (B).", cite: {p: 330}, figs: [11]}
+      - {kind: caution, t: "Ask an assistant to hold the subframe when you remove the upper subframe bolts. The subframe can fall.", cite: {p: 330}}
+      - {t: "Remove the upper subframe bolts (B).", cite: {p: 330}, figs: [12]}
+  - title: "Installation"
+    steps:
+      - {t: "Examine the subframe mounting bolts. If a bolt is corroded or damaged, replace it.", cite: {p: 330}}
+      - {t: "Ask an assistant to help you install the subframe.", cite: {p: 330}}
+      - {t: "Install the subframe in the reverse order of removal.", cite: {p: 330}}
+      - {t: "Tighten all the subframe mounting bolts with your fingers.", cite: {p: 330}}
+      - {t: "Tighten the subframe mounting bolts to the specified torque. The torque value is from Kawasaki. Clymer gives the same value.", cite: {s: kaw-supp, p: 16}, spec_ref: "kaw-torque:Frame/Rear frame mounting bolts", conflict: {note: "Clymer p330 gives the same torque for the subframe mounting bolts.", agrees: true, others: [{t: "Tighten the bolts to 25 N-m (18 ft-lb).", cite: {p: 330}}]}}

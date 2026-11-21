@@ -1,0 +1,17 @@
+title: Routine maintenance
+template: maintenance
+intro: Do each task at the odometer reading or the time interval in the table. Point to a task to see its procedure, its parts and its tools.
+by_interval: Select an interval to get a checklist for that service. Each box holds the tasks of one interval. A longer service also includes the tasks of the shorter intervals that come due at the same time.
+new_bike: Select a service to get a checklist for a new or rebuilt motorcycle. After the first 500 miles, each tab is the first time that interval comes due.
+# One page for each tab of the two service checklists. The ids must match the
+# intervals in data/schedule.yaml: the build checks them.
+pages:
+  - {id: "500", title: "New bike service: First 500 miles", kind: Service checklist}
+  - {id: "3000", title: "New bike service: First 3,000 miles", kind: Service checklist}
+  - {id: "6000", title: "New bike service: First 6,000 miles", kind: Service checklist}
+  - {id: "12000", title: "New bike service: First 12,000 miles", kind: Service checklist}
+  - {id: "18000", title: "New bike service: First 18,000 miles", kind: Service checklist}
+  - {id: every-3000, title: "Service: Every 3,000 miles", kind: Service checklist}
+  - {id: every-6000, title: "Service: Every 6,000 miles", kind: Service checklist}
+  - {id: every-12000, title: "Service: Every 12,000 miles", kind: Service checklist}
+  - {id: every-18000, title: "Service: Every 18,000 miles", kind: Service checklist}

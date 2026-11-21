@@ -1,5 +1,5 @@
-# klr650.net threads saved into this folder by scripts/save_forum_threads.py.
-# Each becomes <slug>.md with every post numbered, so data/ can cite
+# klr650.net threads that scripts/save_forum_threads.py saves into pagedef/threads/.
+# Each becomes <slug>.yaml with every post numbered, so a page can cite
 # {s: forum, id: <slug>, post: <n>}. Community sources fill gaps the manuals
 # don't cover (doohickey, subframe bolts, oil burning) and serve as the
 # consensus check when Clymer and Kawasaki disagree.

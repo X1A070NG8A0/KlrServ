@@ -1,0 +1,11 @@
+# Clymer Chapter Three: pre-ride inspection, break-in, service intervals, fuel and
+# lubricants, timing and compression checks, spark plug selection and reading.
+title: "Engine timing check"
+system: "lubrication, maintenance and tune-up"
+source: clymer
+chapter: 3
+section: "03/engine-tune-up"
+summary: {t: "The CDI unit controls the ignition timing electronically. You cannot adjust the timing. The timing check shows that the CDI unit operates correctly.", cite: {p: 83}}
+sections:
+  - steps:
+      - {t: "If you must make sure that the ignition timing is correct, do the ignition timing check in Chapter Nine.", cite: {p: 83}, ref: "09/ignition-system"}

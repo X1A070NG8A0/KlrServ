@@ -1,0 +1,27 @@
+title: "Valve installation"
+system: "Engine top end"
+source: clymer
+chapter: 4
+section: "04/valves"
+summary: {t: "This procedure installs the valves in the cylinder head. Do the procedure for each set of valve components. All components must be clean and dry.", cite: {p: 111}}
+parts:
+  - {name: "Valve oil seal", replace: always, cite: {p: 112}}
+  - {name: "Valve oil seal circlip", replace: always, cite: {p: 109}}
+  - {name: "Molybdenum disulfide grease", replace: consumable, cite: {p: 111}}
+sections:
+  - steps:
+      - {t: "Coat the valve stem and the inside of the oil seal with molybdenum disulfide grease.", cite: {p: 111}}
+      - {t: "Install the spring seat in the head.", cite: {p: 112}}
+      - {t: "Install a new oil seal on the valve guide. Make sure that the circlip seats on the seal and the valve guide.", cite: {p: 112}}
+      - {t: "Put the correct valve into the cylinder head. Turn the valve stem as it goes into and through the seal.", cite: {p: 112}}
+      - {t: "Make sure that the seal stays seated. Hold the valve in position.", cite: {p: 112}}
+      - {t: "Install the inner and outer valve springs with the small coil pitch down.", cite: {p: 112}, figs: [65]}
+      - {t: "Install the spring retainer.", cite: {p: 112}}
+      - {t: "Put a valve spring compressor over the valve assembly. Put the tool squarely on the spring retainer.", cite: {p: 112}}
+      - {t: "Tighten the compressor until the spring retainer is compressed enough to install the valve keepers.", cite: {p: 112}}
+      - {kind: caution, t: "Do not tighten the compressor too much and compress the valve springs too much. This can cause a loss of valve spring tension.", cite: {p: 112}}
+      - {t: "Put the keepers around the groove in the valve stem.", cite: {p: 112}, figs: [66]}
+      - {t: "Slowly release the pressure on the spring retainer. Remove the compressor from the head.", cite: {p: 112}}
+      - {t: "Tap the end of the valve stem with a soft mallet. Make sure that the keepers are seated in the groove of the valve stem.", cite: {p: 112}}
+      - {t: "After you install all the valves, do the solvent test.", cite: {p: 112}, op: c04-valve-solvent-test}
+      - {t: "Install the cylinder head.", cite: {p: 112}, op: c04-cylinder-head-installation}

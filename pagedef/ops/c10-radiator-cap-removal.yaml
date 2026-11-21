@@ -1,0 +1,15 @@
+title: "Radiator cap removal"
+system: "Cooling system"
+source: clymer
+chapter: 10
+section: "10/safety-precautions"
+summary: {t: "This procedure removes the radiator cap and releases the pressure in the cooling system safely.", cite: {p: 235}}
+sections:
+  - steps:
+      - {kind: warning, t: "Do not remove the radiator cap during engine operation or immediately after. The coolant is scalding hot and under pressure. It can spray from the radiator opening and cause injury.", cite: {p: 235}, figs: [1]}
+      - {t: "Wait for the engine to cool.", cite: {p: 236}}
+      - {t: "Put a shop cloth over the cap.", cite: {p: 236}}
+      - {t: "Turn the cap slowly to the safety stop to release the pressure.", cite: {p: 236}}
+      - {t: "Make sure that all pressure is released.", cite: {p: 236}}
+      - {t: "Push down on the cap and turn it to remove it from the radiator.", cite: {p: 236}}
+      - {kind: note, t: "Dispose of used coolant in a way that is safe for the environment.", cite: {p: 236}, op: coolant-replace}

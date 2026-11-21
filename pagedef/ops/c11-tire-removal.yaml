@@ -1,0 +1,20 @@
+title: "Tire removal"
+system: "Wheels, tires and drive chain"
+source: clymer
+chapter: 11
+section: "11/tire-changing"
+summary: {t: "This procedure removes a tire and the inner tube from the rim. Work over a pad to prevent damage to the wheel assembly.", cite: {p: 257}}
+parts:
+  - {name: "Inner tube", replace: inspect, cite: {p: 257}, note: "It is common practice to replace the tube when you install a new tire."}
+sections:
+  - steps:
+      - {t: "Put the wheel on a pad. Do not let the wheel rest on the brake disc.", cite: {p: 257}}
+      - {t: "Remove the core from the valve stem. Let the air out of the tire.", cite: {p: 257}}
+      - {t: "Press the entire bead on both sides of the tire into the rim.", cite: {p: 257}}
+      - {t: "Lubricate the beads with soapy water.", cite: {p: 257}}
+      - {t: "Put a tire iron under the bead, next to the valve stem. Pry the bead over the rim. At the same time, force the bead on the opposite side of the tire into the rim.", cite: {p: 257}, figs: [57]}
+      - {t: "Put a second tire iron next to the first.", cite: {p: 257}, figs: [58]}
+      - {t: "Hold the tire with one iron. Work around the rim with the second iron and pry the tire over the rim.", cite: {p: 257}}
+      - {kind: note, t: "If you must use the inner tube again, do not pinch the tube when you remove the tire from the rim.", cite: {p: 257}}
+      - {t: "Remove the nut from the valve stem. Remove the inner tube from the tire.", cite: {p: 258}}
+      - {t: "Pry the second tire bead over the rim.", cite: {p: 258}, figs: [59]}

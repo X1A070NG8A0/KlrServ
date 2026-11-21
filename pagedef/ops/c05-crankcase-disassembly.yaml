@@ -1,0 +1,44 @@
+title: "Crankcase disassembly"
+system: "Engine lower end"
+source: clymer
+chapter: 5
+section: "05/crankcase"
+summary: {t: "This procedure splits the crankcase. After you split the crankcase, you can remove the crankshaft, the balancer shafts and the transmission for inspection and repair. Before you start, remove the engine from the frame and remove all the assemblies in the crankcase covers.", cite: {p: 137}}
+sections:
+  - title: "Preparation"
+    steps:
+      - {t: "Remove the engine from the frame.", cite: {p: 137}, op: c05-engine-removal}
+      - {t: "Remove all the assemblies that are in the crankcase covers. It can be easier to remove them while the engine is in the frame.", cite: {p: 137}}
+      - {kind: caution, t: "Do not hammer or pry on the crankcase halves. The cases are cast aluminum alloy and can break.", cite: {p: 137}}
+      - {kind: note, t: "The left and right sides of the engine are the sides when the engine is in the frame, not on the workbench.", cite: {p: 138}}
+      - {t: "Keep the parts clean and organized as you remove them. Keep the right case facing down until you remove all the assemblies from the case.", cite: {p: 138}}
+  - title: "Crankcase bolts"
+    steps:
+      - {t: "Put the engine on wooden blocks with the left side up.", cite: {p: 138}, figs: [36]}
+      - {t: "Loosen the 13 bolts at the perimeter of the crankcase and the six bolts in the left crankcase cover area. Loosen each bolt 1/4 turn in a crossing pattern. Loosen the bolts until you can remove them by hand.", cite: {p: 138}}
+      - {kind: note, t: "The bolts have different lengths. Make a drawing of the crankcase shape on cardboard and punch holes at the bolt locations. Put each bolt in its hole in the template when you remove it. You can write a reference number at each hole to show which of the three bolt sizes is at that location.", cite: {p: 138}, figs: [37]}
+      - {t: "After you clean the bolts, put them back in the template.", cite: {p: 139}}
+  - title: "Crankcase separation"
+    steps:
+      - {t: "With the left side of the engine up, lightly pry the cases at the notch at the back of the engine. The notch is between the bores for the swing arm bolt and the rear engine mounting bolt.", cite: {p: 139}}
+      - {t: "Pry slowly and only enough to break the seal between the cases.", cite: {p: 139}}
+      - {t: "If necessary, use a heat gun to make the joint sealant soft. This makes the separation easier.", cite: {p: 139}}
+      - {kind: caution, t: "Pry the cases only at the notch. Do not pry the cases on the mating surfaces. Damage to the cases will occur.", cite: {p: 139}}
+      - {t: "When the case seal breaks, raise and lower the left case until it is fully released. Lift the left case evenly from the right case.", cite: {p: 139}, figs: [38]}
+      - {t: "Find the two dowels between the cases.", cite: {p: 139}, figs: [39]}
+  - title: "Shaft and crankshaft removal"
+    steps:
+      - {t: "Remove the front balancer shaft.", cite: {p: 139}, figs: [40]}
+      - {t: "Remove the rear balancer shaft and the weight. Find the shaft washer between the bearing and the weight.", cite: {p: 139}, figs: [41]}
+      - {t: "Examine the balancer assembly.", cite: {p: 139}, op: c05-balancer-inspection}
+      - {t: "Remove the crankshaft assembly from the case. The crankshaft must come out of the right bearing without tools. Do not lift the crankshaft by the connecting rod.", cite: {p: 139}, figs: [42]}
+      - {kind: caution, t: "Be very careful when you remove, hold and store the crankshaft. Keep it away from dirt and where it can roll and fall. If the crankshaft falls, the crankpin can move out of alignment and the connecting rod can be damaged.", cite: {p: 139}}
+      - {t: "Examine the crankshaft assembly and the cases.", cite: {p: 139}, op: c05-crankshaft-inspection}
+  - title: "Transmission removal"
+    steps:
+      - {t: "Remove the two shift fork shafts.", cite: {p: 139}, figs: [43]}
+      - {t: "Remove the shift drum. Disengage it from the shift forks. If necessary, raise the transmission shafts a small amount to release the forks from the shift drum.", cite: {p: 139}, figs: [44], ref: "07/shift-drum-and-forks"}
+      - {t: "Remove the No. 1, No. 2 and No. 3 shift forks.", cite: {p: 140}, figs: [45]}
+      - {t: "Remove the input shaft and output shaft assemblies as one unit. Keep the gears meshed and the shafts upright.", cite: {p: 140}, figs: [46]}
+      - {t: "Disassemble and examine the transmission.", cite: {p: 140}, ref: "07/input-shaft"}
+      - {kind: caution, t: "Be very careful when you remove, hold and store the transmission. Wrap and store the assembly until you examine it. Keep it away from dirt and where it can roll and fall.", cite: {p: 140}}

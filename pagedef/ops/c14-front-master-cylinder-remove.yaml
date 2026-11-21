@@ -1,0 +1,36 @@
+title: "Front master cylinder removal and installation"
+system: "brakes"
+source: clymer
+chapter: 14
+section: "14/front-master-cylinder"
+summary: {t: "Remove the front master cylinder and brake fluid reservoir from the handlebar. The brake lever does not need adjustment. If the brake is bled correctly, the lever adjusts itself.", cite: {p: 305}}
+spec_refs:
+  - "brake-torque:Master cylinder mounting bolts/Front"
+  - "brake-torque:Brake hose banjo bolts"
+parts:
+  - {name: "Banjo bolt seal washers", replace: always, cite: {p: 305}, note: "Install new seal washers on the banjo bolt."}
+  - {name: "Dielectric grease", replace: consumable, cite: {p: 305}, note: "Put it on the brake switch connectors."}
+sections:
+  - title: "Removal"
+    steps:
+      - {t: "Cover and protect the fuel tank and the area around the master cylinder.", cite: {p: 305}}
+      - {kind: caution, t: "Do not let brake fluid splash from the reservoir or the hose. Brake fluid can damage painted and plastic surfaces. Clean up spills immediately and flood the area with water.", cite: {p: 305}}
+      - {t: "Drain the brake system.", cite: {p: 305}, op: brake-fluid-replace}
+      - {t: "Pull back the rubber boot.", cite: {p: 305}}
+      - {t: "Remove the banjo bolt and the seal washers from the brake hose. Keep a shop cloth ready for fluid that drips from the hose.", cite: {p: 305}, figs: [30]}
+      - {t: "Wrap the end of the hose. This prevents damage to other surfaces from brake fluid.", cite: {p: 305}}
+      - {t: "Disconnect the brake switch wires.", cite: {p: 305}, figs: [31]}
+      - {t: "Remove the bolts that hold the master cylinder to the handlebar. Then remove the master cylinder, the holder and the hand guard.", cite: {p: 305}, figs: [31]}
+      - {t: "Repair the master cylinder if necessary.", cite: {p: 305}, op: c14-front-master-cylinder-repair}
+  - title: "Installation"
+    steps:
+      - {t: "Install the mounting bracket so that UP and the arrow point up.", cite: {p: 305}, figs: [31],
+         conflict: {
+           agrees: false,
+           note: "The Kawasaki KLR600 manual describes the clamp position in a different way. Use the Clymer UP mark.",
+           others: [{t: "The master cylinder clamp must be installed with the small projection toward the throttle grip. Tighten the upper clamp bolt first, then the lower bolt.", cite: {s: kaw-600, p: 113}}]}}
+      - {t: "Tighten the upper bolt first. Then tighten the bottom bolt to the specified torque.", cite: {p: 305}, spec_ref: "brake-torque:Master cylinder mounting bolts/Front"}
+      - {t: "Put dielectric grease on the brake switch connectors. Connect the wires.", cite: {p: 305}}
+      - {t: "Put the brake hose fitting above the support.", cite: {p: 305}, figs: [32]}
+      - {t: "Install new seal washers on the banjo bolt. Install the bolt and tighten it to the specified torque.", cite: {p: 305}, spec_ref: "brake-torque:Brake hose banjo bolts"}
+      - {t: "Fill the brake fluid reservoir and bleed the brake system.", cite: {p: 305}, op: brake-fluid-replace}

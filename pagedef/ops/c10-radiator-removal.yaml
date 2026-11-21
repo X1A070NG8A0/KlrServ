@@ -1,0 +1,34 @@
+title: "Radiator and fan switch removal and installation"
+system: "Cooling system"
+source: clymer
+chapter: 10
+section: "10/radiator-and-fan"
+summary: {t: "This procedure removes the radiator and the fan switch, and installs them again. The fan switch is at the bottom of the radiator.", cite: {p: 236}}
+spec_refs: ["cooling-torque:Radiator fan switch"]
+parts:
+  - {name: "Radiator hoses", replace: inspect, cite: {p: 236}, note: "Replace hoses that are hard, cracked or deteriorated. Replace hoses that you cut to remove them."}
+sections:
+  - title: "Removal"
+    steps:
+      - {t: "Drain the cooling system.", cite: {p: 236}, op: coolant-replace}
+      - {t: "Remove the fuel tank.", cite: {p: 236}, ref: "15/fuel-tank"}
+      - {t: "Remove the radiator covers.", cite: {p: 236}, ref: "15/radiator-covers"}
+      - {t: "Remove the fan.", cite: {p: 236}, op: c10-fan-removal}
+      - {t: "Remove the wire from the fan switch.", cite: {p: 236}, figs: [3]}
+      - {t: "If necessary, remove the fan switch.", cite: {p: 236}, figs: [3]}
+      - {t: "Remove the hoses from the radiator.", cite: {p: 236}}
+      - {t: "If the hoses are seized to the fittings, cut and split the hoses. Peel them from the fittings. Do not score the fittings.", cite: {p: 236}}
+      - {t: "Remove the two bolts at the front of the radiator.", cite: {p: 236}, figs: [4]}
+      - {t: "Remove the bolt at the back of the radiator.", cite: {p: 236}}
+      - {t: "Examine the radiator.", cite: {p: 236}, op: c10-radiator-inspection}
+      - {t: "To test the fan switch and the fan relay, do the test procedure in Chapter Nine.", cite: {p: 236}, ref: "09/fan-system"}
+  - title: "Installation"
+    steps:
+      - {t: "Install the radiator. Do the removal steps in the opposite sequence.", cite: {p: 236}}
+      - {t: "Examine each hose. Hold the hose and flex it in several directions. If the hose is hard, cracked or deteriorated inside or outside, replace it.", cite: {p: 236}}
+      - {t: "If a hose is difficult to install on a fitting, dip the hose end in hot water until the rubber is soft. Then install the hose.", cite: {p: 236}}
+      - {t: "Install the clamps in their original positions.", cite: {p: 236}}
+      - {t: "If you removed the fan switch, install it and tighten it to the specified torque.", cite: {p: 236}, spec_ref: "cooling-torque:Radiator fan switch"}
+      - {t: "Fill the cooling system and remove the air from it.", cite: {p: 237}, op: coolant-replace}
+      - {t: "Start the engine and let it get warm.", cite: {p: 237}}
+      - {t: "Look for leaks.", cite: {p: 237}}

@@ -1,0 +1,14 @@
+title: "Sidestand stop switch test"
+system: "electrical system"
+source: clymer
+chapter: 9
+section: "09/starting-system"
+summary: {t: "The sidestand stop switch is on the left side of the motorcycle, behind the plastic cover. It does not prevent engine start with the sidestand up or down. If the sidestand is down, the engine runs and the transmission is in gear, the switch stops the engine when you release the clutch.", cite: {p: 216}}
+sections:
+  - steps:
+      - {t: "Remove the cover to get to the switch. If necessary, remove the fuel tank to get more access.", cite: {p: 216}, ref: "15/fuel-tank", figs: [40]}
+      - {t: "Follow the wire from the switch. Disconnect the connector plug.", cite: {p: 216}}
+      - {t: "Connect an ohmmeter to the brown wire and the green/white wire.", cite: {p: 216}, figs: [45]}
+      - {t: "With the sidestand down, there must be no continuity.", cite: {p: 216}}
+      - {t: "With the sidestand up, there must be continuity.", cite: {p: 216}}
+      - {t: "If the switch fails any test, replace or repair the assembly.", cite: {p: 216}}

@@ -1,10 +1,12 @@
-"""Save klr650.net threads listed in doc/community/threads.yaml as Markdown.
+"""Save klr650.net threads listed in doc/community/threads.yaml as pagedefs.
 
-Each thread becomes doc/community/<slug>.md: a YAML header (title, canonical
-URL, fetch date) followed by every post, numbered as the forum numbers them,
-with author, timestamp and permalink. Quoted replies are kept as blockquotes
-so it is clear who said what. Image URLs in posts are listed per post so a
-demonstration photo can be traced to its author.
+Each thread becomes pagedef/threads/<slug>.yaml, a page of the site: the
+title, the canonical URL (`link`), the fetch date and the number of forum
+pages, then each post as a child page under `pages`. A post has the number
+that the forum gives it (`id`), author, date, permalink, text and image URLs.
+Quoted replies are kept as "> " lines, so it is clear who said what. Image
+URLs are listed for each post, so a demonstration photo can be traced to its
+author. The text stays plain text: the site keeps its line breaks.
 
 Usage: .venv/Scripts/python.exe -I scripts/save_forum_threads.py [slug ...]
 """
@@ -19,7 +21,8 @@ import yaml
 from bs4 import BeautifulSoup, NavigableString, Tag
 
 ROOT = Path(__file__).resolve().parent.parent
-OUT = ROOT / "doc" / "community"
+LIST = ROOT / "doc" / "community" / "threads.yaml"
+OUT = ROOT / "pagedef" / "threads"
 UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) klrmanual-personal-archive"
 
 
@@ -63,7 +66,7 @@ def block_text(node: Tag) -> str:
             walk(c)
 
     walk(node)
-    text = "".join(out)
+    text = "".join(out).replace("\r", "")
     text = re.sub(r"[ \t\xa0]+", " ", text)
     text = re.sub(r" *\n *", "\n", text)
     return re.sub(r"\n{3,}", "\n\n", text).strip()
@@ -83,7 +86,7 @@ def parse_posts(soup: BeautifulSoup) -> list[dict]:
         posts.append(
             {
                 "n": int(num) if num else None,
-                "author": author.get_text(" ", strip=True) if author else "unknown",
+                "author": author.get_text(" ", strip=True) if author else "",
                 "date": when.get("datetime") if when else "",
                 "permalink": count.get("href") if count else "",
                 "text": block_text(body),
@@ -105,29 +108,46 @@ def save(slug: str, url: str) -> None:
     for n in range(2, pages + 1):
         posts += parse_posts(fetch(f"{canon}/page{n}"))
 
-    header = {
-        "title": title,
-        "url": canon,
-        "fetched": dt.date.today().isoformat(),
-        "pages": pages,
-        "posts": len(posts),
-    }
-    lines = ["---", yaml.safe_dump(header, sort_keys=False, allow_unicode=True).strip(), "---", "", f"# {title}", ""]
-    for p in posts:
-        lines.append(f"## Post {p['n']} — {p['author']}, {p['date'][:10]}")
-        lines.append(f"<{p['permalink']}>")
-        lines.append("")
-        lines.append(p["text"] or "_(no text)_")
+    children = []
+    for k, p in enumerate(posts, start=1):
+        n = p["n"] if p["n"] is not None else k
+        post = {"id": n, "title": f"{title}: post {n}", "kind": "Forum post"}
+        if p["author"]:
+            post["author"] = p["author"]
+        if p["date"]:
+            post["date"] = p["date"][:10]
+        post["permalink"] = p["permalink"]
+        post["text"] = p["text"] or "_(no text)_"
         if p["images"]:
-            lines.append("")
-            lines.append("Images: " + ", ".join(f"<{i}>" for i in p["images"]))
-        lines.append("")
-    (OUT / f"{slug}.md").write_text("\n".join(lines), encoding="utf-8")
+            post["images"] = p["images"]
+        children.append(post)
+    page = {"title": title, "link": canon, "fetched": dt.date.today().isoformat(), "forum_pages": pages, "pages": children}
+    text = yaml.dump(page, Dumper=PagedefDumper, sort_keys=False, allow_unicode=True, width=float("inf"))
+    OUT.mkdir(parents=True, exist_ok=True)
+    (OUT / f"{slug}.yaml").write_text(HEADER + text, encoding="utf-8", newline="\n")
     print(f"{slug}: {len(posts)} posts over {pages} page(s)")
 
 
+HEADER = "# Saved from klr650.net by scripts/save_forum_threads.py. Each post is a child page.\n"
+
+
+class PagedefDumper(yaml.SafeDumper):
+    """The YAML style of the other pagedefs: lists indented under their key,
+    and text with line breaks as a literal block."""
+
+    def increase_indent(self, flow: bool = False, indentless: bool = False) -> None:
+        return super().increase_indent(flow, False)
+
+
+def _text(dumper: yaml.SafeDumper, s: str) -> yaml.ScalarNode:
+    return dumper.represent_scalar("tag:yaml.org,2002:str", s, style="|" if "\n" in s else None)
+
+
+PagedefDumper.add_representer(str, _text)
+
+
 def main(only: list[str]) -> None:
-    threads = yaml.safe_load((OUT / "threads.yaml").read_text(encoding="utf-8"))
+    threads = yaml.safe_load(LIST.read_text(encoding="utf-8"))
     for slug, url in threads.items():
         if only and slug not in only:
             continue

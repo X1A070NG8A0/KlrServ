@@ -1,0 +1,21 @@
+title: "Driven sprocket removal and installation"
+system: "Wheels, tires and drive chain"
+source: clymer
+chapter: 11
+section: "11/sprockets"
+summary: {t: "This procedure removes the driven sprocket from the sprocket hub and installs it again.", cite: {p: 257}}
+spec_refs: ["wheel-drive-torque:Driven sprocket bolts"]
+parts:
+  - {name: "Driven sprocket", replace: inspect, cite: {p: 257}, note: "If the chain or the sprockets are worn, replace all drive components."}
+sections:
+  - steps:
+      - {t: "Remove the rear wheel.", cite: {p: 257}, op: c11-rear-wheel}
+      - {t: "Support the wheel so that it does not rest on the brake disc. You can also remove the sprocket hub from the wheel.", cite: {p: 257}, figs: [55]}
+      - {kind: note, t: "It can be easier to leave the sprocket hub in the wheel until you loosen the sprocket nuts.", cite: {p: 257}}
+      - {t: "Remove the nuts that hold the sprocket to the hub.", cite: {p: 257}}
+      - {t: "Examine the sprocket.", cite: {p: 257}, op: drive-chain-inspect}
+      - {t: "Examine the hub.", cite: {p: 257}, op: c11-rear-wheel-inspection}
+      - {t: "Install the sprocket so that the tooth identification number is out.", cite: {p: 257}, figs: [56]}
+      - {t: "Tighten the bolts in several passes in a crossing pattern. Tighten them to the specified torque.", cite: {p: 257}, spec_ref: "wheel-drive-torque:Driven sprocket bolts"}
+      - {t: "Install the rear wheel.", cite: {p: 257}, op: c11-rear-wheel}
+      - {t: "Adjust the drive chain.", cite: {p: 257}, op: drive-chain-adjust}

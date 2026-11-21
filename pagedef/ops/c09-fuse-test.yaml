@@ -1,0 +1,11 @@
+title: "Fuse holder and fuse test"
+system: "electrical system"
+source: clymer
+chapter: 9
+section: "09/charging-system"
+summary: {t: "The fuse holder is under the seat, on top of the battery case. It holds two fuses. The 10 amp fuse protects the headlight, taillight and instrument gauge bulbs. The 20 amp main circuit fuse protects the rest of the motorcycle.", cite: {p: 224}}
+sections:
+  - steps:
+      - {kind: note, t: "On 1990-on models, the fan circuit has its own fuse under the fuel tank. The fan circuit of all models also receives power from the main circuit that has the 20 amp fuse.", cite: {p: 224}}
+      - {t: "Use an ohmmeter to test the fuse for continuity.", cite: {p: 224}, figs: [57]}
+      - {kind: note, t: "A fuse can look good but have a fine break in the element. A fine break can show continuity when the fuse is cold and break the circuit when the fuse is under load and hot.", cite: {p: 224}}

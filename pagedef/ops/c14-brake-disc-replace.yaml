@@ -1,0 +1,27 @@
+title: "Brake disc removal and installation"
+system: "brakes"
+source: clymer
+chapter: 14
+section: "14/brake-disc"
+summary: {t: "Bolts hold each disc to its hub. Remove the wheel to remove the disc.", cite: {p: 325}}
+spec_refs:
+  - "brake-torque:Brake disc bolts"
+  - "brakes:Disc runout"
+parts:
+  - {name: "Brake disc", replace: inspect, cite: {p: 325}}
+  - {name: "Nonpermanent threadlocking compound", replace: consumable, cite: {p: 326}, note: "Put it on the bolt threads."}
+sections:
+  - steps:
+      - {t: "Front disc: remove the front wheel.", cite: {p: 325}, ref: "11/front-wheel-and-speedometer-drive-unit"}
+      - {t: "Rear disc: remove the rear wheel.", cite: {p: 325}, ref: "11/rear-wheel"}
+      - {t: "Remove the bolts that hold the disc to the hub.", cite: {p: 325}, figs: [103]}
+      - {t: "Clean the bolts and the mounting holes.", cite: {p: 326}}
+      - {t: "Install the disc with the thickness mark and the direction arrow toward the outside.", cite: {p: 326}, figs: [104],
+         conflict: {
+           agrees: true,
+           note: "The Kawasaki KLR600 manual also says that the marked side must face out.",
+           others: [{t: "Mount the brake disc on the wheel so that the marked side faces outwards.", cite: {s: kaw-600, p: 113}}]}}
+      - {t: "Put nonpermanent threadlocking compound on the bolt threads.", cite: {p: 326}}
+      - {t: "Tighten the bolts in several passes in a crossing pattern. Tighten them to the specified torque.", cite: {p: 326}, spec_ref: "brake-torque:Brake disc bolts"}
+      - {t: "Measure the disc runout.", cite: {p: 326}, op: c14-brake-disc-inspect, spec_ref: "brakes:Disc runout"}
+      - {t: "Install the wheel.", cite: {p: 326}}

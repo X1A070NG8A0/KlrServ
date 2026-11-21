@@ -1,0 +1,31 @@
+title: "Starter disassembly and assembly"
+system: "electrical system"
+source: clymer
+chapter: 9
+section: "09/starter"
+summary: {t: "This procedure disassembles the starter for inspection and assembles it again. To examine only the brushes, remove only the rear end cover.", cite: {p: 209}}
+parts:
+  - {name: "Starter housing O-ring (rear end cover)", replace: always, cite: {p: 210}}
+  - {name: "Starter housing O-ring (front end cover)", replace: always, cite: {p: 211}}
+sections:
+  - title: "Disassembly"
+    steps:
+      - {t: "Remove the two housing screws, the rear end cover and the O-ring.", cite: {p: 209}, figs: [22]}
+      - {kind: note, t: "To examine only the brush condition, remove only the rear end cover. You can examine the brushes and install the cover again if you do not need more disassembly.", cite: {p: 209}}
+      - {t: "Remove the front end cover and the O-ring.", cite: {p: 209}}
+      - {t: "Remove the armature, the brush plate assembly and the insulator from the housing. Note the position of any shims on the armature shaft.", cite: {p: 209}, figs: [25]}
+      - {t: "Examine and test the starter components.", cite: {p: 210}, op: c09-starter-inspection-testing}
+  - title: "Assembly"
+    steps:
+      - {t: "Install the insulator and the positive brush plate. Make sure that the small projection on the insulator is up and that the O-ring fits between the terminal and the housing. The terminal must be insulated from the housing.", cite: {p: 210}, figs: [26]}
+      - {t: "Put the positive brushes into the slots of the insulated brush plate. Seat the plate in the housing. Lock the positive brushes in the slots.", cite: {p: 210}}
+      - {t: "The tabs on the brush plate are not spaced symmetrically. The plate fits correctly in one position only.", cite: {p: 210}, figs: [27]}
+      - {t: "Install the armature. Use small plastic ties or another method to hold back the brushes so that the commutator can go under the brushes.", cite: {p: 210}}
+      - {t: "Make sure that the alignment mark on the housing and the vertical tab on the brush plate are as the figure shows.", cite: {p: 210}, figs: [28]}
+      - {t: "Install a new O-ring on the housing.", cite: {p: 210}}
+      - {t: "Align the vertical tab on the brush plate with the slot in the rear end cover. Seat the cover on the housing.", cite: {p: 210}, figs: [29]}
+      - {t: "Make sure that the alignment marks on the outside of the housing and the cover are aligned.", cite: {p: 211}, figs: [30]}
+      - {t: "Install a new O-ring on the housing. Align and install the front end cover. The alignment marks on the outside of the housing and the cover must be aligned.", cite: {p: 211}}
+      - {t: "Install and tighten the housing screws.", cite: {p: 211}}
+      - {t: "Install the fiber washers on the cable terminal. Then install the metal washer and the nut. The fiber washers must be in good condition so that they insulate the cable from the starter housing.", cite: {p: 211}}
+      - {t: "Install a new, lubricated O-ring on the front end cover.", cite: {p: 211}}

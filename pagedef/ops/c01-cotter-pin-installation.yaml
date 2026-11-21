@@ -1,0 +1,18 @@
+title: "Cotter pin installation"
+system: "General information"
+source: clymer
+chapter: 1
+section: "01/fasteners"
+summary: {t: "A cotter pin is a split metal pin that prevents a fastener from loosening. It is used with a castellated (slotted) nut, for example on a rear axle.", cite: {p: 19}}
+parts:
+  - {name: "Cotter pin", replace: inspect, cite: {p: 19}, note: "Use a pin with the correct diameter for the hole in the fastener."}
+sections:
+  - steps:
+      - {t: "Make sure that the diameter of the cotter pin is correct for the hole in the fastener.", cite: {p: 19}}
+      - {t: "Tighten the fastener correctly.", cite: {p: 19}}
+      - {t: "Align the holes.", cite: {p: 19}}
+      - {t: "If the holes do not align, tighten the fastener only until the holes align.", cite: {p: 19}}
+      - {kind: caution, t: "Do not loosen a torqued fastener to align the holes, unless the instructions tell you to do so.", cite: {p: 19}}
+      - {t: "Put the cotter pin through the hole.", cite: {p: 19}}
+      - {t: "Bend the ends of the cotter pin over the fastener.", cite: {p: 19}}
+      - {kind: note, t: "To measure the length of a cotter pin, measure from the bottom of the head to the tip of the shortest pin.", cite: {p: 19}}

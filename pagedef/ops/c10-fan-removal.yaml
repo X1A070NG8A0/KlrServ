@@ -1,0 +1,17 @@
+title: "Fan removal and installation"
+system: "Cooling system"
+source: clymer
+chapter: 10
+section: "10/radiator-and-fan"
+summary: {t: "This procedure removes the radiator fan and installs it again. The fan switch and the fan relay turn the fan on and off.", cite: {p: 236}}
+sections:
+  - steps:
+      - {t: "Remove the fuel tank and the radiator covers.", cite: {p: 236}, ref: "15/fuel-tank"}
+      - {t: "Remove the radiator covers.", cite: {p: 236}, ref: "15/radiator-covers"}
+      - {t: "Disconnect the battery.", cite: {p: 236}}
+      - {kind: warning, t: "The fan is wired directly to the battery. The fan can operate when the ignition switch is off.", cite: {p: 236}}
+      - {t: "Trace the wires from the fan. Disconnect the wires at the connector.", cite: {p: 236}}
+      - {t: "Remove the wires from the retainers.", cite: {p: 236}, figs: [2]}
+      - {t: "Remove the three bolts that hold the fan to the radiator.", cite: {p: 236}, figs: [2]}
+      - {t: "To test the fan, do the test procedure in Chapter Nine.", cite: {p: 236}, ref: "09/fan-system"}
+      - {t: "To install the fan, do the removal steps in the opposite sequence.", cite: {p: 236}}

@@ -1,0 +1,30 @@
+title: "Rear wheel and axle inspection"
+system: "Wheels, tires and drive chain"
+source: clymer
+chapter: 11
+section: "11/rear-wheel"
+summary: {t: "This procedure shows how to examine the rear wheel seals, bearings, damper and axle assembly.", cite: {p: 246}}
+parts:
+  - {name: "Rear wheel bearings", replace: inspect, cite: {p: 247}, note: "Replace the bearings as a set."}
+  - {name: "Rubber damper", replace: inspect, cite: {p: 247}}
+  - {name: "Waterproof grease", replace: consumable, cite: {p: 247}}
+sections:
+  - steps:
+      - {t: "Pull the sprocket hub from the wheel.", cite: {p: 246}, figs: [20]}
+      - {t: "Keep the spacer from the back of the sprocket hub. Put the small diameter of the spacer into the sprocket hub when you install it.", cite: {p: 246}}
+      - {t: "Examine the seal on the right side of the wheel and the seal on the outer face of the sprocket hub for nicked, damaged or missing rubber.", cite: {p: 246}, figs: [21]}
+      - {t: "Examine each seal for grease or water seepage.", cite: {p: 247}}
+      - {t: "Turn each bearing by hand. Do this for the bearings on both sides of the wheel and the bearing in the sprocket hub. Make sure that each bearing turns smoothly and quietly.", cite: {p: 247}}
+      - {t: "Push each bearing in and out to check for axial play. Push each bearing up and down to check for radial play.", cite: {p: 247}, figs: [10], chapter: 11}
+      - {t: "If you can feel play easily, the bearing is worn out. Replace the bearings as a set.", cite: {p: 247}}
+      - {t: "If a seal or a bearing is damaged, replace the bearings.", cite: {p: 247}, ref: "11/front-and-rear-hubs", op: c11-hub-bearing-replacement}
+      - {t: "Examine the grease in the left hub bearing and in the sprocket hub bearing.", cite: {p: 247}, figs: [22, 23]}
+      - {t: "If the grease is dirty or dry, clean the bearings and pack them with waterproof grease.", cite: {p: 247}}
+      - {kind: caution, t: "Do not remove the bearings to examine or lubricate them. Damage to the bearings is likely. If you remove the bearings, replace them.", cite: {p: 247}}
+      - {t: "Examine the rubber damper in the wheel hub. The sprocket hub must fit tightly in the damper with little or no play.", cite: {p: 247}, figs: [22]}
+      - {t: "If the damper is damaged, replace it. A damaged damper causes too much lash in the driveline. You can feel this during acceleration and deceleration.", cite: {p: 247}}
+      - {t: "Clean the axle assembly.", cite: {p: 247}, figs: [24]}
+      - {t: "Make sure that the axle is straight.", cite: {p: 247}}
+      - {t: "Examine the threads of the axle, the adjusters and the locknuts for damage.", cite: {p: 247}}
+      - {t: "Examine the bores in the spacers and the adjusters for damage.", cite: {p: 247}}
+      - {t: "Examine and true the rim.", cite: {p: 247}, ref: "11/rim-and-spoke-service", op: c11-rim-inspection}

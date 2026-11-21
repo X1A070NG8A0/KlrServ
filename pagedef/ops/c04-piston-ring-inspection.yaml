@@ -1,0 +1,31 @@
+title: "Piston ring inspection and removal"
+system: "Engine top end"
+source: clymer
+chapter: 4
+section: "04/piston-and-piston-rings"
+summary: {t: "The piston has two compression rings and an oil control ring assembly. The oil ring assembly has two side rails and an expander ring. This procedure measures the rings and removes them from the piston.", cite: {p: 120}}
+spec_refs: ["top-end:Piston rings/Ring-to-groove clearance, top and second ring", "top-end:Piston rings/Thickness (top and second)", "top-end:Piston rings/End gap, top and second ring", "top-end:Piston rings/Top mark identification, top ring", "top-end:Piston rings/Top mark identification, second ring"]
+parts:
+  - {name: "Piston rings", replace: inspect, cite: {p: 121}, note: "Replace the rings as a set. If the clearance is too large after you install new rings, replace the piston."}
+sections:
+  - steps:
+      - {t: "Clean the rings and the grooves so that you can make accurate measurements with a flat feeler gauge.", cite: {p: 120}}
+      - {t: "Press the top ring into the piston groove.", cite: {p: 120}}
+      - {t: "Put a flat feeler gauge between the ring and the groove. Record the measurement.", cite: {p: 120}, figs: [92], spec_ref: "top-end:Piston rings/Ring-to-groove clearance, top and second ring"}
+      - {t: "Do this again at other points around the piston.", cite: {p: 121}}
+      - {t: "If any measurement is more than the service limit, replace the rings. If the clearance is too large after you install new rings, replace the piston.", cite: {p: 121}}
+      - {t: "Do the same for the second compression ring. Do not measure the oil control ring.", cite: {p: 121}}
+      - {t: "Remove the top and second rings with a ring expander or by hand.", cite: {p: 121}, figs: [93, 94]}
+      - {t: "Spread the rings only enough to clear the piston.", cite: {p: 121}}
+      - {t: "As you remove each ring, make sure that you can see the top mark. The top ring has the mark N. The second ring has the mark 2N.", cite: {p: 121}, figs: [95], spec_ref: "top-end:Piston rings/Top mark identification, top ring"}
+      - {t: "If you will use the rings again, mark their top surfaces if necessary. The oil control ring rails have no marks.", cite: {p: 121}}
+      - {t: "Remove the top rail of the oil ring assembly first and then the bottom rail. Remove the expander ring last by hand.", cite: {p: 121}}
+      - {t: "Clean and examine the piston.", cite: {p: 121}, op: c04-piston-inspection}
+      - {t: "Measure the thickness of the top and second rings. If any measurement is more than the service limit, replace all the rings.", cite: {p: 121}, figs: [96], spec_ref: "top-end:Piston rings/Thickness (top and second)"}
+      - {t: "Put a ring into the bottom of the cylinder. Use the piston to square the ring to the cylinder wall. Push the ring about 10 mm (0.4 in.) into the cylinder.", cite: {p: 121}}
+      - {t: "Measure the end gap of the top and second rings with a feeler gauge.", cite: {p: 121}, figs: [97], spec_ref: "top-end:Piston rings/End gap, top and second ring"}
+      - {t: "If any measurement is more than the service limit, replace all the rings. Always replace rings as a set.", cite: {p: 121}}
+      - {t: "If you will install new rings, set the gap of the new rings after you service the cylinder.", cite: {p: 121}}
+      - {t: "If the gap of a new ring is too narrow, widen it with a fine-cut file. Work slowly and measure often.", cite: {p: 121}, figs: [98]}
+      - {t: "Roll each ring around its piston groove. Look for binding or snags.", cite: {p: 121}, figs: [99]}
+      - {t: "Repair minor damage with a fine-cut file.", cite: {p: 121}}

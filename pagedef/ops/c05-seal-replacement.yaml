@@ -1,0 +1,32 @@
+title: "Crankcase oil seal replacement"
+system: "Engine lower end"
+source: clymer
+chapter: 5
+section: "05/seal-replacement"
+summary: {t: "This procedure replaces the oil seal of the output shaft bearing and the oil seal of the shift shaft bore in the left crankcase.", cite: {p: 143}}
+parts:
+  - {name: "Output shaft oil seal", replace: always, cite: {p: 143}}
+  - {name: "Shift shaft oil seal", replace: always, cite: {p: 143}}
+  - {name: "Grease", replace: consumable, cite: {p: 143}, note: "Apply grease to the lip and the sides of the new seal."}
+sections:
+  - title: "Output shaft seal"
+    steps:
+      - {t: "Pry out the old seal. If necessary, put a block of wood on the case to improve the leverage and to protect the case.", cite: {p: 143}, figs: [51]}
+      - {kind: caution, t: "When you pry, do not let the end of the tool touch the seal bore or catch the oil hole in the bore. Scratches in the bore cause leaks. Too much force can break the casting.", cite: {p: 143}}
+      - {t: "If you will install a new bearing, replace the bearing before you install the new seal.", cite: {p: 143}, op: c05-crankcase-bearing-replacement}
+      - {t: "Clean the oil seal bore.", cite: {p: 143}}
+      - {t: "Apply grease to the lip and the sides of the new seal.", cite: {p: 143}}
+      - {t: "To prevent the new seal from going too deep, put a wire tie or a similar object through the oil hole. Leave it there until you install the seal.", cite: {p: 143}, figs: [54]}
+      - {t: "Put the seal in the bore with the closed side of the seal facing out. The seal must be square to the bore.", cite: {p: 143}}
+      - {t: "Drive or press the seal into place. Use a driver that fits at the perimeter of the seal.", cite: {p: 143}}
+      - {t: "Move the object in the oil hole. Make sure that the hole is not covered.", cite: {p: 143}}
+      - {t: "Remove the object from the oil hole.", cite: {p: 143}}
+  - title: "Shift shaft seal"
+    steps:
+      - {t: "Pry out the old seal. If necessary, put a block of wood on the case to improve the leverage and to protect the case.", cite: {p: 143}, figs: [51]}
+      - {kind: caution, t: "When you pry, do not let the end of the tool touch the seal bore. Scratches in the bore cause leaks.", cite: {p: 143}}
+      - {t: "Clean the oil seal bore.", cite: {p: 144}}
+      - {t: "Apply grease to the lip and the sides of the new seal.", cite: {p: 144}}
+      - {kind: note, t: "This seal is usually replaced when the engine is assembled. If the shift shaft is in the bore, cover the shaft splines with plastic wrap. This prevents damage to the seal lip when it goes over the shaft.", cite: {p: 144}}
+      - {t: "Put the seal in the bore with the closed side of the seal facing out. The seal must be square to the bore.", cite: {p: 144}}
+      - {t: "Press the seal into place by hand. If necessary, use a driver that fits at the perimeter of the seal.", cite: {p: 144}}

@@ -1,0 +1,54 @@
+title: "Output shaft assembly"
+system: "Transmission and internal shift mechanism"
+source: clymer
+chapter: 7
+section: "07/output-shaft"
+summary: {t: "This procedure installs the parts on the output shaft. The direction of each part is given in relation to the splined end of the shaft, where the drive sprocket is installed.", cite: {p: 177}}
+parts:
+  - {name: "Snap rings", replace: always, cite: {p: 177}, note: "Have new snap rings ready before you start."}
+  - {name: "Engine oil", replace: consumable, cite: {p: 177}}
+  - {name: "Rubber band", replace: consumable, cite: {p: 178}, note: "A strong rubber band holds the parts on the shaft after assembly."}
+sections:
+  - title: "Later shaft (from KL650AE032210)"
+    steps:
+      - {t: "If you wish, hold the splined end of the shaft in a padded vise. Hold the shaft vertical. Do not let the vise damage the shaft.", cite: {p: 177}, figs: [23]}
+      - {kind: caution, t: "Install the notched snap rings with the method in the service notes. The installed snap rings must grip the shaft tightly.", cite: {p: 177}, op: c07-snap-ring-installation}
+      - {t: "Clean and dry all parts. Lubricate all parts with engine oil.", cite: {p: 177}}
+      - {t: "Install fourth gear. Put the side with the shift fork groove out, away from the splined end.", cite: {p: 177}, figs: [24]}
+      - {t: "Install the thrust washer.", cite: {p: 177}, figs: [25]}
+      - {t: "Install third gear. Put the side with the gear dog recesses in, toward the splined end.", cite: {p: 177}, figs: [26]}
+      - {t: "Install the spline washer.", cite: {p: 177}, figs: [27]}
+      - {t: "Install the snap ring. Seat the snap ring in the shaft groove. Put the ends of the snap ring out of line with the spline washer teeth.", cite: {p: 177}, figs: [28]}
+      - {t: "Install fifth gear. Put the side with the shift fork groove in, toward the splined end.", cite: {p: 177}, figs: [29]}
+      - {t: "Install the thrust washer.", cite: {p: 178}, figs: [30]}
+      - {t: "Install first gear. Put the side with the gear dog recesses in, toward the splined end.", cite: {p: 178}, figs: [31]}
+      - {t: "Install the thrust washer.", cite: {p: 178}, figs: [32]}
+      - {t: "Install the bearing and the spacer.", cite: {p: 178}, figs: [33]}
+      - {t: "Install the snap ring. Seat the snap ring in the shaft groove. Put the sharp edge of the snap ring out, away from the splined end.", cite: {p: 178}, figs: [34]}
+      - {t: "At the splined end of the shaft, install the thrust washer.", cite: {p: 178}, figs: [35]}
+      - {t: "Install second gear. Put the side with the gear dog recesses in, toward the middle of the shaft and away from the splined end.", cite: {p: 178}, figs: [36]}
+      - {t: "Install the spacer.", cite: {p: 178}, figs: [37]}
+      - {t: "Put a strong rubber band around the end of the shaft.", cite: {p: 178}}
+      - {t: "Make sure that all parts are secure. Make sure that the gears turn, slide and engage freely on the shaft.", cite: {p: 178}}
+      - {t: "Wrap the assembly and store it until you install it in the crankcase.", cite: {p: 178}, ref: "05/crankcase"}
+  - title: "Early shaft (to KL650AE032209)"
+    steps:
+      - {kind: note, t: "This shaft does not fit this bike. The steps are for reference.", cite: {p: 176}}
+      - {t: "If you wish, hold the splined end of the shaft in a padded vise. Do not let the vise damage the shaft.", cite: {p: 177}}
+      - {t: "Clean and dry all parts. Lubricate all parts with engine oil.", cite: {p: 177}}
+      - {t: "Install second gear. Put the side with the gear dog recesses out, away from the splined end.", cite: {p: 176}}
+      - {t: "Install the thrust washer and the snap ring. Seat the snap ring in the shaft groove.", cite: {p: 176}}
+      - {t: "Install fourth gear. Put the side with the shift fork groove out, away from the splined end.", cite: {p: 176}}
+      - {t: "Install the snap ring and the spline washer. Seat the snap ring in the shaft groove. Put the ends of the snap ring out of line with the spline washer teeth.", cite: {p: 177}}
+      - {t: "Align and install the third gear bushing.", cite: {p: 177}}
+      - {kind: caution, t: "Align the oil hole in the bushing with the oil hole in the shaft.", cite: {p: 177}}
+      - {t: "Install third gear. Put the side with the gear dog recesses in, toward the splined end.", cite: {p: 177}}
+      - {t: "Install the spline washer and the snap ring. Seat the snap ring in the shaft groove. Put the ends of the snap ring out of line with the spline washer teeth.", cite: {p: 177}}
+      - {t: "Install fifth gear. Put the side with the shift fork groove in, toward the splined end.", cite: {p: 177}}
+      - {t: "Install the thrust washer.", cite: {p: 177}}
+      - {t: "Install first gear. Put the side with the gear dog recesses in, toward the splined end. This is the deep side of the gear.", cite: {p: 177}}
+      - {t: "Install the thrust washer.", cite: {p: 177}}
+      - {t: "Install the bearing.", cite: {p: 178}}
+      - {t: "Put a strong rubber band around the end of the shaft.", cite: {p: 178}}
+      - {t: "Make sure that all parts are secure. Make sure that the gears turn, slide and engage freely on the shaft.", cite: {p: 178}}
+      - {t: "Wrap the assembly and store it until you install it in the crankcase.", cite: {p: 178}, ref: "05/crankcase"}

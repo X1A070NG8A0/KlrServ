@@ -1,0 +1,29 @@
+# Clymer Chapter Three: cable adjustments, brakes and steering inspection (PDF p74-78).
+title: "Throttle cable adjustment"
+system: "Controls"
+source: clymer
+chapter: 3
+section: "03/maintenance-and-inspection"
+summary:
+  t: "The throttle has two cables. The accelerator cable pulls the throttle open. The decelerator cable pulls the throttle closed. Before you adjust the cables, make sure that they are in good condition and do not bind or drag. Make sure that the idle speed is correct."
+  cite: {p: 74}
+spec_refs:
+  - "routine-checks:Throttle grip free play"
+sections:
+  - steps:
+      - {t: "Measure the free play at the throttle grip.", cite: {p: 75}, figs: [56], spec_ref: "routine-checks:Throttle grip free play"}
+      - {t: "If the free play is not correct, adjust it as follows.", cite: {p: 75}}
+      - {t: "At the handlebar, pull the rubber boots back from the cable adjusters.", cite: {p: 75}, figs: [57]}
+      - {t: "Loosen the locknuts (A). Turn the adjusters (B) fully in.", cite: {p: 75}, figs: [57]}
+      - {t: "Turn the bottom adjuster (decelerator cable) out only until the play is gone with the throttle closed. Do not make it too tight.", cite: {p: 75}, figs: [58]}
+      - {kind: note, t: "At the carburetor, the decelerator cable is on the right (A).", cite: {p: 75}, figs: [58]}
+      - {t: "Turn the top adjuster (accelerator cable) out until the free play at the grip is 2-3 mm.", cite: {p: 75}, figs: [58],
+         gap: "This step in the manual prints \"2-3 mm (0.08-0.16 in.)\". The first step and Table 4 give 2-3 mm (0.08-0.12 in.). 3 mm is 0.12 in., so 0.16 is probably a misprint."}
+      - {kind: note, t: "At the carburetor, the accelerator cable is on the left (B).", cite: {p: 75}, figs: [58]}
+      - {t: "Operate the throttle. Look at the cables and the throttle valve at the carburetor. The valve must fully open and fully close.", cite: {p: 75}}
+      - {t: "If you cannot get the correct play at the handlebar, loosen the locknuts at the carburetor.", cite: {p: 75}, figs: [59]}
+      - {t: "Move the cables so that the threads are approximately in the center of the holders. Tighten the locknuts.", cite: {p: 75}, figs: [59]}
+      - {t: "Do the adjustment again.", cite: {p: 75}}
+      - {t: "Tighten the locknuts at the handlebar.", cite: {p: 75}}
+      - {t: "Install the rubber boots.", cite: {p: 75}}
+      - {kind: warning, t: "When you start the engine, turn the handlebar from side to side while the engine idles. If the engine speed changes, make sure that the cables are adjusted and routed correctly.", cite: {p: 75}}

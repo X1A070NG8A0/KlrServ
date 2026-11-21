@@ -1,0 +1,30 @@
+title: "Oil pump removal and installation"
+system: "Clutch, gearshift linkage and lubrication system"
+source: clymer
+chapter: 6
+section: "06/oil-pump"
+summary: {t: "This procedure removes the oil pump from the right side of the crankcase and installs it again. A gear on the end of the crankshaft drives the pump.", cite: {p: 161}}
+spec_refs: ["oil-pump:Oil pump pressure at 4000 rpm", "oil-pump:Relief valve opening pressure"]
+parts:
+  - {name: "Oil pump gasket", replace: always, cite: {p: 162}}
+  - {name: "Engine oil", replace: consumable, cite: {p: 162}, note: "Fill the pump with engine oil before you install it."}
+  - {name: "Threadlocking compound", replace: consumable, cite: {p: 162}}
+sections:
+  - title: "Removal"
+    steps:
+      - {t: "Remove the right crankcase cover.", cite: {p: 161}, op: c06-right-crankcase-cover}
+      - {t: "Put the transmission in neutral.", cite: {p: 162}}
+      - {t: "Turn the crankshaft until the holes in the oil pump gear align with the three pump mounting screws. Use an open-end wrench on the primary drive gear nut to turn the crankshaft.", cite: {p: 162}, figs: [57]}
+      - {t: "Remove the three mounting screws and the oil pump.", cite: {p: 162}}
+      - {t: "Keep the two dowels that connect the pump to the crankcase.", cite: {p: 162}}
+      - {t: "Remove the gasket.", cite: {p: 162}, figs: [58]}
+      - {t: "Make sure that the plugs are in position. Do not remove the plugs.", cite: {p: 162}, figs: [59]}
+      - {t: "Disassemble, examine and assemble the oil pump.", cite: {p: 162}, op: c06-oil-pump-service}
+  - title: "Installation"
+    steps:
+      - {t: "Examine and clean the crankcase oil strainer and the oil passage.", cite: {p: 162}, figs: [60]}
+      - {t: "Fill the pump with engine oil.", cite: {p: 162}}
+      - {t: "Install a new oil pump gasket.", cite: {p: 162}}
+      - {t: "Apply threadlocking compound to the threads of the mounting screws.", cite: {p: 162}}
+      - {t: "Install the oil pump and the three mounting screws.", cite: {p: 162}}
+      - {t: "Install the right crankcase cover.", cite: {p: 162}, op: c06-right-crankcase-cover}

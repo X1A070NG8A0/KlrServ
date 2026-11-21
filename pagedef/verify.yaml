@@ -1,0 +1,6 @@
+title: Build checks
+kind: Build report
+# build.ts puts the lists of the data checks in place of the comment.
+body: |
+  <p>The build stops if a value has no valid citation.</p>
+  <!--data-checks-->

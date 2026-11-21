@@ -1,0 +1,27 @@
+title: "Cooling temperature swings (Thermo-Bob bypass)"
+ops: [coolant-replace, c10-thermostat-removal]
+summary:
+  - t: "The stock thermostat opens at 69.5-72.5° C (157-162° F). It has at least 3 mm of lift at 85° C (185° F)."
+    cite: {s: clymer, p: 241}
+  - t: "The Thermo-Bob is an aftermarket bypass. One owner says that it keeps the coolant in the engine in circulation while the thermostat is closed. The result is a more even engine temperature."
+    cite: {s: forum, id: thermobob, post: 8}
+sections:
+  - title: "Reported effect of the Thermo-Bob"
+    steps:
+      - {t: "One forum member says that the purpose is a more consistent engine temperature than the stock setup gives, mainly in cold weather.", cite: {s: forum, id: thermobob, post: 2}}
+      - {t: "Another member says that the Thermo-Bob \"WILL NOT make the bike run cooler under any conditions.\" He says that it makes the coolant in the engine warmer, mainly at start up.", cite: {s: forum, id: thermobob, post: 5}}
+      - {t: "The same member says that the warmer coolant prevents cycles of hot and cold that can cause damage to the engine over time.", cite: {s: forum, id: thermobob, post: 5}}
+      - {t: "The same member says that it is normal for the temperature gauge to rise when the bike is stopped and at idle, because no air flows across the radiator.", cite: {s: forum, id: thermobob, post: 5}}
+      - {t: "One owner explains the stock system this way. The coolant moves through the engine only when the thermostat is open. The top of the engine can then be hotter than the bottom.", cite: {s: forum, id: thermobob, post: 8}}
+      - {t: "The same owner says that during installation the Thermo-Bob replaces the stock thermostat. The new thermostat is in the housing of the Thermo-Bob.", cite: {s: forum, id: thermobob, post: 8}}
+      - {t: "Temperatures of the stock thermostat and the Thermo-Bob thermostat.", cite: {s: clymer, p: 241},
+         conflict: {
+           note: "One forum post puts the stock thermostat at 165° F. The Clymer specification for the opening temperature is 157-162° F. The summary shows the Clymer value.",
+           others: [
+             {t: "One member says that the stock thermostat is set at 165° F and the Thermo-Bob thermostat at approximately 195° F. The higher setting keeps a higher minimum temperature.", cite: {s: forum, id: thermobob, post: 6}}
+           ]}}
+  - title: "Installation of the Thermo-Bob"
+    steps:
+      - {kind: note, t: "The Thermo-Bob is an aftermarket modification. It is not a manual procedure. Use the instructions of the kit for the installation. To remove the stock thermostat, do the thermostat procedure. To drain and fill the cooling system, do the coolant procedure.", cite: {s: clymer, p: 71}, op: c10-thermostat-removal,
+         gap: "No source in this wiki gives written steps to install the Thermo-Bob. The saved video thread (pagedef/threads/thermobob-video.yaml) has no written steps."}
+      - {t: "To drain and fill the cooling system, do the coolant procedure.", cite: {s: clymer, p: 71}, op: coolant-replace}

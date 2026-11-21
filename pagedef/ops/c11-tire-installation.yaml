@@ -1,0 +1,34 @@
+title: "Tire installation"
+system: "Wheels, tires and drive chain"
+source: clymer
+chapter: 11
+section: "11/tire-changing"
+summary: {t: "This procedure installs a tire and an inner tube on the rim and inflates the tire.", cite: {p: 258}}
+spec_refs: ["wheels:Tire pressure (standard)/Front"]
+parts:
+  - {name: "Talcum powder", replace: consumable, cite: {p: 258}}
+  - {name: "Inner tube", replace: inspect, cite: {p: 258}}
+sections:
+  - steps:
+      - {kind: note, t: "The tire is easier to install if it is warm and flexible. Put the tire in the sun or in a closed vehicle.", cite: {p: 258}}
+      - {t: "Sprinkle talcum powder inside the tire casing. Put the powder on all surfaces that will touch the inner tube. The powder decreases chafing and helps the tube to spread when you inflate it.", cite: {p: 258}}
+      - {t: "Examine the sidewall to find if the tire must go in a specific direction. A direction arrow is often embossed in the sidewall.", cite: {p: 258}}
+      - {t: "Look for a dot or a mark that shows the light side of the tire. Align this mark with the valve stem.", cite: {p: 259}}
+      - {t: "Lubricate one tire bead. Push it onto the rim. Use a tire iron to lever the last section of the bead onto the rim.", cite: {p: 259}, figs: [60]}
+      - {t: "Install the core in the valve stem. Put the tube in the tire.", cite: {p: 259}}
+      - {t: "Make sure that the tube is not twisted when you tuck it into the tire. Install the valve stem nut loosely.", cite: {p: 259}}
+      - {t: "Inflate the tube until it is round and has no wrinkles. Too much air makes the installation difficult. Too little air increases the risk of a pinched tube.", cite: {p: 259}}
+      - {t: "Lubricate the second tire bead. Start the installation opposite the valve stem.", cite: {p: 260}}
+      - {t: "Fit as much of the tire as you can by hand.", cite: {p: 260}, figs: [61]}
+      - {t: "Before the final installation, make sure that the valve stem is straight and the inner tube is not pinched.", cite: {p: 260}}
+      - {t: "If it is necessary, lubricate the bead again.", cite: {p: 260}}
+      - {t: "Use tire irons to hold and pry the remaining section of bead onto the rim.", cite: {p: 260}, figs: [62]}
+      - {t: "Make sure that the bead fits evenly on both sides of the tire.", cite: {p: 260}}
+      - {t: "Lubricate both beads. Inflate the tire to seat the beads on the rim.", cite: {p: 260}}
+      - {t: "Look in the sidewall for a recommended seating pressure. If there is none, inflate the tire to 172-207 kPa (25-30 psi).", cite: {p: 259}}
+      - {kind: warning, t: "If the tire does not seat at the recommended pressure, do not continue to inflate it. Let the air out and inflate the tire to the recommended seating pressure again. This prevents damage and injury. If it is necessary, lubricate the beads again.", cite: {p: 260}}
+      - {t: "Tighten the valve stem nut with your fingers.", cite: {p: 260}}
+      - {t: "Let air out of the tire to the recommended pressure.", cite: {p: 260}, spec_ref: "wheels:Tire pressure (standard)/Front"}
+      - {t: "Install the valve stem cap.", cite: {p: 260}}
+      - {t: "Balance the wheel.", cite: {p: 260}, op: c11-wheel-balancing}
+      - {t: "For tire pressure checks and tire wear checks, see the Chapter Three procedure.", cite: {p: 260}, op: tires}

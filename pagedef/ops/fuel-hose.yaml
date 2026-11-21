@@ -1,0 +1,29 @@
+# Fuel hose replacement (Clymer Ch. 3, 8 and 15) and lights/switch operation
+# (Clymer Ch. 3 and 9). Neither has a single stand-alone section in the
+# manuals, so each step cites the page it comes from.
+title: "Fuel hose replacement"
+system: "Fuel system"
+source: clymer
+chapter: 15
+section: "15/fuel-tank"
+summary:
+  t: "Table 1 schedules fuel hose replacement every 4 years. The fuel hose goes from the fuel valve on the tank to a fitting on the carburetor. The fuel valve also has a vacuum hose to the carburetor."
+  cite: {p: 88}
+parts:
+  - {name: "Fuel hose", replace: always, cite: {p: 88}, note: "Table 1: replace every 4 years."}
+  - {name: "Fuel valve vacuum hose", replace: inspect, cite: {p: 195}, note: "The hose must be tight and in good condition. If it is not, the diaphragm valve does not operate."}
+sections:
+  - steps:
+      - {kind: note, t: "No source gives a stand-alone fuel hose procedure, a hose size or a clamp specification. These steps use the hose connections from the fuel tank and fuel valve procedures.", cite: {p: 328},
+         gap: "Hose inner diameter, length and clamp type are not given in any source in doc/. Match the old hose."}
+      - {kind: warning, t: "Drain fuel into an approved container, a safe distance from the work area. Fuel can ignite.", cite: {p: 196}, chapter: 8}
+      - {t: "Remove the seat.", cite: {p: 328}}
+      - {t: "Turn the fuel valve off.", cite: {p: 328}}
+      - {t: "Remove the fuel tank.", cite: {p: 328}, ref: "15/fuel-tank"}
+      - {t: "Remove the fuel hose (A) and the vacuum hose (B) from the fuel valve assembly.", cite: {p: 328}, figs: [4]}
+      - {kind: note, t: "The diaphragm valve in the fuel valve operates with vacuum. A hose goes from the valve to a fitting on the carburetor (C). The valve opens only with engine vacuum. Keep the valve and the vacuum hose clean and tight.", cite: {p: 195}, figs: [47], chapter: 8}
+      - {kind: note, t: "The fuel valve does not pass fuel without vacuum. To empty the tank, siphon it or empty it through the fill opening.", cite: {p: 196}, chapter: 8}
+      - {t: "Disconnect the other end of the fuel hose from the fuel hose fitting on the carburetor.", cite: {p: 184}, chapter: 8}
+      - {t: "Install the new fuel hose in the same routing as the old hose.", cite: {p: 185}, chapter: 8}
+      - {t: "At installation, make sure that the routing of the fuel hose and the overflow hose is correct.", cite: {p: 185}, chapter: 8}
+      - {t: "Make sure that the fuel lines and fittings do not leak. Do this check also before each ride.", cite: {p: 55}, chapter: 3}

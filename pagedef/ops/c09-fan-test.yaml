@@ -1,0 +1,19 @@
+title: "Fan test"
+system: "electrical system"
+source: clymer
+chapter: 9
+section: "09/fan-system"
+summary: {t: "When the coolant gets to a set temperature, an electric fan turns on to increase the airflow through the radiator fins. The fan relay turns the fan on and off. The fan switch at the bottom of the radiator controls the fan relay.", cite: {p: 227}}
+sections:
+  - steps:
+      - {kind: note, t: "On 1990-on models, examine the fan system fuse before you test individual components.", cite: {p: 228}, op: c09-fuse-test}
+      - {kind: note, t: "Make sure that all connections are clean and tight. When you assemble connections, apply dielectric grease to prevent corrosion and moisture.", cite: {p: 228}}
+      - {t: "If the fan does not turn on at high temperature, remove the connector from the switch terminal.", cite: {p: 228}, figs: [64]}
+      - {t: "Ground the connector to an engine fin or other unpainted ground.", cite: {p: 228}}
+      - {t: "If the fan turns on, test the fan switch.", cite: {p: 228}, op: c09-fan-switch-test}
+      - {t: "If the fan does not turn on, remove the fuel tank and continue.", cite: {p: 228}, ref: "15/fuel-tank"}
+      - {t: "Disconnect the connector on the frame (A in the figure) near the fan relay (B).", cite: {p: 228}, figs: [65]}
+      - {t: "Identify the connector half that goes to the fan.", cite: {p: 228}}
+      - {t: "Connect a 12-volt battery to the motor leads. Connect the positive lead to the blue wire and the negative lead to the black/yellow wire.", cite: {p: 228}}
+      - {t: "If the fan does not turn on, replace the fan. Replacement parts are not available for the fan.", cite: {p: 228}}
+      - {t: "If the fan turns on, test the fan relay.", cite: {p: 228}, op: c09-fan-relay-test}

@@ -1,0 +1,16 @@
+title: "Water temperature gauge circuit test"
+system: "electrical system"
+source: clymer
+chapter: 9
+section: "09/water-temperature-gauge-and-sending-unit"
+summary: {t: "The water temperature sending unit is on top of the cylinder head. It sends a signal to the water temperature gauge. At low coolant temperature the sending unit has high resistance and the gauge shows cold. This test shows if you must test the gauge or the sending unit.", cite: {p: 230}}
+sections:
+  - steps:
+      - {t: "Remove the fuel tank.", cite: {p: 230}, ref: "15/fuel-tank", figs: [69]}
+      - {t: "Disconnect the yellow wire from the terminal on the sending unit. Do not let the loose wire touch the engine or any other grounded surface.", cite: {p: 230}}
+      - {t: "Turn on the ignition key and look at the gauge. The needle must show C.", cite: {p: 230}}
+      - {kind: caution, t: "Ground the wire only long enough to see the gauge needle move. Too much grounding can cause damage to the gauge.", cite: {p: 230}}
+      - {t: "While you look at the gauge, touch the yellow wire for a short time to the engine or another grounded (unpainted) surface. The needle must move toward H.", cite: {p: 230}}
+      - {t: "If the gauge passes the test, test the water temperature sending unit.", cite: {p: 231}, op: c09-water-temp-sender-test}
+      - {t: "If the gauge does not pass the test, examine the wiring harness for damage or poor connections.", cite: {p: 231}}
+      - {t: "If all wiring is in good condition, test the gauge.", cite: {p: 231}, op: c09-water-temp-gauge-test}

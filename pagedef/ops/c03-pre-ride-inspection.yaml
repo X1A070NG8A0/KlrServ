@@ -1,0 +1,32 @@
+# Clymer Chapter Three: pre-ride inspection, break-in, service intervals, fuel and
+# lubricants, timing and compression checks, spark plug selection and reading.
+title: "Pre-ride inspection"
+system: "lubrication, maintenance and tune-up"
+source: clymer
+chapter: 3
+section: "03/pre-ride-inspection"
+summary: {t: "Do the pre-ride checks before each ride when the engine is cold. On extended travel and on rough terrain, do the checks at least once each day.", cite: {p: 55}}
+sections:
+  - steps:
+      - {t: "Do the checks when the engine is cold.", cite: {p: 55}}
+      - {t: "To start the motorcycle, use the starting procedure.", cite: {p: 55}, ref: "02/starting-the-engine"}
+      - {t: "Make sure that the fuel lines and fittings do not leak.", cite: {p: 55}}
+      - {t: "Make sure that the fuel level is correct.", cite: {p: 55}}
+      - {t: "Make sure that the engine oil level is correct.", cite: {p: 55}, op: engine-oil-and-filter}
+      - {t: "Make sure that the coolant level is correct.", cite: {p: 55}, op: cooling-system-inspect}
+      - {t: "Make sure that the brakes operate correctly and that the lever and pedal free play is correct.", cite: {p: 55}}
+      - {t: "Make sure that the throttle operates correctly and that its free play is correct.", cite: {p: 55}, op: throttle-cable}
+      - {t: "Make sure that the clutch operates correctly and that its free play is correct.", cite: {p: 55}, op: clutch-adjust}
+      - {t: "Make sure that there is no air pressure in the fork legs.", cite: {p: 55}, op: fork-air-release}
+      - {t: "Make sure that the steering operates smoothly and that no cable binds.", cite: {p: 55}}
+      - {t: "Examine the tires. Make sure that the air pressure is correct.", cite: {p: 55}, op: tires}
+      - {t: "Examine the wheels. Make sure that the spokes are tight.", cite: {p: 55}, op: spokes}
+      - {t: "Make sure that the axle nuts are tight.", cite: {p: 55}}
+      - {t: "Make sure that no nuts or bolts are loose.", cite: {p: 55}, op: fasteners}
+      - {t: "Make sure that the exhaust system is tight.", cite: {p: 55}}
+      - {t: "Examine the drive chain. Make sure that its adjustment is correct.", cite: {p: 55}, op: drive-chain-adjust}
+      - {t: "Make sure that the rear sprocket is tight.", cite: {p: 55}}
+      - {t: "Make sure that there is no dirt or debris on the air filter.", cite: {p: 55}, op: air-filter}
+      - {t: "Make sure that the suspension does not leak and that its settings are correct for the riding conditions.", cite: {p: 55}}
+      - {t: "Make sure that the engine stop switch operates correctly.", cite: {p: 55}}
+      - {t: "Make sure that the lights and signals operate correctly.", cite: {p: 55}}

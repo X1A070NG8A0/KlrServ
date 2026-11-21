@@ -1,0 +1,23 @@
+# Clymer Chapter Three: cable adjustments, brakes and steering inspection (PDF p74-78).
+title: "Clutch cable adjustment"
+system: "Controls"
+source: clymer
+chapter: 3
+section: "03/maintenance-and-inspection"
+summary:
+  t: "A correct adjustment gives smooth shifts and full clutch engagement. It also decreases wear of the clutch plates."
+  cite: {p: 75}
+spec_refs:
+  - "routine-checks:Clutch lever free play"
+sections:
+  - steps:
+      - {t: "Flex the left hand guard off the clutch lever assembly. Remove the hand guard.", cite: {p: 75}}
+      - {t: "Measure the free play (the gap) at the lever pivot.", cite: {p: 75}, figs: [60], spec_ref: "routine-checks:Clutch lever free play"}
+      - {t: "Loosen the locknut (A).", cite: {p: 75}, figs: [60]}
+      - {t: "Turn the adjuster (B) to increase or decrease the play.", cite: {p: 75}, figs: [60]}
+      - {t: "If you cannot get the correct play at the handlebar, adjust at the release lever on the right crankcase cover. Loosen the locknuts.", cite: {p: 76}, figs: [61]}
+      - {t: "Put the cable threads in the center of the holder. Tighten the locknuts.", cite: {p: 76}, figs: [61]}
+      - {t: "Do the adjustment again.", cite: {p: 76}}
+      - {t: "Tighten the locknut at the handlebar.", cite: {p: 76}}
+      - {t: "Install the left hand guard.", cite: {p: 76}}
+      - {t: "When you start the engine, make sure that the transmission engages and disengages from the clutch correctly.", cite: {p: 76}}

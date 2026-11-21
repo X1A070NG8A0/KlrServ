@@ -1,0 +1,45 @@
+title: "Starter clutch and rotor inspection"
+system: "electrical system"
+source: clymer
+chapter: 9
+section: "09/rotor-and-starter-clutch"
+summary: {t: "This procedure examines the starter clutch, the clutch components and the rotor after removal. It also tells how to replace a damaged clutch.", cite: {p: 207}}
+spec_refs: ["electrical-torque:Starter clutch bolts"]
+parts:
+  - {name: "Starter clutch", replace: inspect, cite: {p: 207}, note: "Replace the clutch and the coupling if the clutch is damaged."}
+  - {name: "Starter clutch coupling", replace: inspect, cite: {p: 207}}
+  - {name: "Rotor", replace: inspect, cite: {p: 209}, note: "Replace the rotor if it is damaged."}
+  - {name: "Threadlocking compound", replace: consumable, cite: {p: 207}}
+sections:
+  - title: "Clutch operation"
+    steps:
+      - {t: "Put the clutch gear so that it faces up. Turn the gear counterclockwise. The gear must turn freely and smoothly in this direction.", cite: {p: 207}, figs: [18]}
+      - {t: "Try to turn the gear clockwise. The gear must not turn.", cite: {p: 207}}
+      - {t: "If the gear turns in both directions or is always locked, disassemble and examine the clutch assembly.", cite: {p: 207}}
+  - title: "Clutch examination"
+    steps:
+      - {t: "Turn the clutch sprocket counterclockwise and twist it squarely away from the rotor.", cite: {p: 207}}
+      - {t: "Remove the washer from the clutch.", cite: {p: 207}}
+      - {t: "Clean the clutch assembly.", cite: {p: 207}, figs: [19]}
+      - {t: "Examine the clutch gear teeth for wear or damage.", cite: {p: 207}}
+      - {t: "Examine the clutch gear bearing for wear or scoring.", cite: {p: 207}}
+      - {t: "Examine the washer for damage.", cite: {p: 207}}
+      - {t: "Examine the clutch rollers. They must have no damage and must operate smoothly.", cite: {p: 207}, figs: [20]}
+  - title: "Clutch replacement"
+    steps:
+      - {t: "If the clutch is damaged, remove the six bolts.", cite: {p: 207}, figs: [21]}
+      - {t: "Remove the clutch and the coupling from the rotor.", cite: {p: 207}}
+      - {t: "Install a new clutch and coupling.", cite: {p: 207}}
+      - {t: "Apply threadlocking compound to the bolts.", cite: {p: 207}}
+      - {t: "Tighten the bolts equally in several passes to the specified torque.", cite: {p: 207}, spec_ref: "electrical-torque:Starter clutch bolts"}
+      - {t: "Lubricate the clutch rollers and the washer with engine oil.", cite: {p: 209}}
+      - {t: "Install the washer and the clutch sprocket into the rotor. Turn the sprocket counterclockwise and twist it squarely into the rotor.", cite: {p: 209}}
+      - {t: "When the sprocket is fully seated, make sure that it turns only counterclockwise.", cite: {p: 209}}
+  - title: "Rotor examination"
+    steps:
+      - {t: "Clean the rotor components.", cite: {p: 209}}
+      - {t: "Examine the rotor for cracks and damage.", cite: {p: 209}}
+      - {kind: warning, t: "Replace the rotor if it is damaged. At high crankshaft speed a damaged rotor can break apart and cause serious injury and engine damage.", cite: {p: 209}}
+      - {t: "Examine the taper in the rotor bore and on the crankshaft for damage.", cite: {p: 209}}
+      - {t: "Examine the Woodruff key, the slot and the spacers for damage.", cite: {p: 209}, figs: [17]}
+      - {kind: note, t: "If the Woodruff key is bent or sheared, the rotor does not align correctly on the crankshaft. The ignition timing is then wrong.", cite: {p: 209}}

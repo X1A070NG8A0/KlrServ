@@ -1,0 +1,20 @@
+title: "Flooded engine"
+system: "troubleshooting"
+source: clymer
+chapter: 2
+section: "02/starting-the-engine"
+summary: {t: "The engine is probably flooded when it does not start after several tries, mainly after you use the choke. Too much fuel enters the engine and the spark plug cannot ignite the mixture. The smell of gasoline is often present.", cite: {p: 46}}
+sections:
+  - title: "Start with the throttle open"
+    steps:
+      - {t: "If there is no sign of fuel overflow from the carburetor, open the throttle fully (no choke) and operate the starter.", cite: {p: 46}}
+      - {t: "If the engine starts, keep it at a fast idle until it burns the extra fuel.", cite: {p: 46}}
+  - title: "The engine does not start"
+    steps:
+      - {t: "Make sure that the choke lever is fully to the right.", cite: {p: 46}, op: "choke-cable"}
+      - {t: "Look for gasoline that overflows from the carburetor or the overflow hose.", cite: {p: 46}}
+      - {t: "If gasoline overflows, the float in the carburetor bowl is stuck or set too high. Remove the float assembly and repair it.", cite: {p: 46}, op: "c08-float-adjustment"}
+      - {t: "Examine the air filter for too much buildup.", cite: {p: 46}, op: "air-filter"}
+      - {t: "Remove the spark plug and dry the electrodes.", cite: {p: 46}, op: "spark-plug"}
+      - {t: "Install the spark plug and try to start the engine again.", cite: {p: 46}, op: "c02-start-cold"}
+      - {t: "Do an engine spark test.", cite: {p: 46}, op: "c02-engine-spark-test"}

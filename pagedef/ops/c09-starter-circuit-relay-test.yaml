@@ -1,0 +1,17 @@
+title: "Starter circuit relay test"
+system: "electrical system"
+source: clymer
+chapter: 9
+section: "09/starting-system"
+summary: {t: "The starter circuit relay is on the left side of the motorcycle, behind the plastic cover. It sends current to the starter relay. It passes current only when the starter lockout switch or the neutral switch is in its safe startup position.", cite: {p: 214}}
+spec_refs: ["electrical-test:Starter circuit relay coil resistance"]
+sections:
+  - steps:
+      - {t: "Remove the cover to get to the relay.", cite: {p: 215}, figs: [40]}
+      - {t: "Remove the relay from the mount. Then unplug the relay.", cite: {p: 215}}
+      - {t: "Connect a 12-volt battery and an ohmmeter to the relay terminals. Set the ohmmeter to R x 1 ohm.", cite: {p: 215}, figs: [41]}
+      - {kind: note, t: "Terminals 1 (blue/red) and 2 (yellow/red) connect to the relay coil. Terminals 3 (black) and 4 (yellow/red) connect to the circuit relay switch.", cite: {p: 215}}
+      - {t: "With the battery connected, test for continuity through the circuit relay switch, terminals 3 and 4. There must be continuity.", cite: {p: 215}}
+      - {t: "Disconnect the battery. Test for continuity through the circuit relay switch, terminals 3 and 4. There must be no continuity.", cite: {p: 215}}
+      - {t: "With the battery disconnected, measure the circuit relay coil resistance at terminals 1 and 2. Compare it with the specification.", cite: {p: 215}, spec_ref: "electrical-test:Starter circuit relay coil resistance"}
+      - {t: "If the relay fails any test, replace the relay.", cite: {p: 215}}

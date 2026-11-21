@@ -1,0 +1,51 @@
+# Fuel hose replacement (Clymer Ch. 3, 8 and 15) and lights/switch operation
+# (Clymer Ch. 3 and 9). Neither has a single stand-alone section in the
+# manuals, so each step cites the page it comes from.
+title: "Lights and switch operation"
+system: "Electrical"
+source: clymer
+chapter: 9
+section: "09/headlight"
+spec_refs:
+  - "electrical-general:Light bulbs/Headlight"
+  - "electrical-general:Light bulbs/Taillight/brake light"
+  - "electrical-general:Light bulbs/Turn signals"
+parts:
+  - {name: "Headlight bulb (H4 55/60 W)", replace: inspect, spec_ref: "electrical-general:Light bulbs/Headlight", cite: {p: 231}}
+  - {name: "Taillight/brake light bulb", replace: inspect, spec_ref: "electrical-general:Light bulbs/Taillight/brake light", cite: {p: 234}}
+  - {name: "Turn signal bulb", replace: inspect, spec_ref: "electrical-general:Light bulbs/Turn signals", cite: {p: 234}}
+sections:
+  - title: "Operation checks"
+    steps:
+      - {t: "Make sure that the engine stop switch operates correctly.", cite: {p: 55}, chapter: 3}
+      - {t: "Make sure that the lights and the turn signals operate correctly.", cite: {p: 55}, chapter: 3}
+      - {t: "Make sure that the rear brake light comes on at the correct pedal travel.", cite: {p: 77}, chapter: 3, op: brake-light-switch}
+  - title: "Headlight bulb replacement"
+    steps:
+      - {t: "Remove the cowl from the fairing. You do not have to remove the fairing to remove the cowl or to replace the bulb.", cite: {p: 231}, figs: [72]}
+      - {t: "Unplug the connector from the back of the headlight.", cite: {p: 231}}
+      - {t: "Remove the rubber cover from the back of the headlight.", cite: {p: 231}}
+      - {t: "Push the socket in and turn it counterclockwise. Remove the socket from the lens.", cite: {p: 231}}
+      - {t: "Remove the bulb from the socket.", cite: {p: 231}, spec_ref: "electrical-general:Light bulbs/Headlight"}
+      - {t: "Clean the socket, the cover and the connector.", cite: {p: 231}}
+      - {kind: caution, t: "Do not touch the glass of the new bulb with bare hands. Use a clean cloth. Oil and other contamination on a quartz-halogen bulb prevent heat release and decrease the life of the bulb.", cite: {p: 231}}
+      - {t: "Put the new bulb in the socket.", cite: {p: 233}}
+      - {t: "Put the socket in the lens. Push it in and turn it clockwise to lock it.", cite: {p: 233}}
+      - {t: "Align the top mark on the cover. Install the cover on the lens so that the bulb terminals are fully open.", cite: {p: 233}}
+      - {t: "Connect the connector to the terminals.", cite: {p: 233}}
+      - {t: "Turn the ignition on. Make sure that the high beam and the low beam operate.", cite: {p: 233}}
+      - {t: "Install the cowl.", cite: {p: 233}}
+  - title: "Headlight adjustment"
+    steps:
+      - {t: "To adjust the headlight vertically, loosen the bolt at the rear of the light, inside the fairing.", cite: {p: 233}, figs: [73]}
+      - {t: "To adjust the headlight horizontally, turn the screw at the lower left corner of the light. If you turn the screw in, the light turns to the right. If you turn the screw out, the light turns to the left.", cite: {p: 233}, figs: [74]}
+  - title: "If a check fails"
+    steps:
+      - {t: "To examine the turn signal relay, find it on the right side, under the fuel tank.", cite: {p: 231}}
+      - {t: "Remove the fuel tank.", cite: {p: 231}, ref: "15/fuel-tank"}
+      - {t: "Unplug the relay. Measure the resistance across the relay terminals. The resistance must be little or none (zero ohms).", cite: {p: 231}}
+      - {t: "Set the meter to DC volts (25-50 volt range). Connect the negative probe to the orange wire and the positive probe to the brown wire of the relay plug.", cite: {p: 231}}
+      - {t: "Turn the ignition on. Move the signal switch to the left position and then to the right position. The meter must show battery voltage (12 volts) in both positions.", cite: {p: 231}}
+      - {t: "If the meter does not show battery voltage, examine the switch and the wiring.", cite: {p: 231}}
+      - {t: "The left handlebar switch unit holds the high/low beam switch, the turn signal switch and the horn button. Do a continuity test on the color-coded wires in the connector. The connector is in front of the gauges, behind the cover.", cite: {p: 233}, figs: [75],
+         gap: "The Continuity Testing Guidelines and the switch continuity charts in Chapter Nine are not transcribed yet."}

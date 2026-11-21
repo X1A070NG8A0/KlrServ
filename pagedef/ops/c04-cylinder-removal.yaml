@@ -1,0 +1,26 @@
+title: "Cylinder removal"
+system: "Engine top end"
+source: clymer
+chapter: 4
+section: "04/cylinder"
+summary: {t: "This procedure removes the cylinder and the piston with the engine in the frame. Read all the procedures fully before you start.", cite: {p: 113}}
+parts:
+  - {name: "Cylinder base gasket", replace: always, cite: {p: 114}, note: "Install a new gasket."}
+  - {name: "Cylinder dowels", replace: inspect, cite: {p: 114}, note: "There are two dowels under the cylinder."}
+sections:
+  - steps:
+      - {t: "Remove the cylinder head.", cite: {p: 113}, op: c04-cylinder-head-removal}
+      - {t: "Remove the coolant hose at the front of the cylinder.", cite: {p: 114}, figs: [70]}
+      - {t: "Remove the oil pipe retainer and the bolt at the rear of the cylinder.", cite: {p: 114}, figs: [71]}
+      - {t: "If you will split the engine crankcases, remove the remaining banjo bolts and seal washers that hold the oil pipe.", cite: {p: 114}, figs: [72]}
+      - {t: "Remove the cylinder mounting bolt in the cam chain tunnel.", cite: {p: 114}, figs: [73]}
+      - {t: "Put clean shop cloths in the tunnel to prevent parts from going into the engine.", cite: {p: 114}}
+      - {t: "Remove the cylinder mounting nuts at the front and the rear of the cylinder.", cite: {p: 114}, figs: [70, 71]}
+      - {t: "Tap around the base of the cylinder to loosen it. If necessary, apply penetrating oil to the joint.", cite: {p: 114}}
+      - {t: "Slowly lift the cylinder from the crankcase.", cite: {p: 114}}
+      - {t: "Keep the two dowels from under the cylinder. If they are loose, remove them. This prevents them from falling into the engine.", cite: {p: 114}, figs: [74]}
+      - {t: "Route the cam chain out of the cylinder and secure it.", cite: {p: 114}}
+      - {t: "Remove the base gasket.", cite: {p: 114}}
+      - {t: "Put clean shop cloths in the cam chain tunnel and around the piston.", cite: {p: 114}}
+      - {t: "Support the piston and the rod so that they do not touch the crankcase or the studs.", cite: {p: 114}, figs: [75]}
+      - {t: "Examine the cylinder.", cite: {p: 114}, op: c04-cylinder-inspection}

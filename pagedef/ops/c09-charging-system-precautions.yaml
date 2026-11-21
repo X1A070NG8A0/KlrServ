@@ -1,0 +1,14 @@
+title: "Charging system precautions"
+system: "electrical system"
+source: clymer
+chapter: 9
+section: "09/charging-system"
+summary: {t: "The charging system components can be damaged if you do not obey these precautions during tests and troubleshooting.", cite: {p: 222}}
+sections:
+  - steps:
+      - {t: "Do not disconnect electrical connections while the engine runs or cranks.", cite: {p: 222}}
+      - {t: "Turn off the ignition switch before you disconnect or connect electrical components.", cite: {p: 222}}
+      - {t: "Handle the parts with care.", cite: {p: 222}}
+      - {t: "Before you replace a component, examine the wiring for poor connections, corrosion and shorts.", cite: {p: 223}}
+      - {t: "Before you test components, make sure that the battery is in good condition and does not cause poor performance.", cite: {p: 223}, op: battery}
+      - {t: "Work slowly and in order. Use test equipment in good condition. Record all measurements.", cite: {p: 223}}

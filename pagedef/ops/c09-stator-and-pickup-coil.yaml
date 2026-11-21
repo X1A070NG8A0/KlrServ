@@ -1,0 +1,17 @@
+title: "Stator and pickup coil removal and installation"
+system: "electrical system"
+source: clymer
+chapter: 9
+section: "09/stator-and-pickup-coil"
+summary: {t: "The stator and pickup coil are on the inside of the alternator cover. You can test them with the cover installed.", cite: {p: 204}}
+sections:
+  - steps:
+      - {kind: note, t: "To test the stator charging coil resistance, refer to Charging System. To test the pickup coil and stator exciter coil resistance, refer to Ignition System.", cite: {p: 204}, ref: "09/charging-system"}
+      - {t: "To get to the connectors, remove the fuel tank. Then disconnect the stator and pickup coil connectors on the right side of the frame.", cite: {p: 204}, ref: "15/fuel-tank", figs: [2]}
+      - {t: "Remove the alternator cover.", cite: {p: 204}, op: c09-alternator-cover}
+      - {t: "Remove the three bolts from the stator.", cite: {p: 204}, figs: [8]}
+      - {t: "Remove the two screws from the pickup coil.", cite: {p: 204}, figs: [8]}
+      - {t: "Remove the wiring harness clamps from the edge of the cover.", cite: {p: 204}}
+      - {t: "Remove the wire grommet from the cover.", cite: {p: 204}}
+      - {t: "Remove the stator and the pickup coil.", cite: {p: 204}}
+      - {t: "To install the stator and pickup coil, do the removal steps in reverse order.", cite: {p: 204}}

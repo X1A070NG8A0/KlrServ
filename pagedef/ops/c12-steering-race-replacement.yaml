@@ -1,0 +1,26 @@
+title: "Steering head bearing race replacement"
+system: "Front suspension and steering"
+source: clymer
+chapter: 12
+section: "12/steering-stem-and-head"
+summary: {t: "Remove the bearing races from the frame only to install new races. When you install new races, always install new bearings. The races are recessed in the bores.", cite: {p: 264}}
+parts:
+  - {name: "Steering head bearing races", replace: always, cite: {p: 264}}
+  - {name: "Steering stem bearings", replace: always, cite: {p: 264}, note: "Install new bearings with new races."}
+  - {name: "Waterproof bearing grease", replace: consumable, cite: {p: 265}}
+sections:
+  - steps:
+      - {kind: note, t: "The installation tool uses the Kawasaki driver, part No. 57001-1106.", cite: {p: 264}}
+      - {kind: note, t: "The tool also uses the Kawasaki driver, part No. 57001-1076, and the driver press shaft, part No. 57001-1075. It is a threaded rod with a disc driver on each end.", cite: {p: 265}}
+      - {kind: note, t: "You can make a similar tool from common hardware. The drivers must fit at the outside edge of the races and must enter the steering head bore. The drivers must not touch the surface of the races.", cite: {p: 265}}
+      - {t: "Put an aluminum drift into the steering head. Put it on the edge of the lower race.", cite: {p: 265}, figs: [13]}
+      - {t: "Drive out the race. Make several passes around the race to prevent binding.", cite: {p: 265}}
+      - {t: "Do the same to remove the upper race.", cite: {p: 265}}
+      - {t: "Clean the race bores. Examine them for damage.", cite: {p: 265}}
+      - {t: "Lubricate a new upper race. Put it squarely in the bore opening with the wide side out.", cite: {p: 265}}
+      - {t: "Assemble the tool. Seat a driver at the outer edge of the race. The lower driver can rest on the edge of the steering head or in the stepped bore.", cite: {p: 265}, figs: [14]}
+      - {t: "Hold the lower nut with a wrench. Tighten the upper nut to seat the race.", cite: {p: 265}}
+      - {t: "Remove the tool from the frame. Make sure that the race is fully seated.", cite: {p: 265}}
+      - {t: "Do the same to install the second race.", cite: {p: 265}}
+      - {kind: caution, t: "Do not let the driver or the shaft touch the face of the first race during installation. This damages the race.", cite: {p: 265}}
+      - {t: "Lubricate the races with waterproof bearing grease.", cite: {p: 265}}

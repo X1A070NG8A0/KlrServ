@@ -1,0 +1,25 @@
+title: "Rim and spoke inspection"
+system: "Wheels, tires and drive chain"
+source: clymer
+chapter: 11
+section: "11/rim-and-spoke-service"
+summary: {t: "This procedure shows how to examine the rim and the spokes. For the scheduled spoke check, see the Chapter Three procedure.", cite: {p: 251}, op: spokes}
+spec_refs: ["wheels:Wheel rim runout (radial and lateral)", "wheel-drive-torque:Spokes"]
+parts:
+  - {name: "Spoke and nipple", replace: inspect, cite: {p: 252}, note: "Replace a spoke and its nipple if the spoke is seized and does not turn smoothly after you apply penetrating lubricant."}
+  - {name: "Wheel rim", replace: inspect, cite: {p: 252}}
+sections:
+  - title: "Rim"
+    steps:
+      - {t: "Examine the rim for flat spots, dents and warping.", cite: {p: 252}}
+      - {t: "Examine the spoke holes for enlargement.", cite: {p: 252}}
+      - {kind: note, t: "Dents are common on this type of motorcycle. They cause too much runout. If you try to true a wheel that has large dents, the overtightened spokes can damage the hub and the rim. If the dent is minor and the runout is small, the rider can continue to use the rim.", cite: {p: 252}}
+  - title: "Spokes"
+    steps:
+      - {t: "Examine the spokes for damage and correct tightness.", cite: {p: 252}}
+      - {t: "For new or rebuilt wheels, examine the spokes often. After the tension is stable, examine the spokes at the intervals in the maintenance schedule.", cite: {p: 252}, op: spokes}
+      - {t: "Use a spoke wrench of the correct size that grips the spoke on three sides.", cite: {p: 252}, figs: [33]}
+      - {kind: caution, t: "Do not use other types of tool. They can round off or crush the spoke nipples.", cite: {p: 252}}
+      - {t: "Do not tighten a spoke more than the specified torque.", cite: {p: 252}, spec_ref: "wheel-drive-torque:Spokes"}
+      - {t: "If a spoke is broken, bent or damaged, do not true the wheel. Do not straighten a bent spoke by excessive tightening. The spoke can crack the hub fitting and enlarge the rim hole.", cite: {p: 252}}
+      - {t: "If a spoke is seized in its nipple, apply penetrating lubricant to the threads. If the spoke does not turn smoothly, replace the spoke and the nipple.", cite: {p: 252}}

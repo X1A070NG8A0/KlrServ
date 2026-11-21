@@ -50,7 +50,7 @@ def label_for(page: pymupdf.Page) -> str:
 
 
 def main(only: list[str]) -> None:
-    sources = yaml.safe_load((ROOT / "doc" / "sources.yaml").read_text(encoding="utf-8"))
+    sources = yaml.safe_load((ROOT / "data" / "sources.yaml").read_text(encoding="utf-8"))
     for sid, meta in sources.items():
         if only and sid not in only:
             continue
@@ -66,7 +66,9 @@ def main(only: list[str]) -> None:
                 continue  # scanned page without a text layer: left to OCR
             (out / f"p{i:03d}.txt").write_text(text, encoding="utf-8")
             labels.append(f"{i}\t{label_for(page)}")
-        (out / "labels.tsv").write_text("pdf_page\tprinted\n" + "\n".join(labels) + "\n", encoding="utf-8")
+        # A scanned source has no text layer, so it gets no labels file.
+        if labels:
+            (out / "labels.tsv").write_text("pdf_page\tprinted\n" + "\n".join(labels) + "\n", encoding="utf-8")
         print(f"{sid}: {doc.page_count} pages, {empty} without text layer")
 
 

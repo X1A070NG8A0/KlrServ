@@ -1,0 +1,16 @@
+title: "Turn signal relay test"
+system: "electrical system"
+source: clymer
+chapter: 9
+section: "09/turn-signal-relay"
+summary: {t: "The turn signal relay is on the right side of the motorcycle, under the fuel tank. Use a volt/ohmmeter to test the relay and the wiring.", cite: {p: 231}}
+sections:
+  - steps:
+      - {t: "Remove the fuel tank.", cite: {p: 231}, ref: "15/fuel-tank", figs: [65]}
+      - {t: "Remove the relay from the mount. Then unplug the relay.", cite: {p: 231}}
+      - {t: "Set the ohmmeter to the ohms scale. Connect the meter probes to the relay terminals.", cite: {p: 231}}
+      - {t: "The resistance must be little or none (zero ohms).", cite: {p: 231}}
+      - {t: "Set the meter to DC volts. Use a scale in the 25-50 volt range.", cite: {p: 231}}
+      - {t: "Connect the negative meter probe to the orange wire and the positive meter probe to the brown wire in the relay plug connector.", cite: {p: 231}}
+      - {t: "Turn on the ignition switch. Move the turn signal switch to the left and right positions. Read the meter.", cite: {p: 231}}
+      - {t: "The meter must show battery voltage (12 volts) in both positions. If it does not, examine the turn signal switch and the wiring.", cite: {p: 231}}

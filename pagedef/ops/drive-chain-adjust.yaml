@@ -1,0 +1,33 @@
+title: "Drive chain adjustment"
+system: "Final drive"
+source: clymer
+chapter: 3
+section: "03/maintenance-and-inspection"
+summary:
+  t: "If the chain has too little play, it is too tight and causes wear on the driveline. If the chain has too much play, it can come off the sprockets."
+  cite: {p: 73}
+spec_refs:
+  - "routine-checks:Drive chain play"
+  - "maintenance-torque:Axle nut/Rear"
+parts:
+  - {name: "Rear axle cotter pin", replace: always, cite: {p: 74}, note: "Install a new cotter pin."}
+sections:
+  - steps:
+      - {t: "Support the motorcycle so that the rear wheel is off the ground.", cite: {p: 73}}
+      - {t: "Turn the rear wheel to find the tightest point of the chain on the bottom run. This point has the least play.", cite: {p: 73}}
+      - {t: "Mark the swing arm at the midpoint between the sprockets.", cite: {p: 73}}
+      - {t: "Hold a tape measure vertical below the mark.", cite: {p: 73}, figs: [51]}
+      - {t: "Push the chain down. Note the position of a link pin on the tape measure.", cite: {p: 73}, figs: [51]}
+      - {t: "Push the chain up. Note the position of the same pin. The difference is the chain play.", cite: {p: 73}, figs: [51], spec_ref: "routine-checks:Drive chain play"}
+      - {t: "To adjust the play, remove the cotter pin from the axle nut.", cite: {p: 73}, figs: [52]}
+      - {t: "Loosen the axle nut (A).", cite: {p: 73}, figs: [52]}
+      - {t: "Loosen the adjuster locknuts (B) on both sides.", cite: {p: 73}, figs: [52]}
+      - {t: "Turn the adjuster nuts (C) equally until the play is correct. Use the marks (D) on the swing arm.", cite: {p: 73}, figs: [52]}
+      - {t: "If you increase the play, push the wheel forward to remove the play from the adjusters.", cite: {p: 73}, figs: [52]}
+      - {kind: note, t: "If you cannot get the correct play in the range of the adjusters, the chain is worn too much. Replace the chain.", cite: {p: 73}, op: drive-chain-inspect}
+      - {t: "Make sure that the wheel is aligned (A).", cite: {p: 74}, figs: [53]}
+      - {t: "If the chain curves in or out (B, C), adjust again until the wheel is aligned with the rest of the motorcycle.", cite: {p: 74}, figs: [53]}
+      - {t: "Tighten the axle nut to the specified torque.", cite: {p: 74}, spec_ref: "maintenance-torque:Axle nut/Rear"}
+      - {t: "Measure the chain play again.", cite: {p: 74}}
+      - {t: "Tighten the adjuster locknuts.", cite: {p: 74}}
+      - {t: "Install a new cotter pin.", cite: {p: 74}}

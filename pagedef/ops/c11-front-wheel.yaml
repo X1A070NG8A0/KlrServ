@@ -1,0 +1,32 @@
+title: "Front wheel and speedometer drive unit removal and installation"
+system: "Wheels, tires and drive chain"
+source: clymer
+chapter: 11
+section: "11/front-wheel-and-speedometer-drive-unit"
+summary: {t: "This procedure removes the front wheel, the axle, the speedometer drive unit and the axle spacer. It installs them again.", cite: {p: 242}}
+spec_refs: ["wheel-drive-torque:Axle nut/Front"]
+parts:
+  - {name: "Cotter pin, front axle nut", replace: always, cite: {p: 243}}
+  - {name: "Waterproof grease", replace: consumable, cite: {p: 243}}
+sections:
+  - title: "Removal"
+    steps:
+      - {t: "Support the motorcycle so that it is stable and the front wheel is off the ground.", cite: {p: 242}}
+      - {t: "Disconnect the speedometer cable from the right side of the hub.", cite: {p: 242}, figs: [1]}
+      - {t: "Remove the cotter pin, the nut and the washer from the axle.", cite: {p: 242}, figs: [2]}
+      - {t: "Pull up on the wheel to take the weight off the axle. Remove the axle from the wheel.", cite: {p: 242}, figs: [3]}
+      - {t: "Roll the wheel forward and out of the fork.", cite: {p: 242}}
+      - {kind: note, t: "Do not operate the front brake lever while the wheel is removed. Put a wooden block between the pads until you install the wheel. This prevents the caliper piston from extending if the lever is operated.", cite: {p: 242}, ref: "14/front-brake-caliper"}
+      - {t: "Remove the speedometer drive unit from the right side of the hub. Tilt the unit upward as you remove it, so that parts do not fall from the housing.", cite: {p: 243}, figs: [4]}
+      - {t: "Remove the axle spacer from the left side of the hub.", cite: {p: 243}, figs: [5]}
+      - {t: "Examine and repair the wheel, the axle assembly and the speedometer drive unit.", cite: {p: 243}, op: c11-front-wheel-inspection}
+  - title: "Installation"
+    steps:
+      - {t: "If it is necessary, spread the brake pads so that the brake disc can go into the brake assembly.", cite: {p: 243}}
+      - {t: "Apply waterproof grease to the axle, the bearing seals, the spacer, the speedometer cable end, the speedometer drive unit seal and the tabbed washer of the speedometer drive unit.", cite: {p: 243}}
+      - {t: "Install the speedometer drive unit on the hub. Make sure that the tabbed washer engages with the slots in the hub.", cite: {p: 243}, figs: [6]}
+      - {t: "Install the speedometer cable. The slot in the cable must engage with the tab in the drive unit.", cite: {p: 243}, figs: [7]}
+      - {t: "If it is necessary, turn the front wheel slowly until the cable housing is fully seated in the drive unit. Tighten the cable.", cite: {p: 243}, figs: [8]}
+      - {t: "Tighten the axle nut to the specified torque.", cite: {p: 243}, spec_ref: "wheel-drive-torque:Axle nut/Front"}
+      - {t: "Make sure that the wheel turns freely and that the brake operates correctly.", cite: {p: 243}}
+      - {t: "Install a new cotter pin.", cite: {p: 243}}

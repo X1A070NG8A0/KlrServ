@@ -1,0 +1,21 @@
+title: "Snap ring and E-clip removal and installation"
+system: "General information"
+source: clymer
+chapter: 1
+section: "01/fasteners"
+summary: {t: "Snap rings and E-clips hold parts on shafts or in bores. Use snap ring pliers for snap rings. Use a flat blade screwdriver for E-clips.", cite: {p: 19}}
+parts:
+  - {name: "Snap ring", replace: inspect, cite: {p: 19}, note: "In some applications you must replace the snap ring after you remove it."}
+sections:
+  - title: "Snap ring"
+    steps:
+      - {kind: warning, t: "Wear eye protection when you remove and install snap rings. A snap ring can spring from the pliers.", cite: {p: 20}}
+      - {t: "Remove and install the snap ring with snap ring pliers.", cite: {p: 19}}
+      - {t: "Compress or expand the snap ring only enough to install it. If you expand it too much, it loses its retaining ability.", cite: {p: 19}}
+      - {t: "If the snap ring is a stamped type in a thrust application, install it with the sharp edge face away from the part that causes the thrust.", cite: {p: 19}}
+      - {t: "Make sure that the snap ring seats completely.", cite: {p: 19}}
+  - title: "E-clip"
+    steps:
+      - {t: "To remove an E-clip, pry between the shaft and the E-clip with a flat blade screwdriver.", cite: {p: 20}}
+      - {t: "To install an E-clip, center it over the shaft groove.", cite: {p: 20}}
+      - {t: "Push or tap the E-clip into place.", cite: {p: 20}}

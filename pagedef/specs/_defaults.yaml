@@ -1,0 +1,4 @@
+# Each file in this folder is one group of specification tables. Each table
+# is a child page, so that a link to a value opens only that table.
+template: spec-group
+kind: Specifications

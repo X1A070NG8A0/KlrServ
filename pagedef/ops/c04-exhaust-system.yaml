@@ -1,0 +1,36 @@
+title: "Exhaust system removal and installation"
+system: "Engine top end"
+source: clymer
+chapter: 4
+section: "04/exhaust-system"
+summary: {t: "This procedure removes the muffler and the exhaust pipe from the motorcycle and installs them again.", cite: {p: 91}}
+parts:
+  - {name: "Exhaust pipe gasket", replace: always, cite: {p: 92}, note: "Install a new gasket."}
+  - {name: "Antiseize compound", replace: consumable, cite: {p: 92}}
+  - {name: "Penetrating oil", replace: consumable, cite: {p: 92}}
+sections:
+  - title: "Removal"
+    steps:
+      - {kind: warning, t: "Do not remove the exhaust pipe or the muffler when the engine is hot. Hot parts can burn you.", cite: {p: 91}}
+      - {t: "Support the motorcycle so that it is stable and secure.", cite: {p: 91}}
+      - {t: "Remove the side covers and the seat.", cite: {p: 91}, ref: "15/side-covers"}
+      - {t: "Remove the rear brake reservoir cover.", cite: {p: 91}, figs: [1]}
+      - {t: "Remove the bolts that hold the reservoir. Move the reservoir aside to get to the clamp behind it.", cite: {p: 91}, figs: [1]}
+      - {t: "Loosen the clamp bolt.", cite: {p: 91}, figs: [1]}
+      - {t: "Remove the bolts that hold the muffler to the frame.", cite: {p: 92}, figs: [2]}
+      - {t: "Pull the muffler from the exhaust pipe and out of the frame.", cite: {p: 92}}
+      - {kind: caution, t: "Do not hit the muffler with a hammer if it is stuck to the exhaust pipe. Twist the muffler off the pipe. If necessary, apply penetrating oil around the connection.", cite: {p: 92}}
+      - {t: "Remove the exhaust pipe hanger bolt. The bolt is near the rear brake light switch.", cite: {p: 92}, figs: [3]}
+      - {t: "Remove the two nuts that hold the exhaust pipe to the cylinder head.", cite: {p: 92}, figs: [4]}
+      - {kind: note, t: "These nuts are often corroded. To prevent damage to the studs, apply penetrating oil as necessary during removal.", cite: {p: 92}}
+      - {t: "Pull the exhaust pipe off the cylinder head.", cite: {p: 92}}
+      - {t: "Remove the gasket from the exhaust port.", cite: {p: 92}}
+  - title: "Installation"
+    steps:
+      - {t: "Clean the exhaust port.", cite: {p: 92}}
+      - {t: "Put a new exhaust pipe gasket in the port with the round side out. Seat the gasket before you install the exhaust pipe.", cite: {p: 92}, figs: [5]}
+      - {t: "To hold the gasket in position, apply a small quantity of antiseize compound.", cite: {p: 92}}
+      - {t: "Apply antiseize compound to the threads of all bolts.", cite: {p: 92}}
+      - {t: "Install the complete exhaust system and align it. Tighten all bolts by hand only.", cite: {p: 92}}
+      - {t: "Tighten the exhaust pipe squarely into the exhaust port.", cite: {p: 92}}
+      - {t: "Tighten the remaining clamp bolts and muffler bolts.", cite: {p: 92}}

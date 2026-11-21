@@ -1,0 +1,24 @@
+title: "Stator charging coil test"
+system: "electrical system"
+source: clymer
+chapter: 9
+section: "09/charging-system"
+summary: {t: "The charging coils are in the alternator cover. Measure their resistance and test for continuity.", cite: {p: 226}}
+spec_refs: ["electrical-test:Stator coil resistance (yellow-to-yellow wires)"]
+sections:
+  - steps:
+      - {t: "Remove the fuel tank.", cite: {p: 226}, ref: "15/fuel-tank"}
+      - {t: "Disconnect the connector on the right side of the frame.", cite: {p: 227}, figs: [51]}
+      - {t: "Identify the connector half that goes to the stator.", cite: {p: 227}}
+      - {t: "Set the ohmmeter to R x 1 ohm.", cite: {p: 227}}
+      - {t: "Put the meter probes into the terminals of the yellow wires. Measure all three combinations of the yellow wires. Each pair must be in specification.", cite: {p: 227}, spec_ref: "electrical-test:Stator coil resistance (yellow-to-yellow wires)"}
+      - {t: "If the charging coils are not in specification, examine the plug and the wiring harness for damage and shorts.", cite: {p: 227}}
+      - {t: "If necessary, remove the alternator cover. Examine the wiring harness and the coils again.", cite: {p: 227}, op: c09-alternator-cover, figs: [52]}
+      - {t: "Test the full length of each harness wire for continuity. All wires must have near zero resistance. Flex the harness during the test to find erratic continuity.", cite: {p: 227}}
+      - {t: "If the harness has no short, measure the coils at the yellow wire connections on the stator.", cite: {p: 227}}
+      - {t: "If the coils fail the test, unsolder the harness connections and measure the coils again.", cite: {p: 227}}
+      - {t: "If the coils are in specification, a solder joint was poor or the wiring harness is shorted.", cite: {p: 227}}
+      - {t: "If the coils still fail the test, replace the stator.", cite: {p: 227}}
+      - {t: "Set the ohmmeter to R x 1 ohm.", cite: {p: 227}}
+      - {t: "Ground one meter probe to the engine, or to the alternator cover if you removed it. Touch the other probe to the yellow wires. The resistance must be infinity.", cite: {p: 227}}
+      - {t: "If you get any other reading, there is a short. Replace the stator.", cite: {p: 227}}

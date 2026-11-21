@@ -1,0 +1,54 @@
+title: "Chapter 11: Wheels, Tires and Drive Chain"
+pages:
+  - id: front-wheel-and-speedometer-drive-unit
+    title: "Front wheel and speedometer drive unit"
+    kind: Section
+    pdf_pages: [242, 245]
+    summary:
+      - {t: "This chapter gives the service procedures for the wheels, the speedometer drive unit, the drive chain, the sprockets and the tires. The routine maintenance procedures for these parts are in Chapter Three.", cite: {p: 242}}
+      - {t: "The speedometer drive unit is on the right side of the front hub. Remove it with the wheel.", cite: {p: 243}}
+    ops: [c11-front-wheel, c11-front-wheel-inspection]
+  - id: rear-wheel
+    title: "Rear wheel"
+    kind: Section
+    pdf_pages: [245, 247]
+    summary:
+      - {t: "The rear wheel has a sprocket hub with a rubber damper. Examine the damper, the bearings and the seals when you remove the wheel.", cite: {p: 247}}
+    ops: [c11-rear-wheel, c11-rear-wheel-inspection]
+  - id: front-and-rear-hubs
+    title: "Front and rear hubs"
+    kind: Section
+    pdf_pages: [247, 251]
+    summary:
+      - {t: "The wheel hubs contain bearings and a hub spacer. Examine the bearings each time that you remove a wheel.", cite: {p: 247}}
+      - {t: "The wheel bearing seals are permanent. If a seal is damaged, replace the bearing.", cite: {p: 248}}
+    ops: [c11-hub-bearing-inspection, c11-hub-bearing-replacement]
+  - id: rim-and-spoke-service
+    title: "Rim and spoke service"
+    kind: Section
+    pdf_pages: [251, 254]
+    summary:
+      - {t: "The rim and the hub must be concentric. Radial runout is up and down. Lateral runout is from side to side. Wheel truing changes the spoke tension to correct the runout.", cite: {p: 251}}
+    ops: [c11-rim-inspection, c11-wheel-truing]
+  - id: drive-chain
+    title: "Drive chain"
+    kind: Section
+    pdf_pages: [253, 255]
+    summary:
+      - {t: "The motorcycle comes new with an endless O-ring chain. This type of chain is lubricated inside and needs little maintenance. Chapter Three gives the chain cleaning, lubrication, adjustment and measurement procedures.", cite: {p: 253}}
+    ops: [c11-drive-chain-no-master-link, c11-drive-chain-master-link]
+  - id: sprockets
+    title: "Sprockets"
+    kind: Section
+    pdf_pages: [255, 257]
+    summary:
+      - {t: "If the chain or a sprocket is worn, replace all drive components. The 1996-on drive sprocket uses a lockwasher and a nut. The 1987-1995 models use a locking plate and two bolts.", cite: {p: 255}}
+    ops: [c11-drive-sprocket, c11-driven-sprocket]
+  - id: tire-changing
+    title: "Tire changing"
+    kind: Section
+    pdf_pages: [257, 260]
+    summary:
+      - {t: "Work over a pad when you change a tire. Do not let the wheel rest on the brake disc.", cite: {p: 257}}
+      - {t: "Balance the wheel each time that you install a new tire. The tables at the end of the chapter give the tire, chain and torque specifications.", cite: {p: 260}}
+    ops: [c11-tire-removal, c11-tire-inspection, c11-tire-installation, c11-wheel-balancing]

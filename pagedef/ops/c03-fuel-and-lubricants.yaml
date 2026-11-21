@@ -1,0 +1,47 @@
+# Clymer Chapter Three: pre-ride inspection, break-in, service intervals, fuel and
+# lubricants, timing and compression checks, spark plug selection and reading.
+title: "Fuel and lubricant requirements"
+system: "lubrication, maintenance and tune-up"
+source: clymer
+chapter: 3
+section: "03/fuel-and-lubricants"
+summary: {t: "This procedure lists the fuel and the lubricants that the engine and the chassis need.", cite: {p: 58}}
+spec_refs:
+  - "fluids:Fuel type"
+  - "fluids:Engine oil"
+  - "fluids:Fork oil grade"
+  - "fluids:Drive chain"
+  - "fluids:Control cables"
+  - "fluids:Air filter"
+sections:
+  - title: "Fuel"
+    steps:
+      - {t: "Use unleaded pump-grade gasoline with an octane rating of 87 (R + M/2) or 91 RON (Research Octane Number).", cite: {p: 58}, spec_ref: "fluids:Fuel type"}
+      - {t: "Do not use gasoline that contains alcohol for continual use.", cite: {p: 58}}
+      - {kind: note, t: "On California models, do not fill the tank up to the neck of the fuel tank. Heat can make the fuel expand and flow into the lines of the evaporative emission control unit near the filler neck. This can cause hard starting and engine hesitation until the fuel clears from the system.", cite: {p: 58}}
+  - title: "Engine oil"
+    steps:
+      - {t: "Use a multigrade oil with an SAE viscosity rating of 10W-40, 20W-40, 10W-50 or 20W-50.", cite: {p: 58}, spec_ref: "fluids:Engine oil"}
+      - {t: "Use an oil with a service classification of SG. The oil container shows the viscosity rating and the classification.", cite: {p: 58}}
+      - {kind: note, t: "The SAE numbers show the equivalent weight of the oil at 0° F (-18° C) and 210° F (99° C). They do not show the real thickness. They show how well the oil circulates and lubricates at these extremes.", cite: {p: 58}}
+      - {kind: note, t: "The engine oil also lubricates the transmission. The transmission shears the polymers in the oil over time, and the oil lubricates less well. Change the oil and filter at the Table 1 intervals. If possible, use the same brand of oil at each oil change.", cite: {p: 58}}
+      - {kind: caution, t: "Do not use oils or oil additives that contain graphite or molybdenum. These additives can cause clutch slippage and erratic operation.", cite: {p: 58}}
+  - title: "Fork oil"
+    steps:
+      - {t: "Use 10-weight fork oil in the fork legs.", cite: {p: 58}, spec_ref: "fluids:Fork oil grade"}
+  - title: "Grease"
+    steps:
+      - {t: "Use a good quality, lithium-base grease on components that need grease.", cite: {p: 58}}
+      - {t: "Where a procedure specifies it, use molybdenum disulfide grease for its extreme-pressure qualities or waterproof grease for its protective qualities.", cite: {p: 58}}
+      - {t: "Grease components often. This pushes water and grit out of the component and makes it last longer.", cite: {p: 58}}
+  - title: "Chain lubricant"
+    steps:
+      - {t: "Use a good-quality chain lubricant that is compatible with the type of chain on the motorcycle.", cite: {p: 58}}
+      - {t: "An O-ring chain was standard equipment for the years that the manual covers. Use chain lubricant made for O-ring chains.", cite: {p: 58}, spec_ref: "fluids:Drive chain"}
+      - {t: "The links of an O-ring chain are permanently lubricated and sealed. O-ring chain lubricant prevents corrosion on the outside of the chain and conditions the O-rings. It is not tacky and does not hold dirt.", cite: {p: 59}}
+      - {t: "Do not use tacky lubricants or lubricants for conventional chains. They attract dirt and cause unnecessary wear on the O-rings.", cite: {p: 59}}
+  - title: "Control cable lubricant and air filter oil"
+    steps:
+      - {t: "Use lithium grease on the control cable pivots.", cite: {p: 59}}
+      - {t: "Lubricate the cable with light oil or a commercial cable lubricant.", cite: {p: 59}, spec_ref: "fluids:Control cables"}
+      - {t: "Use a commercial air filter oil made for foam filters. This oil stays on the foam and traps dust well.", cite: {p: 59}, spec_ref: "fluids:Air filter"}

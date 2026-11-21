@@ -1,0 +1,22 @@
+title: "Handlebar removal and installation"
+system: "Front suspension and steering"
+source: clymer
+chapter: 12
+section: "12/handlebar"
+summary: {t: "This procedure removes the handlebar from the holders and installs it again. To change the riding position only, loosen the lower holder cap bolts, tilt the handlebar and tighten the bolts again.", cite: {p: 261}}
+spec_refs: ["front-suspension-torque:Handlebar holder bolts"]
+parts:
+  - {name: "Handlebar holder bolts", replace: inspect, cite: {p: 263}, note: "Replace damaged bolts."}
+sections:
+  - steps:
+      - {kind: note, t: "If you must disassemble the handlebar completely, disassemble it before you remove it from the holders.", cite: {p: 261}, op: c12-handlebar-disassembly}
+      - {t: "Support the motorcycle so that it is stable and secure.", cite: {p: 261}}
+      - {t: "Lift the plastic caps from the holder bolts.", cite: {p: 261}, figs: [1]}
+      - {t: "Remove the bolts from the holders.", cite: {p: 261}, figs: [2]}
+      - {t: "Move the handlebar forward or back and secure it. Keep the brake fluid reservoir upright.", cite: {p: 261}}
+      - {t: "Clean the handlebar and the holders.", cite: {p: 261}}
+      - {t: "To install the handlebar, put it in the holders.", cite: {p: 261}}
+      - {t: "Put the holder caps in position so that the arrows on the caps point up.", cite: {p: 261}, figs: [3]}
+      - {t: "Lightly tighten the holder bolts. Make sure that the riding position is correct.", cite: {p: 261}}
+      - {t: "Tighten the upper bolt on each cap first.", cite: {p: 261}}
+      - {t: "Tighten the lower bolts to the specified torque.", cite: {p: 261}, spec_ref: "front-suspension-torque:Handlebar holder bolts"}

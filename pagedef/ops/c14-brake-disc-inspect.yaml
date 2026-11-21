@@ -1,0 +1,28 @@
+title: "Brake disc thickness and runout inspection"
+system: "brakes"
+source: clymer
+chapter: 14
+section: "14/brake-disc"
+summary: {t: "The condition of the discs and the pads is usually the same. If a disc has scoring, examine the pads and the disc as soon as possible.", cite: {p: 325}}
+spec_refs:
+  - "brakes:Disc thickness/Front"
+  - "brakes:Disc thickness/Rear"
+  - "brakes:Disc runout"
+parts:
+  - {name: "Brake disc", replace: inspect, cite: {p: 325}, note: "Replace the disc if it is out of specification."}
+sections:
+  - steps:
+      - {t: "Examine the discs and the pads with the wheels on the motorcycle.", cite: {p: 325}, op: brake-pads}
+      - {kind: note, t: "Do not true a disc that has deep scoring or is warped. When you remove disc material, the disc becomes hot fast and warps. Keep the discs clean and free of corrosion. Use a solvent that is not oil-based to wipe grit from the discs and from the edge of the pads.", cite: {p: 325}}
+      - {t: "Measure the thickness of each disc at several points around its edge.", cite: {p: 325}, figs: [101]}
+      - {t: "Compare the thickness with the service limit in Table 1. If the disc is out of specification, replace it.", cite: {p: 325}, spec_ref: "brakes:Disc thickness/Front",
+         conflict: {
+           agrees: false,
+           note: "The Kawasaki KLR600 manual gives a smaller front disc thickness. Clymer is the only manual for 2003-2006, so use the Clymer value.",
+           others: [{t: "Front disc thickness: 2.8-3.1 mm. Service limit: 2.5 mm.", cite: {s: kaw-600, p: 109}}]}}
+      - {t: "Rear disc: compare the thickness with the service limit.", cite: {p: 325}, spec_ref: "brakes:Disc thickness/Rear"}
+      - {t: "Put a dial indicator on a stable surface. Put it in contact with the disc.", cite: {p: 325}, figs: [102]}
+      - {t: "Set the gauge to zero.", cite: {p: 325}}
+      - {t: "Turn the wheel. Read the runout on the gauge.", cite: {p: 325}}
+      - {t: "Compare the runout with the service limit. If the disc is out of specification, replace it.", cite: {p: 325}, spec_ref: "brakes:Disc runout"}
+      - {kind: note, t: "If the runout is out of specification, examine the wheel bearings before you replace the disc. If the bearings are not in good condition, replace the bearings before you measure disc runout again.", cite: {p: 325}, ref: "11/front-and-rear-hubs"}

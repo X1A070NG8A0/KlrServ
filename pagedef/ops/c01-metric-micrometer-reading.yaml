@@ -1,0 +1,13 @@
+title: "Metric micrometer reading"
+system: "General information"
+source: clymer
+chapter: 1
+section: "01/precision-measuring-tools"
+summary: {t: "A standard metric micrometer is accurate to 0.01 mm. Each mark on the upper half of the sleeve line equals 1.00 mm. Each mark on the lower half equals 0.50 mm. The thimble has 50 lines that each equal 0.01 mm.", cite: {p: 30}}
+sections:
+  - steps:
+      - {t: "Read the upper half of the sleeve line. Count the lines that you can see. Each upper line equals 1 mm.", cite: {p: 30}}
+      - {t: "If you can see the half-millimeter line on the lower sleeve line, add 0.50 mm to the reading.", cite: {p: 30}}
+      - {t: "Read the thimble mark that aligns with the sleeve line. Each thimble mark equals 0.01 mm.", cite: {p: 31}}
+      - {kind: note, t: "If a thimble mark does not align exactly with the sleeve line, estimate the amount between the lines. For readings in 0.002 mm, use a metric vernier micrometer.", cite: {p: 31}}
+      - {t: "Add the readings.", cite: {p: 31}}

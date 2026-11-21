@@ -1,0 +1,38 @@
+# Clymer Chapter Five tables, transcribed from page images (PDF p147-148).
+title: "Engine Lower End"
+pages:
+  - id: lower-end
+    title: "Engine lower end specifications"
+    kind: Specification
+    format: limits
+    cite: {s: clymer, p: 147, ref: "Table 1"}
+    rows:
+      - {item: "Balancer chain length (20 links/21 pins)", std: "190.0-190.5 (7.48-7.50)", limit: "193.4 (7.61)"}
+      - {item: "Camshaft chain length (20 links/21 pins)", std: "127.0-127.4 (5.0-5.02)", limit: "128.9 (5.07)"}
+      - {group: "Connecting rod", item: "Side clearance", std: "0.25-0.35 (0.010-0.014)", limit: "0.60 (0.024)"}
+      - {group: "Connecting rod", item: "Radial clearance", std: "0.008-0.020 (0.0003-0.0008)", limit: "0.07 (0.003)"}
+      - {item: "Crankpin-to-flywheel tolerance (cold)", std: "0.093-0.122 (0.0037-0.0048)"}
+      - {group: "Crankshaft runout (total indicator reading)", item: "Left half", std: "0.03 (0.0012)", limit: "0.10 (0.004)", cite: {s: clymer, p: 148}}
+      - {group: "Crankshaft runout (total indicator reading)", item: "Right half", std: "0.04 (0.0016)", limit: "0.10 (0.004)", cite: {s: clymer, p: 148}}
+
+  - id: lower-end-torque
+    title: "Engine lower end torque specifications"
+    kind: Specification
+    format: torque
+    cite: {s: clymer, p: 148, ref: "Table 2"}
+    rows:
+      - {item: "Balancer shaft nut (right side)", nm: "44", ftlb: "32"}
+      - {group: "Balancer chain guide bolts", item: "6 mm", nm: "12", inlb: "106"}
+      - {group: "Balancer chain guide bolts", item: "8 mm", nm: "25", ftlb: "18"}
+      - {group: "Engine mounting bolts", item: "8 mm", nm: "25", ftlb: "18"}
+      - {group: "Engine mounting bolts", item: "10 mm", nm: "44", ftlb: "32"}
+      - {item: "Cam chain guide bolt", nm: "25", ftlb: "18"}
+      - {group: "Crankcase bolts", item: "6 mm", nm: "8", inlb: "71"}
+      - {group: "Crankcase bolts", item: "8 mm", nm: "19", ftlb: "14"}
+      - {item: "Neutral switch", nm: "15", ftlb: "11"}
+      - {item: "Oil drain plug", nm: "23", ftlb: "17"}
+      - {group: "Oil pipe", item: "Banjo bolts", nm: "20", ftlb: "15"}
+      - {group: "Oil pipe", item: "Retainer bolt", nm: "8", inlb: "71"}
+      - {item: "Oil pressure relief valve", nm: "15", ftlb: "11"}
+      - {item: "Primary drive gear nut", nm: "120", ftlb: "89"}
+      - {item: "Swing arm pivot bolt", nm: "98", ftlb: "72"}

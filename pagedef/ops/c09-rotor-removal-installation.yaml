@@ -1,0 +1,42 @@
+title: "Rotor and starter clutch removal and installation"
+system: "electrical system"
+source: clymer
+chapter: 9
+section: "09/rotor-and-starter-clutch"
+summary: {t: "The starter clutch is on the back of the rotor. You must remove the starter gears and the rotor to get to the clutch. Hold the rotor with a rotor holder tool and remove it with a rotor puller.", cite: {p: 205}}
+spec_refs: ["electrical-torque:Rotor bolt (see text)/To seat", "electrical-torque:Rotor bolt (see text)/Final"]
+parts:
+  - {name: "Rotor bolt", replace: always, cite: {p: 206}}
+  - {name: "Rotor holder tool, Kawasaki part No. 57001-1184", replace: consumable, cite: {p: 205}, note: "Special tool. It is not a part that you replace."}
+  - {name: "Rotor puller, Kawasaki part No. 57001-1185", replace: consumable, cite: {p: 205}, note: "Special tool. It is not a part that you replace."}
+  - {name: "Penetrating lubricant", replace: consumable, cite: {p: 206}}
+  - {name: "Molybdenum disulfide grease", replace: consumable, cite: {p: 206}}
+  - {name: "Engine oil", replace: consumable, cite: {p: 206}}
+  - {name: "Grease for rotor puller threads", replace: consumable, cite: {p: 206}}
+sections:
+  - title: "Removal"
+    steps:
+      - {t: "Remove the alternator cover.", cite: {p: 205}, op: c09-alternator-cover}
+      - {t: "Remove the outer washer and the idle gear.", cite: {p: 205}, figs: [11]}
+      - {t: "Remove the idle gear shaft, the bearings and the inner washer.", cite: {p: 205}, figs: [12]}
+      - {t: "Remove the starter gear and the washers.", cite: {p: 205}, figs: [13]}
+      - {t: "Hold the rotor with the rotor holder tool. Put the tool under the footpeg when you loosen the rotor bolt.", cite: {p: 206}, figs: [14]}
+      - {t: "Remove the rotor bolt.", cite: {p: 206}}
+      - {t: "Spray penetrating lubricant into the rotor bore and the Woodruff key area.", cite: {p: 206}}
+      - {t: "Apply grease to the end and the threads of the rotor puller.", cite: {p: 206}}
+      - {t: "Thread the rotor puller into the crankshaft.", cite: {p: 206}, figs: [15]}
+      - {t: "Hold the rotor with the rotor holder tool. Put the tool on top of the footpeg when you tighten the rotor puller.", cite: {p: 206}, figs: [15]}
+      - {t: "Tighten the rotor puller until the rotor comes free from the crankshaft taper. The rotor is tight. Use a wrench that gives high leverage.", cite: {p: 206}}
+      - {t: "Remove the rotor puller from the crankshaft.", cite: {p: 206}}
+      - {t: "Remove the rotor and the starter clutch from the crankshaft. Hold the starter clutch so that it does not fall from the rotor.", cite: {p: 206}, figs: [16]}
+      - {t: "Remove the Woodruff key and the spacers from the crankshaft.", cite: {p: 206}, figs: [17]}
+      - {t: "Examine and lubricate the parts as the inspection procedure describes.", cite: {p: 206}, op: c09-starter-clutch-inspection}
+  - title: "Installation"
+    steps:
+      - {t: "Install the rotor and starter clutch assembly and the starter gears in the reverse order of removal.", cite: {p: 206}}
+      - {t: "Install a new rotor bolt.", cite: {p: 206}}
+      - {t: "Tighten the rotor bolt to the first torque value, to seat the rotor. Then loosen the bolt.", cite: {p: 206}, spec_ref: "electrical-torque:Rotor bolt (see text)/To seat"}
+      - {t: "Tighten the rotor bolt to the final torque value.", cite: {p: 206}, spec_ref: "electrical-torque:Rotor bolt (see text)/Final"}
+      - {t: "Lubricate the starter clutch gear bearing, the starter gear shafts and the bores with molybdenum disulfide grease.", cite: {p: 206}}
+      - {t: "Lubricate all other parts with engine oil.", cite: {p: 206}}
+      - {t: "Install the alternator cover.", cite: {p: 207}, op: c09-alternator-cover}

@@ -1,0 +1,31 @@
+title: "Oil pump disassembly, inspection and assembly"
+system: "Clutch, gearshift linkage and lubrication system"
+source: clymer
+chapter: 6
+section: "06/oil-pump"
+summary: {t: "This procedure disassembles the oil pump, shows how to examine the parts and assembles the pump again. Clymer gives no component specifications for the oil pump.", cite: {p: 163}}
+parts:
+  - {name: "Oil pump parts", replace: inspect, cite: {p: 163}, note: "Replace parts that have wear or scoring."}
+  - {name: "Threadlocking compound", replace: consumable, cite: {p: 163}}
+sections:
+  - title: "Disassembly"
+    steps:
+      - {t: "Remove the retaining screw from the pump body. Remove the rear plate.", cite: {p: 162}, figs: [61]}
+      - {t: "Lift out the inner rotor and the outer rotor.", cite: {p: 162}, figs: [62]}
+      - {t: "Remove the pin. Pull the gear out of the pump body.", cite: {p: 162}, figs: [63]}
+  - title: "Inspection"
+    steps:
+      - {t: "Clean the parts in solvent.", cite: {p: 163}}
+      - {t: "Examine the parts for wear or damage.", cite: {p: 163}, figs: [64]}
+      - {t: "Examine the pump shaft, the gear and the pin for wear or scoring.", cite: {p: 163}, figs: [66]}
+      - {t: "Make sure that the pin fits firmly in the shaft.", cite: {p: 163}}
+      - {t: "Make sure that the pump shaft fits in the pump body and the rear plate with minimal perceptible play.", cite: {p: 163}}
+      - {t: "Examine the rotors for wear or scoring.", cite: {p: 163}, figs: [67]}
+      - {t: "Make sure that the inner rotor and the pin fit firmly on the shaft when assembled.", cite: {p: 163}}
+      - {t: "Examine the pump body and the rear plate for wear or scoring.", cite: {p: 164}, figs: [68]}
+  - title: "Assembly"
+    steps:
+      - {t: "Install the rotors in the pump body so that the marks face down. The marks must not be visible after you install the rotors.", cite: {p: 163}, figs: [65]}
+      - {t: "Make sure that the rear plate is fully seated at its edge before you tighten the screw.", cite: {p: 163}}
+      - {t: "Apply threadlocking compound to the threads of the retaining screw. Install the screw.", cite: {p: 163}}
+      - {t: "Install the oil pump.", cite: {p: 163}, op: c06-oil-pump-removal}

@@ -3,7 +3,7 @@
 Each detected figure region's top-left corner (where Clymer prints the
 circled figure number) is tiled into one image with the region's file stem
 printed under it, so the numbers can be read in one pass and recorded in
-doc/figures/clymer/labels.yaml.
+data/figures/labels.yaml.
 
 Usage: .venv/Scripts/python.exe -I scripts/figure_contact_sheet.py first last out.png
 """

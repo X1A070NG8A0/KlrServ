@@ -1,0 +1,39 @@
+title: "Rear brake pedal removal and installation"
+system: "brakes"
+source: clymer
+chapter: 14
+section: "14/rear-brake-pedal"
+summary: {t: "Remove the rear brake pedal to examine the pedal shaft, the bushing, the spring and the clevis pin.", cite: {p: 320}}
+parts:
+  - {name: "Clevis pin cotter pin", replace: always, cite: {p: 322}, note: "Install a new cotter pin."}
+  - {name: "Pedal shaft bushing", replace: inspect, cite: {p: 321}, note: "If the bushing is worn, replace it."}
+  - {name: "Waterproof grease", replace: consumable, cite: {p: 322}}
+sections:
+  - title: "Removal"
+    steps:
+      - {t: "Remove the brake light switch spring from the pedal.", cite: {p: 320}, figs: [95]}
+      - {t: "Remove the cotter pin and the clevis pin that hold the master cylinder clevis to the brake pedal.", cite: {p: 320}, figs: [96]}
+      - {t: "Remove the bolt that holds the pedal to the shaft completely.", cite: {p: 321}, figs: [96]}
+      - {t: "Before you remove the pedal, note how the spring touches the post on the brake stay and on the pedal.", cite: {p: 321}}
+      - {t: "Hold the pedal shaft in position. Pull the pedal off the shaft.", cite: {p: 321}}
+      - {t: "Remove the pedal shaft and the spring.", cite: {p: 321}}
+  - title: "Inspection"
+    steps:
+      - {t: "Clean the parts.", cite: {p: 321}}
+      - {t: "Examine the pedal shaft and the bore bushing for scoring and damage. Examine them for entry of water and dirt. If the bushing is worn, replace it.", cite: {p: 321}}
+      - {t: "Examine the clevis pin and the pedal bore. The pin must be a firm fit in the clevis and in the pedal.", cite: {p: 322}}
+      - {t: "Examine the spring and the shaft bolt for corrosion and damage.", cite: {p: 322}}
+      - {t: "Make sure that the brake stay is tight.", cite: {p: 322}}
+  - title: "Installation"
+    steps:
+      - {t: "Put waterproof grease on the bushing and on the pedal shaft.", cite: {p: 322}}
+      - {t: "Install the spring. Seat it against the brake stay. The straight end of the spring touches the back of the brake stay post.", cite: {p: 322}}
+      - {t: "Install the pedal shaft. Engage the hooked end of the spring with the narrow arm on the pedal shaft.", cite: {p: 322}}
+      - {t: "Hold the shaft in position. Turn it forward to put a preload on the spring.", cite: {p: 322}}
+      - {t: "Install the pedal. Guide it into the clevis. Align the index marks on the pedal and the shaft.", cite: {p: 322}, figs: [96]}
+      - {t: "Install the bolt that holds the pedal to the shaft.", cite: {p: 322}}
+      - {t: "Make sure that the pushrod threads extend 3-3.5 mm (0.12-0.14 in.) below the nut in the clevis. If necessary, adjust the clevis position. This sets the correct brake pedal height.", cite: {p: 322}, figs: [93]}
+      - {t: "Install the clevis pin and a new cotter pin.", cite: {p: 322}}
+      - {t: "Attach the brake light switch spring.", cite: {p: 322}}
+      - {t: "Examine the pedal height and operation. If the pedal is not level with the footpeg, examine the parts for bends and damage.", cite: {p: 322}, op: brake-pedal}
+      - {t: "Make sure that the brake light operates. If necessary, adjust the switch.", cite: {p: 322}, op: brake-light-switch}

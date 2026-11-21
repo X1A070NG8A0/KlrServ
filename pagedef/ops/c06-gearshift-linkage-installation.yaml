@@ -1,0 +1,25 @@
+title: "External gearshift linkage installation"
+system: "Clutch, gearshift linkage and lubrication system"
+source: clymer
+chapter: 6
+section: "06/external-gearshift-linkage"
+summary: {t: "This procedure installs the external gearshift linkage and tests the shifting action.", cite: {p: 161}}
+spec_refs: ["clutch-torque:Shift cam bolt"]
+parts:
+  - {name: "Threadlocking compound", replace: consumable, cite: {p: 161}}
+sections:
+  - steps:
+      - {t: "If you removed the return spring post, apply threadlocking compound to its threads. Install and tighten the post.", cite: {p: 161}, figs: [46]}
+      - {t: "Install the pin in the end of the shift drum.", cite: {p: 161}}
+      - {t: "Install the shift cam. Engage the bore in the shift cam with the pin.", cite: {p: 161}, figs: [53]}
+      - {t: "Apply threadlocking compound to the threads of the shift cam bolt. Install the bolt.", cite: {p: 161}}
+      - {t: "Tighten the shift cam bolt to the specified torque.", cite: {p: 161}, spec_ref: "clutch-torque:Shift cam bolt"}
+      - {t: "Install the lever and the torsion spring.", cite: {p: 161}, figs: [46]}
+      - {t: "Make sure that the spring is correctly installed with the lever and against the crankcase.", cite: {p: 161}, figs: [54]}
+      - {t: "Make sure that the shoulder of the bolt is seated in the lever before you tighten the bolt.", cite: {p: 161}}
+      - {t: "Put the shift shaft assembly through the engine. Seat the return spring around the post.", cite: {p: 161}, figs: [45, 55]}
+      - {t: "Install the shift lever on the left side of the engine. If necessary, ask a person to hold the shaft in position on the right side.", cite: {p: 161}}
+      - {t: "Turn the transmission shaft to aid shifting. Shift the transmission through the gears.", cite: {p: 161}}
+      - {t: "Make sure that the lever roller locks into each detent on the shift cam. In neutral, the roller must rest in the neutral detent.", cite: {p: 161}, figs: [44]}
+      - {t: "Install the clutch.", cite: {p: 161}, op: c06-clutch-installation}
+      - {t: "Install the right crankcase cover.", cite: {p: 161}, op: c06-right-crankcase-cover}

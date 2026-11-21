@@ -1,0 +1,15 @@
+title: "Regulator/rectifier resistance test"
+system: "electrical system"
+source: clymer
+chapter: 9
+section: "09/charging-system"
+summary: {t: "This test checks the directional resistance of the regulator/rectifier. No specific resistance is specified. The purpose is to find low resistance in one direction and infinite resistance in the other direction.", cite: {p: 226}}
+sections:
+  - steps:
+      - {t: "Use an analog ohmmeter set to the R x 10 or R x 100 scale.", cite: {p: 226}}
+      - {t: "Remove the plug connector from the regulator/rectifier.", cite: {p: 226}, figs: [61]}
+      - {t: "Connect the positive meter probe to the B terminal. Keep the probe on the B terminal and touch the negative probe to terminals 1, 2 and 3. The meter must read zero to approximately one-half of the meter scale at all terminals.", cite: {p: 226}}
+      - {t: "Connect the negative meter probe to the B terminal. Keep the probe on the B terminal and touch the positive probe to terminals 1, 2 and 3. The meter must read infinity at all terminals.", cite: {p: 226}}
+      - {t: "Connect the positive meter probe to the G terminal. Keep the probe on the G terminal and touch the negative probe to terminals 1, 2 and 3. The meter must read infinity at all terminals.", cite: {p: 226}}
+      - {t: "Connect the negative meter probe to the G terminal. Keep the probe on the G terminal and touch the positive probe to terminals 1, 2 and 3. The meter must read zero to approximately one-half of the meter scale at all terminals.", cite: {p: 226}}
+      - {t: "If any check gives a high or low reading in both directions, the regulator/rectifier is faulty.", cite: {p: 226}}

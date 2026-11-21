@@ -1,0 +1,27 @@
+title: "Steering stem and head disassembly"
+system: "Front suspension and steering"
+source: clymer
+chapter: 12
+section: "12/steering-stem-and-head"
+summary: {t: "The steering stem pivots in the steering head on tapered roller bearings at the top and the bottom of the stem. Do the steering play check before you disassemble the steering head. The check shows if the bearings and races are worn or only need adjustment.", cite: {p: 263}}
+parts:
+  - {name: "Stem nut wrench (Kawasaki part No. 57001-1100) or similar tool", replace: consumable, cite: {p: 263}, note: "Use it to loosen a tight adjust nut. Order it from a Kawasaki dealership."}
+sections:
+  - steps:
+      - {t: "Do the steering play check and adjustment.", cite: {p: 263}, op: c12-steering-play-check}
+      - {t: "Remove the front wheel.", cite: {p: 263}, ref: "11/front-wheel-and-speedometer-drive-unit"}
+      - {t: "Remove the bolts that hold the front fender.", cite: {p: 263}, figs: [6]}
+      - {t: "Remove the fuel tank, the radiator covers and the fairing.", cite: {p: 263}, ref: "15/fuel-tank"}
+      - {t: "Remove the handlebar.", cite: {p: 263}, op: c12-handlebar-removal}
+      - {t: "Loosen the stem nut.", cite: {p: 263}, figs: [7]}
+      - {t: "Remove the fork legs.", cite: {p: 263}, op: c12-fork-removal}
+      - {t: "Remove the gauges and the ignition switch from the upper fork bridge.", cite: {p: 263}}
+      - {t: "Remove the clamps from the left side of the upper and lower fork bridges.", cite: {p: 263}}
+      - {t: "Remove the stem nut and the washer.", cite: {p: 263}}
+      - {t: "Remove the upper fork bridge.", cite: {p: 263}, figs: [7]}
+      - {t: "Hold the steering stem so that it cannot fall.", cite: {p: 263}}
+      - {t: "Remove the claw washer and the adjust nut.", cite: {p: 263}, figs: [8]}
+      - {kind: note, t: "If the adjust nut is tight, loosen it with the stem nut wrench (part No. 57001-1100) or a similar tool.", cite: {p: 263}}
+      - {t: "Lower the steering stem assembly out of the steering head.", cite: {p: 264}}
+      - {t: "Remove the seal and the bearing at the top of the steering head.", cite: {p: 264}}
+      - {kind: caution, t: "Do not remove the bottom bearing unless it needs replacement. The press fit on the steering stem causes damage during removal.", cite: {p: 264}}

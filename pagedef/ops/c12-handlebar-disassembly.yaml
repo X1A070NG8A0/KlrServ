@@ -1,0 +1,40 @@
+title: "Handlebar disassembly and assembly"
+system: "Front suspension and steering"
+source: clymer
+chapter: 12
+section: "12/handlebar"
+summary: {t: "This procedure removes the controls from the handlebar and installs them again. Do the work on the handlebar in the holders, or after you remove the handlebar.", cite: {p: 261}}
+spec_refs: ["front-suspension-torque:Master cylinder mounting bolts"]
+parts:
+  - {name: "Handlebar grip adhesive", replace: consumable, cite: {p: 262}}
+  - {name: "Left grip", replace: inspect, cite: {p: 262}, note: "Remove the left grip only if you replace the handlebar."}
+sections:
+  - title: "Right handlebar"
+    steps:
+      - {t: "Support the motorcycle so that it is stable and secure.", cite: {p: 261}}
+      - {t: "Remove the two screws that hold the throttle assembly.", cite: {p: 262}, figs: [4]}
+      - {t: "Slide the throttle assembly off the handlebar.", cite: {p: 262}}
+      - {t: "If the throttle cables prevent this, remove the throttle after you remove the handlebar from the motorcycle.", cite: {p: 262}}
+      - {t: "Do not let the throttle cables kink.", cite: {p: 262}}
+      - {t: "Disconnect the brake switch.", cite: {p: 262}, figs: [4]}
+      - {t: "Remove the screw that holds the stop switch.", cite: {p: 262}, figs: [4]}
+      - {t: "Remove the brake hose from the handlebar clamps.", cite: {p: 262}}
+      - {t: "Remove the bolts that hold the master cylinder assembly.", cite: {p: 262}, figs: [4], ref: "14/front-master-cylinder"}
+      - {kind: caution, t: "Do not let the master cylinder hang by its hose. Keep the master cylinder upright so that fluid cannot leak out of the cap and air cannot get into the system.", cite: {p: 262}}
+      - {t: "Wrap the master cylinder with a clean shop cloth. Secure it to the motorcycle until you assemble the handlebar again.", cite: {p: 262}}
+  - title: "Left handlebar"
+    steps:
+      - {t: "Remove the two screws that hold the switch assembly.", cite: {p: 262}, figs: [5]}
+      - {t: "Remove the two screws that hold the clutch lever assembly.", cite: {p: 262}, figs: [5]}
+      - {t: "Remove the ties that hold the wiring to the handlebar.", cite: {p: 262}}
+      - {t: "If you will replace the handlebar, remove the left grip.", cite: {p: 262}}
+      - {t: "If necessary, put a compressed air nozzle between the grip and the handlebar. The air expands the grip. Twist and pull the grip off the handlebar.", cite: {p: 262}}
+      - {t: "Remove the handlebar.", cite: {p: 262}, op: c12-handlebar-removal}
+  - title: "Assembly"
+    steps:
+      - {t: "If you removed the throttle after you removed the handlebar, install the throttle before you install the handlebar.", cite: {p: 263}}
+      - {t: "Install the master cylinder clamp so that UP and the arrow face up.", cite: {p: 263}}
+      - {t: "Tighten the upper clamp bolt first. Then tighten the lower bolt to the specified torque.", cite: {p: 263}, spec_ref: "front-suspension-torque:Master cylinder mounting bolts"}
+      - {t: "If you removed the left grip, install it before you install the clutch and switch assemblies.", cite: {p: 263}}
+      - {t: "Clean the handlebar and the grip with solvent.", cite: {p: 263}}
+      - {t: "Apply adhesive to the grip. Twist the grip into position on the handlebar.", cite: {p: 263}}

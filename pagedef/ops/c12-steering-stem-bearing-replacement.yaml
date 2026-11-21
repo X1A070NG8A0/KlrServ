@@ -1,0 +1,23 @@
+title: "Steering stem bearing replacement"
+system: "Front suspension and steering"
+source: clymer
+chapter: 12
+section: "12/steering-stem-and-head"
+summary: {t: "The steering stem bearing is a press fit on the steering stem. Use this procedure to replace it.", cite: {p: 265}}
+parts:
+  - {name: "Steering stem bearing", replace: always, cite: {p: 266}}
+  - {name: "Steering stem bearing seal", replace: always, cite: {p: 266}}
+  - {name: "Waterproof grease", replace: consumable, cite: {p: 266}}
+sections:
+  - steps:
+      - {t: "Thread the stem nut onto the steering stem to protect the threads.", cite: {p: 265}, figs: [15]}
+      - {t: "Hold the steering stem steady.", cite: {p: 265}}
+      - {kind: warning, t: "Wear safety glasses when you use a hammer and chisel. Pieces can fly off and cause injury.", cite: {p: 265}}
+      - {t: "Remove the bearing and the seal with a hammer and chisel. Make several passes around the bearing to prevent binding.", cite: {p: 265}, figs: [15]}
+      - {t: "Clean the steering stem. Examine it for damage.", cite: {p: 265}}
+      - {t: "Pack the new bearing and the new seal with waterproof grease.", cite: {p: 266}}
+      - {t: "Slide the new seal and the new bearing onto the steering stem.", cite: {p: 266}}
+      - {t: "Support the steering stem directly below the bearing.", cite: {p: 266}}
+      - {t: "Slide a bearing driver or a long pipe over the steering stem. Seat the tool on the inner bearing race.", cite: {p: 266}, figs: [16]}
+      - {t: "Drive the bearing onto the steering stem until it is seated.", cite: {p: 266}}
+      - {kind: note, t: "If you have a press, you can use it to drive the bearing and the seal.", cite: {p: 266}}

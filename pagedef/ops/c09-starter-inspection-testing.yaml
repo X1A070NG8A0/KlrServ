@@ -1,0 +1,36 @@
+title: "Starter inspection and testing"
+system: "electrical system"
+source: clymer
+chapter: 9
+section: "09/starter"
+summary: {t: "Use an ohmmeter for all electrical tests in this procedure. If a test result is not correct, the part is shorted or there is an open circuit between the test points. Replace or recondition parts that are worn or damaged.", cite: {p: 211}}
+spec_refs: ["electrical-test:Starter/Commutator outside diameter", "electrical-test:Starter/Commutator outside diameter, service limit", "electrical-test:Starter/Brush length", "electrical-test:Starter/Brush length, service limit"]
+sections:
+  - title: "Housing and armature"
+    steps:
+      - {t: "Clean the parts as necessary. Use a solvent made for electric motors to remove buildup and contamination, especially between the commutator bars.", cite: {p: 211}}
+      - {t: "Examine the housing and the end covers. The armature must fit in the covers with little or no play.", cite: {p: 211}}
+      - {t: "Examine the armature bearing. It must turn smoothly and freely.", cite: {p: 211}}
+      - {t: "Examine the shims for cracks or damage.", cite: {p: 211}}
+      - {t: "Examine the windings for obvious shorts or damage.", cite: {p: 211}}
+  - title: "Commutator"
+    steps:
+      - {t: "Measure the outside diameter of the commutator. Compare it with the specification.", cite: {p: 211}, spec_ref: "electrical-test:Starter/Commutator outside diameter", figs: [31]}
+      - {t: "If the diameter is less than the service limit, replace the armature.", cite: {p: 211}, spec_ref: "electrical-test:Starter/Commutator outside diameter, service limit"}
+      - {t: "Examine the bar height. The commutator bars must be taller than the insulation between the bars.", cite: {p: 211}, figs: [32]}
+      - {t: "Examine the bars for discoloration. A pair of bars with discoloration shows grounded armature coils.", cite: {p: 211}}
+      - {t: "Examine the bars for scoring. You can repair mild scoring with fine emery cloth.", cite: {p: 211}}
+      - {t: "Test for continuity across all adjacent pairs of commutator bars. There must be continuity across all pairs.", cite: {p: 211}, figs: [33]}
+      - {t: "Test for continuity between each commutator bar and the armature shaft. There must be no continuity.", cite: {p: 212}, figs: [34]}
+  - title: "Brush assembly"
+    steps:
+      - {kind: note, t: "The positive brushes have insulated leads.", cite: {p: 212}}
+      - {t: "Test for continuity between the positive brush and the cable terminal. There must be continuity.", cite: {p: 212}, figs: [35]}
+      - {t: "Test for continuity between the cable terminal and the starter housing. There must be no continuity.", cite: {p: 212}}
+      - {t: "Test for continuity between the positive brush and the starter housing. There must be no continuity.", cite: {p: 212}, figs: [36]}
+      - {t: "Test for continuity between the grounded brush and the brush plate. There must be continuity.", cite: {p: 212}, figs: [37]}
+      - {t: "Test for continuity between the brush plate and the positive brush holders. There must be no continuity.", cite: {p: 212}}
+      - {t: "Measure the length of each brush. Compare it with the specification.", cite: {p: 212}, spec_ref: "electrical-test:Starter/Brush length", figs: [38]}
+      - {t: "If a brush is shorter than the service limit, replace it.", cite: {p: 212}, spec_ref: "electrical-test:Starter/Brush length, service limit"}
+      - {t: "Examine the condition of the brush springs.", cite: {p: 212}}
+      - {t: "Assemble the starter.", cite: {p: 212}, op: c09-starter-disassembly-assembly}

@@ -1,0 +1,20 @@
+title: "Neutral switch test"
+system: "electrical system"
+source: clymer
+chapter: 9
+section: "09/starting-system"
+summary: {t: "The neutral switch is on the left side of the engine, next to the drive sprocket. Test it with an ohmmeter.", cite: {p: 215}}
+spec_refs: ["electrical-torque:Neutral switch"]
+sections:
+  - steps:
+      - {t: "Remove the chain sprocket guard. You do not have to remove the sprocket.", cite: {p: 215}, ref: "11/sprockets"}
+      - {t: "Put the transmission in neutral.", cite: {p: 215}}
+      - {t: "Remove the wire from the switch terminal.", cite: {p: 215}, figs: [44]}
+      - {t: "Connect an ohmmeter to the switch terminal and to ground (an unpainted part of the engine).", cite: {p: 215}}
+      - {t: "With the transmission in neutral, there must be continuity.", cite: {p: 215}}
+      - {t: "With the transmission in any gear, there must be no continuity.", cite: {p: 215}}
+      - {t: "If the switch fails either test, remove the switch.", cite: {p: 215}}
+      - {t: "Connect the ohmmeter to the terminal and to the threads on the switch.", cite: {p: 216}}
+      - {t: "Press the button on the bottom of the switch. If there is no continuity, the switch is faulty.", cite: {p: 216}}
+      - {t: "If there is continuity, the switch button can be worn. The shift drum then cannot fully operate the switch, although the switch operates correctly when it is out of the engine. Replace the switch.", cite: {p: 216}}
+      - {t: "When you install the switch, tighten it to the specified torque.", cite: {p: 216}, spec_ref: "electrical-torque:Neutral switch"}

@@ -1,0 +1,23 @@
+title: "Ignition timing check"
+system: "electrical system"
+source: clymer
+chapter: 9
+section: "09/ignition-system"
+summary: {t: "The CDI unit controls the ignition timing electronically. You cannot adjust the timing. Examine the timing to make sure that the CDI unit operates correctly.", cite: {p: 222}}
+spec_refs: ["electrical-general:Ignition timing/Idle", "electrical-general:Ignition timing/Advanced"]
+parts:
+  - {name: "Timing hole cap O-ring", replace: inspect, cite: {p: 222}}
+sections:
+  - steps:
+      - {t: "Warm up the engine to operating temperature.", cite: {p: 222}}
+      - {t: "Remove the cap from the timing hole.", cite: {p: 222}, figs: [53]}
+      - {t: "Connect a timing light as the manufacturer instructs.", cite: {p: 222}}
+      - {t: "Start the engine and let it idle at the specified speed.", cite: {p: 222}, spec_ref: "electrical-general:Ignition timing/Idle"}
+      - {t: "Point the timing light into the timing hole. The F mark must align with the index mark in the hole.", cite: {p: 222}, figs: [54]}
+      - {t: "Increase the engine speed. The F mark must move clockwise.", cite: {p: 222}}
+      - {t: "At the specified speed, the timing is advanced. A single line must show in the timing hole.", cite: {p: 222}, spec_ref: "electrical-general:Ignition timing/Advanced"}
+      - {t: "If the timing is not correct, test the CDI unit.", cite: {p: 222}, op: c09-cdi-unit-test}
+      - {t: "If the CDI unit passes all tests, examine the Woodruff key that holds the rotor to the crankshaft.", cite: {p: 222}, figs: [55]}
+      - {t: "If the key is bent or sheared, the rotor does not align on the crankshaft and the engine is out of time. This small change can be hard to see in a timing check, but it is enough to cause poor engine performance.", cite: {p: 222}}
+      - {t: "Turn off the engine. Disconnect the test equipment.", cite: {p: 222}}
+      - {t: "Lubricate the O-ring on the cap. Screw the cap into the timing hole.", cite: {p: 222}}

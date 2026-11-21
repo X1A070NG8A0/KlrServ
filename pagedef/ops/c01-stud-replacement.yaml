@@ -1,0 +1,23 @@
+title: "Stud removal and installation"
+system: "General information"
+source: clymer
+chapter: 1
+section: "01/repair-methods"
+summary: {t: "A stud removal tool makes stud removal and installation easier. If you do not have the tool, use two nuts that you tighten against each other.", cite: {p: 34}}
+parts:
+  - {name: "Threadlocking compound", replace: consumable, cite: {p: 34}}
+sections:
+  - title: "Removal"
+    steps:
+      - {t: "Measure the height of the stud above the surface.", cite: {p: 34}}
+      - {t: "Thread the stud removal tool onto the stud and tighten it. Or thread two nuts onto the stud and tighten them against each other.", cite: {p: 34}}
+      - {t: "Turn the stud remover or the lower nut to remove the stud.", cite: {p: 34}}
+      - {t: "Remove any threadlocking compound from the threaded hole.", cite: {p: 34}}
+      - {t: "Clean the threads with aerosol parts cleaner.", cite: {p: 34}}
+  - title: "Installation"
+    steps:
+      - {t: "Install the stud removal tool onto the new stud. Or thread two nuts onto the stud.", cite: {p: 34}}
+      - {t: "Apply threadlocking compound to the threads of the stud.", cite: {p: 34}, op: c01-threadlocking-compound-application}
+      - {t: "Install the stud. Tighten it with the stud removal tool or the top nut.", cite: {p: 34}}
+      - {t: "Install the stud to the height that you measured, or to its torque specification.", cite: {p: 34}}
+      - {t: "Remove the stud removal tool or the two nuts.", cite: {p: 34}}

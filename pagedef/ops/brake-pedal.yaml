@@ -1,0 +1,27 @@
+# Clymer Chapter Three: cable adjustments, brakes and steering inspection (PDF p74-78).
+title: "Rear brake pedal adjustment (and front lever)"
+system: "Brakes"
+source: clymer
+chapter: 3
+section: "03/maintenance-and-inspection"
+spec_refs:
+  - "routine-checks:Brake pedal height"
+sections:
+  - title: "Front brake lever"
+    steps:
+      - {t: "Do not adjust the front brake lever as a routine task. If the master cylinder is in good condition and the brake is bled, the lever adjusts itself.", cite: {p: 76}}
+      - {t: "If the brake drags or the lever play is not acceptable, examine the master cylinder and the caliper for worn or damaged parts.", cite: {p: 76}}
+  - title: "Rear brake pedal"
+    steps:
+      - {t: "Make sure that the pedal is at or near level with the footpeg.", cite: {p: 76}, figs: [63, 64]}
+      - {t: "If the pedal is not level, examine the alignment marks on the pedal and the pivot shaft. If the marks are not aligned, remove the pedal, examine it and install it again.", cite: {p: 76}, figs: [63, 64], ref: "14/rear-brake-pedal"}
+      - {t: "Examine the pedal shaft spring. Make sure that it is not broken or missing.", cite: {p: 76}, figs: [63, 64]}
+      - {t: "Examine the pedal. Make sure that it is not bent.", cite: {p: 76}, figs: [63, 64]}
+      - {t: "Make sure that the pushrod threads extend 3-3.5 mm (0.12-0.14 in.) below the nut in the clevis.", cite: {p: 76}, figs: [65]}
+      - {t: "To adjust, loosen the locknut (A).", cite: {p: 76}, figs: [65]}
+      - {t: "Turn the adjuster (B). Then tighten the locknut.", cite: {p: 76}, figs: [65]}
+      - {t: "Make sure that the adjustment is correct from the riding position.", cite: {p: 77}}
+      - {t: "If the brake action is not correct, bleed the brake.", cite: {p: 77}, ref: "14/brake-system-bleeding"}
+      - {t: "Lift the rear wheel off the ground. Turn the wheel and operate the pedal. Make sure that the brake fully engages and disengages.", cite: {p: 77}}
+      - {t: "If the brake drags, or you cannot get the correct height and play, examine the master cylinder and the caliper for worn or damaged parts.", cite: {p: 77}}
+      - {t: "Make sure that the brake light operates correctly.", cite: {p: 77}, op: brake-light-switch}

@@ -1,0 +1,19 @@
+title: "Tightening a fastener that has no torque specification"
+system: "General information"
+source: clymer
+chapter: 1
+section: "01/fasteners"
+summary: {t: "Use the general torque table as a guide for a fastener that has no specification. Torque specifications for specific parts are in the chapter for that part. Use an accurate torque wrench.", cite: {p: 41}}
+spec_refs: ["general-torque:5 mm thread", "general-torque:6 mm thread", "general-torque:8 mm thread", "general-torque:10 mm thread", "general-torque:12 mm thread", "general-torque:14 mm thread", "general-torque:16 mm thread", "general-torque:18 mm thread", "general-torque:20 mm thread"]
+sections:
+  - steps:
+      - {t: "Find the thread diameter of the fastener.", cite: {p: 17}}
+      - {t: "Tighten a fastener with a 5 mm thread to the torque in the table.", cite: {p: 41}, spec_ref: "general-torque:5 mm thread"}
+      - {t: "Tighten a fastener with a 6 mm thread to the torque in the table.", cite: {p: 41}, spec_ref: "general-torque:6 mm thread"}
+      - {t: "Tighten a fastener with an 8 mm thread to the torque in the table.", cite: {p: 41}, spec_ref: "general-torque:8 mm thread"}
+      - {t: "Tighten a fastener with a 10 mm thread to the torque in the table.", cite: {p: 41}, spec_ref: "general-torque:10 mm thread"}
+      - {t: "Tighten a fastener with a 12 mm thread to the torque in the table.", cite: {p: 41}, spec_ref: "general-torque:12 mm thread"}
+      - {t: "Tighten a fastener with a 14 mm thread to the torque in the table.", cite: {p: 41}, spec_ref: "general-torque:14 mm thread"}
+      - {t: "Tighten a fastener with a 16 mm thread to the torque in the table.", cite: {p: 41}, spec_ref: "general-torque:16 mm thread"}
+      - {t: "Tighten a fastener with a thread size between 16 mm and 20 mm to the torque in the table.", cite: {p: 41}, spec_ref: "general-torque:18 mm thread"}
+      - {t: "Tighten a fastener with a 20 mm thread to the torque in the table.", cite: {p: 41}, spec_ref: "general-torque:20 mm thread"}

@@ -1,0 +1,14 @@
+# Clymer Chapter Three: chassis checks and engine tune-up (PDF p79-82).
+title: "Spoke tension"
+system: "Wheels and tires"
+source: clymer
+chapter: 3
+section: "03/maintenance-and-inspection"
+spec_refs:
+  - "maintenance-torque:Spokes"
+  - "routine-checks:Rim runout (radial and lateral)"
+sections:
+  - steps:
+      - {t: "Make sure that the spoke tension is correct. Do this regularly, after each respoke of the wheel, and often during break-in.", cite: {p: 80}}
+      - {t: "For inspection and tightening of the spokes, do the rim and spoke service.", cite: {p: 80}, ref: "11/rim-and-spoke-service",
+         gap: "The rim and spoke procedure in Chapter Eleven is not yet written in this wiki. Only the spoke torque is shown."}

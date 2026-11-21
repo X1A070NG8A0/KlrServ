@@ -1,0 +1,13 @@
+title: "Frame and engine number location"
+system: "General information"
+source: clymer
+chapter: 1
+section: "01/serial-numbers"
+summary: {t: "This procedure shows where the frame number and the engine number are on the motorcycle. You need these numbers when you order parts.", cite: {p: 17}}
+sections:
+  - steps:
+      - {t: "Find the frame number on the decal and stamped on the frame at the steering head.", cite: {p: 17}, figs: [2]}
+      - {t: "Find the frame number also on the sticker on the front frame tube, next to the radiator.", cite: {p: 17}, figs: [3]}
+      - {t: "Find the engine number stamped on the right crankcase, below the exhaust pipe.", cite: {p: 17}, figs: [4]}
+      - {t: "Record the numbers. Have the numbers available when you order parts.", cite: {p: 17}}
+      - {kind: note, t: "The model code for a 2006 motorcycle is KL650-A20.", cite: {p: 39}}

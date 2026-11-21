@@ -1,0 +1,12 @@
+title: "Battery voltage test, loaded"
+system: "electrical system"
+source: clymer
+chapter: 9
+section: "09/charging-system"
+summary: {t: "This test is for a conventional (original equipment) battery. A load test makes the battery discharge current. It shows if the battery is good enough to operate the motorcycle.", cite: {p: 224}}
+sections:
+  - steps:
+      - {t: "Connect a voltmeter to the negative and positive battery terminals.", cite: {p: 224}, figs: [58]}
+      - {t: "Turn on the headlight to high beam.", cite: {p: 224}}
+      - {t: "Measure the voltage. A battery in good condition has a minimum of 11.5 volts.", cite: {p: 224}}
+      - {t: "If the battery needs a charge or a replacement, do the procedure in Chapter Three.", cite: {p: 224}, op: battery}

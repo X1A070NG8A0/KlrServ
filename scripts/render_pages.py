@@ -16,7 +16,7 @@ TARGET_WIDTH_PX = 1400
 
 
 def main(only: list[str]) -> None:
-    sources = yaml.safe_load((ROOT / "doc" / "sources.yaml").read_text(encoding="utf-8"))
+    sources = yaml.safe_load((ROOT / "data" / "sources.yaml").read_text(encoding="utf-8"))
     for sid, meta in sources.items():
         if only and sid not in only:
             continue

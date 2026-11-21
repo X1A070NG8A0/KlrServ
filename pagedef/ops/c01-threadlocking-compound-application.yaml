@@ -1,0 +1,14 @@
+title: "Threadlocking compound application"
+system: "General information"
+source: clymer
+chapter: 1
+section: "01/shop-supplies"
+summary: {t: "Threadlocking compound is a fluid that sets between the threads of a fastener. It prevents the fastener from working loose.", cite: {p: 22}}
+parts:
+  - {name: "Threadlocking compound", replace: consumable, cite: {p: 22}, note: "Use the type that the manufacturer recommends."}
+sections:
+  - steps:
+      - {t: "Remove any old compound from both thread areas.", cite: {p: 22}}
+      - {t: "Clean the threads with aerosol parts cleaner.", cite: {p: 22}}
+      - {t: "Apply a small quantity of compound to the threads. Excess fluid can run into adjoining parts.", cite: {p: 22}}
+      - {t: "Tighten the fastener.", cite: {p: 22}}

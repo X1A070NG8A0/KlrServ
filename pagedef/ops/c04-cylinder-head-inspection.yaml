@@ -1,0 +1,33 @@
+title: "Cylinder head inspection"
+system: "Engine top end"
+source: clymer
+chapter: 4
+section: "04/cylinder-head"
+summary: {t: "This procedure examines the cylinder head for thread damage, cracks, wear and warp. Each time that you remove the cylinder head, do the solvent test on the valves.", cite: {p: 104}}
+spec_refs: ["top-end:Cylinder head warp limit"]
+parts:
+  - {name: "Cylinder head and camshaft cap set", replace: inspect, cite: {p: 105}, note: "If the camshaft bearing surfaces or the caps have damage, replace the caps and the cylinder head as a set. If the head has cracks and a shop cannot repair it, replace the head and the camshaft cap set."}
+  - {name: "Cylinder fasteners", replace: inspect, cite: {p: 105}, note: "Replace fasteners that are rusted."}
+  - {name: "Cam chain guides", replace: inspect, cite: {p: 105}}
+  - {name: "Antiseize compound", replace: consumable, cite: {p: 105}}
+sections:
+  - steps:
+      - {t: "Do the solvent test on the valves.", cite: {p: 104}, op: c04-valve-solvent-test}
+      - {t: "Examine the threads of the spark plug hole. If the threads are dirty or have minor damage, clean and straighten them with a spark plug thread tap.", cite: {p: 104}}
+      - {t: "Keep the tap lubricated while you clean the threads.", cite: {p: 104}}
+      - {t: "If the threads are galled, stripped or cross-threaded, install a steel thread insert, for example a HeliCoil, in the cylinder head.", cite: {p: 105}}
+      - {kind: note, t: "To decrease thread damage, apply antiseize compound to the spark plug threads before you install the plug. Do not tighten the spark plug too much.", cite: {p: 105}}
+      - {t: "If necessary, clean the complete cylinder head after the thread repair.", cite: {p: 105}}
+      - {t: "Examine the combustion chamber, the water jackets and the exhaust port for cracks or damage.", cite: {p: 105}, figs: [42]}
+      - {t: "Examine the studs for damage or looseness.", cite: {p: 105}, figs: [42]}
+      - {t: "Examine the outside of the cylinder head around the holes for the spark plug and the water temperature sending unit for cracks or damage.", cite: {p: 105}, figs: [43]}
+      - {t: "Examine the camshaft bearing surfaces and the mating caps for scoring or damage. If either part has damage, replace the caps and the cylinder head as a set.", cite: {p: 105}}
+      - {kind: note, t: "The parts are available only as one part number. The caps are machined with the cylinder head. Their dimensions and alignments are unique to that cylinder head.", cite: {p: 105}}
+      - {t: "If the head has cracks, take it to a dealership or machine shop to find if they can repair it. If they cannot, replace the head and the camshaft cap set.", cite: {p: 105}}
+      - {t: "Put a machinist's straightedge across the cylinder head.", cite: {p: 105}, figs: [44]}
+      - {t: "Try to put a flat feeler gauge between the straightedge and the machined surface of the head. If there is clearance, record the maximum measurement.", cite: {p: 105}}
+      - {t: "Do again the two previous steps several times. Put the straightedge across the head and diagonally on the head.", cite: {p: 105}}
+      - {t: "Compare the measurements to the warp limit.", cite: {p: 105}, spec_ref: "top-end:Cylinder head warp limit"}
+      - {t: "If the clearance is more than the limit, take the cylinder head to a dealership or machine shop for more inspection and possible resurfacing.", cite: {p: 105}}
+      - {t: "Examine the front and rear cam chain guides for wear and damage.", cite: {p: 105}, figs: [45]}
+      - {t: "Examine the cylinder fasteners for damaged threads and heads. Replace fasteners that are rusted.", cite: {p: 105}, figs: [46]}

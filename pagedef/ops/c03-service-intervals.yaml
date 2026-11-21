@@ -1,0 +1,22 @@
+# Clymer Chapter Three: pre-ride inspection, break-in, service intervals, fuel and
+# lubricants, timing and compression checks, spark plug selection and reading.
+title: "Tune-up and service intervals"
+system: "lubrication, maintenance and tune-up"
+source: clymer
+chapter: 3
+section: "03/tune-up-and-service-intervals"
+summary: {t: "Table 1 gives the maintenance and lubrication intervals. The intervals are for equal use on and off the road.", cite: {p: 56}}
+sections:
+  - steps:
+      - {t: "If you operate the motorcycle in extreme weather, or in water or sand, do the service procedures more often.", cite: {p: 56}}
+      - {t: "Write down the date of each service in the maintenance log at the end of the manual.", cite: {p: 56}}
+      - {t: "Adjust and lubricate the drive chain every 200 miles (300 km).", cite: {p: 88}, op: drive-chain-adjust-lube}
+      - {t: "Lubricate the steering bearings every 12,000 miles (20,000 km).", cite: {p: 88}, op: steering-bearings}
+      - {t: "Replace the fork oil every 18,000 miles (30,000 km).", cite: {p: 88}, op: fork-oil}
+      - {t: "Replace the coolant every 2 years.", cite: {p: 88}, op: coolant-replace}
+      - {t: "Replace the brake fluid every 2 years.", cite: {p: 88}}
+      - {t: "Replace the fuel hose every 4 years.", cite: {p: 88}}
+      - {t: "Replace the brake hoses every 4 years.", cite: {p: 88}}
+      - {t: "Replace the air filter every 5 cleanings.", cite: {p: 88}, op: air-filter}
+      - {t: "Do the other Table 1 items at the initial 500 miles (800 km) service and at the 3000 miles (5000 km) and 6000 miles (10,000 km) services.", cite: {p: 88},
+         gap: "The text layer of Table 1 does not show which column each item belongs to. The data/schedule.yaml file holds the column assignments. See the page image on p88."}

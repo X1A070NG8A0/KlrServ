@@ -1,0 +1,38 @@
+title: "Valve component inspection"
+system: "Engine top end"
+source: clymer
+chapter: 4
+section: "04/valves"
+summary: {t: "This procedure examines and measures the valves, the valve guides, the valve springs and the valve seats. Do not mix the sets of parts. Work with one set at a time and put each set in its container after the inspection.", cite: {p: 109}}
+spec_refs: ["top-end:Valve head thickness (margin above seat)/Intake", "top-end:Valve head thickness (margin above seat)/Exhaust", "top-end:Valve stem/Intake outside diameter", "top-end:Valve stem/Exhaust outside diameter", "top-end:Valve stem/Runout (total indicator reading)", "top-end:Valve guide inside diameter/Intake and exhaust", "top-end:Valve spring free length/Inner intake and exhaust", "top-end:Valve spring free length/Outer intake and exhaust", "top-end:Valve seat/Width"]
+parts:
+  - {name: "Valve", replace: inspect, cite: {p: 110}, note: "If the valve has damage, replace it."}
+  - {name: "Valve springs", replace: inspect, cite: {p: 111}}
+  - {name: "Valve guide", replace: inspect, cite: {p: 111}, note: "If the valve guide, the valve or the valve seat must be replaced or reconditioned, have a dealership do the work."}
+sections:
+  - steps:
+      - {kind: note, t: "If you must replace or recondition the valves, the valve guides or the valve seats, a dealership must do the work. These parts must be replaced or reconditioned as a set. The work needs special equipment and experience.", cite: {p: 109}}
+      - {t: "Clean the valve assembly in solvent.", cite: {p: 110}}
+      - {kind: caution, t: "Do not damage the valve seating surface. Do not scrape on it. Do not put the valve where it can roll off the work surface.", cite: {p: 110}}
+      - {t: "Examine the top and the perimeter of each valve for burning or other damage on the top and the seating surface. If there is damage, replace the valve.", cite: {p: 110}}
+      - {t: "If the valve head is uniform and has only minor wear, you can lap the valve and use it again. The other valve measurements must be in specification.", cite: {p: 110}, op: c04-valve-lapping}
+      - {t: "Measure the thickness (margin) of the intake valve head. Record the measurement.", cite: {p: 110}, figs: [58], spec_ref: "top-end:Valve head thickness (margin above seat)/Intake"}
+      - {t: "Measure the thickness (margin) of the exhaust valve head. Record the measurement.", cite: {p: 110}, figs: [58], spec_ref: "top-end:Valve head thickness (margin above seat)/Exhaust"}
+      - {t: "Examine the valve stem for wear and scoring. Examine the end of the stem for flare.", cite: {p: 110}}
+      - {t: "Measure the diameter of the intake valve stem. Record the measurement.", cite: {p: 110}, figs: [59], spec_ref: "top-end:Valve stem/Intake outside diameter"}
+      - {t: "Measure the diameter of the exhaust valve stem. Record the measurement.", cite: {p: 110}, figs: [59], spec_ref: "top-end:Valve stem/Exhaust outside diameter"}
+      - {t: "Put the valve in a V-block. Measure the runout with a dial indicator. Record the measurement.", cite: {p: 110}, figs: [60], spec_ref: "top-end:Valve stem/Runout (total indicator reading)"}
+      - {t: "If you have a small hole gauge and a micrometer, clean the valve guides of all carbon and varnish. Use solvent and a stiff narrow brush.", cite: {p: 110}, figs: [61]}
+      - {t: "Measure each valve guide hole at the top, the center and the bottom with the small hole gauge and the micrometer. Record the measurements.", cite: {p: 110}, spec_ref: "top-end:Valve guide inside diameter/Intake and exhaust"}
+      - {t: "If you do not have a small hole gauge and a micrometer, put the correct valve into the guide.", cite: {p: 111}}
+      - {t: "With the valve head off the seat, move the valve stem from side to side in the guide. Move the valve in several directions.", cite: {p: 111}}
+      - {t: "If you can easily detect movement, the valve guide or the valve is worn. Take the valves and the cylinder head to a dealership to have the parts measured accurately.", cite: {p: 111}}
+      - {t: "Examine the inner and outer valve springs for damage.", cite: {p: 111}}
+      - {t: "Measure the free length of the inner valve spring.", cite: {p: 111}, figs: [62], spec_ref: "top-end:Valve spring free length/Inner intake and exhaust"}
+      - {t: "Measure the free length of the outer valve spring.", cite: {p: 111}, figs: [62], spec_ref: "top-end:Valve spring free length/Outer intake and exhaust"}
+      - {t: "Examine the valve spring seat, the spring retainer, the keepers and the valve lifter for wear or damage.", cite: {p: 111}}
+      - {t: "To find if you must recondition the valve seats, clean and dry the valve seat and the valve mating area with contact cleaner.", cite: {p: 111}, figs: [63]}
+      - {t: "Coat the valve seat with machinist's marking fluid.", cite: {p: 111}}
+      - {t: "Put the correct valve into the guide. Tap the valve lightly against the seat so that the fluid transfers to the valve contact area. Do not turn the valve.", cite: {p: 111}}
+      - {t: "Remove the valve from the guide. Measure the width of the imprinted valve seat at several locations.", cite: {p: 111}, figs: [64], spec_ref: "top-end:Valve seat/Width"}
+      - {t: "Clean all marking fluid from the valves and the seats.", cite: {p: 111}}

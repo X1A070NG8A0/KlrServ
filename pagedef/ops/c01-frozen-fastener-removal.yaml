@@ -1,0 +1,17 @@
+title: "Frozen fastener removal"
+system: "General information"
+source: clymer
+chapter: 1
+section: "01/repair-methods"
+summary: {t: "This procedure loosens a fastener that does not turn. Do not apply heat unless the instructions tell you to do so.", cite: {p: 33}}
+parts:
+  - {name: "Penetrating oil", replace: consumable, cite: {p: 33}, note: "For example Liquid Wrench or WD-40."}
+sections:
+  - steps:
+      - {t: "Apply penetrating oil to the fastener. Use a large quantity.", cite: {p: 33}}
+      - {t: "Let the oil penetrate for 10-15 minutes.", cite: {p: 33}}
+      - {t: "Strike the fastener several times with a small hammer. Do not hit it so hard that you cause damage.", cite: {p: 33}}
+      - {t: "If necessary, apply penetrating oil again.", cite: {p: 33}}
+      - {t: "If the fastener is a frozen screw, put a screwdriver in the slot after you apply the oil. Strike the top of the screwdriver with a hammer. This loosens the rust so that you can turn the screw out.", cite: {p: 33}}
+      - {t: "If the screw head is too damaged for this method, grip the head with locking pliers. Twist the screw out.", cite: {p: 33}}
+      - {kind: caution, t: "Do not apply heat to a magnesium alloy case. A flame can ignite the case.", cite: {p: 33}}

@@ -1,0 +1,23 @@
+# Clymer Chapter Three: pre-ride inspection, break-in, service intervals, fuel and
+# lubricants, timing and compression checks, spark plug selection and reading.
+title: "Engine break-in"
+system: "lubrication, maintenance and tune-up"
+source: clymer
+chapter: 3
+section: "03/engine-break-in"
+summary: {t: "Do the break-in procedure after service of the engine bearings, crankshaft, piston, piston rings or cylinder. The break-in period is 1000 miles (1600 km) of engine operation.", cite: {p: 55}}
+sections:
+  - steps:
+      - {t: "Operate the motorcycle on hard ground. Do not operate it in sand, mud or on steep hills. This can overload and overheat the engine.", cite: {p: 56}}
+      - {t: "Change the throttle position often. Do not keep the throttle in one position for a long time.", cite: {p: 56}}
+      - {t: "Make sure that a new spark plug is installed.", cite: {p: 56}}
+      - {t: "Make sure that the air filter is clean and oiled.", cite: {p: 56}}
+      - {t: "Make sure that the engine has the correct quantity and grade of engine oil.", cite: {p: 56}}
+      - {t: "Make sure that the cooling system is full.", cite: {p: 56}}
+      - {t: "Start the engine and let it warm up for at least 2 minutes. Do not race the engine while it warms up.", cite: {p: 56}}
+      - {t: "During the warm-up, make sure that the idle speed is correct and that there are no leaks.", cite: {p: 56}}
+      - {t: "For the first 500 miles (800 km), do not operate the motorcycle at more than 4000 rpm.", cite: {p: 56}}
+      - {t: "During this time, change the engine speed often. Do not lug the engine.", cite: {p: 56}}
+      - {t: "At the end of the first 500 miles (800 km), do the maintenance procedures in Table 1.", cite: {p: 56}, op: c03-service-intervals}
+      - {t: "For the second 500 miles (800 km), do not operate the motorcycle at more than 6000 rpm.", cite: {p: 56}}
+      - {t: "During this time, change the throttle position often. Do not lug the engine.", cite: {p: 56}}

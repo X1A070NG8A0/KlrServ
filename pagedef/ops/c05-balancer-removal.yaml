@@ -1,0 +1,32 @@
+title: "Engine balancer removal"
+system: "Engine lower end"
+source: clymer
+chapter: 5
+section: "05/engine-balancer"
+issue: doohickey
+summary: {t: "This procedure removes the balancer parts from the engine. The balancer chain tensioner lever, which owners call the doohickey, is part of this assembly. To remove the balancer shafts from between the crankcase halves, split the crankcase.", cite: {p: 131}}
+parts:
+  - {name: "Balancer chain tensioner spring", replace: inspect, cite: {p: 134}, note: "Install a new spring when you remove the tensioner assembly, if possible."}
+sections:
+  - title: "Removal"
+    steps:
+      - {kind: note, t: "The balancer parts of 1996-on engines (from engine serial number KL650AE032206) are different from the parts of the earlier engines. The differences do not change how you service the balancer.", cite: {p: 129}, figs: [9]}
+      - {t: "Remove the right crankcase cover.", cite: {p: 131}, ref: "06/right-crankcase-cover"}
+      - {t: "Remove the alternator cover.", cite: {p: 131}, ref: "09/alternator-cover"}
+      - {t: "Flatten the lockwasher so that you can remove the nut from the balancer shaft.", cite: {p: 131}}
+      - {t: "Use the rotor holder tool to hold the rotor. You can brace the tool against the bottom of the left footpeg.", cite: {p: 131}}
+      - {t: "Remove the nut and the lockwasher that hold the right balancer weight.", cite: {p: 131}, figs: [10]}
+      - {t: "Remove the weight and the spacer from the shaft.", cite: {p: 131}}
+      - {t: "Remove the left crankcase cover, the tensioner bolt and the shaft lever.", cite: {p: 131}, op: c05-left-crankcase-cover}
+      - {t: "Remove the balancer chain tensioner spring.", cite: {p: 131}, figs: [11], op: balancer-chain-tensioner}
+      - {t: "If you will use the spring again, do not score, scratch or bend the spring ends. The spring can break.", cite: {p: 131}}
+      - {t: "Turn the spring lever counterclockwise to release the tension on the chain.", cite: {p: 131}}
+      - {t: "Pull the tensioner shaft assembly from the crankcase. Keep the opposite end of the shaft tilted up so that the spacer behind the sprocket does not fall.", cite: {p: 131}, figs: [12]}
+      - {kind: caution, t: "If the spacer falls, it can roll into the crankcase opening under the tensioner shaft bore. If this occurs, use a magnetic tool or a wire to get the part.", cite: {p: 131}}
+      - {t: "Remove the snap ring from the left end of the front balancer shaft.", cite: {p: 131}, figs: [13]}
+      - {t: "Remove the weight and sprocket and the spacer from the front balancer shaft.", cite: {p: 131}}
+      - {t: "Remove the five bolts that hold the lower cam chain guide and the balancer chain guides.", cite: {p: 132}, figs: [14]}
+      - {t: "Remove the cam chain.", cite: {p: 132}, figs: [15]}
+      - {t: "Remove the snap ring, the washers, the rear balancer sprocket and the balancer chain.", cite: {p: 132}, figs: [15]}
+      - {t: "To remove the balancer shafts that are between the crankcase halves, split the crankcase.", cite: {p: 132}, figs: [16], op: c05-crankcase-disassembly}
+      - {t: "Examine the balancer assembly.", cite: {p: 133}, op: c05-balancer-inspection}

@@ -1,0 +1,17 @@
+title: "Seat removal and installation"
+system: "body"
+source: clymer
+chapter: 15
+section: "15/seat"
+summary: {t: "This procedure removes and installs the seat. The seat engages the fuel tank at the front.", cite: {p: 328}}
+sections:
+  - title: "Removal"
+    steps:
+      - {t: "Remove the side covers.", cite: {p: 328}, op: c15-side-covers}
+      - {t: "Remove the bolt from each side of the seat.", cite: {p: 328}, figs: [2]}
+      - {t: "Hold the front and rear of the seat.", cite: {p: 328}}
+      - {t: "Pull the seat toward the rear to release it from the fuel tank.", cite: {p: 328}, figs: [3]}
+  - title: "Installation"
+    steps:
+      - {t: "Install the seat in the reverse order of removal.", cite: {p: 328}}
+      - {t: "Make sure that the seat is tight at the front.", cite: {p: 328}}

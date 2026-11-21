@@ -7,13 +7,14 @@ numbers, so detection is image based:
 1. Render the page in grayscale and mark "ink" pixels (darker than paper).
 2. Close small gaps and label connected regions. Body text forms regions too,
    so keep only large regions that are wide, tall and densely inked.
-3. OCR the top-left corner of each region (digits only) to read the circled
-   figure number.
+3. Crop each region. The figure number is not read here. OCR of the corner
+   (read_number) is not reliable on these scans, so the numbers are read by
+   eye (scripts/figure_contact_sheet.py and scripts/figure_review.py) and
+   kept in data/figures/labels*.yaml.
 
-Output: doc/figures/clymer/p{page}-f{figure}.jpg plus doc/figures/clymer/index.yaml
-listing page, figure number (null if unread), bbox in PDF points and file.
-Figures whose number cannot be read are kept as p{page}-r{k}.jpg so nothing
-is silently dropped; the index marks them `figure: null` for manual review.
+Output: the crops in static/figures/clymer/p{page}-r{k}.jpg, which the site
+serves at /figures/clymer/, plus doc/figures/clymer/index.yaml, which lists
+the page, `figure: null`, the bbox in PDF points and the file of each region.
 
 Usage: .venv/Scripts/python.exe -I scripts/extract_figures.py [first_page last_page]
 """
@@ -30,8 +31,9 @@ from PIL import Image
 from scipy import ndimage
 
 ROOT = Path(__file__).resolve().parent.parent
-SRC = yaml.safe_load((ROOT / "doc" / "sources.yaml").read_text(encoding="utf-8"))["clymer"]
-OUT = ROOT / "doc" / "figures" / "clymer"
+SRC = yaml.safe_load((ROOT / "data" / "sources.yaml").read_text(encoding="utf-8"))["clymer"]
+OUT = ROOT / "doc" / "figures" / "clymer"  # index.yaml
+CROPS = ROOT / "static" / "figures" / "clymer"
 TESSERACT = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 DPI = 150
 
@@ -76,6 +78,7 @@ def read_number(img: Image.Image) -> int | None:
 
 def main(first: int, last: int) -> None:
     OUT.mkdir(parents=True, exist_ok=True)
+    CROPS.mkdir(parents=True, exist_ok=True)
     index_path = OUT / "index.yaml"
     index = yaml.safe_load(index_path.read_text(encoding="utf-8")) if index_path.exists() else []
     index = [e for e in index if not (first <= e["page"] <= last)]
@@ -85,18 +88,17 @@ def main(first: int, last: int) -> None:
         page = doc[pno - 1]
         pix = page.get_pixmap(dpi=DPI, colorspace=pymupdf.csGRAY)
         gray = np.frombuffer(pix.samples, dtype=np.uint8).reshape(pix.height, pix.width)
-        color = Image.frombytes("RGB", (page.get_pixmap(dpi=DPI).width, page.get_pixmap(dpi=DPI).height), page.get_pixmap(dpi=DPI).samples)
+        cpix = page.get_pixmap(dpi=DPI)
+        color = Image.frombytes("RGB", (cpix.width, cpix.height), cpix.samples)
         for k, (x0, y0, x1, y1) in enumerate(find_regions(gray)):
-            crop = color.crop((x0, y0, x1, y1))
-            num = None  # numbers are assigned by scripts/label_figures.py
-            name = f"p{pno:03d}-f{num}.jpg" if num is not None else f"p{pno:03d}-r{k}.jpg"
-            crop.save(OUT / name, quality=82)
+            name = f"p{pno:03d}-r{k}.jpg"
+            color.crop((x0, y0, x1, y1)).save(CROPS / name, quality=82)
             index.append(
                 {
                     "page": pno,
-                    "figure": num,
+                    "figure": None,  # read by eye into data/figures/labels*.yaml
                     "bbox_pt": [round(x0 * scale, 1), round(y0 * scale, 1), round(x1 * scale, 1), round(y1 * scale, 1)],
-                    "file": f"doc/figures/clymer/{name}",
+                    "file": f"static/figures/clymer/{name}",
                 }
             )
     index.sort(key=lambda e: (e["page"], e["bbox_pt"][1]))

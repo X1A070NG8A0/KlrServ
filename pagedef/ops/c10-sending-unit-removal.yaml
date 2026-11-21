@@ -1,0 +1,17 @@
+title: "Water temperature sending unit removal and installation"
+system: "Cooling system"
+source: clymer
+chapter: 10
+section: "10/water-temperature-sending-unit"
+summary: {t: "This procedure removes the water temperature sending unit from the top of the cylinder head and installs it again.", cite: {p: 238}}
+spec_refs: ["cooling-torque:Water temperature sending unit"]
+parts:
+  - {name: "Waterproof sealant", replace: consumable, cite: {p: 238}}
+sections:
+  - steps:
+      - {t: "Remove the wire from the sending unit connector.", cite: {p: 238}, figs: [9]}
+      - {t: "Remove the sending unit from the cylinder head.", cite: {p: 238}}
+      - {t: "Clean the sending unit and the threads in the cylinder head.", cite: {p: 238}}
+      - {t: "To test the sending unit, do the test procedure in Chapter Nine.", cite: {p: 238}, ref: "09/water-temperature-gauge-and-sending-unit"}
+      - {t: "Apply waterproof sealant to the threads of the sending unit.", cite: {p: 238}}
+      - {t: "Tighten the sending unit to the specified torque.", cite: {p: 238}, spec_ref: "cooling-torque:Water temperature sending unit"}

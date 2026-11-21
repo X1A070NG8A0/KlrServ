@@ -1,0 +1,29 @@
+title: "Cylinder inspection"
+system: "Engine top end"
+source: clymer
+chapter: 4
+section: "04/cylinder"
+summary: {t: "This procedure examines the cylinder for damage and measures the bore for wear. If the bore is not in the service limit, a dealership or machine shop must rebore and hone the cylinder.", cite: {p: 115}}
+spec_refs: ["top-end:Cylinder/Inside diameter"]
+parts:
+  - {name: "Cylinder", replace: inspect, cite: {p: 115}, note: "If the bore is damaged or out of limit, rebore the cylinder. If the wear is more than the largest replacement piston size, replace the cylinder liner. Use a standard piston and ring set."}
+sections:
+  - steps:
+      - {t: "Remove all gasket residue from the top and bottom surfaces of the cylinder block.", cite: {p: 114}}
+      - {t: "Wash the cylinder in solvent. Dry it with compressed air.", cite: {p: 114}}
+      - {t: "Examine the cylinder bore for scoring or gouges. If there is damage, overbore the cylinder.", cite: {p: 115}, figs: [76]}
+      - {t: "Examine the water jackets for deposits.", cite: {p: 115}}
+      - {t: "Examine all threads for condition and cleanliness.", cite: {p: 115}}
+      - {t: "Measure the inside diameter of the cylinder with a bore gauge or an inside micrometer at three points along the bore axis.", cite: {p: 115}, figs: [77], spec_ref: "top-end:Cylinder/Inside diameter"}
+      - {t: "At each point, measure the cylinder front to back (measurement X) and side to side (measurement Y). Record the measurements for each location.", cite: {p: 115}, figs: [77]}
+      - {t: "Compare the largest X or Y measurement to the specification and the service limit.", cite: {p: 115}, spec_ref: "top-end:Cylinder/Inside diameter"}
+      - {t: "If the bore is not in the service limit, rebore and hone the cylinder. The diameter of the rebored cylinder must not change more than 0.01 mm (0.0004 in.) at any point.", cite: {p: 115}}
+      - {kind: note, t: "Oversize pistons and ring sets are available in 0.5 mm (0.020 in.) and 1.0 mm (0.040 in.). The new service limit for the cylinder is 0.1 mm (0.004 in.) more than the actual diameter of the cylinder after boring. The new service limit for the piston is 0.15 mm (0.006 in.) less than the actual diameter of the piston. If the wear is more than the replacement piston sizes, replace the cylinder liner. Use a standard piston and ring set.", cite: {p: 115}}
+      - {t: "If the cylinder needs boring, take it to a dealership or machine shop. If you will overbore the cylinder for the next size piston and rings, take the new piston to the shop. The shop can then bore and hone the cylinder to the actual piston size.", cite: {p: 115}}
+      - {t: "If the cylinder is in all service limits and you will install a new piston and rings, deglaze the cylinder. Use a 240-grit hone if possible.", cite: {p: 115}, figs: [78]}
+      - {kind: note, t: "Cylinder glaze is a hard shiny surface. After deglazing, the crosshatch pattern in the cylinder gives a uniform surface that holds oil and mates with the rings.", cite: {p: 115}, figs: [79]}
+      - {t: "After the inspection and service, wash and scrub the cylinder in hot soapy water. This removes fine grit and residue from the machine operations.", cite: {p: 116}}
+      - {kind: caution, t: "Do not use solvent to wash the cylinder at this step. Solvents do not remove the fine grit. The grit causes early wear of the rings and the cylinder.", cite: {p: 116}}
+      - {t: "Rub a clean white cloth over the bore. Make sure that no residue is on the cloth.", cite: {p: 116}}
+      - {t: "When the cylinder is clean and dry, immediately coat the bore with oil to prevent corrosion. Wrap the cylinder until you assemble the engine.", cite: {p: 116}}
+      - {t: "Do all service on the piston assembly before you install the cylinder.", cite: {p: 116}, op: c04-piston-inspection}

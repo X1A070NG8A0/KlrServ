@@ -1,0 +1,24 @@
+title: "Wheel truing"
+system: "Wheels, tires and drive chain"
+source: clymer
+chapter: 11
+section: "11/rim-and-spoke-service"
+summary: {t: "Wheel truing changes the spoke tension, aligns the rim and the hub, and makes them concentric. You can true a wheel on or off the motorcycle.", cite: {p: 252}}
+spec_refs: ["wheels:Wheel rim runout (radial and lateral)", "wheel-drive-torque:Spokes"]
+sections:
+  - title: "Runout measurement"
+    steps:
+      - {t: "Examine the wheel bearings. Accurate truing is not possible with worn bearings.", cite: {p: 252}, op: c11-hub-bearing-inspection}
+      - {t: "Measure the runout with a wheel truing stand. Compare the value with the specification.", cite: {p: 253}, figs: [34], spec_ref: "wheels:Wheel rim runout (radial and lateral)"}
+      - {t: "If the runout is small, you can leave the wheel on the motorcycle. Raise the wheel so that it is level and turns freely.", cite: {p: 253}}
+      - {t: "Hold a pointer firmly against the fork or the swing arm. Turn the wheel. Move the pointer toward and away from the rim until you find the maximum runout.", cite: {p: 253}}
+      - {t: "Measure the gap from the rim to the pointer. For a more accurate measurement, install a dial indicator in the positions that the figure shows.", cite: {p: 253}, figs: [35]}
+      - {t: "If the wheel needs major truing, remove the tire and the tube. Install the rim on a truing stand. Measure the runout in both directions.", cite: {p: 253}, figs: [36]}
+  - title: "Lateral runout"
+    steps:
+      - {t: "To move the rim to the left or the right of the hub, loosen and tighten spokes as the figure shows. The rim moves in the direction of the tightened spokes.", cite: {p: 253}, figs: [37]}
+      - {kind: note, t: "Always loosen and tighten spokes equally. Loosen a minimum of three spokes. Then tighten the opposite three spokes. If the runout is over a large area, loosen and tighten more spokes.", cite: {p: 253}}
+  - title: "Radial runout"
+    steps:
+      - {t: "To make the rim concentric with the hub, loosen and tighten spokes as the figure shows. The rim moves in the direction of the tightened spokes.", cite: {p: 253}, figs: [38]}
+      - {kind: note, t: "Always loosen and tighten spokes equally. Loosen a minimum of three spokes. Then tighten the opposite three spokes. If the runout is over a large area, loosen and tighten more spokes.", cite: {p: 254}}

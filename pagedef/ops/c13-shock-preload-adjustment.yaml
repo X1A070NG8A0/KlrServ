@@ -1,0 +1,14 @@
+title: "Shock spring preload adjustment"
+system: "Rear suspension"
+source: clymer
+chapter: 13
+section: "13/shock-absorber-adjustment"
+summary: {t: "Spring preload changes the handling and the ride quality. Adjust it to the load on the motorcycle. You can adjust it with the shock absorber on the motorcycle.", cite: {p: 294}}
+spec_refs: ["shock-settings:Spring preload/Rider only", "shock-settings:Spring preload/Rider and passenger", "shock-settings:Spring preload/Rider, passenger and load"]
+sections:
+  - steps:
+      - {t: "Find the recommended setting for your load. A higher setting increases the preload.", cite: {p: 294}, spec_ref: "shock-settings:Spring preload/Rider only"}
+      - {t: "Remove the left side cover.", cite: {p: 295}, ref: "15/side-covers"}
+      - {t: "On California models, remove the liquid/vapor separator.", cite: {p: 295}}
+      - {t: "Turn the adjuster near the top of the shock absorber to the numerical setting.", cite: {p: 295}, figs: [57]}
+      - {t: "Install the removed parts.", cite: {p: 295}}

@@ -1,0 +1,22 @@
+title: "Bearing removal"
+system: "General information"
+source: clymer
+chapter: 1
+section: "01/repair-methods"
+summary: {t: "A bad removal method damages the bearing and can damage the shaft or the case half. The best method uses a hydraulic press.", cite: {p: 35}}
+parts:
+  - {name: "Bearing", replace: inspect, cite: {p: 34}, note: "If a bearing is damaged, replace it immediately."}
+sections:
+  - title: "Puller"
+    steps:
+      - {t: "Put a piece of metal between the end of the shaft and the puller screw.", cite: {p: 35}}
+      - {t: "Put the puller arms next to the inner bearing race.", cite: {p: 35}}
+  - title: "Hammer"
+    steps:
+      - {t: "Do not strike the shaft directly with the hammer. Put a brass or aluminum rod between the hammer and the shaft.", cite: {p: 35}}
+      - {t: "Support both bearing races with wooden blocks.", cite: {p: 35}}
+  - title: "Hydraulic press"
+    steps:
+      - {t: "Support the inner and outer bearing races with a wooden or aluminum ring of the correct size. If you support only the outer race, the pressure damages the balls and the inner race.", cite: {p: 35}}
+      - {t: "Make sure that the press arm aligns with the center of the shaft. If it does not, it can damage the bearing or the shaft.", cite: {p: 35}}
+      - {t: "Secure or hold the shaft. It drops when it is free of the bearing.", cite: {p: 35}}

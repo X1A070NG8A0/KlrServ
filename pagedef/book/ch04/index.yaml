@@ -1,0 +1,65 @@
+title: "Chapter 4: Engine Top End"
+pages:
+  - id: shop-cleanliness
+    title: "Shop cleanliness"
+    kind: Section
+    pdf_pages: [91, 91]
+    summary:
+      - {t: "This chapter gives the procedures to remove, examine and replace the parts of the engine top end. These are the exhaust system, the cylinder head, the camshafts, the valves, the cylinder and the piston. You can do all of this work with the engine in the frame.", cite: {p: 91}}
+      - {t: "Clean the engine before you start. Keep the work area clean and do not let dirt get into the engine. Keep parts in marked plastic bags or containers.", cite: {p: 91}}
+    ops: []
+  - id: exhaust-system
+    title: "Exhaust system"
+    kind: Section
+    pdf_pages: [91, 92]
+    summary:
+      - {t: "The exhaust system has a muffler and an exhaust pipe. Do not remove them when the engine is hot.", cite: {p: 91}}
+    ops: [c04-exhaust-system]
+  - id: cylinder-head-cover
+    title: "Cylinder head cover"
+    kind: Section
+    pdf_pages: [92, 95]
+    summary:
+      - {t: "The cylinder head cover comes off to the left side of the engine. You must remove the fuel tank, the radiator covers and the fan first.", cite: {p: 92}}
+      - {t: "On 1996-on models the cover must also pass over the upper chain guide.", cite: {p: 94}}
+    ops: [c04-cylinder-head-cover]
+  - id: camshafts-and-cam-chain-tensioner
+    title: "Camshafts and cam chain tensioner"
+    kind: Section
+    pdf_pages: [95, 103]
+    summary:
+      - {t: "You can remove the camshafts and the cam chain tensioner with the engine in the frame. When you measure the valve clearance, remove the camshafts only if the clearance is not correct.", cite: {p: 95}}
+      - {t: "The cam chain tensioner is self-adjusting. You must reset it each time that you loosen or remove it.", cite: {p: 100}}
+    ops: [c04-camshaft-removal, c04-camshaft-installation, c04-cam-chain-tensioner-inspection, c04-camshaft-inspection, c04-camshaft-cap-inspection, c04-camshaft-oil-clearance]
+  - id: cylinder-head
+    title: "Cylinder head"
+    kind: Section
+    pdf_pages: [103, 108]
+    summary:
+      - {t: "You can remove the cylinder head with the engine in the frame. The head comes out of the left side of the engine.", cite: {p: 103}}
+      - {t: "Tighten the cylinder head bolts and nuts in the sequence and in the stages that the book gives. After you start the engine and it cools completely, tighten the nuts and the 8 mm bolt again.", cite: {p: 107}}
+    ops: [c04-cylinder-head-removal, c04-cylinder-head-inspection, c04-cylinder-head-installation]
+  - id: valves
+    title: "Valves"
+    kind: Section
+    pdf_pages: [108, 113]
+    summary:
+      - {t: "The valve procedures start with a solvent test. The test shows if the valves seat fully. Do the test each time that you remove the cylinder head.", cite: {p: 108}}
+      - {t: "A dealership must do the replacement or reconditioning of valves, valve guides and valve seats.", cite: {p: 109}}
+    ops: [c04-valve-solvent-test, c04-valve-removal, c04-valve-inspection, c04-valve-installation, c04-valve-lapping]
+  - id: cylinder
+    title: "Cylinder"
+    kind: Section
+    pdf_pages: [113, 117]
+    summary:
+      - {t: "You can remove the cylinder and the piston with the engine in the frame. Read all the procedures fully before you start.", cite: {p: 113}}
+      - {t: "If the cylinder bore is not in the service limit, a dealership or machine shop must rebore and hone it. Wash the cylinder in hot soapy water after the machine work.", cite: {p: 115}}
+    ops: [c04-cylinder-removal, c04-cylinder-inspection, c04-cylinder-installation]
+  - id: piston-and-piston-rings
+    title: "Piston and piston rings"
+    kind: Section
+    pdf_pages: [117, 122]
+    summary:
+      - {t: "The piston is aluminum alloy and has three rings. A chrome-plated steel piston pin and circlips hold it on the connecting rod.", cite: {p: 117}}
+      - {t: "Record and identify all measurements for each component. Use new circlips each time that you install the piston.", cite: {p: 117}}
+    ops: [c04-piston-removal, c04-piston-inspection, c04-piston-ring-inspection, c04-piston-ring-installation, c04-piston-installation]

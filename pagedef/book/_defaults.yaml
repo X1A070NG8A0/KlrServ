@@ -1,0 +1,4 @@
+# Each chNN/index.yaml file is one chapter of the Clymer manual. Each
+# section is a child page.
+template: chapter
+kind: Chapter

@@ -1,0 +1,39 @@
+title: "Thermostat removal, inspection and installation"
+system: "Cooling system"
+source: clymer
+chapter: 10
+section: "10/thermostat"
+summary: {t: "This procedure removes the thermostat, examines it, tests it in hot water and installs it again. The thermostat is in a housing on the right side of the cylinder head.", cite: {p: 237}}
+spec_refs: ["cooling:Thermostat valve opening temperature", "cooling:Thermostat minimum full open lift"]
+parts:
+  - {name: "Thermostat", replace: inspect, cite: {p: 238}, note: "Replace the thermostat if it does not pass the test."}
+  - {name: "Thermostat gasket", replace: inspect, cite: {p: 237}}
+sections:
+  - title: "Removal"
+    steps:
+      - {t: "Drain the cooling system.", cite: {p: 237}, op: coolant-replace}
+      - {t: "Remove the three bolts that hold the thermostat housing to the cylinder head.", cite: {p: 237}, figs: [5]}
+      - {t: "Remove the thermostat.", cite: {p: 237}, figs: [6]}
+  - title: "Inspection"
+    steps:
+      - {t: "Examine the valve in the thermostat. The valve must be closed when the thermostat is cold.", cite: {p: 237}}
+      - {t: "If the valve is cold and open, replace the thermostat.", cite: {p: 237}}
+      - {t: "Wash the thermostat in cool water.", cite: {p: 237}}
+      - {t: "If necessary, use a soft brush to remove the accumulation from the thermostat.", cite: {p: 237}}
+      - {t: "If you see rubber particles, examine the inside of the radiator hoses for deterioration.", cite: {p: 237}}
+      - {t: "Examine the thermostat gasket.", cite: {p: 237}}
+      - {t: "If you want to flush the cylinder head and cylinder, open the drain bolt at the water pump.", cite: {p: 237}}
+      - {t: "Clean the bolts and the threaded bores.", cite: {p: 237}}
+  - title: "Test"
+    steps:
+      - {t: "Hang the thermostat and an accurate thermometer in a container of water. Do not let the parts touch the bottom or the side of the container.", cite: {p: 237}, figs: [7]}
+      - {t: "Heat the water slowly and watch the thermostat valve.", cite: {p: 237}}
+      - {t: "When the thermostat starts to open, read the temperature on the thermometer. The valve must open in the specified temperature range.", cite: {p: 238}, spec_ref: "cooling:Thermostat valve opening temperature"}
+      - {t: "Continue to heat the water to the temperature for full lift. At this temperature, the valve must have the specified lift or more.", cite: {p: 238}, spec_ref: "cooling:Thermostat minimum full open lift"}
+      - {t: "If the thermostat does not pass the tests, replace it.", cite: {p: 238}}
+  - title: "Installation"
+    steps:
+      - {t: "Install the thermostat with the air bleed hole at the top of the opening.", cite: {p: 238}, figs: [8]}
+      - {t: "Seat the gasket in the bore.", cite: {p: 238}}
+      - {t: "Align the housing and seat it. Install the bolts.", cite: {p: 238}}
+      - {t: "Fill the cooling system and remove the air from it.", cite: {p: 238}, op: coolant-replace}

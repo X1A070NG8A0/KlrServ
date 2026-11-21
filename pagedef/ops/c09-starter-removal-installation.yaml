@@ -1,0 +1,25 @@
+title: "Starter removal and installation"
+system: "electrical system"
+source: clymer
+chapter: 9
+section: "09/starter"
+summary: {t: "The O-ring on the starter seals it to the left crankcase cover. The O-ring causes resistance when you remove the starter.", cite: {p: 209}}
+spec_refs: ["electrical-torque:Starter motor mounting bolts"]
+parts:
+  - {name: "Starter O-ring", replace: inspect, cite: {p: 209}}
+  - {name: "Fiber washers on the cable post", replace: inspect, cite: {p: 209}, note: "The washers must insulate the cable from the housing."}
+  - {name: "Dielectric grease", replace: consumable, cite: {p: 209}}
+sections:
+  - title: "Removal"
+    steps:
+      - {t: "Remove the exhaust pipe.", cite: {p: 209}, ref: "04/exhaust-system", figs: [22]}
+      - {t: "Disconnect the ground (negative) cable from the battery and from the starter.", cite: {p: 209}, figs: [23]}
+      - {t: "Disconnect the positive cable from the starter.", cite: {p: 209}, figs: [23]}
+      - {t: "Remove the remaining mounting bolt.", cite: {p: 209}}
+      - {t: "Twist the starter out of the left crankcase cover.", cite: {p: 209}, ref: "05/left-crankcase-cover"}
+  - title: "Installation"
+    steps:
+      - {t: "Lubricate the O-ring on the front end cover before you put it in the crankcase cover.", cite: {p: 209}, figs: [24]}
+      - {t: "Make sure that the fiber washers on the cable post are in good condition. They must insulate the cable from the housing.", cite: {p: 209}, figs: [24]}
+      - {t: "Clean all cable connections. Apply dielectric grease to the fittings and connectors before you tighten them.", cite: {p: 209}}
+      - {t: "Tighten the starter mounting bolts to the specified torque.", cite: {p: 209}, spec_ref: "electrical-torque:Starter motor mounting bolts"}

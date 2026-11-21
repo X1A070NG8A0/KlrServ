@@ -1,0 +1,24 @@
+title: "Engine leakdown test"
+system: "troubleshooting"
+source: clymer
+chapter: 2
+section: "02/engine-leakdown-test"
+summary: {t: "A leakdown tester shows the condition of the piston rings and the valves. With all valves closed, you screw the tester into the spark plug hole and apply air pressure to the combustion chamber. The gauge shows the rate of leakage. You need an air compressor.", cite: {p: 50}}
+sections:
+  - steps:
+      - {t: "Start the engine and let it become warm.", cite: {p: 50}}
+      - {t: "Stop the engine.", cite: {p: 50}}
+      - {t: "Remove the carburetor.", cite: {p: 50}, op: "c08-carburetor-removal"}
+      - {t: "Remove the exhaust pipe.", cite: {p: 50}, op: "c04-exhaust-system"}
+      - {t: "Remove the spark plug.", cite: {p: 50}, op: "spark-plug"}
+      - {t: "Set the piston to TDC on the compression stroke.", cite: {p: 50}, ref: "03/engine-tune-up"}
+      - {t: "Install the leakdown tester. Follow the instructions of the manufacturer.", cite: {p: 50}, ref: "02/leak-down-tester"}
+      - {t: "Make sure that the tester does not leak around the spark plug threads.", cite: {p: 50}}
+      - {t: "Apply pressure to the cylinder. Follow the instructions of the manufacturer for the tester.", cite: {p: 50}}
+      - {t: "Make sure that the engine stays at TDC while the cylinder has pressure. If necessary, put the transmission in gear.", cite: {p: 50}}
+      - {t: "Listen for air leakage at the exhaust port. If air leaks there, the exhaust valves leak.", cite: {p: 50}, op: "c04-valve-inspection"}
+      - {t: "Listen for air leakage at the intake port. If air leaks there, the intake valves leak.", cite: {p: 50}, op: "c04-valve-inspection"}
+      - {t: "Listen for air leakage at the crankcase breather tube. If air leaks there, the piston rings leak.", cite: {p: 51}, op: "c04-piston-ring-inspection"}
+      - {t: "Read the leakdown value on the gauge.", cite: {p: 51}}
+      - {t: "A cylinder with a leakdown of 5 percent or less is ideal.", cite: {p: 51}}
+      - {t: "If a cylinder has more than 10 percent leakage, examine the parts to find if normal wear or damage causes the leakage. The condition of the parts shows the action to take.", cite: {p: 51}, op: "c04-cylinder-inspection"}

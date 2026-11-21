@@ -1,0 +1,36 @@
+title: "Crankcase inspection"
+system: "Engine lower end"
+source: clymer
+chapter: 5
+section: "05/crankcase"
+summary: {t: "This procedure shows how to clean and examine the crankcase halves, the bearings and the threaded holes, and how to install the parts that you removed from the cases.", cite: {p: 142}}
+spec_refs: ["lower-end-torque:Neutral switch"]
+parts:
+  - {name: "Oil pickup tube O-ring", replace: always, cite: {p: 143}}
+  - {name: "Neutral switch seal washer", replace: always, cite: {p: 143}}
+  - {name: "Crankcase bearings", replace: inspect, cite: {p: 142}, note: "Replace a bearing that is rough, pitted, galled, has play, or is loose in its bore. Always replace the opposing bearing at the same time."}
+  - {name: "Threadlocking compound", replace: consumable, cite: {p: 143}}
+sections:
+  - title: "Cleaning and inspection"
+    steps:
+      - {t: "In the left crankcase, remove the oil seals from the output shaft bearing and the shift shaft bore.", cite: {p: 142}, figs: [51], op: c05-seal-replacement}
+      - {t: "Remove the neutral switch.", cite: {p: 142}, figs: [51]}
+      - {t: "In the right crankcase, remove the oil pickup tube and the breather tube.", cite: {p: 142}, figs: [52]}
+      - {t: "Do not remove the plugs from the oil passages. The plugs must stay seated in the case.", cite: {p: 142}, figs: [53]}
+      - {t: "Remove all sealant from the gasket surfaces. Do not gouge or scratch the surfaces.", cite: {p: 142}}
+      - {t: "Clean the crankcase halves with solvent. Flush all bearings last with clean solvent.", cite: {p: 142}}
+      - {t: "Dry the cases with compressed air.", cite: {p: 142}}
+      - {kind: warning, t: "When you dry the bearings with compressed air, do not spin them at high speed. The bearings are not lubricated and can be damaged.", cite: {p: 142}}
+      - {t: "Flush all passages with compressed air.", cite: {p: 142}}
+      - {t: "Put oil on the engine bearings before you examine them.", cite: {p: 142}}
+      - {t: "Examine the bearings for roughness, pitting, galling and play.", cite: {p: 142}}
+      - {t: "If a bearing is not in good condition or is loose in the crankcase bore, replace it. Always replace the opposing bearing at the same time.", cite: {p: 142}, op: c05-crankcase-bearing-replacement}
+      - {t: "Examine the cases for fractures around all the mounting and bearing bosses, the stiffening ribs and the threaded holes.", cite: {p: 143}}
+      - {t: "If a case needs repair, take it to a dealer or a machine shop that repairs precision aluminum castings.", cite: {p: 143}}
+      - {t: "Examine all threaded holes for damage or sealant. Clean the threads with the correct size metric tap. Lubricate the tap with oil or aluminum tap fluid.", cite: {p: 143}}
+  - title: "Installation of the parts"
+    steps:
+      - {t: "After you replace the seals and bearings, install the oil pickup tube with a new O-ring on the tube.", cite: {p: 143}}
+      - {t: "Apply threadlocking compound to the threads of the bolt before you install it.", cite: {p: 143}}
+      - {t: "Install the breather tube.", cite: {p: 143}}
+      - {t: "Install a new seal washer on the neutral switch. Install the switch and tighten it to the specified torque.", cite: {p: 143}, spec_ref: "lower-end-torque:Neutral switch"}

@@ -1,0 +1,153 @@
+title: "Chapter 1: General Information"
+pages:
+  - id: introduction
+    title: "Introduction"
+    kind: Section
+    pdf_pages: [13, 13]
+    summary:
+      - {t: "The Clymer manual covers the 1987-2006 Kawasaki KLR650. It gives maintenance, tune-up, repair and overhaul procedures in step-by-step form.", cite: {p: 13}}
+      - {t: "Chapter One gives general information on shop safety, tools and their use, service fundamentals and shop supplies.", cite: {p: 13}}
+      - {t: "Chapter Two gives methods to find the cause of a problem. Chapter Three gives the routine maintenance and the tune-up procedures.", cite: {p: 13}, ref: "03/introduction"}
+  - id: manual-organization
+    title: "Manual organization"
+    kind: Section
+    pdf_pages: [13, 13]
+    summary:
+      - {t: "The tables at the end of each chapter give specifications and capacities in U.S. standard and metric units. The most used values are also in the Quick Reference Data section at the front of the manual.", cite: {p: 13}}
+      - {t: "A step can name a heading in another chapter or section. If a sub-heading is in this section, it is in the same main heading.", cite: {p: 13}}
+      - {t: "The tables at the end of Chapter One are: Table 1, year and model code numbers. Table 2, general dimensions and weight. Table 3, technical abbreviations. Table 4, general torque specifications. Table 5, conversion formulas. Table 6, metric tap and drill sizes. Table 7, decimal and metric equivalents.", cite: {p: 13}}
+  - id: warnings-cautions-and-notes
+    title: "Warnings, cautions and notes"
+    kind: Section
+    pdf_pages: [14, 14]
+    summary:
+      - {t: "A warning shows where injury or death can result from negligence. Mechanical damage can also occur.", cite: {p: 14}}
+      - {t: "A caution shows where equipment damage can result. Permanent mechanical damage can occur, but injury is unlikely.", cite: {p: 14}}
+      - {t: "A note gives more information to make a step or procedure easier or clearer. If you ignore a note, you can have inconvenience but no damage or injury.", cite: {p: 14}}
+  - id: safety
+    title: "Safety"
+    kind: Section
+    pdf_pages: [14, 15]
+    summary:
+      - {t: "Do not operate the motorcycle in an enclosed area. The exhaust gases contain carbon monoxide, a poisonous gas with no odor, color or taste. Ventilate the work area or work outside.", cite: {p: 14}}
+      - {t: "Never use gasoline or a very flammable liquid to clean parts. Never smoke or use a torch near flammable liquids. If you weld or braze on the motorcycle, move the fuel tank a safe distance from the work area.", cite: {p: 14}}
+      - {t: "Use tools of the correct type and size. Keep tools clean. Replace or repair worn or damaged tools. When you replace a fastener, use one of the same size and strength as the original.", cite: {p: 14}}
+      - {t: "Wear eye protection when an eye injury is possible, for example when you drill, grind, hammer or use compressed air or chemicals. Tie up or cover long hair. Do not carry sharp tools in your pockets.", cite: {p: 15}}
+      - {t: "Keep an approved fire extinguisher available. It must be rated for gasoline (Class B) and electrical (Class C) fires.", cite: {p: 15}}
+      - {t: "Do not use compressed air to clean clothes, the motorcycle or the work area. Never direct compressed air at a person. To dry a rotating part with compressed air, hold the part so that it cannot turn.", cite: {p: 15}}
+      - {t: "Do not breathe the dust from brake pads and clutch wear. It can contain asbestos. When you put the motorcycle on a stand, make sure that it is secure.", cite: {p: 15}}
+      - {t: "For fuel system work, turn the fuel valve off. Never work on a hot engine. Wipe up fuel and solvent spills immediately.", cite: {p: 15}}
+      - {t: "Gasoline vapor is heavier than air. It collects in low areas and ignites more easily than liquid gasoline. Work outside or in a well-ventilated area, away from flames, sparks and smoking.", cite: {p: 15}}
+      - {t: "Let the engine cool completely before you work on a fuel system part. Catch fuel from the carburetor in a plastic container. Do not store gasoline in glass containers.", cite: {p: 15}}
+      - {t: "Keep fuel-soaked shop cloths in a metal container with a lid, or put them outside to dry. Do not put water on a gasoline fire. Use a class B, BC or ABC fire extinguisher.", cite: {p: 15}}
+      - {t: "Turn the engine off before you refuel. Do not overfill the fuel tank. Leave an air space at the top for fuel expansion.", cite: {p: 15}}
+      - {t: "To clean parts, read the entire label of each chemical. Do not use more than one type of cleaning solvent at a time. Work in a well-ventilated area.", cite: {p: 15}}
+      - {t: "Wear chemical-resistant gloves and safety glasses. Wear a vapor respirator when necessary. Wash your hands and arms after you clean parts. Keep chemicals away from children and pets.", cite: {p: 15}}
+      - {t: "Wipe all oil, grease and cleaner residue from a part before you heat it. Use a nylon brush, because a wire brush can cause a spark. A parts washer must have a metal lid that lowers in a fire.", cite: {p: 15}}
+  - id: warning-labels
+    title: "Warning labels"
+    kind: Section
+    pdf_pages: [15, 17]
+    summary:
+      - {t: "The manufacturer attaches information and warning labels to the motorcycle. The labels give instructions for operation, service, transport and storage.", cite: {p: 15}}
+      - {t: "The owner's manual describes the labels and their locations. Order a new label from the manufacturer if a label is missing or damaged.", cite: {p: 15}}
+  - id: basic-service-methods
+    title: "Basic service methods"
+    kind: Section
+    pdf_pages: [15, 17]
+    summary:
+      - {t: "Front means the front of the motorcycle. Left and right are the sides as the rider sees them when seated and facing forward. Secure the motorcycle in a safe manner before you service an engine or suspension part.", cite: {p: 15}}
+      - {t: "Tag similar parts for location and mark mating parts for position. Record the number and thickness of shims. Tag disconnected wires and connectors with masking tape and a marking pen.", cite: {p: 16}}
+      - {t: "Use penetrating oil on a tight bolt. Do not use heat if you can prevent it. Cover all engine openings to keep objects out.", cite: {p: 16}}
+      - {t: "Read each procedure fully before you start. Do the steps in sequence. Have special tools available before you start.", cite: {p: 16}}
+      - {t: "Replace means to discard a defective part and install a new one. Overhaul means to remove, disassemble, examine, measure, repair or replace parts to recondition an assembly.", cite: {p: 16}}
+      - {t: "Do not apply chemical degreaser to an O-ring drive chain. The chemicals damage the O-rings. Clean the chain with kerosene.", cite: {p: 16}}
+      - {t: "Do not direct high-pressure water at steering bearings, carburetor hoses, wheel bearings, suspension or electrical parts or the O-ring drive chain. The water forces grease out of the bearings and can damage seals.", cite: {p: 17}}
+      - {t: "Make diagrams of similar parts, for example crankcase bolts of different lengths. Install shims and washers in the same location and position. Use new gaskets if you doubt the old ones.", cite: {p: 17}}
+      - {t: "Replace self-locking fasteners with new ones. Do not install standard fasteners in place of self-locking fasteners. Use grease to hold small parts in place during assembly.", cite: {p: 17}}
+  - id: serial-numbers
+    title: "Serial numbers"
+    kind: Section
+    pdf_pages: [17, 17]
+    summary:
+      - {t: "The frame and the engine have stamped serial numbers. Record them in the Quick Reference Data section at the front of the manual. Have them available when you order parts.", cite: {p: 17}}
+      - {t: "The frame number is on a decal and stamped on the frame at the steering head. It is also on a sticker on the front frame tube, next to the radiator.", cite: {p: 17}}
+      - {t: "The engine number is stamped on the right crankcase, below the exhaust pipe.", cite: {p: 17}}
+      - {t: "The model code for 2006 is KL650-A20.", cite: {p: 39}}
+    ops: [c01-find-serial-numbers]
+  - id: fasteners
+    title: "Fasteners"
+    kind: Section
+    pdf_pages: [17, 20]
+    summary:
+      - {t: "Most threaded fasteners have right-hand threads. The text notes a left-hand thread. Two systems specify thread dimensions, U.S. Standard and metric. Mismatched threads can damage the threads.", cite: {p: 17}}
+      - {t: "Start all fasteners by hand to prevent cross-threading. If a fastener is hard to start or turn, find the cause before you use a wrench.", cite: {p: 17}}
+      - {t: "A metric bolt is identified by its diameter, thread pitch and length. For example, 8-1.25 X 130 is a bolt with 8 mm diameter, 1.25 mm pitch and 130 mm length. Measure bolt length as the manual shows.", cite: {p: 17}}
+      - {t: "The numbers on the top of a metric fastener show its strength. A higher number is a stronger fastener. Do not install a fastener of lower strength than the original.", cite: {p: 18}}
+      - {t: "Use an accurate torque wrench with the torque specifications. Use the general torque table for a fastener that has no specification. Torque specifications for specific parts are at the end of the chapter for that part.", cite: {p: 18}}
+      - {t: "Self-locking fasteners, such as nylon insert nuts, resist vibration. Most cannot be reused. Replace them with new ones after you remove them.", cite: {p: 18}}
+      - {t: "Washers are flat washers or lockwashers. Use replacement washers of the same design and quality. A cotter pin with a castellated nut secures some fasteners, for example the rear axle.", cite: {p: 19}}
+      - {t: "Snap rings are machined or stamped. A machined snap ring can go in either direction. A stamped snap ring has a sharp edge and a round edge. E-clips are used where a snap ring is not practical.", cite: {p: 19}}
+    ops: [c01-general-torque, c01-cotter-pin-installation, c01-snap-ring-installation]
+  - id: shop-supplies
+    title: "Shop supplies"
+    kind: Section
+    pdf_pages: [20, 22]
+    summary:
+      - {t: "Engine oil has an API service classification and an SAE viscosity rating, for example 10W-40. Use the classification that the manufacturer recommends. These ratings do not show oil quality.", cite: {p: 20}}
+      - {t: "Grease is lubricating oil with thickening agents. Typical multipurpose grease is NLGI No. 2. For O-ring chains, use a lubricant that is made for O-ring chains. Clean an O-ring chain only with kerosene.", cite: {p: 20}}
+      - {t: "Use foam air filter oil on a foam air filter. Do not use engine oil in its place. Engine oil does not stay in the filter.", cite: {p: 20}}
+      - {t: "Brake fluid is DOT 3, DOT 4 or DOT 5. Do not mix types. Use the fluid that the manufacturer recommends. Brake fluid damages plastic, painted and plated surfaces. Remove spills immediately with soap and water. Never reuse brake fluid.", cite: {p: 21}}
+      - {t: "Never put mineral-based (petroleum) oil into the brake system. It causes the rubber parts to swell and break apart, and the brakes fail.", cite: {p: 21}}
+      - {t: "Coolant is a mixture of water and antifreeze. Use antifreeze that is made for aluminum engines. Mix it only with distilled water.", cite: {p: 21}}
+      - {t: "Use brake parts cleaner, electrical contact cleaner, carburetor cleaner and degreasers for the correct jobs. For safety, use only nonflammable or high flash-point solvents. Local rules can control the disposal of cleaning chemicals.", cite: {p: 21}}
+      - {t: "Gasket sealants, gasket remover and threadlocking compound are used as the manufacturer recommends. RTV sealant has a limited shelf life.", cite: {p: 22}}
+    ops: [c01-rtv-sealant-application, c01-threadlocking-compound-application]
+  - id: basic-tools
+    title: "Basic tools"
+    kind: Section
+    pdf_pages: [22, 27]
+    summary:
+      - {t: "Most procedures need only simple hand tools. Use the correct tool for the job. Keep tools clean and organized. Good tools are made of high-strength alloy steel.", cite: {p: 22}}
+      - {t: "The basic tools are: screwdrivers (slotted and Phillips), wrenches (open-end, box-end and combination), adjustable wrenches, socket wrenches with ratchets, speed handles and extension bars, impact driver, Allen wrenches and torque wrenches.", cite: {p: 23}}
+      - {t: "The other basic tools are: torque adapters, pliers (slip-joint, diagonal cutting, needlenose and locking), snap ring pliers and hammers (ball-peen and soft-faced).", cite: {p: 26}}
+      - {t: "Use a screwdriver only to drive screws. Never use it to pry or chisel. A box-end wrench grips the fastener on all sides, so it slips less than an open-end wrench. A 6-point wrench or socket holds better than a 12-point one.", cite: {p: 23}}
+      - {t: "Use impact sockets with an impact driver or air tools. Do not use hand sockets with air or impact tools. They can shatter. Wear eye protection when you use these tools.", cite: {p: 24}}
+      - {t: "Torque wrenches are the deflecting beam, dial indicator and audible click types. Store a torque wrench in a case or a separate padded drawer.", cite: {p: 25}}
+      - {t: "Wear eye protection when you use snap ring pliers or hammers. Never use a metal-faced hammer on engine and suspension parts. Do not use pliers to turn fasteners.", cite: {p: 27}}
+    ops: [c01-torque-adapter-setting]
+  - id: precision-measuring-tools
+    title: "Precision measuring tools"
+    kind: Section
+    pdf_pages: [27, 33]
+    summary:
+      - {t: "Use a measuring tool that is made for the task. Use the tool with a light touch, with your fingertips. If a measurement is doubtful, measure again with a different tool.", cite: {p: 27}}
+      - {t: "The precision measuring tools are: feeler gauge, calipers, micrometers, telescoping gauge, small-bore gauge, dial indicator, cylinder bore gauge, compression gauge and multimeter.", cite: {p: 28}}
+      - {t: "A feeler gauge is a set of steel strips of different thickness. It measures the distance between two surfaces, for example valve clearance. Wire (round) gauges measure spark plug gap.", cite: {p: 28}}
+      - {t: "Calipers measure outside and depth dimensions, usually to within 0.05 mm (0.001 in.), with a range up to 150 mm (6 in.). They are dial, vernier or digital types.", cite: {p: 28}}
+      - {t: "An outside micrometer measures the outside diameter of cylindrical parts and the thickness of materials. Usual sizes are 0-1 in. (0-25 mm), 1-2 in. (25-50 mm), 2-3 in. (50-75 mm) and 3-4 in. (75-100 mm).", cite: {p: 30}}
+      - {t: "Telescoping gauges and small-bore gauges measure bores but have no scale. Use an outside micrometer to get the reading.", cite: {p: 32}}
+      - {t: "A dial indicator measures variations in dimensions and movements, for example brake rotor runout. A cylinder bore gauge measures bore size, taper and out-of-round.", cite: {p: 32}}
+      - {t: "A compression gauge measures cylinder pressure, usually in psi or kPa. When you do a compression test, disable the engine so that it does not start. Hold the throttle wide open.", cite: {p: 32}}
+      - {t: "A multimeter measures voltage, continuity and resistance. Results can differ if you do not use the meter that the manufacturer recommends.", cite: {p: 33}}
+    ops: [c01-vernier-caliper-reading, c01-inch-micrometer-reading, c01-metric-micrometer-reading, c01-micrometer-adjustment-check, c01-telescoping-gauge-use, c01-small-bore-gauge-use]
+  - id: repair-methods
+    title: "Repair methods"
+    kind: Section
+    pdf_pages: [33, 38]
+    summary:
+      - {t: "This part gives methods to remove frozen and broken fasteners, repair threads, replace studs, remove hoses, replace bearings and replace seals.", cite: {p: 33}}
+      - {t: "A bearing reduces power loss, heat and noise from friction. If a bearing is damaged, replace it immediately.", cite: {p: 34}}
+      - {t: "Unless the instructions tell you differently, install bearings and seals with the mark or number of the manufacturer toward the outside.", cite: {p: 35}}
+    ops: [c01-frozen-fastener-removal, c01-broken-fastener-removal, c01-damaged-thread-repair, c01-stud-replacement, c01-hose-removal, c01-bearing-removal, c01-bearing-installation, c01-bearing-shaft-heated-installation, c01-bearing-housing-heated-installation, c01-seal-replacement]
+  - id: storage
+    title: "Storage"
+    kind: Section
+    pdf_pages: [38, 42]
+    summary:
+      - {t: "Several months of non-use can cause deterioration of the motorcycle, mainly where temperatures change a lot. Good preparation reduces this and makes the return to service easier.", cite: {p: 38}}
+      - {t: "The storage area must be dry. Keep sunlight off the motorcycle. Do not store it close to saltwater. Consider the risk of fire, theft and vandalism.", cite: {p: 38}}
+      - {t: "The storage preparation list is the minimum. It includes: wash the motorcycle, drain the fuel, change the engine oil, put oil in the cylinder, remove the battery and cover the openings.", cite: {p: 38}}
+      - {t: "Put the motorcycle on a stand. Cover it with a cloth cover and not a plastic cover. Before you operate it again, make sure that the brakes, clutch, throttle and engine stop switch work correctly.", cite: {p: 39}}
+      - {t: "The tables at the end of the chapter give the model codes, the general torque values, conversion formulas and tap and drill sizes.", cite: {p: 41}}
+    ops: [c01-storage-preparation, c01-return-to-service]

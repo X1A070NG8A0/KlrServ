@@ -1,0 +1,12 @@
+title: "Damaged thread repair"
+system: "General information"
+source: clymer
+chapter: 1
+section: "01/repair-methods"
+summary: {t: "A tap or a die can often repair threads that are stripped or damaged by impact. A thread insert can repair a damaged internal thread.", cite: {p: 34}}
+sections:
+  - steps:
+      - {t: "To repair an internal thread, run a tap through the threads. To repair an external thread, run a die over the threads.", cite: {p: 34}}
+      - {t: "To clean or repair spark plug threads, use a spark plug tap.", cite: {p: 34}}
+      - {t: "If an internal thread is badly damaged, install a Helicoil or a different type of thread insert. Follow the instructions of the manufacturer.", cite: {p: 34}}
+      - {t: "If you must drill and tap a hole, use the metric tap and drill sizes in Table 6.", cite: {p: 42}}

@@ -1,0 +1,25 @@
+# Clymer Chapter Three: cable adjustments, brakes and steering inspection (PDF p74-78).
+title: "Brake fluid level inspection"
+system: "Brakes"
+source: clymer
+chapter: 3
+section: "03/maintenance-and-inspection"
+spec_refs:
+  - "fluids:Brake fluid type"
+parts:
+  - {name: "DOT 4 brake fluid", replace: consumable, spec_ref: "fluids:Brake fluid type", cite: {p: 78}}
+sections:
+  - title: "Front brake"
+    steps:
+      - {t: "Support the motorcycle so that the reservoir is level.", cite: {p: 77}}
+      - {t: "Make sure that the fluid level is between the lower mark and the top of the sight glass.", cite: {p: 77}, figs: [67]}
+      - {t: "If the level is below the low mark, remove the cover and the diaphragm. Add DOT 4 brake fluid. Install the diaphragm and the cover.", cite: {p: 77}, figs: [67]}
+      - {t: "Examine the master cylinder for leaks and the pads for wear.", cite: {p: 77}}
+  - title: "Rear brake"
+    steps:
+      - {t: "Support the motorcycle so that the reservoir is level.", cite: {p: 77}}
+      - {t: "Make sure that the fluid level is between the upper and lower marks on the reservoir.", cite: {p: 78}, figs: [68, 69]}
+      - {t: "If the level is low, remove the guard assembly. Then remove the cap, the diaphragm plate and the diaphragm.", cite: {p: 78}, figs: [68, 69]}
+      - {t: "Add DOT 4 brake fluid. Assemble the reservoir.", cite: {p: 78}, figs: [68, 69]}
+      - {t: "Examine the master cylinder for leaks and the pads for wear.", cite: {p: 78}}
+      - {kind: note, t: "If the fluid is not clear to slightly yellow, it is contaminated. Drain the system and bleed it.", cite: {p: 78}, ref: "14/brake-system-bleeding"}

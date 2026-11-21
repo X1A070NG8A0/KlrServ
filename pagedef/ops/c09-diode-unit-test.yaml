@@ -1,0 +1,16 @@
+title: "Diode unit test"
+system: "electrical system"
+source: clymer
+chapter: 9
+section: "09/ignition-system"
+summary: {t: "The diode unit is on the right side of the motorcycle, under the fuel tank. Its three diode circuits let power go in one direction only. The test finds low resistance in one direction and infinite resistance in the other direction.", cite: {p: 218}}
+sections:
+  - steps:
+      - {t: "Remove the fuel tank.", cite: {p: 218}, ref: "15/fuel-tank", figs: [46]}
+      - {t: "Remove the unit from the mount. Then unplug the unit. Note the row of terminals that has the three red/black wires.", cite: {p: 218}}
+      - {t: "Set an ohmmeter to R x 1 ohm.", cite: {p: 218}}
+      - {t: "Connect one meter probe to a red/black terminal and the other probe to the opposite terminal on the plug.", cite: {p: 218}}
+      - {t: "Measure and record the reading.", cite: {p: 218}}
+      - {t: "Reverse the probes on the terminals. Measure again.", cite: {p: 218}}
+      - {t: "Measure the remaining pairs of terminals in the same way.", cite: {p: 218}}
+      - {t: "The resistance must be infinite in one direction and low in the other direction. If any pair of terminals has low or high resistance in both directions, the unit is faulty.", cite: {p: 219}}

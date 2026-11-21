@@ -1,0 +1,27 @@
+title: "Subframe bolts shearing or loosening"
+ops: [fasteners, c15-subframe]
+summary:
+  - t: "Kawasaki gives a torque for the mounting bolts of the rear frame (the subframe)."
+    cite: {s: kaw-supp, p: 16}
+  - t: "One owner reports that the upper subframe bolts of the first generation can shear after hard riding with a heavy load. He reports that the lower bolts can become loose and break."
+    cite: {s: forum, id: subframe-necessary, post: 7}
+  - t: "Another member says that the upper bolts are larger on the second generation."
+    cite: {s: forum, id: subframe-necessary, post: 18}
+sections:
+  - title: "Failure of the subframe bolts"
+    steps:
+      - {t: "Tighten the rear frame mounting bolts to the specified torque.", cite: {s: kaw-supp, p: 16}, spec_ref: "kaw-torque:Frame/Rear frame mounting bolts"}
+      - {t: "One owner reports that the upper subframe bolts sheared after much riding, mainly with a heavy load and on rough roads. He says that the lower bolts can work loose and break.", cite: {s: forum, id: subframe-necessary, post: 7}}
+      - {t: "One owner reports that a friend broke the subframe bolts on a first generation bike when he rode two-up in Baja.", cite: {s: forum, id: subframe-necessary, post: 9}}
+      - {t: "A forum member says that the upper subframe bolts are 8 mm on the first generation and 10 mm on the second generation. He says that the lower bolts are 8 mm on both.", cite: {s: forum, id: subframe-necessary, post: 18}}
+      - {t: "The same member says that he knows of no report of an upper bolt failure on a second generation bike.", cite: {s: forum, id: subframe-necessary, post: 18}}
+      - {t: "Not all owners have this problem. One owner says that it depends on where and how you ride. He recommends that you examine the bike for loose fasteners.", cite: {s: forum, id: weak-doohickeys-frame-bolts, post: 2}}
+  - title: "Owner upgrade of the subframe bolts"
+    steps:
+      - {t: "Forum members recommend stronger subframe bolts for a bike with a heavy load of luggage. One member says that the work takes 15 minutes if you have the bolts.", cite: {s: forum, id: weak-doohickeys-frame-bolts, post: 8}}
+      - {t: "One owner recommends the drill-through upgrade for the upper bolts. He also recommends stronger lower bolts with strong threadlock.", cite: {s: forum, id: subframe-necessary, post: 7}}
+      - {t: "One owner installed the Eagle Mike through bolt kit before the bolts can break.", cite: {s: forum, id: subframe-necessary, post: 9}}
+      - {t: "The same owner drills first with a long quarter inch bit. He then drills with the larger bits that come with the kit. He uses cutting oil to lubricate and cool the bit.", cite: {s: forum, id: subframe-necessary, post: 7}}
+      - {kind: caution, t: "Keep spare drill bits ready before you drill the frame. One installer reports that he broke two bits, although he drilled slowly.", cite: {s: forum, id: subframe-necessary, post: 3}}
+      - {t: "To remove or install the subframe, do the subframe procedure.", cite: {s: clymer, p: 330}, op: c15-subframe}
+      - {t: "Make sure that the subframe bolts are tight during the scheduled inspection of the fasteners.", cite: {s: clymer, p: 67}, op: fasteners}

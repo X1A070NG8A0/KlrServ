@@ -1,0 +1,20 @@
+title: "Battery current draw test"
+system: "electrical system"
+source: clymer
+chapter: 9
+section: "09/charging-system"
+summary: {t: "Do this test if a good battery discharges quickly when the motorcycle is not in use. On the KLR650, any current draw with all electrical devices off shows a problem. A short in a wire or component, or dirt and moisture, can let the battery discharge to ground.", cite: {p: 224}}
+sections:
+  - steps:
+      - {t: "Remove the fuel tank.", cite: {p: 225}, ref: "15/fuel-tank"}
+      - {t: "Turn the ignition switch off.", cite: {p: 225}}
+      - {t: "Disconnect the negative battery cable.", cite: {p: 225}}
+      - {t: "Make sure that the battery is fully charged.", cite: {p: 225}}
+      - {kind: caution, t: "Set the ammeter to the highest amperage range before you connect it. If too much current flows, the meter can be damaged.", cite: {p: 225}}
+      - {t: "Connect the ammeter to the negative battery cable and terminal.", cite: {p: 225}, figs: [59]}
+      - {t: "The meter must show no current draw. If it shows a current draw, continue the test.", cite: {p: 225}}
+      - {t: "Remove the fuses from the headlight/taillight circuit and the fan circuit (1990-on models). Read the meter.", cite: {p: 225}}
+      - {t: "If the current draw becomes less, the problem is in one of the fused circuits. Install the fuses. Separate the connectors in the circuit to find the problem.", cite: {p: 225}}
+      - {t: "If the current draw stays the same, the problem is in the main circuit.", cite: {p: 225}}
+      - {t: "Refer to the system diagrams in this chapter and, if necessary, the wiring diagram at the back of the manual to identify circuits and parts.", cite: {p: 225}}
+      - {t: "Disconnect and connect the individual connectors of the related parts, one connector at a time, until the meter shows no current draw. The shorted circuit is then found.", cite: {p: 225}}

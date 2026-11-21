@@ -1,0 +1,23 @@
+title: "Camshaft and compression release inspection"
+system: "Engine top end"
+source: clymer
+chapter: 4
+section: "04/camshafts-and-cam-chain-tensioner"
+summary: {t: "The compression release is at the right end of the exhaust camshaft. It opens the right exhaust valve a small amount during engine cranking, which makes starting easier. A centrifugal action disengages the release when the engine starts. Replace parts that have damage or are not in specification.", cite: {p: 100}}
+spec_refs: ["top-end:Camshaft/Lobe height, intake", "top-end:Camshaft/Lobe height, exhaust", "top-end:Camshaft/Journal outside diameter"]
+parts:
+  - {name: "Camshaft", replace: inspect, cite: {p: 100}}
+  - {name: "Camshaft sprockets and cam chain", replace: inspect, cite: {p: 101}, note: "If a sprocket is worn, replace both cam sprockets and the cam chain as a set."}
+  - {name: "Compression release spring", replace: inspect, cite: {p: 101}, note: "Replace the spring if it is fatigued."}
+sections:
+  - steps:
+      - {t: "Clean the camshafts in solvent and dry them fully.", cite: {p: 100}}
+      - {t: "Examine the camshafts for scoring or other damage.", cite: {p: 100}}
+      - {t: "Measure the lobe height of the intake camshaft with a micrometer.", cite: {p: 100}, figs: [29], spec_ref: "top-end:Camshaft/Lobe height, intake"}
+      - {t: "Measure the lobe height of the exhaust camshaft with a micrometer.", cite: {p: 100}, figs: [29], spec_ref: "top-end:Camshaft/Lobe height, exhaust"}
+      - {t: "Measure the outside diameter of each camshaft journal, where the cap fits over the camshaft.", cite: {p: 101}, figs: [30], spec_ref: "top-end:Camshaft/Journal outside diameter"}
+      - {t: "Examine the teeth of the camshaft sprockets for wear or other damage. The profile of each tooth must be symmetrical.", cite: {p: 101}}
+      - {t: "If a sprocket is worn, replace both cam sprockets and the cam chain as a set. Also examine the crankshaft sprocket, the cam chain tensioner and the chain guides.", cite: {p: 101}}
+      - {t: "Examine the spring of the automatic compression release on the exhaust camshaft for damage.", cite: {p: 101}, figs: [31]}
+      - {t: "Turn the weights outward and examine the operation. The action must be smooth.", cite: {p: 101}}
+      - {t: "Release the weights. The spring must fully retract them. If it does not, replace the spring.", cite: {p: 101}}

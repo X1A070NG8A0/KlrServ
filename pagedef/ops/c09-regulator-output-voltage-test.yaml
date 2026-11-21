@@ -1,0 +1,18 @@
+title: "Regulator/rectifier output voltage test"
+system: "electrical system"
+source: clymer
+chapter: 9
+section: "09/charging-system"
+summary: {t: "The regulator/rectifier is under the seat. It changes the alternating current of the alternator to direct current, and it regulates the charging voltage. It sends extra voltage out as heat from the finned regulator. The battery must be in good condition and charged before this test.", cite: {p: 225}}
+spec_refs: ["electrical-test:Regulator/rectifier output voltage"]
+sections:
+  - steps:
+      - {t: "Start the engine and let it get to operating temperature. Then turn off the engine.", cite: {p: 225}, figs: [60]}
+      - {t: "Set a voltmeter to DC volts. Use a scale in the 25-50 volt range.", cite: {p: 225}}
+      - {t: "Connect the voltmeter to the battery terminals.", cite: {p: 226}, figs: [58]}
+      - {t: "Start the engine. Read the meter at idle and while you increase the engine speed.", cite: {p: 226}}
+      - {t: "Unplug the headlight. Do the check again.", cite: {p: 226}}
+      - {t: "In both checks, the meter must show at least 12 volts at idle, increasing to 14-15 volts as the engine speed increases.", cite: {p: 226}, spec_ref: "electrical-test:Regulator/rectifier output voltage"}
+      - {t: "If the output voltage is much more than 15 volts, the regulator/rectifier can have a poor ground or be faulty.", cite: {p: 226}}
+      - {t: "If the output voltage does not increase with engine speed, the regulator/rectifier or the stator coils are faulty.", cite: {p: 226}}
+      - {t: "Before you replace parts, examine the wiring harness and the battery.", cite: {p: 226}}

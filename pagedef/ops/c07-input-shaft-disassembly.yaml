@@ -1,0 +1,27 @@
+title: "Input shaft disassembly"
+system: "Transmission and internal shift mechanism"
+source: clymer
+chapter: 7
+section: "07/input-shaft"
+summary: {t: "This procedure removes the parts from the input shaft. The procedure is the same for the early and the later input shaft gears. The photos show the later assembly.", cite: {p: 171}}
+parts:
+  - {name: "Snap rings", replace: always, cite: {p: 169}}
+sections:
+  - steps:
+      - {t: "Remove the transmission from the crankcase.", cite: {p: 169}, ref: "05/crankcase"}
+      - {kind: caution, t: "Keep the parts in the same direction and position as on the shaft. Mark the outer face of each part when you remove it. Note the direction of the sharp inner edge of each snap ring.", cite: {p: 171}, op: c07-snap-ring-installation}
+      - {t: "Clean the parts and put them in order as you remove them.", cite: {p: 171}, figs: [7]}
+      - {t: "Remove the snap ring.", cite: {p: 172}}
+      - {t: "Remove the bearing.", cite: {p: 172}}
+      - {t: "Remove the thrust washer.", cite: {p: 172}}
+      - {t: "Remove second gear.", cite: {p: 172}}
+      - {t: "Remove the snap ring.", cite: {p: 172}}
+      - {t: "Remove the spline washer.", cite: {p: 172}}
+      - {t: "Remove fourth gear.", cite: {p: 172}}
+      - {t: "Remove the spline washer.", cite: {p: 172}}
+      - {t: "Remove the snap ring.", cite: {p: 172}}
+      - {t: "Remove third gear.", cite: {p: 172}}
+      - {t: "Remove the snap ring.", cite: {p: 172}}
+      - {t: "Remove the thrust washer.", cite: {p: 172}}
+      - {t: "Remove fifth gear.", cite: {p: 172}}
+      - {t: "Examine each part. Put it back in its position until assembly.", cite: {p: 172}, op: c07-shaft-inspection}

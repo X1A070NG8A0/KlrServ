@@ -1,0 +1,49 @@
+title: "Output shaft disassembly"
+system: "Transmission and internal shift mechanism"
+source: clymer
+chapter: 7
+section: "07/output-shaft"
+summary: {t: "This procedure removes the parts from the output shaft. The early shaft has a shoulder outside second gear, and you remove all parts from one end. The later shaft is stepped inside second gear, and you remove parts from both ends. This bike has the later shaft.", cite: {p: 174}}
+parts:
+  - {name: "Snap rings", replace: always, cite: {p: 169}}
+sections:
+  - title: "Later shaft (from KL650AE032210)"
+    steps:
+      - {t: "Remove the transmission from the crankcase.", cite: {p: 169}, ref: "05/crankcase"}
+      - {kind: caution, t: "Keep the parts in the same direction and position as on the shaft. Mark the outer face of each part when you remove it. Note the direction of the sharp inner edge of each snap ring.", cite: {p: 175}, op: c07-snap-ring-installation}
+      - {t: "Clean the parts and put them in order as you remove them.", cite: {p: 175}}
+      - {t: "At the splined end of the shaft, remove the spacer.", cite: {p: 176}}
+      - {t: "Remove second gear.", cite: {p: 176}}
+      - {t: "Remove the thrust washer.", cite: {p: 176}}
+      - {t: "At the smooth end of the shaft, remove the snap ring.", cite: {p: 176}}
+      - {t: "Remove the spacer.", cite: {p: 176}}
+      - {t: "Remove the bearing.", cite: {p: 176}}
+      - {t: "Remove the thrust washer.", cite: {p: 176}}
+      - {t: "Remove first gear.", cite: {p: 176}}
+      - {t: "Remove the thrust washer.", cite: {p: 176}}
+      - {t: "Remove fifth gear.", cite: {p: 176}}
+      - {t: "Remove the snap ring.", cite: {p: 176}}
+      - {t: "Remove the spline washer.", cite: {p: 176}}
+      - {t: "Remove third gear.", cite: {p: 176}}
+      - {t: "Remove the thrust washer.", cite: {p: 176}}
+      - {t: "Remove fourth gear.", cite: {p: 176}}
+      - {t: "Examine each part. Put it back in its position until assembly.", cite: {p: 176}, op: c07-shaft-inspection}
+  - title: "Early shaft (to KL650AE032209)"
+    steps:
+      - {kind: note, t: "This shaft does not fit this bike. The steps are for reference. Remove all parts from the smooth end of the shaft.", cite: {p: 175}}
+      - {t: "Remove the bearing.", cite: {p: 175}}
+      - {t: "Remove the thrust washer.", cite: {p: 175}}
+      - {t: "Remove first gear.", cite: {p: 175}}
+      - {t: "Remove the thrust washer.", cite: {p: 175}, gap: "The text layer of the page lost the list items between first gear and third gear. The next two steps follow the reverse of the assembly order."}
+      - {t: "Remove fifth gear.", cite: {p: 175}}
+      - {t: "Remove the snap ring.", cite: {p: 175}}
+      - {t: "Remove the spline washer.", cite: {p: 175}}
+      - {t: "Remove third gear.", cite: {p: 175}}
+      - {t: "Remove the third gear bushing.", cite: {p: 175}}
+      - {t: "Remove the spline washer.", cite: {p: 175}}
+      - {t: "Remove the snap ring.", cite: {p: 175}}
+      - {t: "Remove fourth gear.", cite: {p: 175}}
+      - {t: "Remove the snap ring.", cite: {p: 175}}
+      - {t: "Remove the thrust washer.", cite: {p: 175}}
+      - {t: "Remove second gear.", cite: {p: 175}}
+      - {t: "Examine each part. Put it back in its position until assembly.", cite: {p: 175}, op: c07-shaft-inspection}

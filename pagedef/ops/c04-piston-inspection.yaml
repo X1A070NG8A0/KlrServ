@@ -1,0 +1,47 @@
+title: "Piston, piston pin and piston-to-cylinder clearance inspection"
+system: "Engine top end"
+source: clymer
+chapter: 4
+section: "04/piston-and-piston-rings"
+summary: {t: "This procedure cleans and examines the piston and the piston pin and measures the clearance between the piston and the cylinder. Record and identify all measurements for each part.", cite: {p: 117}}
+spec_refs: ["top-end:Piston/Ring groove width, top and second ring", "top-end:Piston/Ring groove width, oil ring", "top-end:Piston/Outside diameter", "top-end:Piston-to-cylinder clearance"]
+parts:
+  - {name: "Piston", replace: inspect, cite: {p: 118}, note: "If there is damage, replace the piston."}
+  - {name: "Piston pin", replace: inspect, cite: {p: 120}, note: "Replace a worn pin."}
+sections:
+  - title: "Piston"
+    steps:
+      - {t: "Remove the piston rings.", cite: {p: 118}, op: c04-piston-ring-inspection}
+      - {t: "Clean the carbon from the piston crown with a soft scraper, brushes and solvent.", cite: {p: 118}}
+      - {kind: caution, t: "Do not use tools that can gouge or scratch the surface. This damage can cause hot spots on the piston during engine operation.", cite: {p: 118}}
+      - {t: "Clean the piston pin bore, the ring grooves and the piston skirt.", cite: {p: 118}}
+      - {t: "Clean the ring grooves with a soft brush. You can also use a broken piston ring to remove carbon and oil residue.", cite: {p: 118}, figs: [86]}
+      - {t: "Polish mild galling or discoloration off the piston skirt with fine emery cloth and oil.", cite: {p: 118}}
+      - {t: "Examine the piston crown for wear or damage. If the piston is pitted, overheating is likely. A lean fuel mixture or preignition can cause it.", cite: {p: 118}, figs: [87]}
+      - {t: "Examine the ring grooves for dents, nicks, cracks or other damage. The grooves must be square and uniform around the piston.", cite: {p: 118}, figs: [87]}
+      - {t: "Examine the top compression ring groove with particular care. It has the least lubrication and is nearest the combustion temperatures.", cite: {p: 118}}
+      - {t: "If the oil ring was difficult to remove, the piston has likely overheated and distorted.", cite: {p: 119}}
+      - {t: "Examine the piston skirt. If there are signs of severe galling or partial seizure (bits of metal in the skirt), replace the piston.", cite: {p: 119}, figs: [87]}
+      - {t: "Examine the inside of the piston for cracks or other damage. Examine the crown, the skirt, the piston pin bores and the bosses.", cite: {p: 119}, figs: [88]}
+      - {t: "Make sure that the oil holes and the circlip grooves are clean and have no damage.", cite: {p: 119}}
+      - {t: "Measure the width of all ring grooves. If a measurement is more than the service limit, replace the piston.", cite: {p: 119}, spec_ref: "top-end:Piston/Ring groove width, top and second ring"}
+      - {t: "Measure the width of the oil ring groove.", cite: {p: 119}, spec_ref: "top-end:Piston/Ring groove width, oil ring"}
+      - {t: "Examine the ring-to-groove clearance of the piston rings.", cite: {p: 119}, op: c04-piston-ring-inspection}
+  - title: "Piston-to-cylinder clearance"
+    steps:
+      - {t: "Clean and dry the piston and the cylinder before you measure them.", cite: {p: 119}}
+      - {t: "Measure the outside diameter of the piston 5 mm (0.2 in.) up from the bottom edge of the piston skirt and 90 degrees to the direction of the piston pin. Record the measurement.", cite: {p: 119}, figs: [89], spec_ref: "top-end:Piston/Outside diameter"}
+      - {t: "Subtract the piston measurement from the largest cylinder measurement. The result is the clearance.", cite: {p: 119}, op: c04-cylinder-inspection}
+      - {t: "If the clearance is more than the specification, bore the cylinder oversize and install an oversize piston assembly.", cite: {p: 119}, spec_ref: "top-end:Piston-to-cylinder clearance"}
+  - title: "Piston pin"
+    steps:
+      - {t: "Clean the piston pin.", cite: {p: 119}}
+      - {t: "Examine the pin for chrome flaking, wear or discoloration from overheating.", cite: {p: 120}}
+      - {t: "Examine the bore in the small end of the connecting rod for scoring, uneven wear and discoloration from overheating.", cite: {p: 120}, figs: [90]}
+      - {t: "Lubricate the piston pin and slide it into the connecting rod. Slowly turn the pin and examine it for radial play.", cite: {p: 120}, figs: [91]}
+      - {t: "If you can detect play, one or both parts are worn. Kawasaki gives no specifications for the pin or the connecting rod bore.", cite: {p: 120}}
+      - {t: "If neither part has visible wear, have the pin diameter compared to the diameter of a new pin.", cite: {p: 120}}
+      - {t: "If the pin is worn, replace the pin and examine the play in the connecting rod again. If there is still play, replace the rod.", cite: {p: 120}}
+      - {t: "Lubricate the piston pin and slide it into the piston bores. Slowly turn the pin and examine it for radial play.", cite: {p: 120}}
+      - {t: "If you can detect play, one or both parts are worn. Kawasaki gives no specifications for the pin or the piston pin bore.", cite: {p: 120}}
+      - {t: "If neither part has visible wear, have the dimensions of the pin and the piston pin bore compared to the dimensions of new parts. Replace worn parts.", cite: {p: 120}}

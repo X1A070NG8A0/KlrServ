@@ -1,0 +1,39 @@
+title: "Primary drive gear removal and inspection"
+system: "Clutch, gearshift linkage and lubrication system"
+source: clymer
+chapter: 6
+section: "06/primary-drive-gear"
+summary: {t: "This procedure removes the primary drive gear, the oil pump drive gear, the shaft key and the spacer from the crankshaft. The primary drive gear nut is very tight. Hold the crankshaft with a rotor holder tool or with a jam gear.", cite: {p: 164}}
+parts:
+  - {name: "Primary drive gear lockwasher", replace: always, cite: {p: 165}, note: "Install a new lockwasher with the cupped side out."}
+sections:
+  - title: "Holding methods"
+    steps:
+      - {t: "To hold the rotor, use the Kawasaki rotor holder tool (part No. 57001-1184) or a similar tool. Put the tool against the top of the footpeg during removal. Put it against the bottom of the footpeg during installation.", cite: {p: 164}, figs: [69]}
+      - {t: "To lock the gears, use a jam gear. A jam gear is usually a discarded drive gear. Ask a dealer or a motorcycle repair shop for one.", cite: {p: 164}}
+      - {t: "Put the jam gear above the primary gear and the driven gear during removal. Put it below the gears during installation. The jam gear must mesh completely with both sets of gear teeth.", cite: {p: 164}, figs: [70]}
+  - title: "Preparation"
+    steps:
+      - {t: "Remove the right crankcase cover.", cite: {p: 164}, op: c06-right-crankcase-cover}
+      - {t: "Remove the oil pump.", cite: {p: 164}, op: c06-oil-pump-removal}
+  - title: "Loosening the nut with a rotor holder tool"
+    steps:
+      - {t: "Remove the alternator cover.", cite: {p: 164}, ref: "09/alternator-cover"}
+      - {t: "Remove the clutch.", cite: {p: 164}, op: c06-clutch-removal}
+      - {t: "Flatten the edge of the lockwasher so that a socket seats fully on the nut.", cite: {p: 164}, figs: [71]}
+      - {t: "Fit the rotor holder tool on the rotor.", cite: {p: 164}}
+      - {t: "Loosen the nut.", cite: {p: 164}}
+  - title: "Loosening the nut with a jam gear"
+    steps:
+      - {t: "Flatten the edge of the lockwasher so that a socket seats fully on the nut.", cite: {p: 164}, figs: [71]}
+      - {t: "Mesh the jam gear with the clutch housing gear and the primary drive gear.", cite: {p: 164}}
+      - {kind: caution, t: "Do not jam the gears with screwdrivers or other tools. This can cause breakage of the gear teeth.", cite: {p: 165}}
+      - {t: "Loosen the nut.", cite: {p: 165}}
+      - {t: "Remove the clutch.", cite: {p: 165}, op: c06-clutch-removal}
+  - title: "Removal and inspection"
+    steps:
+      - {t: "Remove the primary drive gear nut and the washer.", cite: {p: 165}}
+      - {t: "Remove the oil pump drive gear, the primary drive gear, the shaft key and the spacer.", cite: {p: 165}, figs: [72]}
+      - {t: "Examine the gears for worn or broken teeth.", cite: {p: 165}, figs: [73]}
+      - {t: "Examine the fit of the key in the gears and on the crankshaft. The key must fit in all parts with no play.", cite: {p: 165}, figs: [74]}
+      - {t: "Examine the spacer for damage.", cite: {p: 165}}

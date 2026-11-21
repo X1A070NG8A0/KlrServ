@@ -1,0 +1,20 @@
+title: "Starter relay test"
+system: "electrical system"
+source: clymer
+chapter: 9
+section: "09/starting-system"
+summary: {t: "The starter relay is on the left side of the motorcycle, behind the plastic cover. It connects the battery to the starter and carries the high current during startup. A small current from the starter circuit relay operates it when you press the starter button.", cite: {p: 213}}
+sections:
+  - steps:
+      - {t: "Remove the cover to get to the relay. If necessary, remove the fuel tank to get more access.", cite: {p: 213}, ref: "15/fuel-tank", figs: [40]}
+      - {t: "Disconnect the cables that go to the starter and to the battery.", cite: {p: 214}}
+      - {kind: caution, t: "Do not let the end of the battery cable touch the frame, the engine or any other grounded part. The cable connects to the positive battery terminal and the battery will short. Keep the cable end protected until you connect it again.", cite: {p: 214}}
+      - {t: "Connect an ohmmeter to the relay terminals. Set the meter to the R x 1 scale.", cite: {p: 214}}
+      - {t: "Make sure that the neutral switch is in the on position.", cite: {p: 214}}
+      - {t: "Make sure that the engine stop switch is in the run position.", cite: {p: 214}}
+      - {t: "Turn on the ignition switch and press the starter button. Listen to the relay and read the meter.", cite: {p: 214}}
+      - {t: "Turn off the ignition switch.", cite: {p: 214}}
+      - {t: "If the relay clicks when you press the button and the meter reads 0 (no resistance in the relay), the relay is in good condition. Examine the starter and the cables for damage.", cite: {p: 214}}
+      - {t: "If the relay clicks and the meter does not read 0 (resistance in the relay), the relay is faulty.", cite: {p: 214}}
+      - {t: "If the relay does not click when you press the button, the relay is faulty. Before you replace the relay, make sure that power goes to the relay wires when you press the starter button.", cite: {p: 214}}
+      - {t: "If power does not go to the relay wires, examine and test the starter circuit relay.", cite: {p: 214}, op: c09-starter-circuit-relay-test}

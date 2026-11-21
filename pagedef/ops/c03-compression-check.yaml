@@ -1,0 +1,33 @@
+# Clymer Chapter Three: pre-ride inspection, break-in, service intervals, fuel and
+# lubricants, timing and compression checks, spark plug selection and reading.
+title: "Compression check"
+system: "lubrication, maintenance and tune-up"
+source: clymer
+chapter: 3
+section: "03/engine-tune-up"
+summary: {t: "A compression check shows the condition of the piston, rings and cylinder head assembly without disassembly of the engine. Keep a record of the reading at each tune-up. Compare the readings to find normal wear.", cite: {p: 83}}
+spec_refs:
+  - "tune-up:Compression"
+sections:
+  - steps:
+      - {kind: note, t: "A correctly broken-in engine usually has 530-855 kPa (77-124 psi) of compression. The compression release opens the right exhaust valve a small amount during cranking, so the compression can change.", cite: {p: 83}, spec_ref: "tune-up:Compression"}
+      - {kind: note, t: "If a reading is very different from a previous reading, find the cause. Examine the compression release first. Do not operate the engine with abnormal compression readings. Severe engine damage can occur.", cite: {p: 83}}
+      - {t: "Warm the engine to operating temperature.", cite: {p: 83}}
+      - {t: "Remove the spark plug.", cite: {p: 83}, op: spark-plug}
+      - {t: "Put the spark plug in the cap. Ground the plug to the cylinder.", cite: {p: 83}}
+      - {kind: caution, t: "Ground the spark plug. If you do not, the CDI unit can get damage.", cite: {p: 83}}
+      - {t: "Thread a compression gauge into the spark plug hole. The gauge must fit airtight in the hole to give an accurate reading.", cite: {p: 83}}
+      - {kind: note, t: "The compression gauge needs a 12 mm spark plug fitting to thread into the cylinder head. Compression gauge sets do not usually include this size. You can use a gauge with a tapered rubber fitting that you seat and hold in the hole.", cite: {p: 83}}
+      - {t: "Hold the throttle fully open.", cite: {p: 83}}
+      - {t: "Operate the starter. Turn the engine over until the gauge shows the highest reading.", cite: {p: 83}}
+      - {t: "Write down the reading. Compare it with the previous readings.", cite: {p: 83}}
+      - {kind: note, t: "In normal operation, the compression slowly gets lower than the original specification. This is because of wear of the piston rings and the valve seats.", cite: {p: 83}}
+      - {t: "If the reading is higher than normal, find the cause. A broken or jammed compression release spring can be the cause. If the spring cannot pull back the compression release weights, the release does not release compression during cranking.", cite: {p: 83}}
+      - {t: "Carbon buildup in the combustion chamber is a common cause of high compression. It can cause high combustion chamber temperatures and engine damage.", cite: {p: 83}}
+      - {t: "If the reading is lower than normal, find the cause. Worn piston rings, worn valves, a damaged piston or a leaking head gasket can be the cause.", cite: {p: 83}}
+      - {kind: note, t: "The compression release is less likely to be the cause of a low reading. When the engine fires and the camshaft speed increases, the release weights probably do not turn fast enough to stop the release of compression.", cite: {p: 83}}
+      - {t: "To find the source of the leak, pour 15 cc (1/2 oz.) of four-stroke engine oil through the spark plug hole into the cylinder.", cite: {p: 83}}
+      - {t: "Turn the engine over to spread the oil and clear the extra oil.", cite: {p: 84}}
+      - {t: "Measure the compression again.", cite: {p: 84}}
+      - {t: "If the compression increases, the piston rings are worn or damaged.", cite: {p: 84}}
+      - {t: "If the compression is the same, the piston, head gasket, valves or compression release are worn or damaged.", cite: {p: 84}}

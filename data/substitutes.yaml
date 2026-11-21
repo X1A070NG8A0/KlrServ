@@ -1,7 +1,7 @@
 # Community-accepted substitutes for proprietary or unusual tools and parts.
 # Each entry paraphrases a saved klr650.net post (ASD-STE100). `for.tool` is a
 # tool id from data/tools.yaml or kaw-57001-NNNN; `for.part` is a part name from
-# data/operations. `for.op` (optional) limits the note to one procedure.
+# pagedef/ops. `for.op` (optional) limits the note to one procedure.
 # `kind: warning` marks an owner warning about a substitute, not a recommendation.
 # Reviewed against the posts on 2026-11-17.
 substitutes:

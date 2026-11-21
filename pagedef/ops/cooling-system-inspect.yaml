@@ -1,0 +1,46 @@
+# Clymer Chapter Three: battery (PDF p56-57) and coolant level / cooling system inspection (PDF p69-70).
+title: "Coolant level, hoses and cooling system pressure test"
+system: "Cooling system"
+source: clymer
+chapter: 3
+section: "03/maintenance-and-inspection"
+spec_refs:
+  - "routine-checks:Radiator cap relief pressure"
+  - "cooling:Coolant mixture"
+parts:
+  - {name: "Radiator cap", replace: inspect, cite: {p: 70}, note: "If the seals are cracked or hard, if the relief valve is damaged, or if the cap fails the pressure test, replace it."}
+  - {name: "Radiator hoses and clamps", replace: inspect, cite: {p: 71}}
+  - {name: "Coolant (50/50 antifreeze/distilled water)", replace: consumable, spec_ref: "cooling:Coolant mixture", cite: {p: 69}}
+sections:
+  - title: "Coolant level"
+    steps:
+      - {kind: warning, t: "Do the inspection when the engine and the coolant are cold. If you must remove the cap when the engine is warm, put a towel over the cap and open it slowly. Do not remove the cap until all pressure is released.", cite: {p: 69}}
+      - {kind: warning, t: "Keep your hands and tools away from the fan until the engine is cool. When the engine is hot, the fan can operate with the key off.", cite: {p: 69}}
+      - {t: "Support the motorcycle so that it is vertical and level.", cite: {p: 69}}
+      - {t: "Make sure that the coolant level at the gauge on the reserve tank cover is between the low and full marks.", cite: {p: 69}, figs: [41]}
+      - {t: "If the level is low, remove the two screws that hold the reserve tank cover. Remove the cover.", cite: {p: 69}, figs: [42]}
+      - {t: "Remove the tank cap. Fill the tank to the full mark on the tank.", cite: {p: 69}, figs: [42]}
+      - {t: "Examine the hoses and the tank for leaks.", cite: {p: 69}}
+      - {t: "Install the reserve tank cover.", cite: {p: 69}}
+      - {t: "If the reserve tank was empty, also examine the radiator. The coolant must be at the bottom of the filler neck.", cite: {p: 69}, figs: [43]}
+      - {t: "If the level in the radiator is low, add coolant. Install the cap.", cite: {p: 69}, figs: [43]}
+      - {t: "Start the engine and examine it for leaks.", cite: {p: 70}}
+      - {t: "If there is coolant at the drain hole on the bottom of the water pump (A), the mechanical seal of the pump leaks.", cite: {p: 70}, figs: [44], ref: "10/water-pump"}
+      - {t: "If there is engine oil at the drain hole, the oil seal in the right crankcase cover leaks.", cite: {p: 70}, figs: [44], ref: "06/right-crankcase-cover"}
+      - {kind: caution, t: "If the coolant level continues to decrease, do a pressure test on the system. If the engine overheats, severe engine damage can occur.", cite: {p: 70}}
+  - title: "Pressure test (annually, or if overheating is suspected)"
+    steps:
+      - {t: "Use a cooling system tester. A dealer can do the test, or you can buy a tester at an auto parts store.", cite: {p: 70}}
+      - {t: "Do the test when the engine is cold.", cite: {p: 70}}
+      - {t: "Remove the radiator cap.", cite: {p: 70}}
+      - {t: "If the rubber seals of the cap are cracked, compressed or hard, or if the relief valve is damaged, replace the cap.", cite: {p: 70}}
+      - {t: "Wet the cap seal. Put the cap on the tester and pump the tester.", cite: {p: 70}, figs: [45], spec_ref: "routine-checks:Radiator cap relief pressure"}
+      - {t: "If the cap holds pressure up to the relief range, it is good.", cite: {p: 70}}
+      - {t: "If the cap does not hold pressure, or if it relieves at too high or too low a pressure, replace it.", cite: {p: 70}}
+      - {t: "Fill the radiator to the bottom of the filler neck.", cite: {p: 70}}
+      - {t: "Put the tester on the radiator. Pump to 137 kPa (20 psi).", cite: {p: 70}}
+      - {kind: caution, t: "Do not let the pressure go more than 137 kPa (20 psi). Too much pressure can cause damage to the cooling system.", cite: {p: 70}}
+      - {t: "If the system holds the pressure, it is good.", cite: {p: 70}}
+      - {t: "If the system does not hold the pressure, examine the radiator and all fittings for leaks.", cite: {p: 70}}
+      - {t: "If the pressure drops and then becomes stable, examine the hoses for swelling.", cite: {p: 70}}
+      - {t: "Repair the system until it holds the test pressure.", cite: {p: 70}}

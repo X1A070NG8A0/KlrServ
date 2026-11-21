@@ -1,0 +1,17 @@
+title: "Cam chain tensioner inspection and reset"
+system: "Engine top end"
+source: clymer
+chapter: 4
+section: "04/camshafts-and-cam-chain-tensioner"
+summary: {t: "The tensioner is a spring-loaded ratchet tensioner. When the chain wears, the plunger extends and locks against the back of the lower chain guide. This makes the chain tight again. The tensioner needs no routine maintenance, but you must reset it each time that you loosen or remove it.", cite: {p: 100}}
+parts:
+  - {name: "Cam chain tensioner gasket", replace: always, cite: {p: 100}}
+sections:
+  - steps:
+      - {t: "Remove the center bolt and disassemble the tensioner.", cite: {p: 100}, figs: [27]}
+      - {t: "Examine the parts for damage.", cite: {p: 100}}
+      - {t: "Install a new gasket when you install the tensioner.", cite: {p: 100}}
+      - {t: "Press and hold the ratchet release.", cite: {p: 100}, figs: [28]}
+      - {t: "Press the plunger into the tensioner housing until it seats.", cite: {p: 100}, figs: [28]}
+      - {t: "Do not install the spring, the washer and the bolt until you install the housing, install the camshafts and the chain, and time them.", cite: {p: 100}, op: c04-camshaft-installation}
+      - {kind: caution, t: "Do not remove the tensioner bolts partially and tighten them again. The plunger extends and locks. This makes the chain too tight and the engine can have damage.", cite: {p: 100}}

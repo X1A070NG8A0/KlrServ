@@ -1,0 +1,13 @@
+# Short inspection operations from Clymer Chapter Three, Maintenance and
+# Inspection (PDF p67).
+title: "General lubrication"
+system: "General"
+source: clymer
+chapter: 3
+section: "03/maintenance-and-inspection"
+sections:
+  - steps:
+      - {kind: note, t: "Table 1 lists \"Perform general lubrication\" but does not name a procedure.", cite: {p: 88}}
+      - {kind: note, t: "The Periodic Lubrication section of Chapter Three has the procedures for engine oil, fork oil, control cables and the drive chain. The next two steps link to the cable and chain procedures.", cite: {p: 59}}
+      - {t: "Lubricate the control cables and the lever pivots.", cite: {p: 63}, op: control-cables-lube}
+      - {t: "Lubricate the drive chain.", cite: {p: 65}, op: drive-chain-adjust-lube}

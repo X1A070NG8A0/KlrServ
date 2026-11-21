@@ -1,0 +1,61 @@
+title: "Control cable lubrication (clutch and throttle)"
+system: "Controls"
+source: clymer
+chapter: 3
+section: "03/periodic-lubrication"
+summary:
+  t: "A throttle or clutch that binds or drags can show a lack of cable lubricant or worn parts. Lubricate the pivots with lithium grease. Lubricate the cables with light oil or cable lubricant. If a cable still does not operate correctly, disconnect both ends and examine it for binding. If necessary, replace the cable."
+  cite: {p: 63}
+spec_refs:
+  - "fluids:Control cables"
+parts:
+  - {name: "Aerosol cable lubricant", replace: consumable, cite: {p: 63}}
+  - {name: "Lithium grease", replace: consumable, cite: {p: 63}}
+  - {name: "Dielectric grease (starter lockout switch)", replace: consumable, cite: {p: 64}}
+  - {name: "Clutch or throttle cable", replace: inspect, cite: {p: 63}, note: "If the cable binds or drags after lubrication, replace it."}
+sections:
+  - title: "Clutch cable and starter lockout switch"
+    steps:
+      - {t: "Flex the clutch lever hand guard off the lever assembly. Remove the hand guard.", cite: {p: 63}}
+      - {t: "Remove the pivot bolt (A) and the lower nut from the lever.", cite: {p: 63}, figs: [21]}
+      - {t: "Loosen the clutch cable locknut (B).", cite: {p: 63}, figs: [21]}
+      - {t: "Turn the adjuster (C) in until you can remove the cable and the lever from the slots in the adjuster assembly.", cite: {p: 63}, figs: [21, 22]}
+      - {t: "Remove the cable end at the release lever.", cite: {p: 63}, figs: [23]}
+      - {t: "Clean the levers, the cable ends, the pivot and the clutch lever housing.", cite: {p: 63}}
+      - {t: "Attach a cable lubricator to the cable.", cite: {p: 63}}
+      - {t: "Hold the cable vertical. Lubricate the cable with aerosol cable lubricant.", cite: {p: 63}}
+      - {t: "Move the cable in its housing. Stop when oil comes out at the opposite end.", cite: {p: 63}}
+      - {t: "Lubricate the lever pivots and the cable ends with lithium grease.", cite: {p: 63}}
+      - {t: "Attach the cable to the release lever and to the clutch lever.", cite: {p: 63}}
+      - {kind: note, t: "From time to time, open the starter lockout switch on the bottom of the clutch lever housing. Remove dirt and lubricant. Clean the contacts with electrical contact cleaner. Wipe a small quantity of dielectric grease on the contacts.", cite: {p: 63}, figs: [25]}
+      - {t: "After you assemble the switch, make sure that it operates correctly.", cite: {p: 63}}
+      - {t: "Install the lever assembly.", cite: {p: 64}}
+      - {t: "Adjust the clutch cable.", cite: {p: 64}, op: clutch-adjust}
+      - {t: "Install the hand guard.", cite: {p: 64}}
+  - title: "Throttle cables"
+    steps:
+      - {kind: note, t: "The throttle has two cables. The accelerator cable pulls the throttle open. The decelerator cable pulls the throttle closed. The two cables always move in opposite directions.", cite: {p: 64}}
+      - {t: "At the handlebar, remove the rubber boots from the cable adjusters.", cite: {p: 64}, figs: [26]}
+      - {t: "Loosen the locknuts. The top cable is the accelerator cable.", cite: {p: 64}, figs: [26]}
+      - {t: "At the carburetor, loosen the locknuts.", cite: {p: 64}, figs: [27]}
+      - {t: "Remove the cables from the holders and from the throttle valve. The left cable is the accelerator cable.", cite: {p: 64}, figs: [27]}
+      - {t: "Remove the housing screws and separate the housing parts.", cite: {p: 64}, figs: [28]}
+      - {t: "Remove the cable ends from the throttle drum.", cite: {p: 64}, figs: [29]}
+      - {t: "Remove the cable guide from the upper housing.", cite: {p: 64}, figs: [29]}
+      - {t: "Remove the cable adjusters and the cable ends from the housing.", cite: {p: 64}}
+      - {t: "Remove the grip assembly from the handlebar.", cite: {p: 64}}
+      - {t: "Clean the throttle assembly and the cable ends.", cite: {p: 64}}
+      - {t: "Hold each cable vertical. Lubricate it with aerosol cable lubricant and a cable lubricator until oil comes out at the opposite end.", cite: {p: 64}}
+      - {t: "Lubricate the throttle drum, the cable ends and the cable guide with lithium grease.", cite: {p: 64}}
+      - {t: "Install the grip.", cite: {p: 64}}
+      - {t: "Pass the cable ends through the upper housing. Pull out all slack.", cite: {p: 64}}
+      - {t: "Make sure that each cable is in its correct hole.", cite: {p: 64}}
+      - {t: "Use tape to hold the cable housings to the handlebar fittings for a short time.", cite: {p: 64}}
+      - {t: "Put the accelerator cable over the drum and the decelerator cable under it. Seat the cable ends in the drum.", cite: {p: 64}, figs: [28]}
+      - {t: "Put the cables through the cable guide. The top cable is the accelerator cable.", cite: {p: 65}, figs: [30]}
+      - {t: "Remove the tape.", cite: {p: 65}}
+      - {t: "Put the cables and the guide into the upper housing.", cite: {p: 65}}
+      - {t: "Put the assembly on the lower housing and install the screws.", cite: {p: 65}}
+      - {t: "At the carburetor, operate the throttle. Make sure that the cable ends move in the correct direction.", cite: {p: 65}}
+      - {t: "Connect the cables to the carburetor.", cite: {p: 65}}
+      - {t: "Adjust the throttle cables.", cite: {p: 65}, op: throttle-cable}

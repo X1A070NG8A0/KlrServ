@@ -1,0 +1,12 @@
+title: "Headlight adjustment"
+system: "electrical system"
+source: clymer
+chapter: 9
+section: "09/headlight"
+summary: {t: "This procedure adjusts the vertical and horizontal alignment of the headlight.", cite: {p: 233}}
+sections:
+  - steps:
+      - {t: "To adjust the vertical alignment, loosen the bolt at the rear of the light, inside the fairing.", cite: {p: 233}, figs: [73]}
+      - {t: "To adjust the horizontal alignment, turn the screw at the lower left corner of the light.", cite: {p: 233}, figs: [74]}
+      - {t: "To turn the light to the right, turn the screw in.", cite: {p: 233}}
+      - {t: "To turn the light to the left, turn the screw out.", cite: {p: 233}}

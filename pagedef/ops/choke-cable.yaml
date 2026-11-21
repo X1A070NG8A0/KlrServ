@@ -1,0 +1,16 @@
+# Clymer Chapter Three: cable adjustments, brakes and steering inspection (PDF p74-78).
+title: "Choke cable adjustment"
+system: "Controls"
+source: clymer
+chapter: 3
+section: "03/maintenance-and-inspection"
+spec_refs:
+  - "routine-checks:Choke lever free play"
+sections:
+  - steps:
+      - {t: "Move the choke lever fully left (start). Then move it fully right (run). Make sure that the cable moves freely.", cite: {p: 76}}
+      - {t: "If the cable binds, examine the cable and its attachment at the carburetor.", cite: {p: 76}}
+      - {t: "Move the lever fully right. Pull the cable housing away from the point where it enters the adjuster (A). The movement of the housing is the cable play.", cite: {p: 76}, figs: [62], spec_ref: "routine-checks:Choke lever free play"}
+      - {t: "If the play is not correct, loosen the locknut (B).", cite: {p: 76}, figs: [62]}
+      - {t: "Turn the adjuster to change the play.", cite: {p: 76}, figs: [62]}
+      - {t: "Tighten the locknut.", cite: {p: 76}, figs: [62]}

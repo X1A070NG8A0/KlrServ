@@ -1,0 +1,27 @@
+title: "Fairing removal and installation"
+system: "body"
+source: clymer
+chapter: 15
+section: "15/fairing"
+summary: {t: "This procedure removes and installs the fairing. The fairing contains the headlight and the turn signals.", cite: {p: 329}}
+parts:
+  - {name: "Dielectric grease", replace: consumable, cite: {p: 329}, note: "Apply a thin layer to the electrical connectors at installation."}
+sections:
+  - title: "Removal"
+    steps:
+      - {t: "Cover the front fender or remove it.", cite: {p: 329}}
+      - {t: "Remove the upper mounting bolt from the frame.", cite: {p: 329}, figs: [10]}
+      - {t: "If necessary, loosen the lower mounting bolt. The fairing then tilts forward.", cite: {p: 329}}
+      - {t: "Tilt the fairing forward.", cite: {p: 329}}
+      - {t: "Remove the wire ties that hold the wiring to the framework.", cite: {p: 329}}
+      - {t: "Identify the turn signal wires.", cite: {p: 329}}
+      - {t: "Disconnect the turn signal wires.", cite: {p: 329}}
+      - {t: "Unplug the headlight.", cite: {p: 329}}
+      - {t: "Remove the wires from the frame tab.", cite: {p: 329}}
+      - {t: "Support the fairing. Remove the lower mounting bolt from the frame.", cite: {p: 329}}
+      - {t: "Examine the fairing and the frame for damage.", cite: {p: 329}}
+  - title: "Installation"
+    steps:
+      - {t: "Install the fairing in the reverse order of removal.", cite: {p: 329}}
+      - {t: "Clean all the electrical connections.", cite: {p: 329}}
+      - {t: "Apply a thin layer of dielectric grease to the connectors.", cite: {p: 329}}

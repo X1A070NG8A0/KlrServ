@@ -1,0 +1,25 @@
+title: "Piston installation"
+system: "Engine top end"
+source: clymer
+chapter: 4
+section: "04/piston-and-piston-rings"
+summary: {t: "This procedure installs the piston on the connecting rod with new circlips. The arrow on the piston crown must point forward.", cite: {p: 122}}
+parts:
+  - {name: "Piston pin circlips", replace: always, cite: {p: 122}, note: "Use new circlips."}
+  - {name: "Engine oil", replace: consumable, cite: {p: 122}}
+sections:
+  - steps:
+      - {t: "Install the piston rings on the piston.", cite: {p: 122}, op: c04-piston-ring-installation}
+      - {t: "Make sure that all parts are clean.", cite: {p: 122}}
+      - {kind: caution, t: "Do not install used circlips. Circlips become weak and distort when you remove them, even if they look good. The engine can have severe damage.", cite: {p: 122}}
+      - {t: "Install a new circlip in the left piston pin boss. Turn the ends of the circlip away from the gap.", cite: {p: 122}}
+      - {kind: note, t: "When you install the circlip in the left boss, you install the other circlip at the right side of the engine, where there is more work space.", cite: {p: 122}}
+      - {t: "Lubricate the piston pin, the piston pin bores and the connecting rod bore with engine oil.", cite: {p: 122}}
+      - {t: "Start the piston pin into the open pin bore. Put the piston over the connecting rod.", cite: {p: 122}}
+      - {t: "Make sure that the arrow on the piston crown points forward.", cite: {p: 122}, figs: [100]}
+      - {kind: caution, t: "Install the piston correctly. If you do not, the engine can have severe damage.", cite: {p: 122}}
+      - {t: "Align the piston with the rod. Slide the pin through the rod and into the other piston bore.", cite: {p: 122}}
+      - {t: "Install a new circlip in the right piston pin boss. Turn the ends of the circlip away from the gap.", cite: {p: 122}}
+      - {t: "Stagger the piston ring gaps on the piston. The gaps of the top ring and the second ring are opposite each other and point to the front and the back of the piston. The oil ring rails are about 30 degrees apart and point to the sides.", cite: {p: 122}, figs: [81]}
+      - {t: "Install the cylinder.", cite: {p: 122}, op: c04-cylinder-installation}
+      - {t: "For the break-in procedures, refer to the chapter on maintenance.", cite: {p: 122}, ref: "03/engine-break-in"}

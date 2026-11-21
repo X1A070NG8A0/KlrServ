@@ -1,0 +1,54 @@
+title: "Cylinder head installation"
+system: "Engine top end"
+source: clymer
+chapter: 4
+section: "04/cylinder-head"
+summary: {t: "This procedure installs the cylinder head, tightens the head fasteners and installs the parts that you removed from the head.", cite: {p: 106}}
+spec_refs: ["top-end-torque:Cylinder head bolts (sequence in text)/10 mm, first stage", "top-end-torque:Cylinder head bolts (sequence in text)/10 mm, second stage", "top-end-torque:Cylinder head nuts", "top-end-torque:Cylinder head bolts (sequence in text)/8 mm", "top-end-torque:Cylinder head bolts (sequence in text)/6 mm", "top-end-torque:Oil pipe/Banjo bolts", "top-end-torque:Oil pipe/Retainer bolt"]
+parts:
+  - {name: "Cylinder head gasket", replace: always, cite: {p: 106}}
+  - {name: "Oil pipe seal washers", replace: always, cite: {p: 107}}
+  - {name: "Spark plug", replace: always, cite: {p: 107}, note: "Install a new spark plug.", }
+  - {name: "Molybdenum disulfide grease", replace: consumable, cite: {p: 106}}
+  - {name: "Threadlocking compound", replace: consumable, cite: {p: 98}}
+sections:
+  - title: "Cylinder head"
+    steps:
+      - {t: "Make sure that you removed all gasket residue from all mating surfaces. All surfaces of the cylinder head must be clean and dry.", cite: {p: 106}}
+      - {kind: note, t: "You can install the valve lifters and the shims after you install the cylinder head.", cite: {p: 106}}
+      - {t: "Install the rear cam chain guide in the cam chain tunnel.", cite: {p: 106}}
+      - {t: "Install the front cam chain guide and the rubber damper. Seat the guide in the notch.", cite: {p: 106}}
+      - {t: "Install the dowels and a new cylinder head gasket on the cylinder.", cite: {p: 106}, figs: [47]}
+      - {t: "Lower the cylinder head onto the engine. Route the cam chain through the head.", cite: {p: 106}}
+      - {t: "Keep tension on the cam chain so that it does not bind at the crankshaft sprocket. Secure the cam chain when the head is seated.", cite: {p: 106}}
+      - {t: "Do not move the dowels out of position when you put the head in position.", cite: {p: 106}}
+      - {t: "Cover the engine openings as necessary.", cite: {p: 106}}
+      - {t: "Apply molybdenum disulfide grease to the threads of the four cylinder head bolts (10 mm) and to the seating surface on the heads.", cite: {p: 106}, figs: [48]}
+      - {t: "Install the four 10 mm bolts. Tighten them in the sequence in the torque sequence figure. In the first pass, tighten the bolts to the first stage torque.", cite: {p: 106}, figs: [49], spec_ref: "top-end-torque:Cylinder head bolts (sequence in text)/10 mm, first stage", conflict: {note: "The supplement gives the same two torque stages for the 10 mm bolts.", agrees: true, others: [{t: "Torque the 10 mm bolts first to 20 N-m (14.5 ft-lb) and then to 65 N-m (48 ft-lb) in the tightening sequence.", cite: {s: kaw-supp, p: 32}}]}, diagram: c04-head-torque-sequence}
+      - {t: "In the second pass, tighten the 10 mm bolts to the second stage torque.", cite: {p: 106}, figs: [49], spec_ref: "top-end-torque:Cylinder head bolts (sequence in text)/10 mm, second stage"}
+      - {t: "Install the nut at the rear of the cylinder head and the nut and bolt at the front of the head. Tighten them by hand.", cite: {p: 107}, figs: [37]}
+      - {t: "Tighten the nuts in the sequence in the torque sequence figure. Tighten each nut two times before you tighten the bolt.", cite: {p: 107}, figs: [49], spec_ref: "top-end-torque:Cylinder head nuts", diagram: c04-head-torque-sequence}
+      - {kind: note, t: "A 12 mm crowfoot wrench can help. If necessary, put a torque adapter wrench on the torque wrench to get to the nuts. Adjust the torque reading when you use an adapter.", cite: {p: 107}, ref: "01/basic-tools"}
+      - {t: "Tighten the 8 mm bolt to the specified torque.", cite: {p: 107}, spec_ref: "top-end-torque:Cylinder head bolts (sequence in text)/8 mm"}
+      - {kind: note, t: "After you start the engine and it cools completely, tighten the nuts and the bolt again.", cite: {p: 107}}
+      - {t: "On 1987-1995 models, install the two 6 mm cylinder head bolts in the cam chain tunnel. On 1996-on models, these are the outer bolts that hold the upper chain guide. You install them during camshaft installation.", cite: {p: 106}}
+      - {t: "Put clean shop cloths in the cam chain tunnel to prevent parts from going into the engine.", cite: {p: 107}}
+      - {t: "Tighten the bolts with a socket and an extension in the sequence in the figure. Make sure that the socket and extension fit together tightly and cannot separate when you lower them into the tunnel.", cite: {p: 107}, figs: [49], diagram: c04-head-torque-sequence}
+      - {t: "Tighten the 6 mm bolts to the specified torque.", cite: {p: 107}, spec_ref: "top-end-torque:Cylinder head bolts (sequence in text)/6 mm", conflict: {note: "The supplement gives 9.8 N-m for the 6 mm bolts, almost the same as the Clymer value.", agrees: true, others: [{t: "Tighten the 6 mm cylinder head bolts to 9.8 N-m (87 in-lb).", cite: {s: kaw-supp, p: 32}}]}}
+  - title: "Oil pipe, lifters and shims"
+    steps:
+      - {t: "Install the oil pipe. Install new seal washers and tighten the banjo bolt to the specified torque.", cite: {p: 107}, figs: [36], spec_ref: "top-end-torque:Oil pipe/Banjo bolts"}
+      - {t: "If you removed the complete oil pipe assembly from the crankcase, align it and tighten all banjo bolts and the retainer bolt by hand before you tighten them to the torque.", cite: {p: 107}}
+      - {t: "Tighten the retainer bolt to the specified torque.", cite: {p: 107}, spec_ref: "top-end-torque:Oil pipe/Retainer bolt"}
+      - {t: "Lubricate the valve lifters with engine oil. Put them in their bores.", cite: {p: 107}, figs: [50]}
+      - {t: "Put the shims in the valve lifters. If the shim size is stamped on the shim, put the number down. The cam lobe then does not wear it away.", cite: {p: 107}, figs: [51]}
+      - {kind: note, t: "If you did not recondition or disturb the valve assembly when you removed the head, install the original shim. If the clearance was not correct before you removed the head, use the valve adjustment procedure to find the correct shim size.", cite: {p: 107}, op: valve-clearance}
+      - {kind: note, t: "If you reconditioned the valves, install the original shim now. Measure the valve clearance after you install the camshafts. It is possible that you must remove the camshafts a second time to set the valves correctly.", cite: {p: 107}}
+  - title: "Final installation"
+    steps:
+      - {t: "Install the cam chain tensioner, the camshafts and the cylinder head cover.", cite: {p: 107}, op: c04-camshaft-installation}
+      - {t: "Install a new spark plug.", cite: {p: 107}, op: spark-plug}
+      - {t: "Install the water temperature sending unit, the thermostat and the coolant hose.", cite: {p: 107}, ref: "10/thermostat"}
+      - {t: "Fill the engine with coolant.", cite: {p: 108}, op: coolant-replace}
+      - {t: "Install the carburetor.", cite: {p: 108}, ref: "08/carburetor"}
+      - {t: "Install the exhaust pipe.", cite: {p: 108}, op: c04-exhaust-system}

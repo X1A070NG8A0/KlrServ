@@ -1,0 +1,17 @@
+title: "Valve solvent test"
+system: "Engine top end"
+source: clymer
+chapter: 4
+section: "04/valves"
+summary: {t: "This test shows if the valves seat fully. It can also show cracks in the cylinder head that you did not find before. Do the test with the valve assembly in the cylinder head.", cite: {p: 108}}
+parts:
+  - {name: "Solvent or kerosene", replace: consumable, cite: {p: 108}}
+sections:
+  - steps:
+      - {t: "Remove the cylinder head.", cite: {p: 108}, op: c04-cylinder-head-removal}
+      - {t: "Make sure that the combustion chamber is dry and the valves are seated.", cite: {p: 108}}
+      - {t: "Support the cylinder head so that the port faces up.", cite: {p: 108}, figs: [52]}
+      - {t: "Pour solvent or kerosene into the port.", cite: {p: 108}}
+      - {t: "Examine the combustion chamber for leakage around the valve.", cite: {p: 108}}
+      - {t: "Do again the previous three steps for the other valves.", cite: {p: 108}}
+      - {t: "If there is leakage, the cause can be a worn or damaged valve face, a worn or damaged valve seat in the cylinder head, a bent valve stem or a crack in the combustion chamber.", cite: {p: 108}}

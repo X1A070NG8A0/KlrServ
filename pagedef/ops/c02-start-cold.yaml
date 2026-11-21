@@ -1,0 +1,20 @@
+title: "Engine start, cold engine"
+system: "troubleshooting"
+source: clymer
+chapter: 2
+section: "02/starting-the-engine"
+summary: {t: "This procedure starts a cold engine. Do the pre-ride inspection first.", cite: {p: 45}}
+sections:
+  - steps:
+      - {t: "Do the pre-ride inspection.", cite: {p: 43}, op: "c03-pre-ride-inspection"}
+      - {t: "Shift the transmission into neutral.", cite: {p: 45}}
+      - {t: "Make sure that the engine stop switch is in the run position.", cite: {p: 45}, op: "c09-starter-button-engine-stop-switch-test"}
+      - {t: "Turn the fuel valve lever from the off position to the on (vertical) position. An arrow on the fuel valve shows the lever position.", cite: {p: 45}, op: "c08-fuel-valve"}
+      - {t: "Move the choke lever fully to the left to make the air/fuel mixture richer.", cite: {p: 45}, op: "choke-cable"}
+      - {t: "Turn on the ignition switch.", cite: {p: 45}, op: "c09-ignition-switch-test"}
+      - {t: "Make sure that the neutral light comes on.", cite: {p: 45}, op: "c09-neutral-switch-test"}
+      - {t: "Press the starter button. Keep the throttle closed.", cite: {p: 45}}
+      - {kind: note, t: "The choke system on the KLR is most effective when the throttle stays completely closed during startup.", cite: {p: 45}}
+      - {t: "When the engine starts, move the choke lever gradually to the right as the engine becomes warm.", cite: {p: 45}}
+      - {t: "Let the engine idle for 1 minute, or until it responds smoothly and does not need the choke.", cite: {p: 45}}
+      - {kind: caution, t: "Do not race the engine during the warm-up period. When the engine is not at operating temperature, it can have excessive wear and damage.", cite: {p: 45}}

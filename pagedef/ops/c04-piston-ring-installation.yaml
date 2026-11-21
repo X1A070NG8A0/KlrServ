@@ -1,0 +1,18 @@
+title: "Piston ring installation"
+system: "Engine top end"
+source: clymer
+chapter: 4
+section: "04/piston-and-piston-rings"
+summary: {t: "If you install new piston rings, the cylinder must be honed to deglaze it and make a crosshatch pattern. The new surface gives lubrication pockets that help the new rings seat and seal against the cylinder.", cite: {p: 122}}
+parts:
+  - {name: "Piston rings", replace: inspect, cite: {p: 122}}
+sections:
+  - steps:
+      - {t: "If you will install new rings, have a dealership or machine shop hone the cylinder.", cite: {p: 122}, op: c04-cylinder-inspection}
+      - {t: "Make sure that the piston and the rings are clean and dry.", cite: {p: 122}}
+      - {t: "Install the oil ring expander in the bottom groove. Do not let the ends of the expander overlap.", cite: {p: 122}}
+      - {t: "Install the bottom rail and then the top rail of the oil ring. You can install the rails in either position and direction.", cite: {p: 122}}
+      - {t: "Install the second ring with the 2N mark up.", cite: {p: 122}, figs: [95], conflict: {note: "The supplement agrees. The top and second rings are not symmetrical and the marked side must face up.", agrees: true, others: [{t: "Do not mix up the top and second rings. Install them with the marked side up.", cite: {s: kaw-supp, p: 33}}]}}
+      - {t: "Install the top ring with the N mark up.", cite: {p: 122}, figs: [95]}
+      - {t: "When you install the rings, spread them only enough to clear the piston.", cite: {p: 122}}
+      - {t: "Make sure that all the rings turn freely in their grooves.", cite: {p: 122}}

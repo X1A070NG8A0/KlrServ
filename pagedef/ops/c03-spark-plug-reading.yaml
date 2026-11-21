@@ -1,0 +1,45 @@
+# Clymer Chapter Three: pre-ride inspection, break-in, service intervals, fuel and
+# lubricants, timing and compression checks, spark plug selection and reading.
+title: "Spark plug reading"
+system: "lubrication, maintenance and tune-up"
+source: clymer
+chapter: 3
+section: "03/spark-plugs"
+summary: {t: "The spark plug shows how the engine operates. When you remove the plug, compare the firing tip with the conditions in the figure.", cite: {p: 87}}
+sections:
+  - steps:
+      - {kind: caution, t: "If the plug does not read normal, find the cause before you continue to operate the engine. If you ignore an abnormal reading, severe engine damage is possible.", cite: {p: 87}}
+      - {t: "Compare the firing tip of the removed plug with the conditions in the figure.", cite: {p: 87}, figs: [86]}
+  - title: "Normal"
+    steps:
+      - {t: "A normal plug has light tan or gray deposits on the tip. The electrodes do not show erosion and the gap is correct.", cite: {p: 87}}
+      - {t: "This condition shows that the carburetion, the ignition timing and the fuel are correct, and that the heat range is correct for the conditions. You can clean the plug and use it again.", cite: {p: 87}}
+  - title: "Carbon-fouled"
+    steps:
+      - {t: "A carbon-fouled plug is black with a dry, sooty deposit on the complete plug surface. The deposit is conductive and can make electrical paths around the electrode gap. This often causes a misfire.", cite: {p: 87}}
+      - {t: "Find the cause. It can be a rich fuel mixture, a plug that is too cold, a faulty ignition component, prolonged idling, a clogged air filter or poor compression.", cite: {p: 87}}
+  - title: "Oil-fouled"
+    steps:
+      - {t: "An oil-fouled plug is wet with black, oily deposits on the electrodes and the insulator. The electrodes do not show wear.", cite: {p: 87}}
+      - {t: "Find the cause. It can be incorrect carburetor jetting, prolonged idling or a low idle speed, a plug that is too cold, worn valve guides, worn piston rings or a failure of an ignition component.", cite: {p: 87}}
+  - title: "Gap-bridged"
+    steps:
+      - {t: "A gap-bridged plug has deposits between the electrodes. The electrodes do not show wear.", cite: {p: 87}}
+      - {t: "Find the cause. It can be incorrect oil, incorrect fuel or contaminated fuel, carbon deposits in the combustion chamber, or high-speed operation after too much idling.", cite: {p: 87}}
+  - title: "Overheated"
+    steps:
+      - {t: "An overheated plug is dry. The insulator has a white or light gray color and can look blistered. The electrodes can look burnt and blue.", cite: {p: 87}}
+      - {t: "Find the cause. It can be a lean fuel mixture, a plug that is too hot, an air leak into the intake system, no crush washer on the plug, a plug that is not tightened correctly or a faulty ignition component.", cite: {p: 87}}
+  - title: "Preignition"
+    steps:
+      - {t: "A plug with preignition has electrodes that are severely eroded or melted. This condition can lead to severe engine damage.", cite: {p: 87}}
+      - {t: "Find the cause. It can be a faulty ignition component, a plug that is too hot, an air leak into the intake system or carbon deposits in the combustion chamber.", cite: {p: 87}}
+  - title: "Worn out"
+    steps:
+      - {t: "A worn out plug has electrodes that are round from normal combustion. There is no sign of abnormal combustion or engine conditions.", cite: {p: 87}}
+      - {t: "Replace the plug.", cite: {p: 87}}
+  - title: "Spark plug cap"
+    steps:
+      - {t: "Make sure that the spark plug cap fits tight on the spark plug and is in good condition.", cite: {p: 87}}
+      - {t: "A cap that does not seal and insulate the plug terminal can cause flashover (a short down the side of the plug). This is more likely in wet conditions.", cite: {p: 87}}
+      - {t: "Wipe a small quantity of dielectric grease around the inside of the cap before you install it. This prevents water from getting under the cap.", cite: {p: 87}}

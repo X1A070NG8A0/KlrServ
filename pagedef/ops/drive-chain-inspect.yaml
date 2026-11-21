@@ -1,0 +1,40 @@
+title: "Drive chain and sprocket inspection"
+system: "Final drive"
+source: clymer
+chapter: 3
+section: "03/maintenance-and-inspection"
+summary:
+  t: "A worn chain and worn sprockets are not reliable and can be dangerous. If there is wear, replace the two sprockets and the chain together. Old parts cause fast wear on new parts."
+  cite: {p: 71}
+spec_refs:
+  - "drive-chain:Drive chain length wear limit (20 links/21 pins)"
+  - "drive-chain:Sprocket sizes (standard, front/rear teeth)"
+  - "drive-chain:Drive chain/Number of links"
+parts:
+  - {name: "Drive chain", replace: inspect, cite: {p: 72}, note: "If the 20-link length is 323 mm (12.7 in.) or more, replace the chain. If the wear is not normal, replace the chain."}
+  - {name: "Front and rear sprockets", replace: inspect, cite: {p: 73}, note: "If one sprocket is worn out, replace both. When you install a new chain, replace both."}
+  - {name: "Chain slider", replace: inspect, cite: {p: 74}}
+  - {name: "Chain guide", replace: inspect, cite: {p: 74}}
+sections:
+  - title: "Chain and sprockets"
+    steps:
+      - {t: "Pull one link away from the rear sprocket.", cite: {p: 72}, figs: [47]}
+      - {t: "If you can see more than half the height of the sprocket tooth, measure the chain length.", cite: {p: 72}, figs: [47]}
+      - {t: "If the chain is on the motorcycle, loosen the axle nut. Turn the adjusters equally to remove all play from the top run.", cite: {p: 72}}
+      - {t: "If the chain is off the motorcycle, put it flat and pull the ends to remove the slack.", cite: {p: 72}}
+      - {t: "Measure any 20-link (21-pin) length, from center to center of the pins.", cite: {p: 72}, figs: [48], spec_ref: "drive-chain:Drive chain length wear limit (20 links/21 pins)"}
+      - {t: "If the length is equal to or more than the service limit, replace the chain.", cite: {p: 72}, spec_ref: "drive-chain:Drive chain length wear limit (20 links/21 pins)"}
+      - {t: "If the chain is in the limit, examine the inside surfaces of the link plates. They must be shiny at the two ends of the roller.", cite: {p: 72}}
+      - {t: "If the wear is on one side only, the chain ran out of alignment. This also causes wear on the rollers and pins.", cite: {p: 72}}
+      - {t: "If the wear is not normal, replace the chain.", cite: {p: 72}}
+      - {t: "Compare each sprocket to the profile of a new sprocket. The teeth of a new sprocket are symmetrical and uniform. A used sprocket wears on the back side of each tooth.", cite: {p: 73}, figs: [49, 50]}
+      - {t: "If a sprocket has other damage, replace it. If you install a new chain, replace the sprockets.", cite: {p: 73}}
+      - {t: "If one sprocket is worn out, replace both sprockets.", cite: {p: 73}}
+  - title: "Slider, guard and guide"
+    steps:
+      - {t: "Examine the upper and lower surfaces of the chain slider for wear or damage. If the slider is worn or missing, the chain touches the swing arm.", cite: {p: 74}, figs: [54]}
+      - {t: "Make sure that the mounting screws of the chain slider are tight.", cite: {p: 74}, figs: [54]}
+      - {t: "Examine the chain guard (A) for damage. Make sure that its clearance is correct.", cite: {p: 74}, figs: [55]}
+      - {t: "Make sure that the mounting bolts of the chain guard are tight.", cite: {p: 74}, figs: [55]}
+      - {t: "Examine the sliding surface of the chain guide (B) for wear or damage. A torn or broken guide can catch the chain.", cite: {p: 74}, figs: [55]}
+      - {t: "Make sure that the mounting bolts of the chain guide are tight.", cite: {p: 74}, figs: [55]}

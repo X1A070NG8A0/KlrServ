@@ -1,0 +1,59 @@
+title: "Front brake caliper disassembly, inspection and assembly"
+system: "brakes"
+source: clymer
+chapter: 14
+section: "14/front-brake-caliper"
+summary: {t: "Disassemble the front caliper, examine the parts and assemble it with new seals.", cite: {p: 300}}
+parts:
+  - {name: "Caliper piston seal", replace: always, cite: {p: 300}, note: "Install a new seal."}
+  - {name: "Caliper piston boot", replace: always, cite: {p: 300}, note: "Install a new boot."}
+  - {name: "DOT 4 brake fluid (sealed container)", replace: consumable, spec_ref: "fluids:Brake fluid type", cite: {p: 302}}
+  - {name: "Silicone brake grease", replace: consumable, cite: {p: 303}}
+sections:
+  - title: "Disassembly"
+    steps:
+      - {t: "Remove the caliper.", cite: {p: 300}, op: c14-front-caliper-remove}
+      - {t: "Press down on the pads to release the pressure on the pad pin. Remove the lock pin and the pad pin.", cite: {p: 300}, figs: [12]}
+      - {t: "Pivot the outer pad and remove it. Then remove the inner pad and the pad spring.", cite: {p: 300}, figs: [13]}
+      - {t: "Remove the caliper holder and the boots.", cite: {p: 300}, figs: [14]}
+      - {t: "Remove the piston from the caliper bore with compressed air. Read the next steps fully before you start.", cite: {p: 300}}
+      - {kind: caution, t: "Do not pry the piston out of the caliper.", cite: {p: 300}}
+      - {t: "Put the caliper on a padded work surface.", cite: {p: 301}}
+      - {t: "Close the bleeder valve on the caliper so that air cannot escape.", cite: {p: 301}}
+      - {t: "Put a strip of wood in the caliper to cushion the piston when it comes out.", cite: {p: 301}}
+      - {kind: warning, t: "Wear eye protection when you use compressed air to remove the piston. Keep your fingers away from the piston discharge area. If you try to stop the piston with your fingers, injury can occur.", cite: {p: 301}}
+      - {t: "Lay the caliper so that the piston discharges downward.", cite: {p: 301}}
+      - {t: "Put an air nozzle in the brake hose fitting. If the nozzle has no rubber tip, wrap tape on it. The nozzle then seals tightly and does not damage the threads.", cite: {p: 301}}
+      - {t: "Put a shop cloth over the full caliper to catch spray.", cite: {p: 301}}
+      - {t: "Apply air pressure. Listen for the piston to pop out of the caliper.", cite: {p: 301}, figs: [15]}
+      - {t: "Remove the piston boot and the seal from the cylinder bore.", cite: {p: 301}, figs: [16]}
+      - {t: "Remove the bleeder valve and the cap from the caliper.", cite: {p: 301}}
+  - title: "Inspection"
+    steps:
+      - {t: "Clean the parts that you will use again with fresh brake fluid or isopropyl (rubbing) alcohol.", cite: {p: 301}}
+      - {t: "Clean the seal and boot grooves of the caliper with a tool that has a wood or plastic tip. Clean the piston, the bore and the seal grooves with clean brake fluid.", cite: {p: 301}}
+      - {t: "Examine the cylinder bore and the piston for wear, pitting and corrosion. Kawasaki does not give service limits.", cite: {p: 301}, figs: [17]}
+      - {t: "Examine the caliper holder and the slide pins for wear, pitting and corrosion.", cite: {p: 301}, figs: [18]}
+      - {t: "Examine the boots for deterioration.", cite: {p: 301}}
+      - {t: "Examine the pad pin, the lock pin and the pad spring. If they are worn, corroded or damaged, replace them.", cite: {p: 301}, figs: [19]}
+      - {t: "Examine all threaded parts. Make sure that the threads and seats have no corrosion or damage.", cite: {p: 302}, figs: [20]}
+      - {t: "Examine the pads for contamination, scoring and wear. If the pads are worn to within 1 mm (0.040 in.) of the backing plate, or if oil or other chemicals contaminate them, replace them.", cite: {p: 302}, spec_ref: "brakes:Pad lining thickness"}
+      - {t: "If the pads wear unevenly, the caliper probably does not slide correctly on the slide pins. Clean the pins. The caliper must float freely on the pins.", cite: {p: 302}}
+  - title: "Assembly"
+    steps:
+      - {kind: note, t: "Use new DOT 4 brake fluid to lubricate the parts in the next steps.", cite: {p: 302}, spec_ref: "fluids:Brake fluid type"}
+      - {t: "Soak the new piston seal and the new boot in brake fluid for 15 minutes.", cite: {p: 302}, figs: [21]}
+      - {t: "Put brake fluid on the caliper bore and on the piston.", cite: {p: 303}}
+      - {t: "Seat the seal in the caliper groove, then the boot. The piston seal goes in the back groove.", cite: {p: 303}, figs: [22]}
+      - {t: "Install the piston with the insulator toward the outside. Twist the piston past the seal and the boot. Then press the piston to the bottom of the bore.", cite: {p: 303}, figs: [23]}
+      - {t: "Put silicone brake grease on the inside of the boots. Install the boots on the caliper.", cite: {p: 303}}
+      - {t: "If necessary, put a thin layer of grease on the outside of the large boot. This helps to pass it through the caliper.", cite: {p: 303}}
+      - {t: "Lubricate the slide pins on the caliper holder. Put them in the boots.", cite: {p: 303}}
+      - {t: "Press the holder against the boots. Lift the boots carefully onto the holder seats.", cite: {p: 303}, figs: [24]}
+      - {t: "Install the pad spring with the narrow arms toward the outside. Seat the spring in the caliper.", cite: {p: 303}, figs: [25]}
+      - {t: "Install the inner pad. Seat it in the pad spring and the caliper.", cite: {p: 303}, figs: [26]}
+      - {t: "Pivot the outer pad into the caliper. Seat it between the small tabs at the top and bottom of the pad spring.", cite: {p: 303}}
+      - {t: "Press down on the pads. Align the pad pin and install it.", cite: {p: 303}, figs: [27]}
+      - {t: "Put the lock pin in the pad pin. Lock it in position.", cite: {p: 303}, figs: [28]}
+      - {t: "Install the bleeder valve and the cap.", cite: {p: 303}}
+      - {t: "Install the caliper.", cite: {p: 303}, op: c14-front-caliper-remove}

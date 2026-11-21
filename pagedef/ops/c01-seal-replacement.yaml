@@ -1,0 +1,17 @@
+title: "Seal replacement"
+system: "General information"
+source: clymer
+chapter: 1
+section: "01/repair-methods"
+summary: {t: "Seals keep oil, water, grease or combustion gases in a housing or on a shaft. A bad removal method can damage the housing or shaft. A bad installation method can damage the seal.", cite: {p: 38}}
+parts:
+  - {name: "Seal", replace: always, cite: {p: 38}}
+  - {name: "Waterproof grease", replace: consumable, cite: {p: 38}}
+sections:
+  - steps:
+      - {t: "Put a shop cloth under the pry tool. This prevents damage to the housing.", cite: {p: 38}}
+      - {t: "Pry the seal out of the housing.", cite: {p: 38}}
+      - {t: "Pack waterproof grease in the seal lips.", cite: {p: 38}}
+      - {t: "Install the seal with the numbers or marks of the manufacturer toward the outside.", cite: {p: 38}}
+      - {t: "Put a socket on the outside of the seal. Drive the seal squarely into the housing.", cite: {p: 38}}
+      - {kind: caution, t: "Do not install a seal by hitting the top of the seal with a hammer.", cite: {p: 38}}

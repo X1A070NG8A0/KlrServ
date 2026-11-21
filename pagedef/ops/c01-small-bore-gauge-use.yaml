@@ -1,0 +1,13 @@
+title: "Small-bore gauge use"
+system: "General information"
+source: clymer
+chapter: 1
+section: "01/precision-measuring-tools"
+summary: {t: "A small-bore (small-hole) gauge measures small bores, usually valve guides. The gauge has no scale. Use an outside micrometer to get the reading.", cite: {p: 32}}
+sections:
+  - steps:
+      - {t: "Select the correct size gauge for the bore.", cite: {p: 32}}
+      - {t: "Carefully put the gauge into the bore.", cite: {p: 32}}
+      - {t: "Tighten the knurled end of the gauge to expand the gauge fingers to the limit in the bore.", cite: {p: 32}}
+      - {kind: caution, t: "Do not overtighten the gauge. It has no built-in release. Too much force can damage the bore surface and the tool.", cite: {p: 32}}
+      - {t: "Remove the gauge. Measure the outside dimension with an outside micrometer.", cite: {p: 32}}

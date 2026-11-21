@@ -1,0 +1,18 @@
+# Clymer Chapter Three: chassis checks and engine tune-up (PDF p79-82).
+title: "Swing arm bearing inspection"
+system: "Rear suspension"
+source: clymer
+chapter: 3
+section: "03/maintenance-and-inspection"
+summary:
+  t: "This is a general side-to-side check of the swing arm bearings. Chapter Thirteen has the full inspection of the bearings and pivots for side and vertical wear."
+  cite: {p: 79}
+spec_refs:
+  - "rear-suspension-torque:Swing arm pivot bolt"
+sections:
+  - steps:
+      - {t: "Support the motorcycle so that the rear wheel is off the ground.", cite: {p: 79}}
+      - {t: "Ask an assistant to hold the motorcycle steady.", cite: {p: 79}}
+      - {t: "Hold the ends of the swing arm. Move the swing arm from side to side.", cite: {p: 79}}
+      - {t: "If you can feel play, service the swing arm.", cite: {p: 79}, ref: "13/swing-arm-service",
+         gap: "Table 1 calls this \"Inspect/lubricate swing arm linkage\". The lubrication procedure is in Chapter Thirteen. That chapter is not yet written in this wiki."}

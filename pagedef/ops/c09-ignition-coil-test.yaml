@@ -1,0 +1,18 @@
+title: "Ignition coil test"
+system: "electrical system"
+source: clymer
+chapter: 9
+section: "09/ignition-system"
+summary: {t: "The ignition coil is on the right side of the motorcycle. Measure the resistance of the primary and secondary coils.", cite: {p: 219}}
+spec_refs: ["electrical-test:Ignition coil resistance/Primary coil", "electrical-test:Ignition coil resistance/Secondary coil (spark plug lead cap removed)"]
+sections:
+  - steps:
+      - {t: "Remove the fuel tank.", cite: {p: 219}, ref: "15/fuel-tank"}
+      - {t: "Disconnect the black/yellow wire and the black wire at the coil.", cite: {p: 219}, figs: [50]}
+      - {t: "Remove the spark plug cap from the plug.", cite: {p: 219}}
+      - {t: "Connect the meter probes to the terminals on the coil.", cite: {p: 219}}
+      - {t: "Measure the primary coil resistance. Compare it with the specification.", cite: {p: 219}, spec_ref: "electrical-test:Ignition coil resistance/Primary coil"}
+      - {t: "Remove the spark plug cap from the spark plug lead.", cite: {p: 219}}
+      - {t: "Connect one meter probe to the spark plug lead and the other meter probe to the terminal for the black/yellow wire.", cite: {p: 219}}
+      - {t: "Measure the secondary coil resistance. Compare it with the specification.", cite: {p: 219}, spec_ref: "electrical-test:Ignition coil resistance/Secondary coil (spark plug lead cap removed)"}
+      - {kind: note, t: "If the coil and the spark plug lead pass the tests, the spark plug cap can be faulty. Kawasaki does not specify a resistance for the cap. The cap on the model that Clymer shows measures 5.5K ohms. You can use this value as a guide.", cite: {p: 220}}

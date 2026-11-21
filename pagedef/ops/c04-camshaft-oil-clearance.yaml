@@ -1,0 +1,27 @@
+title: "Camshaft bearing oil clearance measurement"
+system: "Engine top end"
+source: clymer
+chapter: 4
+section: "04/camshafts-and-cam-chain-tensioner"
+summary: {t: "This procedure uses a Plastigauge kit to measure the oil clearance between each camshaft and the cap bearing surface. You install the parts temporarily with a strip of Plastigauge under each cap.", cite: {p: 102}}
+spec_refs: ["top-end:Camshaft/Bearing oil clearance", "top-end-torque:Camshaft cap bolts"]
+parts:
+  - {name: "Plastigauge kit", replace: consumable, cite: {p: 102}}
+sections:
+  - steps:
+      - {t: "Put clean shop cloths in the cam chain tunnel. This prevents parts from going into the engine.", cite: {p: 102}}
+      - {t: "Install the camshafts in the cylinder head. The compression release is on the exhaust camshaft.", cite: {p: 102}}
+      - {t: "Make sure that the shoulder at the left end of each camshaft seats in the head.", cite: {p: 102}}
+      - {t: "Turn the camshafts so that the cam lobes are horizontal and do not touch the valve lifters. You do not have to install the chain on the camshafts.", cite: {p: 102}}
+      - {t: "Put a strip of Plastigauge on each camshaft journal, parallel to the camshaft.", cite: {p: 102}}
+      - {t: "Install the cap and the dowels at each location. On the left journals, align the Plastigauge so that it touches a flat surface on the inside of the cap.", cite: {p: 102}}
+      - {t: "Tighten the cap bolts by hand.", cite: {p: 102}}
+      - {t: "To seat the camshafts, lightly tighten bolts 1 and 2 on the left caps.", cite: {p: 102}, figs: [25]}
+      - {t: "For each camshaft, tighten the cap bolts in the numerical sequence in the figure. Do the work in several passes and increase the torque evenly on the caps.", cite: {p: 102}, figs: [25], spec_ref: "top-end-torque:Camshaft cap bolts", diagram: c04-camshaft-cap-sequence}
+      - {kind: caution, t: "Tighten the camshaft caps evenly. If you do not, the cylinder head, the camshafts or the caps can have damage.", cite: {p: 102}}
+      - {kind: note, t: "Do not let the camshaft turn while the Plastigauge is between the parts.", cite: {p: 102}}
+      - {t: "Loosen the cap bolts equally in several passes.", cite: {p: 102}}
+      - {t: "Remove the caps, the dowels and the Plastigauge strips. Keep each strip with its cap.", cite: {p: 103}}
+      - {t: "Measure the width of each Plastigauge strip with the scale in the kit. This gives the oil clearance.", cite: {p: 103}, figs: [34], spec_ref: "top-end:Camshaft/Bearing oil clearance"}
+      - {t: "If the oil clearance is not in specification, measure the camshaft journal to find which parts are worn.", cite: {p: 103}, spec_ref: "top-end:Camshaft/Journal outside diameter"}
+      - {t: "Replace the camshaft, the cylinder head or, if necessary, both parts.", cite: {p: 103}}

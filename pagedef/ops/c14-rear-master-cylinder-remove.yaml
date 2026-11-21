@@ -1,0 +1,29 @@
+title: "Rear master cylinder removal and installation"
+system: "brakes"
+source: clymer
+chapter: 14
+section: "14/rear-master-cylinder"
+summary: {t: "Remove the rear master cylinder and the brake fluid reservoir from the motorcycle.", cite: {p: 317}}
+spec_refs:
+  - "brake-torque:Master cylinder mounting bolts/Rear"
+  - "brake-torque:Brake hose banjo bolts"
+parts:
+  - {name: "Banjo bolt seal washers", replace: always, cite: {p: 317}, note: "Install new seal washers on the banjo bolt."}
+  - {name: "Clevis pin cotter pin", replace: always, cite: {p: 317}, note: "Install a new cotter pin on the clevis pin."}
+sections:
+  - title: "Removal"
+    steps:
+      - {t: "Drain the brake system.", cite: {p: 317}, op: brake-fluid-replace}
+      - {t: "Remove the cotter pin and the clevis pin that hold the master cylinder clevis to the brake pedal.", cite: {p: 317}, figs: [76]}
+      - {t: "Remove the reservoir cover.", cite: {p: 317}, figs: [77]}
+      - {t: "Remove the back plate and the reservoir bolt.", cite: {p: 317}, figs: [78]}
+      - {t: "Remove the banjo bolt and the seal washers from the brake hose. Keep a shop cloth ready for fluid that drips from the hose.", cite: {p: 317}, figs: [79]}
+      - {t: "Wrap the end of the hose. This prevents damage to other surfaces from brake fluid.", cite: {p: 317}}
+      - {t: "Remove the master cylinder mounting bolts.", cite: {p: 317}, figs: [79]}
+      - {t: "Repair the master cylinder if necessary.", cite: {p: 317}, op: c14-rear-master-cylinder-repair}
+  - title: "Installation"
+    steps:
+      - {t: "Install the master cylinder and the reservoir. Tighten the master cylinder mounting bolts to the specified torque.", cite: {p: 317}, spec_ref: "brake-torque:Master cylinder mounting bolts/Rear"}
+      - {t: "Install new seal washers on the banjo bolt. Install the bolt and tighten it to the specified torque.", cite: {p: 317}, spec_ref: "brake-torque:Brake hose banjo bolts"}
+      - {t: "Install the clevis pin. Install a new cotter pin on the clevis pin.", cite: {p: 317}}
+      - {t: "Fill the brake fluid reservoir and bleed the brake system.", cite: {p: 317}, op: brake-fluid-replace}

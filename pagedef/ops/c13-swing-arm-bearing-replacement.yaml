@@ -1,0 +1,54 @@
+title: "Swing arm bearing replacement"
+system: "Rear suspension"
+source: clymer
+chapter: 13
+section: "13/swing-arm-service"
+summary: {t: "This procedure replaces the needle bearings in the swing arm. Use a press or use hand tools with a drawbolt. Read both methods to find the best one. If you are not sure, let a dealer or a machine shop replace the bearings.", cite: {p: 292}}
+parts:
+  - {name: "Swing arm needle bearings", replace: always, cite: {p: 292}, note: "For the lever arm bore, replace both bearings. For the swing arm pivot bores, replace the bearing in each bore. Do not mix new and worn bearings on the same pivot bolt."}
+  - {name: "Penetrating oil", replace: consumable, cite: {p: 293}}
+  - {name: "Molydisulfide grease or waterproof grease", replace: consumable, cite: {p: 293}}
+sections:
+  - title: "Preparation"
+    steps:
+      - {t: "Remove all seals, spacers and guards from the swing arm.", cite: {p: 292}}
+      - {kind: warning, t: "If you use heat to remove the bearings, prevent burning of finished or combustible surfaces. Remove parts that heat can damage. Fire and burns can occur.", cite: {p: 292}}
+      - {kind: warning, t: "Keep the heat source moving at a steady rate. Do not heat the bearing. Work in a well-ventilated area, away from combustible materials. Wear eye protection, insulated gloves and protective clothing.", cite: {p: 293}}
+      - {kind: note, t: "The heat from a heat gun or a propane torch slightly expands the bores. The bearings then come out with less force. This helps most with bearings that have much corrosion.", cite: {p: 293}}
+  - title: "Press method"
+    steps:
+      - {t: "Apply penetrating oil to the bearings and the bore.", cite: {p: 293}}
+      - {t: "If necessary, heat the area around the bearings.", cite: {p: 293}}
+      - {t: "Support the swing arm in a press. Put the bearing bore over a large socket so that the bearing can go out of the bore.", cite: {p: 293}, figs: [51]}
+      - {t: "The lower socket must fit on the edge of the bore and be large enough to hold the removed bearing.", cite: {p: 293}}
+      - {t: "Put a driver through the upper swing arm bore to the lower bore.", cite: {p: 293}, figs: [51]}
+      - {t: "Put a socket or a driver squarely against the bearing. The driver must pass through the bore and be longer than the bore depth.", cite: {p: 293}, figs: [51]}
+      - {t: "Press the bearing out of the arm.", cite: {p: 293}}
+      - {t: "Turn the swing arm over. Do again for the other arm.", cite: {p: 293}}
+      - {t: "Clean and examine the mounting bores.", cite: {p: 293}}
+      - {t: "Lubricate the new bearings with grease.", cite: {p: 293}}
+      - {t: "Support the swing arm bore on a flat, stable surface. You do not need the lower socket.", cite: {p: 293}}
+      - {t: "Put the new bearing squarely over the bore with the manufacturer marks out.", cite: {p: 293}}
+      - {t: "Put a socket or a driver squarely against the bearing. Drive the bearing into the swing arm.", cite: {p: 293}}
+      - {t: "When the driver starts to enter the bore, frequently measure the bearing depth.", cite: {p: 293}, figs: [52, 53]}
+      - {t: "Drive all bearings in the swing arm to 5 mm below the outer edge of the bore. The seals must seat in the bore.", cite: {p: 293}}
+      - {t: "Drive in the other bearings.", cite: {p: 293}}
+      - {t: "Complete the assembly.", cite: {p: 293}, op: c13-swing-arm-inspection}
+  - title: "Hand tool method"
+    steps:
+      - {kind: note, t: "Make the drawbolt from a bolt, a nut, washers and sockets. The driver is a socket that passes through the bore and is longer than the bore depth. The large socket fits on the edge of the bore and holds the removed bearings. Motion Pro makes a similar tool, part No. 08-213.", cite: {p: 294}, figs: [54, 55]}
+      - {t: "Apply penetrating oil to the bearings and the bore.", cite: {p: 294}}
+      - {t: "If necessary, heat the area around the bearings.", cite: {p: 294}}
+      - {t: "Assemble the tool.", cite: {p: 294}, figs: [56]}
+      - {t: "Tighten the nut by hand until the assembly is square against the bearing and the contact points on the swing arm.", cite: {p: 294}}
+      - {t: "Turn the nut to drive the bearing into the large socket.", cite: {p: 294}}
+      - {t: "Clean and examine the bearing bore.", cite: {p: 294}}
+      - {t: "Lubricate the new bearings with grease.", cite: {p: 294}}
+      - {t: "Put the bearing squarely on the outer face of the bore. The manufacturer marks must be out.", cite: {p: 294}}
+      - {t: "In a bore with two bearings, install each bearing from the nearest end of the bore.", cite: {p: 294}}
+      - {t: "Turn the tool around. Tighten the nut by hand until the tool and the bearing are square with the bore.", cite: {p: 294}}
+      - {kind: note, t: "You can now use a thick washer of large diameter in place of the large socket. This makes the assembly easier to handle.", cite: {p: 294}}
+      - {t: "Drive the bearing into the swing arm. When the driver starts to enter the bore, frequently measure the bearing depth.", cite: {p: 294}, figs: [53]}
+      - {t: "Drive all bearings in the swing arm to 5 mm below the outer edge of the bore. The seals must seat in the bore.", cite: {p: 294}}
+      - {t: "Drive in the other bearings.", cite: {p: 294}}
+      - {t: "Complete the assembly.", cite: {p: 294}, op: c13-swing-arm-inspection}

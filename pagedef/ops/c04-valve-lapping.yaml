@@ -1,0 +1,20 @@
+title: "Valve lapping"
+system: "Engine top end"
+source: clymer
+chapter: 4
+section: "04/valves"
+summary: {t: "Valve lapping restores an accurate seal between the valve seat and the valve contact area, without machining. Lap valves and valve seats that are in specification after inspection. Also lap them after they are reconditioned.", cite: {p: 112}}
+parts:
+  - {name: "Fine-grade lapping compound", replace: consumable, cite: {p: 113}}
+sections:
+  - steps:
+      - {t: "Apply a thin layer of fine-grade lapping compound to the valve face.", cite: {p: 113}}
+      - {t: "Lubricate the valve stem. Put the valve into the head.", cite: {p: 113}}
+      - {t: "Wet the suction cup on the lapping tool. Press it onto the head of the valve.", cite: {p: 113}, figs: [67]}
+      - {t: "Spin the tool back and forth between your hands to lap the valve to the seat.", cite: {p: 113}}
+      - {t: "Every 5 to 10 seconds, turn the valve 180 degrees and continue to lap.", cite: {p: 113}}
+      - {t: "Frequently examine the valve seat. Stop when the valve seat is smooth, even and polished.", cite: {p: 113}, figs: [68]}
+      - {t: "Keep each lapped valve identified so that you install it in the correct seat during assembly.", cite: {p: 113}}
+      - {t: "Clean the valves and the cylinder head in solvent. Remove all lapping compound.", cite: {p: 113}}
+      - {kind: caution, t: "Abrasive that stays in the head causes early wear and damage to other engine parts.", cite: {p: 113}}
+      - {t: "After you install the valves in the head, do the solvent test. If there is leakage, remove that valve and do the lapping again.", cite: {p: 113}, op: c04-valve-solvent-test}

@@ -1,0 +1,58 @@
+title: "Rear master cylinder disassembly, inspection and assembly"
+system: "brakes"
+source: clymer
+chapter: 14
+section: "14/rear-master-cylinder"
+summary: {t: "Disassemble the rear master cylinder, examine the parts and assemble it with new parts. The piston, the seals and the spring are only available as a complete assembly.", cite: {p: 317}}
+parts:
+  - {name: "Master cylinder piston, seals and spring assembly", replace: always, cite: {p: 317}, note: "These parts are only available as a complete assembly."}
+  - {name: "Hose fitting O-ring", replace: always, cite: {p: 320}, note: "Install a new, lubricated O-ring."}
+  - {name: "DOT 4 brake fluid (sealed container)", replace: consumable, spec_ref: "fluids:Brake fluid type", cite: {p: 319}}
+  - {name: "Silicone brake grease", replace: consumable, cite: {p: 320}}
+sections:
+  - title: "Disassembly"
+    steps:
+      - {t: "Remove the master cylinder and the reservoir.", cite: {p: 317}, op: c14-rear-master-cylinder-remove}
+      - {t: "Remove the snap ring that holds the hose and fitting against the master cylinder.", cite: {p: 317}, figs: [80]}
+      - {t: "Remove the hose assembly and the internal O-ring.", cite: {p: 317}}
+      - {t: "Remove the clevis and the locknuts.", cite: {p: 318}, figs: [81]}
+      - {t: "Remove the boot from the pushrod. The boot is a friction fit. To prevent damage, put penetrating lubricant around the boot. Pull the bottom edge back carefully so that the lubricant can loosen the boot.", cite: {p: 318}, figs: [82]}
+      - {t: "Hold the cylinder in a vise with soft jaws.", cite: {p: 318}}
+      - {t: "Screw a locknut on the end of the pushrod. This gives a larger area to press.", cite: {p: 318}, figs: [83]}
+      - {t: "Press down on the pushrod to release the pressure on the snap ring. Remove the snap ring with snap ring pliers.", cite: {p: 318}}
+      - {t: "Release the pressure on the piston slowly.", cite: {p: 318}}
+      - {t: "Remove the piston and pushrod assembly from the bore.", cite: {p: 318}, figs: [84]}
+  - title: "Inspection"
+    steps:
+      - {t: "Clean the parts that you will use again with fresh brake fluid or isopropyl (rubbing) alcohol.", cite: {p: 318}}
+      - {t: "Examine the cylinder bore for wear, pitting and corrosion.", cite: {p: 319}, figs: [85]}
+      - {t: "Clean the threads and the orifices in the master cylinder with compressed air. Examine them.", cite: {p: 319}, figs: [86]}
+      - {t: "Examine the boot, the snap ring and the pushrod for corrosion and damage.", cite: {p: 319}, figs: [87]}
+      - {t: "Examine the clevis and the pin for wear at their contact points.", cite: {p: 319}, figs: [88]}
+      - {t: "Examine the diaphragm, the diaphragm plate and the reservoir cap for damage.", cite: {p: 319}, figs: [89]}
+      - {t: "Examine the reservoir hose and the fittings for damage.", cite: {p: 319}}
+  - title: "Assembly"
+    steps:
+      - {t: "Soak the primary seal and the secondary cup in fresh DOT 4 brake fluid for 15 minutes. This softens and lubricates the seals.", cite: {p: 319}, figs: [90]}
+      - {t: "Put brake fluid on the piston so that the cups can slide over the ends.", cite: {p: 319}}
+      - {t: "Find the wide (open) side of the primary seal. Install the seal on the piston so that the wide side faces in the direction of the arrow.", cite: {p: 319}, figs: [91]}
+      - {t: "Find the wide (open) side of the secondary seal. Install the seal on the piston so that the wide side faces in the direction of the arrow.", cite: {p: 319}, figs: [91]}
+      - {t: "Install the small end of the spring on the piston. Seat it.", cite: {p: 319}}
+      - {t: "Lubricate the cylinder bore and the piston assembly with brake fluid.", cite: {p: 319}}
+      - {t: "Put a small quantity of silicone brake grease on the contact area of the pushrod.", cite: {p: 320}}
+      - {t: "Put the piston in the cylinder and seat it.", cite: {p: 320}, figs: [92]}
+      - {t: "Hold the cylinder in a vise with soft jaws.", cite: {p: 320}}
+      - {kind: caution, t: "Do not tighten the vise too much. This can damage the cylinder.", cite: {p: 320}}
+      - {t: "Screw a nut on the end of the pushrod. Rest the pushrod in the cylinder. The nut gives a larger area to press.", cite: {p: 320}, figs: [83]}
+      - {t: "Put the snap ring over the end of the pushrod. Rest it on the edge of the bore. The flat side of the snap ring must face out.", cite: {p: 320}}
+      - {t: "Compress the snap ring with snap ring pliers.", cite: {p: 320}}
+      - {t: "Press the pushrod into the cylinder. Guide the snap ring into position.", cite: {p: 320}}
+      - {t: "If the snap ring does not seat easily, release it. Use the tip of the pliers to press it into the groove. Keep the pushrod compressed until the snap ring seats.", cite: {p: 320}}
+      - {t: "Remove the cylinder from the vise. Remove the nut from the pushrod.", cite: {p: 320}}
+      - {t: "Put silicone brake grease inside the boot. Seat the boot in the cylinder.", cite: {p: 320}}
+      - {t: "Install the clevis and the locknuts.", cite: {p: 320}}
+      - {t: "Adjust the clevis and lock it so that the pushrod threads extend 3-3.5 mm (0.12-0.14 in.) below the nut. This sets the correct brake pedal height.", cite: {p: 320}, figs: [93]}
+      - {t: "Install a new, lubricated O-ring in the master cylinder. Lock the hose and fitting in position.", cite: {p: 320}, figs: [94]}
+      - {t: "Install the snap ring with the flat side toward the outside.", cite: {p: 320}}
+      - {t: "Install the diaphragm, the diaphragm plate and the cap loosely on the reservoir.", cite: {p: 320}}
+      - {t: "Install the master cylinder and the reservoir.", cite: {p: 320}, op: c14-rear-master-cylinder-remove}

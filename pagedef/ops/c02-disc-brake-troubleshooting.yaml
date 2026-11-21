@@ -1,0 +1,59 @@
+title: "Disc brake troubleshooting"
+system: "troubleshooting"
+source: clymer
+chapter: 2
+section: "02/brakes"
+summary: {t: "The disc brakes are critical to riding performance and safety. Replace worn or damaged parts at once. Both brakes use DOT 4 brake fluid. Always use new fluid from a sealed container.", cite: {p: 52}}
+sections:
+  - steps:
+      - {kind: note, t: "When you examine the brake pads, make sure that the pads in each caliper touch the disc squarely. Uneven pad wear on one side of the disc can show a warped or bent disc, a damaged caliper or damaged pad pins.", cite: {p: 54}}
+  - title: "Brake fluid leakage"
+    steps:
+      - {t: "Examine the line fittings for looseness or damage.", cite: {p: 52}, op: "brake-hoses"}
+      - {t: "Examine the caliper piston seals for wear.", cite: {p: 52}, op: "c14-front-caliper-repair"}
+      - {t: "Examine the caliper piston and the bore for scoring.", cite: {p: 52}, op: "c14-front-caliper-repair"}
+      - {t: "Make sure that the banjo bolts are not loose.", cite: {p: 52}, op: "brake-hoses"}
+      - {t: "Examine the oil line washers for damage.", cite: {p: 52}, op: "brake-hoses"}
+      - {t: "Examine the master cylinder diaphragm for a leak.", cite: {p: 52}, op: "c14-front-master-cylinder-repair"}
+      - {t: "Examine the master cylinder secondary seal for a leak.", cite: {p: 52}, op: "c14-front-master-cylinder-repair"}
+      - {t: "Examine the master cylinder housing for cracks.", cite: {p: 52}, op: "c14-front-master-cylinder-repair"}
+      - {t: "Make sure that the brake fluid level is not too high.", cite: {p: 52}, op: "brake-fluid-level"}
+      - {t: "Make sure that the master cylinder is not loose or damaged.", cite: {p: 52}, op: "c14-front-master-cylinder-repair"}
+  - title: "Brake overheating"
+    steps:
+      - {t: "Examine the brake disc for warp.", cite: {p: 52}, op: "c14-brake-disc-inspect"}
+      - {t: "Make sure that the brake fluid is the correct type.", cite: {p: 52}, op: "brake-fluid-replace"}
+      - {t: "Make sure that the caliper piston and the brake pads do not hang up.", cite: {p: 52}, op: "c14-front-caliper-repair"}
+      - {t: "Do not ride with the brakes applied.", cite: {p: 52}}
+  - title: "Brake chatter"
+    steps:
+      - {t: "Examine the brake disc for warp.", cite: {p: 52}, op: "c14-brake-disc-inspect"}
+      - {t: "Make sure that the caliper alignment is correct.", cite: {p: 52}, op: "c14-front-caliper-remove"}
+      - {t: "Make sure that the caliper mounting bolts are not loose.", cite: {p: 52}, op: "c14-front-caliper-remove"}
+      - {t: "Make sure that the front axle nut and the clamps are not loose.", cite: {p: 52}, op: "c11-front-wheel"}
+      - {t: "Examine the wheel bearings for wear.", cite: {p: 52}, op: "c11-hub-bearing-inspection"}
+      - {t: "Examine the hub for damage.", cite: {p: 52}, op: "c11-hub-bearing-inspection"}
+      - {t: "Examine the brake hydraulic line for a restriction.", cite: {p: 52}, op: "brake-hoses"}
+      - {t: "Examine the brake pads for contamination.", cite: {p: 52}, op: "brake-pads"}
+  - title: "Brake locking"
+    steps:
+      - {t: "Make sure that the brake fluid is the correct type.", cite: {p: 52}, op: "brake-fluid-replace"}
+      - {t: "Examine the passages in the master cylinder for a clog.", cite: {p: 52}, op: "c14-front-master-cylinder-repair"}
+      - {t: "Make sure that the caliper piston and the brake pads do not hang up.", cite: {p: 52}, op: "c14-front-caliper-repair"}
+      - {t: "Examine the brake disc for warp.", cite: {p: 52}, op: "c14-brake-disc-inspect"}
+  - title: "Insufficient brakes"
+    steps:
+      - {t: "Examine the brake lines for air. Bleed the system.", cite: {p: 52}, ref: "14/brake-system-bleeding"}
+      - {t: "Examine the brake pads for wear.", cite: {p: 52}, op: "brake-pads"}
+      - {t: "Make sure that the brake fluid level is not low.", cite: {p: 52}, op: "brake-fluid-level"}
+      - {t: "Make sure that the brake fluid is the correct type.", cite: {p: 52}, op: "brake-fluid-replace"}
+      - {t: "Examine the brake disc for wear.", cite: {p: 52}, op: "c14-brake-disc-inspect"}
+      - {t: "Examine the caliper piston seals for wear.", cite: {p: 52}, op: "c14-front-caliper-repair"}
+      - {t: "Examine the brake pads for glazing.", cite: {p: 52}, op: "brake-pads"}
+      - {t: "Examine the primary cup seal in the master cylinder for a leak.", cite: {p: 52}, op: "c14-front-master-cylinder-repair"}
+      - {t: "Examine the brake pads and the disc for contamination.", cite: {p: 52}, op: "brake-pads"}
+  - title: "Brake squeal"
+    steps:
+      - {t: "Examine the brake pads and the disc for contamination.", cite: {p: 52}, op: "brake-pads"}
+      - {t: "Look for dust or dirt behind the brake pads.", cite: {p: 52}, op: "brake-pads"}
+      - {t: "Make sure that no parts are loose.", cite: {p: 52}, op: "c14-front-caliper-remove"}

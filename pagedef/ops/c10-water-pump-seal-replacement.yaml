@@ -1,0 +1,38 @@
+title: "Water pump mechanical seal and oil seal replacement"
+system: "Cooling system"
+source: clymer
+chapter: 10
+section: "10/water-pump"
+summary: {t: "This procedure replaces the two-piece mechanical seal and the oil seal of the water pump. Do this procedure when coolant or oil leaks from the inspection hole at the bottom of the case.", cite: {p: 240}}
+parts:
+  - {name: "Mechanical seal", replace: always, cite: {p: 240}, note: "The seal has two pieces. One piece is in the impeller and one piece is in the right crankcase cover."}
+  - {name: "Oil seal", replace: always, cite: {p: 240}}
+  - {name: "Waterproof grease", replace: consumable, cite: {p: 240}}
+  - {name: "Molybdenum disulfide grease", replace: consumable, cite: {p: 241}}
+sections:
+  - title: "Diagnosis"
+    steps:
+      - {t: "Look at the inspection hole at the bottom of the case.", cite: {p: 239}, figs: [11]}
+      - {t: "If water leaks from the hole, the mechanical seal leaks.", cite: {p: 239}}
+      - {t: "If oil leaks from the hole, the oil seal leaks.", cite: {p: 239}}
+      - {kind: note, t: "You must remove the right crankcase cover to replace the seals. The mechanical seal keeps coolant out of the right crankcase cover. The oil seal keeps oil out of the pump chamber. The drain hole is between the two seals.", cite: {p: 240}, figs: [15], ref: "06/right-crankcase-cover"}
+  - title: "Impeller seal"
+    steps:
+      - {t: "Lift the impeller seal from the impeller. Clean the seal bore.", cite: {p: 240}, figs: [16]}
+      - {t: "Lubricate the rubber edge of the new seal lightly with waterproof grease.", cite: {p: 240}}
+      - {t: "Seat the new seal in the impeller by hand.", cite: {p: 240}}
+  - title: "Crankcase cover seals"
+    steps:
+      - {t: "Remove the mechanical seal from the crankcase cover before you remove the oil seal.", cite: {p: 240}}
+      - {t: "Put a narrow drift under the oil seal and on the back of the mechanical seal. Work around the seal and drive it from the bore.", cite: {p: 240}, figs: [17]}
+      - {t: "Do not let the drift touch the surface of the bore.", cite: {p: 240}}
+      - {t: "Do not pry the seal from the front side of the crankcase cover.", cite: {p: 240}}
+      - {t: "Put a driver on the oil seal and drive it from the bore.", cite: {p: 241}}
+      - {t: "Turn the crankcase cover over. Clean the bore and the drain hole.", cite: {p: 241}}
+      - {t: "Pack molybdenum disulfide grease into the lip of the new oil seal.", cite: {p: 241}}
+      - {t: "Put the oil seal over the bore of the crankcase cover with the closed side up.", cite: {p: 241}}
+      - {t: "Drive the seal into the cover with a driver that fits on the perimeter of the seal.", cite: {p: 241}}
+      - {t: "Make sure that the seal is fully seated and that you can see the drain hole.", cite: {p: 241}}
+      - {t: "Lubricate the outside of the mechanical seal lightly.", cite: {p: 241}}
+      - {t: "Put the mechanical seal over the bore of the crankcase cover.", cite: {p: 241}}
+      - {t: "Drive the seal into the bore with a driver that fits on the flange at the perimeter of the seal.", cite: {p: 241}, figs: [18]}

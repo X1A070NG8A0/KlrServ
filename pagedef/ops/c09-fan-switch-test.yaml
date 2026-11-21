@@ -1,0 +1,22 @@
+title: "Fan switch test"
+system: "electrical system"
+source: clymer
+chapter: 9
+section: "09/fan-system"
+summary: {t: "This test needs heated water to simulate operating conditions. Read the procedure first so that you have the correct equipment to do the test safely.", cite: {p: 228}}
+spec_refs: ["electrical-test:Radiator fan switch resistance/Ambient temperature", "electrical-test:Radiator fan switch resistance/On position (above 94° C [201° F])", "electrical-test:Radiator fan switch resistance/Off position (below 91° C [196° F])", "electrical-torque:Radiator fan switch"]
+sections:
+  - steps:
+      - {t: "Drain the cooling system.", cite: {p: 228}, op: coolant-replace}
+      - {t: "Remove the connector from the switch terminal. Remove the switch from the radiator.", cite: {p: 228}}
+      - {t: "Clean the switch. Examine it for damage.", cite: {p: 228}}
+      - {t: "At ambient temperature, connect an ohmmeter to the switch terminal and to the switch threads.", cite: {p: 228}}
+      - {t: "The reading must be infinity. If it is not, the switch is faulty. Low resistance can cause the fan to come on too soon or not turn off.", cite: {p: 228}, spec_ref: "electrical-test:Radiator fan switch resistance/Ambient temperature"}
+      - {t: "To test at operating temperature, connect an ohmmeter to the switch terminal and to the switch threads.", cite: {p: 228}}
+      - {t: "Suspend the switch and an accurate thermometer in a container of water. The temperature sensor and the threads must be under water. Do not let the parts touch the bottom or side of the container.", cite: {p: 228}, figs: [66]}
+      - {t: "Heat the water slowly. Read the thermometer and the ohmmeter. Do not overheat the switch.", cite: {p: 229}}
+      - {t: "Compare the readings with the specifications for the on position and the off position.", cite: {p: 229}, spec_ref: "electrical-test:Radiator fan switch resistance/On position (above 94° C [201° F])"}
+      - {t: "Compare the off position reading.", cite: {p: 229}, spec_ref: "electrical-test:Radiator fan switch resistance/Off position (below 91° C [196° F])"}
+      - {t: "If the switch does not operate in specification, replace the switch.", cite: {p: 229}}
+      - {t: "Install the switch into the radiator. Tighten the switch to the specified torque.", cite: {p: 229}, spec_ref: "electrical-torque:Radiator fan switch"}
+      - {t: "Fill and bleed the cooling system.", cite: {p: 229}, op: coolant-replace}

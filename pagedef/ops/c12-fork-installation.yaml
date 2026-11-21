@@ -1,0 +1,25 @@
+title: "Fork installation"
+system: "Front suspension and steering"
+source: clymer
+chapter: 12
+section: "12/fork-removal-and-installation"
+summary: {t: "This procedure installs the fork legs in the fork bridges. The left fork leg has the brake caliper mount.", cite: {p: 269}}
+spec_refs:
+  - "front-suspension-torque:Bridge pinch bolts"
+  - "front-suspension-torque:Fork caps"
+parts:
+  - {name: "Brake hose tie", replace: always, cite: {p: 269}, note: "Install a new tie."}
+sections:
+  - steps:
+      - {t: "Install the left fork leg, the leg with the brake caliper mount, into the lower and upper fork bridges.", cite: {p: 269}}
+      - {t: "Adjust the fork leg at the upper fork bridge. The top surface of the upper bridge must be 1 mm (0.040 in.) below the top edge of the fork tube.", cite: {p: 269}, figs: [28]}
+      - {t: "Do not include the fork cap in the measurement.", cite: {p: 269}}
+      - {t: "Lightly tighten the upper and lower bridge bolts to hold the fork leg in place.", cite: {p: 269}, figs: [26]}
+      - {t: "Do these steps again to install the right fork leg.", cite: {p: 269}}
+      - {t: "Tighten the bridge pinch bolts to the specified torque.", cite: {p: 269}, spec_ref: "front-suspension-torque:Bridge pinch bolts"}
+      - {t: "Install the brake hose clamp and a new tie.", cite: {p: 269}}
+      - {t: "Install the brake hose guides and the speedometer cable guides.", cite: {p: 269}, figs: [23]}
+      - {t: "Install the brake caliper.", cite: {p: 269}, ref: "14/front-brake-caliper"}
+      - {t: "Install the front wheel.", cite: {p: 269}, ref: "11/front-wheel-and-speedometer-drive-unit"}
+      - {t: "If you rebuilt the fork legs, align the fork boots and tighten the clamps.", cite: {p: 269}}
+      - {t: "If you rebuilt the fork legs, tighten the fork caps to the specified torque.", cite: {p: 269}, spec_ref: "front-suspension-torque:Fork caps"}

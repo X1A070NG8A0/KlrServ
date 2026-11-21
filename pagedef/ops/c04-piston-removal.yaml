@@ -1,0 +1,25 @@
+title: "Piston removal"
+system: "Engine top end"
+source: clymer
+chapter: 4
+section: "04/piston-and-piston-rings"
+summary: {t: "This procedure removes the piston from the connecting rod. The piston is aluminum alloy with three rings. A chrome-plated steel piston pin and two circlips hold it on the small end of the connecting rod.", cite: {p: 117}}
+parts:
+  - {name: "Piston pin circlips", replace: always, cite: {p: 118}, note: "Discard the circlips. Install new circlips during assembly."}
+  - {name: "Piston pin puller, part No. 57001-910", replace: consumable, cite: {p: 118}, note: "Special tool. Available from a Kawasaki dealership."}
+  - {name: "Piston pin puller adapter, part No. 57001-1211", replace: consumable, cite: {p: 118}, note: "Special tool. Available from a Kawasaki dealership."}
+sections:
+  - steps:
+      - {t: "Remove the cylinder.", cite: {p: 117}, op: c04-cylinder-removal}
+      - {t: "Before you remove the piston, hold the rod and try to tilt the piston from side to side. Look for play between the piston and the piston pin.", cite: {p: 117}, figs: [82]}
+      - {t: "If you feel a tilting motion that is not a sliding motion, the piston pin, the pin bore or the connecting rod has wear. The wear can be on any combination of the three parts.", cite: {p: 117}}
+      - {t: "Examine the parts with care to find which parts you must replace.", cite: {p: 117}}
+      - {t: "Put clean shop cloths around the connecting rod and in the cam chain tunnel to prevent parts from going into the crankcase.", cite: {p: 118}}
+      - {t: "Turn the ends of the circlips to the removal gaps. Remove the circlips from the piston pin bore.", cite: {p: 118}, figs: [83]}
+      - {t: "Discard the circlips.", cite: {p: 118}}
+      - {t: "Press the piston pin out of the piston by hand.", cite: {p: 118}, figs: [84]}
+      - {t: "If the pin is tight, use a pin puller (part No. 57001-910) and an adapter (part No. 57001-1211) from a Kawasaki dealership.", cite: {p: 118}}
+      - {t: "You can also make a removal tool. The end of the padded pipe must touch the piston and not the piston pin. The hole in the pipe must be larger than the diameter of the piston pin. When you tighten the nut on the end of the rod, the nut and washer at the opposite end drive the piston pin into the pipe.", cite: {p: 118}, figs: [85]}
+      - {kind: caution, t: "Do not use a hammer and a drift to drive out the pin. This can cause damage to the piston and the connecting rod assembly.", cite: {p: 118}}
+      - {t: "Lift the piston off the connecting rod.", cite: {p: 118}}
+      - {t: "Examine the piston and the piston pin.", cite: {p: 118}, op: c04-piston-inspection}

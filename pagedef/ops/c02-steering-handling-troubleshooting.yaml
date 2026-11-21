@@ -1,0 +1,47 @@
+title: "Steering and handling troubleshooting"
+system: "troubleshooting"
+source: clymer
+chapter: 2
+section: "02/steering-and-handling"
+summary: {t: "Correct poor steering and handling at once, because loss of control is possible.", cite: {p: 53}}
+sections:
+  - title: "Excessive handlebar vibration"
+    steps:
+      - {t: "Make sure that the tire pressure is correct.", cite: {p: 53}, op: "tires"}
+      - {t: "Examine the tire and the rim for imbalance.", cite: {p: 53}, op: "c11-wheel-balancing"}
+      - {t: "Examine the spokes for looseness or breaks.", cite: {p: 53}, op: "spokes"}
+      - {t: "Examine the rim for damage.", cite: {p: 53}, op: "c11-rim-inspection"}
+      - {t: "Examine the handlebar clamps for looseness or damage.", cite: {p: 53}, op: "c12-handlebar-inspection"}
+      - {t: "Make sure that the steering stem nut is not loose.", cite: {p: 53}, op: "c12-steering-play-check"}
+      - {t: "Examine the front wheel bearings for wear or damage.", cite: {p: 53}, op: "c11-hub-bearing-inspection"}
+      - {t: "Examine the axle for bends or looseness.", cite: {p: 53}, op: "c11-front-wheel-inspection"}
+      - {t: "Examine the frame and the steering head for cracks.", cite: {p: 53}, op: "c12-steering-head-inspection"}
+  - title: "Handlebar is hard to turn"
+    steps:
+      - {t: "Make sure that the tire pressure is not too low.", cite: {p: 53}, op: "tires"}
+      - {t: "Make sure that the cable routing is correct.", cite: {p: 53}, op: "control-cables-lube"}
+      - {t: "Make sure that the steering stem adjustment is not too tight.", cite: {p: 53}, op: "c12-steering-play-check"}
+      - {t: "Examine the steering stem for bends.", cite: {p: 53}, op: "c12-steering-head-inspection"}
+      - {t: "Examine the steering bearings for damage or lack of lubricant.", cite: {p: 54}, op: "c12-steering-bearing-lubrication"}
+  - title: "Handlebar pulls to one side"
+    steps:
+      - {t: "Examine the fork legs for bends.", cite: {p: 54}, op: "c12-fork-inspection"}
+      - {t: "Make sure that the fork oil levels are equal.", cite: {p: 54}, op: "fork-oil"}
+      - {t: "Examine the steering stem for bends.", cite: {p: 54}, op: "c12-steering-head-inspection"}
+      - {t: "Examine the frame and the swing arm for bends.", cite: {p: 54}, op: "c13-swing-arm-inspection"}
+  - title: "Shock absorption too soft"
+    steps:
+      - {t: "Make sure that the fork oil level is not low.", cite: {p: 54}, op: "fork-oil"}
+      - {t: "Make sure that the fork oil viscosity is not too low.", cite: {p: 54}, op: "fork-oil"}
+      - {t: "Make sure that the rebound damping of the shock absorber is not too low.", cite: {p: 54}, op: "c13-rebound-damping-adjustment"}
+      - {t: "Make sure that the spring preload of the shock absorber is not too low.", cite: {p: 54}, op: "c13-shock-preload-adjustment"}
+      - {t: "Examine the spring of the shock absorber for weakness.", cite: {p: 54}, op: "c13-shock-absorber-inspection"}
+  - title: "Shock absorption too hard"
+    steps:
+      - {t: "Release the air pressure in the fork.", cite: {p: 54}, op: "fork-air-release"}
+      - {t: "Make sure that the tire pressure is not too high.", cite: {p: 54}, op: "tires"}
+      - {t: "Make sure that the fork oil level is not too high.", cite: {p: 54}, op: "fork-oil"}
+      - {t: "Make sure that the fork oil viscosity is not too high.", cite: {p: 54}, op: "fork-oil"}
+      - {t: "Examine the fork for bends.", cite: {p: 54}, op: "c12-fork-inspection"}
+      - {t: "Make sure that the rebound damping of the shock absorber is not too high.", cite: {p: 54}, op: "c13-rebound-damping-adjustment"}
+      - {t: "Make sure that the spring preload of the shock absorber is not too high.", cite: {p: 54}, op: "c13-shock-preload-adjustment"}

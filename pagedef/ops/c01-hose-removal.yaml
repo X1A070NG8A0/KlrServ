@@ -1,0 +1,15 @@
+title: "Hose removal"
+system: "General information"
+source: clymer
+chapter: 1
+section: "01/repair-methods"
+summary: {t: "This procedure removes a hose that is difficult to remove. Do not use too much force on the hose or the fitting.", cite: {p: 34}}
+sections:
+  - steps:
+      - {t: "Remove the hose clamp.", cite: {p: 34}}
+      - {t: "Carefully put a small screwdriver or pick tool between the fitting and the hose.", cite: {p: 34}}
+      - {t: "Apply a spray lubricant under the hose.", cite: {p: 34}}
+      - {t: "Carefully twist the hose off the fitting.", cite: {p: 34}}
+      - {t: "Clean corrosion and rubber hose material from the fitting with a wire brush.", cite: {p: 34}}
+      - {t: "Clean the inside of the hose.", cite: {p: 34}}
+      - {kind: caution, t: "Do not use lubricant to install a hose, new or old. The hose can come off the fitting, also with the clamp tight.", cite: {p: 34}}

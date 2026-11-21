@@ -1,0 +1,22 @@
+title: "Steering stem and head inspection"
+system: "Front suspension and steering"
+source: clymer
+chapter: 12
+section: "12/steering-stem-and-head"
+summary: {t: "This procedure shows how to examine the steering head, the steering stem, the seals, the bearings and the races.", cite: {p: 264}}
+parts:
+  - {name: "Steering stem bearings", replace: inspect, cite: {p: 264}, note: "If a race is worn or damaged, replace both races and both bearings."}
+  - {name: "Steering head bearing races", replace: inspect, cite: {p: 264}}
+  - {name: "Steering head seals", replace: inspect, cite: {p: 264}}
+  - {name: "Waterproof grease", replace: consumable, cite: {p: 264}}
+sections:
+  - steps:
+      - {t: "Clean the bearings and the races with solvent.", cite: {p: 264}}
+      - {t: "Examine the steering head on the frame for cracks or other damage. If there is damage, have a qualified welding shop repair it.", cite: {p: 264}}
+      - {t: "Examine the steering stem assembly. Examine the clamping and pivot areas for cracks or damage.", cite: {p: 264}, figs: [9]}
+      - {t: "Examine the steering stem threads, the stem nut, the washers and the adjust nut for damage.", cite: {p: 264}}
+      - {t: "Examine the seals for damage.", cite: {p: 264}}
+      - {t: "Examine the bearings for pitting, scratches, corrosion or discoloration.", cite: {p: 264}, figs: [11]}
+      - {t: "Examine the bearing races in the frame for pitting, galling or corrosion.", cite: {p: 264}, figs: [12]}
+      - {t: "If a race is worn or damaged, replace both races and both bearings.", cite: {p: 264}, op: c12-steering-race-replacement}
+      - {t: "If you will use the bearings again, pack them with waterproof grease.", cite: {p: 264}}

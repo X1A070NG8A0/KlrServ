@@ -1,0 +1,18 @@
+title: "Lever arm inspection"
+system: "Rear suspension"
+source: clymer
+chapter: 13
+section: "13/shock-absorber-linkage"
+summary: {t: "The lever arms have no bearings. You can examine them without disassembly. Replace parts that are worn or damaged.", cite: {p: 285}}
+parts:
+  - {name: "Lever arm pivot bolts and nuts", replace: inspect, cite: {p: 285}, note: "Replace nuts and bolts that have rounded flats. A socket cannot grip them and the torque can be incorrect."}
+  - {name: "Lever arms", replace: inspect, cite: {p: 285}}
+sections:
+  - steps:
+      - {t: "Examine the pivot bolts for wear. Make sure that the bolts are a snug fit in the lever arms.", cite: {p: 285}, figs: [19]}
+      - {t: "Replace nuts and bolts that have rounded flats.", cite: {p: 285}}
+      - {t: "Examine the lever arms for bends or twist. The arms must lie flat.", cite: {p: 285}, figs: [20]}
+      - {t: "Examine the lever arm bores for damage and elongation. If a bore is worn or damaged, also replace the pivot bolts.", cite: {p: 285}}
+      - {kind: note, t: "The left lever arm has counterbores for the heads of the pivot bolts.", cite: {p: 285}}
+      - {t: "Examine the contact point between the lever arm and the pivot spacer. If it is worn or ground away, the pivot bolts did not have enough torque.", cite: {p: 285}}
+      - {t: "Install the lever arms.", cite: {p: 285}, op: c13-lever-removal}

@@ -1,0 +1,19 @@
+title: "Radiator cover removal and installation"
+system: "body"
+source: clymer
+chapter: 15
+section: "15/radiator-covers"
+summary: {t: "This procedure removes and installs the radiator covers. The left cover shrouds the radiator. The right cover shrouds the coolant reserve tank.", cite: {p: 328}}
+sections:
+  - title: "Removal"
+    steps:
+      - {kind: note, t: "You can remove the covers together with the fuel tank. In that case, remove only the fasteners at the front of the covers.", cite: {p: 328}, ref: "15/fuel-tank"}
+      - {t: "If the covers stay attached to the fuel tank, support the fuel tank after you remove it. Do not let the tank rest on the covers.", cite: {p: 328}}
+      - {t: "At the front of the cover, remove the bolt or screw at the top.", cite: {p: 329}, figs: [7]}
+      - {t: "At the front of the cover, remove the bolt or screw at the bottom.", cite: {p: 329}, figs: [7]}
+      - {t: "Remove the screw at the top of the radiator cover.", cite: {p: 329}}
+      - {t: "Pull the friction barb from the grommet in the fuel tank.", cite: {p: 329}, figs: [6], chapter: 15}
+      - {kind: caution, t: "Do not bend the cover too much. This can cause discoloration.", cite: {p: 329}}
+  - title: "Installation"
+    steps:
+      - {t: "Install the radiator covers in the reverse order of removal.", cite: {p: 329}}

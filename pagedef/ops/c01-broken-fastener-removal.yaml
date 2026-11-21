@@ -1,0 +1,17 @@
+title: "Broken fastener removal"
+system: "General information"
+source: clymer
+chapter: 1
+section: "01/repair-methods"
+summary: {t: "This procedure removes the remaining part of a screw or bolt when the head breaks off.", cite: {p: 33}}
+sections:
+  - title: "Part of the fastener projects"
+    steps:
+      - {t: "If a large part of the fastener projects out, grip it with locking pliers.", cite: {p: 33}}
+      - {t: "If the projecting part is too small for pliers, file it to fit a wrench. Or cut a slot in it to fit a screwdriver.", cite: {p: 33}}
+  - title: "Head broken flush"
+    steps:
+      - {t: "Center-punch the exact center of the remaining part of the screw or bolt.", cite: {p: 33}}
+      - {t: "Drill a small hole in the screw.", cite: {p: 34}}
+      - {t: "Tap a screw extractor into the hole.", cite: {p: 34}}
+      - {t: "Turn the screw out with a wrench on the extractor.", cite: {p: 34}}

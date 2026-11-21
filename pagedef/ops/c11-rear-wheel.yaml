@@ -1,0 +1,37 @@
+title: "Rear wheel removal and installation"
+system: "Wheels, tires and drive chain"
+source: clymer
+chapter: 11
+section: "11/rear-wheel"
+summary: {t: "This procedure removes the rear wheel and axle from the swing arm and installs them again.", cite: {p: 245}}
+spec_refs: ["wheel-drive-torque:Axle nut/Rear", "wheel-drive-torque:Rear brake caliper holder bolts"]
+parts:
+  - {name: "Cotter pin, rear axle nut", replace: inspect, cite: {p: 246}}
+  - {name: "Waterproof grease", replace: consumable, cite: {p: 246}}
+sections:
+  - title: "Removal"
+    steps:
+      - {t: "Support the motorcycle so that it is stable and the rear wheel is off the ground.", cite: {p: 245}}
+      - {t: "Remove the two bolts that hold the brake caliper to the caliper holder.", cite: {p: 245}, figs: [13], ref: "14/rear-brake-caliper"}
+      - {kind: note, t: "Do not operate the rear brake pedal while the wheel is removed. Put a wooden block between the pads until you install the wheel. This prevents the caliper piston from extending if the pedal is operated.", cite: {p: 245}}
+      - {t: "Remove the cotter pin, the nut and the washer from the axle.", cite: {p: 245}, figs: [14]}
+      - {t: "Pull up on the rear wheel to take the weight off the axle. Remove the axle.", cite: {p: 245}}
+      - {t: "Lower the wheel. Remove the chain from the sprocket.", cite: {p: 245}}
+      - {t: "Roll the wheel out of the swing arm.", cite: {p: 245}}
+      - {t: "Remove the spacer from the right side of the hub.", cite: {p: 245}, figs: [15]}
+      - {t: "Remove the spacer from the left side of the hub.", cite: {p: 245}, figs: [16]}
+      - {t: "If it is necessary, remove the caliper holder and the right axle adjuster assembly from the swing arm.", cite: {p: 246}, figs: [17]}
+      - {t: "If it is necessary, remove the left axle adjuster assembly from the swing arm.", cite: {p: 246}, figs: [18]}
+      - {t: "Examine and repair the wheel and the axle assembly.", cite: {p: 246}, op: c11-rear-wheel-inspection}
+  - title: "Installation"
+    steps:
+      - {t: "Make sure that the adjustment plates are correctly oriented, so that the adjustment marks on the swing arm are visible.", cite: {p: 246}, figs: [19]}
+      - {t: "Make sure that the bores in the plates are aligned with the adjuster bores.", cite: {p: 246}}
+      - {t: "Loosen the chain adjusters so that you can install the chain and the wheel.", cite: {p: 246}, figs: [19]}
+      - {t: "Apply waterproof grease to the axle, the spacers, the bearing seals and the bores.", cite: {p: 246}}
+      - {t: "Install the wheel. Loosely install the washer and the axle nut.", cite: {p: 246}}
+      - {t: "If it is necessary, spread the brake pads so that the brake disc can go into the brake assembly.", cite: {p: 246}}
+      - {t: "Tighten the caliper holder bolts to the specified torque.", cite: {p: 246}, spec_ref: "wheel-drive-torque:Rear brake caliper holder bolts"}
+      - {t: "Adjust the drive chain.", cite: {p: 246}, op: drive-chain-adjust}
+      - {t: "Tighten the axle nut to the specified torque.", cite: {p: 260}, spec_ref: "wheel-drive-torque:Axle nut/Rear", gap: "The rear wheel procedure does not tell you when to tighten the axle nut. The torque table gives the value."}
+      - {t: "Make sure that the wheel turns freely and that the brake operates correctly.", cite: {p: 246}}

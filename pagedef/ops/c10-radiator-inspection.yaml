@@ -1,0 +1,18 @@
+title: "Radiator inspection"
+system: "Cooling system"
+source: clymer
+chapter: 10
+section: "10/radiator-and-fan"
+summary: {t: "This procedure shows how to examine the radiator for damaged fins, corrosion and restricted flow.", cite: {p: 237}}
+parts:
+  - {name: "Radiator", replace: inspect, cite: {p: 237}, note: "Replace the radiator if more than 20 percent of the cooling area is damaged."}
+sections:
+  - steps:
+      - {t: "Clean the outside of the radiator with a low-pressure water spray. Let the radiator dry.", cite: {p: 237}}
+      - {t: "Examine the cooling fins for damage. Straighten bent fins with a screwdriver.", cite: {p: 237}}
+      - {t: "If more than 20 percent of the cooling area is damaged, replace the radiator.", cite: {p: 237}}
+      - {t: "Examine the seams and other soldered connections for corrosion (green residue).", cite: {p: 237}}
+      - {t: "If you find corrosion, there can be a leak at that point. Do a cooling system pressure test.", cite: {p: 237}, op: cooling-system-inspect}
+      - {t: "If you do not have the test equipment, take the radiator to a radiator repair shop for a flush and a pressure test.", cite: {p: 237}}
+      - {t: "Fill the radiator with water and measure the flow rate out of the radiator.", cite: {p: 237}}
+      - {t: "If the flow rate is slow, or if there is corrosion or other buildup, take the radiator to a radiator repair shop for a flush and a pressure test.", cite: {p: 237}}

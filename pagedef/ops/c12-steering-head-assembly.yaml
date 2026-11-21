@@ -1,0 +1,45 @@
+title: "Steering stem and head assembly and adjustment"
+system: "Front suspension and steering"
+source: clymer
+chapter: 12
+section: "12/steering-stem-and-head"
+summary: {t: "This procedure installs the steering stem in the steering head and sets the bearing adjustment.", cite: {p: 266}}
+spec_refs:
+  - "front-suspension-torque:Steering stem nut"
+  - "front-suspension-torque:Bridge pinch bolts"
+parts:
+  - {name: "Waterproof grease", replace: consumable, cite: {p: 266}}
+sections:
+  - title: "Assembly"
+    steps:
+      - {t: "Make sure that the upper and lower bearing races are seated in the frame.", cite: {p: 266}}
+      - {t: "Make sure that the bearings, the races and the seals have waterproof grease.", cite: {p: 266}}
+      - {t: "Guide the steering stem through the bottom of the frame.", cite: {p: 266}, figs: [17]}
+      - {t: "Install the upper bearing into its race.", cite: {p: 266}}
+      - {t: "Install the bearing seal and the adjust nut. Tighten the adjust nut with your fingers.", cite: {p: 266}}
+      - {t: "Tighten the adjust nut with a spanner to seat the bearings. Then loosen the nut.", cite: {p: 266}, figs: [18]}
+      - {kind: caution, t: "Do not use excessive force to seat the bearings. This can damage them.", cite: {p: 266}}
+      - {t: "Tighten the adjust nut again as necessary. At the same time, check for horizontal and vertical play.", cite: {p: 266}}
+      - {t: "Stop when there is no play in both directions. The steering stem then pivots to the lock positions under its own weight, after an initial assist.", cite: {p: 266}}
+      - {t: "Install the claw washer, the upper fork bridge, the washer and the stem nut.", cite: {p: 267}}
+      - {t: "Tighten the stem nut with your fingers until you install the fork legs.", cite: {p: 267}}
+      - {t: "Install the gauges and the ignition switch onto the upper fork bridge.", cite: {p: 267}}
+      - {t: "Loosely install the handlebar so that you can route the wiring, hoses and cables.", cite: {p: 267}}
+      - {t: "Install the fork legs. Do not tighten the lower bridge pinch bolts until you tighten the steering stem nut. The lower bridge moves a small amount when you tighten the nut.", cite: {p: 267}, op: c12-fork-installation}
+      - {t: "Remove the handlebar.", cite: {p: 267}}
+      - {t: "Tighten the stem nut to the specified torque.", cite: {p: 267}, spec_ref: "front-suspension-torque:Steering stem nut"}
+      - {t: "Tighten the lower bridge pinch bolts only enough to hold the fork legs.", cite: {p: 267}}
+  - title: "Final check of bearing play"
+    steps:
+      - {t: "Turn the steering stem from lock to lock. It must turn smoothly and freely. If it binds, the steering stem is too tight.", cite: {p: 267}}
+      - {t: "Hold the fork legs near the axle. Lever the fork legs in all directions and feel for play. If you feel or hear play, the steering stem is too loose.", cite: {p: 267}}
+      - {t: "If necessary, loosen the lower bridge pinch bolts and loosen the steering stem nut.", cite: {p: 267}}
+      - {t: "Loosen or tighten the adjust nut.", cite: {p: 267}, figs: [19]}
+      - {t: "Tighten the stem nut to the specified torque.", cite: {p: 267}, spec_ref: "front-suspension-torque:Steering stem nut"}
+      - {t: "Tighten the lower bridge nuts.", cite: {p: 267}}
+      - {t: "Do the check for bearing play again. Adjust as necessary.", cite: {p: 267}}
+      - {t: "Tighten the lower bridge pinch bolts to the specified torque.", cite: {p: 267}, spec_ref: "front-suspension-torque:Bridge pinch bolts"}
+      - {t: "Install the handlebar.", cite: {p: 267}, op: c12-handlebar-removal}
+      - {t: "Install the front fender.", cite: {p: 267}}
+      - {t: "Install the front wheel.", cite: {p: 267}, ref: "11/front-wheel-and-speedometer-drive-unit"}
+      - {t: "Install the fairing, the fuel tank and the radiator covers.", cite: {p: 267}, ref: "15/fairing"}

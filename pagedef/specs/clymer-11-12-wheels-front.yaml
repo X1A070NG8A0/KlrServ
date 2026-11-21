@@ -1,0 +1,81 @@
+# Clymer Chapter Eleven and Twelve tables, transcribed from page images (PDF p260, p278).
+title: "Wheels, Tires, Drive Chain, Front Suspension and Steering"
+pages:
+  - id: wheels
+    title: "Front and rear wheel specifications"
+    kind: Specification
+    cite: {s: clymer, p: 260, ref: "Chapter Eleven, Table 1"}
+    rows:
+      - {group: "Tire size", item: "Front", value: "90/90-21 54S"}
+      - {group: "Tire size", item: "Rear", value: "130/80-17 65S"}
+      - {group: "Tire pressure (standard)", item: "Front", value: "150 kPa (22 psi)"}
+      - {group: "Tire pressure (standard)", item: "Rear, loads up to 97.5 kg (215 lb.)", value: "150 kPa (22 psi)"}
+      - {group: "Tire pressure (standard)", item: "Rear, loads 97.5-182 kg (215-400 lb.)", value: "200 kPa (29 psi)"}
+      - {item: "Wheel rim runout (radial and lateral)", value: "2.0 mm (0.08 in.)"}
+      - {group: "Wheel rim size", item: "Front", value: "21 × 1.60"}
+      - {group: "Wheel rim size", item: "Rear", value: "17 × 2.50"}
+
+  - id: drive-chain
+    title: "Drive chain and sprocket specifications"
+    kind: Specification
+    cite: {s: clymer, p: 260, ref: "Chapter Eleven, Table 2"}
+    rows:
+      - {group: "Drive chain", item: "Size", value: "520"}
+      - {group: "Drive chain", item: "Type", value: "O-ring"}
+      - {group: "Drive chain", item: "Number of links", value: "106"}
+      - {item: "Drive chain slack", value: "50-60 mm (2.0-2.4 in.)"}
+      - {item: "Drive chain length wear limit (20 links/21 pins)", value: "323 mm (12.7 in.)"}
+      - {item: "Sprocket sizes (standard, front/rear teeth)", value: "15/43"}
+
+  - id: wheel-drive-torque
+    title: "Wheel and drive torque specifications"
+    kind: Specification
+    format: torque
+    cite: {s: clymer, p: 260, ref: "Chapter Eleven, Table 3"}
+    rows:
+      - {group: "Axle nut", item: "Front", nm: "78", ftlb: "58"}
+      - {group: "Axle nut", item: "Rear", nm: "93", ftlb: "69"}
+      - {group: "Drive sprocket", item: "Bolts", years: "1987-1995", nm: "10", inlb: "88"}
+      - {group: "Drive sprocket", item: "Nut", years: "1996-on", nm: "98", ftlb: "72"}
+      - {item: "Driven sprocket bolts", nm: "32", ftlb: "24"}
+      - {item: "Rear brake caliper holder bolts", nm: "25", ftlb: "18"}
+      - {item: "Swing arm pivot bolt", nm: "98", ftlb: "72"}
+      - {item: "Swing arm lever bolts", nm: "98", ftlb: "72"}
+      - {item: "Spokes", nm: "2-4", inlb: "17-35"}
+
+  - id: front-suspension
+    title: "Steering and front suspension specifications"
+    kind: Specification
+    cite: {s: clymer, p: 278, ref: "Chapter Twelve, Table 1"}
+    rows:
+      - {item: "Fork make/type", value: "Kayaba/38 mm, air-adjustable"}
+      - {item: "Fork air pressure (standard)", value: "0 (atmospheric pressure)"}
+      - {group: "Steering", item: "Caster (rake angle)", value: "28°"}
+      - {group: "Steering", item: "Trail", value: "112 mm (4.4 in.)"}
+      - {group: "Steering", item: "Turning radius (minimum)", value: "2.4 m (94.5 in.)"}
+      - {item: "Fork travel", value: "230 mm (9.1 in.)"}
+
+  - id: fork-oil
+    title: "Fork oil level and capacity"
+    kind: Specification
+    cite: {s: clymer, p: 278, ref: "Chapter Twelve, Table 2"}
+    rows:
+      - {item: "Fork oil grade", value: "Kayaba G-10, or equivalent 10 weight fork oil"}
+      - {group: "Fork oil capacity (each leg)", item: "Oil change", value: "355 cc (12.0 U.S. oz.)"}
+      - {group: "Fork oil capacity (each leg)", item: "Fork rebuild (all parts dry)", value: "416-424 cc (14.0-14.3 U.S. oz.)"}
+      - {item: "Fork tube oil level (from top edge of inner tube)", value: "188-192 mm (7.40-7.56 in.)"}
+
+  - id: front-suspension-torque
+    title: "Front suspension torque specifications"
+    kind: Specification
+    format: torque
+    cite: {s: clymer, p: 278, ref: "Chapter Twelve, Table 3"}
+    rows:
+      - {item: "Air valves", nm: "12", inlb: "106"}
+      - {item: "Bridge pinch bolts", nm: "25", ftlb: "18"}
+      - {item: "Damper bolts (socket head)", nm: "39", ftlb: "29"}
+      - {item: "Fork caps", nm: "29", ftlb: "21"}
+      - {item: "Front axle nut", nm: "78", ftlb: "58"}
+      - {item: "Handlebar holder bolts", nm: "24", ftlb: "18"}
+      - {item: "Master cylinder mounting bolts", nm: "9", inlb: "80"}
+      - {item: "Steering stem nut", nm: "39", ftlb: "29"}

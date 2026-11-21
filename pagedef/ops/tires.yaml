@@ -1,0 +1,27 @@
+# Clymer Chapter Three: chassis checks and engine tune-up (PDF p79-82).
+title: "Tire pressure and inner tube alignment"
+system: "Wheels and tires"
+source: clymer
+chapter: 3
+section: "03/maintenance-and-inspection"
+summary:
+  t: "A small increase or decrease of the tire pressure is acceptable if the riding conditions need it. Do not go outside the range on the sidewall. The tires have inner tubes. If the pressure is too low, the tire slips on the rim and bends the valve stem. The stem can then break and the tire deflates."
+  cite: {p: 79}
+spec_refs:
+  - "routine-checks:Tire pressure/Front"
+  - "routine-checks:Tire pressure/Rear, loads up to 97.5 kg (215 lb.)"
+  - "routine-checks:Tire pressure/Rear, loads 97.5-182 kg (215-400 lb.)"
+sections:
+  - title: "Tube alignment (bent valve stem)"
+    steps:
+      - {t: "Wash the tire and the rim.", cite: {p: 80}, figs: [72]}
+      - {t: "Remove the valve core and deflate the tire.", cite: {p: 80}, figs: [72]}
+      - {t: "Ask an assistant to hold the motorcycle steady.", cite: {p: 80}}
+      - {t: "Break the seal between the tire and the rim all the way around, on both sides.", cite: {p: 80}}
+      - {t: "Support the motorcycle with the wheel off the ground. Make sure that the valve stem is loose.", cite: {p: 80}}
+      - {t: "Spray soapy water on the two beads.", cite: {p: 80}}
+      - {t: "Ask the assistant to apply the brake of that wheel.", cite: {p: 80}}
+      - {t: "Turn the tire and the tube together until the valve stem is straight.", cite: {p: 80}}
+      - {t: "Install the valve core and inflate the tire. If necessary, put soap on the beads again.", cite: {p: 80}}
+      - {t: "Make sure that the beads seat evenly.", cite: {p: 80}}
+      - {kind: warning, t: "Do not inflate the tire too much to seat the beads. If the beads do not seat, deflate the tire and lubricate the beads again.", cite: {p: 80}}

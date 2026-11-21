@@ -6,11 +6,12 @@ body text cannot join a region), closes larger gaps, and keeps each large
 region that does not overlap a region in index.yaml.
 
 The circled figure number is often just outside the region, so no number is
-read here. Labels are added by hand to labels-corners.yaml after a look at a
-widened corner of each region (see the note in that file).
+read here. Labels are added by hand to data/figures/labels-corners.yaml
+after a look at a widened corner of each region (see the note in that file).
 
-Output: doc/figures/clymer/p{page}-d{k}.jpg plus index-drawings.yaml with
-page, bbox in PDF points, ink density and file.
+Output: the crops in static/figures/clymer/p{page}-d{k}.jpg, plus
+doc/figures/clymer/index-drawings.yaml with page, bbox in PDF points, ink
+density and file.
 
 Usage: .venv/Scripts/python.exe -I scripts/extract_drawings.py PAGE [PAGE ...]
 """
@@ -24,8 +25,9 @@ from PIL import Image
 from scipy import ndimage
 
 ROOT = Path(__file__).resolve().parent.parent
-SRC = yaml.safe_load((ROOT / "doc" / "sources.yaml").read_text(encoding="utf-8"))["clymer"]
-OUT = ROOT / "doc" / "figures" / "clymer"
+SRC = yaml.safe_load((ROOT / "data" / "sources.yaml").read_text(encoding="utf-8"))["clymer"]
+OUT = ROOT / "doc" / "figures" / "clymer"  # index.yaml and index-drawings.yaml
+CROPS = ROOT / "static" / "figures" / "clymer"
 DPI = 150
 
 
@@ -52,6 +54,7 @@ def find_drawings(page: pymupdf.Page, old: list[list[float]]) -> list[tuple[list
 
 
 def main(pages: list[int]) -> None:
+    CROPS.mkdir(parents=True, exist_ok=True)
     index = yaml.safe_load((OUT / "index.yaml").read_text(encoding="utf-8"))
     path = OUT / "index-drawings.yaml"
     drawings = yaml.safe_load(path.read_text(encoding="utf-8")) if path.exists() else []
@@ -63,8 +66,8 @@ def main(pages: list[int]) -> None:
         for k, (bbox, density) in enumerate(find_drawings(page, old)):
             pix = page.get_pixmap(dpi=DPI, clip=pymupdf.Rect(*bbox))
             name = f"p{pno:03d}-d{k}.jpg"
-            Image.frombytes("RGB", (pix.width, pix.height), pix.samples).save(OUT / name, quality=85)
-            drawings.append({"page": pno, "figure": None, "bbox_pt": bbox, "density": density, "file": f"doc/figures/clymer/{name}"})
+            Image.frombytes("RGB", (pix.width, pix.height), pix.samples).save(CROPS / name, quality=85)
+            drawings.append({"page": pno, "figure": None, "bbox_pt": bbox, "density": density, "file": f"static/figures/clymer/{name}"})
     drawings.sort(key=lambda e: e["file"])
     path.write_text(yaml.safe_dump(drawings, sort_keys=False), encoding="utf-8")
     print(f"{len(drawings)} drawing regions in index-drawings.yaml")

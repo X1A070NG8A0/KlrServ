@@ -1,0 +1,30 @@
+title: "CDI unit test"
+system: "electrical system"
+source: clymer
+chapter: 9
+section: "09/ignition-system"
+summary: {t: "The CDI unit is on the right side of the motorcycle, under the fuel tank. Measure the resistance between pairs of wires. If the readings show that the unit is faulty, replace the unit.", cite: {p: 218}}
+sections:
+  - title: "Precautions"
+    steps:
+      - {t: "Do not disconnect electrical connections while the engine runs or cranks. The CDI unit and other ignition parts can be damaged.", cite: {p: 218}}
+      - {t: "Turn off the ignition switch before you disconnect or connect electrical components.", cite: {p: 218}}
+      - {t: "Handle the parts with care.", cite: {p: 218}}
+      - {t: "Before you replace a component, examine the wiring for poor connections, corrosion and shorts.", cite: {p: 218}}
+      - {t: "Before you test components, make sure that the battery and the spark plug are in good condition. For battery replacement, charging and electrolyte checks, refer to Chapter Three.", cite: {p: 218}, op: battery}
+      - {t: "Work slowly and in order. Use test equipment in good condition. Record all measurements.", cite: {p: 218}}
+  - title: "Test"
+    steps:
+      - {kind: note, t: "Ohmmeter measurements are different from one meter to another. A measurement that is only slightly out of specification does not always mean that the CDI unit is faulty.", cite: {p: 218}}
+      - {t: "Remove the fuel tank.", cite: {p: 218}, ref: "15/fuel-tank", figs: [46]}
+      - {t: "Disconnect the connectors that go from the CDI unit. On 1990-on models, also disconnect the single yellow/black wire that goes from the CDI unit.", cite: {p: 218}, figs: [49]}
+      - {t: "Set the ohmmeter to the R x 1K scale.", cite: {p: 218}}
+      - {t: "Connect the positive probe and the negative probe to the wire colors that the CDI resistance table shows. Measure and record the reading. Do again for all wire combinations.", cite: {p: 218}}
+      - {kind: note, t: "The table for 1990-on models applies to this motorcycle. Values are approximate, in kilohms. The symbol for infinity is shown as INF. Wire colors are B black, B/W black with white tracer, L/R blue with red tracer, R red, R/G red with green tracer, W white and Y/B yellow with black tracer.", cite: {p: 220}, figs: [48]}
+      - {t: "Negative probe W: all positive probe readings are INF.", cite: {p: 220}, image_checked: true}
+      - {t: "Negative probe R: positive probe W 10-55, R/G 5-25, L/R 5-35, B/W INF, B 5-25, Y/B 20-90.", cite: {p: 220}, image_checked: true}
+      - {t: "Negative probe R/G: positive probe W 2-10, R 2-10, L/R 1-6, B/W INF, B 0, Y/B 10-50.", cite: {p: 220}, image_checked: true}
+      - {t: "Negative probe L/R: positive probe W 4-20, R 4-20, R/G 1-6, B/W INF, B 1-6, Y/B 10-55.", cite: {p: 220}, image_checked: true}
+      - {t: "Negative probe B/W: all positive probe readings are INF.", cite: {p: 220}, image_checked: true}
+      - {t: "Negative probe B: positive probe W 2-10, R 2-10, R/G 0, L/R 1-6, B/W INF, Y/B 10-50.", cite: {p: 220}, image_checked: true}
+      - {t: "Negative probe Y/B: positive probe W 15-80, R 15-80, R/G 10-50, L/R 10-55, B/W INF, B 10-50.", cite: {p: 220}, image_checked: true}

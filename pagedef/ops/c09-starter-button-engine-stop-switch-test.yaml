@@ -1,0 +1,19 @@
+title: "Starter button and engine stop switch test"
+system: "electrical system"
+source: clymer
+chapter: 9
+section: "09/starting-system"
+summary: {t: "Test the starter button and the engine stop switch with an ohmmeter at the connector plug (A in the figure). The plug is in front of the handlebar gauges, behind the cover.", cite: {p: 216}}
+sections:
+  - steps:
+      - {t: "Remove the cover to get to the wiring. If necessary, remove the fairing.", cite: {p: 216}, figs: [43]}
+      - {t: "Disconnect the connector plug.", cite: {p: 216}}
+      - {t: "Connect the ohmmeter to the plug half that goes to the switch and button. Connect it to the brown wire and the yellow/red wire.", cite: {p: 216}}
+      - {t: "With the engine stop switch in the off position, there must be no continuity.", cite: {p: 216}}
+      - {t: "With the engine stop switch in the off position, press the starter button. There must be no continuity.", cite: {p: 216}}
+      - {t: "With the engine stop switch in the run position, there must be no continuity.", cite: {p: 216}}
+      - {t: "With the engine stop switch in the run position, press the starter button. There must be continuity.", cite: {p: 216}}
+      - {t: "Connect the ohmmeter to the black/white wire and the black/yellow wire.", cite: {p: 216}}
+      - {t: "With the engine stop switch in the off position, there must be continuity.", cite: {p: 216}}
+      - {t: "With the engine stop switch in the off position, press the starter button. There must be no continuity.", cite: {p: 216}}
+      - {t: "If the assembly fails any test, replace or repair the assembly.", cite: {p: 216}}

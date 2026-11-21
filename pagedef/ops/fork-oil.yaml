@@ -1,0 +1,40 @@
+# Clymer Chapter Three: spark plug (PDF p84-85) and fork oil replacement (PDF p61-63).
+title: "Fork oil replacement (forks on the bike)"
+system: "Front suspension"
+source: clymer
+chapter: 3
+section: "03/periodic-lubrication"
+summary:
+  t: "You do not have to remove the fork legs to change the oil. For seal leaks or damage, see Chapter Twelve."
+  cite: {p: 61}
+spec_refs:
+  - "fork-oil:Fork oil grade"
+  - "fork-oil:Fork oil capacity (each leg)/Oil change"
+  - "fork-oil:Fork tube oil level (from top edge of inner tube)"
+  - "maintenance-torque:Fork caps"
+parts:
+  - {name: "Fork drain screw O-rings (2)", replace: always, cite: {p: 61}, note: "Install a new O-ring on each drain screw."}
+  - {name: "Fork cap O-rings (2)", replace: always, cite: {p: 62}, note: "Install a new O-ring on each fork cap. Lubricate the O-ring."}
+  - {name: "Fork oil", replace: consumable, spec_ref: "fork-oil:Fork oil capacity (each leg)/Oil change", cite: {p: 62}}
+sections:
+  - steps:
+      - {t: "For each leg, remove the cap.", cite: {p: 61}, figs: [14]}
+      - {t: "Push the air valve in to release the pressure.", cite: {p: 61}, figs: [14]}
+      - {t: "Remove the drain screw and the O-ring from each leg.", cite: {p: 61}, figs: [15]}
+      - {t: "Let the oil drain. Pump the fork to help the oil to drain.", cite: {p: 61}, figs: [15]}
+      - {t: "Install a new O-ring on each drain screw. Tighten the drain screws.", cite: {p: 61}, figs: [15]}
+      - {t: "Support the motorcycle so that it is stable and the front wheel is off the ground.", cite: {p: 61}}
+      - {kind: caution, t: "Do not disassemble the fork if the front wheel is on the ground. With both caps off, the unsupported fork legs can collapse and the motorcycle can fall forward.", cite: {p: 61}}
+      - {t: "Remove the fork caps.", cite: {p: 61}, figs: [16]}
+      - {t: "Remove the spring spacer, the spring seat and the spring from each leg.", cite: {p: 61}, figs: [16]}
+      - {t: "If the springs have progressive winding, note which end is up.", cite: {p: 61}, figs: [16]}
+      - {t: "Clean and examine the parts.", cite: {p: 62}}
+      - {t: "Measure the specified quantity of oil. Pour the oil into each leg.", cite: {p: 62}, spec_ref: "fork-oil:Fork oil capacity (each leg)/Oil change"}
+      - {t: "Compress the legs fully. Ask an assistant to help, or lift the wheel and support it.", cite: {p: 62}}
+      - {t: "Use a fork oil level tool to set the oil level. Measure the level from the top edge of the fork leg to the oil surface.", cite: {p: 62}, spec_ref: "fork-oil:Fork tube oil level (from top edge of inner tube)"}
+      - {t: "Make sure that the oil level is the same in both legs.", cite: {p: 62}}
+      - {kind: note, t: "The oil level sets the size of the air pocket, which has an effect on damping. More oil (smaller air pocket) makes the damping harder and can cause seal leaks. Less oil (larger air pocket) makes the damping softer and can let the fork bottom out. This can cause damage to parts. A small change to suit the riding conditions is permitted.", cite: {p: 62}}
+      - {t: "Extend the legs.", cite: {p: 62}}
+      - {t: "Install the spring, the spring seat and the spacer.", cite: {p: 62}}
+      - {t: "Install a new O-ring on each fork cap. Lubricate the O-ring.", cite: {p: 62}}
+      - {t: "Install the fork caps and tighten them to the specified torque.", cite: {p: 63}, spec_ref: "maintenance-torque:Fork caps"}

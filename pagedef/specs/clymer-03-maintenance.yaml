@@ -1,0 +1,77 @@
+# Clymer Chapter Three tables, transcribed from page images (PDF p89-90).
+# `group` is the indented parent heading in the printed table.
+title: "Lubrication, Maintenance and Tune-up"
+pages:
+  - id: fluids
+    title: "Fuel, lubricants and fluids"
+    kind: Specification
+    cite: {s: clymer, p: 89, ref: "Table 2"}
+    rows:
+      - {item: "Fuel type", value: "Unleaded gasoline; 87 octane minimum"}
+      - {item: "Fuel tank capacity", value: "23 liters (6.1 U.S. gal.)"}
+      - {item: "Engine oil", value: "SG rated, four-stroke engine oil; SAE 10W-40, 20W-40, 10W-50 or 20W-50"}
+      - {group: "Engine oil capacity", item: "Without filter change", value: "2.2 liters (2.3 U.S. qt.)"}
+      - {group: "Engine oil capacity", item: "With filter change", value: "2.5 liters (2.6 U.S. qt.)"}
+      - {item: "Cooling system capacity", value: "1.3 liters (1.4 U.S. qt.)"}
+      - {item: "Coolant type", value: "Ethylene glycol containing anti-corrosion inhibitors for aluminum engines"}
+      - {item: "Coolant mixture", value: "50/50 (antifreeze/distilled water)"}
+      - {item: "Drive chain", value: "O-ring type chain lubricant"}
+      - {item: "Fork oil grade", value: "Kayaba G-10, or equivalent 10-weight fork oil"}
+      - {group: "Fork oil capacity (each leg)", item: "Oil change", value: "355 cc (12.0 U.S. oz.)"}
+      - {group: "Fork oil capacity (each leg)", item: "Fork rebuild (all parts dry)", value: "416-424 cc (14.0-14.3 U.S. oz.)"}
+      - {item: "Fork tube oil level (from top edge of inner tube)", value: "188-192 mm (7.40-7.56 in.)"}
+      - {item: "Brake fluid type", value: "DOT 4"}
+      - {item: "Control cables", value: "Cable lube"}
+      - {item: "Air filter", value: "Foam air filter oil"}
+
+  - id: tune-up
+    title: "Tune-up specifications"
+    kind: Specification
+    cite: {s: clymer, p: 89, ref: "Table 3"}
+    rows:
+      - {item: "Battery", value: "12 volt, 14 amp-hour"}
+      - {item: "Compression", value: "530-855 kPa (77-124 psi)"}
+      - {item: "Compression ratio", value: "9.5:1"}
+      - {item: "Idle speed", value: "1200-1400 rpm"}
+      - {group: "Ignition timing", item: "Idle", value: "10° BTDC at 1300 rpm"}
+      - {group: "Ignition timing", item: "Advanced", value: "30° BTDC at 3300 rpm"}
+      - {item: "Pilot mixture screw turns out", value: "1 3/8"}
+      - {group: "Spark plug", item: "Type", value: "NGK DP8EA-9; NGK DPR8EA-9; ND X24EP-U9; ND X24EPR-U9"}
+      - {group: "Spark plug", item: "Gap", value: "0.8-0.9 mm (0.032-0.036 in.)"}
+      - {group: "Valve clearance", item: "Intake", value: "0.10-0.20 mm (0.004-0.008 in.)"}
+      - {group: "Valve clearance", item: "Exhaust", value: "0.15-0.25 mm (0.006-0.010 in.)"}
+
+  - id: routine-checks
+    title: "Routine checks and adjustments"
+    kind: Specification
+    cite: {s: clymer, p: 89, ref: "Table 4"}
+    rows:
+      - {item: "Brake light switch", value: "On after 15 mm (0.6 in.) of pedal travel"}
+      - {item: "Brake pad lining minimum thickness", value: "1.0 mm (0.040 in.)"}
+      - {item: "Brake pedal height", value: "At or near level with top of peg"}
+      - {item: "Choke lever free play", value: "2-3 mm (0.08-0.12 in.)"}
+      - {item: "Clutch lever free play", value: "2-3 mm (0.08-0.12 in.) at pivot"}
+      - {item: "Drive chain play", value: "50-60 mm (2.0-2.4 in.)"}
+      - {item: "Drive chain length wear limit (20 links/21 pins)", value: "323 mm (12.7 in.)"}
+      - {item: "Fork air pressure", value: "0 (atmospheric pressure)"}
+      - {item: "Radiator cap relief pressure", value: "93-123 kPa (13.5-17.8 psi)"}
+      - {item: "Rim runout (radial and lateral)", value: "2.0 mm (0.08 in.)"}
+      - {item: "Throttle grip free play", value: "2-3 mm (0.08-0.12 in.)"}
+      - {group: "Tire pressure", item: "Front", value: "150 kPa (22 psi)"}
+      - {group: "Tire pressure", item: "Rear, loads up to 97.5 kg (215 lb.)", value: "150 kPa (22 psi)"}
+      - {group: "Tire pressure", item: "Rear, loads 97.5-182 kg (215-400 lb.)", value: "200 kPa (29 psi)"}
+
+  - id: maintenance-torque
+    title: "Maintenance torque specifications"
+    kind: Specification
+    format: torque
+    cite: {s: clymer, p: 90, ref: "Table 5"}
+    rows:
+      - {group: "Axle nut", item: "Front", nm: "78", ftlb: "58"}
+      - {group: "Axle nut", item: "Rear", nm: "93", ftlb: "69"}
+      - {item: "Fork caps", nm: "29", ftlb: "21"}
+      - {item: "Handlebar clamp bolts", nm: "24", ftlb: "18"}
+      - {item: "Oil drain plug", nm: "23", ftlb: "17"}
+      - {item: "Spark plug", nm: "14", ftlb: "10"}
+      - {item: "Spokes", nm: "2-4", inlb: "17-35"}
+      - {item: "Coolant drain plug", nm: "10", inlb: "88"}

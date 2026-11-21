@@ -1,0 +1,15 @@
+# Clymer Chapter Three: cable adjustments, brakes and steering inspection (PDF p74-78).
+title: "Rear brake light switch adjustment"
+system: "Brakes"
+source: clymer
+chapter: 3
+section: "03/maintenance-and-inspection"
+spec_refs:
+  - "routine-checks:Brake light switch"
+sections:
+  - steps:
+      - {t: "Turn the ignition on. Push the brake pedal down 15 mm (0.6 in.). Make sure that the rear brake light comes on.", cite: {p: 77}, figs: [66]}
+      - {t: "To adjust, turn the nut on the switch.", cite: {p: 77}, figs: [66]}
+      - {t: "If the light comes on too late (too much pedal travel), turn the nut to move the switch up.", cite: {p: 77}}
+      - {t: "If the light comes on too early, turn the nut to move the switch down.", cite: {p: 77}}
+      - {kind: note, t: "If the light does not come on, examine the bulb. If necessary, disconnect the switch wires and use an ohmmeter to measure continuity. The switch is on when the plunger is extended.", cite: {p: 77}}

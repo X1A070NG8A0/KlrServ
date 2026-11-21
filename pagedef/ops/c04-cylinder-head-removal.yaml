@@ -1,0 +1,50 @@
+title: "Cylinder head removal"
+system: "Engine top end"
+source: clymer
+chapter: 4
+section: "04/cylinder-head"
+summary: {t: "This procedure removes the cylinder head with the engine in the frame. The cylinder head comes out of the left side of the engine.", cite: {p: 103}}
+parts:
+  - {name: "Cylinder head gasket", replace: always, cite: {p: 106}, note: "Install a new gasket."}
+  - {name: "Valve lifter shims", replace: inspect, cite: {p: 103}, note: "Mark the location of each shim. The shims can have different thickness."}
+sections:
+  - title: "Removal"
+    steps:
+      - {t: "Drain the engine coolant.", cite: {p: 103}, op: coolant-replace}
+      - {t: "Remove the coolant hose, the thermostat and the thermostat housing.", cite: {p: 103}, figs: [35], ref: "10/thermostat"}
+      - {t: "Remove the carburetor.", cite: {p: 103}, ref: "08/carburetor"}
+      - {t: "Remove the exhaust pipe.", cite: {p: 103}, op: c04-exhaust-system}
+      - {t: "Remove the cylinder head cover, the camshafts and the cam chain tensioner.", cite: {p: 103}, op: c04-camshaft-removal}
+      - {t: "Turn each valve lifter so that you can get to the notch in the edge of the lifter.", cite: {p: 103}}
+      - {t: "Put a small-tipped tool between the shim and the lifter. Tilt the tool back to break the oil adhesion between the parts.", cite: {p: 103}, figs: [21]}
+      - {t: "Remove the shim and mark its location in the cylinder head.", cite: {p: 103}}
+      - {t: "Make a drawing of the cylinder head. Put the parts from each location in the correct position on the drawing.", cite: {p: 103}}
+      - {t: "Remove the banjo bolt and the seal washers from the oil pipe.", cite: {p: 103}, figs: [36]}
+      - {t: "Remove the nut from the rear of the cylinder head.", cite: {p: 103}, figs: [36]}
+      - {t: "Remove the nut and the bolt from the front of the cylinder head.", cite: {p: 103}, figs: [37]}
+      - {t: "Put clean shop cloths in the cam chain tunnel to prevent parts from going into the engine.", cite: {p: 103}}
+      - {t: "On 1987-1995 models, remove the two cylinder head bolts in the cam chain tunnel. Use a socket and an extension. Make sure that the socket and extension fit together tightly and cannot separate when you lower them into the tunnel.", cite: {p: 103}}
+      - {kind: note, t: "On later models, these two bolts are the outer bolts that hold the upper chain guide. You removed them during camshaft removal.", cite: {p: 103}}
+      - {t: "Loosen the four cylinder head bolts (10 mm) in a crossing pattern and in several passes.", cite: {p: 103}, figs: [38, 39]}
+      - {kind: caution, t: "Do not remove the four cylinder head bolts before you remove the nuts and the bolt in the previous steps. If you do, the smaller fasteners have too much stress.", cite: {p: 103}}
+      - {t: "Tap lightly around the base of the cylinder head with a soft mallet to loosen it.", cite: {p: 103}}
+      - {t: "Lift the head out of the left side of the engine. Route the cam chain out of the head.", cite: {p: 103}}
+      - {t: "Secure the chain so that it does not fall into the engine.", cite: {p: 103}}
+      - {t: "Put clean shop cloths in the cam chain tunnel.", cite: {p: 104}}
+      - {t: "Remove the head gasket, the two dowels, the front chain guide and the rubber damper from the cylinder.", cite: {p: 104}, figs: [40]}
+      - {t: "At the workbench, remove the spark plug, the water temperature sending unit, the carburetor intake duct and the rear cam chain guide.", cite: {p: 104}}
+      - {t: "Remove the valve lifters. Record their location in the head and keep them with the shims.", cite: {p: 104}, figs: [41]}
+      - {t: "If necessary, remove the valve assembly.", cite: {p: 104}, op: c04-valve-removal}
+  - title: "Cleaning"
+    steps:
+      - {t: "Wash all parts in solvent and dry them with compressed air.", cite: {p: 104}}
+      - {t: "Remove all gasket residue from the cylinder head and the cylinder. Do not scratch or gouge the surfaces.", cite: {p: 104}}
+      - {t: "Remove all carbon deposits from the combustion chamber with solvent and a soft brush or a hardwood scraper.", cite: {p: 104}}
+      - {kind: caution, t: "Do not use sharp-edged tools. They can scratch the valves or the combustion chamber.", cite: {p: 104}}
+      - {t: "If you clean the piston crown, keep solvent and carbon deposits out of the gap between the piston and the cylinder.", cite: {p: 104}}
+      - {kind: caution, t: "If the valves are out of the head, clean the valve seats with care. A scratched or gouged valve seat does not seal correctly.", cite: {p: 104}}
+      - {t: "If the cylinder head will be bead-blasted, wash the complete assembly in hot soapy water after the reconditioning. This removes blasting grit from crevices and threads.", cite: {p: 104}}
+      - {t: "Clean and chase all threads after bead-blasting. Grit that stays in the head goes into the engine oil and the oil circulates it to other parts. This damages the bearings, the piston and the rings.", cite: {p: 104}}
+      - {t: "Make sure that there is no debris or blockage in the oil passages.", cite: {p: 104}}
+      - {t: "Examine all parts for wear or damage.", cite: {p: 104}}
+      - {t: "Examine the cylinder head.", cite: {p: 104}, op: c04-cylinder-head-inspection}

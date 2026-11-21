@@ -1,0 +1,33 @@
+title: "Carburetor removal and installation"
+system: "Fuel system"
+source: clymer
+chapter: 8
+section: "08/carburetor"
+summary: {t: "This procedure removes the Keihin CVK40 carburetor from the ducts and installs it again. The carburetor comes out on the right side of the engine.", cite: {p: 185}}
+sections:
+  - title: "Removal"
+    steps:
+      - {t: "Support the motorcycle so that it is stable and secure.", cite: {p: 185}}
+      - {t: "Remove the fuel tank.", cite: {p: 185}, ref: "15/fuel-tank"}
+      - {t: "Remove the clamps from the air filter housing duct and from the intake duct.", cite: {p: 185}, figs: [5]}
+      - {t: "Remove the cable holder screw.", cite: {p: 185}, figs: [5]}
+      - {t: "If the screw is too tight, disconnect the throttle cables and leave the holder attached to the carburetor.", cite: {p: 185}, figs: [5]}
+      - {t: "If you disconnect the cables, mark them so that you can install them in the correct positions.", cite: {p: 185}}
+      - {t: "On the left side of the carburetor, remove the overflow hose from the fitting.", cite: {p: 185}, figs: [6]}
+      - {t: "Pry the air filter housing duct off the carburetor. Keep the carburetor upright.", cite: {p: 185}}
+      - {t: "If necessary, spray a small quantity of penetrating lubricant under the duct to loosen its grip on the carburetor.", cite: {p: 185}}
+      - {t: "Push the carburetor back. Pry the intake duct off the carburetor.", cite: {p: 185}}
+      - {t: "Tilt the carburetor to the left to get to the choke plunger. Remove the choke plunger.", cite: {p: 185}, figs: [6]}
+      - {t: "Remove the carburetor from the right side of the engine.", cite: {p: 185}, figs: [7]}
+      - {t: "Open the drain on the bottom of the float chamber. Drain the remaining fuel.", cite: {p: 185}, op: carb-float-drain}
+      - {t: "Push up on the choke plunger spring. Remove the cable from the plunger.", cite: {p: 185}, figs: [8]}
+  - title: "Installation"
+    steps:
+      - {t: "Install the carburetor in the opposite sequence to removal.", cite: {p: 185}}
+      - {t: "Clean the inside edges of the ducts. Lightly lubricate them so that the carburetor seats easily.", cite: {p: 185}}
+      - {t: "Align the tab on the carburetor with a slot in the intake duct. There are slots on both sides of the duct but only one tab on the carburetor.", cite: {p: 185}, figs: [9]}
+      - {t: "Make sure that the fuel hose and the overflow hose are in the correct routing.", cite: {p: 185}}
+      - {t: "Adjust the throttle cables.", cite: {p: 185}, op: throttle-cable}
+      - {t: "Make sure that the throttle operates correctly.", cite: {p: 185}}
+      - {t: "Examine the carburetor for leaks.", cite: {p: 186}}
+      - {t: "If you disassembled the carburetor, adjust the carburetor.", cite: {p: 186}, op: idle-speed}

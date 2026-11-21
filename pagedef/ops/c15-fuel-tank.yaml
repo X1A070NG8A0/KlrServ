@@ -1,0 +1,21 @@
+title: "Fuel tank removal and installation"
+system: "body"
+source: clymer
+chapter: 15
+section: "15/fuel-tank"
+summary: {t: "This procedure removes and installs the fuel tank. You move the tank toward the rear of the motorcycle.", cite: {p: 328}}
+sections:
+  - title: "Removal"
+    steps:
+      - {t: "Remove the seat.", cite: {p: 328}, op: c15-seat}
+      - {t: "Turn the fuel valve off.", cite: {p: 328}}
+      - {t: "Remove the fuel hose (A) and the vacuum hose (B) from the fuel valve assembly.", cite: {p: 328}, figs: [4]}
+      - {t: "Remove the bolts and the hoses at the rear of the fuel tank.", cite: {p: 328}, figs: [5]}
+      - {t: "Remove the screw at the top of the radiator cover.", cite: {p: 328}, figs: [6]}
+      - {t: "Pull the friction barb from the grommet in the fuel tank.", cite: {p: 328}}
+      - {kind: caution, t: "Do not bend the radiator cover too much. This can cause discoloration.", cite: {p: 328}}
+      - {t: "Move the fuel tank toward the rear of the motorcycle and remove it.", cite: {p: 328}}
+  - title: "Installation"
+    steps:
+      - {t: "Install the fuel tank in the reverse order of removal.", cite: {p: 328}}
+      - {t: "Align the fuel tank with all the bolt holes and screw holes before you tighten the fasteners.", cite: {p: 328}}

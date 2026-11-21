@@ -1,0 +1,19 @@
+title: "Steering bearing lubrication"
+system: "Front suspension and steering"
+source: clymer
+chapter: 12
+section: "12/steering-stem-and-head"
+summary: {t: "Lubricate the steering bearings at the interval that Chapter Three gives. Improper lubrication is a usual cause of excess play or roughness in the steering stem. This procedure disassembles the steering head, packs the bearings and races with grease, and assembles it again.", cite: {p: 263}}
+spec_refs: ["front-suspension-torque:Steering stem nut"]
+parts:
+  - {name: "Waterproof bearing grease", replace: consumable, cite: {p: 264}}
+sections:
+  - steps:
+      - {t: "Lubricate the steering bearings every 12,000 miles (20,000 km).", cite: {p: 88}, op: steering-bearings}
+      - {t: "Disassemble the steering head.", cite: {p: 263}, op: c12-steering-head-disassembly}
+      - {t: "Clean the bearings and the races with solvent.", cite: {p: 264}}
+      - {t: "Do the inspection of the steering stem and head. Replace worn or damaged parts.", cite: {p: 264}, op: c12-steering-head-inspection}
+      - {t: "Pack the bearings with waterproof grease.", cite: {p: 264}}
+      - {t: "Lubricate the races with waterproof bearing grease.", cite: {p: 265}}
+      - {t: "Make sure that the bearings, the races and the seals have waterproof grease.", cite: {p: 266}}
+      - {t: "Assemble the steering head and adjust the bearings.", cite: {p: 266}, op: c12-steering-head-assembly}

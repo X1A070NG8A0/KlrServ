@@ -1,0 +1,19 @@
+title: "Muffler (spark arrester) cleaning"
+system: "Exhaust"
+source: clymer
+chapter: 3
+section: "03/maintenance-and-inspection"
+summary:
+  t: "The muffler is approved by the U.S. Forest Service as a spark arrester and limits noise to 80 decibels. Remove carbon from the internal baffle so that the muffler operates correctly. This is more important if the engine ran rich."
+  cite: {p: 67}
+sections:
+  - steps:
+      - {kind: warning, t: "Do not spray solvents or other flammable liquids into the muffler to remove buildup. This can cause an explosion or fire.", cite: {p: 67}}
+      - {t: "Park the motorcycle in an open area, away from flammable materials.", cite: {p: 67}}
+      - {t: "Remove the two plugs on the back side of the muffler.", cite: {p: 67}, figs: [37, 38]}
+      - {t: "Remove the plug near the right passenger peg.", cite: {p: 67}, figs: [37, 38]}
+      - {t: "Start the engine.", cite: {p: 67}}
+      - {t: "Wear gloves. Tap the muffler with a rubber mallet while you increase and decrease the engine speed.", cite: {p: 67}}
+      - {t: "For a short time, put a folded shop cloth over the end of the muffler. The exhaust pressure then pushes carbon out of the plug openings.", cite: {p: 67}}
+      - {t: "When no more carbon particles come out, stop the engine.", cite: {p: 68}}
+      - {t: "Install the plugs.", cite: {p: 68}}

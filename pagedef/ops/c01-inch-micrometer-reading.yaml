@@ -1,0 +1,15 @@
+title: "Standard inch micrometer reading"
+system: "General information"
+source: clymer
+chapter: 1
+section: "01/precision-measuring-tools"
+summary: {t: "A standard inch micrometer is accurate to 0.001 in. The sleeve has marks at 0.025 in. increments. The thimble has 25 lines that each equal 0.001 in.", cite: {p: 30}}
+sections:
+  - steps:
+      - {t: "Make sure that there is no dirt or burrs between the micrometer and the object. Close the micrometer around the highest point so that you can remove it with a slight drag.", cite: {p: 30}}
+      - {kind: caution, t: "Do not force the micrometer closed around an object.", cite: {p: 30}}
+      - {t: "Read the sleeve and find the largest number that you can see. Each sleeve number equals 0.100 in.", cite: {p: 30}}
+      - {t: "Count the lines between the numbered sleeve mark and the edge of the thimble. Each sleeve mark equals 0.025 in.", cite: {p: 30}}
+      - {t: "Read the thimble mark that aligns with the sleeve line. Each thimble mark equals 0.001 in.", cite: {p: 30}}
+      - {kind: note, t: "If a thimble mark does not align exactly with the sleeve line, estimate the amount between the lines. For readings in 0.0001 in., use a vernier inch micrometer.", cite: {p: 30}}
+      - {t: "Add the three readings. In the book example, 0.200 in. plus 0.025 in. plus 0.006 in. is 0.231 in.", cite: {p: 31}}

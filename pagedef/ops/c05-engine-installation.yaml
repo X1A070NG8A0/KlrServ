@@ -1,0 +1,37 @@
+title: "Engine installation"
+system: "Engine lower end"
+source: clymer
+chapter: 5
+section: "05/engine"
+summary: {t: "This procedure installs the engine in the frame. Install it in the reverse order of removal. Do the adjustments and the tests at the end of the procedure.", cite: {p: 128}}
+spec_refs: ["lower-end-torque:Engine mounting bolts/8 mm", "lower-end-torque:Engine mounting bolts/10 mm", "lower-end-torque:Swing arm pivot bolt"]
+parts:
+  - {name: "Dielectric grease", replace: consumable, cite: {p: 128}}
+sections:
+  - title: "Installation"
+    steps:
+      - {t: "Install the engine in the reverse order of removal.", cite: {p: 128}, op: c05-engine-removal}
+      - {t: "If the drive chain is endless and has no master link, make sure that it goes over the swing arm pivot before you install the swing arm pivot bolt.", cite: {p: 128}}
+      - {t: "Install the engine mounting brackets, bolts and nuts. Make sure that each bolt has its original direction.", cite: {p: 128}}
+      - {t: "Tighten all nuts with your fingers before you tighten them to the specified torque.", cite: {p: 128}}
+      - {kind: note, t: "If the engine top end is not installed when you install the engine in the frame, do not tighten the mounting nuts. First install the upper mounting brackets and align them with their mounting points.", cite: {p: 128}}
+      - {t: "Tighten the 8 mm mounting bolts to the specified torque.", cite: {p: 128}, spec_ref: "lower-end-torque:Engine mounting bolts/8 mm"}
+      - {t: "Tighten the 10 mm mounting bolts to the specified torque.", cite: {p: 128}, spec_ref: "lower-end-torque:Engine mounting bolts/10 mm"}
+      - {t: "Tighten the swing arm pivot bolt to the specified torque.", cite: {p: 128}, spec_ref: "lower-end-torque:Swing arm pivot bolt"}
+      - {t: "Route the electrical wires so that they are not pinched and do not touch hot surfaces.", cite: {p: 128}}
+      - {t: "Apply dielectric grease to the electrical connections before you connect them.", cite: {p: 128}}
+      - {t: "If you removed parts from the top end or the crankcase covers, install them.", cite: {p: 128}}
+  - title: "Fluids and adjustments"
+    steps:
+      - {t: "Fill the engine with engine oil.", cite: {p: 128}, op: engine-oil-and-filter}
+      - {t: "Fill the cooling system with coolant.", cite: {p: 128}, op: coolant-replace}
+      - {t: "Adjust the clutch free play.", cite: {p: 128}, op: clutch-adjust}
+      - {t: "Adjust the throttle cable.", cite: {p: 128}, op: throttle-cable}
+      - {t: "Adjust the height of the rear brake pedal.", cite: {p: 128}, op: brake-pedal}
+      - {t: "Adjust the drive chain.", cite: {p: 128}, op: drive-chain-adjust-lube}
+  - title: "Engine start and tests"
+    steps:
+      - {t: "Start the engine. Look for leaks.", cite: {p: 128}}
+      - {t: "Make sure that the throttle and the clutch operate correctly.", cite: {p: 128}}
+      - {t: "If you rebuilt the engine top end, do a compression test. Record the result to compare it with later tests.", cite: {p: 128}, op: c03-compression-check}
+      - {t: "Read the engine break-in procedure.", cite: {p: 128}, op: c03-engine-break-in}

@@ -9,7 +9,9 @@
     "noEmit": true,
     "allowImportingTsExtensions": true,
     "verbatimModuleSyntax": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "ggass"
   },
-  "include": ["build.ts", "lib/*.ts"]
+  "include": ["build.ts", "lib/*.ts", "template/**/*.ts", "template/**/*.tsx"]
 }

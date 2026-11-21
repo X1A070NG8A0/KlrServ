@@ -1,0 +1,24 @@
+title: "Bearing installation in a housing with an interference fit"
+system: "General information"
+source: clymer
+chapter: 1
+section: "01/repair-methods"
+summary: {t: "A bearing usually has a slight interference fit in a housing. Heat the housing before you install the bearing. Heat only one housing at a time.", cite: {p: 37}}
+sections:
+  - title: "Removal of the old bearings"
+    steps:
+      - {kind: caution, t: "Before you heat the housing, wash it with detergent and water. Rinse and wash it again as necessary to remove all oil and chemical deposits.", cite: {p: 37}}
+      - {t: "Heat the housing to approximately 212° F (100° C) in an oven or on a hot plate.", cite: {p: 37}}
+      - {t: "To make sure that the housing is at the correct temperature, put tiny drops of water on it. If the drops sizzle and evaporate immediately, the temperature is correct.", cite: {p: 37}}
+      - {kind: caution, t: "Do not heat the housing or the bearing with a propane or acetylene torch. The direct heat destroys the case hardening of the bearing and can warp the housing. A magnesium alloy case can ignite.", cite: {p: 37}}
+      - {t: "Remove the housing from the oven or hot plate. Wear insulated gloves or use kitchen pot holders.", cite: {p: 37}}
+      - {t: "Hold the housing with the bearing side down. Tap the bearing out. Do this for all the bearings in the housing.", cite: {p: 37}}
+      - {kind: note, t: "Remove and install the bearings with a socket and extension of the correct size.", cite: {p: 37}}
+  - title: "Installation of the new bearings"
+    steps:
+      - {t: "If possible, put the new bearing in a freezer before you heat the housing. A chilled bearing is a little smaller in outside diameter, and the hot housing is a little larger. This makes installation easier.", cite: {p: 37}}
+      - {t: "While the housing is hot, install the new bearings. Install them by hand if possible.", cite: {p: 38}}
+      - {t: "If necessary, tap the bearing lightly into the housing with a socket on the outer bearing race.", cite: {p: 38}}
+      - {kind: caution, t: "Do not install a new bearing by driving on the inner bearing race.", cite: {p: 38}}
+      - {t: "Install the bearing until it seats completely.", cite: {p: 38}}
+      - {kind: note, t: "Always install bearings with the mark or number of the manufacturer toward the outside.", cite: {p: 38}}

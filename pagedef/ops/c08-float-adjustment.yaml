@@ -1,0 +1,21 @@
+title: "Float height adjustment"
+system: "Fuel system"
+source: clymer
+chapter: 8
+section: "08/float-adjustment"
+summary: {t: "This procedure measures the float height and adjusts it. A low float height gives a low fuel level and a lean mixture. A high float height gives a high fuel level and a rich mixture.", cite: {p: 192}}
+spec_refs: ["carburetor:Float height"]
+sections:
+  - steps:
+      - {t: "Remove the carburetor.", cite: {p: 192}, op: c08-carburetor-removal}
+      - {t: "Remove the float bowl.", cite: {p: 192}}
+      - {t: "Lightly touch the float to make sure that the float valve is seated.", cite: {p: 192}}
+      - {t: "Hold the carburetor so that the float valve stays seated. The tab on the float must only touch the spring-loaded pin in the valve and not compress it.", cite: {p: 192}, figs: [41]}
+      - {t: "Measure the distance from the gasket surface of the carburetor body to the highest point on the float.", cite: {p: 192}, figs: [41], spec_ref: "carburetor:Float height"}
+      - {t: "If the float height is not correct, remove the float assembly from the carburetor.", cite: {p: 192}}
+      - {t: "Remove the float valve and the clip.", cite: {p: 192}}
+      - {t: "Bend the float tab to raise or lower the float.", cite: {p: 192}}
+      - {kind: caution, t: "Do not break the plastic lugs or the float when you bend the tab.", cite: {p: 193}}
+      - {t: "Assemble the float and measure the height again. If necessary, adjust it again.", cite: {p: 193}}
+      - {t: "Install the float bowl.", cite: {p: 193}}
+      - {t: "Install the carburetor.", cite: {p: 193}, op: c08-carburetor-removal}

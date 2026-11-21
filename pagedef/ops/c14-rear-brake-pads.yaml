@@ -1,0 +1,43 @@
+title: "Rear brake pad replacement"
+system: "brakes"
+source: clymer
+chapter: 14
+section: "14/rear-brake-pads"
+summary: {t: "Remove the rear caliper from the swing arm to replace the pads. You do not have to disconnect the brake hose.", cite: {p: 309}}
+spec_refs:
+  - "brakes:Pad lining thickness"
+  - "brake-torque:Caliper mounting bolts"
+parts:
+  - {name: "Rear brake pads", replace: inspect, cite: {p: 309}, note: "Replace the pads if they are worn to within 1 mm (0.040 in.) of the backing plate, or if oil or other chemicals contaminate them."}
+  - {name: "Pad spring", replace: inspect, cite: {p: 309}}
+sections:
+  - title: "Removal"
+    steps:
+      - {t: "Hold the caliper in your hand during this procedure. Keep the caliper supported. Do not let it hang by the brake hose.", cite: {p: 309}}
+      - {t: "Remove the caliper mounting bolts and the hose guide. Do not kink the brake hose.", cite: {p: 309}, figs: [50]}
+      - {kind: caution, t: "Watch the fluid level in the master cylinder reservoir in the next step. Brake fluid flows back to the reservoir when you press the piston into the bore. Do not let fluid spill from the reservoir. Wash spills immediately with water. Fluid can damage painted and plastic surfaces.", cite: {p: 309}}
+      - {t: "Hold the caliper. Press the inner pad and the caliper holder against the caliper. This presses the piston into the bore and compresses the holder. Keep the holder compressed until you remove the outer pad.", cite: {p: 309}, figs: [51]}
+      - {t: "Tilt the outer pad toward the caliper. Disengage the pad from the slide pins and the pad spring.", cite: {p: 309}, figs: [52]}
+      - {t: "Press down on the inner pad. Disengage it from the caliper holder and the pad spring.", cite: {p: 309}}
+      - {kind: note, t: "Do not operate the brake pedal when the pads are removed. The caliper piston can come out of the bore.", cite: {p: 309}}
+  - title: "Inspection"
+    steps:
+      - {t: "Clean the inside of the caliper.", cite: {p: 309}}
+      - {t: "Examine the area around the piston, the bleeder valve and the hose connection for leaks and damage.", cite: {p: 309}}
+      - {t: "Examine the boots. Replace a boot that is damaged or missing.", cite: {p: 309}}
+      - {t: "Move the caliper holder in and out of the caliper. If the drag is too high, or if there is corrosion or water around the slide pin boots, clean the parts. Lubricate them with silicone brake grease.", cite: {p: 309}}
+      - {t: "Examine the pad spring. Make sure that the small tabs are not corroded or missing. The spring must be slightly arched and flexible.", cite: {p: 309}}
+      - {t: "Examine the pads for contamination, scoring and wear.", cite: {p: 309}}
+      - {t: "If the pads are worn to within 1 mm (0.040 in.) of the backing plate, replace them. Also replace them if oil or other chemicals contaminate them.", cite: {p: 309}, spec_ref: "brakes:Pad lining thickness"}
+      - {t: "If the pads wear unevenly, the caliper probably does not slide correctly on the slide pins. Clean the pins. Buildup or corrosion on the pins holds the caliper in one position. This causes brake drag and fast pad wear.", cite: {p: 309}}
+  - title: "Installation"
+    steps:
+      - {t: "Compress the caliper holder against the caliper and hold it so that you can install the pads.", cite: {p: 310}, figs: [53]}
+      - {t: "Install the inner pad. Seat it in the pad spring and in the notches of the caliper holder. Press the pad against the piston.", cite: {p: 310}, figs: [54]}
+      - {t: "Tilt the outer pad. Engage it with the slide pins and the pad spring.", cite: {p: 310}, figs: [55]}
+      - {t: "Put the caliper over the brake disc. Guide the disc between the pads.", cite: {p: 310}}
+      - {t: "Install the caliper mounting bolts. Tighten them to the specified torque.", cite: {p: 310}, spec_ref: "brake-torque:Caliper mounting bolts"}
+      - {t: "Install the hose guide.", cite: {p: 310}}
+      - {t: "Operate the brake pedal several times to seat the pads.", cite: {p: 310}}
+      - {t: "Examine the brake fluid level in the reservoir. Add or remove fluid as necessary.", cite: {p: 310}, op: brake-fluid-level}
+      - {t: "Raise the rear wheel. Make sure that the wheel turns freely and that the brake operates correctly.", cite: {p: 310}}

@@ -1,0 +1,45 @@
+title: "Fuel valve removal, inspection and installation"
+system: "Fuel system"
+source: clymer
+chapter: 8
+section: "08/fuel-valve"
+summary: {t: "This procedure removes the fuel valve from the fuel tank, cleans and examines the parts, and installs the valve again.", cite: {p: 195}}
+parts:
+  - {name: "Fuel valve O-rings", replace: always, cite: {p: 197}, note: "Replace all O-rings."}
+  - {name: "Fuel gasket", replace: inspect, cite: {p: 197}, note: "Replace the gasket if fuel leaked past it."}
+sections:
+  - title: "Removal"
+    steps:
+      - {t: "Remove the fuel tank.", cite: {p: 195}, ref: "15/fuel-tank"}
+      - {kind: warning, t: "Drain the fuel into an approved container. Do the draining at a safe distance from the work area. Fuel can ignite.", cite: {p: 196}}
+      - {t: "Drain the fuel from the tank through the fill opening or with a siphon.", cite: {p: 196}}
+      - {kind: note, t: "The fuel valve does not let fuel flow without vacuum.", cite: {p: 196}}
+      - {t: "Put the fuel tank upright on the workbench. Remove the bolts that hold the fuel valve.", cite: {p: 196}, figs: [50]}
+      - {t: "Remove the lever plate, the wave washer, the lever and the fuel gasket.", cite: {p: 196}, figs: [51]}
+      - {t: "Make sure that the vacuum cover is separate from the thin diaphragm that touches it. If necessary, use a small tool to separate the cover around its edge.", cite: {p: 196}, figs: [52]}
+      - {t: "Remove the vacuum cover and the spring.", cite: {p: 196}, figs: [53]}
+      - {t: "Lift the diaphragm assembly from the fuel valve. Use a small tool to separate the inner diaphragm from the valve.", cite: {p: 196}, figs: [54]}
+  - title: "Cleaning and inspection"
+    steps:
+      - {t: "Wash the valve, the fuel filters and the other metal parts in solvent.", cite: {p: 196}, figs: [55]}
+      - {t: "Wipe the diaphragm assembly gently.", cite: {p: 196}}
+      - {t: "Examine the screen filters. If buildup is on the screens, scrub them lightly with a nylon brush and solvent.", cite: {p: 196}}
+      - {t: "Blow compressed air through the screens from the inside to the outside.", cite: {p: 197}}
+      - {t: "Examine the valve passages for buildup.", cite: {p: 197}}
+      - {t: "Make sure that the vacuum holes in the vacuum cover are clean.", cite: {p: 197}, figs: [56]}
+      - {t: "Make sure that the diaphragm vent passage is clean.", cite: {p: 197}, figs: [57]}
+      - {kind: note, t: "If the vent is clogged, the diaphragm will drag open when vacuum is applied.", cite: {p: 197}}
+      - {t: "Examine the other parts for obvious damage.", cite: {p: 197}}
+      - {t: "Replace all O-rings. If fuel leaked past the fuel gasket, replace the gasket.", cite: {p: 197}}
+      - {t: "Make sure that the vacuum hose from the fuel valve to the carburetor is clean and tight on the fittings.", cite: {p: 197}}
+  - title: "Assembly and installation"
+    steps:
+      - {t: "Lightly lubricate the O-rings and the fuel gasket.", cite: {p: 197}}
+      - {t: "Install the diaphragm assembly so that the vent faces the fuel fitting.", cite: {p: 197}, figs: [58]}
+      - {t: "Make sure that both diaphragms lie flat before you install the vacuum cover.", cite: {p: 197}}
+      - {t: "Install the vacuum cover with the vacuum fitting toward the fuel fitting.", cite: {p: 197}}
+      - {t: "Tighten the cover screws equally in several passes.", cite: {p: 197}}
+      - {t: "Install the fuel valve in the fuel tank. Tighten the bolts equally.", cite: {p: 197}}
+      - {t: "Install the fuel tank.", cite: {p: 197}, ref: "15/fuel-tank"}
+      - {t: "When you fill the tank, start with a small quantity of fuel. Examine the valve for leaks.", cite: {p: 197}}
+      - {t: "Operate the lever. Make sure that there are no leaks in all positions.", cite: {p: 197}}

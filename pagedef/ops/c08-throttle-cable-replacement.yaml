@@ -1,0 +1,44 @@
+title: "Throttle cable replacement"
+system: "Fuel system"
+source: clymer
+chapter: 8
+section: "08/throttle-cable-replacement"
+summary: {t: "The throttle has two cables. One cable pulls the throttle open and the other pulls it closed. The two cables always move in opposite directions. This procedure replaces both cables.", cite: {p: 199}}
+parts:
+  - {name: "Throttle cables", replace: always, cite: {p: 199}}
+  - {name: "Aerosol cable lubricant", replace: consumable, cite: {p: 199}}
+  - {name: "Lithium grease", replace: consumable, cite: {p: 199}}
+sections:
+  - title: "Removal"
+    steps:
+      - {t: "Remove the fuel tank.", cite: {p: 199}, ref: "15/fuel-tank"}
+      - {t: "At the carburetor, loosen the locknuts. Remove the cables from the holders and from the throttle valve.", cite: {p: 199}, figs: [60]}
+      - {t: "Identify the cables so that you can install the new cables in the correct positions. The left cable is the accelerator cable.", cite: {p: 199}}
+      - {t: "Note the routing of the cables. Pull the cables from the frame.", cite: {p: 199}}
+      - {t: "At the handlebar, remove the screws from the housing and separate the parts.", cite: {p: 199}, figs: [61]}
+      - {t: "Remove the complete throttle assembly from the handlebar.", cite: {p: 199}}
+      - {t: "Remove the cable ends from the throttle drum.", cite: {p: 199}}
+      - {t: "Remove the cable guide from the upper housing.", cite: {p: 199}, figs: [62]}
+      - {t: "Remove the rubber boots from the throttle cable adjusters.", cite: {p: 199}}
+      - {t: "Loosen the locknuts. Unscrew the adjusters from the throttle housing.", cite: {p: 199}, figs: [63]}
+      - {kind: note, t: "The top cable is the accelerator cable.", cite: {p: 199}}
+  - title: "Installation"
+    steps:
+      - {t: "Clean the throttle assembly and the handlebar.", cite: {p: 199}}
+      - {t: "Lubricate the cables with aerosol cable lubricant.", cite: {p: 199}}
+      - {t: "Lubricate the throttle drum, the cable ends and the cable guide with lithium grease.", cite: {p: 199}}
+      - {t: "Install the new cables in their positions in the upper housing. The angled end of each cable fits into the housing.", cite: {p: 199}}
+      - {t: "Make sure that each cable is in the correct hole.", cite: {p: 199}}
+      - {t: "Put the cables in the cable guide. The top cable is the accelerator cable.", cite: {p: 199}, figs: [64]}
+      - {t: "Put the cable guide in the upper housing. Hold it in position.", cite: {p: 199}}
+      - {t: "Install the grip on the handlebar.", cite: {p: 200}}
+      - {t: "Route the accelerator cable over the drum and the decelerator cable under the drum.", cite: {p: 200}, figs: [61]}
+      - {t: "Seat the cable ends in the drum.", cite: {p: 200}}
+      - {t: "Seat the assembly on the lower housing. Hold the parts together and install the screws.", cite: {p: 200}}
+      - {t: "Route the cables through the frame to the carburetor.", cite: {p: 200}}
+      - {t: "Install the accelerator cable in the left holder. Then install the other cable.", cite: {p: 200}}
+      - {t: "Pull all the slack out of the cables.", cite: {p: 200}}
+      - {t: "Operate the throttle. Make sure that the cables move in the correct directions.", cite: {p: 200}}
+      - {t: "Connect the cables to the carburetor.", cite: {p: 200}}
+      - {t: "Adjust the cables.", cite: {p: 200}, op: throttle-cable}
+      - {t: "When the adjustment and the operation are correct, install the fuel tank.", cite: {p: 200}, ref: "15/fuel-tank"}

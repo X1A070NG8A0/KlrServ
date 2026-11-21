@@ -1,0 +1,15 @@
+title: "Water temperature gauge test"
+system: "electrical system"
+source: clymer
+chapter: 9
+section: "09/water-temperature-gauge-and-sending-unit"
+summary: {t: "Measure the resistance of the water temperature gauge at the connector plug (B in the figure). The plug is in front of the handlebar gauges, behind the cover.", cite: {p: 231}}
+spec_refs: ["electrical-test:Water temperature gauge resistance/Black/yellow-to-yellow/white wires", "electrical-test:Water temperature gauge resistance/Brown-to-yellow/white wires"]
+sections:
+  - steps:
+      - {t: "Remove the cover to get to the wiring. If necessary, remove the fairing.", cite: {p: 231}, ref: "15/fairing", figs: [70]}
+      - {t: "Disconnect the connector plug.", cite: {p: 231}}
+      - {t: "Set the ohmmeter to R x 10 ohms.", cite: {p: 230}}
+      - {t: "Connect the ohmmeter to the plug half that goes to the gauge. Connect it to the black/yellow wire and the yellow/white wire. Compare the reading with the specification.", cite: {p: 231}, spec_ref: "electrical-test:Water temperature gauge resistance/Black/yellow-to-yellow/white wires"}
+      - {t: "Connect the ohmmeter to the brown wire and the yellow/white wire. Compare the reading with the specification.", cite: {p: 231}, spec_ref: "electrical-test:Water temperature gauge resistance/Brown-to-yellow/white wires"}
+      - {t: "If the gauge fails any test, replace or repair the assembly.", cite: {p: 231}}

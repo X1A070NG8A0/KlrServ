@@ -1,0 +1,41 @@
+title: "Water pump removal, inspection and installation"
+system: "Cooling system"
+source: clymer
+chapter: 10
+section: "10/water-pump"
+summary: {t: "This procedure removes the water pump cover and the impeller, examines the parts and installs them again. You can remove the cover without removal of the right crankcase cover.", cite: {p: 239}}
+spec_refs: ["cooling-torque:Impeller nut"]
+parts:
+  - {name: "Water pump cover gasket", replace: always, cite: {p: 240}}
+  - {name: "Impeller O-ring", replace: always, cite: {p: 240}}
+  - {name: "Waterproof grease", replace: consumable, cite: {p: 240}}
+sections:
+  - title: "Removal"
+    steps:
+      - {t: "Drain the cooling system.", cite: {p: 239}, op: coolant-replace}
+      - {t: "If necessary, remove the hoses from the water pump cover.", cite: {p: 239}}
+      - {t: "Remove the three bolts that hold the water pump cover.", cite: {p: 239}, figs: [12]}
+      - {t: "Tap the cover lightly to loosen it from the crankcase cover.", cite: {p: 239}}
+      - {t: "Pull the cover straight out.", cite: {p: 239}, figs: [10]}
+      - {t: "Remove the gasket and the two dowels from below the cover.", cite: {p: 239}}
+      - {t: "Remove the nut and the washer from the impeller.", cite: {p: 239}, figs: [13]}
+      - {t: "Remove the impeller and the washer behind it.", cite: {p: 239}, figs: [14]}
+  - title: "Inspection"
+    steps:
+      - {t: "Examine the impeller and the cover for damage.", cite: {p: 239}}
+      - {t: "Examine the face of the mechanical seal on the impeller and in the right crankcase cover.", cite: {p: 239}, figs: [14]}
+      - {t: "Make sure that both faces are smooth and have no scoring or damage.", cite: {p: 239}}
+      - {t: "If a face is damaged, replace the mechanical seal and the oil seal.", cite: {p: 239}, op: c10-water-pump-seal-replacement}
+      - {kind: note, t: "When the parts are installed, the impeller seal must fit firmly against the seal in the crankcase cover. A spring in the crankcase cover seal keeps pressure on the seals and compensates for wear.", cite: {p: 239}}
+      - {t: "Install a new O-ring inside the impeller. Lubricate the O-ring with waterproof grease.", cite: {p: 240}, figs: [14]}
+      - {t: "If necessary, remove the right crankcase cover.", cite: {p: 240}, ref: "06/right-crankcase-cover"}
+  - title: "Installation"
+    steps:
+      - {t: "Apply waterproof grease to the impeller shaft.", cite: {p: 240}}
+      - {t: "Install the impeller, the washers and the nut.", cite: {p: 240}}
+      - {t: "Tighten the impeller nut to the specified torque.", cite: {p: 240}, spec_ref: "cooling-torque:Impeller nut"}
+      - {t: "Install the two dowels and a new gasket.", cite: {p: 240}}
+      - {t: "Install the water pump cover.", cite: {p: 240}}
+      - {t: "Fill the cooling system and remove the air from it.", cite: {p: 240}, op: coolant-replace}
+      - {t: "Start the engine and let it get warm.", cite: {p: 240}}
+      - {t: "Look for leaks.", cite: {p: 240}}

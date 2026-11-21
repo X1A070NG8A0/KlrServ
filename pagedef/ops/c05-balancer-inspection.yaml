@@ -1,0 +1,55 @@
+title: "Engine balancer inspection"
+system: "Engine lower end"
+source: clymer
+chapter: 5
+section: "05/engine-balancer"
+issue: doohickey
+summary: {t: "This procedure shows how to examine the balancer shafts, the balancer chain tensioner, the balancer chain and the chain guides. Replace parts that are obviously damaged or worn.", cite: {p: 132}}
+spec_refs: ["lower-end:Balancer chain length (20 links/21 pins)"]
+parts:
+  - {name: "Front balancer shaft snap ring", replace: always, cite: {p: 133}}
+  - {name: "Front balancer shaft lockwasher", replace: always, cite: {p: 133}}
+  - {name: "Rear balancer shaft snap ring", replace: always, cite: {p: 133}, note: "Replace the snap ring at the left end of the shaft and the snap ring at the right end."}
+  - {name: "Tensioner bolt O-ring", replace: always, cite: {p: 133}}
+  - {name: "Balancer chain tensioner spring", replace: inspect, cite: {p: 134}, note: "Install a new spring whenever you remove the tensioner assembly, if possible."}
+  - {name: "Balancer chain", replace: inspect, cite: {p: 134}, note: "Replace the chain if it is longer than the service limit."}
+sections:
+  - title: "Front balancer shaft"
+    steps:
+      - {t: "Examine the spacers and the locknut.", cite: {p: 132}, figs: [17]}
+      - {t: "Examine the splines, the threads, the snap ring groove and the polished surfaces on the shaft and the right weight.", cite: {p: 132}, figs: [18]}
+      - {t: "Examine the splines, the sprocket teeth and the rubber mounting on the left sprocket.", cite: {p: 132}, figs: [19]}
+      - {t: "On early engines, examine the springs and the rollers in the sprocket. Replace parts that are worn, fatigued or missing.", cite: {p: 133}}
+      - {t: "During assembly, install a new snap ring and a new lockwasher.", cite: {p: 133}}
+  - title: "Rear balancer shaft"
+    steps:
+      - {t: "Examine the spacers and the locknut.", cite: {p: 133}, figs: [20]}
+      - {t: "Examine the splines, the snap ring grooves and the polished surface on the shaft.", cite: {p: 133}}
+      - {t: "Examine the splines in the weight.", cite: {p: 133}}
+      - {t: "Examine the splines, the sprocket teeth and the rubber mounting on the sprocket.", cite: {p: 133}}
+      - {t: "On early engines, examine the springs and the rollers in the sprocket. Replace parts that are worn, fatigued or missing.", cite: {p: 133}}
+      - {t: "During assembly, install a new snap ring at the left end of the shaft.", cite: {p: 133}}
+      - {t: "Install a new snap ring on the right end of the shaft now. Install the snap ring so that the sharp edge faces in, toward the balancer weight.", cite: {p: 133}}
+  - title: "Balancer chain tensioner"
+    steps:
+      - {t: "Examine the spacer and the washers.", cite: {p: 133}, figs: [21], op: balancer-chain-tensioner}
+      - {t: "During assembly, install a new O-ring on the tensioner bolt.", cite: {p: 133}}
+      - {t: "Examine how the bearing fits in the sprocket and on the tensioner shaft.", cite: {p: 133}, figs: [22]}
+      - {t: "Make sure that the shaft and the sprocket bore are smooth and that the bearing fits tightly between the parts.", cite: {p: 133}}
+      - {t: "Make sure that the sprocket teeth and the rubber mounting are in good condition.", cite: {p: 133}}
+      - {t: "Assemble the tensioner shaft, the bearing, the sprocket and the spring lever.", cite: {p: 133}, figs: [23]}
+      - {t: "Make sure that the lever fits flat and tight on the shaft.", cite: {p: 133}}
+      - {t: "Operate the lever. Make sure that the shaft turns freely and smoothly and that the sprocket spins freely and smoothly on the shaft.", cite: {p: 133}}
+  - title: "Spring lever, spring and shaft lever"
+    steps:
+      - {t: "Examine the spring lever, the spring and the shaft lever. If you find other damage, replace the damaged part.", cite: {p: 133}, figs: [24]}
+      - {t: "Examine the weld on the shaft lever for breaks.", cite: {p: 134}}
+      - {t: "Examine the spring hole in the spring lever. The hole must be smooth and have no sharp edges that can damage the spring ends.", cite: {p: 134}}
+      - {t: "Examine the spring ends and the coils for damage. A scratch, a score or an unusual bend in the spring wire can weaken the spring and cause it to break.", cite: {p: 134}}
+      - {t: "Preferably, install a new spring whenever you remove the tensioner assembly.", cite: {p: 134}}
+  - title: "Balancer chain and guides"
+    steps:
+      - {t: "Pull the balancer chain tight. Measure the length of a 20-link span (21 pins).", cite: {p: 134}, spec_ref: "lower-end:Balancer chain length (20 links/21 pins)", conflict: {note: "The Kawasaki KLR600 manual gives a different standard length and service limit.", agrees: false, others: [{t: "Standard 190.5-191.0 mm, service limit 193.5 mm.", cite: {s: kaw-600, p: 30}}]}}
+      - {t: "Do the measurement again on different lengths of the chain.", cite: {p: 134}}
+      - {t: "Find the silver links on the chain. Use them to position and synchronize the balancer shaft assemblies with the crankshaft.", cite: {p: 134}, figs: [25]}
+      - {t: "Examine the chain guides for wear.", cite: {p: 134}, figs: [26]}

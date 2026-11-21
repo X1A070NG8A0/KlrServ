@@ -1,0 +1,28 @@
+title: "Engine spark test"
+system: "troubleshooting"
+source: clymer
+chapter: 2
+section: "02/engine-spark-test"
+summary: {t: "This test shows if the ignition system sends power to the spark plug. It shows quickly if the problem is in the electrical system or the fuel system.", cite: {p: 46}}
+sections:
+  - steps:
+      - {kind: caution, t: "Ground the spark plug lead before you crank the engine. If you do not, you can cause damage to the CDI circuitry.", cite: {p: 46}}
+      - {t: "Remove the spark plug.", cite: {p: 46}, op: "spark-plug"}
+      - {t: "Compare the condition of the spark plug to the plugs shown in Chapter Three.", cite: {p: 46}, op: "c03-spark-plug-reading"}
+      - {t: "Connect the spark plug lead to the spark plug or to a spark tester.", cite: {p: 46}}
+      - {kind: note, t: "A spark tester shows if spark occurs and how strong the spark is. You can buy one at a parts supply store or an ignition test equipment supplier.", cite: {p: 46}}
+      - {t: "Ground the plug or the tester to bare metal on the engine. Put it in a position where you can see the firing end.", cite: {p: 46}}
+      - {t: "Crank the engine and look at the spark.", cite: {p: 46}}
+      - {t: "Make sure that a fat, blue spark occurs at the firing end and that it fires every time while you crank the engine.", cite: {p: 46}}
+  - title: "Weak or inconsistent spark"
+    steps:
+      - {t: "If the spark is weak or inconsistent, examine the spark plug for fouling or a wrong gap.", cite: {p: 46}, op: "spark-plug"}
+      - {t: "Examine the spark plug lead and cap for damage or a short circuit.", cite: {p: 46}, op: "c09-ignition-coil-test"}
+      - {t: "Examine the ignition system connections for a loose connection.", cite: {p: 46}, ref: "09/ignition-system"}
+      - {t: "Do a test of the ignition coil.", cite: {p: 46}, op: "c09-ignition-coil-test"}
+      - {t: "Do a test of the ignition switch.", cite: {p: 46}, op: "c09-ignition-switch-test"}
+      - {t: "Do a test of the engine stop switch. A dirty or shorted switch can cause the problem.", cite: {p: 46}, op: "c09-starter-button-engine-stop-switch-test"}
+      - {t: "Do a test of the exciter coil.", cite: {p: 46}, op: "c09-exciter-coil-test"}
+      - {t: "Do a test of the ignition pickup coil.", cite: {p: 46}, op: "c09-pickup-coil-test"}
+      - {t: "Examine the ignition timing.", cite: {p: 46}, op: "c03-engine-timing-check"}
+      - {t: "Do a test of the CDI unit.", cite: {p: 46}, op: "c09-cdi-unit-test"}

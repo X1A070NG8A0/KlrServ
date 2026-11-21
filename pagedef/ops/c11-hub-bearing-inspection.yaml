@@ -1,0 +1,24 @@
+title: "Wheel bearing and seal inspection"
+system: "Wheels, tires and drive chain"
+source: clymer
+chapter: 11
+section: "11/front-and-rear-hubs"
+summary: {t: "The wheel hubs contain bearings and a hub spacer. Examine the bearings each time that you remove a wheel. You can also examine them with the wheels on the motorcycle.", cite: {p: 247}}
+parts:
+  - {name: "Wheel bearings", replace: inspect, cite: {p: 248}, note: "Replace the bearings as a set."}
+sections:
+  - title: "Bearings"
+    steps:
+      - {t: "Support the motorcycle so that the wheel that you examine is off the ground. The axle nut must be tight.", cite: {p: 248}}
+      - {t: "If you examine the rear wheel, remove the chain from the sprocket.", cite: {p: 248}}
+      - {t: "Hold the wheel with your hands 180 degrees apart. Lever the wheel up and down, and from side to side, to check for radial and axial play.", cite: {p: 248}}
+      - {t: "Do the test again while an assistant applies the brake. Excessive bearing wear shows as play even when the wheel is locked.", cite: {p: 248}}
+      - {t: "Spin the wheel and listen for bearing noise.", cite: {p: 248}}
+      - {t: "If the sound is sometimes rough and sometimes smooth, the bearing is damaged. If the sound is always rough, the bearing is worn out. Replace the bearing in each case.", cite: {p: 248}}
+      - {kind: note, t: "If the disc brake drags and you cannot hear the bearing, remove the wheel. Put the axle in the wheel. Support the axle so that the wheel turns freely.", cite: {p: 248}}
+      - {t: "If a bearing is damaged, replace the bearings as a set.", cite: {p: 248}, op: c11-hub-bearing-replacement}
+      - {kind: caution, t: "Do not remove the bearings to examine or lubricate them. Damage to the bearings is likely. If you remove the bearings, replace them.", cite: {p: 248}}
+  - title: "Seals"
+    steps:
+      - {t: "Examine the seals on the wheel bearings and on the sprocket hub.", cite: {p: 248}}
+      - {t: "If a seal is damaged, replace the bearing. The seals are permanent and you cannot replace them.", cite: {p: 248}}

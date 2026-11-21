@@ -1,0 +1,15 @@
+title: "Ignition switch test"
+system: "electrical system"
+source: clymer
+chapter: 9
+section: "09/starting-system"
+summary: {t: "Test the ignition switch with an ohmmeter at the connector plug (C in the figure). The plug is in front of the handlebar gauges, behind the cover.", cite: {p: 216}}
+sections:
+  - steps:
+      - {t: "Remove the cover to get to the wiring. If necessary, remove the fairing.", cite: {p: 216}, figs: [43]}
+      - {t: "Disconnect the connector plug.", cite: {p: 217}}
+      - {t: "Connect the ohmmeter to the plug half that goes to the switch. Connect it to the black/yellow wire and the black/white wire.", cite: {p: 217}}
+      - {t: "With the ignition switch in the lock, off or park position, there must be continuity.", cite: {p: 217}}
+      - {t: "Connect the ohmmeter to the white wire and the brown wire. With the ignition switch in the on position, there must be continuity.", cite: {p: 217}}
+      - {t: "Connect the ohmmeter to the red wire and the red/white wire. This is the light circuit. With the ignition switch in the on position, there must be continuity.", cite: {p: 217}}
+      - {t: "If the switch fails any test, replace or repair the assembly.", cite: {p: 217}}

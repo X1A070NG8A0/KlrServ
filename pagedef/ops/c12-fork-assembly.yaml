@@ -1,0 +1,67 @@
+title: "Fork assembly and oil filling"
+system: "Front suspension and steering"
+source: clymer
+chapter: 12
+section: "12/fork-service"
+summary: {t: "This procedure assembles one fork leg and fills it with fork oil. Have a new oil seal, a new dust seal, new O-rings and other replacement parts on hand. The work area and all parts must be clean.", cite: {p: 275}}
+spec_refs:
+  - "fork-oil:Fork oil grade"
+  - "fork-oil:Fork oil capacity (each leg)/Oil change"
+  - "fork-oil:Fork oil capacity (each leg)/Fork rebuild (all parts dry)"
+  - "fork-oil:Fork tube oil level (from top edge of inner tube)"
+  - "front-suspension-torque:Damper bolts (socket head)"
+  - "front-suspension-torque:Fork caps"
+parts:
+  - {name: "Fork oil", replace: consumable, spec_ref: "fork-oil:Fork oil grade", cite: {p: 275}}
+  - {name: "Oil seal", replace: always, cite: {p: 275}}
+  - {name: "Dust seal", replace: always, cite: {p: 275}}
+  - {name: "Drain screw O-ring", replace: always, cite: {p: 274}}
+  - {name: "Fork cap O-ring", replace: always, cite: {p: 274}}
+  - {name: "Damper bolt seal washer", replace: always, cite: {p: 274}}
+  - {name: "Threadlocking compound", replace: consumable, cite: {p: 276}}
+sections:
+  - title: "Assembly"
+    steps:
+      - {t: "Lubricate the parts with fork oil as you assemble them. Use the same fork oil that you use to fill the fork.", cite: {p: 275}, spec_ref: "fork-oil:Fork oil grade"}
+      - {t: "Install the drain screw and the O-ring into the outer tube.", cite: {p: 275}}
+      - {t: "Install the slide bushing onto the end of the inner tube. Spread the bushing only far enough to slip it onto the tube. Do not scratch its coating.", cite: {p: 275}, figs: [52]}
+      - {t: "Seat the bushing in the groove.", cite: {p: 275}}
+      - {t: "Install the rebound spring and the fork damper into the inner tube.", cite: {p: 275}}
+      - {t: "Extend the fork damper out of the bottom of the inner tube. Install the valve and the collar on the damper.", cite: {p: 275}, figs: [53]}
+      - {t: "Make sure that the open side of the collar fully seats against the stop ring on the valve.", cite: {p: 275}}
+      - {t: "With the damper fully extended, hold the inner tube horizontal. Guide it into the outer tube.", cite: {p: 275}}
+      - {t: "Fully seat and hold the inner tube. Keep the tubes horizontal.", cite: {p: 275}}
+      - {t: "Put the tubes on the workbench so that you can get to the damper bolt hole. The collar and the valve must not fall from the damper.", cite: {p: 276}}
+      - {t: "Look into the damper bolt hole. Make sure that the valve is tight against the outer tube.", cite: {p: 276}}
+      - {t: "If you see space between the parts, the collar is probably jammed. Disassemble the parts and do the assembly again.", cite: {p: 276}}
+      - {t: "Apply threadlocking compound to the damper bolt threads.", cite: {p: 276}}
+      - {t: "Install the seal washer and the bolt into the bottom of the fork leg. Tighten the bolt into the damper with your fingers.", cite: {p: 276}}
+      - {t: "Tilt the fork leg end to end. Make sure that you hear only the rebound spring.", cite: {p: 276}}
+      - {t: "Put the damper holding tool in position. Tighten the damper bolt to the specified torque.", cite: {p: 276}, spec_ref: "front-suspension-torque:Damper bolts (socket head)"}
+      - {t: "Slide the guide bushing and the backup ring onto the inner tube.", cite: {p: 276}, figs: [55]}
+      - {t: "Hold the fork leg vertical. Align the bushing so that its gap faces to the left or right of the outer tube, not to the front or the back.", cite: {p: 276}}
+      - {t: "Fit a 38 mm fork seal driver around the inner tube and against the backup ring.", cite: {p: 276}}
+      - {t: "Use the fork seal driver like a slide hammer. Drive the guide bushing and the backup ring into the fork tube.", cite: {p: 276}, figs: [56]}
+      - {t: "Make sure that the parts are completely seated.", cite: {p: 276}}
+      - {t: "Cover the end of the inner tube with plastic. Coat it with fork oil. The plastic prevents the edge of the tube from tearing the dust seal and the oil seal.", cite: {p: 276}}
+      - {t: "Lubricate the seals with fork oil.", cite: {p: 276}}
+      - {t: "Slide the oil seal and the dust seal down the inner tube. The lip on both seals must face up.", cite: {p: 276}, figs: [57]}
+      - {t: "Put the seals squarely against the bore.", cite: {p: 276}}
+      - {t: "Use the fork seal driver like a slide hammer. Drive both seals together into the fork tube until you see the stop ring groove above the seal.", cite: {p: 276}}
+      - {t: "Install the stop ring and seat it in the groove.", cite: {p: 277}}
+      - {t: "Slide the fork tubes together several times. Make sure that the action is smooth.", cite: {p: 277}}
+      - {t: "If there is roughness or binding, disassemble the parts and find the cause.", cite: {p: 277}}
+  - title: "Oil filling"
+    steps:
+      - {t: "Get the specified fork oil and capacity.", cite: {p: 277}, spec_ref: "fork-oil:Fork oil capacity (each leg)/Fork rebuild (all parts dry)"}
+      - {t: "Accurately measure the oil. Pour it into the fork leg.", cite: {p: 277}, op: fork-oil}
+      - {t: "Pump the leg for several minutes to distribute the oil and to remove air pockets.", cite: {p: 277}}
+      - {t: "Compress the fork leg to the bottom of its travel.", cite: {p: 277}}
+      - {t: "Measure the distance from the top edge of the fork leg to the oil surface.", cite: {p: 277}, spec_ref: "fork-oil:Fork tube oil level (from top edge of inner tube)"}
+      - {t: "If necessary, add or remove oil to get the specified distance. Both legs must have identical levels.", cite: {p: 277}}
+      - {kind: note, t: "The oil level sets the size of the air pocket above the oil. Too much oil makes the damping harder and can cause fork seal leaks. Too little oil makes the damping softer. The fork can then bottom and damage fork parts.", cite: {p: 277}}
+      - {t: "Extend the fork leg. Install the spring and the spring seat.", cite: {p: 277}, figs: [60]}
+      - {t: "If the spring is progressively wound, install the correct end up.", cite: {p: 277}}
+      - {t: "Install the spring spacer and the fork cap. Tighten the cap enough to prevent a leak.", cite: {p: 277}}
+      - {t: "Tighten the cap to the specified torque after you install the leg on the motorcycle.", cite: {p: 277}, spec_ref: "front-suspension-torque:Fork caps"}
+      - {t: "Install the fork boot. Seat the boot into the outer tube. Do not tighten the clamp until you install the fork leg on the motorcycle.", cite: {p: 277}}

@@ -1,0 +1,13 @@
+title: "Bearing installation"
+system: "General information"
+source: clymer
+chapter: 1
+section: "01/repair-methods"
+summary: {t: "This procedure installs a bearing in a housing or on a shaft. Unless the instructions tell you differently, install the bearing with the mark or number of the manufacturer toward the outside.", cite: {p: 35}}
+sections:
+  - steps:
+      - {t: "To install a bearing in a housing, apply pressure to the outer bearing race.", cite: {p: 36}}
+      - {t: "To install a bearing on a shaft, apply pressure to the inner bearing race.", cite: {p: 36}}
+      - {t: "Use a length of pipe or a driver with a diameter that matches the bearing race. Do not hit the bearing directly with a hammer.", cite: {p: 36}}
+      - {t: "To install a bearing over a shaft and into a housing at the same time, put a spacer under the driver tool. The pressure then goes on both races evenly.", cite: {p: 36}}
+      - {t: "Install the bearing with the mark or number of the manufacturer toward the outside, unless the instructions tell you differently.", cite: {p: 35}}

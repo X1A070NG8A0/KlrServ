@@ -1,0 +1,15 @@
+title: "Rebound damping adjustment"
+system: "Rear suspension"
+source: clymer
+chapter: 13
+section: "13/shock-absorber-adjustment"
+summary: {t: "Rebound damping controls how fast the shock absorber extends after compression. It does not change the compression rate. If the setting is too high, the rear suspension does not extend fast enough and bottoms on the next bumps. If the setting is too low, the rear wheel can kick up and the handling is not stable.", cite: {p: 295}}
+spec_refs: ["shock-settings:Rebound damper/Rider only", "shock-settings:Rebound damper/Rider and passenger", "shock-settings:Rebound damper/Rider, passenger and load"]
+sections:
+  - steps:
+      - {t: "Find the recommended setting for your load. A higher setting increases the damping force.", cite: {p: 295}, spec_ref: "shock-settings:Rebound damper/Rider only"}
+      - {t: "At the bottom right side of the shock absorber, remove the snap-on cover from the adjuster.", cite: {p: 295}, figs: [58]}
+      - {t: "Clean the dirt from the adjuster cavity.", cite: {p: 295}}
+      - {t: "Turn the rebound damper adjuster to the numerical setting. Turn it to the right only, in the direction of the arrow on the adjuster.", cite: {p: 295}}
+      - {t: "Make sure that each setting has a click.", cite: {p: 295}}
+      - {t: "Install the cover so that the arrow on the cover points up.", cite: {p: 295}}

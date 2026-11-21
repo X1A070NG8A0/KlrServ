@@ -1,0 +1,4 @@
+# Each file in this folder is one saved klr650.net thread. The file name is
+# its id in a citation, and each post is a child page.
+template: thread
+kind: Forum thread

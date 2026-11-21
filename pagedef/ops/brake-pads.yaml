@@ -1,0 +1,24 @@
+# Clymer Chapter Three: cable adjustments, brakes and steering inspection (PDF p74-78).
+title: "Brake pad and disc inspection"
+system: "Brakes"
+source: clymer
+chapter: 3
+section: "03/maintenance-and-inspection"
+summary:
+  t: "In severe riding, a disc can quickly get scored if the pads are damaged or have debris in them. If a check below shows damage, see Chapter Fourteen for pad replacement and disc limits."
+  cite: {p: 78}
+spec_refs:
+  - "routine-checks:Brake pad lining minimum thickness"
+  - "brakes:Disc thickness/Front"
+  - "brakes:Disc thickness/Rear"
+  - "brakes:Disc runout"
+parts:
+  - {name: "Brake pad set (per wheel)", replace: inspect, cite: {p: 78}, note: "If the pad material is less than 1 mm (0.04 in.) thick, replace the pad set for that wheel."}
+sections:
+  - steps:
+      - {t: "Support the motorcycle so that the wheels are off the ground.", cite: {p: 78}}
+      - {t: "Examine each disc for scoring. The friction area must be smooth.", cite: {p: 78}}
+      - {t: "Measure the runout of each disc. Turn the wheel and look for side movement. There must be no side movement.", cite: {p: 78}}
+      - {t: "If the friction area shows wear, measure the thickness of both discs.", cite: {p: 78}, spec_ref: "brakes:Disc thickness/Front"}
+      - {t: "Look into each caliper on both sides of the disc. If the front or rear pad material is less than 1 mm (0.04 in.) thick, replace the pad set for that wheel.", cite: {p: 78}, figs: [70]}
+      - {kind: note, t: "Some pads have a wear-indicator groove or step at the edge.", cite: {p: 78}, figs: [70]}

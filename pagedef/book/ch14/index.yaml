@@ -1,0 +1,102 @@
+title: "Chapter 14: Brakes"
+pages:
+  - id: introduction
+    title: "Introduction"
+    kind: Section
+    pdf_pages: [296, 296]
+    summary:
+      - {t: "This chapter gives the service procedures for the front and rear brake systems. It covers the brake pads, the master cylinders, the calipers and the discs.", cite: {p: 296}}
+      - {t: "For brake fluid level inspection, pad and disc inspection, brake light adjustment, and brake pedal and lever adjustment, see Chapter Three.", cite: {p: 296}}
+    ops: []
+  - id: disc-brake-fundamentals
+    title: "Disc brake fundamentals"
+    kind: Section
+    pdf_pages: [296, 296]
+    summary:
+      - {t: "The front and rear brakes work with hydraulic pressure. When you push the pedal or the lever, brake fluid pushes one pad toward the disc. The caliper then slides and the second pad also touches the disc.", cite: {p: 296}}
+      - {t: "When the pads wear, the piston in the caliper moves out and keeps the pads adjusted. The piston must be able to extend and retract. The caliper must be free to move.", cite: {p: 296}}
+      - {t: "Keep brake fluid off painted surfaces, plastic and decals. Keep the reservoirs closed, except when you change the fluid. Do not use old fluid again.", cite: {p: 296}}
+      - {t: "Replace the brake fluid often. It absorbs moisture from the air, which causes corrosion inside the system.", cite: {p: 296}}
+      - {t: "Use fresh brake fluid to lubricate new parts before assembly. Do not use petroleum-based solvents. They damage rubber parts.", cite: {p: 296}}
+      - {t: "Bleed the brake system each time that you loosen a banjo bolt or other connector in the brake line.", cite: {p: 296}}
+    ops: []
+  - id: front-brake-pads
+    title: "Front brake pads"
+    kind: Section
+    pdf_pages: [297, 299]
+    summary:
+      - {t: "Replace the pads if they are worn to within 1 mm (0.040 in.) of the backing plate, or if oil or other chemicals contaminate them.", cite: {p: 297}}
+      - {t: "You must remove the caliper from the fork leg to replace the pads. You do not have to disconnect the brake hose.", cite: {p: 297}}
+    ops: [c14-front-brake-pads]
+  - id: front-brake-caliper
+    title: "Front brake caliper"
+    kind: Section
+    pdf_pages: [299, 303]
+    summary:
+      - {t: "This section gives the procedures to remove and install the front caliper, and to disassemble, examine and assemble it with new seals.", cite: {p: 299}}
+      - {t: "If you rebuild the caliper or disconnect the brake hose from it, fill and bleed the brake system.", cite: {p: 300}}
+    ops: [c14-front-caliper-remove, c14-front-caliper-repair]
+  - id: front-master-cylinder
+    title: "Front master cylinder"
+    kind: Section
+    pdf_pages: [304, 308]
+    summary:
+      - {t: "The front brake lever does not need adjustment. If the system is bled correctly, the lever adjusts itself.", cite: {p: 305}}
+      - {t: "The piston, the seals and the spring are only available as a complete assembly.", cite: {p: 305}}
+      - {t: "This section also collects the steps to replace the brake hose.", cite: {p: 305}}
+    ops: [c14-front-master-cylinder-remove, c14-front-master-cylinder-repair, brake-hoses]
+  - id: rear-brake-pads
+    title: "Rear brake pads"
+    kind: Section
+    pdf_pages: [308, 310]
+    summary:
+      - {t: "Replace the pads if they are worn to within 1 mm (0.040 in.) of the backing plate, or if oil or other chemicals contaminate them.", cite: {p: 308}}
+      - {t: "You must remove the caliper from the swing arm to replace the pads. You do not have to disconnect the brake hose.", cite: {p: 309}}
+    ops: [c14-rear-brake-pads]
+  - id: rear-brake-caliper
+    title: "Rear brake caliper"
+    kind: Section
+    pdf_pages: [310, 317]
+    summary:
+      - {t: "This section gives the procedures to remove and install the rear caliper, and to disassemble, examine and assemble it with new seals.", cite: {p: 311}}
+      - {t: "If you rebuild the caliper or disconnect the brake hose from it, fill and bleed the brake system.", cite: {p: 312}}
+    ops: [c14-rear-caliper-remove, c14-rear-caliper-repair]
+  - id: rear-master-cylinder
+    title: "Rear master cylinder"
+    kind: Section
+    pdf_pages: [316, 320]
+    summary:
+      - {t: "This section gives the procedures to remove and install the rear master cylinder and reservoir, and to repair the master cylinder.", cite: {p: 317}}
+      - {t: "The piston, the seals and the spring are only available as a complete assembly.", cite: {p: 317}}
+    ops: [c14-rear-master-cylinder-remove, c14-rear-master-cylinder-repair]
+  - id: rear-brake-pedal
+    title: "Rear brake pedal"
+    kind: Section
+    pdf_pages: [320, 322]
+    summary:
+      - {t: "This section gives the procedure to remove and install the rear brake pedal. The pushrod position in the clevis sets the pedal height.", cite: {p: 320}}
+    ops: [c14-rear-brake-pedal]
+  - id: brake-system-draining
+    title: "Brake system draining"
+    kind: Section
+    pdf_pages: [322, 322]
+    summary:
+      - {t: "To drain the front or rear brake, connect clear tubing to the bleeder valve and open the valve. Pump the lever or pedal until no more fluid drips from the system.", cite: {p: 322}}
+      - {t: "The procedure is in the brake fluid replacement operation.", cite: {p: 322}}
+    ops: []
+  - id: brake-system-bleeding
+    title: "Brake system bleeding"
+    kind: Section
+    pdf_pages: [322, 325]
+    summary:
+      - {t: "Bleed the brakes when you replace the fluid, or if the lever or pedal feels spongy. You can bleed the system by hand or with a vacuum pump.", cite: {p: 322}}
+      - {t: "Keep the reservoir filled between the marks during bleeding. Use DOT 4 brake fluid from a sealed container.", cite: {p: 323}}
+    ops: [brake-fluid-replace]
+  - id: brake-disc
+    title: "Brake disc"
+    kind: Section
+    pdf_pages: [325, 326]
+    summary:
+      - {t: "Bolts hold the discs to the hubs. Measure the thickness and the runout of the disc. If a value is out of specification, replace the disc.", cite: {p: 325}}
+      - {t: "Do not true a disc that has deep scoring or is warped. This causes the disc to become hot and warp.", cite: {p: 325}}
+    ops: [c14-brake-disc-inspect, c14-brake-disc-replace]

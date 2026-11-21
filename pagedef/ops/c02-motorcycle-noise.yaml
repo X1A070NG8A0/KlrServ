@@ -1,0 +1,17 @@
+title: "Motorcycle noise troubleshooting"
+system: "troubleshooting"
+source: clymer
+chapter: 2
+section: "02/motorcycle-noise"
+summary: {t: "The causes in this list usually make noise only when the motorcycle is in motion.", cite: {p: 50}}
+sections:
+  - steps:
+      - {t: "Make sure that the drive chain is not too loose.", cite: {p: 50}, op: "drive-chain-adjust"}
+      - {t: "Examine the chain sliders for wear.", cite: {p: 50}, op: "drive-chain-inspect"}
+      - {t: "Make sure that the exhaust system is not loose.", cite: {p: 50}, op: "c04-exhaust-system"}
+      - {t: "Make sure that no body fasteners are loose or missing.", cite: {p: 50}, op: "fasteners"}
+      - {t: "Make sure that the skid plate is not loose.", cite: {p: 50}, ref: "15/skid-plate"}
+      - {t: "Make sure that the shock absorber is not loose.", cite: {p: 50}, op: "c13-shock-absorber-inspection"}
+      - {t: "Make sure that the engine mounting bolts are not loose.", cite: {p: 50}, op: "c05-engine-installation"}
+      - {t: "Make sure that the brake pads do not drag on the brake disc.", cite: {p: 50}, op: "c14-front-brake-pads"}
+      - {t: "Examine the wheel bearings for wear or seizure.", cite: {p: 50}, op: "c11-hub-bearing-inspection"}

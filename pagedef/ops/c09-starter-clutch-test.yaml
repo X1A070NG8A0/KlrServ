@@ -1,0 +1,11 @@
+title: "Starter clutch test on the motorcycle"
+system: "electrical system"
+source: clymer
+chapter: 9
+section: "09/rotor-and-starter-clutch"
+summary: {t: "You can do a test of the starter clutch for free rotation and lockup without removal of the rotor.", cite: {p: 205}}
+sections:
+  - steps:
+      - {t: "Turn the clutch gear clockwise. The gear must turn freely and smoothly in this direction.", cite: {p: 205}, figs: [9]}
+      - {t: "Try to turn the gear counterclockwise. The gear must not turn.", cite: {p: 205}}
+      - {t: "If the gear turns in both directions or is always locked, disassemble and examine the clutch assembly.", cite: {p: 205}, op: c09-starter-clutch-inspection}

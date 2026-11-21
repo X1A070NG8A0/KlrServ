@@ -1,0 +1,13 @@
+title: "Telescoping gauge use"
+system: "General information"
+source: clymer
+chapter: 1
+section: "01/precision-measuring-tools"
+summary: {t: "A telescoping gauge measures a bore, usually a cylinder bore. The gauge has no scale. Use an outside micrometer to get the reading.", cite: {p: 32}}
+sections:
+  - steps:
+      - {t: "Select the correct size gauge for the bore.", cite: {p: 32}}
+      - {t: "Compress the movable post. Carefully put the gauge into the bore.", cite: {p: 32}}
+      - {t: "Carefully move the gauge in the bore. Make sure that it is centered.", cite: {p: 32}}
+      - {t: "Tighten the knurled end of the gauge to hold the movable post in position.", cite: {p: 32}}
+      - {t: "Remove the gauge. Measure the length of the posts with an outside micrometer.", cite: {p: 32}}

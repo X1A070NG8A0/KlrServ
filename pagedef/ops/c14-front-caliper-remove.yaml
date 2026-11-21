@@ -1,0 +1,38 @@
+title: "Front brake caliper removal and installation"
+system: "brakes"
+source: clymer
+chapter: 14
+section: "14/front-brake-caliper"
+summary: {t: "Remove the front caliper from the fork leg. If you will disassemble the caliper, drain the brake system first.", cite: {p: 299}}
+spec_refs:
+  - "brake-torque:Caliper mounting bolts"
+  - "brake-torque:Brake hose banjo bolts"
+parts:
+  - {name: "Banjo bolt seal washers", replace: always, cite: {p: 300}, note: "Install new seal washers on the banjo bolt."}
+sections:
+  - title: "Removal"
+    steps:
+      - {t: "If you will disassemble the caliper, drain the brake system.", cite: {p: 299}, op: brake-fluid-replace}
+      - {t: "Loosen the brake hose banjo bolt while the caliper is on the fork. Leave the bolt finger-tight.", cite: {p: 299}, figs: [10]}
+      - {t: "Remove the caliper mounting bolts. Then remove the caliper from the fork. Do not kink the brake hose.", cite: {p: 300}, figs: [10]}
+      - {t: "If you leave the hose on the caliper and do not disassemble it, attach a wire to the caliper. Hang the caliper on the motorcycle.", cite: {p: 300}}
+      - {t: "Do not let the caliper hang by the brake hose.", cite: {p: 300}}
+      - {t: "Put a small wooden block between the brake pads. This prevents the piston from coming out of the caliper if the brake lever is operated.", cite: {p: 300}}
+      - {t: "If you will disassemble the caliper, remove the banjo bolt and the seal washers from the brake hose. Keep a shop cloth ready for fluid that drips from the hose.", cite: {p: 300}}
+      - {t: "Wrap the end of the hose. This prevents damage to other surfaces from brake fluid.", cite: {p: 300}}
+      - {t: "Drain the extra brake fluid from the caliper.", cite: {p: 300}}
+      - {t: "Repair the caliper if necessary.", cite: {p: 300}, op: c14-front-caliper-repair}
+  - title: "Installation"
+    steps:
+      - {t: "Put the caliper over the brake disc. Guide the disc between the pads.", cite: {p: 300}}
+      - {t: "Install new seal washers on the banjo bolt.", cite: {p: 300}, figs: [11],
+         conflict: {
+           agrees: true,
+           note: "Kawasaki gives more detail: a new washer on each side of the hose fitting.",
+           others: [{t: "Discard the used flat washers, and install a new washer on each side of the brake hose fittings.", cite: {s: kaw-600, p: 112}}]}}
+      - {t: "Install the caliper mounting bolts. Tighten them to the specified torque.", cite: {p: 300}, spec_ref: "brake-torque:Caliper mounting bolts"}
+      - {t: "Install the banjo bolt. Tighten it to the specified torque.", cite: {p: 300}, spec_ref: "brake-torque:Brake hose banjo bolts"}
+      - {t: "If you rebuilt the caliper or disconnected the brake hose from it, fill and bleed the brake system.", cite: {p: 300}, op: brake-fluid-replace}
+      - {t: "Operate the brake lever several times to seat the pads.", cite: {p: 300}}
+      - {t: "Examine the brake fluid level in the reservoir. Add or remove fluid as necessary.", cite: {p: 300}, op: brake-fluid-level}
+      - {t: "Raise the front wheel. Make sure that the wheel turns freely and that the brake operates correctly.", cite: {p: 300}}

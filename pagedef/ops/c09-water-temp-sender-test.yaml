@@ -1,0 +1,18 @@
+title: "Water temperature sending unit test"
+system: "electrical system"
+source: clymer
+chapter: 9
+section: "09/water-temperature-gauge-and-sending-unit"
+summary: {t: "This test needs heated water to simulate operating conditions. Read the procedure first so that you have the correct equipment to do the test safely.", cite: {p: 231}}
+spec_refs: ["electrical-test:Water temperature sender resistance/At 80° C (176° F)", "electrical-test:Water temperature sender resistance/At 100° C (212° F)", "electrical-torque:Water temperature sender"]
+sections:
+  - steps:
+      - {t: "Remove the sending unit from the cylinder head.", cite: {p: 231}, ref: "10/water-temperature-sending-unit"}
+      - {t: "Clean the sending unit. Examine it for damage.", cite: {p: 231}}
+      - {t: "Connect an ohmmeter to the unit terminal and to the unit threads.", cite: {p: 231}}
+      - {t: "Suspend the unit and an accurate thermometer in a container of water. The temperature sensor and the threads must be under water. Do not let the parts touch the bottom or side of the container.", cite: {p: 231}, figs: [66]}
+      - {t: "Heat the water slowly. Read the thermometer and the ohmmeter. Do not overheat the sending unit.", cite: {p: 231}}
+      - {t: "At the lower specified water temperature, compare the reading with the specification.", cite: {p: 231}, spec_ref: "electrical-test:Water temperature sender resistance/At 80° C (176° F)"}
+      - {t: "At the higher specified water temperature, compare the reading with the specification.", cite: {p: 231}, spec_ref: "electrical-test:Water temperature sender resistance/At 100° C (212° F)"}
+      - {t: "If the unit does not operate in specification, replace the unit.", cite: {p: 231}}
+      - {t: "Install the sending unit. Tighten it to the specified torque.", cite: {p: 231}, ref: "10/water-temperature-sending-unit", spec_ref: "electrical-torque:Water temperature sender"}

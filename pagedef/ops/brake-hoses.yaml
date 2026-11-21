@@ -1,0 +1,40 @@
+# Clymer Chapter Fourteen (Brakes): fluid draining/bleeding (PDF p322-325) and
+# brake hose disconnect/reconnect steps (PDF p300, p305, p312), with the
+# Kawasaki KLR600 base manual's hose and fluid notes (PDF p110-112).
+title: "Brake hose replacement"
+system: "Brakes"
+source: clymer
+chapter: 14
+section: "14/front-master-cylinder"
+summary:
+  t: "Clymer has no separate procedure for brake hose replacement. You disconnect and connect the hose at its banjo bolts during the caliper and master cylinder procedures. Then you fill and bleed the system. This procedure collects those steps."
+  cite: {p: 305}
+spec_refs:
+  - "brake-torque:Brake hose banjo bolts"
+  - "fluids:Brake fluid type"
+parts:
+  - {name: "Brake hose", replace: always, cite: {p: 88}, note: "Table 1: replace every 4 years."}
+  - {name: "Banjo bolt seal washers", replace: always, cite: {p: 300}, note: "Install new seal washers on the banjo bolt."}
+  - {name: "DOT 4 brake fluid (sealed container)", replace: consumable, spec_ref: "fluids:Brake fluid type", cite: {p: 323}}
+sections:
+  - title: "Disconnect"
+    steps:
+      - {kind: caution, t: "Do not let brake fluid splash from the reservoir or the hose. Brake fluid can damage painted and plastic surfaces. Clean up spills immediately and flood the area with water.", cite: {p: 305}}
+      - {t: "Drain the brake system.", cite: {p: 305}, op: brake-fluid-replace}
+      - {t: "At the front master cylinder, pull back the rubber boot.", cite: {p: 305}}
+      - {t: "Remove the banjo bolt and the seal washers from the brake hose. Keep a shop cloth ready for fluid that drips from the hose.", cite: {p: 305}, figs: [30]}
+      - {t: "Wrap the end of the hose.", cite: {p: 305}}
+      - {t: "At the front caliper, remove the banjo bolt and the seal washers from the brake hose. Catch the fluid that drips with a shop cloth. Wrap the end of the hose.", cite: {p: 300}}
+      - {t: "At the rear caliper, remove the banjo bolt and the seal washers from the brake hose in the same way. Keep a shop cloth ready.", cite: {p: 312}}
+  - title: "Connect and bleed"
+    steps:
+      - {t: "Install new seal washers on each banjo bolt.", cite: {p: 300}, figs: [11],
+         conflict: {
+           agrees: true,
+           note: "Kawasaki gives more detail: a new washer on each side of the hose fitting.",
+           others: [{t: "Discard the used flat washers, and install a new washer on each side of the brake hose fittings.", cite: {s: kaw-600, p: 112}}]}}
+      - {t: "At the front master cylinder, put the brake hose fitting above the support.", cite: {p: 305}, figs: [32]}
+      - {t: "Tighten the banjo bolts.", cite: {p: 305}, spec_ref: "brake-torque:Brake hose banjo bolts"}
+      - {t: "Fill the reservoir and bleed the brake system.", cite: {p: 305}, op: brake-fluid-replace}
+      - {t: "Make sure that the brake has good braking power, has no drag and has no fluid leaks.", cite: {s: kaw-600, p: 112}}
+      - {kind: warning, t: "Do not ride the motorcycle until the brake lever feels full. Pump the lever until the pads touch the disc. If you do not, the brake does not work on the first application.", cite: {s: kaw-600, p: 112}}

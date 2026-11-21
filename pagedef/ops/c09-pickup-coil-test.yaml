@@ -1,0 +1,21 @@
+title: "Pickup coil test"
+system: "electrical system"
+source: clymer
+chapter: 9
+section: "09/ignition-system"
+summary: {t: "The pickup coil is in the alternator cover. You can test it at the wire connector under the fuel tank.", cite: {p: 221}}
+spec_refs: ["electrical-test:Pickup coil resistance (black/yellow-to-black wires)"]
+sections:
+  - steps:
+      - {t: "Remove the fuel tank.", cite: {p: 221}, ref: "15/fuel-tank"}
+      - {t: "Disconnect the connector on the right side of the frame.", cite: {p: 221}, figs: [51]}
+      - {t: "Identify the connector half that goes to the pickup coil.", cite: {p: 221}}
+      - {t: "Set the ohmmeter to R x 10 ohms.", cite: {p: 221}}
+      - {t: "Put the meter probes into the terminals of the black/yellow wire and the black wire. Compare the reading with the specification.", cite: {p: 221}, spec_ref: "electrical-test:Pickup coil resistance (black/yellow-to-black wires)"}
+      - {t: "If the pickup coil is not in specification, examine the plug and the wiring harness for damage and shorts.", cite: {p: 221}}
+      - {t: "If necessary, remove the alternator cover. Examine the wiring harness and the coil again. Flex the harness during the test to find erratic continuity.", cite: {p: 221}, op: c09-alternator-cover, figs: [52]}
+      - {t: "If the coil fails the test, replace the pickup coil.", cite: {p: 221}}
+      - {t: "Set the ohmmeter to R x 1 ohm.", cite: {p: 221}}
+      - {t: "Ground one meter probe to the engine, or to the alternator cover if you removed it. Touch the other probe to the black/yellow wire, then to the black wire. The resistance must be infinity.", cite: {p: 221}}
+      - {t: "If you get any other reading, there is a short. Examine the area under the pickup coil for a pinched wire or damage that causes the short.", cite: {p: 221}}
+      - {t: "If you find no damage, replace the pickup coil.", cite: {p: 222}}

@@ -1,0 +1,45 @@
+# Clymer Chapter Three: spark plug (PDF p84-85) and fork oil replacement (PDF p61-63).
+title: "Spark plug removal, gap and installation"
+system: "Ignition"
+source: clymer
+chapter: 3
+section: "03/spark-plugs"
+summary:
+  t: "Remove the spark plug with care so that grit does not fall into the combustion chamber. If you force a seized plug, you can damage the threads in the cylinder head."
+  cite: {p: 84}
+spec_refs:
+  - "tune-up:Spark plug/Type"
+  - "tune-up:Spark plug/Gap"
+  - "maintenance-torque:Spark plug"
+parts:
+  - {name: "Spark plug", replace: inspect, spec_ref: "tune-up:Spark plug/Type", cite: {p: 84}, note: "If the plug is in good condition, clean it with contact cleaner and use it again. Do not use abrasives or wire brushes."}
+  - {name: "Antiseize compound", replace: consumable, cite: {p: 85}}
+  - {name: "Dielectric grease (plug cap)", replace: consumable, cite: {p: 85}}
+sections:
+  - title: "Removal"
+    steps:
+      - {t: "Remove the fuel tank.", cite: {p: 84}, ref: "15/fuel-tank"}
+      - {t: "Hold the spark plug cap and twist it off the plug. You can feel a small suction.", cite: {p: 84}, figs: [81]}
+      - {t: "Clean dirt from the plug well. The best tool is compressed air.", cite: {p: 84}, figs: [82]}
+      - {t: "Put a spark plug wrench on the plug. Turn the wrench counterclockwise to remove the plug.", cite: {p: 84}}
+      - {t: "If the plug is seized or drags too much, stop and do the next steps.", cite: {p: 84}}
+      - {t: "Apply penetrating lubricant to the plug. Wait 15 minutes.", cite: {p: 84}}
+      - {t: "If the plug is fully seized, push the wrench with moderate force in both directions. Do this only to break the seal so that the lubricant goes under the plug and into the threads.", cite: {p: 84}}
+      - {t: "If the plug stays seized and the motorcycle can run, install the spark plug cap and the fuel tank. Start the engine and let it get fully warm. The engine heat can free the plug.", cite: {p: 84}}
+      - {t: "If the plug is loose but drags, apply penetrating lubricant around the threads. Turn the plug in (clockwise) to spread the lubricant.", cite: {p: 84}}
+      - {t: "Remove the plug slowly. Move it in and out of the cylinder head as you add lubricant.", cite: {p: 84}}
+      - {t: "Examine the threads in the cylinder head for damage. Clean the threads with a spark plug thread chaser.", cite: {p: 84}}
+      - {t: "Examine the removed plug to find how the engine operates.", cite: {p: 84}, op: c03-spark-plug-reading}
+  - title: "Gap and installation"
+    steps:
+      - {t: "Put a wire feeler gauge of the specified gap between the center electrode and the ground electrode.", cite: {p: 84}, spec_ref: "tune-up:Spark plug/Gap"}
+      - {t: "Pull the gauge through the gap. A small drag shows that the gap is correct.", cite: {p: 84}}
+      - {t: "To adjust the gap, bend the ground electrode with a gapping tool.", cite: {p: 84}, figs: [83, 84]}
+      - {t: "Do not pry the electrode with a screwdriver. This can damage the center electrode and the insulator.", cite: {p: 84}}
+      - {t: "Make sure that the plug has a crush washer.", cite: {p: 85}}
+      - {t: "Wipe a small quantity of antiseize compound on the plug threads. Do not let the compound touch the electrodes.", cite: {p: 85}}
+      - {t: "Tighten the plug into the cylinder head by hand. This makes sure that the plug does not cross-thread.", cite: {p: 85}}
+      - {t: "Tighten the plug to the specified torque.", cite: {p: 85}, spec_ref: "maintenance-torque:Spark plug"}
+      - {t: "If you do not have a torque wrench, turn a new plug 1/4-1/2 turn from the seated position. Turn a used plug 1/8-1/4 turn from the seated position.", cite: {p: 85}}
+      - {t: "Wipe a small quantity of dielectric grease around the inside of the cap. This prevents water from getting under the cap.", cite: {p: 85}}
+      - {t: "Push the cap onto the spark plug and twist it.", cite: {p: 85}}

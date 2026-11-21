@@ -1,0 +1,17 @@
+title: "Swing arm and linkage lubrication"
+system: "Rear suspension"
+source: clymer
+chapter: 13
+section: "13/shock-absorber-linkage"
+summary: {t: "Disassemble and lubricate the shock linkage at the intervals in Chapter Three. If the linkage is often in harsh riding conditions, service it more frequently.", cite: {p: 282}}
+parts:
+  - {name: "Molydisulfide grease or waterproof grease", replace: consumable, cite: {p: 282}, note: "Kawasaki recommends molydisulfide grease for all linkage bearings. Waterproof grease is durable and resists washout. Which one to use is the choice of the rider."}
+sections:
+  - steps:
+      - {t: "Do the swing arm bearing check.", cite: {p: 287}, op: swingarm-linkage}
+      - {t: "Remove the lever and the lever arms.", cite: {p: 284}, op: c13-lever-removal}
+      - {t: "Examine the lever arms.", cite: {p: 285}, op: c13-lever-arm-inspection}
+      - {t: "Clean, examine and grease the lever, its bearings and its seals.", cite: {p: 285}, op: c13-lever-inspection}
+      - {t: "If you will lubricate the swing arm bearings, remove the swing arm.", cite: {p: 288}, op: c13-swing-arm-removal}
+      - {t: "Clean, examine and grease the swing arm bearings, seals, spacers and bolts.", cite: {p: 290}, op: c13-swing-arm-inspection}
+      - {t: "Install the swing arm and the linkage.", cite: {p: 289}}

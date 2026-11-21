@@ -1,0 +1,20 @@
+title: "Continuity test, general procedure"
+system: "electrical system"
+source: clymer
+chapter: 9
+section: "09/continuity-testing-guidelines"
+summary: {t: "This procedure checks a circuit, switch, light bulb or fuse for continuity (a complete circuit) with an ohmmeter. You can do the test at the connector plug or at the part.", cite: {p: 202}}
+sections:
+  - steps:
+      - {kind: caution, t: "Do not turn on the ignition switch during a general continuity test. Parts and test equipment can be damaged.", cite: {p: 202}}
+      - {kind: caution, t: "Make sure that battery power does not go directly into the test circuit, with the ignition switch in any position. Parts and test equipment can be damaged.", cite: {p: 202}}
+      - {t: "Find the part to be tested on the wiring diagram at the back of the manual.", cite: {p: 202}}
+      - {t: "Identify the wire colors that go to the part. Decide which pairs of wires to test. The circuit must start at the plug, go through the part and return to the plug.", cite: {p: 202}}
+      - {t: "Decide when continuity must be present. When a switch or button is on, the circuit is closed and the meter must show continuity.", cite: {p: 202}}
+      - {t: "When the switch or button is off, the circuit is open and the meter must not show continuity.", cite: {p: 202}}
+      - {t: "For the correct switch positions, refer to the switch continuity diagrams in the wiring diagrams.", cite: {p: 202}}
+      - {t: "Follow the wires from the part to the nearest connector plug.", cite: {p: 202}}
+      - {t: "Disconnect the connector plug.", cite: {p: 202}}
+      - {t: "Connect an ohmmeter to the plug half that goes to the part.", cite: {p: 202}}
+      - {t: "If you do the test at the terminals on the part, remove all other wires from the terminals. The other wires can change the meter reading.", cite: {p: 202}}
+      - {t: "Operate the switch or button. Make sure that the meter shows continuity or no continuity as the wiring diagram specifies.", cite: {p: 202}}

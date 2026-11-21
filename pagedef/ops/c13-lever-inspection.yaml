@@ -1,0 +1,46 @@
+title: "Lever inspection and repair"
+system: "Rear suspension"
+source: clymer
+chapter: 13
+section: "13/shock-absorber-linkage"
+summary: {t: "This procedure cleans and examines the lever and its needle bearings, replaces worn bearings and installs the seals and pivot spacers. Remove the lever first.", cite: {p: 285}}
+parts:
+  - {name: "Needle bearings (lever)", replace: inspect, cite: {p: 286}, note: "In a bore with two bearings, replace both bearings and the pivot spacer."}
+  - {name: "Lever seals", replace: inspect, cite: {p: 286}}
+  - {name: "Penetrating oil", replace: consumable, cite: {p: 286}}
+  - {name: "Molydisulfide grease or waterproof grease", replace: consumable, cite: {p: 287}}
+sections:
+  - title: "Cleaning and inspection"
+    steps:
+      - {t: "Remove the lever.", cite: {p: 285}, op: c13-lever-removal}
+      - {t: "At each bearing, remove the pivot spacer and the seals. Pry the seals at their outer edge.", cite: {p: 285}, figs: [22]}
+      - {kind: note, t: "Original equipment bearings have fixed rollers. If the rollers of aftermarket bearings can be removed, put them in a marked container. Install them in their original housing.", cite: {p: 285}}
+      - {t: "Clean the lever in clean solvent. Dry all parts.", cite: {p: 285}}
+      - {t: "Examine the lever for cracks, in particular around the bearing bores.", cite: {p: 285}}
+      - {t: "Examine the frame pivot bolt and nut for scoring, wear and damage. Replace them if they have rounded flats.", cite: {p: 286}}
+      - {t: "Examine the seals for cracks, wear and damage.", cite: {p: 286}}
+      - {t: "Examine the pivot spacers for scoring, wear and damage.", cite: {p: 286}}
+      - {t: "Examine the needle bearings for wear, flat spots, rust and discoloration. If the rollers are blue, the bearing was too hot.", cite: {p: 286}, figs: [23]}
+      - {t: "Lightly lubricate the bearings and the pivot spacers. Put each spacer in its bearing.", cite: {p: 286}, figs: [24]}
+      - {t: "Make sure that the parts turn freely and smoothly with no play.", cite: {p: 286}}
+      - {t: "If there is play or roughness, replace the bearings. In a bore with two bearings, replace both bearings and the pivot spacer.", cite: {p: 286}}
+  - title: "Bearing replacement"
+    steps:
+      - {t: "Apply penetrating oil to the bearings and the bore.", cite: {p: 286}}
+      - {t: "Remove the bearings with a press. If the bearings and the bore have no corrosion, you can use a drawbolt.", cite: {p: 286}, ref: "13/swing-arm-service"}
+      - {t: "Support the lever on the open side of a large socket. Use a driver or a socket to drive the bearing into the lower socket.", cite: {p: 286}, figs: [25]}
+      - {kind: note, t: "The driver must pass through the bore and must be longer than the bore depth. The lower socket must fit on the edge of the bore and be large enough to hold the removed bearing.", cite: {p: 286}}
+      - {t: "Clean and examine the mounting bore.", cite: {p: 286}}
+      - {t: "Lubricate the new bearings with grease.", cite: {p: 286}}
+      - {t: "Put the bearing squarely over the bore with the manufacturer marks out.", cite: {p: 286}, figs: [26]}
+      - {t: "Put a driver squarely against the end of the bearing.", cite: {p: 286}, figs: [26]}
+      - {t: "Drive the bearing in. When the bearing is in the bore, frequently measure the depth.", cite: {p: 287}, figs: [27]}
+      - {t: "Drive all bearings in the lever to 5 mm below the outer edge of the bore. The seals must seat in the bore.", cite: {p: 287}}
+      - {t: "Do again for the other bearings.", cite: {p: 287}}
+  - title: "Assembly"
+    steps:
+      - {t: "Pack the bearings, the bearing bores and the seals with grease. Also apply grease to the pivot spacers and the bolts.", cite: {p: 287}}
+      - {t: "Press the seals into position by hand.", cite: {p: 287}, figs: [28]}
+      - {t: "If the seals do not seat, examine the bearing depth. If necessary, adjust the depth.", cite: {p: 287}}
+      - {t: "Install the pivot spacers in the lever. Make sure that the seals stay seated when the spacers go through them.", cite: {p: 287}}
+      - {t: "Install the lever.", cite: {p: 287}, op: c13-lever-removal}

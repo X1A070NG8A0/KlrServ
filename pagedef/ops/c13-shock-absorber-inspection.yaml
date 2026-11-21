@@ -1,0 +1,24 @@
+title: "Shock absorber inspection"
+system: "Rear suspension"
+source: clymer
+chapter: 13
+section: "13/shock-absorber"
+summary: {t: "This procedure examines the shock absorber for wear and leaks. The damper is not available as a separate part and you cannot rebuild it.", cite: {p: 281}}
+parts:
+  - {name: "Shock absorber", replace: inspect, cite: {p: 281}, note: "If the damper leaks, replace the complete shock absorber."}
+  - {name: "Upper bushing", replace: inspect, cite: {p: 281}, note: "If the bushing is worn, install a new bushing and a new mounting bolt."}
+sections:
+  - steps:
+      - {kind: note, t: "Let a dealer disassemble the shock absorber if disassembly is necessary. A common spring compressor does not remove the spring.", cite: {p: 281}}
+      - {t: "Examine the upper bushing and the mounting bolt for wear or damage.", cite: {p: 281}, figs: [8]}
+      - {t: "Make sure that the bolt is a firm fit in the bore and that the bushing is tight in the rubber mounting.", cite: {p: 281}}
+      - {t: "If the bushing is worn, press or drive it out. Install a new bushing and a new mounting bolt.", cite: {p: 281}}
+      - {t: "Examine the spring preload adjuster and the housing for damage.", cite: {p: 282}}
+      - {t: "Turn the adjuster bolt clockwise. Make sure that the preload increases and that a higher number shows on the housing.", cite: {p: 282}}
+      - {t: "Examine the damper rod at the seal for leaks. The damper rod must be smooth and shiny.", cite: {p: 282}, figs: [9]}
+      - {t: "Examine the spring for cracks.", cite: {p: 282}}
+      - {t: "Remove the cover from the rebound damper adjuster and clean the dirt from the adjuster cavity.", cite: {p: 282}}
+      - {t: "Turn the rebound damper adjuster. Make sure that it operates correctly and that each setting has a click.", cite: {p: 282}, figs: [11]}
+      - {t: "Turn the adjuster to the right only, in the direction of the arrow on the adjuster.", cite: {p: 282}}
+      - {t: "Install the adjuster cover so that the arrow on the cover points up.", cite: {p: 282}}
+      - {t: "Examine the lower clevis and the mounting bolt for wear or damage. The bolt must be a firm fit in the bore.", cite: {p: 282}}

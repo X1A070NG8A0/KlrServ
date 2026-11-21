@@ -1,0 +1,31 @@
+title: "External gearshift linkage inspection"
+system: "Clutch, gearshift linkage and lubrication system"
+source: clymer
+chapter: 6
+section: "06/external-gearshift-linkage"
+summary: {t: "This procedure shows how to examine the shift shaft assembly, the shift cam, the lever and the return spring post. Replace parts that are worn, damaged or fatigued.", cite: {p: 159}}
+parts:
+  - {name: "Shift shaft return spring", replace: inspect, cite: {p: 160}}
+  - {name: "Shift shaft pawl and band spring", replace: inspect, cite: {p: 160}}
+  - {name: "Shift cam lever and bolt", replace: inspect, cite: {p: 160}, note: "If one is loose, replace both."}
+sections:
+  - steps:
+      - {t: "Clean the parts in solvent.", cite: {p: 159}}
+      - {t: "Examine the return spring of the shift shaft assembly for fatigue or damage.", cite: {p: 160}, figs: [48]}
+      - {t: "Examine the tips of the pawl for wear.", cite: {p: 160}}
+      - {t: "Make sure that the pawl slides freely and returns to the extended position.", cite: {p: 160}}
+      - {t: "If the pawl jams or drags, remove the band spring and the pawl from the shift shaft. Then find which parts have damage.", cite: {p: 160}, figs: [49]}
+      - {t: "When you install the band spring, engage the narrow end with the pawl.", cite: {p: 160}}
+      - {t: "Examine the splines on the shaft and in the shift lever.", cite: {p: 160}}
+      - {t: "Examine the pawl engagement points on the shift cam for wear.", cite: {p: 160}, figs: [50]}
+      - {t: "Examine the lever engagement points on the shift cam for wear in the high areas and the low areas.", cite: {p: 160}}
+      - {t: "Make sure that the neutral detent is not worn away and that the lever roller can rest in it.", cite: {p: 160}}
+      - {t: "Examine the shift cam bolt, the pin and the pin bore. The pin and the bore must not be worn.", cite: {p: 160}, figs: [51]}
+      - {kind: note, t: "It is normal that the pin bore is elongated.", cite: {p: 160}}
+      - {t: "Make sure that the pin fits in the shift drum with minimal perceptible play.", cite: {p: 160}}
+      - {t: "Examine the threads of the bolt for condition and cleanliness. Remove all threadlocking compound before you tighten the bolt.", cite: {p: 160}}
+      - {t: "Examine the lever, the bolt and the spring.", cite: {p: 160}, figs: [52]}
+      - {t: "Make sure that the lever roller is round, turns freely and has no play in its pivot.", cite: {p: 160}}
+      - {t: "Make sure that the shoulder on the bolt fits in the lever with minimal play or no play. If one part is loose, replace both parts.", cite: {p: 160}}
+      - {t: "Examine the ends of the spring for wear.", cite: {p: 160}}
+      - {t: "Examine the return spring post for wear and tightness.", cite: {p: 160}, figs: [46]}

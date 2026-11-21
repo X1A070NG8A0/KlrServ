@@ -1,0 +1,68 @@
+title: "Chapter 8: Fuel System"
+pages:
+  - id: carburetor
+    title: "Carburetor"
+    kind: Section
+    pdf_pages: [183, 189]
+    summary:
+      - {t: "The Keihin CVK40 is a vacuum-controlled carburetor. It has a throttle valve and a diaphragm-operated slide.", cite: {p: 183}}
+      - {t: "The throttle valve is on the output side of the carburetor and connects to the throttle cables. The slide moves a jet needle to control the fuel flow.", cite: {p: 183}}
+      - {t: "Low air pressure under the slide goes to the upper diaphragm chamber. The pressure difference lifts the slide and the jet needle.", cite: {p: 183}}
+    ops: [c08-carburetor-removal, c08-carburetor-disassembly]
+  - id: carburetor-cleaning-and-inspection
+    title: "Carburetor cleaning and inspection"
+    kind: Section
+    pdf_pages: [189, 192]
+    summary:
+      - {t: "Clean the parts with a carburetor cleaner. Always replace worn or damaged parts.", cite: {p: 189}}
+      - {t: "Replace all O-rings and gaskets when you rebuild the carburetor.", cite: {p: 189}}
+    ops: [c08-carburetor-cleaning-and-inspection]
+  - id: float-adjustment
+    title: "Float adjustment"
+    kind: Section
+    pdf_pages: [192, 193]
+    summary:
+      - {t: "The float and the float valve keep the fuel level in the float bowl constant. A low fuel level makes the engine run as if the jetting is too lean. A high fuel level makes the engine run as if the jetting is too rich.", cite: {p: 192}}
+    ops: [c08-float-adjustment]
+  - id: carburetor-systems
+    title: "Carburetor systems"
+    kind: Section
+    pdf_pages: [193, 195]
+    summary:
+      - {t: "The pilot, needle and main jet systems have operating ranges that overlap during the change from closed to fully open throttle. Altitude, temperature and engine load affect carburetor performance.", cite: {p: 193}}
+      - {t: "Before you change the carburetor, make sure that the throttle cables, the air filter, the fuel flow, the ignition timing, the choke, the muffler and the brakes are correct.", cite: {p: 193}}
+      - {t: "The pilot system controls the air/fuel ratio from closed throttle to about 1/4 throttle. The jet needle system controls the mixture from about 1/4 to 3/4 throttle. The main jet system controls the mixture from about 3/4 to full throttle.", cite: {p: 193}}
+      - {t: "A larger main jet number makes the mixture richer. A smaller number makes it leaner. For high altitudes, the pilot jet and the main jet are interchangeable with jets that give a leaner mixture.", cite: {p: 193}}
+      - {t: "The choke system has a plunger assembly and a starter jet. It is most effective if the throttle stays closed during startup.", cite: {p: 194}}
+      - {t: "The air cutoff valve makes the pilot system mixture richer during compression braking, when the engine speed is high and the throttle is closed. Without it, the pilot system mixture is lean, which can cause backfiring and engine damage.", cite: {p: 194}}
+    ops: []
+  - id: fuel-valve
+    title: "Fuel valve"
+    kind: Section
+    pdf_pages: [195, 197]
+    summary:
+      - {t: "The fuel valve has a lever and a diaphragm valve. The lever controls the off, on and reserve positions. The diaphragm valve controls the fuel flow out of the fuel valve.", cite: {p: 195}}
+      - {t: "Vacuum from the carburetor throat opens the diaphragm valve when the engine is cranked or runs. A hose connects the valve to a fitting on the carburetor. The valve and the hose must be clean and tight.", cite: {p: 195}}
+    ops: [c08-fuel-valve]
+  - id: evaporative-emissions-control-system-california-models-only
+    title: "Evaporative emissions control system (California models only)"
+    kind: Section
+    pdf_pages: [197, 198]
+    summary:
+      - {t: "The evaporative emissions control system does not need adjustment. Examine the hoses and the connections at the intervals in Chapter Three.", cite: {p: 197}, op: evap-system}
+      - {t: "If the system can cause poor running or has obvious damage, ask a Kawasaki dealer to inspect and test the separator and the canister. A figure shows the parts and the hose routing.", cite: {p: 197}}
+    ops: []
+  - id: throttle-cable-replacement
+    title: "Throttle cable replacement"
+    kind: Section
+    pdf_pages: [199, 200]
+    summary:
+      - {t: "The throttle uses two cables. One cable pulls the throttle open and the other pulls it closed.", cite: {p: 199}}
+    ops: [c08-throttle-cable-replacement]
+  - id: air-filter-housing
+    title: "Air filter housing"
+    kind: Section
+    pdf_pages: [200, 200]
+    summary:
+      - {t: "The air filter housing is attached to the subframe. You do not have to remove it to service the air filter.", cite: {p: 200}}
+    ops: [c08-air-filter-housing]
