@@ -1,9 +1,6 @@
 *
+
 !*/
-/.venv/
-/dist/
-/doc/pages/
-/node_modules/
 !/,github/workflows/pages.yml
 !/.gitignore
 !/README.md
@@ -28,3 +25,9 @@
 !/template/**/*.ts
 !/template/**/*.tsx
 !/tsconfig.json
+
+/.venv/
+/dist/
+/doc/pages/
+/node_modules/
+AUTHORING.md
