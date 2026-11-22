@@ -1,7 +1,7 @@
 *
 
 !*/
-!/,github/workflows/pages.yml
+!/.github/workflows/*.yml
 !/.gitignore
 !/README.md
 !/build.ts
@@ -26,9 +26,4 @@
 !/template/**/*.tsx
 !/tsconfig.json
 
-/.venv/
-/dist/
-/doc/pages/
 /node_modules/
-/.claude/
-AUTHORING.md
