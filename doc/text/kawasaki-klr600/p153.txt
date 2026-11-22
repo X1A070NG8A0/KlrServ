@@ -1,9 +1,0 @@
-A. Clutch Switch C. Engine Stop Switch A. Diode
-B. Ignition Switch
-
-A. Engine Stop Switch 4-pin Connector A. Side Stand Switch Connector
-B. Ignition Switch 6-pin Connector
-C. Clutch Switch 2-pin Connector
-
-A. Magneto Connector A. Neutral Switch B. Side Stand Switch
-B. Neutral Switch Connector and Pickup Coil Connector

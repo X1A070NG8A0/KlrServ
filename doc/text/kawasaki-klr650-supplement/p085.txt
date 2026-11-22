@@ -1,9 +1,0 @@
-A : Adhesive G : Grease
-
-T1 : 25 N-m (2.5 kg-m, 18.0 ft-lb)
-
-
-
------
-
-FRAME 13-3
