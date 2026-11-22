@@ -30,4 +30,5 @@
 /dist/
 /doc/pages/
 /node_modules/
+/.claude
 AUTHORING.md
